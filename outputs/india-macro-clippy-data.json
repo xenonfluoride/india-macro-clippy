@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T11:10:03.312611+00:00",
-  "cutoff": "2026-09-15T11:10:03.312611+00:00",
+  "generated_at": "2026-09-17T11:11:17.124578+00:00",
+  "cutoff": "2026-09-15T11:11:17.124578+00:00",
   "hours": 48,
-  "mode": "cached-rss",
+  "mode": "live-rss",
   "feeds": [
     {
       "source": "Bloomberg · Ruchi Bhatia",
@@ -64,7 +64,7 @@
       "source": "Mint Technology",
       "section": "tech",
       "url": "https://www.livemint.com/rss/technology",
-      "items_parsed": 0,
+      "items_parsed": 35,
       "error": null
     },
     {
@@ -136,6 +136,14 @@
       "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63609",
       "published_at": "2026-09-17T11:50:00+00:00",
       "summary": "Government of India has announced the sale (re-issue) of Government Securities, as detailed below, through auction to be held on September 18, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (₹ crore) Security Notified Amount MUC amount per PD Minimum bidding commitment per PD under ACU auction 7.06% GS 2041 17,000 405 405 7.43% GS 2076 11,000 262 262 The underwriting auction will be conducted through multiple price-based method on September 18, 2026 (Friday). PDs may submit their bids for ACU auction electronically through Reserve Bank of India’s Core Banking Solution (e-Kuber system) between 09:00 A.M. and 09:30 A.M. on the day of underwriting auction. The underwriting commission will be credited to the current account of the respective PDs with RBI on the day of issue of securities. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1131"
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "N Chandrasekaran reverses exit decision, secures another 5-year term as Tata Sons Chairman",
+      "link": "https://yourstory.com/2026/09/n-chandrasekaran-reverses-exit-decision-secures-another-5-year-term-tata-sons-chairman",
+      "published_at": "2026-09-17T10:57:03+00:00",
+      "summary": "Tata Sons’ board approved his reappointment as Executive Chairman by a majority vote after Chandrasekaran agreed to reconsider his earlier decision not to seek another term."
     },
     {
       "source": "Mint Markets",
@@ -264,6 +272,14 @@
       "link": "https://www.medianama.com/2026/09/223-prasar-bharati-ai-avatars-mandatory-labeling/",
       "published_at": "2026-09-17T09:14:07+00:00",
       "summary": "Prasar Bharati seeks industry feedback on AI avatars, synthetic presenters and AI content creation, with strict rules on deepfakes, consent, labelling, provenance and data handling. The post Prasar Bharati seeks feedback on AI avatars & content creation; suggests mandatory labeling appeared first on MEDIANAMA ."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "BGMI 4.6 update: India’s first original character Kiaraa launch date, story, boss fight and rewards",
+      "link": "https://www.livemint.com/technology/bgmi-4-6-update-india-s-first-original-character-kiaraa-launch-date-story-boss-fight-and-rewards-11789635482987.html",
+      "published_at": "2026-09-17T09:07:40+00:00",
+      "summary": "KRAFTON India is bringing Kiaraa, its first original BGMI character created by its in-house art team, with the 4.6 update. The BGMI 4.6 update arrives on September 16, while Kiaraa will become available from October 8, 2026."
     },
     {
       "source": "RBI",
@@ -482,12 +498,36 @@
       "summary": "The US chip equipment major is planning a 140-acre advanced research park, a 10X expansion of its India supply-chain capacity, and a doubling of its R&D workforce by 2035."
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Hyderabad leads emergence of India’s new data centre hubs",
+      "link": "https://www.livemint.com/technology/india-data-centre-capacity-hyderabad-dholera-ai-google-adani-11789615527566.html",
+      "published_at": "2026-09-17T06:02:10+00:00",
+      "summary": "By end-2030, Hyderabad and other emerging hubs are expected to see a six-fold rise in data centre capacity to 1.1 gigawatts (GW), implying an annualized growth of 58%."
+    },
+    {
       "source": "Mint Markets",
       "section": "macro",
       "title": "NSE IPO buzz lifts New India Assurance, IFCI up to 9% | What do technical experts say?",
       "link": "https://www.livemint.com/market/stock-market-news/nse-ipo-buzz-lifts-new-india-assurance-ifci-up-to-9-what-do-technical-experts-say-11789623090580.html",
       "published_at": "2026-09-17T05:59:02+00:00",
       "summary": "New India Assurance's shares rose 9.4% and IFCI's by 7.8% amid the NSE IPO. Both stocks experienced volatility, influenced by market developments. Technical analysts suggest potential support and resistance levels, indicating ongoing fluctuations in their trends."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Semicon India 2026: PM Modi says India taking steps to become preferred Semiconductor manufacturing",
+      "link": "https://www.livemint.com/technology/semicon-india-2026-pm-modi-inaugurates-semiconductor-event-in-delhi-600-exhibitors-to-showcase-latest-tech-11789624007357.html",
+      "published_at": "2026-09-17T05:57:38+00:00",
+      "summary": "PM Modi inaugurated SEMICON India 2026 at Yashobhoomi in New Delhi on September 17, bringing together over 600 exhibitors and 300 international companies. The three-day event focuses on India’s semiconductor manufacturing, chip design, investment, innovation and talent development."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Samsung launches new AI fridge in India that recommends recipes; check Bespoke AI lineup and prices",
+      "link": "https://www.livemint.com/technology/samsung-launches-new-ai-fridge-in-india-that-recommends-recipes-check-bespoke-ai-lineup-and-prices-11789621850749.html",
+      "published_at": "2026-09-17T05:56:37+00:00",
+      "summary": "Samsung India unveiled its 2026 Bespoke AI lineup led by a Family Hub Refrigerator with Google Gemini AI Vision that suggests recipes and tracks food freshness. New WindFree Pro and Infinite Cassette ACs offer AI energy savings up to 30%, PM1.0 purification and SmartThings control."
     },
     {
       "source": "Mint Markets",
@@ -618,6 +658,14 @@
       "summary": "ESDS Software Solutions share price opened at ₹1,646.85 today, as compared to previous close of ₹1,733.50 on Wednesday."
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Samsung One UI 9 rollout begins: Galaxy S26 series gets Android 17 update with new AI features",
+      "link": "https://www.livemint.com/technology/samsung-one-ui-9-rollout-begins-galaxy-s26-series-gets-android-17-update-with-new-ai-features-11789617299321.html",
+      "published_at": "2026-09-17T04:12:44+00:00",
+      "summary": "Samsung has started the stable One UI 9 rollout, based on Android 17, for the Galaxy S26, S26+ and S26 Ultra. The update introduces new Galaxy AI features, including My FanCam, Now Nudge, Creative Studio and an upgraded Interpreter."
+    },
+    {
       "source": "YourStory",
       "section": "tech",
       "title": "PM Modi's 76th birthday: 17 moves powering India's journey from Startup India to Build India",
@@ -650,12 +698,60 @@
       "summary": "The Clean Label Credibility Test India’s clean-label boom is facing its toughest test yet. FSSAI’s recent crackdown on health and…"
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Semicon India 2026: PM Modi to inaugurate 3-day semiconductor event today - All you need to know",
+      "link": "https://www.livemint.com/technology/tech-news/semicon-india-2026-pm-modi-to-inaugurate-3-day-semiconductor-event-today-all-you-need-to-know-ai-11789610428664.html",
+      "published_at": "2026-09-17T02:17:20+00:00",
+      "summary": "The conference and exhibition brings together global and Indian companies, policymakers, investors, researchers, start-ups, academic institutions and students from across the semiconductor and electronics value chain, an official statement said."
+    },
+    {
       "source": "YourStory",
       "section": "tech",
       "title": "MDR on UPI: The small fee that’s causing a big debate",
       "link": "https://yourstory.com/2026/09/mdr-on-upi-the-small-fee-causing-a-big-debate",
       "published_at": "2026-09-17T02:00:00+00:00",
       "summary": "Merchant discount rate (MDR) on UPI has sparked debate over how UPI can remain affordable for merchants while creating a revenue stream for the banks and payment companies that keep the network running."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "'Will have disastrous impact on humanity': MicrosoftAI CEO flags Anthropics AI development model, says it will make alignment difficult",
+      "link": "https://www.livemint.com/technology/will-have-disastrous-impact-on-humanity-microsoftai-ceo-flags-anthropics-ai-development-model-says-it-will-make-alignment-difficult-11789609082750.html",
+      "published_at": "2026-09-17T01:38:02+00:00",
+      "summary": "Suleyman says he has great respect for Anthropic CEO Dario Amodei and his team but warns against walking down this line of AI development."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain",
+      "link": "https://www.livemint.com/technology/openai-to-regularly-disclose-ai-misbehavior-warns-safety-challenges-remain-11789605837392.html",
+      "published_at": "2026-09-17T00:43:56+00:00",
+      "summary": "AI-SAFETY-OPENAI:OpenAI to regularly disclose AI misbehavior, warns safety challenges remain"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Festive smartphone sales face steepest decline in decade in wake of memory chip crisis",
+      "link": "https://www.livemint.com/technology/tech-news/smartphone-sales-in-india-festive-season-apple-iphonsamsung-11789555996640.html",
+      "published_at": "2026-09-17T00:25:32+00:00",
+      "summary": "The global memory chip crisis has led to constricted smartphone supplies and higher prices that have forced many buyers to either delay purchases or consider refurbished devices."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Divisions emerge in the tech industry over calls for a coordinated AI slowdown",
+      "link": "https://www.livemint.com/technology/divisions-emerge-in-the-tech-industry-over-calls-for-a-coordinated-ai-slowdown-11789593971026.html",
+      "published_at": "2026-09-16T21:26:10+00:00",
+      "summary": "Divisions emerge in the tech industry over calls for a coordinated AI slowdown"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "UN chief urges global AI cooperation saying world cant afford a race to the bottom on AI safety",
+      "link": "https://www.livemint.com/technology/un-chief-urges-global-ai-cooperation-saying-world-cant-afford-a-race-to-the-bottom-on-ai-safety-11789591337273.html",
+      "published_at": "2026-09-16T20:42:16+00:00",
+      "summary": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'"
     },
     {
       "source": "RBI",
@@ -674,6 +770,22 @@
       "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, September 17, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 3,00,000 1 09:30 AM to 10:00 AM September 18, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1127"
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Do AI companies have to disclose dangerous incidents?",
+      "link": "https://www.livemint.com/technology/do-ai-companies-have-to-disclose-dangerous-incidents-11789585213129.html",
+      "published_at": "2026-09-16T19:00:12+00:00",
+      "summary": "AI-DISCLOSURE/ (EXPLAINER, PIX):EXPLAINER-Do AI companies have to disclose dangerous incidents?"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Trump adviser Sacks says AI fears driven by fear-mongering playbook",
+      "link": "https://www.livemint.com/technology/trump-adviser-sacks-says-ai-fears-driven-by-fear-mongering-playbook-11789584357682.html",
+      "published_at": "2026-09-16T18:45:57+00:00",
+      "summary": "AI-REGULATION/SACKS:Trump adviser Sacks says AI fears driven by 'fear-mongering playbook'"
+    },
+    {
       "source": "RBI",
       "section": "macro",
       "title": "Premature redemption under Sovereign Gold Bond (SGB) Scheme - Redemption Price for premature redemption of SGB 2019-20 Series IV due on September 17, 2026",
@@ -688,6 +800,14 @@
       "link": "https://yourstory.com/2026/09/why-good-grammar-can-look-ai-written",
       "published_at": "2026-09-16T16:56:38+00:00",
       "summary": "As AI tools become common, polished grammar and clear writing are increasingly being mistaken for machine-generated content."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Apple explores AI server comeback, considers Nvidia's NVLink technology",
+      "link": "https://www.livemint.com/technology/apple-explores-ai-server-comeback-considers-nvidias-nvlink-technology-11789575438493.html",
+      "published_at": "2026-09-16T16:54:45+00:00",
+      "summary": "The company is developing an artificial intelligence server that could use either two or four M8 Ultra chips, which are expected to be Apple's most powerful processors."
     },
     {
       "source": "YourStory",
@@ -770,6 +890,22 @@
       "summary": "What is MDR? What impact does it have on merchants? Who bears the cost? Should you be worried as a customer? All FAQs answered."
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Salesforce outage: Is the service back? Company shares update; 'we're working on...'",
+      "link": "https://www.livemint.com/technology/salesforce-outage-is-the-service-back-company-shares-update-were-working-on-11789560644083.html",
+      "published_at": "2026-09-16T12:28:45+00:00",
+      "summary": "The disruption has been reported across several countries, including India, the US, Japan, the UK, France and Germany."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Meta's new ‘Luna’ smart glasses ditch cameras amid privacy backlash: What you need to know",
+      "link": "https://www.livemint.com/technology/metas-new-luna-smart-glasses-ditch-cameras-amid-privacy-backlash-what-you-need-to-know-11789559139513.html",
+      "published_at": "2026-09-16T12:01:16+00:00",
+      "summary": "Mark Zuckerberg-led Meta Platforms released its latest smart glasses as its Meta Ray-Ban Display continues to face privacy concerns."
+    },
+    {
       "source": "Inc42",
       "section": "tech",
       "title": "Finvolve Announces First Close Of Growth Stage Fund At ₹90 Cr",
@@ -802,20 +938,20 @@
       "summary": "India’s chip build-out continues in full swing. The Centre has so far approved semiconductor projects worth ₹1.6 Lakh Cr to…"
     },
     {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Startup news and updates: Daily roundup (September 16, 2026)",
-      "link": "https://yourstory.com/2026/09/startup-news-and-updates-daily-roundup-september-16-2026",
-      "published_at": "2026-09-16T10:15:47+00:00",
-      "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Tuesday, September 16, 2026."
-    },
-    {
       "source": "Inc42",
       "section": "tech",
       "title": "D2CX Converge Pune Decodes The Playbook For Building ₹100 Cr Consumer Brands",
       "link": "https://inc42.com/buzz/d2cx-converge-pune-decodes-the-playbook-for-building-%e2%82%b9100-cr-consumer-brands/",
       "published_at": "2026-09-16T09:30:36+00:00",
       "summary": "India’s consumer brand ecosystem is entering a more demanding phase. As brands move beyond achieving product-market fit, founders are having…"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Sony unveils new Pulse and Pulse Edge wireless headsets for PS5: Features, launch timeline and more",
+      "link": "https://www.livemint.com/technology/sony-unveils-new-pulse-and-pulse-edge-wireless-headsets-for-ps5-features-launch-timeline-and-more-11789549426674.html",
+      "published_at": "2026-09-16T09:30:08+00:00",
+      "summary": "Sony has unveiled its new PS5 audio lineup with the PlayStation Pulse Wireless Headset and the premium Pulse Edge Wireless Headset. Both models feature planar magnetic drivers, PlayStation Link connectivity, AI-enhanced noise rejection and simultaneous Bluetooth support for gaming and entertainment."
     },
     {
       "source": "Bloomberg · Ruchi Bhatia",
@@ -840,6 +976,14 @@
       "link": "https://inc42.com/buzz/zerodha-indmoney-flag-upi-mdr-impact-on-brokers-kamath-seeks-%e2%82%b95-10-cap/",
       "published_at": "2026-09-16T08:11:30+00:00",
       "summary": "Investment platforms Zerodha and INDmoney have flagged the cost impact of the new merchant discount rate (MDR) on UPI transactions,…"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Meta One subscription launched: Instagram, WhatsApp, Facebook plans, features and prices explained",
+      "link": "https://www.livemint.com/technology/apps/meta-one-subscription-launched-instagram-whatsapp-facebook-plans-features-and-prices-explained-11789539935659.html",
+      "published_at": "2026-09-16T07:00:57+00:00",
+      "summary": "Meta has announced the Meta One subscription service, featuring premium features and expanded AI access across Instagram, Facebook, WhatsApp, and Meta AI."
     },
     {
       "source": "Inc42",
@@ -874,6 +1018,14 @@
       "summary": "Beauty quick commerce startup Firi has raised $3 Mn (about ₹28.8 Cr) in a seed funding round led by 360…"
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Google CEO Sundar Pichai outlines tech giant’s AI efforts across health, weather and learning",
+      "link": "https://www.livemint.com/technology/google-ceo-sundar-pichai-outlines-tech-giant-s-ai-efforts-across-health-weather-and-learning-11789530130366.html",
+      "published_at": "2026-09-16T03:42:09+00:00",
+      "summary": "Amid the ongoing debate over slowing the pace of artificial intelligence development, Google CEO Sundar Pichai has highlighted the tech giant’s AI efforts across health, wealth and education, arguing that advances in the technology can accelerate scientific research and deliver tangible benefits for people."
+    },
+    {
       "source": "Bloomberg · Anup Roy",
       "section": "macro",
       "title": "India at Inflection Point, Needs Growth Rethink, Adviser Says",
@@ -882,12 +1034,60 @@
       "summary": ""
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Jio users get Canva Pro free for 12 months: Eligible plans, features and how to claim",
+      "link": "https://www.livemint.com/technology/apps/jio-users-get-canva-pro-free-for-12-months-eligible-plans-features-and-how-to-claim-11789528111492.html",
+      "published_at": "2026-09-16T03:32:58+00:00",
+      "summary": "Jio has partnered with Canva to offer eligible users up to 12 months of Canva Pro or Canva Pro Lite at no extra cost. Users on the ₹399 plan can get Canva Pro, while eligible ₹349 and select 2GB/day plans can get Canva Pro Lite."
+    },
+    {
       "source": "Inc42",
       "section": "tech",
       "title": "The End Of Free UPI, Fibe IPO Gets SEBI Nod & More",
       "link": "https://inc42.com/buzz/the-end-of-free-upi-fibe-ipo-gets-sebi-nod-more/",
       "published_at": "2026-09-16T02:30:24+00:00",
       "summary": "UPI Gets MDR Makeover After a decade of free UPI payments, NPCI will now impose an MDR for select high-value…"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "'Pace yourself until youre confident': Jensen Huang, Sam Altman, Dario Amodei bat for AI safety and transparency",
+      "link": "https://www.livemint.com/technology/pace-yourself-until-youre-confident-jensen-huang-sam-altman-dario-amodei-bat-for-ai-safety-and-transparency-11789519437678.html",
+      "published_at": "2026-09-16T00:43:57+00:00",
+      "summary": "Huang said that speed of development and safety of the products could go hand-in-hand and companies should pace themselves till they are confident."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "'Key to building positive future is maintaining balance of power': Mark Zuckerberg calls for responsible AI development",
+      "link": "https://www.livemint.com/technology/key-to-building-positive-future-is-maintaining-balance-of-power-mark-zuckerberg-calls-for-responsible-ai-development-11789518094398.html",
+      "published_at": "2026-09-16T00:21:33+00:00",
+      "summary": "In a post on X, Zuckerberg referenced a blog post written by himself last month and said that labs have a responsibility to train their models safely."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "AI is not a monopoly of great powers, Chinas top newspaper says",
+      "link": "https://www.livemint.com/technology/ai-is-not-a-monopoly-of-great-powers-chinas-top-newspaper-says-11789515727064.html",
+      "published_at": "2026-09-15T23:42:06+00:00",
+      "summary": "CHINA-AI/:AI is not a 'monopoly of great powers', China's top newspaper says"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "The AI gold rush has a dress code: steel-toe boots",
+      "link": "https://www.livemint.com/technology/the-ai-gold-rush-has-a-dress-code-steel-toe-boots-11789515358502.html",
+      "published_at": "2026-09-15T23:35:57+00:00",
+      "summary": "USA-AI/BOOTS (PIX):The AI gold rush has a dress code: steel-toe boots"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "UK workers spend nearly £1 billion of their own money on AI for work, Deloitte finds",
+      "link": "https://www.livemint.com/technology/uk-workers-spend-nearly-1-billion-of-their-own-money-on-ai-for-work-deloitte-finds-11789513363155.html",
+      "published_at": "2026-09-15T23:02:42+00:00",
+      "summary": "AI-BRITAIN/DELOITTE-WORK (PIX):UK workers spend nearly £1 billion of their own money on AI for work, Deloitte finds"
     },
     {
       "source": "Inc42",
@@ -906,12 +1106,28 @@
       "summary": "The Central Consumer Protection Authority (CCPA) has reportedly intensified its scrutiny of big tech giant Apple’s software warranty terms. This…"
     },
     {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "iOS 27 is now live in India: What’s new with Siri AI, Camera, Photos, Safari, parental controls and more",
+      "link": "https://www.livemint.com/technology/ios-27-is-now-live-in-india-what-s-new-with-siri-ai-camera-photos-safari-parental-controls-and-more-11789484627182.html",
+      "published_at": "2026-09-15T15:39:51+00:00",
+      "summary": "The biggest change is Siri AI, which can hold longer conversations, understand what is on the screen and search personal content such as emails, messages and photos for answers."
+    },
+    {
       "source": "Inc42",
       "section": "tech",
       "title": "AI Startups To Watch: 5 Startups That Caught Our Eye In September",
       "link": "https://inc42.com/startups/ai-startups-to-watch-5-startups-that-caught-our-eye-in-september/",
       "published_at": "2026-09-15T15:39:03+00:00",
       "summary": "India’s AI story is moving beyond models, and the next quest is about how AI is being deployed, integrated into…"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Samsung Galaxy Tab S12 series launch date tipped for October 7: Expected specs and features",
+      "link": "https://www.livemint.com/technology/samsung-galaxy-tab-s12-series-launch-date-tipped-for-october-7-expected-specs-and-features-11789468945037.html",
+      "published_at": "2026-09-15T11:31:17+00:00",
+      "summary": "Samsung Galaxy Tab S12 series is reportedly set to launch on October 7. The lineup is expected to include the Galaxy Tab S12, Galaxy Tab S12+ and Galaxy Tab S12 Ultra."
     }
   ],
   "selected": {
