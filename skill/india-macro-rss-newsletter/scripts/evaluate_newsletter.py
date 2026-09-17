@@ -13,7 +13,7 @@ from pathlib import Path
 
 
 LOW_SIGNAL = (
-    "stock to buy", "share price", "dividend", "gadget review", "smartphone review",
+    "stock to buy", "share price", "dividend", "gadget review", "smartphone review", "open market operation", "omo sale", "stock market prediction", "underwriting auction", "government securities",
     "expected specs", "auction result", "vrrr", "money market operations",
 )
 
@@ -88,6 +88,7 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
 
     for item in selected:
         first_clause = re.split(r"\s+[|—–]\s+", item["title"], maxsplit=1)[0]
+        first_clause = re.sub(r":\s*(?:Is|What|How|Why|Check|Everything)\b.*$", "", first_clause, flags=re.IGNORECASE)
         if text(first_clause) not in text(document):
             report("WARN", f"Selected title does not appear in HTML: {first_clause}", findings)
 

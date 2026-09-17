@@ -186,7 +186,7 @@ SOURCE_WEIGHT = {
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:",
 )
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
@@ -218,6 +218,8 @@ def has_any(text: str, phrases: Iterable[str]) -> bool:
 def quality_score(item: FeedItem, now: datetime) -> int | None:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
+        if item.source == "RBI" and has_any(text, ("auction", "government securities", "certificate of registration", "redemption", "money market operations")):
+            return None
         if has_any(text, ROUTINE_MACRO) or not has_any(text, MACRO_SIGNALS):
             return None
     if item.section == "tech":
@@ -261,6 +263,7 @@ def display_title(value: str) -> str:
     """Drop publisher-style tails without rewriting the reporter's headline."""
     value = re.split(r"\s+[|—–]\s+", value, maxsplit=1)[0].strip()
     value = re.sub(r"\s*:\s*Check (?:stock )?performance$", "", value, flags=re.IGNORECASE)
+    value = re.sub(r":\s*(?:Is|What|How|Why|Check|Everything)\b.*$", "", value, flags=re.IGNORECASE)
     return value
 
 

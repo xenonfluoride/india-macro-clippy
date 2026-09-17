@@ -27,9 +27,19 @@ class QualityGateTests(unittest.TestCase):
     def test_rejects_routine_and_consumer_items(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         routine = item("RBI", "macro", "Result of the VRRR auction")
+        omo = item("RBI", "macro", "Open Market Operation OMO sale")
+        prediction = item("Mint Markets", "macro", "Stock Market prediction tomorrow")
+        registry = item("RBI", "macro", "NBFCs surrender their Certificate of Registration")
+        omo_detail = item("RBI", "macro", "Detailed Result: OMO Sale Auction")
+        underwriting = item("RBI", "macro", "Underwriting Auction for sale of Government Securities")
         irrelevant = item("Indian Express Economy", "macro", "Agency wins global public relations award", "Industry recognition announcement")
         review = item("Indian Express Technology", "tech", "Oppo Find X9 Ultra review", "India smartphone review")
         self.assertIsNone(builder.quality_score(routine, now))
+        self.assertIsNone(builder.quality_score(omo, now))
+        self.assertIsNone(builder.quality_score(prediction, now))
+        self.assertIsNone(builder.quality_score(registry, now))
+        self.assertIsNone(builder.quality_score(omo_detail, now))
+        self.assertIsNone(builder.quality_score(underwriting, now))
         self.assertIsNone(builder.quality_score(irrelevant, now))
         self.assertIsNone(builder.quality_score(review, now))
 
@@ -51,6 +61,7 @@ class QualityGateTests(unittest.TestCase):
     def test_strips_publisher_style_headline_tails(self):
         title = "Sensex rises after Fed decision — Experts explain the move"
         self.assertEqual(builder.display_title(title), "Sensex rises after Fed decision")
+        self.assertEqual(builder.display_title("US Federal Reserve raises rates: Is RBI next?"), "US Federal Reserve raises rates")
 
     def test_payment_story_context_is_specific_to_the_event(self):
         share = item("Inc42", "tech", "Navi's UPI market share rises", "India transaction volumes rise")

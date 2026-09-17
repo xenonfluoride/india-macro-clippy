@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T11:02:36.434169+00:00",
-  "cutoff": "2026-09-15T11:02:36.434169+00:00",
+  "generated_at": "2026-09-17T11:10:03.312611+00:00",
+  "cutoff": "2026-09-15T11:10:03.312611+00:00",
   "hours": 48,
-  "mode": "live-rss",
+  "mode": "cached-rss",
   "feeds": [
     {
       "source": "Bloomberg · Ruchi Bhatia",
@@ -917,20 +917,12 @@
   "selected": {
     "macro": [
       {
-        "source": "RBI",
-        "section": "macro",
-        "title": "Open Market Operation (OMO) – Sale of Government of India Securities held on Sep 17, 2026: Cut-Offs",
-        "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63612",
-        "published_at": "2026-09-17T14:25:00+00:00",
-        "summary": "Security 7.59% GS 2029 6.79% GS 2029 7.61% GS 2030 5.77% GS 2030 6.68% GS 2031 8.28% GS 2032 Total amount notified Aggregate amount of ₹50,000 crore (No security-wise notified amount) Total amount (Face Value) accepted by RBI (₹ in crore) 7,005 7,255 1,005 12,645 3,250 18,840 Cut off yield (%) 6.6007 6.7023 6.8191 6.8589 6.9080 7.0090 Cut off price (₹) 102.25 100.24 102.50 96.34 99.05 105.63 Detailed results will be issued shortly. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1134"
-      },
-      {
         "source": "Mint Markets",
         "section": "macro",
-        "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Fri | Kospi, Taiwan Index, Nikkei cues to watch | 18 Sept",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-tomorrow-sensex-nifty-outlook-for-fri-kospi-taiwan-index-nikkei-cues-to-watch-18-sept-11789637497727.html",
-        "published_at": "2026-09-17T10:10:10+00:00",
-        "summary": "The Indian stock market saw modest gains despite the US Federal Reserve's rate hike, with the Nifty 50 closing up 0.23%. However, concerns arose over potential selling by overseas investors, and both key indices remained below Tuesday's highs, marking a potential sixth week of losses."
+        "title": "US Federal Reserve raises rates after 3 years: Is RBI rate hike coming? October MPC meet in focus",
+        "link": "https://www.livemint.com/market/stock-market-news/us-federal-reserve-raises-rates-after-3-years-is-rbi-rate-hike-coming-october-rbi-mpc-meet-in-focus-11789628735095.html",
+        "published_at": "2026-09-17T09:32:06+00:00",
+        "summary": "The US Federal Reserve's recent interest rate hike complicates the Reserve Bank of India's future decisions. While some analysts predict rate increases in October and December, others anticipate the RBI will maintain its current stance amid inflation and currency pressures."
       },
       {
         "source": "Bloomberg · Anup Roy",
@@ -938,6 +930,14 @@
         "title": "India Outsourcing Shifts Upmarket as AI Reshapes Jobs, ING Says",
         "link": "https://www.bloomberg.com/news/articles/2026-09-17/india-outsourcing-shifts-upmarket-as-ai-reshapes-jobs-ing-says",
         "published_at": "2026-09-17T06:59:35+00:00",
+        "summary": ""
+      },
+      {
+        "source": "Bloomberg · Ruchi Bhatia",
+        "section": "macro",
+        "title": "Tata Sons IPO Order Backs Reclusive Tycoon’s Long-Running Ask",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-16/tata-sons-ipo-order-backs-reclusive-tycoon-s-long-running-ask",
+        "published_at": "2026-09-16T09:20:58+00:00",
         "summary": ""
       }
     ],
