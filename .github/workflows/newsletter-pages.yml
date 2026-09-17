@@ -1,0 +1,80 @@
+name: Build and publish India Macro Clippy
+
+on:
+  schedule:
+    - cron: "30 7 * * 1-5"
+      timezone: "Asia/Kolkata"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: india-macro-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the newsletter
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Run builder and quality gates
+        id: build
+        shell: bash
+        run: |
+          set -o pipefail
+          if python work/build_newsletter.py --hours 48; then
+            python -m unittest work/test_build_newsletter.py
+            python skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py \
+              outputs/india-macro-clippy.html outputs/india-macro-clippy-data.json
+            echo "fresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No publishable RSS issue. Restoring the last committed version."
+            git restore outputs/india-macro-clippy.html outputs/india-macro-clippy-data.json
+            echo "fresh=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit a fresh issue
+        if: steps.build.outputs.fresh == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- outputs/; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/india-macro-clippy.html outputs/india-macro-clippy-data.json
+          git commit -m "chore: refresh newsletter"
+          git push
+
+      - name: Assemble the Pages artifact
+        shell: bash
+        run: |
+          mkdir -p site
+          cp outputs/india-macro-clippy.html site/index.html
+          cp outputs/india-macro-clippy-data.json site/india-macro-clippy-data.json
+          touch site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

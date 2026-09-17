@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 17 September 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .signal-zone { padding: 42px 0 5px; }
+      .signal-grid { display: grid; grid-template-columns: 1.18fr .82fr; gap: 28px; }
+      .chart-card { border-top: 4px solid var(--ink); padding-top: 13px; }
+      .chart-card h2, .catalysts h2 { font-size: 27px; }
+      .chart-deck { color: var(--muted); font-size: 14px; margin: 8px 0 12px; }
+      .chart-wrap { overflow: hidden; }
+      .chart { display: block; width: 100%; height: auto; color: var(--ink); }
+      .chart-gridline { stroke: var(--rule); stroke-width: 1; }
+      .chart-line { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .chart-fill { fill: rgba(0, 108, 86, .11); }
+      .chart-dot { fill: var(--green); }
+      .chart text { fill: var(--muted); font: 10px var(--mono); }
+      .chart .end-label { fill: var(--green); font-weight: 500; }
+      .chart-note { font-size: 12px; color: var(--muted); margin: 7px 0 0; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .signal-grid, .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 48 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 001</strong><br />17 September 2026<br /><span id="rss-status">RSS build · 17 Sep · 06:13 UTC</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">Growth has held up. <mark>Food inflation, a weaker rupee, and higher global yields have narrowed the RBI’s room to move.</mark></p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid">
+        <p class="tape-label">Market tape<br /><span class="flat">16 Sep close</span></p>
+        <div class="quote"><strong>23,217.60</strong><span class="up">Nifty 50 · +0.43%</span></div>
+        <div class="quote"><strong>74,336.45</strong><span class="up">Sensex · +0.45%</span></div>
+        <div class="quote"><strong>₹95.955</strong><span class="down">USD/INR · weaker</span></div>
+        <div class="quote"><strong>$108.16</strong><span class="down">Brent · elevated</span></div>
+      </div>
+    </section>
+
+    <section class="signal-zone">
+      <div class="shell">
+        <section class="chart-card" aria-labelledby="chart-title">
+          <p class="kicker">Chart of the issue</p>
+          <h2 id="chart-title">Nifty’s rebound still leaves a 1.8% six-session fall.</h2>
+          <p class="chart-deck">Nifty 50 closes, 8 to 16 September. The 16 September bounce retraced only part of the 15 September sell-off.</p>
+          <div class="chart-wrap">
+            <svg class="chart" viewBox="0 0 520 180" role="img" aria-label="Nifty 50 fell from 23,635 on 8 September to 23,218 on 16 September, with a one-day rebound after 15 September's fall.">
+              <line class="chart-gridline" x1="44" y1="24" x2="500" y2="24" /><line class="chart-gridline" x1="44" y1="80" x2="500" y2="80" /><line class="chart-gridline" x1="44" y1="136" x2="500" y2="136" />
+              <text x="0" y="28">23,650</text><text x="0" y="84">23,400</text><text x="0" y="140">23,150</text>
+              <path class="chart-fill" d="M48 27 L136 72 L224 62 L312 80 L400 143 L488 121 L488 154 L48 154 Z" />
+              <path class="chart-line" d="M48 27 L136 72 L224 62 L312 80 L400 143 L488 121" />
+              <circle class="chart-dot" cx="48" cy="27" r="4" /><circle class="chart-dot" cx="136" cy="72" r="4" /><circle class="chart-dot" cx="224" cy="62" r="4" /><circle class="chart-dot" cx="312" cy="80" r="4" /><circle class="chart-dot" cx="400" cy="143" r="4" /><circle class="chart-dot" cx="488" cy="121" r="5" />
+              <text x="48" y="172" text-anchor="middle">8 Sep</text><text x="136" y="172" text-anchor="middle">9 Sep</text><text x="224" y="172" text-anchor="middle">10 Sep</text><text x="312" y="172" text-anchor="middle">11 Sep</text><text x="400" y="172" text-anchor="middle">15 Sep</text><text x="488" y="172" text-anchor="middle">16 Sep</text>
+              <text class="end-label" x="489" y="108" text-anchor="end">23,217.60</text>
+            </svg>
+          </div>
+          <p class="chart-note">Source · <a href="https://finance.yahoo.com/quote/%5ENSEI/history/">Nifty 50 historical data</a>. Markets were closed on 14 September.</p>
+        </section>
+
+      </div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <!-- RSS:MACRO:START -->
+        <article class="story">
+          <div class="story-no">01</div>
+          <div>
+            <h3>Tata Sons IPO Order Backs Reclusive Tycoon’s Long-Running Ask</h3>
+            
+            <p class="why"><span>Why it matters</span><br />The order shapes the timetable and valuation for a potential market-defining listing. Investors will watch the likely float size and the effect on group capital allocation.</p>
+            <p class="source">RSS · <a href="https://www.bloomberg.com/news/articles/2026-09-16/tata-sons-ipo-order-backs-reclusive-tycoon-s-long-running-ask">Bloomberg · Ruchi Bhatia, 16 Sep · 09:20 UTC</a></p>
+          </div>
+        </article>
+        <article class="story">
+          <div class="story-no">02</div>
+          <div>
+            <h3>India at Inflection Point, Needs Growth Rethink, Adviser Says</h3>
+            
+            <p class="why"><span>Why it matters</span><br />Watch for evidence in investment, manufacturing, and credit, not another policy promise. A weak response would leave growth more reliant on government spending and consumption.</p>
+            <p class="source">RSS · <a href="https://www.bloomberg.com/news/articles/2026-09-16/india-at-inflection-point-needs-growth-rethink-adviser-says">Bloomberg · Anup Roy, 16 Sep · 03:36 UTC</a></p>
+          </div>
+        </article>
+        <!-- RSS:MACRO:END -->
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <!-- RSS:TECH:START -->
+        <article class="story">
+          <div class="story-no">03</div>
+          <div>
+            <h3>Yaanendriya is building the sensors that help robots know where they are</h3>
+            <p>Bengaluru deeptech startup Yaanendriya builds inertial sensors and navigation systems for drones, defence, and robots, raising Rs 15 crore in seed funding.</p>
+            <p class="why"><span>Why it matters</span><br />Signed customers, deployed capacity, and repeat orders matter more than the announcement. Deep-tech sales cycles can hide weak commercial demand behind a strong launch narrative.</p>
+            <p class="source">RSS · <a href="https://yourstory.com/2026/09/yaanendriya-sensors-navigation-startup">YourStory, 17 Sep · 05:20 UTC</a></p>
+          </div>
+        </article>
+        <article class="story">
+          <div class="story-no">04</div>
+          <div>
+            <h3>UPI In August: Navi’s Market Share Climbs To 4.4%, PhonePe &amp; Google Pay Slip</h3>
+            <p>Sachin Bansal-led Navi continued to gain ground in the UPI market in August, with its share of transaction volumes rising…</p>
+            <p class="why"><span>Why it matters</span><br />Navi’s gain tests the staying power of India’s payment incumbents. Watch value share, incentive spending, and merchant retention before calling the shift durable.</p>
+            <p class="source">RSS · <a href="https://inc42.com/buzz/upi-in-august-navis-market-share-climbs-to-4-4-phonepe-google-pay-slip/">Inc42, 16 Sep · 15:24 UTC</a></p>
+          </div>
+        </article>
+        <article class="story">
+          <div class="story-no">05</div>
+          <div>
+            <h3>Who pays for UPI? India’s new MDR reopens an old payments debate</h3>
+            <p>The 0.4% MDR on UPI has ignited fresh debate on the cost of a zero-MDR regime. While some like the Pine Labs CEO backed the new MDR, others like the BharatPe co-founder spoke against it and some like the Razorpay CEO…</p>
+            <p class="why"><span>Why it matters</span><br />The MDR structure will decide who funds the payment rails and who absorbs the cost. Merchant adoption and regulator guidance will show whether the new charge can stick.</p>
+            <p class="source">RSS · <a href="https://www.medianama.com/2026/09/223-upi-mdr-old-payments-debate/">MediaNama, 16 Sep · 11:24 UTC</a></p>
+          </div>
+        </article>
+        <!-- RSS:TECH:END -->
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title">
+        <div class="section-head">
+          <h2 id="catalyst-title">Tomorrow’s catalysts</h2>
+          <p class="meta">Friday, 18 September</p>
+        </div>
+        <div class="catalysts">
+          <div class="catalyst-list">
+            <div class="catalyst">
+              <p class="catalyst-date">Pre-open</p>
+              <p><strong>Brent and USD/INR</strong>Watch whether higher oil and a firm dollar undo the equity rebound before the cash market opens.</p>
+            </div>
+            <div class="catalyst">
+              <p class="catalyst-date">All day</p>
+              <p><strong>Semicon India, day two</strong>Look for capacity commitments, supply agreements, or named customers. Memoranda without funding or delivery dates carry less weight.</p>
+            </div>
+            <div class="catalyst">
+              <p class="catalyst-date">After close</p>
+              <p><strong>Foreign-flow data</strong>FII and DII figures will show whether domestic buying absorbed overseas selling during the rebound.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at the stated close and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>
