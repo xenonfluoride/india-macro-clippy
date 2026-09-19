@@ -36,6 +36,12 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
     audit = json.loads(audit_path.read_text(encoding="utf-8"))
     findings: list[tuple[str, str]] = []
     selected = [item for section in ("macro", "tech") for item in audit.get("selected", {}).get(section, [])]
+    market_tape = audit.get("market_tape", {})
+    required_quotes = {"Nifty 50", "Sensex", "USD/INR", "Brent"}
+    if not market_tape or not required_quotes.issubset(market_tape.get("quotes", {})):
+        report("FAIL", "Market Tape snapshot is missing or incomplete.", findings)
+    if "Yahoo Finance market data" not in document:
+        report("FAIL", "Market Tape and chart source attribution is missing.", findings)
 
     if audit.get("hours", 49) > 48:
         report("FAIL", "Audit window exceeds 48 hours.", findings)

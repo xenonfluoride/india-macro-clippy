@@ -1087,5 +1087,143 @@
         "summary": "The Oversight Board overturned Meta’s decision to leave up an AI deepfake of a Scottish councillor and called for wider AI labels, stronger penalties and safeguards for political deepfakes. The post Oversight Board’s recommendations on Meta’s AI labelling raise questions for India’s deepfake rules appeared first on MEDIANAMA ."
       }
     ]
+  },
+  "market_tape": {
+    "as_of": "2026-09-18T03:45:00+00:00",
+    "provider": "Yahoo Finance",
+    "quotes": {
+      "Nifty 50": {
+        "symbol": "^NSEI",
+        "current": 23346.400390625,
+        "previous": 23270.599609375,
+        "change_pct": 0.32573626173113546,
+        "points": [
+          [
+            1789011900,
+            23477.80078125
+          ],
+          [
+            1789098300,
+            23398.099609375
+          ],
+          [
+            1789443900,
+            23118.599609375
+          ],
+          [
+            1789530300,
+            23217.599609375
+          ],
+          [
+            1789616700,
+            23270.599609375
+          ],
+          [
+            1789703100,
+            23346.400390625
+          ]
+        ],
+        "currency": "INR"
+      },
+      "Sensex": {
+        "symbol": "^BSESN",
+        "current": 74294.9609375,
+        "previous": 74314.59375,
+        "change_pct": -0.026418515542248056,
+        "points": [
+          [
+            1789011900,
+            74902.59375
+          ],
+          [
+            1789098300,
+            74781.7578125
+          ],
+          [
+            1789443900,
+            74003.8203125
+          ],
+          [
+            1789530300,
+            74336.453125
+          ],
+          [
+            1789616700,
+            74314.59375
+          ],
+          [
+            1789703100,
+            74294.9609375
+          ]
+        ],
+        "currency": "INR"
+      },
+      "USD/INR": {
+        "symbol": "INR=X",
+        "current": 95.87999725341797,
+        "previous": 95.79920196533203,
+        "change_pct": 0.08433816402266814,
+        "points": [
+          [
+            1789340400,
+            95.03279876708984
+          ],
+          [
+            1789426800,
+            95.83540344238281
+          ],
+          [
+            1789513200,
+            95.9926986694336
+          ],
+          [
+            1789599600,
+            96.1323013305664
+          ],
+          [
+            1789686000,
+            95.79920196533203
+          ],
+          [
+            1789788617,
+            95.87999725341797
+          ]
+        ],
+        "currency": "INR"
+      },
+      "Brent": {
+        "symbol": "BZ=F",
+        "current": 103.87000274658203,
+        "previous": 104.81999969482422,
+        "change_pct": -0.9063126798397603,
+        "points": [
+          [
+            1789099200,
+            104.61000061035156
+          ],
+          [
+            1789358400,
+            105.68000030517578
+          ],
+          [
+            1789444800,
+            108.75
+          ],
+          [
+            1789531200,
+            105.83000183105469
+          ],
+          [
+            1789617600,
+            104.81999969482422
+          ],
+          [
+            1789704000,
+            103.87000274658203
+          ]
+        ],
+        "currency": "USD"
+      }
+    }
   }
 }
