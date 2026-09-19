@@ -185,7 +185,7 @@ SOURCE_WEIGHT = {
 
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
-    "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "share price",
+    "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "share price",
     "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:",
 )
 CONSUMER_TECH = (

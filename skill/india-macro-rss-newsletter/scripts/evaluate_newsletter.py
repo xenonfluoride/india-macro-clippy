@@ -87,10 +87,8 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
         seen_notes.add(key)
 
     for item in selected:
-        first_clause = re.split(r"\s+[|—–]\s+", item["title"], maxsplit=1)[0]
-        first_clause = re.sub(r":\s*(?:Is|What|How|Why|Check|Everything)\b.*$", "", first_clause, flags=re.IGNORECASE)
-        if text(first_clause) not in text(document):
-            report("WARN", f"Selected title does not appear in HTML: {first_clause}", findings)
+        if item["link"] not in document:
+            report("FAIL", f"Selected source link does not appear in HTML: {item['link']}", findings)
 
     if "Open the source for the full report." in document:
         report("FAIL", "Placeholder source filler remains in the newsletter.", findings)
