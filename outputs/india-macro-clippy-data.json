@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T05:21:00.177782+00:00",
-  "cutoff": "2026-09-17T05:21:00.177782+00:00",
+  "generated_at": "2026-09-21T04:40:47.406517+00:00",
+  "cutoff": "2026-09-19T04:40:47.406517+00:00",
   "hours": 48,
   "mode": "cached-rss",
   "feeds": [
@@ -50,15 +50,15 @@
       "source": "Indian Express Economy",
       "section": "macro",
       "url": "https://indianexpress.com/section/business/economy/feed/",
-      "items_parsed": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "items_parsed": 200,
+      "error": null
     },
     {
       "source": "Indian Express Markets",
       "section": "macro",
       "url": "https://indianexpress.com/section/business/market/feed/",
-      "items_parsed": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "items_parsed": 200,
+      "error": null
     },
     {
       "source": "Mint Technology",
@@ -71,8 +71,8 @@
       "source": "Indian Express Technology",
       "section": "tech",
       "url": "https://indianexpress.com/section/technology/feed/",
-      "items_parsed": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "items_parsed": 200,
+      "error": null
     },
     {
       "source": "YourStory",
@@ -98,1010 +98,694 @@
   ],
   "items_retained": [
     {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Small-cap stock under ₹50: Kellton Tech in focus next week due to fundraise meeting - Check date",
-      "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-kellton-tech-in-focus-next-week-due-to-fundraise-meeting-check-date-11789792491796.html",
-      "published_at": "2026-09-19T05:12:29+00:00",
-      "summary": "Kellton Tech Solutions, after achieving ₹27.27 in September 2025, plans to explore fundraising methods in a board meeting on September 23, 2026. The stock has seen a continuous downtrend, losing 50% of its value in the last year."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Top stocks to buy on Monday: Sumeet Bagadia recommends 3 stocks | HDFC Bank, Adani Ports, JSW Steel - targets, stop-loss",
-      "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-on-monday-sumeet-bagadia-recommends-3-stocks-hdfc-bank-adani-ports-jsw-steel-targets-stoploss-11789790586065.html",
-      "published_at": "2026-09-19T04:20:14+00:00",
-      "summary": "Benchmark stock indices showed mixed results; Sensex dipped 0.03% while Nifty gained 0.33%. Crude oil prices fell, impacting markets. Analysts expect recovery hinges on easing global risks. Recommended stocks include HDFC Bank, Adani Ports, and JSW Steel for bullish trading strategies."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "Anthropic, OpenAI, SpaceXAI, Google face federal antitrust lawsuit over calls to slowdown AI development",
-      "link": "https://www.livemint.com/technology/anthropic-openai-spacexai-google-face-federal-antitrust-lawsuit-over-calls-to-slowdown-ai-development-11789791351245.html",
-      "published_at": "2026-09-19T04:15:50+00:00",
-      "summary": "Leading artificial intelligence companies Anthropic, OpenAI, SpaceXAI, and Google face allegations of collusion after calls emerged for a coordinated slowdown in AI development, according to a civil lawsuit filed in a United States federal court on Friday."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "From Flam To VerifAIX — Indian Startups Raised About $59 Mn This Week",
-      "link": "https://inc42.com/buzz/from-flam-to-verifaix-indian-startups-raised-about-59-mn-this-week/",
-      "published_at": "2026-09-19T03:30:44+00:00",
-      "summary": "While the introduction of MDR on UPI dominated India’s new-age tech discourse this week, startup funding fell sharply. Fourteen startups…"
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "Google’s Gemini breaks out of test environment to hack three external firms: Report",
-      "link": "https://www.livemint.com/technology/googles-gemini-breaks-out-of-test-environment-to-hack-three-external-firms-report-11789785729332.html",
-      "published_at": "2026-09-19T02:42:08+00:00",
-      "summary": "Google’s Gemini hacked three companies in the first known breakout, after the model accessed the internet and breached external systems during an evaluation of its cybersecurity capabilities."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Design with purpose: How Jaipur’s Saraswati Rugs places Indian craft on the global map",
-      "link": "https://yourstory.com/2026/09/design-purpose-jaipur-saraswati-rugs-creativity-photography",
-      "published_at": "2026-09-19T02:10:00+00:00",
-      "summary": "In this photo essay, we showcase the phases of rug making from Saraswati Rugs in Jaipur, along with leader insights."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Who will build India’s next 100 chip companies? Giving robots a sense of direction",
-      "link": "https://yourstory.com/2026/09/who-will-build-indias-next-100-chip-companies",
-      "published_at": "2026-09-19T02:00:00+00:00",
-      "summary": "At Semicon India 2026 in New Delhi, MeitY Secretary S. Krishnan highlighted the rapid momentum of the India Semiconductor Mission (ISM), which has successfully transitioned from a policy framework to operational semiconductor factories within four years."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Four aerospace stocks to watch as India builds its MRO industry",
-      "link": "https://www.livemint.com/market/stock-market-news/four-aerospace-stocks-to-watch-as-india-builds-its-mro-industry-11789731532873.html",
-      "published_at": "2026-09-19T01:30:13+00:00",
-      "summary": "Tax cuts and other policy changes are making India’s aircraft maintenance market more attractive, but listed exposure remains limited and mostly indirect."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Hero Motors, NSE show two realities of India’s unlisted market",
-      "link": "https://www.livemint.com/market/ipo/hero-motors-nse-ipo-show-two-realities-of-india-s-unlisted-market-investors-trading-11789705715047.html",
-      "published_at": "2026-09-19T00:00:11+00:00",
-      "summary": "Hero Motors' IPO price band has raised concerns for investors who bought shares at ₹300, facing losses as the IPO is now priced at ₹79-84"
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "OpenAI forecasts cash burn near $280 billion by 2030, FT reports",
-      "link": "https://www.livemint.com/technology/openai-forecasts-cash-burn-near-280-billion-by-2030-ft-reports-11789774165992.html",
-      "published_at": "2026-09-18T23:29:25+00:00",
-      "summary": "AI-TECH-OPENAI-FINANCIALS:OpenAI forecasts cash burn near $280 billion by 2030, FT reports"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Kuku Technologies gets SEBI nod for IPO launch: Top things to know about the issue",
-      "link": "https://www.livemint.com/market/stock-market-news/kuku-technologies-gets-sebi-nod-for-ipo-launch-top-things-to-know-about-the-issue-11789760078236.html",
-      "published_at": "2026-09-18T19:46:38+00:00",
-      "summary": "SEBI has approved Kuku Technologies' IPO plans, following the company’s confidential draft IPO filing in June. The IPO aims to raise ₹2,500 crore to ₹3,500 crore and will use proceeds for technology and geographic expansion."
-    },
-    {
       "source": "RBI",
       "section": "macro",
-      "title": "Auction of State Government Securities",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63628",
-      "published_at": "2026-09-18T19:15:00+00:00",
-      "summary": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of ₹16,750 Crore (Face Value). Sr. No. State/UT Amount to be raised (₹ Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 1000 Re-issue of 7.56% Andhra Pradesh SGS 2039, issued on July 01, 2026 Price 1600 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 Price 2. Goa 150 15 Yield 3. Gujarat 1000 Re-issue of 7.47% Gujarat SGS 2036, issued on August 27, 2026 Price 1000 Re-issue of 7.59% Gujarat SGS 2041, issued on August 27, 2026 Price 4. Jammu and Kashmir 600 Re-issue of 7.75% Jammu and Kashmir SGS 2044, issued on September 09, 2026 Price 5. Maharashtra 1000 Re-issue of 7.09% Maharashtra SGS 2031, issued on August 27, 2026 Price 2400 Re-issue of 7.63% Maharashtra SGS 2039, issued on August 27, 2026 Price 1600 Re-issue of 7.70% Maharashtra SGS 2049, issued on August 27, 2026 Price 6. Punjab 500 05 Yield 1500 15 Yield 7. Rajasthan 2200 Re-issue of 7.68% Rajasthan SGS 2044, issued on July 29, 2026 Price 2200 Re-issue of 7.65% Rajasthan SGS 2053, issued on July 01, 2026 Price Total 16750 The auction will be conducted on the Reserve Bank of India Core Banking Solution (E-Kuber) system on September 22, 2026 (Tuesday) . The Government Stock up to ten per cent of the notified amount of the sale of each stock will be allotted to eligible individuals and institutions, subject to a maximum limit of one per cent of its notified amount for a single bid per stock as per the ‘ Scheme for Non-competitive Bidding Facility ’. Individual investors can also place bids as per the non-competitive scheme through the Retail Direct portal ( https://rbiretaildirect.org.in ). Both competitive and non-competitive bids for the auction should be submitted in electronic format on the Reserve Bank of India Core Banking Solution (E-Kuber) system on September 22, 2026 (Tuesday). The competitive bids should be submitted between 10:30 A.M. and 11:30 A.M. and non-competitive bids should be submitted between 10:30 A.M. and 11:00 A.M. In case of technical difficulties, Core Banking Operations Team may be contacted ( email ; Phone no: 022-69870466, 022-69870415). For other auction related difficulties, IDMD Auction Team can be contacted ( email ; Phone no: 022-22702431, 022-22705125). Only in the event of system failure, physical bids would be accepted. Such physical bids should be submitted to the Public Debt Office ( email ; Phone no: 022-22603456, 022-22603457, 022-22603190) in the prescribed form obtainable from RBI website ( https://www.rbi.org.in/Scripts/BS_ViewForms.aspx ) before the auction timing ends. The yield per cent per annum or the price as the case may be, expected by the bidder should be expressed up to two decimal points. An investor can submit more than one competitive bid at same/different rates of yield or prices in electronic format on the Reserve Bank of India Core Banking Solution (E-Kuber) system. However, the aggregate amount of bids submitted by a bidder should not exceed the notified amount for each State. The Reserve Bank of India will determine the maximum yield / minimum price at which bids will be accepted. Stock will be issued for a minimum nominal amount of ₹10,000.00 and in multiples of ₹10,000.00 thereafter. The results of the auction will be announced on September 22, 2026 (Tuesday) and payment by successful bidders will be made during banking hours on September 23, 2026 (Wednesday) at Mumbai and at respective Regional Offices of RBI. The new State Government Stocks will bear interest at the rates determined by RBI at the auctions. For the new stock , interest will be paid half yearly on March 23 and September 23 of each year till maturity. For the re-issued Government Stock, interest will be paid at the rate as determined on the date of original issue of Government Stock and will be paid on half yearly basis till maturity. The Stocks will be governed by the provisions of the Government Securities Act, 2006 and the Government Securities Regulations, 2007. The investment in State Government Stocks will be reckoned as an eligible investment in Government Securities by banks for the purpose of Statutory Liquidity Ratio (SLR) under Section 24 of the Banking Regulation Act, 1949. The stocks will qualify for the ready forward facility. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1150"
+      "title": "Money Market Operations as on September 18, 2026",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63629",
+      "published_at": "2026-09-21T09:00:00+00:00",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 12,740.38 5.02 4.25-5.30 I. Call Money 1,149.49 4.94 4.60-5.10 II. Triparty Repo 4,547.20 5.01 4.87-5.30 III. Market Repo 252.69 4.25 4.25-4.26 IV. Repo in Corporate Bond 6,791.00 5.07 5.00-5.30 B. Term Segment I. Notice Money ** 12,330.76 5.09 4.50-5.40 II. Term Money @@ 379.25 - 5.40-6.10 III. Triparty Repo 5,12,947.30 5.07 4.98-5.50 IV. Market Repo 1,90,389.49 4.82 2.00-5.55 V. Repo in Corporate Bond 0.00 - - RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation Fri, 18/09/2026 3 Mon, 21/09/2026 2,22,629.00 5.24 3. MSF # Fri, 18/09/2026 1 Sat, 19/09/2026 191.00 5.50 Fri, 18/09/2026 2 Sun, 20/09/2026 0.00 5.50 Fri, 18/09/2026 3 Mon, 21/09/2026 0.00 5.50 4. SDF Δ# Fri, 18/09/2026 1 Sat, 19/09/2026 1,07,990.00 5.00 Fri, 18/09/2026 2 Sun, 20/09/2026 0.00 5.00 Fri, 18/09/2026 3 Mon, 21/09/2026 1,303.00 5.00 5. Net liquidity injected from today's operations [injection (+)/absorption (-)]* -3,31,731.00 II. Outstanding Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation Fri, 11/09/2026 26 Wed, 07/10/2026 52,449.00 5.24 Mon, 07/09/2026 30 Wed, 07/10/2026 2,39,276.00 5.24 3. MSF # 4. SDF Δ# D. Standing Liquidity Facility (SLF) Availed from RBI $ 3,480.76 E. Net liquidity injected from outstanding operations [injection (+)/absorption (-)]* -2,88,244.24 F. Net liquidity injected (outstanding including today's operations) [injection (+)/absorption (-)]* -6,19,975.24 Reserve Position @ Date Amount G. Cash Reserves Position of Scheduled Commercial Banks (i) Cash balances with RBI as on September 18, 2026 8,28,700.80 (ii) Average daily cash reserve requirement for the fortnight ending^ September 30, 2026 8,21,989.00 H. Government of India Surplus Cash Balance Reckoned for Auction as on ¥ September 18, 2026 0.00 I. Net durable liquidity [surplus (+)/deficit (-)] as on August 31, 2026 10,66,303.00 @ Based on Reserve Bank of India (RBI) / Clearing Corporation of India Limited (CCIL). - Not Applicable / No Transaction. ** Relates to uncollateralized transactions of 2 to 14 days tenor. @@ Relates to uncollateralized transactions of 15 days to one year tenor. $ Includes refinance facilities extended by RBI. & As per the Press Release No. 2025-2026/1201 dated September 30, 2025 . Δ As per the Press Release No. 2022-2023/41 dated April 08, 2022 . * Net liquidity is calculated as Repo+MSF+SLF-Reverse Repo-SDF. ¥ As per the Press Release No. 2014-2015/1971 dated March 19, 2015 . # As per the Press Release No. 2023-2024/1548 dated December 27, 2023 . ^ As per the notification No. RBI/2025-26/148 DOR.RET.REC.354/12.01.001/2025-26 dated December 11, 2025 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1151"
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
-      "link": "https://www.livemint.com/market/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook-11789758851837.html",
-      "published_at": "2026-09-18T19:14:11+00:00",
-      "summary": "GLOBAL-FOREX/ (UPDATE 6):FOREX-Dollar advances vs yen as BOJ dissent clouds rate-hike outlook"
+      "title": "Why Adani Total Gas lost 5%, Adani Ports fell 2% despite gains on Sensex, Nifty | Check how other Adani stocks performed",
+      "link": "https://www.livemint.com/market/stock-market-news/why-adani-total-gas-lost-5-adani-ports-fell-2-despite-gains-on-sensex-nifty-check-how-other-adani-stocks-performed-11789964095418.html",
+      "published_at": "2026-09-21T04:28:25+00:00",
+      "summary": "Adani Group stocks fell on Monday, diverging from a rising Indian equity market, supported by easing crude oil prices. While Adani Total Gas, Ports, and Power declined, others like Adani Green Energy saw gains."
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "North Sea Oil Premiums Soar to Records After Saudis Cut Sales",
-      "link": "https://www.livemint.com/market/north-sea-oil-premiums-soar-to-records-after-saudis-cut-sales-11789758731398.html",
-      "published_at": "2026-09-18T19:12:10+00:00",
-      "summary": "Europe’s oil refiners are paying eyewatering premiums for cargoes, as the shutdown of Saudi Arabia’s East-West pipeline forces the region’s buyers to scramble for alternatives with fuel prices soaring."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on September 21, 2026",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63627",
-      "published_at": "2026-09-18T19:05:00+00:00",
-      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, September 21, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 1,00,000 1 09:30 AM to 10:00 AM September 22, 2026 (Tuesday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1149"
+      "title": "Refex Industries share price jumps 4% on ₹160 crore order win ahead of board meeting | Check stock performance",
+      "link": "https://www.livemint.com/market/stock-market-news/refex-industries-share-price-jumps-4-on-160-crore-order-win-ahead-of-board-meeting-check-stock-performance-11789963623535.html",
+      "published_at": "2026-09-21T04:26:50+00:00",
+      "summary": "Refex Industries shares opened at ₹281.95 apiece today, as compared to previous close of ₹271.85 on Friday last week."
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "Investors Pull $1.8 Billion From Muni Market as Return Slump Extends",
-      "link": "https://www.livemint.com/market/investors-pull-1-8-billion-from-muni-market-as-return-slump-extends-11789756712011.html",
-      "published_at": "2026-09-18T18:38:31+00:00",
-      "summary": "Investors pulled about $1.8 billion out of the municipal bond market this week with returns for state and local government debt on track to tumble for the third consecutive month."
+      "title": "Welspun Corp, Welspun Enterprises hit 52-week highs after order wins; stocks jump up to 5% today",
+      "link": "https://www.livemint.com/market/stock-market-news/welspun-corp-welspun-enterprises-hit-52-week-highs-after-order-wins-stocks-jump-up-to-5-today-11789962742077.html",
+      "published_at": "2026-09-21T04:10:30+00:00",
+      "summary": "Welspun Corp and Welspun Enterprises recently announced new contracts that significantly elevated their market positions. The companies experienced notable stock surges, with returns of 236% and 90% over six months, underscoring their successful strategy in specialized engineering segments."
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
-      "link": "https://www.livemint.com/market/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices-11789756221619.html",
-      "published_at": "2026-09-18T18:30:21+00:00",
-      "summary": "GLOBAL-PRECIOUS:Gold rises to one-week high, heads for weekly gain on easing oil prices"
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "Indian-origin researchers used Claude AI to hack OpenAI’s systems—got ₹6.27 lakh reward",
-      "link": "https://www.livemint.com/technology/tech-news/indianorigin-researchers-used-claude-ai-to-hack-openai-s-systems-got-6-27-lakh-bounty-11789753784566.html",
-      "published_at": "2026-09-18T18:11:17+00:00",
-      "summary": "The three-member team from cybersecurity firm Hacktron AI included chief technology officer Mohan Pedhapati, along with researchers Harsh Jaiswal and Rahul Maini."
+      "title": "Dividend record date alert: BEML, IRCTC, Ambika Cotton, others - Check biggest payout | Last chance to buy today",
+      "link": "https://www.livemint.com/market/stock-market-news/dividend-record-date-last-chance-to-buy-today-beml-gocl-irctc-kpi-green-ambika-cotton-among-62-stocks-check-big-11789962628299.html",
+      "published_at": "2026-09-21T04:07:44+00:00",
+      "summary": "Shares of several companies, including BEML and Ambika Cotton Mills, are poised for increased investor interest due to upcoming dividends. With September 22 set as the record date for nearly 62 firms, September 21 marks the last buying day for related corporate actions."
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "IPO Tracker: 19 stocks debut this week, raise ₹7,550 crore despite market volatility",
-      "link": "https://www.livemint.com/market/stock-market-news/ipo-tracker-19-stocks-debut-this-week-raise-rs-7-550-crore-despite-market-volatility-11789751470266.html",
-      "published_at": "2026-09-18T17:38:10+00:00",
-      "summary": "The Indian stock market faced pressure, yet 19 companies launched IPOs, raising ₹7,550 crore. Mainboard firms, including Rentomojo and Kanohar Electricals, contributed significantly, though listing premiums varied, highlighting strong demand amid a declining secondary market."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63626",
-      "published_at": "2026-09-18T17:35:00+00:00",
-      "summary": "Reserve Bank of India announces the auction of Government of India Treasury Bills as per the following details: Sr. No. Treasury Bill Notified Amount (₹ crore) Auction Date Settlement Date 1 91-Day 9,000 September 23, 2026 (Wednesday) September 24, 2026 (Thursday) 2 182-Day 8,000 3 364-Day 7,000 Total 24,000 The sale will be subject to the terms and conditions specified in the General Notification F.No.4(2)-B(W&M)/2018 dated March 26, 2025 , issued by Government of India, as amended from time to time. State Governments, Union Territories with legislature, eligible Provident Funds in India, designated Foreign Central Banks and any person or institution specified by the Bank in this regard can participate on non-competitive basis, the allocation for which will be outside the notified amount. Individuals can also participate on non-competitive basis, as retail investors. For retail investors, the allocation will be restricted to a maximum of 5 percent of the notified amount. Individual investors can also place bids as per the non-competitive scheme through the Retail Direct portal ( https://rbiretaildirect.org.in ). The auction will be Price based using multiple price method . Bids for the auction should be submitted in electronic format on the Reserve Bank of India’s Core Banking Solution (E-Kuber system) on Wednesday, September 23, 2026 , during the below given timings: Category of Bids Timing Competitive 10:30 am - 11:30 am Non-Competitive 10:30 am - 11:00 am Results will be announced on the day of the auction. Payment by successful bidders will have to be made on Thursday, September 24, 2026. Only in the event of system failure, physical bids would be accepted. Such physical bids should be submitted to the Public Debt Office ( email ; Phone no: 022-22603456, 022-22603457, 022-22603190), before the auction timing ends, in the prescribed form. The form can be downloaded from RBI website ( https://www.rbi.org.in/Scripts/BS_ViewForms.aspx ). In case of technical difficulties, Core Banking Operations Team should be contacted at email ; Phone no: 022-69870466, 022-69870415. For other auction related difficulties, IDMD auction team can be contacted ( email ; Phone no: 022-22702431, 022-22705125). Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1148"
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Survey on Computer Software and Information Technology Enabled Services Exports: 2025-26",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63625",
-      "published_at": "2026-09-18T17:30:00+00:00",
-      "summary": "Today, the Reserve Bank released the data 1 related to the 2025-26 round of its annual survey on computer software and information technology enabled services (ITES) exports. The survey 2 collects details on India’s exports of software services {computer services and ITES/business process outsourcing (BPO) services} as per type of activity, on-site/off-site nature of services, country of destination and modes of supply. For 2025-26 round of the survey, 7,569 software export companies were contacted, of which 2,363 companies, including most of the large companies, responded. The participating companies together accounted around 89 per cent of total estimated software services exports 3 ( Table 1 ). Highlights: The India’s exports of software services (excluding their sales through overseas commercial presence) increased by 8.2 per cent (y-o-y) during 2025-26 to US$ 221.4 billion ( Table 2 ). Computer services continued to account for over two-thirds of India’s total software services exports during the year; BPO services remained the dominant component of IT enabled services (ITES) exports ( Tables 2 and 3 ). Private limited companies dominated 2025–26 software exports with 9.3 per cent growth. ( Table 4 ). The United States of America remained the major software exports destination with a share of 54.1 per cent, followed by European countries (31.8 per cent) where United Kingdom had major share ( Table 5 ). The US dollar was the principal invoicing currency for India’s software exports, followed by the euro, the rupee, and the pound sterling ( Table 6 ). Software services exports primarily delivered through off-site mode (91.7 per cent share) ( Table 7 ). Total software export services, including services delivered by foreign affiliates of Indian companies, increased by 9.5 per cent during 2025-26 and stood at US$ 239.3 billion ( Tables 8 ) The local software business by foreign affiliates of Indian companies increased to US$ 17.9 billion in 2025-26 from US$ 13.9 billion in the previous year, with the USA and the UK remained the major destinations ( Tables 9 and 10 ). Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1147 Table 1: Survey Response and Final Estimates for 2025-26 – A Snapshot Item Reported Final Estimates ₹ crore US$ billion ₹ crore US$ billion 1 2 3 4 5 1. Number of companies 2,363 7,569 2. Total Exports of Software Services 17,40,022 196.9 19,55,947 221.4 2.1 IT Services 11,72,848 132.7 12,99,085 147.0 2.2 Software Product Development 49,477 5.6 56,549 6.4 2.3 BPO Services 4,22,882 47.9 4,94,658 56.0 2.4 Engineering Services 94,815 10.7 1,05,655 12.0 3. Total Exports of Software Services including commercial presence 18,98,114 214.8 21,14,039 239.3 3.1 Mode 1 (cross-border supply) 15,92,853 180.3 17,90,515 202.7 3.2 Mode 2 (consumption abroad) 2,180 0.2 2,451 0.3 3.3 Mode 3 (commercial presence) 1,58,092 17.9 1,58,092 17.9 3.4 Mode 4 (presence of natural person) 1,44,989 16.4 1,62,981 18.4 Notes: 1. The sum of components may differ from total due to rounding off. 2. The amount in US$ terms is arrived at by using annual average rupee/ dollar exchange rate. 3. These are also applicable for the remaining tables. Table 2: Software Services Exports from India Activity 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 A. Computer Services 11,68,299 138.1 67.4 13,55,634 153.4 69.3 of which: i) IT Services 11,10,640 131.3 64.1 12,99,085 147.0 66.4 ii) Software Product Development 57,659 6.8 3.3 56,549 6.4 2.9 B. IT Enabled Services 5,63,172 66.6 32.6 6,00,313 68.0 30.7 of which: i) BPO Services 4,71,690 55.8 27.3 4,94,658 56.0 25.3 ii) Engineering Services 91,482 10.8 5.3 1,05,655 12.0 5.4 Total Export of Software Services (A+B) 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 3: Industry-wise Distribution of ITES Services Exports Activity 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 A. BPO Services 4,71,690 55.8 83.8 4,94,658 56.0 82.4 (i) Business consulting services including public relations services 31,641 3.8 5.7 35,121 4.0 5.9 (ii) Finance and accounting auditing bookkeeping and tax consulting services 69,245 8.2 12.3 69,747 8.0 11.6 (iii) HR administration 2,733 0.3 0.5 1,979 0.2 0.3 (iv) Supply chain and other management services/ logistics 6,464 0.8 1.2 8,904 1.0 1.5 (v) Medical transcription and document management 1,110 0.1 0.1 1,978 0.2 0.3 (vi) Content development and management and publishing 2,863 0.3 0.5 3,957 0.4 0.7 (v) Other BPO services 3,57,634 42.3 63.5 3,72,972 42.2 62.1 B. Engineering Services 91,482 10.8 16.2 1,05,655 12.0 17.6 (i) Embedded solutions 15,861 1.8 2.7 17,856 2.0 3.0 (ii) Product design engineering (mechanical electronics excluding software) 14,934 1.8 2.7 25,674 3.0 4.3 (iii) Industrial automation and enterprise asset management 2,121 0.3 0.4 106 - - (iv) Other engineering services 58,566 6.9 10.4 62,019 7.0 10.3 Total (A+B) 5,63,172 66.6 100.0 6,00,313 68.0 100.0 Table 4: Organisation-wise Distribution of Software Services Exports Types of Organisations 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 Private Limited Company 10,41,570 123.1 60.1 11,89,216 134.6 60.8 Public Limited Company 6,52,957 77.2 37.7 7,21,744 81.7 36.9 Others # 36,944 4.4 2.2 44,987 5.1 2.3 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 # Others mostly include LLPs and proprietor firms. Table 5: Software Services Exports – Major Destination Region 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 United States of America 9,16,010 108.3 52.9 10,57,968 119.7 54.1 Canada 22,931 2.7 1.3 26,693 3.0 1.3 Europe 5,68,121 67.2 32.8 6,21,480 70.3 31.8 of which: United Kingdom 2,68,868 31.8 15.5 3,00,642 34.0 15.4 Asia 1,10,019 13.0 6.4 1,22,392 13.9 6.3 of which: East Asia 91,296 10.8 5.3 1,04,102 11.8 5.3 West Asia 16,014 1.9 0.9 17,022 2.0 0.9 South Asia 2,709 0.3 0.2 1,268 0.1 0.1 Australia & New Zealand 42,321 5.0 2.4 48,838 5.5 2.5 Other countries 72,069 8.5 4.2 78,576 9.0 4.0 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 6: Software Services Exports - Currency Composition of Invoice Currency 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 USD 12,46,363 147.4 72.0 14,20,017 160.7 72.6 EUR 1,66,790 19.7 9.6 1,87,771 21.3 9.6 INR 1,23,120 14.5 7.1 1,23,225 14.0 6.3 GBP 1,03,910 12.3 6.0 1,17,357 13.3 6.0 AUD 33,824 4.0 2.0 39,119 4.4 2.0 Other Currencies 57,464 6.8 3.3 68,458 7.7 3.5 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 7: Software Services Exports – Type of Services Type of Services 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 On-site Services 1,60,769 19.0 9.3 1,62,981 18.4 8.3 Off-site Services 15,70,702 185.7 90.7 17,92,966 203.0 91.7 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 8: Mode-wise Exports of Software Services Type of Mode 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 Mode 1 (cross-border supply) 15,68,256 185.4 84.8 17,90,515 202.7 84.7 Mode 2 (consumption abroad) 2,446 0.3 0.1 2,451 0.3 0.1 Mode 3 (commercial presence) 1,17,339 13.9 6.4 1,58,092 17.9 7.5 Mode 4 (presence of natural person) 1,60,769 19.0 8.7 1,62,981 18.4 7.7 Total 18,48,810 218.6 100.0 21,14,039 239.3 100.0 Table 9: Software Business by Foreign Affiliates of Indian Companies during 2025-26 ─ Activity Distribution (Amount in ₹ crore) Activity Locally* To India Other Countries 1 2 3 4 IT Services 26,828 2,612 3,245 Software Product Development 679 34 130 BPO Services 13,525 128 11,268 Engineering Services 6,238 21 1,381 Other Services 1,10,822 30,217 26,493 Total (₹ crore) 1,58,092 33,012 42,517 Total (US$ billion) 17.9 3.7 4.8 *Software business by foreign affiliates of Indian companies “locally” indicates Mode-3 (commercial presence). Table 10: Software Business by Foreign Affiliates of Indian Companies during 2025-26 ─ Country Distribution (Amount in ₹ crore) Country Share in Total Software business by foreign affiliates (%) Software business by foreign affiliates Locally To India Other Countries 1 2 3 4 5 United States of America 42.2 67,453 23,305 7,847 United Kingdom 9.0 17,539 468 3,068 Germany 8.2 14,329 292 4,560 Canada 8.0 15,248 1,964 1,481 Netherlands 7.0 7,282 2,604 6,510 Singapore 5.6 10,065 701 2,302 Other Countries 20.0 26,176 3,678 16,749 Total (₹ crore) 100.0 1,58,092 33,012 42,517 Total (US$ billion) - 17.9 3.7 4.8 1 The previous data release in the series, covering 2024-25 survey round, was published on November 04, 2025 , on the RBI website. 2 The survey schedule is given in the Annex . 3 Exports of relatively small non-responding companies have been estimated as per the methodology published in the article titled ‘ Survey on Computer Software and Information Technology Enabled Services Exports, 2016-17 ’ in March 2018 issue of the Reserve Bank of India Bulletin."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63624",
-      "published_at": "2026-09-18T17:00:00+00:00",
-      "summary": "1. Reserve Bank of India - Liabilities and Assets* (₹ Crore) Item 2025 2026 Variation Sep. 12 Sep. 04 Sep. 11 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government 0 0 0 0 0 4.2 State Governments 29150 27940 14958 -12981 -14192 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Sep. 11, 2026 Variation over Week End-March 2026 Year ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. ₹ Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 7460261 780782 35788 -4924 906399 89674 1254251 77816 1.1 Foreign Currency Assets # 6170421 645796 45600 -2372 933054 93514 988074 58782 1.2 Gold 1062723 111225 -12771 -2591 -31586 -4171 246820 18806 1.3 SDRs 180056 18845 2353 39 3467 223 14319 71 1.4 Reserve Position in the IMF 47060 4916 605 0 1465 108 5038 156 * Difference, if any, is due to rounding off. # Excludes (a) SDR holdings of the Reserve Bank, as they are included under the SDR holdings; (b) investment in bonds issued by IIFC (UK); (c) amounts lent under SAARC and ACU currency swap arrangements; and (d) RBI’s contribution to funding of Nexus Global Payments. 4. Scheduled Commercial Banks - Business in India (₹ Crore) Item Outstanding as on Aug. 31, 2026 Variation over Fortnight Financial Year so far Year-on-Year 2025-26 2026-27 2025 2026 1 2 3 4 5 6 2 Liabilities to Others 2.1 Aggregate Deposits 27871530 940184 1088214 1642743 2118500 4202714 2.1a Growth (Per cent) 3.5 4.8 6.3 9.8 17.8 2.1.1 Demand 3448742 146349 193366 -240532 434172 557327 2.1.2 Time 24422788 793835 894848 1883275 1684328 3645388 2.2 Borrowings 997898 106035 -98679 189981 -27103 181329 2.3 Other Demand and Time Liabilities 1311123 148405 53863 187601 63148 195628 7 Bank Credit 22387567 379803 556713 1027670 1754084 3586881 7.1a Growth (Per cent) 1.7 3.1 4.8 10.3 19.1 7a.1 Food Credit 112042 -2094 9049 41770 24077 66461 7a.2 Non-food credit 22275525 381897 547664 985900 1730007 3520420 Note: Data include the impact of merger of a non-bank with a bank w.e.f. July 1, 2023. As per the Banking Laws (Amendment) Act, 2025, the definition of fortnight has been revised from alternate Fridays to 15th and last calendar day of a month, w.e.f. December 15, 2025. 6. Money Stock: Components and Sources (₹ Crore) Item Outstanding as on Variation over 2026 Fortnight^ Financial Year so far Year-on-Year 2025-26 2026-27 2025 2026 Mar. 31 Aug. 31 Amount % Amount % Amount % Amount % Amount % 1 2 3 4 5 6 7 8 9 10 11 12 M3 31453126 33221648 927145 2.9 1189329 4.4 1768522 5.6 2465072 9.5 4745730 16.7 1 Components (1.1.+1.2+1.3+1.4) 1.1 Currency with the Public 4065488 4194110 -13005 -0.3 88238 2.4 128622 3.2 315027 9.3 475121 12.8 1.2 Demand Deposits with Banks 3844879 3602950 146620 4.2 195437 6.9 -241929 -6.3 435478 16.7 567491 18.7 1.3 Time Deposits with Banks 23410625 25301766 794340 3.2 908631 4.4 1891141 8.1 1697847 8.5 3690627 17.1 1.4 ‘Other’ Deposits with Reserve Bank 132134 122822 -811 -0.7 -2976 -2.6 -9312 -7.0 16721 17.9 12491 11.3 2 Sources (2.1+2.2+2.3+2.4-2.5) 2.1 Net Bank Credit to Government 9369275 9483883 83249 0.9 236246 2.8 114608 1.2 893056 11.4 736811 8.4 2.1.1 Reserve Bank 2079086 1889267 8508 - 99402 - -189819 - 442476 - 281760 - 2.1.2 Other Banks 7290189 7594616 74741 1.0 136844 2.0 304427 4.2 450581 6.7 455052 6.4 2.2 Bank Credit to Commercial Sector 22226641 23240519 379962 1.7 532090 2.8 1013878 4.6 1789361 10.0 3640301 18.6 2.2.1 Reserve Bank 28247 8459 -3569 - -28413 - -19788 - 980 - -1374 - 2.2.2 Other Banks 22198394 23232060 383531 1.7 560502 2.9 1033667 4.7 1788381 10.0 3641675 18.6 Note: Data include the impact of merger of a non-bank with a bank w.e.f. July 14, 2023. ^: With respect to August 15, 2026. 8. Liquidity Operations by RBI (₹ Crore) Date Liquidity Adjustment Facility Standing Liquidity Facilities OMO (Outright) Net Injection (+)/ Absorption (-) (1+3+5+7+9-2-4-6-8) Repo Reverse Repo Variable Rate Repo Variable Rate Reverse Repo MSF SDF Sale Purchase 1 2 3 4 5 6 7 8 9 10 07-Sep-26 - - - 612666 1474 182190 -480 - - -793862 08-Sep-26 - - - 417609 37 242338 -935 - - -660845 09-Sep-26 - - - 461586 148 198055 -1197 - - -660690 10-Sep-26 - - - 396694 82 256504 -125 - - -653241 11-Sep-26 - - - 405313 177 277249 - - - -682385 12-Sep-26 - - - - 145 281021 - - - -280876 13-Sep-26 - - - - 152 280783 - - - -280631 SDF: Standing Deposit Facility; MSF: Marginal Standing Facility. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1146"
+      "title": "Xi Jinping US visit: Trump to weigh on rare-earth magnet | Experts bet high on Vedanta, GMDC, Ather Energy, other stocks",
+      "link": "https://www.livemint.com/market/stock-market-news/xi-jinping-us-visit-trump-to-weigh-on-rare-earth-magnet-experts-bet-high-on-vedanta-gmdc-ather-energy-other-stocks-11789959864197.html",
+      "published_at": "2026-09-21T04:04:51+00:00",
+      "summary": "Xi Jinping US visit: Experts believe Donald Trump may weigh on the rare-earth magnet exports to the US"
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "Nifty posts sixth straight weekly loss: Why is Indian stock market under pressure? Explained",
-      "link": "https://www.livemint.com/market/stock-market-news/nifty-posts-sixth-straight-weekly-loss-why-is-indian-stock-market-under-pressure-explained-11789746305019.html",
-      "published_at": "2026-09-18T16:52:07+00:00",
-      "summary": "The Nifty 50 ended the week down 0.22%, continuing its six-week losing streak amid volatility. Despite a modest recovery, the index remains below 23,500 as global tensions and rising crude oil prices weigh heavily on investor sentiment and market stability."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Pocket FM Eyes 15%-20% EBITDA Margin, Global Expansion With AI-Led Content Push",
-      "link": "https://inc42.com/buzz/pocket-fm-eyes-15-20-ebitda-margin-global-expansion-with-ai-led-content-push/",
-      "published_at": "2026-09-18T16:30:16+00:00",
-      "summary": "Pocket FM is betting heavily on AI to improve its content economics and lift its EBITDA margin to 15%-20% from…"
+      "title": "Hero Motors IPO, SS Retail IPO, Jindal Supreme IPOs' allotment status check by PAN card | GMP compared",
+      "link": "https://www.livemint.com/market/ipo/hero-motors-ipo-ss-retail-ipo-jindal-supreme-ipos-allotment-status-check-by-pan-card-gmp-compared-11789960908085.html",
+      "published_at": "2026-09-21T04:04:10+00:00",
+      "summary": "Among the three mainboard IPOs, SS Retail is currently witnessing the strongest performance in the grey market."
     },
     {
       "source": "Mint Markets",
       "section": "macro",
-      "title": "Netflix sell-off deepens as stock drops another 7% to hit two-month low. What is spooking investors?",
-      "link": "https://www.livemint.com/market/stock-market-news/netflix-sell-off-deepens-as-stock-drops-another-7-to-hit-two-month-low-what-is-spooking-investors-11789741143715.html",
-      "published_at": "2026-09-18T15:23:39+00:00",
-      "summary": "Netflix shares fell 7% to $70.11 after Wells Fargo downgraded the stock to Underweight due to user engagement concerns. Despite being the largest paid streaming platform, Netflix faced revenue growth challenges and weakened content."
+      "title": "FPI derivatives bets hit record high amid roiling oil",
+      "link": "https://www.livemint.com/market/stock-market-news/fpi-foreign-portfolio-investors-nifty-bank-nifty-short-positions-indian-equities-oil-prices-west-asia-war-11789959207245.html",
+      "published_at": "2026-09-21T03:54:17+00:00",
+      "summary": "Sentiment soured by rising oil as West Asia war disrupts supplies, prompting FPIs to build record short positions even as Indian equities retreat."
     },
     {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Overseas Direct Investment for August 2026",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63623",
-      "published_at": "2026-09-18T15:15:00+00:00",
-      "summary": "The Reserve Bank of India has today released the data on Overseas Direct Investment , both under Automatic Route and the Approval Route, for the month of August 2026. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1145"
-    },
-    {
-      "source": "YourStory",
+      "source": "Indian Express Technology",
       "section": "tech",
-      "title": "Startup news and updates: Daily roundup (September 18, 2026)",
-      "link": "https://yourstory.com/2026/09/startup-news-and-updates-daily-roundup-september-18-2026",
-      "published_at": "2026-09-18T15:03:35+00:00",
-      "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Friday, September 18, 2026."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Tata feud wipes ₹52,154 crore off listed companies’ market value",
-      "link": "https://www.livemint.com/market/stock-market-news/tata-feud-wipes-52-154-crore-off-listed-companies-market-value-11789737927529.html",
-      "published_at": "2026-09-18T15:00:15+00:00",
-      "summary": "Investors reassess Tata stocks as the Tata Sons-Tata Trusts standoff raises concerns over leadership and capital allocation."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Pulse of the Street: Crude retreats, but markets extend losing streak",
-      "link": "https://www.livemint.com/market/stock-market-news/pulse-of-the-street-crude-retreats-but-markets-fail-to-break-losing-streak-11789739627282.html",
-      "published_at": "2026-09-18T14:55:45+00:00",
-      "summary": "Indian equities extend their losing streak to six weeks as crude volatility, Tata Group concerns and IPO fund flows weighed on sentiments."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Government Stock - Full Auction Results",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63622",
-      "published_at": "2026-09-18T14:40:00+00:00",
-      "summary": "(Amount in ₹ Crore) Auction Results 7.06% GS 2041 7.43% GS 2076 I. Notified Amount 17,000 11,000 II. Competitive Bids Received (i) Number 259 163 (ii) Amount 36,467.000 28,172.000 III. Cut-off price (₹) / Yield 98.45 96.73 (YTM: 7.2305%) (YTM: 7.6863%) IV. Competitive Bids Accepted (i) Number 128 58 (ii) Amount 16,944.261 10,965.727 V. Partial Allotment Percentage of Competitive Bids 26.2005% 62.8395% (24 bids) (4 bids) VI. Weighted Average Price (₹) / Yield 98.48 96.81 (WAY: 7.2271%) (WAY: 7.6798%) VII. Non-Competitive Bids Received (i) Number 4 4 (ii) Amount 55.739 34.273 VIII. Non-Competitive Bids Accepted (i) Number 4 4 (ii) Amount 55.739 34.273 (iii) Partial Allotment Percentage IX. Underwriting Notified Amount 17,000 11,000 X. Amount of Underwriting accepted from primary dealers 17,000 11,000 XI. Devolvement on Primary Dealers NIL NIL Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1144"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "(Weekly funding roundup Sept 12-18) Sharp fall in VC inflow",
-      "link": "https://yourstory.com/2026/09/weekly-funding-roundup-sept-12-18-sharp-fall-in-vc-inflow",
-      "published_at": "2026-09-18T14:15:51+00:00",
-      "summary": "The third week of September saw a sharp decline in venture capital funding into Indian startups and this was primarily due to absence of large deals"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Wall Street falls amid volatile oil prices and higher Treasury yields, Nucor slips 4.1%, Xenon tanks 27%",
-      "link": "https://www.livemint.com/market/stock-market-news/wall-street-mixed-amid-lower-oil-prices-and-higher-treasury-yields-11789740109962.html",
-      "published_at": "2026-09-18T14:15:02+00:00",
-      "summary": "At 10:17 a.m. ET, the Dow Jones Industrial Average fell 0.38%, the S&P 500 lost 0.22%, the Nasdaq Composite was down 0.16%"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "SFAL signs seven MoUs to boost India’s semiconductor ecosystem",
-      "link": "https://yourstory.com/2026/09/sfal-seven-mous-semicon-india-2026",
-      "published_at": "2026-09-18T14:05:12+00:00",
-      "summary": "SFAL signs seven MoUs at SEMICON India 2026 to connect startups with semiconductor research, design, manufacturing and investment."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Swiggy’s Money Map: The Verticals Built Around Food Delivery Core",
-      "link": "https://inc42.com/features/swiggys-money-map-the-verticals-built-around-food-delivery-core/",
-      "published_at": "2026-09-18T14:03:42+00:00",
-      "summary": "When Swiggy entered India’s online food delivery market back in 2014, it was the first one to solve the problem…"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Odisha Plans To Set Up A ‘Silicon Valley’ To Woo Semiconductor Companies",
-      "link": "https://inc42.com/buzz/odisha-plans-to-set-up-a-silicon-valley-to-woo-semiconductor-companies/",
-      "published_at": "2026-09-18T13:55:09+00:00",
-      "summary": "During the seventh edition of Semicon India today, Odisha’s chief minister (CM) Mohan Charan Majhi shared that the state is…"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Lenskart Solutions block deal: ADIA-backed investor likely to offload 1.7% stake: Report",
-      "link": "https://www.livemint.com/market/stock-market-news/lenskart-solutions-block-deal-adia-backed-investor-likely-to-offload-1-7-stake-report-11789738853707.html",
-      "published_at": "2026-09-18T13:45:02+00:00",
-      "summary": "Platinum Jasmine A 2018 Trust is set to divest its 1.7% stake in Lenskart Solutions, valued at ₹2,047.4 crore. The block deal pricing is a 3.5% discount from the recent closing price."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Government Stock - Auction Results: Cut-off",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63621",
-      "published_at": "2026-09-18T13:25:00+00:00",
-      "summary": "7.06% GS 2041 7.43% GS 2076 I. Notified Amount ₹17,000 crore ₹11,000 crore II. Cut off Price (₹) / Implicit Yield at cut-off 98.45/7.2305% 96.73/7.6863% III. Amount accepted in the auction ₹17,000 crore ₹11,000 crore IV. Devolvement on Primary Dealers NIL NIL Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1143"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Odisha announces 870-acre Silicon Valley, receives Rs 23,600 Cr investment proposals",
-      "link": "https://yourstory.com/2026/09/odisha-rs-452-cr-integrated-power-electronics-hub-iit-bhubaneswar",
-      "published_at": "2026-09-18T12:54:08+00:00",
-      "summary": "Odisha has approved a ₹452-crore National Industry Co-Development Hub on Integrated Power Electronics at IIT Bhubaneswar, Chief Minister Mohan Charan Majhi said at SEMICON India 2026 in New Delhi on Friday. The project will be developed under the Indian Design, Semiconductors, Packaging and Systems"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Tata Electronics signs five partnerships at Semicon India 2026",
-      "link": "https://yourstory.com/2026/09/tata-electronics-signs-five-partnerships-at-semicon-india-2026-",
-      "published_at": "2026-09-18T12:44:11+00:00",
-      "summary": "The partnerships with Sumitomo Chemical, Kelington, Enomoto, Sojitz Corporation & NRS CORPORATION, and L&T Semiconductor are expected to strengthen semiconductor supply chain, materials ecosystem, operational readiness, and packaging capabilities across India."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Rediff.com IPO: New UPI MDR rules open an additional revenue stream for the company: Report",
-      "link": "https://www.livemint.com/market/stock-market-news/rediffcom-ipo-new-upi-mdr-rules-open-an-additional-revenue-stream-for-the-company-report-11789732840605.html",
-      "published_at": "2026-09-18T12:33:59+00:00",
-      "summary": "Rediff.com stands to benefit from the government's new Merchant Discount Rate (MDR) on select UPI transactions, potentially enhancing its revenue as it prepares for market listing. The MDR changes, effective from October 15, aim to charge large ticket merchants while keeping most payments free."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "SEMICON India 2026: 25 MoUs signal India's chip ecosystem push",
-      "link": "https://yourstory.com/2026/08/semicon-india-2026-25-mous-chip-ecosystem",
-      "published_at": "2026-09-18T12:30:28+00:00",
-      "summary": "SEMICON India 2026 saw 25 MoUs across gases, chemicals, power electronics, skilling and logistics, anchoring India's chip ecosystem."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "10 Quotes to help you stop comparing yourself to others",
-      "link": "https://yourstory.com/2026/09/quotes-comparing-yourself",
-      "published_at": "2026-09-18T12:07:34+00:00",
-      "summary": "Discover 10 powerful quotes that help you stop comparing yourself to others and focus on your own growth, confidence, and happiness."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "1:10 stock split: This multibagger nears record date, turns ₹10,000 into ₹5.3 lakh in 2 yrs | Do you own?",
-      "link": "https://www.livemint.com/market/stock-market-news/110-stock-split-this-multibagger-nears-record-date-turns-rs-10-000-into-rs-5-26-lakh-in-2-yrs-do-you-own-11789731139609.html",
-      "published_at": "2026-09-18T12:05:05+00:00",
-      "summary": "Multibagger stock, Midwest Energy Limited, is set to split at a 1:10 ratio, with a record date of September 25. Check details"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "TCS, Tata Chemicals, Tata Steel to Tata Motors PV — Tata Group stock lost 46,600 crores in a single day",
-      "link": "https://www.livemint.com/market/stock-market-news/tcs-tata-chemicals-tata-steel-to-tata-motors-pv-tata-group-stock-lost-46-600-crores-in-a-single-day-11789728923950.html",
-      "published_at": "2026-09-18T11:48:01+00:00",
-      "summary": "Tata Group companies experienced a significant market cap drop of ₹46,600 crore amid a mounting governance crisis and investor uncertainty. The turmoil followed a board decision to extend Chairman Natarajan Chandrasekaran's tenure and potential public listing plans."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Maharatna PSU stock Power Grid to raise ₹5,000 crore through bonds: Check issue size, tenure and details",
-      "link": "https://www.livemint.com/market/stock-market-news/maharatna-psu-stock-power-grid-to-raise-rs-5-000-crore-through-bonds-check-issue-size-tenure-and-details-11789728216600.html",
-      "published_at": "2026-09-18T11:33:11+00:00",
-      "summary": "Power Grid Corporation of India plans to raise ₹5,000 crore through a private bond placement, approved by its Committee of Directors. The bonds are unsecured and will be listed on BSE and NSE, with a 10-year tenure and annual redemptions starting after four years."
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Seller KYC, counterfeit listings & AI: conversation on Indian e-commerce enforcement",
-      "link": "https://www.medianama.com/2026/09/223-seller-kyc-counterfeit-ai-e-commerce/",
-      "published_at": "2026-09-18T11:24:39+00:00",
-      "summary": "The experts at the event called for standardised onboarding checks of sellers and sharing of alerts so that a person removed from one platform for selling counterfeits doesn't resurface on another. The post Seller KYC, counterfeit listings & AI: conversation on Indian e-commerce enforcement appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "IPO GMP comparison: NSE vs Hero Motors vs SS Retail vs Jindal Supreme - Check which has worst grey market premium?",
-      "link": "https://www.livemint.com/market/ipo/ipo-gmp-comparison-nse-vs-hero-motors-vs-ss-retail-vs-jindal-supreme-check-which-has-worst-grey-market-premium-11789723108344.html",
-      "published_at": "2026-09-18T11:20:15+00:00",
-      "summary": "India's IPO market is active with offerings from NSE, Hero Motors, SS Retail, and Jindal Supreme. Hero Motors IPO saw a decline in grey market premium while NSE IPO indicated a muted listing gain. SS Retail and Jindal Supreme show strong subscription rates and potential listing gains."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Expert view: Elevated bond yields to put pressure on Nifty PE, says Wealthy's head of research",
-      "link": "https://www.livemint.com/market/stock-market-news/expert-view-elevated-bond-yields-to-put-pressure-on-nifty-pe-says-wealthys-head-of-research-11789729062189.html",
-      "published_at": "2026-09-18T11:12:21+00:00",
-      "summary": "As global bond yields climb, the impact on Indian equities is becoming increasingly evident. Wealthy's Niharika Tripathi warns that sustained higher yields may compress valuations and reshape investment strategies, prioritising earnings visibility over speculative growth."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Asiana Fund, Taiwan's JC Capital join hands for Rs 1,000 Cr fund",
-      "link": "https://yourstory.com/2026/09/asiana-fund-jc-capital-taiwan-join-hands-for-rs-1000-cr-fund",
-      "published_at": "2026-09-18T11:01:29+00:00",
-      "summary": "The fund will invest in growth-stage startups across advanced manufacturing, semiconductors, computing, materials, aerospace and defence."
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Lowdown: What’s in the EU KIDS Act restricting children’s social media access",
-      "link": "https://www.medianama.com/2026/09/223-eu-kids-act-children-online/",
-      "published_at": "2026-09-18T10:58:51+00:00",
-      "summary": "The KIDS Act proposes different rules for children below three, under 13, under 15 and under 18, rather than a blanket restriction for all minors. The post Lowdown: What’s in the EU KIDS Act restricting children’s social media access appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "OTPless Names Satyam Nathani CEO As Bhavik Koladiya Steps Away",
-      "link": "https://inc42.com/buzz/otpless-names-satyam-nathani-ceo-as-bhavik-koladiya-steps-away/",
-      "published_at": "2026-09-18T10:56:26+00:00",
-      "summary": "Identity and access management startup OTPless has elevated cofounders Satyam Nathani and Tanmay Sagar as CEO and COO, respectively, as…"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "RBI funding curbs, CAS take a toll on proprietary volumes",
-      "link": "https://www.livemint.com/market/stock-market-news/proprietary-traders-nse-equity-options-trading-share-falls-rbi-funding-norms-cas-11789717692603.html",
-      "published_at": "2026-09-18T10:53:15+00:00",
-      "summary": "Equity options market share of prop traders fell to a 22-month low on NSE in Aug. BSE which doesn't provide such data suffered too as overall volumes fell more sharply. CAS review a silver lining"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Gold price extends gains despite US Fed rate hike: Should investors chase the rally? Key outlook explained",
-      "link": "https://www.livemint.com/market/stock-market-news/gold-price-extends-gains-despite-us-fed-rate-hike-should-investors-chase-the-rally-key-outlook-explained-11789727563285.html",
-      "published_at": "2026-09-18T10:51:10+00:00",
-      "summary": "Gold prices rose for the third consecutive day as declining crude oil prices and a drop in global bond yields bolstered sentiment. MCX gold hit ₹1,54,600 per 10 grams, marking a three-day gain of ₹3,791, as analysts urge caution amidst volatile market conditions."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Tata Sons listing: Tata Chemicals vs Tata Steel vs Tata Power — Which Tata Group stocks may benefit most? Experts decode",
-      "link": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-tata-chemicals-vs-tata-steel-vs-tata-power-which-tata-group-stocks-may-benefit-most-experts-decode-11789722802716.html",
-      "published_at": "2026-09-18T10:47:50+00:00",
-      "summary": "Tata Sons Listing: A total of seven Tata Group stocks have shareholding in Tata Sons"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "This newly listed stock more than doubled investors' money in less than 2 months; HDFC Securities sees further upside",
-      "link": "https://www.livemint.com/market/stock-market-news/this-newly-listed-stock-more-than-doubled-investors-money-in-less-than-2-months-hdfc-securities-sees-further-upside-11789726391489.html",
-      "published_at": "2026-09-18T10:45:15+00:00",
-      "summary": "The stock debuted on the Indian bourses on 30 July this year. Currently, it is up almost 118% from its IPO price of ₹485. The stock's record low is ₹701, set on the listing day itself."
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Here’s how tech leaders and countries reacted to Amodei’s call to slowdown AI",
-      "link": "https://www.medianama.com/2026/09/223-tech-leaders-countries-amodei-slowdown-ai/",
-      "published_at": "2026-09-18T10:21:55+00:00",
-      "summary": "Some tech CEOs like Sam Altman, Elon Musk have backed Amodei's call for slowing down AI while others like Zuckerberg have taken a different approach. The US rejected the call while China termed it a \"Cold War\" playbook. The post Here’s how tech leaders and countries reacted to Amodei’s call to slowdown AI appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Result of the 3-day Variable Rate Reverse Repo (VRRR) auction held on September 18, 2026",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63620",
-      "published_at": "2026-09-18T10:20:00+00:00",
-      "summary": "Tenor 3-day Notified Amount (in ₹ crore) 2,25,000 Total amount of offers received (in ₹ crore) 2,22,629 Amount accepted (in ₹ crore) 2,22,629 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1142"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Sahyadri College launches ACIC to support startups in Coastal Karnataka",
-      "link": "https://yourstory.com/2026/09/sahyadri-college-acic-sahyadri-coastal-karnataka-startups",
-      "published_at": "2026-09-18T10:18:44+00:00",
-      "summary": "Sahyadri College launches ACIC Sahyadri to support grassroots innovators, entrepreneurs and startups across Coastal Karnataka."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Ashwini Vaishnaw's Big Bet: India Wants 200 Chip Design Startups, Not Just Fabs",
-      "link": "https://yourstory.com/2026/09/india-chip-design-startups-semicon-2-0-msme",
-      "published_at": "2026-09-18T10:05:37+00:00",
-      "summary": "As India firms up its second semiconductor phase, small design startups and MSME manufacturers are being positioned as the ecosystem's backbone."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Adani Energy vs CESC vs Tata Power vs NTPC vs Power Grid: Which stock has more upside? Target price by PL Capital",
-      "link": "https://www.livemint.com/market/stock-market-news/adani-energy-vs-cesc-vs-tata-power-vs-ntpc-vs-power-grid-which-stock-has-more-upside-target-price-by-pl-capital-11789725460017.html",
-      "published_at": "2026-09-18T10:04:08+00:00",
-      "summary": "Adani Energy, Coal India, Tata Power, NTPC, and Power Grid are set to benefit from upcoming power transmission projects. According to PL Capital, CESC is expected to deliver the highest return of 54%, while NTPC and Power Grid also have positive outlooks. Check target price"
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Oversight Board’s recommendations on Meta’s AI labelling raise questions for India’s deepfake rules",
-      "link": "https://www.medianama.com/2026/09/223-oversight-boards-metas-ai-labelling/",
-      "published_at": "2026-09-18T09:56:04+00:00",
-      "summary": "The Oversight Board overturned Meta’s decision to leave up an AI deepfake of a Scottish councillor and called for wider AI labels, stronger penalties and safeguards for political deepfakes. The post Oversight Board’s recommendations on Meta’s AI labelling raise questions for India’s deepfake rules appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "RBI",
-      "section": "macro",
-      "title": "Result of Underwriting Auction conducted on September 18, 2026",
-      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63619",
-      "published_at": "2026-09-18T09:55:00+00:00",
-      "summary": "In the underwriting auction conducted on September 18, 2026, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rate for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU Commission Cut-off rate (paise per ₹100) 7.06% GS 2041 17,000 8,505 8,495 17,000 0.43 7.43% GS 2076 11,000 5,502 5,498 11,000 0.72 Auction for the sale of securities will be held on September 18, 2026. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1141"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Asiana Fund, JC Capital Launch ₹1,000 Cr Fund To Back Deeptech Startups",
-      "link": "https://inc42.com/buzz/asiana-fund-jc-capital-launch-%e2%82%b91000-cr-fund-to-back-deeptech-startups/",
-      "published_at": "2026-09-18T09:53:31+00:00",
-      "summary": "Asiana Fund, the investment platform of the Dani Family Office, and Taiwan-based VC firm JC Capital have launched the ₹1,000…"
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "PhonePe, Paytm, MobiKwik back UPI MDR above Rs 2,000",
-      "link": "https://www.medianama.com/2026/09/223-payment-ceos-on-upi-mdr-phonepe-paytm-mobikwik/",
-      "published_at": "2026-09-18T09:24:13+00:00",
-      "summary": "MobiKwik, PhonePe and Paytm executives have welcomed the introduction of MDR on eligible UPI merchant transactions above Rs 2,000. The post PhonePe, Paytm, MobiKwik back UPI MDR above Rs 2,000 appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Small-cap stock under ₹50 jumps over 7% following stock market rebound",
-      "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-jumps-over-7-following-stock-market-rebound-11789718408882.html",
-      "published_at": "2026-09-18T09:05:41+00:00",
-      "summary": "Bhatia Communications & Retail shares rose over 7% as market indices rallied. The stock gained 66.60% YTD and reported a 90% YoY increase in Q1FY27 net profit to ₹6.8 crore, with revenues up 70% YoY to ₹190 crore."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "India Needs Hundreds Of Chip Companies To Build Global Ecosystem: L&T Semicon CEO",
-      "link": "https://inc42.com/buzz/india-needs-hundreds-of-chip-companies-to-build-global-ecosystem-lt-semicon-ceo/",
-      "published_at": "2026-09-18T09:03:53+00:00",
-      "summary": "“India will need hundreds of semiconductor companies to build a globally competitive chip ecosystem, as the country looks to move…"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "No nation builds a chip alone: Vikram Misri's case for partnership at SEMICON India 2026",
-      "link": "https://yourstory.com/2026/09/semicon-india-2026-vikram-misri-chip-self-reliance-partnerships",
-      "published_at": "2026-09-18T08:32:36+00:00",
-      "summary": "Vikram Misri says India’s semiconductor self-reliance will depend on critical domestic capabilities and trusted global partners."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "India wants 1 lakh chip engineers: MeitY Secretary S Krishnan on what students must learn to be ready",
-      "link": "https://yourstory.com/2026/09/india-semiconductor-mission-1-lakh-chip-engineers-krishnan",
-      "published_at": "2026-09-18T08:24:55+00:00",
-      "summary": "MeitY Secretary S Krishnan explains why the India Semiconductor Mission delivered operational plants in four years and what ISM 2.0 changes"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Should you buy or sell IDFC First Bank, PVR INOX, Titan shares? Here's what Religare Broking's Ajit Mishra suggests",
-      "link": "https://www.livemint.com/market/stock-market-news/should-you-buy-or-sell-idfc-first-bank-pvr-inox-titan-shares-heres-what-religare-brokings-ajit-mishra-suggests-11789717900551.html",
-      "published_at": "2026-09-18T08:21:57+00:00",
-      "summary": "Ajit Mishra, SVP of Research at Religare Broking, believes that the Nifty’s ability to sustain above the 23,000–23,100 zone is encouraging, but the broader structure remains cautious following the recent correction."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Shapoorji Pallonji Group for public listing of Tata Sons",
-      "link": "https://yourstory.com/2026/09/shapoorji-pallonji-group-for-public-listing-of-tata-sons",
-      "published_at": "2026-09-18T08:19:53+00:00",
-      "summary": "Rift widens at the Tata Group The decision of Shapoorji Pallonji Group noted that public listing of Tata Sons is not just a regulatory matter but also a social & moral imperative The Shapoorji Pallonji Group, one of the key shareholders in Tata Sons has made it very clear that it is all for publ"
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Beyond Tata Sons listing boost, Tata Chemicals investors face earnings pressure",
-      "link": "https://www.livemint.com/market/mark-to-market/rbi-tata-sons-listing-tata-chemicals-shares-soda-ash-earnings-11789715166120.html",
-      "published_at": "2026-09-18T08:18:46+00:00",
-      "summary": "A potential value unlock from Tata Sons’ listing has lifted Tata Chemicals, but weak global soda ash prices and rising costs could delay an earnings recovery."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Nestle India share price falls 3%: FSSAI takes legal action over 3 baby products",
-      "link": "https://www.livemint.com/market/stock-market-news/nestle-india-share-price-falls-3-fssai-takes-legal-action-over-3-baby-products-11789718539721.html",
-      "published_at": "2026-09-18T08:08:49+00:00",
-      "summary": "Nestle India's shares fell around 3% on September 18 after the FSSAI launched legal action over multiple food safety violations. The regulator filed cases regarding three products, following laboratory tests failing to meet Biotin requirements."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Dividend comparison: Maharatna SAIL vs Navratna NMDC - Yield, PSU stocks performance ahead of record date",
-      "link": "https://www.livemint.com/market/stock-market-news/dividend-comparison-maharatna-sail-vs-navratna-nmdc-yield-psu-stocks-performance-ahead-of-record-date-11789714024443.html",
-      "published_at": "2026-09-18T08:07:28+00:00",
-      "summary": "Maharatna SAIL declared a ₹2.35 per share dividend, yielding 1.32%, while Navratna NMDC announced a Re 1 dividend, with an annual yield of 3.8%. Check the comparison between the two PSU stocks."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "iPhone 18 Pro price in India: How to buy the 256GB model under ₹1 lakh",
-      "link": "https://www.livemint.com/technology/iphone-18-pro-price-in-india-how-to-buy-the-256gb-model-under-1-lakh-11789714885307.html",
-      "published_at": "2026-09-18T07:56:06+00:00",
-      "summary": "iPhone 18 Pro (256GB) is priced at ₹164,900 in India, but Flipkart shows a deal price of ₹99,400 after an iPhone 16 exchange bonus ( ₹47,500) and Axis Bank card discount ( ₹8,000)."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Rentomojo share price rises 44% above IPO price: What should investors watch now?",
-      "link": "https://www.livemint.com/market/stock-market-news/rentomojo-share-price-rises-44-above-ipo-price-what-should-investors-watch-now-11789716691840.html",
-      "published_at": "2026-09-18T07:55:49+00:00",
-      "summary": "Rentomojo share price fell by over 1% in its second trading session, yet it remains 44% higher than its IPO price of ₹404. The stock opened at ₹566.95, hit a low of ₹524.95, and closed at ₹532.95, highlighting strong investor interest."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Sebi board may discuss PMS, ad code, settlement rules at 24 September meet",
-      "link": "https://www.livemint.com/market/stock-market-news/sebi-board-meeting-pms-ad-code-settlement-rules-fpi-11789713674078.html",
-      "published_at": "2026-09-18T07:53:41+00:00",
-      "summary": "Sebi is likely to discuss comprehensive changes to PMS regulations, a common advertisement framework, and settlement rules in its upcoming meeting, alongside proposals for increasing foreign investor participation in various financial instruments."
-    },
-    {
-      "source": "Mint Markets",
-      "section": "macro",
-      "title": "Final day to buy Hero Motors, SS Retail, Jindal Supreme: Which issue has highest IPO GMP? Check subscription, review",
-      "link": "https://www.livemint.com/market/ipo/final-day-to-buy-hero-motors-ss-retail-jindal-supreme-which-issue-has-highest-ipo-gmp-check-ipo-subscription-review-11789715942088.html",
-      "published_at": "2026-09-18T07:52:48+00:00",
-      "summary": "The three IPOs - Hero Motors, SS Retail, and Jindal Supreme - showcase potential in automotive, retail, and steel sectors. As bidding wraps up today, investors are eyeing robust subscription rates and grey market premiums for insights."
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Delhi HC to examine whether creator can challenge YouTube termination through writ petition",
-      "link": "https://www.medianama.com/2026/09/223-delhi-hc-youtube-channel-termination/",
-      "published_at": "2026-09-18T07:11:13+00:00",
-      "summary": "The case examines whether a creator can use a writ petition to challenge a GAC order upholding Google’s termination of his YouTube channel. The post Delhi HC to examine whether creator can challenge YouTube termination through writ petition appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Apple softens EU tracking prompts after antitrust pressure",
-      "link": "https://www.medianama.com/2026/09/223-apple-eu-tracking-prompts-antitrust/",
-      "published_at": "2026-09-18T07:07:33+00:00",
-      "summary": "The redesigned, less intrusive version of the App Tracking Transparency pop-up to be available in 5 EU nations would be a full-screen display, drop the word \"track\" from the prompt and have a clickable link. The post Apple softens EU tracking prompts after antitrust pressure appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "SEMICON India 2026 Day 2: PM Modi launches commercial production at Suchi semicon’s Surat plant",
-      "link": "https://www.livemint.com/technology/semicon-india-2026-day-2-live-updates-india-shifts-focus-from-semiconductor-policy-to-commercial-production-11789709711171.html",
-      "published_at": "2026-09-18T06:41:45+00:00",
-      "summary": "SEMICON India 2026 Day 2 focuses on India’s shift from semiconductor policy announcements to commercial chip production and ecosystem development. ASML and industry leaders highlighted growing global confidence in India, with five semiconductor projects already in commercial production."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Apple Pay May Launch In India Next Month With Axis Bank Partnership: Report",
-      "link": "https://inc42.com/buzz/apple-pay-may-launch-in-india-next-month-with-axis-bank-partnership-report/",
-      "published_at": "2026-09-18T06:41:04+00:00",
-      "summary": "Apple is eyeing the launch of its payments service Apple Pay in India as early as next month, with Axis…"
-    },
-    {
-      "source": "Bloomberg · Anup Roy",
-      "section": "macro",
-      "title": "India’s ‘Sugar High’ Warrants Caution on RBI Hikes, Aziz Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/india-s-sugar-high-warrants-caution-on-rbi-hikes-aziz-says",
-      "published_at": "2026-09-18T06:40:07+00:00",
+      "title": "Iran and China create first-of-their-kind autonomous AI influence campaigns",
+      "link": "https://indianexpress.com/article/technology/tech-news-technology/iran-and-china-create-first-of-their-kind-autonomous-ai-influence-campaigns-10886860/",
+      "published_at": "2026-09-21T03:52:20+00:00",
       "summary": ""
     },
     {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "Delhi HC orders real-time blocking of websites pirating Amazon’s ‘VIBE’",
-      "link": "https://www.medianama.com/2026/09/223-delhi-hc-blocking-pirating-amazons-vibe/",
-      "published_at": "2026-09-18T06:26:17+00:00",
-      "summary": "The Delhi High Court ordered 11 piracy websites blocked ahead of VIBE’s release, after Amazon alleged they could illegally stream or distribute the film and harm its commercial value. The post Delhi HC orders real-time blocking of websites pirating Amazon’s ‘VIBE’ appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Semicon 2026: India’s semiconductor push turns to localising materials, gases",
-      "link": "https://yourstory.com/2026/09/semicon-2026-indias-semiconductor-push-turns-to-localising-materials-gases",
-      "published_at": "2026-09-18T06:12:36+00:00",
-      "summary": "India has shown it can get chip plants into production. Executives from Kaynes Semicon, INOX Air Products, Merck Electronics and L&T Semiconductor say the focus now is building a deeper domestic supply chain and reducing dependence on imports."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "India needs hundreds of chip companies to build a global ecosystem, says L&T Semiconductor CEO",
-      "link": "https://yourstory.com/2026/09/india-needs-hundreds-of-chip-companies-to-build-global-ecosystem-lt-semiconductor-ceo",
-      "published_at": "2026-09-18T05:32:47+00:00",
-      "summary": "India has strengths in digital compute, analogue and RF technologies, but needs to deepen capabilities in system architecture, memory, optics, high-power chips and manufacturing, said Sandeep Kumar, CEO of L&T Semiconductor Technologies."
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "NHAI, GST Network & Mumbai Metro detail their AI use cases at GFF 2026",
-      "link": "https://www.medianama.com/2026/09/223-nhai-gstn-mumbai-metro-ai-use-cases/",
-      "published_at": "2026-09-18T05:17:05+00:00",
-      "summary": "GSTN is using AI to work with unstructured taxpayer documents and support software development, security and multilingual compliance. The post NHAI, GST Network & Mumbai Metro detail their AI use cases at GFF 2026 appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "India has ‘building blocks’ for semiconductor growth, must bridge knowledge, market gaps: L&T Semiconductor Tech CEO",
-      "link": "https://www.livemint.com/technology/india-has-building-blocks-for-semiconductor-growth-must-bridge-knowledge-market-gaps-l-t-semiconductor-tech-ceo-11789708579964.html",
-      "published_at": "2026-09-18T05:16:19+00:00",
-      "summary": "India has the building blocks to strengthen its position in the semiconductor industry but must bridge knowledge and global market-exposure gaps, L&T Semiconductor Technologies CEO Sandeep Kumar said, highlighting artificial intelligence (AI) is not a hype but a reality and not an anomaly in the evolution of technology."
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Semicon 2.0 has drawn about $12B in investment commitments: IT minister Vaishnaw",
-      "link": "https://yourstory.com/2026/09/semicon-20-draws-11-12b-in-investment-commitments-it-min-vaishnaw",
-      "published_at": "2026-09-18T04:32:12+00:00",
-      "summary": "The investment commitments span a broad swathe of the semiconductor ecosystem, including equipment, materials, gases, chemicals, assembly, testing, marking and packaging units, substrates and even wafers."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "iPhone 18 Pro, Pro Max sale begins in India; fans call launch a ‘festival’, queues form across cities",
-      "link": "https://www.livemint.com/technology/tech-news/iphone-18-pro-pro-max-sale-begins-in-india-as-fans-call-launch-a-festival-queues-form-across-cities-11789703821553.html",
-      "published_at": "2026-09-18T04:24:36+00:00",
-      "summary": "Apple’s iPhone 18 Pro and iPhone 18 Pro Max went on sale in India on 18 September, drawing long queues at stores across Bengaluru, Noida and Maharashtra. Several buyers arrived hours early, with some travelling from other cities to collect their pre-booked devices."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "UPI’s MDR Era, SEMICON India Day 1 Highlights & More",
-      "link": "https://inc42.com/buzz/upis-mdr-era-semicon-india-day-1-highlights-more/",
-      "published_at": "2026-09-18T02:30:53+00:00",
-      "summary": "Who Will Foot The UPI MDR Bill? UPI transformed digital payments by making them virtually free. From October 15, this…"
-    },
-    {
-      "source": "YourStory",
-      "section": "tech",
-      "title": "Chandra stays at Tata Sons, but Noel strongly objects; Updates from SEMICON India 2026",
-      "link": "https://yourstory.com/2026/09/chandra-back-at-tata-sons-but-noel-strongly-objects",
-      "published_at": "2026-09-18T02:00:00+00:00",
-      "summary": "N Chandrasekaran has reversed his exit decision and agreed to continue as Executive Chairman of Tata Sons for another five years. The Tata Sons board has approved his reappointment but Noel Tata has opposed the move."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "Anthropic flags AI systems self-improvement; bats for greater transparency in development of models",
-      "link": "https://www.livemint.com/technology/anthropic-flags-ai-systems-self-improvement-bats-for-greater-transparency-in-development-of-models-11789693559990.html",
-      "published_at": "2026-09-18T01:05:59+00:00",
-      "summary": "Anthropic further said that it had laid out a framework for rules on how a frontier lab could ensure the release of safe models and transparency."
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "OpenAI flags concerning new AI behavior and vows to track it more closely",
-      "link": "https://www.livemint.com/technology/openai-flags-concerning-new-ai-behavior-and-vows-to-track-it-more-closely-11789685946106.html",
-      "published_at": "2026-09-17T22:59:05+00:00",
-      "summary": "OpenAI flags concerning new AI behavior and vows to track it more closely"
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
-      "link": "https://www.livemint.com/technology/anthropic-says-claude-now-leads-a-quarter-of-work-building-its-next-ai-models-11789683004514.html",
-      "published_at": "2026-09-17T22:10:04+00:00",
-      "summary": "AI-ANTHROPIC/SAFETY (PIX):Anthropic says Claude now leads a quarter of work building its next AI models"
-    },
-    {
-      "source": "Mint Technology",
-      "section": "tech",
-      "title": "OpenAI, Microsoft executives quotes on AI training threaten copyright defense, news outlets argue",
-      "link": "https://www.livemint.com/technology/openai-microsoft-executives-quotes-on-ai-training-threaten-copyright-defense-news-outlets-argue-11789681359473.html",
-      "published_at": "2026-09-17T21:42:39+00:00",
-      "summary": "AI-LAWSUIT/NEW YORK TIMES-OPENAI (PIX):OpenAI, Microsoft executives' quotes on AI training threaten copyright defense, news outlets argue"
-    },
-    {
-      "source": "Bloomberg · Ruchi Bhatia",
+      "source": "Mint Markets",
       "section": "macro",
-      "title": "India Recruits Its Diaspora Into the Campaign for the Rupee",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-17/india-recruits-its-diaspora-into-the-campaign-for-the-rupee",
-      "published_at": "2026-09-17T21:00:24+00:00",
-      "summary": "Indians living abroad have thrived, and the government considers them a source of economic stability."
+      "title": "Lenskart Solutions share price drops 3% due to a likely ₹2,047 crore block deal | Details here",
+      "link": "https://www.livemint.com/market/stock-market-news/lenskart-solutions-share-price-drops-3-due-to-a-likely-2-047-crore-block-deal-details-here-11789961644498.html",
+      "published_at": "2026-09-21T03:50:40+00:00",
+      "summary": "Lenskart Solutions share price dropped in early deals on Monday, 21 September, due to a likely block deal of 3 crore shares, or around 1.7% of the company's equity. Lenskart Solutions shares opened at ₹687.95 against their previous close of ₹706.60 and dropped 3.1% to an intraday low of ₹684.60."
     },
     {
-      "source": "Mint Technology",
+      "source": "Indian Express Technology",
       "section": "tech",
-      "title": "iPhone 18 Pro goes on sale in India today—You can now get it delivered via Blinkit",
-      "link": "https://www.livemint.com/technology/tech-news/iphone-18-pro-goes-on-sale-in-india-today-you-can-now-get-it-delivered-in-minutes-via-blinkit-11789674814679.html",
-      "published_at": "2026-09-17T20:16:17+00:00",
-      "summary": "Customers who have not been able to secure the new iPhones through Apple’s online store or other major e-commerce platforms can check their availability on Blinkit."
+      "title": "Cybercrime feud erupts on dark web as notorious group claims hijack of rival’s website",
+      "link": "https://indianexpress.com/article/technology/tech-news-technology/cybercrime-feud-erupts-on-dark-web-as-notorious-group-claims-hijack-of-rivals-website-10886853/",
+      "published_at": "2026-09-21T03:45:46+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "Facebook and Instagram down for thousands of users in US",
+      "link": "https://indianexpress.com/article/technology/tech-news-technology/facebook-and-instagram-down-for-thousands-of-users-in-us-10886848/",
+      "published_at": "2026-09-21T03:40:54+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Latest GMP compared: NSE IPO vs Sonaselection India IPO - Last day to apply today | Share listing price prediction",
+      "link": "https://www.livemint.com/market/ipo/latest-gmp-compared-nse-ipo-vs-sonaselection-india-ipo-last-day-to-apply-today-share-listing-price-prediction-11789957437085.html",
+      "published_at": "2026-09-21T03:18:59+00:00",
+      "summary": "The GMP of NSE IPO has fallen to its lowest level since the price band announcement."
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "Spacetech’s Next Big Test, Weekly Funding Rundown & More",
+      "link": "https://inc42.com/buzz/spacetechs-next-big-test-weekly-funding-rundown-more/",
+      "published_at": "2026-09-21T02:30:12+00:00",
+      "summary": "Spacetech At A Crossroads The Indian spacetech ecosystem is facing its biggest test yet. Despite record funding, regulatory push and…"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Tata stocks crashed on Friday; investors lost over ₹52k crore - Will shares bounce back today amid boardroom battle?",
+      "link": "https://www.livemint.com/market/stock-market-news/tata-stocks-crashed-on-friday-investors-lost-over-52k-crore-will-shares-bounce-back-today-amid-boardroom-battle-11789953995568.html",
+      "published_at": "2026-09-21T02:06:19+00:00",
+      "summary": "According to Sachdeva, Founder of SS WealthStreet, Tata Group stocks are likely to remain susceptible to headline-driven volatility, until greater clarity emerges on Chandrasekaran’s leadership"
     },
     {
       "source": "YourStory",
       "section": "tech",
-      "title": "ISM 2.0 will shift from building fabs to building the ecosystem: MeitY Secretary Krishnan",
-      "link": "https://yourstory.com/2026/09/ism-2-meity-krishnan-semicon-india-2026-packaging-rd-talent",
-      "published_at": "2026-09-17T18:59:17+00:00",
-      "summary": "MeitY Secretary S Krishnan says India Semiconductor Mission 2.0 will back packaging, R&D and shop-floor talent after ISM 1.0 spent its corpus early"
+      "title": "Weekly VC funding falls below $100M again; How Ottonomy is building robots for real-world logistics",
+      "link": "https://yourstory.com/2026/09/weekly-vc-funding-falls-ottonomy-is-building-robots-for-logistics",
+      "published_at": "2026-09-21T02:00:00+00:00",
+      "summary": "This is the seventh time in the year that VC funding on a weekly basis has fallen below $100 million, revealing the challenges the Indian startup ecosystem faces in raising large amounts of capital."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Oil Slumps for Fourth Day With Diplomacy and Hormuz in Focus",
+      "link": "https://www.livemint.com/market/oil-slumps-for-fourth-day-with-diplomacy-and-hormuz-in-focus-11789954897676.html",
+      "published_at": "2026-09-21T01:41:37+00:00",
+      "summary": "Oil fell for a fourth day, set for the longest losing run since June, as traders tracked diplomatic efforts to end the US-Iran war and signs that cargoes are still getting through the Strait of Hormuz."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "How Asian markets, crude will impact Sensex, Nifty today: What GIFT Nifty, Nikkei, Kospi, Taiwan signals for India",
+      "link": "https://www.livemint.com/market/stock-market-news/how-asian-markets-crude-will-impact-sensex-nifty-today-what-gift-nifty-nikkei-kospi-taiwan-signals-for-india-11789951725306.html",
+      "published_at": "2026-09-21T01:22:09+00:00",
+      "summary": "Gift Nifty was trading around the 23,320 level, down nearly 58.50 points from the Nifty futures’ previous close, indicating a negative start for the Indian stock market indices."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Australian shares edge lower as banks and miners drag",
+      "link": "https://www.livemint.com/market/australian-shares-edge-lower-as-banks-and-miners-drag-11789953362484.html",
+      "published_at": "2026-09-21T01:16:02+00:00",
+      "summary": "AUSTRALIA-STOCKS/ MIDDAY:Australian shares edge lower as banks and miners drag"
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "Ottonomy is building robots for real-world logistics",
+      "link": "https://yourstory.com/2026/09/ottonomy-is-building-robots-for-real-world-logistics",
+      "published_at": "2026-09-21T01:15:00+00:00",
+      "summary": "With a production facility in Noida, Sunnyvale-based deeptech startup Ottonomy has deployed its products across North America, Europe, the Middle East, and India."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "History shows Nifty has rebounded after six consecutive weeks of decline; Will it repeat this time?",
+      "link": "https://www.livemint.com/market/stock-market-news/history-shows-nifty-has-rebounded-after-six-consecutive-weeks-of-decline-will-it-repeat-this-time-11789951283719.html",
+      "published_at": "2026-09-21T00:48:11+00:00",
+      "summary": "Despite this recovery, the overall trend remained under pressure as the index extended its losing streak to the sixth consecutive week, marking one of the longest correction phases in recent times."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Oil slips as investors assess Saudi export recovery",
+      "link": "https://www.livemint.com/market/oil-slips-as-investors-assess-saudi-export-recovery-11789950982078.html",
+      "published_at": "2026-09-21T00:36:21+00:00",
+      "summary": "GLOBAL-OIL:Oil slips as investors assess Saudi export recovery"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Nifty may recover after two years of underperformance, says Anand Rathi’s Azeez",
+      "link": "https://www.livemint.com/market/stock-market-news/nifty-may-recover-after-two-years-of-underperformance-says-anand-rathi-s-azeez-11789883934427.html",
+      "published_at": "2026-09-21T00:30:53+00:00",
+      "summary": "Azeez now oversees ₹1.06 lakh crore in assets under management (AUM), up sharply from ₹32,000 crore four and a half years ago."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "EMs have a bitter pill to swallow",
+      "link": "https://www.livemint.com/market/mark-to-market/ems-have-a-bitter-pill-to-swallow-11789883644014.html",
+      "published_at": "2026-09-21T00:30:53+00:00",
+      "summary": "Tightening monetary policy and higher bond yields in developed markets are pushing capital away from emerging economies, weakening their currencies and raising corporate debt costs."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Stock recommendations for 21 September from MarketSmith India",
+      "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-21-september-from-marketsmith-india-11789807133018.html",
+      "published_at": "2026-09-21T00:30:13+00:00",
+      "summary": "MarketSmith India reveals its top stock recommendations for today, 21 September. Get expert insights into the best-performing stocks to guide your investment decisions."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Raja Venkatraman recommends three stocks for 21 September",
+      "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-21-september-11789806554949.html",
+      "published_at": "2026-09-21T00:30:13+00:00",
+      "summary": "Market expert Raja Venkatraman shares his top stock picks for 21 September. Here’s his technical outlook and trade strategy."
     },
     {
       "source": "Inc42",
       "section": "tech",
-      "title": "Kissht Gets Board Nod To Raise ₹832 Cr Via Preferential Issue",
-      "link": "https://inc42.com/buzz/kissht-gets-board-nod-to-raise-%e2%82%b9832-cr-via-preferential-issue/",
-      "published_at": "2026-09-17T18:46:52+00:00",
-      "summary": "Listed NBFC Kissht has secured board approval to raise up ₹832.2 Cr via a preferential issue of equity shares to…"
+      "title": "Kissht, Ola Electric & More: Why Listed Startups Keep Going Back To The Well",
+      "link": "https://inc42.com/features/kissht-ola-electric-more-why-listed-startups-keep-going-back-to-the-well/",
+      "published_at": "2026-09-21T00:30:12+00:00",
+      "summary": "Barely four months after making its stock market debut, digital lending platform Kissht is back in the public markets for…"
     },
     {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "MDR On UPI Is Here, But Who Foots The Bill?",
-      "link": "https://inc42.com/features/mdr-on-upi-is-here-but-who-foots-the-bill/",
-      "published_at": "2026-09-17T14:37:12+00:00",
-      "summary": "UPI is one of the cheapest ways for Indian merchants to collect digital payments. Now, the economics of India’s biggest…"
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Oil Steady as Traders Look to Mideast Supply Risks and Diplomacy",
+      "link": "https://www.livemint.com/market/oil-steady-as-traders-look-to-mideast-supply-risks-and-diplomacy-11789945835765.html",
+      "published_at": "2026-09-20T23:10:35+00:00",
+      "summary": "Oil steadied as traders tracked supply risks in the Middle East, and intensified diplomatic efforts to end the US-Iran war."
     },
     {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "SEBI Greenlights Kuku Technologies’ ₹3,500 Cr IPO",
-      "link": "https://inc42.com/buzz/sebi-greenlights-kuku-technologies-%e2%82%b93500-cr-ipo/",
-      "published_at": "2026-09-17T14:14:49+00:00",
-      "summary": "Markets regulator SEBI has greenlit the proposed listing of audio OTT startup Kuku Technologies months after it filed its draft…"
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Yen Vulnerable With Japan on Holiday After BOJ Disappoints",
+      "link": "https://www.livemint.com/market/yen-vulnerable-with-japan-on-holiday-after-boj-disappoints-11789945472363.html",
+      "published_at": "2026-09-20T23:04:31+00:00",
+      "summary": "The yen is vulnerable to sharp moves and further declines over the next week, with a three-day holiday in Japan set to reduce trading liquidity and investors disappointed that the central bank didn’t offer stronger guidance on the pace of future interest rate hikes."
     },
     {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Bombay Shaving Company Revises ‘Switch4’ Ad Post Delhi High Court Direction",
-      "link": "https://inc42.com/buzz/bombay-shaving-company-revises-switch4-ad-post-delhi-high-court-direction/",
-      "published_at": "2026-09-17T14:03:51+00:00",
-      "summary": "Bombay Shaving Company (BSC) founder Shantanu Deshpande said the company has revised its Switch4 advertisement in accordance with the undertaking…"
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Gold Edges Higher as Lower Oil, Fed Hike Temper Inflation Fears",
+      "link": "https://www.livemint.com/market/gold-edges-higher-as-lower-oil-fed-hike-temper-inflation-fears-11789944196686.html",
+      "published_at": "2026-09-20T22:43:16+00:00",
+      "summary": "Gold extended its recovery at the end of a volatile week as oil fell, and traders weighed the Federal Reserve’s rate path after its first hike since 2023."
     },
     {
-      "source": "Inc42",
+      "source": "YourStory",
       "section": "tech",
-      "title": "DealShare Hunts For One Last Deal; Will It Find Any Takers?",
-      "link": "https://inc42.com/features/dealshare-hunts-for-one-last-deal-will-it-find-any-takers/",
-      "published_at": "2026-09-17T13:24:43+00:00",
-      "summary": "“DealShare is today an empty vessel with $90 Mn in cash.” That’s how an investor who is aware of the…"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "India Gets ₹1 Lakh Cr Investment Commitments Under Semicon 2.0: Vaishnaw",
-      "link": "https://inc42.com/buzz/india-gets-%e2%82%b91-lakh-cr-investment-commitments-under-semicon-2-0-vaishnaw/",
-      "published_at": "2026-09-17T12:33:41+00:00",
-      "summary": "Under the recently approved Semicon 2.0 mission, the Central government is seeing investment commitments worth approximately ₹1 Lakh Cr ($11-12…"
-    },
-    {
-      "source": "MediaNama",
-      "section": "tech",
-      "title": "PIL in Supreme Court challenges charges on UPI payments above Rs 2,000",
-      "link": "https://www.medianama.com/2026/09/223-pil-supreme-court-charges-upi-payments/",
-      "published_at": "2026-09-17T12:04:15+00:00",
-      "summary": "The petition filed against the govt, the RBI, NPCI and UPI & Services Steering Committee argues that the fee structure of MDR on UPI payments is arbitrary and violates Article 14 of the Constitution. The post PIL in Supreme Court challenges charges on UPI payments above Rs 2,000 appeared first on MEDIANAMA ."
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "[Update] RentoMojo Shares End Market Debut 32% Above Issue Price",
-      "link": "https://inc42.com/buzz/rentomojo-makes-strong-market-debut-lists-at-nearly-19-premium/",
-      "published_at": "2026-09-17T11:34:42+00:00",
-      "summary": "Update | September 17, 16:30 IST Shares of furniture and appliance rental startup RentoMojo closed their maiden trading session at…"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Applied Materials Commits $5 Bn To Boost India’s Semiconductor Ecosystem",
-      "link": "https://inc42.com/buzz/applied-materials-commits-5-bn-to-boost-indias-semiconductor-ecosystem/",
-      "published_at": "2026-09-17T11:09:28+00:00",
-      "summary": "US-based semiconductor equipment and materials-engineering company Applied Materials has announced a $5 Bn (₹47,980.8 Cr) investment commitment as part of…"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "DheyaTech Bags ₹43 Cr To Scale Indigenous Gas Turbine Engine Production",
-      "link": "https://inc42.com/buzz/dheyatech-bags-%e2%82%b943-cr-to-scale-indigenous-gas-turbine-engines/",
-      "published_at": "2026-09-17T10:57:21+00:00",
-      "summary": "Aerospace propulsion startup DheyaTech has raised ₹43 Cr (around $5.1 Mn) in a funding round led by Avaana Capital, with…"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Aakash Trims FY26 Loss By 16% To ₹186.5 Cr, Top Line Flat At ₹2,040 Cr",
-      "link": "https://inc42.com/buzz/aakash-trims-fy26-loss-by-16-to-%e2%82%b9186-5-cr-top-line-flat-at-%e2%82%b92040-cr/",
-      "published_at": "2026-09-17T10:38:09+00:00",
-      "summary": "Gurugram-based test-prep major Aakash Educational Services Ltd (AESL) managed to narrow its net loss for the financial year FY26 by…"
-    },
-    {
-      "source": "Inc42",
-      "section": "tech",
-      "title": "Centre Rejects External Pressure Claims Over UPI MDR Rollout",
-      "link": "https://inc42.com/buzz/centre-rejects-external-pressure-claims-over-upi-mdr-rollout/",
-      "published_at": "2026-09-17T10:37:57+00:00",
-      "summary": "Amid the ongoing debate over the introduction of MDR on select UPI transactions, the finance ministry’s Department of Financial Services…"
+      "title": "Tata Trusts challenges Chandra's reappointment",
+      "link": "https://yourstory.com/2026/09/tata-trusts-challenges-chandras-reappointment",
+      "published_at": "2026-09-20T13:04:53+00:00",
+      "summary": "Tata Trusts has argued that the company's Articles of Association require affirmative support from a majority of Trust-nominated directors and that a chairman's casting vote cannot override that condition."
     },
     {
       "source": "Mint Technology",
       "section": "tech",
-      "title": "BGMI 4.6 update: India’s first original character Kiaraa launch date, story, boss fight and rewards",
-      "link": "https://www.livemint.com/technology/bgmi-4-6-update-india-s-first-original-character-kiaraa-launch-date-story-boss-fight-and-rewards-11789635482987.html",
-      "published_at": "2026-09-17T09:07:40+00:00",
-      "summary": "KRAFTON India is bringing Kiaraa, its first original BGMI character created by its in-house art team, with the 4.6 update. The BGMI 4.6 update arrives on September 16, while Kiaraa will become available from October 8, 2026."
+      "title": "Samsung Galaxy S25 and S25 FE prices teased ahead of Flipkart Big Billion Days Sale 2026: How much can buyers save?",
+      "link": "https://www.livemint.com/technology/samsung-galaxy-s25-and-s25-fe-prices-teased-ahead-of-flipkart-big-billion-days-sale-2026-how-much-can-buyers-save-11789901830956.html",
+      "published_at": "2026-09-20T11:53:26+00:00",
+      "summary": "During Flipkart's Big Billion Days Sale starting October 9, the Galaxy S25 and S25 FE may be priced under ₹60,000 and ₹50,000, allowing potential savings."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Gold price prediction: Will US-Iran war, crude oil rates impact yellow metal rates? Check technical outlook",
+      "link": "https://www.livemint.com/market/commodities/gold-price-prediction-will-us-iran-war-crude-oil-rates-impact-yellow-metal-rates-check-technical-outlook-11789900773882.html",
+      "published_at": "2026-09-20T11:48:06+00:00",
+      "summary": "Gold is expected to remain highly sensitive to movements in Treasury yields, the US dollar and inflation data, as well as further signals on the pace and timing of additional tightening."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "India should design and manufacture chips for everyday products: Vaishnaw",
+      "link": "https://yourstory.com/2026/09/india-should-design-and-manufacture-chips-for-everyday-products-vaishnaw",
+      "published_at": "2026-09-20T11:45:01+00:00",
+      "summary": "Electronics and IT ninister Ashwini Vaishnaw outlines the sheer breadth of chip-making prowess the country aims to build going forward."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "Ashwini Vaishnaw cautions industry about cyberattacks, disruption targeting India's growing chip might",
+      "link": "https://yourstory.com/2026/09/vaishnaw-cautions-industry-cyberattacks-targetting-indias-growing-chip-might",
+      "published_at": "2026-09-20T11:20:57+00:00",
+      "summary": "The minister for electronics and IT said he has cautioned the industry to keep a constant vigil as India is now emerging as a country that has the capability to design and manufacture chips."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Top stocks in focus today: Mazagon Dock, RVNL, Nestle India shares to move Sensex, Nifty? Monday, 21 Sept | Triggers",
+      "link": "https://www.livemint.com/market/stock-market-news/top-stocks-in-focus-tomorrow-mazagon-dock-rvnl-nestle-india-shares-to-move-sensex-nifty-monday-21-sept-triggers-11789897835796.html",
+      "published_at": "2026-09-20T10:34:26+00:00",
+      "summary": "Mazagon Dock, Rail Vikas Nigam (RVNL), Kalyan Jewellers, Welspun Enterprises, JSW Energy, Nestle India, GR Infraprojects are among the stocks likely to remain in focus."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Dividends, stock splits alert! Corporate actions this week: IRCTC, BEML, Dixon Tech and more - Record dates, full list",
+      "link": "https://www.livemint.com/market/stock-market-news/dividends-stock-splits-alert-corporate-actions-this-week-irctc-beml-dixon-tech-and-more-record-dates-full-list-11789890298929.html",
+      "published_at": "2026-09-20T09:33:02+00:00",
+      "summary": "More than 170 companies, including IRCTC, Dixon Technologies, BEML and others, have set record dates for dividends and stock splits during the week"
     },
     {
       "source": "Inc42",
       "section": "tech",
-      "title": "OpenAI & Anthropic Want To Pace Frontier AI, But Who Sets The Rules?",
-      "link": "https://inc42.com/features/openai-anthropic-want-to-pace-frontier-ai-but-who-sets-the-rules/",
-      "published_at": "2026-09-17T07:00:52+00:00",
-      "summary": "In July this year, OpenAI’s models were being tested in a controlled cybersecurity environment and tasked with spotting and exploiting…"
+      "title": "India’s Spacetech Gold Rush Is Here, But What’s Making Investors Jittery?",
+      "link": "https://inc42.com/features/indias-spacetech-gold-rush-is-here-but-whats-making-investors-jumpy/",
+      "published_at": "2026-09-20T08:30:56+00:00",
+      "summary": "The Indian spacetech ecosystem is entering its most critical phase yet. After years of experimentation and ambition, spacetech startups must…"
     },
     {
-      "source": "Bloomberg · Anup Roy",
+      "source": "Mint Markets",
       "section": "macro",
-      "title": "India Outsourcing Shifts Upmarket as AI Reshapes Jobs, ING Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-17/india-outsourcing-shifts-upmarket-as-ai-reshapes-jobs-ing-says",
-      "published_at": "2026-09-17T06:59:35+00:00",
+      "title": "Yen Is Vulnerable With Japan on Holiday After BOJ Disappoints",
+      "link": "https://www.livemint.com/market/yen-is-vulnerable-with-japan-on-holiday-after-boj-disappoints-11789892890813.html",
+      "published_at": "2026-09-20T08:28:10+00:00",
+      "summary": "The yen is vulnerable to sharp moves and further declines over the next week, with a three-day holiday in Japan set to reduce trading liquidity and investors disappointed that the central bank didn’t offer stronger guidance on the pace of future interest rate hikes."
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "What is a kill switch, and why is it hard to build one for AI systems?",
+      "link": "https://indianexpress.com/article/technology/artificial-intelligence/what-is-kill-switch-ai-systems-challenges-10886070/",
+      "published_at": "2026-09-20T08:17:12+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Top stocks to buy today: DLF, PN Gadgil Jewellers, HPCL - Stop-loss, target by Ganesh Dongre",
+      "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-on-monday-when-market-opens-dlf-pn-gadgil-jewellers-hpcl-stop-loss-target-by-ganesh-dongre-11789887141838.html",
+      "published_at": "2026-09-20T07:42:43+00:00",
+      "summary": "Indian stock market: Amid ongoing Middle East Tension, Ganesh Dongre of Anand Rathi recommends three stocks to buy on Monday. Check top stock picks by the market expert."
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "Indian Startup IPO Tracker 2026",
+      "link": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+      "published_at": "2026-09-20T07:00:54+00:00",
+      "summary": "Dalal Street emerged as a founder’s paradise in 2025, with 18 Indian startups listing on the bourses and collectively mopping…"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Top stocks to buy under ₹100: Equitas Small, Meghmani Organics, Filatex by Sumeet Bagadia; check stop-loss, target price",
+      "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-100-equitas-small-meghmani-organics-filatex-by-sumeet-bagadia-check-stop-loss-target-price-11789883488386.html",
+      "published_at": "2026-09-20T06:34:20+00:00",
+      "summary": "Check Sumeet Bagadia's outlook for the market in the coming with, along with the three stocks under ₹100 that he feels are a buy in current situation."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "SEMICON India 2026 concludes with 15 announcements, headlined by Indian startups and student teams",
+      "link": "https://yourstory.com/2026/09/semicon-india-2026-concludes-headlined-by-startups-student-teams",
+      "published_at": "2026-09-20T06:26:23+00:00",
+      "summary": "The final day put the spotlight on Indian startups and student teams building on homegrown chip platforms, alongside a new industry report projecting sharp growth for the country's semiconductor market."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "AI-to-AI communication could change how ads are bought and sold: Report",
+      "link": "https://www.livemint.com/technology/aitoai-communication-could-change-how-ads-are-bought-and-sold-report-11789885296164.html",
+      "published_at": "2026-09-20T06:21:35+00:00",
+      "summary": "Artificial intelligence could change the way advertisements are bought and sold by enabling automated communication between systems, reducing manual coordination across the fragmented advertising ecosystem, according to a report by ADvendio, an advertising technology company."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "Connections and conversations: How effective curation creates impact for art exhibitions",
+      "link": "https://yourstory.com/2026/09/connections-conversations-curation-art-exhibitions-photography",
+      "published_at": "2026-09-20T06:18:53+00:00",
+      "summary": "In this photo essay, we showcase artistic highlights from the ‘One | Many’ exhibition at the India Habitat Centre."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "India Equity Strategy by Jefferies with 2030 Targets: Top 6 themes - Space, Semiconductors, Aerospace, and 3 others",
+      "link": "https://www.livemint.com/market/stock-market-news/india-equity-strategy-by-jefferies-with-2030-targets-top-6-themes-space-semiconductors-aerospace-and-3-others-11789879754848.html",
+      "published_at": "2026-09-20T05:47:11+00:00",
+      "summary": "According to the report, India’s semiconductor ambitions are moving from plans to actual execution, with around $20 billion in investments."
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "The UPI Shake-Up Begins",
+      "link": "https://inc42.com/features/the-upi-shake-up-begins/",
+      "published_at": "2026-09-20T05:30:23+00:00",
+      "summary": "A customer scans a QR code at a neighbourhood shop, enters a passcode and the payment is done. Similarly, a…"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "McKinsey report shows productivity decline in 30% of companies using agentic AI",
+      "link": "https://www.livemint.com/technology/tech-news/mckinsey-report-shows-productivity-decline-in-30-of-companies-using-agentic-ai-11789881025363.html",
+      "published_at": "2026-09-20T05:10:24+00:00",
+      "summary": "In nearly 30 per cent of companies, productivity fell after teams began using agentic artificial intelligence tools, revealing operational hurdles amid the rapid enterprise adoption of autonomous coding systems, according to McKinsey’s Technology Trends Outlook 2026."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Stock market prediction for today: Sensex, Nifty outlook - What GIFT Nifty, Nikkei, Kospi, Taiwan signal for India",
+      "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-sensex-nifty-outlook-what-gift-nifty-nikkei-kospi-taiwan-signal-for-india-11789876448717.html",
+      "published_at": "2026-09-20T04:41:26+00:00",
+      "summary": "For the week, the Sensex declined 0.65% to close at 74,294.46, while the Nifty slipped 0.22% to end at 23,346.40"
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "Nike’s Alphafly 4 is designed for runners, but it’s the tech that makes the shoe unique",
+      "link": "https://indianexpress.com/article/technology/tech-news-technology/nike-alphafly-4-5-things-including-the-science-behind-new-marathon-shoes-10885775/",
+      "published_at": "2026-09-20T04:21:34+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "China’s CXMT says new memory-chip platform enters mass production",
+      "link": "https://indianexpress.com/article/technology/tech-news-technology/chinas-cxmt-says-new-memory-chip-platform-enters-mass-production-10885809/",
+      "published_at": "2026-09-20T04:21:09+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "Chinese ‘robot brain’ startup sees ChatGPT-style breakthrough as soon as next year",
+      "link": "https://indianexpress.com/article/technology/tech-news-technology/chinese-robot-brain-startup-sees-chatgpt-style-breakthrough-as-soon-as-next-year-10885799/",
+      "published_at": "2026-09-20T04:17:42+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "California Governor issues executive order on AI safety",
+      "link": "https://indianexpress.com/article/technology/artificial-intelligence/california-governor-issues-executive-order-on-ai-safety-10885791/",
+      "published_at": "2026-09-20T04:12:24+00:00",
       "summary": ""
     },
     {
       "source": "Inc42",
       "section": "tech",
-      "title": "Practo Leadership Reshuffle: Jagnoor Singh Elevated To CEO, Shashank ND Becomes Chairman",
-      "link": "https://inc42.com/buzz/practo-leadership-reshuffle-jagnoor-singh-replaces-cofounder-shashank-nd-as-ceo/",
-      "published_at": "2026-09-17T06:47:12+00:00",
-      "summary": "Healthtech startup Practo has overhauled its top leadership, appointing former COO Jagnoor Singh as CEO, while cofounder and former CEO…"
+      "title": "How CubeAPM Plans To Take On Datadog And New Relic In The AI Observability Race",
+      "link": "https://inc42.com/startups/how-cubeapm-plans-to-take-on-datadog-and-new-relic-with-its-80-cheaper-ai-observability-stack/",
+      "published_at": "2026-09-20T03:30:34+00:00",
+      "summary": "When Vineet Chirania was scaling his train-ticket booking startup, Trainman, a decade ago, he encountered a problem that would eventually…"
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "From an IIT Bombay lab to a Rs 1,000 Cr IPO",
+      "link": "https://yourstory.com/2026/09/from-an-iit-bombay-lab-to-a-1000-crore-ipo",
+      "published_at": "2026-09-20T02:45:00+00:00",
+      "summary": "In this episode, Professor Shashikanth (IIT Bombay) shares his journey of building SEDEMAC, a deeptech startup that has crossed Rs 1,000 crore in annual revenue, Rs 1,087 crore IPO earlier this year and the stock growing over a 100% since."
     },
     {
       "source": "Mint Technology",
       "section": "tech",
-      "title": "Hyderabad leads emergence of India’s new data centre hubs",
-      "link": "https://www.livemint.com/technology/india-data-centre-capacity-hyderabad-dholera-ai-google-adani-11789615527566.html",
-      "published_at": "2026-09-17T06:02:10+00:00",
-      "summary": "By end-2030, Hyderabad and other emerging hubs are expected to see a six-fold rise in data centre capacity to 1.1 gigawatts (GW), implying an annualized growth of 58%."
+      "title": "Only four countries lead global AI adoption by 20%, muting hiring in tech and services: Goldman Sachs",
+      "link": "https://www.livemint.com/technology/only-four-countries-lead-global-ai-adoption-by-20-muting-hiring-in-tech-and-services-goldman-sachs-11789872087275.html",
+      "published_at": "2026-09-20T02:41:26+00:00",
+      "summary": "AI adoption rates among major developed economies range from 15–20 per cent, with France, the US, the Netherlands, and the UK at the top end of the range, according to a report by Goldman Sachs Research."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "Space, literacy, apparel: Test your business creativity with Edition 250 of our weekly quiz!",
+      "link": "https://yourstory.com/2026/09/space-literacy-apparel-business-creativity-entrepreneur-education-quiz",
+      "published_at": "2026-09-20T02:30:00+00:00",
+      "summary": "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 250th quiz. Ready?"
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "The women forging India’s semiconductor push; How a perimenopause journey led to a midlife guide",
+      "link": "https://yourstory.com/2026/09/women-forging-indias-semiconductor-push-perimenopause-journey-midlife-guide",
+      "published_at": "2026-09-20T02:00:00+00:00",
+      "summary": "A panel moderated by Shradha Sharma, Founder and CEO of YourStory and The Bharat Project, discussed the reasons why there are very few women leaders in the semiconductor industry and what it takes for women to rise to the top."
     },
     {
       "source": "Mint Technology",
       "section": "tech",
-      "title": "Semicon India 2026: PM Modi says India taking steps to become preferred Semiconductor manufacturing",
-      "link": "https://www.livemint.com/technology/semicon-india-2026-pm-modi-inaugurates-semiconductor-event-in-delhi-600-exhibitors-to-showcase-latest-tech-11789624007357.html",
-      "published_at": "2026-09-17T05:57:38+00:00",
-      "summary": "PM Modi inaugurated SEMICON India 2026 at Yashobhoomi in New Delhi on September 17, bringing together over 600 exhibitors and 300 international companies. The three-day event focuses on India’s semiconductor manufacturing, chip design, investment, innovation and talent development."
+      "title": "Trump says he will appoint a new AI adviser, without providing details",
+      "link": "https://www.livemint.com/technology/trump-says-he-will-appoint-a-new-ai-adviser-without-providing-details-11789842927744.html",
+      "published_at": "2026-09-19T18:35:27+00:00",
+      "summary": "AI-TRUMP:Trump says he will appoint a new AI adviser, without providing details"
     },
     {
       "source": "Mint Technology",
       "section": "tech",
-      "title": "Samsung launches new AI fridge in India that recommends recipes; check Bespoke AI lineup and prices",
-      "link": "https://www.livemint.com/technology/samsung-launches-new-ai-fridge-in-india-that-recommends-recipes-check-bespoke-ai-lineup-and-prices-11789621850749.html",
-      "published_at": "2026-09-17T05:56:37+00:00",
-      "summary": "Samsung India unveiled its 2026 Bespoke AI lineup led by a Family Hub Refrigerator with Google Gemini AI Vision that suggests recipes and tracks food freshness. New WindFree Pro and Infinite Cassette ACs offer AI energy savings up to 30%, PM1.0 purification and SmartThings control."
+      "title": "iPhone Duo hinge needed extensive engineering, reveals Apple VP ahead of October 23 sale: ‘Feel solid, like a car door'",
+      "link": "https://www.livemint.com/technology/iphone-duo-hinge-needed-extensive-engineering-reveals-apple-vp-ahead-of-october-23-sale-feel-solid-like-a-car-door-11789825808070.html",
+      "published_at": "2026-09-19T18:17:32+00:00",
+      "summary": "Apple has introduced its first foldable smartphone, the iPhone Duo, set for release on October 23. VP Tom Marieb detailed the engineering behind its hinge and durability, emphasising the premium feel and extensive effort in design for user safety and reliability."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Android Auto gets Google Maps avatar customisation; Gemini-powered destination info coming soon?",
+      "link": "https://www.livemint.com/technology/android-auto-gets-google-maps-avatar-customisation-gemini-powered-destination-info-coming-soon-11789837047100.html",
+      "published_at": "2026-09-19T17:33:29+00:00",
+      "summary": "Google Maps for Android Auto now allows users to customize their driving avatar directly on their car display. This feature, previously limited to smartphones, is part of a server-side update and includes new info cards about destinations, enhancing usability with essential details."
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "‘Parents may think twice about schools without smart classes’: BenQ’s Rajeev Singh",
+      "link": "https://indianexpress.com/article/technology/benq-india-smart-classrooms-education-technology-rajeev-singh-10885353/",
+      "published_at": "2026-09-19T14:25:29+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "Innov8’s FY26 Profit Zooms Multifold To ₹13.7 Cr, Revenue Crosses ₹200 Cr Mark",
+      "link": "https://inc42.com/buzz/innov8s-fy26-profit-zooms-multifold-to-%e2%82%b913-7-cr-revenue-crosses-%e2%82%b9200-cr-mark/",
+      "published_at": "2026-09-19T12:47:27+00:00",
+      "summary": "Premium flexible workspace operator Innov8 Workspaces sharply improved its profitability in the fiscal year FY26 while rapidly expanding the network…"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Indias youth-driven talent will build next Qualcomms, Intels from here in coming years: Vaishnaw",
+      "link": "https://www.livemint.com/technology/indias-youth-driven-talent-will-build-next-qualcomms-intels-from-here-in-coming-years-vaishnaw-11789819997399.html",
+      "published_at": "2026-09-19T12:13:16+00:00",
+      "summary": "India's youth-driven talent will build next Qualcomms, Intels from here in coming years: Vaishnaw"
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Telehealth companies keep exposing their customers medical data. What should they do?",
+      "link": "https://www.livemint.com/technology/telehealth-companies-keep-exposing-their-customers-medical-data-what-should-they-do-11789819323158.html",
+      "published_at": "2026-09-19T12:02:02+00:00",
+      "summary": "Telehealth companies keep exposing their customers' medical data. What should they do?"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish",
+      "link": "https://www.livemint.com/market/stock-market-news/itc-stock-360-one-maintains-buy-sees-65-upside-here-s-why-brokerage-is-bullish-11789814022662.html",
+      "published_at": "2026-09-19T11:57:07+00:00",
+      "summary": "ITC navigates weakened cigarette volumes due to tax changes but is offsetting losses with price hikes and improving margins. 360 ONE maintains a BUY rating, predicting an upside of 68% with a target price of ₹440 per share despite a 35% stock decline last year."
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
+      "link": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
+      "published_at": "2026-09-19T11:30:59+00:00",
+      "summary": "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to…"
+    },
+    {
+      "source": "Indian Express Technology",
+      "section": "tech",
+      "title": "Gemini hacked three companies in first known breakout by Google’s AI",
+      "link": "https://indianexpress.com/article/technology/artificial-intelligence/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-10885178/",
+      "published_at": "2026-09-19T11:18:40+00:00",
+      "summary": ""
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "New-Age Tech Stocks: Kissht & MobiKwik Rally, Zappfresh Hits Record Low This Week",
+      "link": "https://inc42.com/buzz/new-age-tech-stocks-kissht-mobikwik-rally-zappfresh-hits-record-low-this-week/",
+      "published_at": "2026-09-19T11:03:07+00:00",
+      "summary": "Investor sentiment towards new-age tech stocks remained divided this week, even as the broader Indian equity market continued to face…"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "IPO GMP compared: SS Retail, Hero Motors, Jindal Supreme - allotment soon, how to check status online, subscription",
+      "link": "https://www.livemint.com/market/ipo/ipo-gmp-compared-ss-retail-hero-motors-jindal-supreme-allotment-soon-how-to-check-status-online-subscription-11789811154721.html",
+      "published_at": "2026-09-19T10:54:05+00:00",
+      "summary": "The Jindal Supreme IPO achieved 177x subscription, raising ₹124.88 crore. The allotment status can be checked via BSE, NSE, or Bigshare. Hero Motors and SS Retail IPOs also saw strong interest, with substantial subscription figures and their allotment status available online."
+    },
+    {
+      "source": "Mint Technology",
+      "section": "tech",
+      "title": "Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near",
+      "link": "https://www.livemint.com/technology/will-ai-models-achieve-the-ability-to-improve-autonomously-leading-labs-say-the-scenario-is-near-11789812081843.html",
+      "published_at": "2026-09-19T10:01:21+00:00",
+      "summary": "Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Top stocks to buy under ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
+      "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-rs-200-castrol-nhpc-vikram-solar-3-shares-by-anand-rathi-s-mehul-kothari-target-stoploss-11789809341916.html",
+      "published_at": "2026-09-19T09:44:11+00:00",
+      "summary": "Kothari warns that a close below 55,500 may lead to increased selling pressure. He sees 57,000 as a key resistance for Bank Nifty. Recommended stocks under ₹200 include Castrol India, NHPC, and Vikram Solar, with specific targets and stop losses provided."
+    },
+    {
+      "source": "MediaNama",
+      "section": "tech",
+      "title": "TRAI finalises spam rules: Bars apps like Truecaller from blanket-blocking 140, 1600-series calls",
+      "link": "https://www.medianama.com/2026/09/223-trai-truecaller-140-1600-calls-spam-rules/",
+      "published_at": "2026-09-19T09:07:26+00:00",
+      "summary": "The new TRAI spam rules introduce AI flagging, A2P call charges and new restrictions on call-management apps. The post TRAI finalises spam rules: Bars apps like Truecaller from blanket-blocking 140, 1600-series calls appeared first on MEDIANAMA ."
+    },
+    {
+      "source": "Inc42",
+      "section": "tech",
+      "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+      "link": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+      "published_at": "2026-09-19T08:30:38+00:00",
+      "summary": "The Indian startup ecosystem continued to mature in FY26, with 22 new-age tech companies making their public market debut as…"
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Salesforce stock falls over 8% in 4 sessions despite $63 bn revenue target, but UBS raised outlook price - Here’s why",
+      "link": "https://www.livemint.com/market/stock-market-news/salesforce-stock-falls-over-8-in-4-sessions-despite-63-bn-revenue-target-but-ubs-raised-outlook-price-here-s-why-11789799817285.html",
+      "published_at": "2026-09-19T08:24:11+00:00",
+      "summary": "Salesforce aims for $63 billion in revenue by fiscal 2030, surpassing analyst estimates. UBS has increased its price target for Salesforce but cut its fiscal 2028 growth forecast, citing potential challenges in revenue momentum due to AI competition and adoption uncertainties."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "The Women Powering India’s Semiconductor Revolution",
+      "link": "https://yourstory.com/2026/09/women-leaders-semiconductor-industry-semicon-india-2026",
+      "published_at": "2026-09-19T07:36:26+00:00",
+      "summary": "Five senior women executives from Teradyne, Micron, Applied Materials, Renesas, and Tata Electronics shared candid career lessons at a SEMICON India 2026 panel moderated by Shradha Sharma."
+    },
+    {
+      "source": "Mint Markets",
+      "section": "macro",
+      "title": "Nestle India issues clarification: Why FMCG stock plunged? What's FSSAI baby formula row; why it matters to consumers?",
+      "link": "https://www.livemint.com/market/stock-market-news/nestle-india-issues-clarification-why-fmcg-stock-plunged-whats-fssai-baby-formula-row-why-it-matters-to-consumers-11789794974681.html",
+      "published_at": "2026-09-19T07:00:48+00:00",
+      "summary": "FSSAI has launched three adjudication cases against Nestle India for compliance issues with its infant nutrition products. Despite recent stock pressure, Nestle maintained that its products comply with regulations and that all disclosures were timely made to the stock exchanges."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "DPIIT to unveil QCO framework for semiconductor, deeptech firms in 2-3 months",
+      "link": "https://yourstory.com/2026/09/dpiit-to-unveil-qco-framework-for-semiconductor-deeptech-firms-in-2-3-months",
+      "published_at": "2026-09-19T06:21:10+00:00",
+      "summary": "The proposed framework will address compliance hurdles around replacement components used in semiconductor and other high-tech manufacturing."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "Semicon, India Mobile Congress, electronics summit together? ISM CEO pitches mega gathering",
+      "link": "https://yourstory.com/2026/09/semicon-india-ism-ceo-pitches-mega-gathering",
+      "published_at": "2026-09-19T05:45:39+00:00",
+      "summary": "The proposal is to bring the events together in the same city and around the same location, while allowing each to retain its own identity."
+    },
+    {
+      "source": "YourStory",
+      "section": "tech",
+      "title": "5 Self-growth books for people who feel stuck despite trying",
+      "link": "https://yourstory.com/2026/09/self-growth-books-stuck",
+      "published_at": "2026-09-19T05:30:00+00:00",
+      "summary": "Feeling stuck despite your efforts? These 5 self-growth books offer fresh perspectives, practical insights, and motivation to move forward."
     }
   ],
   "selected": {
     "macro": [
       {
-        "source": "RBI",
-        "section": "macro",
-        "title": "Survey on Computer Software and Information Technology Enabled Services Exports: 2025-26",
-        "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63625",
-        "published_at": "2026-09-18T17:30:00+00:00",
-        "summary": "Today, the Reserve Bank released the data 1 related to the 2025-26 round of its annual survey on computer software and information technology enabled services (ITES) exports. The survey 2 collects details on India’s exports of software services {computer services and ITES/business process outsourcing (BPO) services} as per type of activity, on-site/off-site nature of services, country of destination and modes of supply. For 2025-26 round of the survey, 7,569 software export companies were contacted, of which 2,363 companies, including most of the large companies, responded. The participating companies together accounted around 89 per cent of total estimated software services exports 3 ( Table 1 ). Highlights: The India’s exports of software services (excluding their sales through overseas commercial presence) increased by 8.2 per cent (y-o-y) during 2025-26 to US$ 221.4 billion ( Table 2 ). Computer services continued to account for over two-thirds of India’s total software services exports during the year; BPO services remained the dominant component of IT enabled services (ITES) exports ( Tables 2 and 3 ). Private limited companies dominated 2025–26 software exports with 9.3 per cent growth. ( Table 4 ). The United States of America remained the major software exports destination with a share of 54.1 per cent, followed by European countries (31.8 per cent) where United Kingdom had major share ( Table 5 ). The US dollar was the principal invoicing currency for India’s software exports, followed by the euro, the rupee, and the pound sterling ( Table 6 ). Software services exports primarily delivered through off-site mode (91.7 per cent share) ( Table 7 ). Total software export services, including services delivered by foreign affiliates of Indian companies, increased by 9.5 per cent during 2025-26 and stood at US$ 239.3 billion ( Tables 8 ) The local software business by foreign affiliates of Indian companies increased to US$ 17.9 billion in 2025-26 from US$ 13.9 billion in the previous year, with the USA and the UK remained the major destinations ( Tables 9 and 10 ). Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1147 Table 1: Survey Response and Final Estimates for 2025-26 – A Snapshot Item Reported Final Estimates ₹ crore US$ billion ₹ crore US$ billion 1 2 3 4 5 1. Number of companies 2,363 7,569 2. Total Exports of Software Services 17,40,022 196.9 19,55,947 221.4 2.1 IT Services 11,72,848 132.7 12,99,085 147.0 2.2 Software Product Development 49,477 5.6 56,549 6.4 2.3 BPO Services 4,22,882 47.9 4,94,658 56.0 2.4 Engineering Services 94,815 10.7 1,05,655 12.0 3. Total Exports of Software Services including commercial presence 18,98,114 214.8 21,14,039 239.3 3.1 Mode 1 (cross-border supply) 15,92,853 180.3 17,90,515 202.7 3.2 Mode 2 (consumption abroad) 2,180 0.2 2,451 0.3 3.3 Mode 3 (commercial presence) 1,58,092 17.9 1,58,092 17.9 3.4 Mode 4 (presence of natural person) 1,44,989 16.4 1,62,981 18.4 Notes: 1. The sum of components may differ from total due to rounding off. 2. The amount in US$ terms is arrived at by using annual average rupee/ dollar exchange rate. 3. These are also applicable for the remaining tables. Table 2: Software Services Exports from India Activity 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 A. Computer Services 11,68,299 138.1 67.4 13,55,634 153.4 69.3 of which: i) IT Services 11,10,640 131.3 64.1 12,99,085 147.0 66.4 ii) Software Product Development 57,659 6.8 3.3 56,549 6.4 2.9 B. IT Enabled Services 5,63,172 66.6 32.6 6,00,313 68.0 30.7 of which: i) BPO Services 4,71,690 55.8 27.3 4,94,658 56.0 25.3 ii) Engineering Services 91,482 10.8 5.3 1,05,655 12.0 5.4 Total Export of Software Services (A+B) 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 3: Industry-wise Distribution of ITES Services Exports Activity 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 A. BPO Services 4,71,690 55.8 83.8 4,94,658 56.0 82.4 (i) Business consulting services including public relations services 31,641 3.8 5.7 35,121 4.0 5.9 (ii) Finance and accounting auditing bookkeeping and tax consulting services 69,245 8.2 12.3 69,747 8.0 11.6 (iii) HR administration 2,733 0.3 0.5 1,979 0.2 0.3 (iv) Supply chain and other management services/ logistics 6,464 0.8 1.2 8,904 1.0 1.5 (v) Medical transcription and document management 1,110 0.1 0.1 1,978 0.2 0.3 (vi) Content development and management and publishing 2,863 0.3 0.5 3,957 0.4 0.7 (v) Other BPO services 3,57,634 42.3 63.5 3,72,972 42.2 62.1 B. Engineering Services 91,482 10.8 16.2 1,05,655 12.0 17.6 (i) Embedded solutions 15,861 1.8 2.7 17,856 2.0 3.0 (ii) Product design engineering (mechanical electronics excluding software) 14,934 1.8 2.7 25,674 3.0 4.3 (iii) Industrial automation and enterprise asset management 2,121 0.3 0.4 106 - - (iv) Other engineering services 58,566 6.9 10.4 62,019 7.0 10.3 Total (A+B) 5,63,172 66.6 100.0 6,00,313 68.0 100.0 Table 4: Organisation-wise Distribution of Software Services Exports Types of Organisations 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 Private Limited Company 10,41,570 123.1 60.1 11,89,216 134.6 60.8 Public Limited Company 6,52,957 77.2 37.7 7,21,744 81.7 36.9 Others # 36,944 4.4 2.2 44,987 5.1 2.3 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 # Others mostly include LLPs and proprietor firms. Table 5: Software Services Exports – Major Destination Region 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 United States of America 9,16,010 108.3 52.9 10,57,968 119.7 54.1 Canada 22,931 2.7 1.3 26,693 3.0 1.3 Europe 5,68,121 67.2 32.8 6,21,480 70.3 31.8 of which: United Kingdom 2,68,868 31.8 15.5 3,00,642 34.0 15.4 Asia 1,10,019 13.0 6.4 1,22,392 13.9 6.3 of which: East Asia 91,296 10.8 5.3 1,04,102 11.8 5.3 West Asia 16,014 1.9 0.9 17,022 2.0 0.9 South Asia 2,709 0.3 0.2 1,268 0.1 0.1 Australia & New Zealand 42,321 5.0 2.4 48,838 5.5 2.5 Other countries 72,069 8.5 4.2 78,576 9.0 4.0 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 6: Software Services Exports - Currency Composition of Invoice Currency 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 USD 12,46,363 147.4 72.0 14,20,017 160.7 72.6 EUR 1,66,790 19.7 9.6 1,87,771 21.3 9.6 INR 1,23,120 14.5 7.1 1,23,225 14.0 6.3 GBP 1,03,910 12.3 6.0 1,17,357 13.3 6.0 AUD 33,824 4.0 2.0 39,119 4.4 2.0 Other Currencies 57,464 6.8 3.3 68,458 7.7 3.5 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 7: Software Services Exports – Type of Services Type of Services 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 On-site Services 1,60,769 19.0 9.3 1,62,981 18.4 8.3 Off-site Services 15,70,702 185.7 90.7 17,92,966 203.0 91.7 Total 17,31,471 204.7 100.0 19,55,947 221.4 100.0 Table 8: Mode-wise Exports of Software Services Type of Mode 2024-25 2025-26 ₹ crore US$ billion Share (%) ₹ crore US$ billion Share (%) 1 2 3 4 5 6 7 Mode 1 (cross-border supply) 15,68,256 185.4 84.8 17,90,515 202.7 84.7 Mode 2 (consumption abroad) 2,446 0.3 0.1 2,451 0.3 0.1 Mode 3 (commercial presence) 1,17,339 13.9 6.4 1,58,092 17.9 7.5 Mode 4 (presence of natural person) 1,60,769 19.0 8.7 1,62,981 18.4 7.7 Total 18,48,810 218.6 100.0 21,14,039 239.3 100.0 Table 9: Software Business by Foreign Affiliates of Indian Companies during 2025-26 ─ Activity Distribution (Amount in ₹ crore) Activity Locally* To India Other Countries 1 2 3 4 IT Services 26,828 2,612 3,245 Software Product Development 679 34 130 BPO Services 13,525 128 11,268 Engineering Services 6,238 21 1,381 Other Services 1,10,822 30,217 26,493 Total (₹ crore) 1,58,092 33,012 42,517 Total (US$ billion) 17.9 3.7 4.8 *Software business by foreign affiliates of Indian companies “locally” indicates Mode-3 (commercial presence). Table 10: Software Business by Foreign Affiliates of Indian Companies during 2025-26 ─ Country Distribution (Amount in ₹ crore) Country Share in Total Software business by foreign affiliates (%) Software business by foreign affiliates Locally To India Other Countries 1 2 3 4 5 United States of America 42.2 67,453 23,305 7,847 United Kingdom 9.0 17,539 468 3,068 Germany 8.2 14,329 292 4,560 Canada 8.0 15,248 1,964 1,481 Netherlands 7.0 7,282 2,604 6,510 Singapore 5.6 10,065 701 2,302 Other Countries 20.0 26,176 3,678 16,749 Total (₹ crore) 100.0 1,58,092 33,012 42,517 Total (US$ billion) - 17.9 3.7 4.8 1 The previous data release in the series, covering 2024-25 survey round, was published on November 04, 2025 , on the RBI website. 2 The survey schedule is given in the Annex . 3 Exports of relatively small non-responding companies have been estimated as per the methodology published in the article titled ‘ Survey on Computer Software and Information Technology Enabled Services Exports, 2016-17 ’ in March 2018 issue of the Reserve Bank of India Bulletin."
-      },
-      {
         "source": "Mint Markets",
         "section": "macro",
-        "title": "Nifty posts sixth straight weekly loss: Why is Indian stock market under pressure? Explained",
-        "link": "https://www.livemint.com/market/stock-market-news/nifty-posts-sixth-straight-weekly-loss-why-is-indian-stock-market-under-pressure-explained-11789746305019.html",
-        "published_at": "2026-09-18T16:52:07+00:00",
-        "summary": "The Nifty 50 ended the week down 0.22%, continuing its six-week losing streak amid volatility. Despite a modest recovery, the index remains below 23,500 as global tensions and rising crude oil prices weigh heavily on investor sentiment and market stability."
-      },
-      {
-        "source": "Bloomberg · Ruchi Bhatia",
-        "section": "macro",
-        "title": "India Recruits Its Diaspora Into the Campaign for the Rupee",
-        "link": "https://www.bloomberg.com/news/articles/2026-09-17/india-recruits-its-diaspora-into-the-campaign-for-the-rupee",
-        "published_at": "2026-09-17T21:00:24+00:00",
-        "summary": "Indians living abroad have thrived, and the government considers them a source of economic stability."
+        "title": "FPI derivatives bets hit record high amid roiling oil",
+        "link": "https://www.livemint.com/market/stock-market-news/fpi-foreign-portfolio-investors-nifty-bank-nifty-short-positions-indian-equities-oil-prices-west-asia-war-11789959207245.html",
+        "published_at": "2026-09-21T03:54:17+00:00",
+        "summary": "Sentiment soured by rising oil as West Asia war disrupts supplies, prompting FPIs to build record short positions even as Indian equities retreat."
       }
     ],
     "tech": [
       {
-        "source": "Inc42",
-        "section": "tech",
-        "title": "From Flam To VerifAIX — Indian Startups Raised About $59 Mn This Week",
-        "link": "https://inc42.com/buzz/from-flam-to-verifaix-indian-startups-raised-about-59-mn-this-week/",
-        "published_at": "2026-09-19T03:30:44+00:00",
-        "summary": "While the introduction of MDR on UPI dominated India’s new-age tech discourse this week, startup funding fell sharply. Fourteen startups…"
-      },
-      {
         "source": "YourStory",
         "section": "tech",
-        "title": "Ashwini Vaishnaw's Big Bet: India Wants 200 Chip Design Startups, Not Just Fabs",
-        "link": "https://yourstory.com/2026/09/india-chip-design-startups-semicon-2-0-msme",
-        "published_at": "2026-09-18T10:05:37+00:00",
-        "summary": "As India firms up its second semiconductor phase, small design startups and MSME manufacturers are being positioned as the ecosystem's backbone."
+        "title": "Weekly VC funding falls below $100M again; How Ottonomy is building robots for real-world logistics",
+        "link": "https://yourstory.com/2026/09/weekly-vc-funding-falls-ottonomy-is-building-robots-for-logistics",
+        "published_at": "2026-09-21T02:00:00+00:00",
+        "summary": "This is the seventh time in the year that VC funding on a weekly basis has fallen below $100 million, revealing the challenges the Indian startup ecosystem faces in raising large amounts of capital."
       },
       {
-        "source": "MediaNama",
+        "source": "Inc42",
         "section": "tech",
-        "title": "Oversight Board’s recommendations on Meta’s AI labelling raise questions for India’s deepfake rules",
-        "link": "https://www.medianama.com/2026/09/223-oversight-boards-metas-ai-labelling/",
-        "published_at": "2026-09-18T09:56:04+00:00",
-        "summary": "The Oversight Board overturned Meta’s decision to leave up an AI deepfake of a Scottish councillor and called for wider AI labels, stronger penalties and safeguards for political deepfakes. The post Oversight Board’s recommendations on Meta’s AI labelling raise questions for India’s deepfake rules appeared first on MEDIANAMA ."
+        "title": "Indian Startup IPO Tracker 2026",
+        "link": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+        "published_at": "2026-09-20T07:00:54+00:00",
+        "summary": "Dalal Street emerged as a founder’s paradise in 2025, with 18 Indian startups listing on the bourses and collectively mopping…"
       }
     ]
   },
   "market_tape": {
-    "as_of": "2026-09-18T03:45:00+00:00",
+    "as_of": "2026-09-21T03:45:00+00:00",
     "provider": "Yahoo Finance",
     "quotes": {
       "Nifty 50": {
         "symbol": "^NSEI",
-        "current": 23346.400390625,
-        "previous": 23270.599609375,
-        "change_pct": 0.32573626173113546,
+        "current": 23385.900390625,
+        "previous": 23346.400390625,
+        "change_pct": 0.16919096451315507,
         "points": [
-          [
-            1789011900,
-            23477.80078125
-          ],
           [
             1789098300,
             23398.099609375
@@ -1121,20 +805,20 @@
           [
             1789703100,
             23346.400390625
+          ],
+          [
+            1789962300,
+            23385.900390625
           ]
         ],
         "currency": "INR"
       },
       "Sensex": {
         "symbol": "^BSESN",
-        "current": 74294.9609375,
-        "previous": 74314.59375,
-        "change_pct": -0.026418515542248056,
+        "current": 74736.8671875,
+        "previous": 74294.9609375,
+        "change_pct": 0.5947997608771294,
         "points": [
-          [
-            1789011900,
-            74902.59375
-          ],
           [
             1789098300,
             74781.7578125
@@ -1154,15 +838,19 @@
           [
             1789703100,
             74294.9609375
+          ],
+          [
+            1789962300,
+            74736.8671875
           ]
         ],
         "currency": "INR"
       },
       "USD/INR": {
         "symbol": "INR=X",
-        "current": 95.87999725341797,
+        "current": 95.7925033569336,
         "previous": 95.79920196533203,
-        "change_pct": 0.08433816402266814,
+        "change_pct": -0.006992342588474365,
         "points": [
           [
             1789340400,
@@ -1185,22 +873,18 @@
             95.79920196533203
           ],
           [
-            1789788617,
-            95.87999725341797
+            1789965643,
+            95.7925033569336
           ]
         ],
         "currency": "INR"
       },
       "Brent": {
         "symbol": "BZ=F",
-        "current": 103.87000274658203,
-        "previous": 104.81999969482422,
-        "change_pct": -0.9063126798397603,
+        "current": 97.4000015258789,
+        "previous": 103.87000274658203,
+        "change_pct": -6.228941031693602,
         "points": [
-          [
-            1789099200,
-            104.61000061035156
-          ],
           [
             1789358400,
             105.68000030517578
@@ -1220,6 +904,10 @@
           [
             1789704000,
             103.87000274658203
+          ],
+          [
+            1789963200,
+            97.4000015258789
           ]
         ],
         "currency": "USD"

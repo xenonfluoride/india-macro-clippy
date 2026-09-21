@@ -185,13 +185,13 @@ SOURCE_WEIGHT = {
 
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
-    "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "share price",
+    "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
     "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:",
 )
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
-    "daily roundup", "quotes that", "how to claim",
+    "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next",
 )
 MACRO_SIGNALS = (
     "rbi", "sebi", "rupee", "inflation", "liquidity", "rate", "yield",
@@ -218,6 +218,8 @@ def has_any(text: str, phrases: Iterable[str]) -> bool:
 def quality_score(item: FeedItem, now: datetime) -> int | None:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
+        if item.source not in {"RBI", "SEBI"} and not has_any(text, INDIA_TERMS):
+            return None
         if item.source == "RBI" and has_any(text, ("auction", "government securities", "certificate of registration", "redemption", "money market operations")):
             return None
         if has_any(text, ROUTINE_MACRO) or not has_any(text, MACRO_SIGNALS):
