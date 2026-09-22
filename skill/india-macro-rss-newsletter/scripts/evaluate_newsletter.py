@@ -35,7 +35,7 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
     document = html_path.read_text(encoding="utf-8")
     audit = json.loads(audit_path.read_text(encoding="utf-8"))
     findings: list[tuple[str, str]] = []
-    selected = [item for section in ("macro", "tech") for item in audit.get("selected", {}).get(section, [])]
+    selected = [item for section in ("macro", "national", "tech") for item in audit.get("selected", {}).get(section, [])]
     market_tape = audit.get("market_tape", {})
     required_quotes = {"Nifty 50", "Sensex", "USD/INR", "Brent"}
     if not market_tape or not required_quotes.issubset(market_tape.get("quotes", {})):
@@ -65,7 +65,7 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
     if len(selected) > 6:
         report("WARN", "More than six editorial stories reduces scanability.", findings)
 
-    required_sections = ("Market tape", "Chart of the issue", "Macro", "India Tech", "Tomorrow’s catalysts")
+    required_sections = ("Market tape", "Chart of the issue", "Macro", "National &amp; Strategy", "India Tech", "Tomorrow’s catalysts")
     for section in required_sections:
         if section not in document:
             report("FAIL", f"Missing required section: {section}", findings)

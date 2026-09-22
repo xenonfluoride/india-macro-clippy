@@ -30,21 +30,16 @@ AUDIT_PATH = OUTPUTS / "india-macro-clippy-data.json"
 USER_AGENT = "IndiaMacroClippy/1.0 RSS reader (personal newsletter)"
 
 FEEDS = (
-    # Bloomberg's official author RSS links. They are optional because Bloomberg
-    # can restrict fetches by location or subscription state.
-    ("Bloomberg · Ruchi Bhatia", "macro", "https://www.bloomberg.com/authors/AVm9llvgDeE/ruchi-bhatia.rss"),
-    ("Bloomberg · Ashutosh Joshi", "macro", "https://www.bloomberg.com/authors/ARnJcpvIB1A/ashutosh-joshi.rss"),
-    ("Bloomberg · Anup Roy", "macro", "https://www.bloomberg.com/authors/AVpmk0CVnVE/anup-roy.rss"),
-    ("RBI", "macro", "https://rbi.org.in/pressreleases_rss.xml"),
-    ("SEBI", "macro", "https://www.sebi.gov.in/sebirss.xml"),
+    ("Business Standard Economy & Policy", "macro", "https://www.business-standard.com/rss/economy-policy-102.rss"),
+    ("Business Standard Companies", "macro", "https://www.business-standard.com/rss/companies-101.rss"),
+    ("Economic Times Economy", "macro", "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
+    ("The Hindu Economy", "macro", "https://www.thehindu.com/business/Economy/feeder/default.rss"),
     ("Mint Markets", "macro", "https://www.livemint.com/rss/markets"),
-    ("Indian Express Economy", "macro", "https://indianexpress.com/section/business/economy/feed/"),
-    ("Indian Express Markets", "macro", "https://indianexpress.com/section/business/market/feed/"),
-    ("Mint Technology", "tech", "https://www.livemint.com/rss/technology"),
-    ("Indian Express Technology", "tech", "https://indianexpress.com/section/technology/feed/"),
+    ("The Hindu National", "national", "https://www.thehindu.com/news/national/feeder/default.rss"),
+    ("Economic Times Tech", "tech", "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"),
+    ("The Hindu Technology", "tech", "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"),
     ("YourStory", "tech", "https://yourstory.com/feed"),
     ("Inc42", "tech", "https://inc42.com/feed/"),
-    ("MediaNama", "tech", "https://www.medianama.com/feed/"),
 )
 
 
@@ -168,31 +163,45 @@ def dedupe(items: Iterable[FeedItem]) -> list[FeedItem]:
 
 
 SOURCE_WEIGHT = {
-    "Bloomberg · Ruchi Bhatia": 10,
-    "Bloomberg · Ashutosh Joshi": 10,
-    "Bloomberg · Anup Roy": 10,
-    "RBI": 9,
-    "SEBI": 9,
-    "MediaNama": 9,
+    "Business Standard Economy & Policy": 8,
+    "Business Standard Companies": 6,
+    "Economic Times Economy": 7,
+    "The Hindu Economy": 8,
+    "The Hindu National": 8,
+    "The Print India": 6,
+    "Economic Times Tech": 7,
+    "The Hindu Technology": 7,
     "Inc42": 8,
     "YourStory": 7,
-    "Indian Express Economy": 7,
-    "Indian Express Markets": 7,
-    "Indian Express Technology": 6,
     "Mint Markets": 5,
-    "Mint Technology": 5,
 }
 
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:", "underwriting auction",
 )
 STOCK_PREDICTION = (
     "prediction", "outlook", "target price", "price target", "stock recommendations",
     "stock to buy", "should investors", "should you", "buy the dip", "bull case",
     "bear case", "stop-loss",
 )
+NATIONAL_SIGNALS = (
+    "cabinet", "parliament", "ministry", "government", "policy", "bill", "act",
+    "court", "constitution", "election", "security", "defence", "defense", "border",
+    "diplomat", "foreign", "bilateral", "multilateral", "treaty", "unsc", "strategic",
+)
+NATIONAL_LOW_SIGNAL = (
+    "live updates", "gold rate", "weather", "gang-rape", "murder", "accident",
+    "hit-and-run", "celebrity", "cricket", "movie", "school students",
+)
+MACRO_TOPICS = {
+    "energy": ("crude", "oil", "refiner", "russian cargo", "russia cargo"),
+    "external-finance": ("fcnr", "forex", "swap facility", "ecb", "ofcb"),
+    "trade": ("trade", "tariff", "fta", "cepa", "duty-free"),
+    "monetary-policy": ("rbi", "liquidity", "interest rate", "bond yield"),
+    "markets": ("derivatives", "nifty", "sensex", "ipo"),
+}
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
@@ -220,20 +229,28 @@ def has_any(text: str, phrases: Iterable[str]) -> bool:
     return any(phrase in text for phrase in phrases)
 
 
+def topic_for(item: FeedItem) -> str | None:
+    if item.section != "macro":
+        return None
+    text = f"{item.title} {item.summary}".lower()
+    return next((topic for topic, phrases in MACRO_TOPICS.items() if has_any(text, phrases)), None)
+
+
 def quality_score(item: FeedItem, now: datetime) -> int | None:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
-        if item.source not in {"RBI", "SEBI"} and not has_any(text, INDIA_TERMS):
-            return None
-        if item.source == "RBI" and has_any(text, ("auction", "government securities", "certificate of registration", "redemption", "money market operations")):
+        if not has_any(text, INDIA_TERMS):
             return None
         if has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION) or not has_any(text, MACRO_SIGNALS):
+            return None
+    if item.section == "national":
+        if has_any(text, NATIONAL_LOW_SIGNAL) or not has_any(text, NATIONAL_SIGNALS):
             return None
     if item.section == "tech":
         if has_any(text, CONSUMER_TECH) or not has_any(text, INDIA_TERMS):
             return None
 
-    signal_words = MACRO_SIGNALS if item.section == "macro" else TECH_SIGNALS
+    signal_words = {"macro": MACRO_SIGNALS, "national": NATIONAL_SIGNALS, "tech": TECH_SIGNALS}[item.section]
     signal_score = min(12, sum(1 for word in signal_words if word in text) * 3)
     published = datetime.fromisoformat(item.published_at)
     age_hours = max(0.0, (now - published).total_seconds() / 3600)
@@ -248,11 +265,17 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
 
     selected: list[FeedItem] = []
     used_sources: set[str] = set()
+    used_topics: set[str] = set()
     for _, item in ranked:
         if item.source in used_sources:
             continue
+        topic = topic_for(item)
+        if topic and topic in used_topics:
+            continue
         selected.append(item)
         used_sources.add(item.source)
+        if topic:
+            used_topics.add(topic)
         if len(selected) == limit:
             break
     return selected
@@ -341,6 +364,7 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
     fresh = [item for item in all_items if datetime.fromisoformat(item.published_at) >= cutoff]
     items = dedupe(fresh)
     macro = select_items(items, "macro", now)
+    national = select_items(items, "national", now, limit=1)
     tech = select_items(items, "tech", now)
 
     audit = {
@@ -350,7 +374,11 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
         "mode": mode,
         "feeds": feed_status,
         "items_retained": [asdict(item) for item in items],
-        "selected": {"macro": [asdict(item) for item in macro], "tech": [asdict(item) for item in tech]},
+        "selected": {
+            "macro": [asdict(item) for item in macro],
+            "national": [asdict(item) for item in national],
+            "tech": [asdict(item) for item in tech],
+        },
     }
     AUDIT_PATH.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -360,14 +388,15 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
 
     document = HTML_PATH.read_text(encoding="utf-8")
     document = replace_region("".join(document), "MACRO", "\n".join(card(item, index + 1) for index, item in enumerate(macro)) or empty_card("macro"))
-    document = replace_region(document, "TECH", "\n".join(card(item, index + len(macro) + 1) for index, item in enumerate(tech)) or empty_card("tech"))
+    document = replace_region(document, "NATIONAL", "\n".join(card(item, index + len(macro) + 1) for index, item in enumerate(national)) or empty_card("National &amp; Strategy"))
+    document = replace_region(document, "TECH", "\n".join(card(item, index + len(macro) + len(national) + 1) for index, item in enumerate(tech)) or empty_card("tech"))
     stamp = now.strftime("RSS build · %-d %b · %H:%M UTC")
     document, count = re.subn(r'<span id="rss-status">.*?</span>', f'<span id="rss-status">{stamp}</span>', document)
     if count != 1:
         raise ValueError(f"Expected one RSS status element, found {count}")
     HTML_PATH.write_text(document, encoding="utf-8")
 
-    print(f"RSS build complete: {len(macro)} macro, {len(tech)} tech, {len(items)} unique fresh items")
+    print(f"RSS build complete: {len(macro)} macro, {len(national)} national, {len(tech)} tech, {len(items)} unique fresh items")
     print(f"Audit: {AUDIT_PATH}")
     failed = [row for row in feed_status if row["error"]]
     if failed:

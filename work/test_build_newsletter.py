@@ -1,5 +1,6 @@
 import importlib.util
 import sys
+import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,64 @@ def item(source, section, title, summary="India policy and markets", hour=10):
 
 
 class QualityGateTests(unittest.TestCase):
+    def test_roster_covers_independent_macro_and_tech_beats(self):
+        sources = {source for source, _, _ in builder.FEEDS}
+        self.assertTrue({
+            "Business Standard Economy & Policy",
+            "Economic Times Economy",
+            "The Hindu Economy",
+        }.issubset(sources))
+        self.assertTrue({"Economic Times Tech", "The Hindu Technology"}.issubset(sources))
+        self.assertIn("The Hindu National", sources)
+        self.assertFalse({
+            "RBI", "SEBI", "MediaNama", "Mint Technology", "Indian Express Technology",
+            "Indian Express Economy", "Indian Express Markets",
+        } & sources)
+
+    def test_national_feeds_keep_only_policy_and_strategy_stories(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        foreign_policy = item(
+            "The Hindu National", "national", "India joins multilateral grouping at the UN",
+            "India's foreign policy position is under discussion.",
+        )
+        local_crime = item(
+            "The Hindu National", "national", "Hit-and-run incident reported in Delhi",
+            "A local India crime report.",
+        )
+        self.assertIsNotNone(builder.quality_score(foreign_policy, now))
+        self.assertIsNone(builder.quality_score(local_crime, now))
+
+    def test_render_includes_the_national_lane_in_the_audit_and_html(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        template = '''<span id="rss-status"></span>
+<!-- RSS:MACRO:START --><!-- RSS:MACRO:END -->
+<!-- RSS:NATIONAL:START --><!-- RSS:NATIONAL:END -->
+<!-- RSS:TECH:START --><!-- RSS:TECH:END -->'''
+        with tempfile.TemporaryDirectory() as directory:
+            original_html, original_audit = builder.HTML_PATH, builder.AUDIT_PATH
+            builder.HTML_PATH = Path(directory) / "newsletter.html"
+            builder.AUDIT_PATH = Path(directory) / "newsletter.json"
+            builder.HTML_PATH.write_text(template, encoding="utf-8")
+            try:
+                exit_code = builder.render_build(
+                    [
+                        item("Mint Markets", "macro", "India trade policy changes", "India trade policy update"),
+                        item("The Hindu National", "national", "India joins multilateral forum", "India foreign policy update"),
+                        item("Inc42", "tech", "India AI startup raises funding", "India AI startup funding"),
+                    ],
+                    [{"source": "test", "section": "macro", "url": "https://example.com", "items_parsed": 3, "error": None}],
+                    now,
+                    48,
+                    "test",
+                )
+                audit = __import__("json").loads(builder.AUDIT_PATH.read_text(encoding="utf-8"))
+                rendered = builder.HTML_PATH.read_text(encoding="utf-8")
+            finally:
+                builder.HTML_PATH, builder.AUDIT_PATH = original_html, original_audit
+        self.assertEqual(exit_code, 0)
+        self.assertEqual(len(audit["selected"]["national"]), 1)
+        self.assertIn("India joins multilateral forum", rendered)
+
     def test_rejects_routine_and_consumer_items(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         routine = item("RBI", "macro", "Result of the VRRR auction")
@@ -67,6 +126,17 @@ class QualityGateTests(unittest.TestCase):
         tech = builder.select_items(candidates, "tech", now)
         self.assertEqual(set(row.source for row in macro), {"Bloomberg · Anup Roy", "Mint Markets"})
         self.assertEqual(set(row.source for row in tech), {"MediaNama", "Inc42"})
+
+    def test_macro_selection_avoids_repeating_the_same_theme(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        candidates = [
+            item("Business Standard Economy & Policy", "macro", "India crude oil bill rises", "India crude import costs rise"),
+            item("Mint Markets", "macro", "India refiners trim Russian oil cargoes", "India oil buyers reassess cargoes"),
+            item("The Hindu Economy", "macro", "India trade agreement expands duty-free access", "India trade policy changes"),
+        ]
+        macro = builder.select_items(candidates, "macro", now)
+        self.assertEqual(len(macro), 2)
+        self.assertEqual({row.source for row in macro}, {"Business Standard Economy & Policy", "The Hindu Economy"})
 
     def test_strips_publisher_style_headline_tails(self):
         title = "Sensex rises after Fed decision — Experts explain the move"
