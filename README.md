@@ -35,4 +35,4 @@ If every command passes and the issue is publishable, commit the generated HTML 
 
 ## Documentation standard
 
-Documentation is part of every change. Any update to the RSS roster, editorial rules, pipeline, evaluator, validation commands, or publishing workflow must update this README and the relevant files in `skill/india-macro-rss-newsletter/` in the same change.
+Documentation is part of every change. Any update to the RSS roster, editorial rules, pipeline, evaluator, validation commands, or publishing workflow must update this README and the relevant files in `skill/india-macro-rss-newsletter/` in the same change. Record durable sourcing and quality choices in [docs/EDITORIAL_DECISIONS.md](docs/EDITORIAL_DECISIONS.md).

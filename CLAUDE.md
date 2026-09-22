@@ -2,7 +2,7 @@
 
 ## Documentation is required
 
-Always update documentation in the same change when modifying the RSS roster, editorial selection rules, newsletter structure, market-data workflow, evaluator, validation commands, or publishing process. At minimum, keep `README.md`, `skill/india-macro-rss-newsletter/SKILL.md`, and `skill/india-macro-rss-newsletter/references/evaluation-rubric.md` accurate.
+Always update documentation in the same change when modifying the RSS roster, editorial selection rules, newsletter structure, market-data workflow, evaluator, validation commands, or publishing process. At minimum, keep `README.md`, `skill/india-macro-rss-newsletter/SKILL.md`, and `skill/india-macro-rss-newsletter/references/evaluation-rubric.md` accurate. Record durable sourcing and quality decisions in `docs/EDITORIAL_DECISIONS.md`.
 
 ## Publishing guardrails
 
