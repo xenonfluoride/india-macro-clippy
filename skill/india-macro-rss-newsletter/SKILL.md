@@ -1,21 +1,21 @@
 ---
 name: india-macro-rss-newsletter
-description: Build or refresh a concise India macro and technology newsletter from RSS/Atom feeds, with source provenance, a strict recency window, editorial selection, and HTML quality checks. Use for India-focused market, policy, or technology briefs; do not use for general news digests or live-price data alone.
+description: Build or refresh a concise India macro, national-strategy, and technology newsletter from RSS/Atom feeds, with source provenance, a strict recency window, editorial selection, and HTML quality checks. Use for India-focused market, policy, strategy, or technology briefs; do not use for general news digests or live-price data alone.
 metadata:
   short-description: RSS-first India macro and tech newsletter
 ---
 
 # India Macro RSS Newsletter
 
-Build a short, source-linked newsletter for India macro, markets, and technology. The page should read as a useful morning brief, not an RSS reader.
+Build a short, source-linked newsletter for India macro, national strategy, markets, and technology. The page should read as a useful morning brief, not an RSS reader.
 
 ## Source boundary
 
 - Use RSS or Atom feeds to discover newsletter stories. Do not use web search to fill editorial sections unless the user explicitly changes this rule.
 - Keep a timestamped audit of each fetched item, selected item, and feed failure.
 - Enforce the requested recency cutoff. The default is 48 hours; discard undated items.
-- Bloomberg author RSS feeds are welcome inputs. Treat a failed or restricted feed as unavailable, never as permission to substitute a search result.
-- Omit PIB by default. Add it only when the user requests it.
+- The configured roster is: Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, Mint Markets, The Hindu National, Economic Times Tech, The Hindu Technology, YourStory, and Inc42.
+- Treat a failed or restricted feed as unavailable, never as permission to substitute a search result.
 
 ## Editorial selection
 
@@ -24,12 +24,13 @@ Select fewer stories when the alternatives are weak. Prefer a mix of primary pol
 - Reject routine central-bank operations, stock tips, dividend alerts, listing chatter, gadget reviews, product-spec posts, and non-India tech stories.
 - Require a concrete India macro, market, policy, deep-tech, payments, regulation, company, or infrastructure signal.
 - Avoid repeating a source or theme unless the event genuinely needs follow-up coverage.
+- Keep Macro themes distinct across energy, external finance, trade, monetary policy, and markets. Use National & Strategy only for policy, law, security, or foreign-affairs stories; reject local incidents and live-news churn.
 - Preserve the reporter's headline. You may remove publisher-style tails such as “check the details” or “experts explain.”
 - Give every selected item a two-sentence **Why it matters** note. Sentence one states the exposure, incentive, or mechanism. Sentence two names the next observable signal, tradeoff, or decision point. Do not reuse the same note for two different stories.
 
 ## Page shape
 
-Keep the established order: Market Tape and chart, Macro, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Keep market prices separate from RSS news, and label any non-RSS price source.
+Keep the established order: Market Tape and chart, Macro, National & Strategy, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Keep market prices separate from RSS news, and label any non-RSS price source.
 
 Use source links and publication times. Keep a short source label in every card. Avoid filler such as “Open the source for the full report.”
 
