@@ -188,6 +188,11 @@ ROUTINE_MACRO = (
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
     "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:",
 )
+STOCK_PREDICTION = (
+    "prediction", "outlook", "target price", "price target", "stock recommendations",
+    "stock to buy", "should investors", "should you", "buy the dip", "bull case",
+    "bear case", "stop-loss",
+)
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
@@ -222,7 +227,7 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
             return None
         if item.source == "RBI" and has_any(text, ("auction", "government securities", "certificate of registration", "redemption", "money market operations")):
             return None
-        if has_any(text, ROUTINE_MACRO) or not has_any(text, MACRO_SIGNALS):
+        if has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION) or not has_any(text, MACRO_SIGNALS):
             return None
     if item.section == "tech":
         if has_any(text, CONSUMER_TECH) or not has_any(text, INDIA_TERMS):
