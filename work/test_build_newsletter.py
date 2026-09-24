@@ -96,6 +96,8 @@ class QualityGateTests(unittest.TestCase):
         registry = item("RBI", "macro", "NBFCs surrender their Certificate of Registration")
         omo_detail = item("RBI", "macro", "Detailed Result: OMO Sale Auction")
         underwriting = item("RBI", "macro", "Underwriting Auction for sale of Government Securities")
+        draft_ipo = item("Business Standard Companies", "macro", "Manufacturer files draft IPO papers")
+        forecast_recap = item("Business Standard Economy & Policy", "macro", "Ratings agencies raise India growth forecast")
         irrelevant = item("Indian Express Economy", "macro", "Agency wins global public relations award", "Industry recognition announcement")
         review = item("Indian Express Technology", "tech", "Oppo Find X9 Ultra review", "India smartphone review")
         self.assertIsNone(builder.quality_score(routine, now))
@@ -109,6 +111,8 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(registry, now))
         self.assertIsNone(builder.quality_score(omo_detail, now))
         self.assertIsNone(builder.quality_score(underwriting, now))
+        self.assertIsNone(builder.quality_score(draft_ipo, now))
+        self.assertIsNone(builder.quality_score(forecast_recap, now))
         self.assertIsNone(builder.quality_score(irrelevant, now))
         self.assertIsNone(builder.quality_score(review, now))
 
@@ -148,6 +152,20 @@ class QualityGateTests(unittest.TestCase):
         pricing = item("MediaNama", "tech", "UPI MDR pricing debate returns", "India payment fee policy")
         self.assertIn("value share", builder.why_it_matters(share))
         self.assertIn("payment rails", builder.why_it_matters(pricing))
+
+    def test_digital_rupee_and_sanctions_notes_name_their_own_mechanisms(self):
+        digital_rupee = item("Business Standard Companies", "macro", "Bank tests digital rupee rewards", "India CBDC wallet adds merchant payments")
+        sanctions = item("The Hindu National", "national", "Jaishankar raises sanctions Act concerns", "India and U.S. officials discuss foreign policy")
+        self.assertIn("merchant integration", builder.why_it_matters(digital_rupee))
+        self.assertIn("waiver", builder.why_it_matters(sanctions))
+
+    def test_refresh_edition_updates_date_and_increments_only_for_a_new_day(self):
+        document = '<title>India Macro Clippy: 23 September 2026</title><p class="issue meta"><strong>Issue 003</strong><br />23 September 2026<br />'
+        next_day = builder.refresh_edition(document, datetime(2026, 9, 24, 2, tzinfo=timezone.utc))
+        same_day = builder.refresh_edition(next_day, datetime(2026, 9, 24, 3, tzinfo=timezone.utc))
+        self.assertIn("Issue 004", next_day)
+        self.assertIn("24 September 2026", next_day)
+        self.assertIn("Issue 004", same_day)
 
 
 if __name__ == "__main__":

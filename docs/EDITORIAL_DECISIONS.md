@@ -25,3 +25,10 @@ The roster was chosen after a live 48-hour audit of source volume, recency, and 
 ## 2026-09-22: Publish only after all gates pass
 
 Each issue must have a publishable RSS selection, a successful separate market-data update, passing unit tests, and a passing newsletter evaluator. If a gate fails, preserve the last good site and do not push.
+
+## 2026-09-24: Make automated selection reject weak recaps and local political churn
+
+- Draft-IPO/listing coverage and repeated agency growth-forecast recaps are not editorial cards: they either duplicate a broad macro signal or invite price-focused treatment without a concrete economy-wide mechanism.
+- Macro diversity now explicitly distinguishes food prices, credit allocation, and digital payments alongside energy, external finance, trade, monetary policy, and markets.
+- National & Strategy prioritises foreign-affairs, security, legal, and policy consequences over state-political personalities or event churn.
+- The builder updates the page title and visible issue date once per new calendar edition; catalysts must be updated to the following day and remain the sole closing module.

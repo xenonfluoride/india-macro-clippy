@@ -10,3 +10,4 @@ Always update documentation in the same change when modifying the RSS roster, ed
 - Market Tape and the chart are separate Yahoo Finance data, not editorial inference.
 - Preserve the last good site if RSS selection, market data, tests, or evaluation fail.
 - Publish only after `python3 -m unittest work/test_build_newsletter.py` and the newsletter evaluator pass.
+- The builder must reject IPO/listing chatter, recycled growth-forecast roundups, and state-politics churn; it must also refresh the visible edition date on a new issue.

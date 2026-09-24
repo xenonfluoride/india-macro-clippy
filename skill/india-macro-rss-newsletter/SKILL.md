@@ -21,16 +21,16 @@ Build a short, source-linked newsletter for India macro, national strategy, mark
 
 Select fewer stories when the alternatives are weak. Prefer a mix of primary policy sources, high-quality reporting, and distinct subjects.
 
-- Reject routine central-bank operations, stock tips, dividend alerts, listing chatter, gadget reviews, product-spec posts, and non-India tech stories.
+- Reject routine central-bank operations, stock tips, dividend alerts, draft-IPO/listing chatter, recycled growth-forecast roundups, gadget reviews, product-spec posts, and non-India tech stories.
 - Require a concrete India macro, market, policy, deep-tech, payments, regulation, company, or infrastructure signal.
 - Avoid repeating a source or theme unless the event genuinely needs follow-up coverage.
-- Keep Macro themes distinct across energy, external finance, trade, monetary policy, and markets. Use National & Strategy only for policy, law, security, or foreign-affairs stories; reject local incidents and live-news churn.
+- Keep Macro themes distinct across food prices, energy, external finance, trade, credit allocation, digital payments, monetary policy, and markets. Use National & Strategy only for policy, law, security, or foreign-affairs stories; reject local incidents, state-politics churn, and live-news churn.
 - Preserve the reporter's headline. You may remove publisher-style tails such as “check the details” or “experts explain.”
 - Give every selected item a two-sentence **Why it matters** note. Sentence one states the exposure, incentive, or mechanism. Sentence two names the next observable signal, tradeoff, or decision point. Do not reuse the same note for two different stories.
 
 ## Page shape
 
-Keep the established order: Market Tape and chart, Macro, National & Strategy, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Keep market prices separate from RSS news, and label any non-RSS price source.
+Keep the established order: Market Tape and chart, Macro, National & Strategy, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Refresh the visible edition date for a new issue. Keep market prices separate from RSS news, and label any non-RSS price source.
 
 Use source links and publication times. Keep a short source label in every card. Avoid filler such as “Open the source for the full report.”
 

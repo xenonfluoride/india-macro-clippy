@@ -16,7 +16,7 @@ The builder keeps a 48-hour window, records every retained item and fetch failur
 | National & Strategy | The Hindu National |
 | India Tech | Economic Times Tech; The Hindu Technology; YourStory; Inc42 |
 
-The macro selector prevents repeated energy, external-finance, trade, monetary-policy, and market themes in one issue. The National & Strategy lane admits India-relevant policy, law, security, and foreign-affairs stories and rejects local incidents, live updates, price checks, and entertainment.
+The macro selector prevents repeated food-price, energy, external-finance, trade, credit-allocation, digital-payments, monetary-policy, and market themes in one issue. It excludes draft-IPO/listing chatter and recycled growth-forecast roundups. The National & Strategy lane admits India-relevant policy, law, security, and foreign-affairs stories and rejects local incidents, live updates, price checks, entertainment, and state-politics churn.
 
 ## Build and publish
 
@@ -29,7 +29,7 @@ python3 skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py \
   outputs/india-macro-clippy.html outputs/india-macro-clippy-data.json
 ```
 
-After the builder runs, rewrite the selected cards in `outputs/india-macro-clippy.html` as concise editor-written briefs. Each `Why it matters` note must use two story-specific sentences: mechanism first, then the next observable signal, tradeoff, or decision point. Keep exactly one Tomorrow’s catalysts section at the end.
+After the builder runs, rewrite the selected cards in `outputs/india-macro-clippy.html` as concise editor-written briefs. Each `Why it matters` note must use two story-specific sentences: mechanism first, then the next observable signal, tradeoff, or decision point. The builder refreshes the visible edition date; keep exactly one Tomorrow’s catalysts section at the end.
 
 If every command passes and the issue is publishable, commit the generated HTML and audit plus intentional builder, evaluator, test, or documentation updates with `chore: refresh newsletter`, then `git push`. Do not push if RSS selection, market data, tests, or evaluation fail.
 
