@@ -4,7 +4,7 @@ India Macro Clippy is a static, source-linked daily briefing for India macro, na
 
 ## Editorial boundary
 
-Editorial cards use only the configured RSS/Atom feeds and their title and summary text. Market Tape and the chart use Yahoo Finance data through a separate updater. Do not use web search to fill a story, price, or catalyst.
+Editorial cards use only the configured RSS/Atom feeds and their title and summary text. Market Tape is a clearly labelled Yahoo Finance price snapshot from a separate updater. Do not use web search to fill a story, price, or catalyst.
 
 The builder keeps a 48-hour window, records every retained item and fetch failure in `outputs/india-macro-clippy-data.json`, and publishes only source-linked cards that pass the relevance filters.
 
@@ -29,7 +29,7 @@ python3 skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py \
   outputs/india-macro-clippy.html outputs/india-macro-clippy-data.json
 ```
 
-After the builder runs, rewrite the selected cards in `outputs/india-macro-clippy.html` as concise editor-written briefs. Each `Why it matters` note must use two story-specific sentences: mechanism first, then the next observable signal, tradeoff, or decision point. The builder refreshes the visible edition date; keep exactly one Tomorrow’s catalysts section at the end.
+After the builder runs, rewrite the selected cards in `outputs/india-macro-clippy.html` as concise editor-written briefs with complete sentences, never an ellipsis. Each `Why it matters` note must use two story-specific sentences: mechanism first, then the next observable signal, tradeoff, or decision point. The builder refreshes the visible edition date; keep exactly one Tomorrow’s catalysts section at the end, and leave it empty rather than recycling editorial stories when the RSS audit has no distinct, dated catalyst.
 
 If every command passes and the issue is publishable, commit the generated HTML and audit plus intentional builder, evaluator, test, or documentation updates with `chore: refresh newsletter`, then `git push`. Do not push if RSS selection, market data, tests, or evaluation fail.
 

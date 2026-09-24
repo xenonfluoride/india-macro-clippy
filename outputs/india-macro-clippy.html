@@ -63,20 +63,6 @@
       .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
       .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
       .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
-      .signal-zone { padding: 42px 0 5px; }
-      .signal-grid { display: grid; grid-template-columns: 1.18fr .82fr; gap: 28px; }
-      .chart-card { border-top: 4px solid var(--ink); padding-top: 13px; }
-      .chart-card h2, .catalysts h2 { font-size: 27px; }
-      .chart-deck { color: var(--muted); font-size: 14px; margin: 8px 0 12px; }
-      .chart-wrap { overflow: hidden; }
-      .chart { display: block; width: 100%; height: auto; color: var(--ink); }
-      .chart-gridline { stroke: var(--rule); stroke-width: 1; }
-      .chart-line { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-      .chart-fill { fill: rgba(0, 108, 86, .11); }
-      .chart-dot { fill: var(--green); }
-      .chart text { fill: var(--muted); font: 10px var(--mono); }
-      .chart .end-label { fill: var(--green); font-weight: 500; }
-      .chart-note { font-size: 12px; color: var(--muted); margin: 7px 0 0; }
       .catalyst-section { margin: 8px 0 42px; }
       .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
       .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
@@ -110,7 +96,7 @@
         .issue, .section-head p { text-align: left; margin-top: 14px; }
         .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
         .tape-label { grid-column: 1 / -1; }
-        .signal-grid, .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
         main { padding-top: 34px; }
       }
 
@@ -128,7 +114,7 @@
           <p class="eyebrow">India Macro + Technology · last 48 hours only</p>
           <h1>India Macro<br />Clippy</h1>
         </div>
-        <p class="issue meta"><strong>Issue 004</strong><br />24 September 2026<br /><span id="rss-status">RSS build · 24 Sep · 02:05 UTC</span></p>
+        <p class="issue meta"><strong>Issue 004</strong><br />24 September 2026<br /><span id="rss-status">RSS build · 24 Sep · 02:19 UTC</span></p>
       </div>
     </header>
 
@@ -141,38 +127,13 @@
     <section class="tape" aria-label="Market tape">
       <!-- MARKET:TAPE:START -->
       <div class="shell tape-grid">
-        <p class="tape-label">Market tape<br /><span class="flat">23 Sep close</span></p>
+        <p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · 23 Sep close</span></p>
         <div class="quote"><strong>23,446.80</strong><span class="up">Nifty 50 · +0.14%</span></div>
         <div class="quote"><strong>74,828.25</strong><span class="down">Sensex · -0.04%</span></div>
         <div class="quote"><strong>₹95.730</strong><span class="down">USD/INR · INR weaker</span></div>
-        <div class="quote"><strong>$97.78</strong><span class="down">Brent · -5.14%</span></div>
+        <div class="quote"><strong>$97.82</strong><span class="down">Brent · -5.10%</span></div>
       </div>
     <!-- MARKET:TAPE:END -->
-    </section>
-
-    <section class="signal-zone">
-      <div class="shell">
-        <!-- MARKET:CHART:START -->
-        <section class="chart-card" aria-labelledby="chart-title">
-          <p class="kicker">Chart of the issue</p>
-          <h2 id="chart-title">Nifty 50: six-session closing trend.</h2>
-          <p class="chart-deck">Nifty 50 closes, latest six trading sessions. The index is +1.4% over the displayed window.</p>
-          <div class="chart-wrap">
-            <svg class="chart" viewBox="0 0 520 180" role="img" aria-label="Nifty 50 six-session closing trend ending 23 September 2026">
-              <line class="chart-gridline" x1="44" y1="24" x2="500" y2="24" /><line class="chart-gridline" x1="44" y1="80" x2="500" y2="80" /><line class="chart-gridline" x1="44" y1="136" x2="500" y2="136" />
-              <text x="0" y="28">23,447</text><text x="0" y="84">23,283</text><text x="0" y="140">23,119</text>
-              <path class="chart-fill" d="M48.0 136.0 L136.0 102.2 L224.0 84.1 L312.0 58.3 L400.0 35.1 L488.0 24.0 L488.0 154 L48.0 154 Z" />
-              <path class="chart-line" d="M48.0 136.0 L136.0 102.2 L224.0 84.1 L312.0 58.3 L400.0 35.1 L488.0 24.0" />
-              <circle class="chart-dot" cx="48.0" cy="136.0" r="4" /><circle class="chart-dot" cx="136.0" cy="102.2" r="4" /><circle class="chart-dot" cx="224.0" cy="84.1" r="4" /><circle class="chart-dot" cx="312.0" cy="58.3" r="4" /><circle class="chart-dot" cx="400.0" cy="35.1" r="4" /><circle class="chart-dot" cx="488.0" cy="24.0" r="4" />
-              <text x="48.0" y="172" text-anchor="middle">15 Sep</text><text x="136.0" y="172" text-anchor="middle">16 Sep</text><text x="224.0" y="172" text-anchor="middle">17 Sep</text><text x="312.0" y="172" text-anchor="middle">18 Sep</text><text x="400.0" y="172" text-anchor="middle">21 Sep</text><text x="488.0" y="172" text-anchor="middle">23 Sep</text>
-              <text class="end-label" x="489" y="18.0" text-anchor="end">23,446.80</text>
-            </svg>
-          </div>
-          <p class="chart-note">Source · <a href="https://finance.yahoo.com/quote/%5ENSEI/history/">Yahoo Finance market data</a>. As of 23 Sep 2026.</p>
-        </section>
-    <!-- MARKET:CHART:END -->
-
-      </div>
     </section>
 
     <main class="shell">
@@ -187,7 +148,7 @@
           <div class="story-no">01</div>
           <div>
             <h3>Financial sector must fund next generation of enterprises, not just next year&#x27;s growth: P K Mishra</h3>
-            <p>The Principal Secretary to the Prime Minister P K Mishra said on Wednesday that the financial sector should move beyond financing near-term growth and focus on funding the next generation of Indian enterprises. He called…</p>
+            <p>The Principal Secretary to the Prime Minister P K Mishra said on Wednesday that the financial sector should move beyond financing near-term growth and focus on funding the next generation of Indian enterprises.</p>
             <p class="why"><span>Why it matters</span><br />Moving credit appraisal toward project cash flows would direct lending toward long-duration investment rather than collateral-heavy borrowers. Watch whether banks change underwriting and whether infrastructure and manufacturing projects gain financing on those terms.</p>
             <p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/policy/financial-sector-must-fund-next-gen-of-enterprises-not-just-next-years-growth-pms-principal-secretary/articleshow/134435151.cms">Economic Times Economy, 23 Sep · 11:43 UTC</a></p>
           </div>
@@ -196,7 +157,7 @@
           <div class="story-no">02</div>
           <div>
             <h3>OMCs face ₹530 crore daily fuel losses as crude prices surge: Icra</h3>
-            <p>State-run oil marketing companies are facing mounting losses on petrol and diesel sales as a surge in crude prices outpaces unchanged domestic fuel prices, rating agency ICRA said. Indian Oil Corporation (IOC), Bharat…</p>
+            <p>State-run oil marketing companies are facing mounting losses on petrol and diesel sales as a surge in crude prices outpaces unchanged domestic fuel prices, rating agency ICRA said.</p>
             <p class="why"><span>Why it matters</span><br />Fuel under-recoveries transfer a crude-price shock from consumers to state-owned refiners and their balance sheets. Watch for retail-price changes, compensation, or a further rise in daily losses if international oil stays elevated.</p>
             <p class="source">RSS · <a href="https://www.business-standard.com/economy/news/omcs-face-530-crore-daily-fuel-losses-as-crude-prices-surge-icra-126092300717_1.html">Business Standard Economy &amp; Policy, 23 Sep · 09:46 UTC</a></p>
           </div>
@@ -205,7 +166,7 @@
           <div class="story-no">03</div>
           <div>
             <h3>HDFC Bank eyes digital rupee for rewards, allowances, in-flight payments</h3>
-            <p>Bank is developing digital rupee gift vouchers, corporate payouts and offline payments on flights, while integrating its CBDC wallet with BHIM for merchant payments</p>
+            <p>Bank is developing digital rupee gift vouchers, corporate payouts and offline payments on flights, while integrating its CBDC wallet with BHIM for merchant payments.</p>
             <p class="why"><span>Why it matters</span><br />Adding rewards, corporate payouts, and offline use cases is an attempt to make the digital rupee useful beyond basic settlement. Watch for merchant integration and repeat transaction use before treating the wallet as a scaled payments rail.</p>
             <p class="source">RSS · <a href="https://www.business-standard.com/companies/news/hdfc-bank-eyes-digital-rupee-for-rewards-allowances-in-flight-payments-126092301162_1.html">Business Standard Companies, 23 Sep · 13:09 UTC</a></p>
           </div>
@@ -224,7 +185,7 @@
           <div class="story-no">04</div>
           <div>
             <h3>In meeting with Rubio, Jaishankar raises India’s concerns about sanctions Act</h3>
-            <p>The External Affairs Minister and the Secretary of State are also understood to be preparing for high-level meetings between U.S. President Donald Trump and Prime Minister Narendra Modi later this year</p>
+            <p>The External Affairs Minister and the Secretary of State are also understood to be preparing for high-level meetings between U.S. President Donald Trump and Prime Minister Narendra Modi later this year.</p>
             <p class="why"><span>Why it matters</span><br />Sanctions policy can constrain India’s room to manage energy and defence ties even when bilateral diplomacy remains constructive. Watch the official readout and any waiver or enforcement detail that turns the concern into a commercial constraint.</p>
             <p class="source">RSS · <a href="https://www.thehindu.com/news/national/jaishankar-marco-rubio-meeting-in-usa-september-23-2026/article71500354.ece">The Hindu National, 23 Sep · 18:21 UTC</a></p>
           </div>
@@ -243,7 +204,7 @@
           <div class="story-no">05</div>
           <div>
             <h3>Nearly 70% of India&#x27;s GCCs stuck at AI pilot stage: Dell-Zinnov report</h3>
-            <p>The report, titled &#x27;India GCCs 2030: From Capability Centers to Agentic Transformation Engines&#x27;, noted that while ambition remains high, approximately 55% of routine GCC work is currently exposed to AI-led automation…</p>
+            <p>The report, titled &#x27;India GCCs 2030: From Capability Centers to Agentic Transformation Engines&#x27;, noted that while ambition remains high, approximately 55% of routine GCC work is currently exposed to AI-led automation.</p>
             <p class="why"><span>Why it matters</span><br />AI pilots do not produce the promised productivity gains until GCCs redesign workflows, data access, and accountability around them. Watch for pilots graduating into production deployments and for reskilling budgets to follow.</p>
             <p class="source">RSS · <a href="https://economictimes.indiatimes.com/tech/technology/nearly-70-of-indias-gccs-stuck-at-ai-pilot-stage-dell-zinnov-report/articleshow/134432876.cms">Economic Times Tech, 23 Sep · 10:47 UTC</a></p>
           </div>
@@ -252,7 +213,7 @@
           <div class="story-no">06</div>
           <div>
             <h3>FSSAI Penalises Amazon, Flipkart, Instamart Over Regulatory Non-Compliance</h3>
-            <p>The Food Safety and Standards Authority of India (FSSAI) has issued a penal action against quick commerce and ecommerce platforms…</p>
+            <p>The Food Safety and Standards Authority of India (FSSAI) has issued a penal action against quick commerce and ecommerce platforms.</p>
             <p class="why"><span>Why it matters</span><br />Penalties make marketplaces accountable for food-safety controls across sellers and quick-commerce fulfilment. Watch the orders’ scope and platform remediation to see whether compliance becomes a material operating cost.</p>
             <p class="source">RSS · <a href="https://inc42.com/buzz/fssai-penalises-amazon-flipkart-instamart-over-regulatory-non-compliance/">Inc42, 23 Sep · 16:53 UTC</a></p>
           </div>
@@ -275,19 +236,9 @@
           <p class="meta">Friday, 25 September</p>
         </div>
         <div class="catalysts">
-          <div class="catalyst-list">
-            <div class="catalyst">
-              <p class="catalyst-date">All day</p>
-              <p><strong>Fuel-price response</strong>Watch for retail-price changes, compensation, or a widening of OMC under-recoveries as crude costs are absorbed.</p>
-            </div>
-            <div class="catalyst">
-              <p class="catalyst-date">All day</p>
-              <p><strong>India–U.S. sanctions discussion</strong>Look for an official readout, waiver language, or enforcement detail after Jaishankar’s meeting with Rubio.</p>
-            </div>
-            <div class="catalyst">
-              <p class="catalyst-date">All day</p>
-              <p><strong>AI pilots enter production</strong>Follow GCC deployment and reskilling commitments that show whether pilot programmes are becoming operating systems.</p>
-            </div>
+          <div class="catalyst">
+            <p class="catalyst-date">Audit note</p>
+            <p><strong>No separate dated catalyst qualified.</strong>The 48-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle today’s editorial stories.</p>
           </div>
         </div>
       </section>

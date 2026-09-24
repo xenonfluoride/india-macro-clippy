@@ -26,11 +26,11 @@ Select fewer stories when the alternatives are weak. Prefer a mix of primary pol
 - Avoid repeating a source or theme unless the event genuinely needs follow-up coverage.
 - Keep Macro themes distinct across food prices, energy, external finance, trade, credit allocation, digital payments, monetary policy, and markets. Use National & Strategy only for policy, law, security, or foreign-affairs stories; reject local incidents, state-politics churn, and live-news churn.
 - Preserve the reporter's headline. You may remove publisher-style tails such as “check the details” or “experts explain.”
-- Give every selected item a two-sentence **Why it matters** note. Sentence one states the exposure, incentive, or mechanism. Sentence two names the next observable signal, tradeoff, or decision point. Do not reuse the same note for two different stories.
+- Give every selected item a two-sentence **Why it matters** note. Sentence one states the exposure, incentive, or mechanism. Sentence two names the next observable signal, tradeoff, or decision point. Do not reuse the same note for two different stories. Card summaries must end on a complete sentence, never an ellipsis.
 
 ## Page shape
 
-Keep the established order: Market Tape and chart, Macro, National & Strategy, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Refresh the visible edition date for a new issue. Keep market prices separate from RSS news, and label any non-RSS price source.
+Keep the established order: Market Tape, Macro, National & Strategy, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Use it only for distinct, date-specific signals in the audit; state plainly when none qualify instead of recycling editorial stories. Refresh the visible edition date for a new issue. Keep market prices separate from RSS news, label the separate price source, and omit a routine daily chart unless it adds a genuinely new comparison or analysis.
 
 Use source links and publication times. Keep a short source label in every card. Avoid filler such as “Open the source for the full report.”
 

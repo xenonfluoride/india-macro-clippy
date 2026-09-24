@@ -32,3 +32,9 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - Macro diversity now explicitly distinguishes food prices, credit allocation, and digital payments alongside energy, external finance, trade, monetary policy, and markets.
 - National & Strategy prioritises foreign-affairs, security, legal, and policy consequences over state-political personalities or event churn.
 - The builder updates the page title and visible issue date once per new calendar edition; catalysts must be updated to the following day and remain the sole closing module.
+
+## 2026-09-24: Prefer clean price data and honest catalysts
+
+- Daily Market Tape is a labelled price snapshot. A six-session Nifty chart is removed from the default issue because it repeats the same signal without a fresh analytical comparison.
+- Automated card compression ends on a complete sentence. It does not append an ellipsis after a partial source-summary sentence.
+- Tomorrow’s catalysts must be distinct, dated items in the RSS audit. When the audit has none, the section says so rather than echoing the editorial cards’ watch items.

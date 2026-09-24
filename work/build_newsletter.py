@@ -289,11 +289,21 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
 
 
 def compact(value: str, limit: int = 250) -> str:
-    value = " ".join(value.split())
+    value = " ".join(value.split()).rstrip("…").rstrip()
     if len(value) <= limit:
-        return value
-    shortened = value[: limit + 1].rsplit(" ", 1)[0].rstrip(".,;:")
-    return f"{shortened}…"
+        return value if value.endswith((".", "!", "?")) else f"{value}."
+    sentences = re.split(r"(?<=[.!?])\s+", value)
+    complete = []
+    size = 0
+    for sentence in sentences:
+        if size + len(sentence) + (1 if complete else 0) > limit:
+            break
+        complete.append(sentence)
+        size += len(sentence) + (1 if complete else 0)
+    if complete:
+        return " ".join(complete)
+    shortened = value[:limit].rsplit(" ", 1)[0].rstrip(".,;:")
+    return f"{shortened}."
 
 
 def display_title(value: str) -> str:

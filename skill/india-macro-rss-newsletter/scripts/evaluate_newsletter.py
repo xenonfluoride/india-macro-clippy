@@ -40,8 +40,8 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
     required_quotes = {"Nifty 50", "Sensex", "USD/INR", "Brent"}
     if not market_tape or not required_quotes.issubset(market_tape.get("quotes", {})):
         report("FAIL", "Market Tape snapshot is missing or incomplete.", findings)
-    if "Yahoo Finance market data" not in document:
-        report("FAIL", "Market Tape and chart source attribution is missing.", findings)
+    if "Yahoo Finance price data" not in document:
+        report("FAIL", "Market Tape source attribution is missing.", findings)
 
     if audit.get("hours", 49) > 48:
         report("FAIL", "Audit window exceeds 48 hours.", findings)
@@ -65,7 +65,7 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
     if len(selected) > 6:
         report("WARN", "More than six editorial stories reduces scanability.", findings)
 
-    required_sections = ("Market tape", "Chart of the issue", "Macro", "National &amp; Strategy", "India Tech", "Tomorrow’s catalysts")
+    required_sections = ("Market tape", "Macro", "National &amp; Strategy", "India Tech", "Tomorrow’s catalysts")
     for section in required_sections:
         if section not in document:
             report("FAIL", f"Missing required section: {section}", findings)

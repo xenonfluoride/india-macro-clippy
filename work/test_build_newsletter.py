@@ -167,6 +167,11 @@ class QualityGateTests(unittest.TestCase):
         self.assertIn("24 September 2026", next_day)
         self.assertIn("Issue 004", same_day)
 
+    def test_compact_keeps_complete_sentences(self):
+        value = "First sentence is complete. Second sentence is deliberately much longer than the remaining room in this compact card."
+        self.assertEqual(builder.compact(value, 30), "First sentence is complete.")
+        self.assertEqual(builder.compact("The regulator took action against platforms…", 80), "The regulator took action against platforms.")
+
 
 if __name__ == "__main__":
     unittest.main()
