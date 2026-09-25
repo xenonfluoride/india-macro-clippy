@@ -15,6 +15,7 @@ from pathlib import Path
 LOW_SIGNAL = (
     "stock to buy", "share price", "dividend", "gadget review", "smartphone review", "open market operation", "omo sale", "stock market prediction", "underwriting auction", "government securities",
     "expected specs", "auction result", "vrrr", "money market operations",
+    "raises", "funding round", "series a", "series b", "engineering is not a degree", "executive interview",
 )
 
 

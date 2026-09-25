@@ -38,3 +38,8 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - Daily Market Tape is a labelled price snapshot. A six-session Nifty chart is removed from the default issue because it repeats the same signal without a fresh analytical comparison.
 - Automated card compression ends on a complete sentence. It does not append an ellipsis after a partial source-summary sentence.
 - Tomorrow’s catalysts must be distinct, dated items in the RSS audit. When the audit has none, the section says so rather than echoing the editorial cards’ watch items.
+
+## 2026-09-25: Keep editorial lanes free of commentary and political churn
+
+- Party-organisation and campaign stories do not qualify for National & Strategy unless they carry a concrete policy, legal, security, or foreign-affairs decision; the lane can remain empty when the RSS audit has no such item.
+- India Tech rejects routine financing announcements and executive thought-leadership. Priority goes to operational, regulatory, payments, and infrastructure developments whose RSS summaries establish a specific India-facing mechanism.

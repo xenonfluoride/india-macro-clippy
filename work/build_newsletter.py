@@ -194,6 +194,7 @@ NATIONAL_SIGNALS = (
 NATIONAL_LOW_SIGNAL = (
     "live updates", "gold rate", "weather", "gang-rape", "murder", "accident",
     "hit-and-run", "celebrity", "cricket", "movie", "school students", "hyperactive on the street",
+    "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes",
 )
 MACRO_TOPICS = {
     "food-prices": ("palm oil", "soya oil", "sunflower oil", "edible oil", "onion"),
@@ -209,6 +210,7 @@ CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
     "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next",
+    "raises", "funding round", "series a", "series b", "funding", "executive", "exec", "mindset", "interview", "thought leadership",
 )
 MACRO_SIGNALS = (
     "rbi", "sebi", "rupee", "inflation", "liquidity", "rate", "yield",
@@ -259,6 +261,12 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         signal_score += 8
     if item.section == "national" and has_any(text, ("jaishankar", "rubio", "sanctions", "foreign affairs")):
         signal_score += 12
+    if item.section == "tech" and has_any(text, ("fssai", "food safety", "non-compliance")):
+        signal_score += 18
+    if item.section == "tech" and has_any(text, ("mdr", "npci", "cyber threats")):
+        signal_score += 16
+    if item.section == "tech" and has_any(text, ("phonepe", "payment devices", "bharat market")):
+        signal_score += 10
     published = datetime.fromisoformat(item.published_at)
     age_hours = max(0.0, (now - published).total_seconds() / 3600)
     freshness_score = max(0, round(8 - age_hours / 6))
@@ -317,6 +325,10 @@ def display_title(value: str) -> str:
 def why_it_matters(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
+        if has_any(text, ("commodity derivatives", "foreign portfolio investors", "fpi access")):
+            return "Wider FPI access can deepen commodity hedging and price discovery, while delivery rules limit how foreign investors take physical exposure. Watch derivatives volumes, open interest, and any delivery activity to see whether the rule changes liquidity rather than just eligibility."
+        if has_any(text, ("blue bonds", "blue economy")):
+            return "SEBI recognition gives ocean-linked projects a defined sustainable-finance label, potentially widening their investor pool. Watch for an issuer pipeline and use-of-proceeds disclosures, which will test whether the label mobilises capital without weakening standards."
         if has_any(text, ("palm oil", "soya oil", "sunflower oil", "edible oil")):
             return "Lower import duties reduce the landed cost of key cooking oils, creating room for retail prices to ease. Watch pass-through at the shelf and whether protections for domestic oilseed growers become the next policy trade-off."
         if has_any(text, ("omcs", "oil marketing companies", "fuel losses", "under-recoveries")):
@@ -330,7 +342,7 @@ def why_it_matters(item: FeedItem) -> str:
         if has_any(text, ("growth", "manufacturing", "economy", "economic")):
             return "The growth print matters only if demand converts into durable private investment, output, and employment. Watch the next manufacturing and credit data for evidence that the expansion is broadening rather than relying on public spending."
         if has_any(text, ("rupee", "fed", "crude", "oil", "foreign")):
-            return "Currency and oil moves change India’s imported-inflation bill and the external-account buffer. Watch USD/INR, crude and foreign flows for confirmation of whether the pressure is easing or broadening."
+            return "Higher crude prices raise India’s dollar import bill while rising U.S. yields can pull capital away from rupee assets, pressuring both the currency and domestic borrowing costs. Watch RBI action, foreign debt flows, and the next oil move to see whether the sell-off becomes a broader external-financing stress."
         if has_any(text, ("rbi", "sebi", "liquidity", "rate", "yield")):
             return "The policy signal affects funding conditions through rates, liquidity, and risk appetite. Watch the next money-market data and lending response to see whether it changes the cost or availability of credit."
         if has_any(text, ("ipo", "nifty", "sensex", "market")):
@@ -338,22 +350,26 @@ def why_it_matters(item: FeedItem) -> str:
         return "The development changes incentives for households, firms, or public finances through the channel described in the report. Watch the next official data or implementation decision for evidence that the effect is reaching the real economy."
     if item.section == "national" and has_any(text, ("jaishankar", "rubio", "sanctions")):
         return "Sanctions policy can constrain India’s room to manage energy and defence ties even when bilateral diplomacy remains constructive. Watch the official readout and any waiver or enforcement detail that turns the concern into a commercial constraint."
+    if item.section == "national" and has_any(text, ("mines act", "mineral rights", "mineral-bearing lands")):
+        return "The amendments shift the balance of fiscal authority over mineral rights by narrowing states’ scope to levy taxes and cesses, which can change the economics of mining projects and state revenues. Watch Odisha’s assessment, litigation, and any central guidance for the first measure of the fiscal trade-off."
     if has_any(text, ("semiconductor", "chip", "deeptech")):
         return "Signed customers, deployed capacity, and repeat orders matter more than the announcement. Deep-tech sales cycles can hide weak commercial demand behind a strong launch narrative."
     if has_any(text, ("gcc", "capability center", "capability centres")):
         return "AI pilots do not produce the promised productivity gains until GCCs redesign workflows, data access, and accountability around them. Watch for pilots graduating into production deployments and for reskilling budgets to follow."
+    if has_any(text, ("fssai", "food safety", "penalis", "non-compliance")):
+        return "Penalties make marketplaces accountable for food-safety controls across sellers and quick-commerce fulfilment. Watch the orders’ scope and platform remediation to see whether compliance becomes a material operating cost."
+    if has_any(text, ("phonepe", "payment devices", "bharat market")):
+        return "A larger field-sales force and device rollout shift PhonePe’s expansion toward offline merchant acceptance, especially beyond major cities. Watch device activation, merchant retention, and transaction growth to judge whether the distribution spend creates durable payment usage."
     if has_any(text, ("upi", "payment", "fintech")):
         if has_any(text, ("market share", "transaction volumes", "transaction share")):
             return "Navi’s gain tests the staying power of India’s payment incumbents. Watch value share, incentive spending, and merchant retention before calling the shift durable."
         if has_any(text, ("mdr", "pricing", "fee")):
-            return "The MDR structure will decide who funds the payment rails and who absorbs the cost. Merchant adoption and regulator guidance will show whether the new charge can stick."
+            return "A merchant-discount fee would create a funding pool for UPI’s cybersecurity, capacity, and fraud-control costs instead of leaving them entirely to participating institutions. Watch NPCI and regulatory guidance, then merchant acceptance, to see whether a charge can fund resilience without slowing adoption."
         return "Putting transaction, mandate, complaint, and fraud tasks behind one assistant could reduce the friction of using UPI services. Watch activation and complaint-resolution data to see whether conversational access improves outcomes without raising fraud risk."
     if has_any(text, ("fund", "funding", "raises", "ipo")):
         return "Check customer traction and unit economics before treating the transaction as a sector signal. The next financing round or earnings release will test the valuation behind the headline."
     if has_any(text, ("regulation", "privacy", "antitrust", "data")):
         return "The rule's scope and enforcement will decide which companies carry the cost. Compliance deadlines and exemptions will separate the exposed firms from the beneficiaries."
-    if has_any(text, ("fssai", "food safety", "penalis", "non-compliance")):
-        return "Penalties make marketplaces accountable for food-safety controls across sellers and quick-commerce fulfilment. Watch the orders’ scope and platform remediation to see whether compliance becomes a material operating cost."
     return "The report identifies a specific operational or regulatory pressure on the companies involved. Watch the first disclosed response or enforcement step to determine whether that pressure changes behaviour."
 
 
@@ -371,6 +387,27 @@ def refresh_edition(document: str, now: datetime) -> str:
         document,
         count=1,
     )
+    return document
+
+
+def refresh_catalyst_date(document: str, now: datetime) -> str:
+    """Keep the lone closing catalyst module pointed at the following day."""
+    tomorrow_date = (now + timedelta(days=1)).strftime("%-d %B")
+    tomorrow_label = (now + timedelta(days=1)).strftime("%A, %-d %B")
+    document, heading_count = re.subn(
+        r'(<h2 id="catalyst-title">Tomorrow’s catalysts</h2>\s*<p class="meta">)[^<]+',
+        rf'\g<1>{tomorrow_label}',
+        document,
+        count=1,
+    )
+    document, note_count = re.subn(
+        r'(RSS audit did not contain a distinct, date-specific event for )\d{1,2} [A-Za-z]+(?=, so this section)',
+        rf'\g<1>{tomorrow_date}',
+        document,
+        count=1,
+    )
+    if heading_count != 1 or note_count != 1:
+        raise ValueError("Expected one dated Tomorrow’s catalysts module")
     return document
 
 
@@ -436,6 +473,7 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
 
     document = HTML_PATH.read_text(encoding="utf-8")
     document = refresh_edition(document, now)
+    document = refresh_catalyst_date(document, now)
     document = replace_region("".join(document), "MACRO", "\n".join(card(item, index + 1) for index, item in enumerate(macro)) or empty_card("macro"))
     document = replace_region(document, "NATIONAL", "\n".join(card(item, index + len(macro) + 1) for index, item in enumerate(national)) or empty_card("National &amp; Strategy"))
     document = replace_region(document, "TECH", "\n".join(card(item, index + len(macro) + len(national) + 1) for index, item in enumerate(tech)) or empty_card("tech"))

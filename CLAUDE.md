@@ -10,4 +10,4 @@ Always update documentation in the same change when modifying the RSS roster, ed
 - Market Tape is a clearly labelled Yahoo Finance price snapshot, not editorial inference. Do not publish a routine daily chart without a distinct analytical purpose.
 - Preserve the last good site if RSS selection, market data, tests, or evaluation fail.
 - Publish only after `python3 -m unittest work/test_build_newsletter.py` and the newsletter evaluator pass.
-- The builder must reject IPO/listing chatter, recycled growth-forecast roundups, and state-politics churn; it must also refresh the visible edition date on a new issue.
+- The builder must reject IPO/listing chatter, recycled growth-forecast roundups, party-political churn, and generic tech fundraising or executive commentary; it must also refresh the visible edition date on a new issue.

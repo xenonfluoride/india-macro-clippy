@@ -21,10 +21,10 @@ Build a short, source-linked newsletter for India macro, national strategy, mark
 
 Select fewer stories when the alternatives are weak. Prefer a mix of primary policy sources, high-quality reporting, and distinct subjects.
 
-- Reject routine central-bank operations, stock tips, dividend alerts, draft-IPO/listing chatter, recycled growth-forecast roundups, gadget reviews, product-spec posts, and non-India tech stories.
+- Reject routine central-bank operations, stock tips, dividend alerts, draft-IPO/listing chatter, recycled growth-forecast roundups, gadget reviews, product-spec posts, non-India tech stories, routine fund-raise announcements, and executive commentary without a concrete Indian operating, regulatory, or infrastructure signal.
 - Require a concrete India macro, market, policy, deep-tech, payments, regulation, company, or infrastructure signal.
 - Avoid repeating a source or theme unless the event genuinely needs follow-up coverage.
-- Keep Macro themes distinct across food prices, energy, external finance, trade, credit allocation, digital payments, monetary policy, and markets. Use National & Strategy only for policy, law, security, or foreign-affairs stories; reject local incidents, state-politics churn, and live-news churn.
+- Keep Macro themes distinct across food prices, energy, external finance, trade, credit allocation, digital payments, monetary policy, and markets. Use National & Strategy only for policy, law, security, or foreign-affairs stories; reject local incidents, party-political churn, and live-news churn.
 - Preserve the reporter's headline. You may remove publisher-style tails such as “check the details” or “experts explain.”
 - Give every selected item a two-sentence **Why it matters** note. Sentence one states the exposure, incentive, or mechanism. Sentence two names the next observable signal, tradeoff, or decision point. Do not reuse the same note for two different stories. Card summaries must end on a complete sentence, never an ellipsis.
 

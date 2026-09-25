@@ -57,7 +57,9 @@ class QualityGateTests(unittest.TestCase):
         template = '''<span id="rss-status"></span>
 <!-- RSS:MACRO:START --><!-- RSS:MACRO:END -->
 <!-- RSS:NATIONAL:START --><!-- RSS:NATIONAL:END -->
-<!-- RSS:TECH:START --><!-- RSS:TECH:END -->'''
+<!-- RSS:TECH:START --><!-- RSS:TECH:END -->
+<h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Wednesday, 17 September</p>
+<p>The 48-hour RSS audit did not contain a distinct, date-specific event for 17 September, so this section does not recycle stories.</p>'''
         with tempfile.TemporaryDirectory() as directory:
             original_html, original_audit = builder.HTML_PATH, builder.AUDIT_PATH
             builder.HTML_PATH = Path(directory) / "newsletter.html"
@@ -68,7 +70,7 @@ class QualityGateTests(unittest.TestCase):
                     [
                         item("Mint Markets", "macro", "India trade policy changes", "India trade policy update"),
                         item("The Hindu National", "national", "India joins multilateral forum", "India foreign policy update"),
-                        item("Inc42", "tech", "India AI startup raises funding", "India AI startup funding"),
+                        item("Inc42", "tech", "PhonePe expands payment devices in Bharat", "India payment devices reach rural merchants"),
                     ],
                     [{"source": "test", "section": "macro", "url": "https://example.com", "items_parsed": 3, "error": None}],
                     now,
@@ -100,6 +102,8 @@ class QualityGateTests(unittest.TestCase):
         forecast_recap = item("Business Standard Economy & Policy", "macro", "Ratings agencies raise India growth forecast")
         irrelevant = item("Indian Express Economy", "macro", "Agency wins global public relations award", "Industry recognition announcement")
         review = item("Indian Express Technology", "tech", "Oppo Find X9 Ultra review", "India smartphone review")
+        fundraising = item("Inc42", "tech", "India AI startup raises Series B funding", "Bengaluru startup funding announcement")
+        executive_commentary = item("YourStory", "tech", "Google exec says engineering is a mindset", "India AI commentary")
         self.assertIsNone(builder.quality_score(routine, now))
         self.assertIsNone(builder.quality_score(omo, now))
         self.assertIsNone(builder.quality_score(prediction, now))
@@ -115,6 +119,8 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(forecast_recap, now))
         self.assertIsNone(builder.quality_score(irrelevant, now))
         self.assertIsNone(builder.quality_score(review, now))
+        self.assertIsNone(builder.quality_score(fundraising, now))
+        self.assertIsNone(builder.quality_score(executive_commentary, now))
 
     def test_selects_diverse_high_signal_items(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
@@ -122,7 +128,7 @@ class QualityGateTests(unittest.TestCase):
             item("RBI", "macro", "Money Market Operations", "India liquidity data"),
             item("Bloomberg · Anup Roy", "macro", "India adviser calls for growth rethink"),
             item("Mint Markets", "macro", "Rupee reacts after Fed rate decision"),
-            item("Inc42", "tech", "India AI chip startup raises new funding"),
+            item("Inc42", "tech", "PhonePe expands payment devices in Bharat", "India payment devices reach rural merchants"),
             item("MediaNama", "tech", "India reopens UPI pricing debate"),
             item("Indian Express Technology", "tech", "New AI model launches globally", "Global enterprise product launch"),
         ]
@@ -151,7 +157,7 @@ class QualityGateTests(unittest.TestCase):
         share = item("Inc42", "tech", "Navi's UPI market share rises", "India transaction volumes rise")
         pricing = item("MediaNama", "tech", "UPI MDR pricing debate returns", "India payment fee policy")
         self.assertIn("value share", builder.why_it_matters(share))
-        self.assertIn("payment rails", builder.why_it_matters(pricing))
+        self.assertIn("cybersecurity", builder.why_it_matters(pricing))
 
     def test_digital_rupee_and_sanctions_notes_name_their_own_mechanisms(self):
         digital_rupee = item("Business Standard Companies", "macro", "Bank tests digital rupee rewards", "India CBDC wallet adds merchant payments")
@@ -166,6 +172,13 @@ class QualityGateTests(unittest.TestCase):
         self.assertIn("Issue 004", next_day)
         self.assertIn("24 September 2026", next_day)
         self.assertIn("Issue 004", same_day)
+
+    def test_refresh_catalyst_date_points_to_tomorrow(self):
+        document = '''<h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 25 September</p>
+        <p>The 48-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle stories.</p>'''
+        refreshed = builder.refresh_catalyst_date(document, datetime(2026, 9, 25, 2, tzinfo=timezone.utc))
+        self.assertIn("Saturday, 26 September", refreshed)
+        self.assertIn("event for 26 September", refreshed)
 
     def test_compact_keeps_complete_sentences(self):
         value = "First sentence is complete. Second sentence is deliberately much longer than the remaining room in this compact card."
