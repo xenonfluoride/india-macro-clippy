@@ -83,6 +83,7 @@ class QualityGateTests(unittest.TestCase):
                 builder.HTML_PATH, builder.AUDIT_PATH = original_html, original_audit
         self.assertEqual(exit_code, 0)
         self.assertEqual(len(audit["selected"]["national"]), 1)
+        self.assertEqual(audit["selection_audit"]["macro"][0]["decision"], "selected")
         self.assertIn("India joins multilateral forum", rendered)
 
     def test_rejects_routine_and_consumer_items(self):
@@ -150,8 +151,8 @@ class QualityGateTests(unittest.TestCase):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         candidates = [
             item("RBI", "macro", "Money Market Operations", "India liquidity data"),
-            item("Bloomberg · Anup Roy", "macro", "India adviser calls for growth rethink"),
-            item("Mint Markets", "macro", "Rupee reacts after Fed rate decision"),
+            item("Bloomberg · Anup Roy", "macro", "India announces semiconductor logistics policy", "India manufacturing plan"),
+            item("Mint Markets", "macro", "India refiners trim Russian crude purchases", "India oil buyers reassess cargoes"),
             item("Inc42", "tech", "PhonePe expands payment devices in Bharat", "India payment devices reach rural merchants"),
             item("MediaNama", "tech", "India reopens UPI pricing debate"),
             item("Indian Express Technology", "tech", "New AI model launches globally", "Global enterprise product launch"),
@@ -160,6 +161,22 @@ class QualityGateTests(unittest.TestCase):
         tech = builder.select_items(candidates, "tech", now)
         self.assertEqual(set(row.source for row in macro), {"Bloomberg · Anup Roy", "Mint Markets"})
         self.assertEqual(set(row.source for row in tech), {"MediaNama", "Inc42"})
+
+    def test_macro_themes_use_whole_words_and_cover_real_economy_stories(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        treaty = item("Economic Times Economy", "macro", "India keeps taxation out of investment treaty", "Foreign investors must use local remedies before arbitration")
+        edf = item("Economic Times Economy", "macro", "India and EDF discuss EPR nuclear and pumped hydro", "Power ministry discusses deployment and regulation")
+        drought = item("Business Standard Economy & Policy", "macro", "Maharashtra declares drought and crop-loan relief", "Rainfall deficit causes crop loss")
+        water = item("Business Standard Economy & Policy", "macro", "AIIB plans water financing in India", "Water infrastructure will address rainfall deficit")
+        logistics = item("Business Standard Companies", "macro", "Chip logistics facility planned in Gujarat", "India semiconductor workforce training is planned")
+        self.assertFalse(builder.has_any("arbitration", ("rbi",)))
+        self.assertIn("external-finance", builder.macro_topics(treaty))
+        self.assertIn("energy-and-infrastructure", builder.macro_topics(edf))
+        self.assertIn("food-and-rural", builder.macro_topics(drought))
+        self.assertIn("climate-and-water", builder.macro_topics(water))
+        self.assertIn("investment-and-industry", builder.macro_topics(logistics))
+        for candidate in (treaty, edf, drought, water, logistics):
+            self.assertIsNotNone(builder.quality_score(candidate, now))
 
     def test_macro_selection_avoids_repeating_the_same_theme(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)

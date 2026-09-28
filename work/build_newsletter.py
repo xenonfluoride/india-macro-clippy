@@ -197,14 +197,33 @@ NATIONAL_LOW_SIGNAL = (
     "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes",
 )
 MACRO_TOPICS = {
-    "food-prices": ("palm oil", "soya oil", "sunflower oil", "edible oil", "onion"),
-    "energy": ("crude", "oil", "refiner", "russian cargo", "russia cargo"),
-    "external-finance": ("fcnr", "forex", "swap facility", "ecb", "ofcb"),
-    "trade": ("trade", "tariff", "fta", "cepa", "duty-free"),
-    "credit-allocation": ("project viability", "collateral to cash flows", "cash flows"),
-    "digital-payments": ("digital rupee", "cbdc"),
-    "monetary-policy": ("rbi", "liquidity", "interest rate", "bond yield"),
-    "markets": ("derivatives", "nifty", "sensex", "ipo"),
+    "food-and-rural": (
+        "food price", "edible oil", "palm oil", "soya oil", "sunflower oil", "onion",
+        "drought", "rainfall deficit", "monsoon", "crop loss", "crop loan", "agriculture",
+    ),
+    "energy-and-infrastructure": (
+        "crude", "oil", "refiner", "russian cargo", "russian crude", "lng", "nuclear",
+        "epr", "pumped hydro", "renewable", "power grid", "energy infrastructure",
+    ),
+    "climate-and-water": (
+        "water infrastructure", "water financing", "water policy", "el niño", "climate resilience",
+        "monsoon rainfall", "rainfall deficit",
+    ),
+    "external-finance": (
+        "forex", "swap facility", "foreign investor", "foreign investment", "investment treaty",
+        "bilateral investment", "arbitration", "fpi", "fii", "portfolio investor",
+    ),
+    "trade-and-rules": (
+        "trade", "tariff", "fta", "cepa", "duty-free", "customs", "export", "import",
+        "trade secrets", "contract enforcement",
+    ),
+    "investment-and-industry": (
+        "capex", "project pipeline", "manufacturing", "semiconductor", "chip", "logistics",
+        "industrial policy", "factory", "supply chain",
+    ),
+    "digital-payments": ("digital rupee", "cbdc", "upi", "payment rail"),
+    "monetary-policy": ("rbi", "liquidity", "interest rate", "bond yield", "policy rate"),
+    "markets": ("derivatives", "nifty", "sensex"),
 }
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
@@ -212,12 +231,7 @@ CONSUMER_TECH = (
     "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next",
     "raises", "funding round", "series a", "series b", "funding", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe",
 )
-MACRO_SIGNALS = (
-    "rbi", "sebi", "rupee", "inflation", "liquidity", "rate", "yield",
-    "fed", "crude", "oil", "nifty", "sensex", "market", "ipo", "upi",
-    "bank", "bond", "foreign", "fii", "dii", "trade", "tariff", "growth",
-    "economy", "economic", "manufacturing",
-)
+MACRO_SIGNALS = tuple(phrase for phrases in MACRO_TOPICS.values() for phrase in phrases)
 TECH_SIGNALS = (
     "ai", "agent", "semiconductor", "chip", "deeptech", "upi", "payment",
     "fund", "funding", "raises", "ipo", "regulation", "privacy", "antitrust",
@@ -228,27 +242,54 @@ TECH_SIGNALS = (
 INDIA_TERMS = (
     "india", "indian", "rbi", "sebi", "upi", "jio", "modi", "bengaluru",
     "mumbai", "delhi", "rupee", "nifty", "sensex", "phonepe", "paytm",
+    "maharashtra", "gujarat", "karnataka", "odisha", "tamil nadu", "uttar pradesh",
+    "andhra pradesh", "telangana", "kerala", "rajasthan", "madhya pradesh", "bihar",
+)
+CONCRETE_ACTIONS = (
+    "approved", "announced", "attached", "build", "consult", "declared", "deploy",
+    "discuss", "fund", "issued", "launched", "met", "plans", "review", "will keep",
 )
 
 
+def phrase_pattern(phrase: str) -> str:
+    """Match whole words, allowing punctuation or whitespace inside a phrase."""
+    words = re.findall(r"[a-z0-9]+", phrase.lower())
+    if not words:
+        return r"$^"
+    return r"(?<![a-z0-9])" + r"[^a-z0-9]+".join(map(re.escape, words)) + r"(?![a-z0-9])"
+
+
 def has_any(text: str, phrases: Iterable[str]) -> bool:
-    return any(phrase in text for phrase in phrases)
+    return any(re.search(phrase_pattern(phrase), text, flags=re.IGNORECASE) for phrase in phrases)
+
+
+def macro_topics(item: FeedItem) -> list[str]:
+    text = f"{item.title} {item.summary}"
+    return [topic for topic, phrases in MACRO_TOPICS.items() if has_any(text, phrases)]
 
 
 def topic_for(item: FeedItem) -> str | None:
     if item.section != "macro":
         return None
-    text = f"{item.title} {item.summary}".lower()
-    return next((topic for topic, phrases in MACRO_TOPICS.items() if has_any(text, phrases)), None)
+    return next(iter(macro_topics(item)), None)
 
 
 def quality_score(item: FeedItem, now: datetime) -> int | None:
-    text = f"{item.title} {item.summary}".lower()
+    text = f"{item.title} {item.summary}"
     if item.section == "macro":
         if not has_any(text, INDIA_TERMS):
             return None
-        if has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION) or not has_any(text, MACRO_SIGNALS):
+        if has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION):
             return None
+        themes = macro_topics(item)
+        if not themes:
+            return None
+        theme_score = 6 + min(3, 2 * (len(themes) - 1))
+        evidence_score = 3 if has_any(text, CONCRETE_ACTIONS) else 0
+        published = datetime.fromisoformat(item.published_at)
+        age_hours = max(0.0, (now - published).total_seconds() / 3600)
+        freshness_score = max(0, round(8 - age_hours / 6))
+        return SOURCE_WEIGHT.get(item.source, 4) + theme_score + evidence_score + freshness_score
     if item.section == "national":
         if has_any(text, NATIONAL_LOW_SIGNAL) or not has_any(text, NATIONAL_SIGNALS):
             return None
@@ -256,7 +297,7 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         if has_any(text, CONSUMER_TECH) or has_any(text, ("next major frontier", "next infrastructure push")) or not has_any(text, INDIA_TERMS) or not has_any(text, TECH_SIGNALS):
             return None
 
-    signal_words = {"macro": MACRO_SIGNALS, "national": NATIONAL_SIGNALS, "tech": TECH_SIGNALS}[item.section]
+    signal_words = {"national": NATIONAL_SIGNALS, "tech": TECH_SIGNALS}[item.section]
     signal_score = min(12, sum(1 for word in signal_words if word in text) * 3)
     if item.section == "macro" and has_any(text, ("project viability", "collateral to cash flows", "cash flows", "palm oil", "soya oil", "sunflower oil", "edible oil")):
         signal_score += 8
@@ -300,6 +341,47 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
     return selected
 
 
+def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, selected: Iterable[FeedItem]) -> list[dict[str, object]]:
+    """Make editorial exclusions inspectable instead of silently dropping a story."""
+    selected_items = list(selected)
+    selected_sources = {item.source for item in selected_items}
+    selected_topics = {topic_for(item) for item in selected_items if topic_for(item)}
+    rows: list[dict[str, object]] = []
+    for item in items:
+        if item.section != section:
+            continue
+        score = quality_score(item, now)
+        text = f"{item.title} {item.summary}"
+        if item in selected_items:
+            decision = "selected"
+        elif score is None:
+            if section == "macro" and not has_any(text, INDIA_TERMS):
+                decision = "rejected: no India signal"
+            elif section == "macro" and (has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION)):
+                decision = "rejected: hard editorial exclusion"
+            elif section == "macro":
+                decision = "rejected: no recognised macro theme"
+            else:
+                decision = "rejected: section relevance or hard editorial exclusion"
+        elif item.source in selected_sources:
+            decision = "eligible but excluded: duplicate source"
+        elif section == "macro" and topic_for(item) in selected_topics:
+            decision = "eligible but excluded: duplicate macro theme"
+        else:
+            decision = "eligible but excluded: lower-ranked than the editorial limit"
+        rows.append({
+            "source": item.source,
+            "section": item.section,
+            "title": item.title,
+            "link": item.link,
+            "published_at": item.published_at,
+            "score": score,
+            "themes": macro_topics(item) if section == "macro" else [],
+            "decision": decision,
+        })
+    return sorted(rows, key=lambda row: ((row["score"] is not None), row["score"] or -1, row["published_at"]), reverse=True)
+
+
 def compact(value: str, limit: int = 250) -> str:
     value = " ".join(value.split()).rstrip("…").rstrip()
     if len(value) <= limit:
@@ -329,6 +411,20 @@ def display_title(value: str) -> str:
 def why_it_matters(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
+        if has_any(text, ("epr", "nuclear", "pumped hydro")):
+            return "A nuclear and pumped-hydro pipeline could add firm low-carbon power and storage, but it depends on regulatory clarity and long project timelines. Watch for a project framework, financing plan, and named sites before treating the talks as build commitments."
+        if has_any(text, ("drought", "crop loss", "crop loan")):
+            return "Drought relief shifts part of the rainfall shock from farm households to state budgets and lenders through loan restructuring and support payments. Watch crop-damage assessments, relief orders, and food-price data for the scale of the economic hit."
+        if has_any(text, ("water financing", "water infrastructure", "el niño")):
+            return "More water financing could improve resilience to rainfall shortfalls while creating a pipeline for infrastructure and policy projects. Watch AIIB approvals and state-level project plans to see whether the proposal becomes funded capacity."
+        if has_any(text, ("investment treaty", "bilateral investment", "taxation outside")):
+            return "Keeping taxation outside investment treaties narrows the route investors can use to challenge tax disputes internationally. Watch the Cabinet’s model treaty text and negotiations with partner countries for the practical impact on investor protections."
+        if has_any(text, ("trade secrets", "contract enforcement", "whistleblower safeguards")):
+            return "Clearer trade-secret and contract rules could reduce legal uncertainty for firms sharing know-how and working with suppliers. Watch the consultation paper and the choice between a new law or Contract Act changes for the real compliance burden."
+        if has_any(text, ("rodtep", "rosctl", "export support schemes", "export sops")):
+            return "Reviewing export-support schemes could change the cost and predictability of selling from India into overseas markets. Watch the review’s recommendations and any revised reimbursement rules for the effect on exporter cash flows and trade competitiveness."
+        if has_any(text, ("semiconductor logistics", "chip ecosystem", "sensitive chip equipment")):
+            return "Specialised chip logistics and trained handling staff can remove a practical bottleneck in India’s semiconductor supply chain. Watch for site construction, customer contracts, and the planned 2027 opening to test whether the facility becomes operating capacity."
         if has_any(text, ("origin declaration", "concessional duty", "india-uk ceta")):
             return "Accepting an origin declaration as the normal proof of eligibility should lower paperwork costs for importers using the India-UK trade agreement. Watch customs scrutiny rates and preference-claim volumes to see whether the simplification translates into wider use of the concessions."
         if has_any(text, ("private sector capex", "private-sector capex", "aggregate cost of projects")):
@@ -477,6 +573,11 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
             "macro": [asdict(item) for item in macro],
             "national": [asdict(item) for item in national],
             "tech": [asdict(item) for item in tech],
+        },
+        "selection_audit": {
+            "macro": selection_audit(items, "macro", now, macro),
+            "national": selection_audit(items, "national", now, national),
+            "tech": selection_audit(items, "tech", now, tech),
         },
     }
     AUDIT_PATH.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

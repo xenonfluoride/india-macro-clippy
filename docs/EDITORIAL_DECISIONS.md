@@ -53,4 +53,10 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - A ministerial view of a possible growth rate is also commentary, absent an announced measure or fresh official data.
 - Stock watchlists framed as shares “in focus” or “on radar” are stock tips even when they do not use the exact phrase “buy”; the selection filter treats them accordingly.
 - Macro has a minimum relevance score, so a market holiday calendar cannot displace a substantive card merely to make the lane look full.
+
+## 2026-09-28: Replace literal Macro matching with inspectable editorial themes
+
+- Raw substring matching was not fit for editorial selection: it missed nuclear power, drought, water finance, and chip logistics, and could read the letters “rbi” inside “arbitration”.
+- Macro selection now uses whole-word theme matching for food and rural conditions, energy and infrastructure, climate and water, external finance, trade and rules, investment and industry, digital payments, monetary policy, and markets. These themes retain hard exclusions but recognise concrete India-facing developments outside financial-market vocabulary.
+- The RSS audit now records every candidate’s score, detected Macro themes, and the reason it was selected or excluded. This makes a weak rule visible and correctable rather than silently treating it as an editorial decision.
 - The evaluator now catches IPO-tracker and draft-listing titles as a backstop to the builder’s selection gate.
