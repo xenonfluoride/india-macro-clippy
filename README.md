@@ -16,7 +16,7 @@ The builder keeps a 48-hour window, records every retained item and fetch failur
 | National & Strategy | The Hindu National |
 | India Tech | Economic Times Tech; The Hindu Technology; YourStory; Inc42 |
 
-The macro selector prevents repeated food-price, energy, external-finance, trade, credit-allocation, digital-payments, monetary-policy, and market themes in one issue. It excludes draft-IPO/listing chatter and recycled growth-forecast roundups. The National & Strategy lane admits India-relevant policy, law, security, and foreign-affairs stories and rejects local incidents, live updates, price checks, entertainment, and party-political churn. India Tech also excludes routine fund-raise announcements and executive commentary when the RSS summary lacks a concrete Indian operating, regulatory, or infrastructure signal.
+The macro selector prevents repeated food-price, energy, external-finance, trade, credit-allocation, digital-payments, monetary-policy, and market themes in one issue. It excludes draft-IPO/listing chatter, market-mover posts, recycled long-range market forecasts, speculative meeting previews, investor punditry, and ministerial or executive commentary; it leaves a slot empty rather than use a thin market-calendar item. The National & Strategy lane admits India-relevant policy, law, security, and foreign-affairs stories and rejects local incidents, live updates, price checks, entertainment, and party-political churn. India Tech also excludes IPO trackers, routine fund-raise announcements, generic ministerial or executive commentary, and offshore incidents that merely invite hypothetical India action; every card needs a concrete Indian operating, regulatory, or infrastructure signal.
 
 ## Build and publish
 

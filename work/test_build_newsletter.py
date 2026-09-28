@@ -104,6 +104,18 @@ class QualityGateTests(unittest.TestCase):
         review = item("Indian Express Technology", "tech", "Oppo Find X9 Ultra review", "India smartphone review")
         fundraising = item("Inc42", "tech", "India AI startup raises Series B funding", "Bengaluru startup funding announcement")
         executive_commentary = item("YourStory", "tech", "Google exec says engineering is a mindset", "India AI commentary")
+        macro_executive_commentary = item("Mint Markets", "macro", "Fund MD & CEO says Dubai expansion is important", "India market commentary")
+        forecast_roundup = item("Business Standard Economy & Policy", "macro", "India's consumer market to touch ₹3 trillion by 2030", "India market forecast")
+        market_mover = item("Mint Markets", "macro", "India's AI enablers surge as data centre buildout gathers pace", "India technology shares rise")
+        conditional_diplomacy = item("Business Standard Economy & Policy", "macro", "Minister may hold bilateral meeting with USTR this week", "India trade discussion could happen")
+        investor_commentary = item("Mint Markets", "macro", "FIIs sell shares but five factors can bring them back — experts decode", "India investment commentary")
+        ministerial_growth_commentary = item("The Hindu Economy", "macro", "Over 10% economic growth possible for India: Finance Minister", "India economy can grow faster")
+        stock_watchlist = item("Mint Markets", "macro", "Top stocks in focus today: shares that must be on radar", "India market watchlist")
+        portfolio_tip = item("Mint Markets", "macro", "Greed and Fear index: investor portfolio has 22 stocks for the long term", "India market portfolio")
+        technicals_tip = item("Mint Markets", "macro", "Expert View: stock selection crucial; three sectors have strong technicals", "India market expert commentary")
+        ipo_tracker = item("Inc42", "tech", "Indian Startup IPO Tracker 2026", "India startup listing recap")
+        global_ai_warning = item("The Hindu Technology", "tech", "Australia breach offers warning for countries like India", "India should bring regulations after an Australia breach")
+        government_commentary = item("Economic Times Tech", "tech", "AI, semiconductors to drive India's next infrastructure push: FM Sitharaman", "India should invest in infrastructure")
         self.assertIsNone(builder.quality_score(routine, now))
         self.assertIsNone(builder.quality_score(omo, now))
         self.assertIsNone(builder.quality_score(prediction, now))
@@ -121,6 +133,18 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(review, now))
         self.assertIsNone(builder.quality_score(fundraising, now))
         self.assertIsNone(builder.quality_score(executive_commentary, now))
+        self.assertIsNone(builder.quality_score(macro_executive_commentary, now))
+        self.assertIsNone(builder.quality_score(forecast_roundup, now))
+        self.assertIsNone(builder.quality_score(market_mover, now))
+        self.assertIsNone(builder.quality_score(conditional_diplomacy, now))
+        self.assertIsNone(builder.quality_score(investor_commentary, now))
+        self.assertIsNone(builder.quality_score(ministerial_growth_commentary, now))
+        self.assertIsNone(builder.quality_score(stock_watchlist, now))
+        self.assertIsNone(builder.quality_score(portfolio_tip, now))
+        self.assertIsNone(builder.quality_score(technicals_tip, now))
+        self.assertIsNone(builder.quality_score(ipo_tracker, now))
+        self.assertIsNone(builder.quality_score(global_ai_warning, now))
+        self.assertIsNone(builder.quality_score(government_commentary, now))
 
     def test_selects_diverse_high_signal_items(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
@@ -147,6 +171,16 @@ class QualityGateTests(unittest.TestCase):
         macro = builder.select_items(candidates, "macro", now)
         self.assertEqual(len(macro), 2)
         self.assertEqual({row.source for row in macro}, {"Business Standard Economy & Policy", "The Hindu Economy"})
+
+    def test_macro_selection_leaves_a_slot_empty_for_a_thin_market_calendar(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        candidates = [
+            item("Business Standard Economy & Policy", "macro", "India crude oil bill rises", "India crude import costs rise"),
+            item("The Hindu Economy", "macro", "India trade agreement expands duty-free access", "India trade policy changes"),
+            item("Mint Markets", "macro", "Stock market holidays next week", "India market calendar"),
+        ]
+        macro = builder.select_items(candidates, "macro", now)
+        self.assertEqual(len(macro), 2)
 
     def test_strips_publisher_style_headline_tails(self):
         title = "Sensex rises after Fed decision — Experts explain the move"

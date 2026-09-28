@@ -43,3 +43,14 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 
 - Party-organisation and campaign stories do not qualify for National & Strategy unless they carry a concrete policy, legal, security, or foreign-affairs decision; the lane can remain empty when the RSS audit has no such item.
 - India Tech rejects routine financing announcements and executive thought-leadership. Priority goes to operational, regulatory, payments, and infrastructure developments whose RSS summaries establish a specific India-facing mechanism.
+
+## 2026-09-28: Reject commentary and hypothetical spillovers more consistently
+
+- Macro executive commentary is not a macro signal merely because it comes from a market participant; a card needs an announced policy, operation, investment, or measurable economic development.
+- India Tech excludes IPO trackers and offshore breaches that only prompt a hypothetical Indian regulatory response. A qualifying tech card must describe an actual India-facing operating, regulatory, or infrastructure mechanism.
+- Long-range market-size forecasts, stock-market movers, and generic ministerial technology aspirations are not substitutes for a current macro or technology development.
+- A possible bilateral meeting and an investor’s list of potential market drivers are previews or opinion, not completed policy or market developments.
+- A ministerial view of a possible growth rate is also commentary, absent an announced measure or fresh official data.
+- Stock watchlists framed as shares “in focus” or “on radar” are stock tips even when they do not use the exact phrase “buy”; the selection filter treats them accordingly.
+- Macro has a minimum relevance score, so a market holiday calendar cannot displace a substantive card merely to make the lane look full.
+- The evaluator now catches IPO-tracker and draft-listing titles as a backstop to the builder’s selection gate.

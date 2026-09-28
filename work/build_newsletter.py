@@ -179,12 +179,12 @@ SOURCE_WEIGHT = {
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:", "underwriting auction", "ipo listing", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:", "underwriting auction", "ipo listing", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays",
 )
 STOCK_PREDICTION = (
     "prediction", "outlook", "target price", "price target", "stock recommendations",
     "stock to buy", "should investors", "should you", "buy the dip", "bull case",
-    "bear case", "stop-loss",
+    "bear case", "stop-loss", "stock selection", "expert view", "strong technicals",
 )
 NATIONAL_SIGNALS = (
     "cabinet", "parliament", "ministry", "government", "policy", "bill", "act",
@@ -210,7 +210,7 @@ CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
     "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next",
-    "raises", "funding round", "series a", "series b", "funding", "executive", "exec", "mindset", "interview", "thought leadership",
+    "raises", "funding round", "series a", "series b", "funding", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe",
 )
 MACRO_SIGNALS = (
     "rbi", "sebi", "rupee", "inflation", "liquidity", "rate", "yield",
@@ -222,7 +222,8 @@ TECH_SIGNALS = (
     "ai", "agent", "semiconductor", "chip", "deeptech", "upi", "payment",
     "fund", "funding", "raises", "ipo", "regulation", "privacy", "antitrust",
     "data", "cloud", "startup", "software", "robot", "automation", "microsoft",
-    "openai", "anthropic", "meta", "google", "amazon", "jio",
+    "openai", "anthropic", "meta", "google", "amazon", "jio", "gaming",
+    "digital maturity", "non-profit", "gameskraft",
 )
 INDIA_TERMS = (
     "india", "indian", "rbi", "sebi", "upi", "jio", "modi", "bengaluru",
@@ -252,7 +253,7 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         if has_any(text, NATIONAL_LOW_SIGNAL) or not has_any(text, NATIONAL_SIGNALS):
             return None
     if item.section == "tech":
-        if has_any(text, CONSUMER_TECH) or not has_any(text, INDIA_TERMS):
+        if has_any(text, CONSUMER_TECH) or has_any(text, ("next major frontier", "next infrastructure push")) or not has_any(text, INDIA_TERMS) or not has_any(text, TECH_SIGNALS):
             return None
 
     signal_words = {"macro": MACRO_SIGNALS, "national": NATIONAL_SIGNALS, "tech": TECH_SIGNALS}[item.section]
@@ -276,6 +277,9 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
 def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: int = 3) -> list[FeedItem]:
     ranked = [(quality_score(item, now), item) for item in items if item.section == section]
     ranked = [(score, item) for score, item in ranked if score is not None]
+    if section == "macro":
+        # A thin market-calendar or general-market item must not fill a third slot.
+        ranked = [(score, item) for score, item in ranked if score >= 15]
     ranked.sort(key=lambda row: (row[0], row[1].published_at), reverse=True)
 
     selected: list[FeedItem] = []
@@ -325,6 +329,12 @@ def display_title(value: str) -> str:
 def why_it_matters(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
+        if has_any(text, ("origin declaration", "concessional duty", "india-uk ceta")):
+            return "Accepting an origin declaration as the normal proof of eligibility should lower paperwork costs for importers using the India-UK trade agreement. Watch customs scrutiny rates and preference-claim volumes to see whether the simplification translates into wider use of the concessions."
+        if has_any(text, ("private sector capex", "private-sector capex", "aggregate cost of projects")):
+            return "A larger private-project pipeline would support investment demand, but infrastructure’s dominance means the benefit may remain concentrated in capital-intensive sectors. Watch project financial closures and bank credit to see whether manufacturing and services begin to share the spending cycle."
+        if has_any(text, ("russian crude", "russian oil supplies", "russian oil")):
+            return "Reliable Russian crude flows can cushion India’s import bill when disruptions tighten global supply, reducing the pressure passed through to refiners and consumers. Watch shipment volumes, discounts, and sanctions enforcement to see whether that buffer remains commercially usable."
         if has_any(text, ("commodity derivatives", "foreign portfolio investors", "fpi access")):
             return "Wider FPI access can deepen commodity hedging and price discovery, while delivery rules limit how foreign investors take physical exposure. Watch derivatives volumes, open interest, and any delivery activity to see whether the rule changes liquidity rather than just eligibility."
         if has_any(text, ("blue bonds", "blue economy")):
@@ -366,6 +376,10 @@ def why_it_matters(item: FeedItem) -> str:
         if has_any(text, ("mdr", "pricing", "fee")):
             return "A merchant-discount fee would create a funding pool for UPI’s cybersecurity, capacity, and fraud-control costs instead of leaving them entirely to participating institutions. Watch NPCI and regulatory guidance, then merchant acceptance, to see whether a charge can fund resilience without slowing adoption."
         return "Putting transaction, mandate, complaint, and fraud tasks behind one assistant could reduce the friction of using UPI services. Watch activation and complaint-resolution data to see whether conversational access improves outcomes without raising fraud risk."
+    if has_any(text, ("rummyculture", "gameskraft", "money laundering", "pmla")):
+        return "An asset attachment can restrict the capital and operating room available to a gaming platform while its enforcement case proceeds. Watch the company’s legal response and any adjudication order for the first indication of whether the action changes the sector’s compliance burden."
+    if has_any(text, ("digital maturity", "non-profits", "nonprofits")):
+        return "Low digital maturity limits how effectively non-profits can use data, online grants, and AI tools to deliver programmes or raise funds. Watch whether training and funding partners set adoption targets that turn the reported gap into measurable capability gains."
     if has_any(text, ("fund", "funding", "raises", "ipo")):
         return "Check customer traction and unit economics before treating the transaction as a sector signal. The next financing round or earnings release will test the valuation behind the headline."
     if has_any(text, ("regulation", "privacy", "antitrust", "data")):
