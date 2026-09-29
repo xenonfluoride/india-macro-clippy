@@ -60,3 +60,8 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - Macro selection now uses whole-word theme matching for food and rural conditions, energy and infrastructure, climate and water, external finance, trade and rules, investment and industry, digital payments, monetary policy, and markets. These themes retain hard exclusions but recognise concrete India-facing developments outside financial-market vocabulary.
 - The RSS audit now records every candidate’s score, detected Macro themes, and the reason it was selected or excluded. This makes a weak rule visible and correctable rather than silently treating it as an editorial decision.
 - The evaluator now catches IPO-tracker and draft-listing titles as a backstop to the builder’s selection gate.
+
+## 2026-09-29: Leave weak lanes short and deduplicate an event
+
+- A minister asking states to act, an investment claim from a party spokesperson, and a generic private-placement announcement are not enough on their own to clear the editorial bar. The builder now rejects those patterns rather than filling a card slot.
+- India Tech treats a UPI/MDR development as one event across feeds. A court action can stand alone, while a same-event retailer protest does not create a second card.

@@ -49,8 +49,27 @@ class QualityGateTests(unittest.TestCase):
             "The Hindu National", "national", "Hit-and-run incident reported in Delhi",
             "A local India crime report.",
         )
+        state_spokesperson = item(
+            "The Hindu National", "national", "State investment drive lifts FDI, says party spokesperson",
+            "A state government spokesperson credits its investment drive.",
+        )
+        speculative_sector = item(
+            "The Hindu National", "national", "Why rare-disease drugs could become India’s next pharma frontier",
+            "An analysis of a possible industry opportunity.",
+        )
         self.assertIsNotNone(builder.quality_score(foreign_policy, now))
         self.assertIsNone(builder.quality_score(local_crime, now))
+        self.assertIsNone(builder.quality_score(state_spokesperson, now))
+        self.assertIsNone(builder.quality_score(speculative_sector, now))
+
+    def test_tech_selection_keeps_one_card_per_repeated_event(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        mdr_court = item("YourStory", "tech", "UPI MDR: Court seeks responses", "India court reviews merchant discount rate", 10)
+        mdr_protest = item("Inc42", "tech", "Retailers protest UPI MDR", "Indian retailers oppose merchant discount rate", 9)
+        acquisition = item("Economic Times Tech", "tech", "HCLTech acquires an AI software firm", "India software company acquires automation business", 8)
+        selected = builder.select_items((mdr_court, mdr_protest, acquisition), "tech", now)
+        self.assertEqual(len(selected), 2)
+        self.assertEqual(sum(builder.event_for(row) == "upi-mdr" for row in selected), 1)
 
     def test_render_includes_the_national_lane_in_the_audit_and_html(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
@@ -90,9 +109,11 @@ class QualityGateTests(unittest.TestCase):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         routine = item("RBI", "macro", "Result of the VRRR auction")
         omo = item("RBI", "macro", "Open Market Operation OMO sale")
+        net_debt_sale = item("Business Standard Economy & Policy", "macro", "RBI completes net debt sale", "India liquidity operation")
         prediction = item("Mint Markets", "macro", "Stock Market prediction tomorrow")
         outlook = item("Mint Markets", "macro", "Global rate hike cycle begins — Sensex, Nifty outlook")
         stock_tip = item("Mint Markets", "macro", "Top stocks to buy on Monday")
+        blue_chip_tip = item("Mint Markets", "macro", "Four blue-chip stocks in India with expanding margins")
         company_move = item("Mint Markets", "macro", "Why Adani Total Gas lost 5% as stocks performed")
         market_cues = item("Mint Markets", "macro", "How Asian markets and GIFT Nifty will impact Sensex today")
         promo = item("Inc42", "tech", "Spacetech’s Next Big Test, Weekly Funding Rundown")
@@ -119,9 +140,11 @@ class QualityGateTests(unittest.TestCase):
         government_commentary = item("Economic Times Tech", "tech", "AI, semiconductors to drive India's next infrastructure push: FM Sitharaman", "India should invest in infrastructure")
         self.assertIsNone(builder.quality_score(routine, now))
         self.assertIsNone(builder.quality_score(omo, now))
+        self.assertIsNone(builder.quality_score(net_debt_sale, now))
         self.assertIsNone(builder.quality_score(prediction, now))
         self.assertIsNone(builder.quality_score(outlook, now))
         self.assertIsNone(builder.quality_score(stock_tip, now))
+        self.assertIsNone(builder.quality_score(blue_chip_tip, now))
         self.assertIsNone(builder.quality_score(company_move, now))
         self.assertIsNone(builder.quality_score(market_cues, now))
         self.assertIsNone(builder.quality_score(promo, now))

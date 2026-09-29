@@ -179,7 +179,7 @@ SOURCE_WEIGHT = {
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "detailed result:", "underwriting auction", "ipo listing", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "experts see", "weekly policy watch", "blue-chip stocks",
 )
 STOCK_PREDICTION = (
     "prediction", "outlook", "target price", "price target", "stock recommendations",
@@ -194,7 +194,7 @@ NATIONAL_SIGNALS = (
 NATIONAL_LOW_SIGNAL = (
     "live updates", "gold rate", "weather", "gang-rape", "murder", "accident",
     "hit-and-run", "celebrity", "cricket", "movie", "school students", "hyperactive on the street",
-    "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes",
+    "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes", "spokesperson", "next pharma frontier",
 )
 MACRO_TOPICS = {
     "food-and-rural": (
@@ -228,7 +228,7 @@ MACRO_TOPICS = {
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
-    "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next",
+    "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "no upi day", "report card",
     "raises", "funding round", "series a", "series b", "funding", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe",
 )
 MACRO_SIGNALS = tuple(phrase for phrases in MACRO_TOPICS.values() for phrase in phrases)
@@ -272,6 +272,14 @@ def topic_for(item: FeedItem) -> str | None:
     if item.section != "macro":
         return None
     return next(iter(macro_topics(item)), None)
+
+
+def event_for(item: FeedItem) -> str | None:
+    """Recognise recurring storylines that should receive only one tech card."""
+    text = f"{item.title} {item.summary}"
+    if item.section == "tech" and has_any(text, ("upi", "merchant discount rate", "mdr")):
+        return "upi-mdr"
+    return None
 
 
 def quality_score(item: FeedItem, now: datetime) -> int | None:
@@ -326,16 +334,22 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
     selected: list[FeedItem] = []
     used_sources: set[str] = set()
     used_topics: set[str] = set()
+    used_events: set[str] = set()
     for _, item in ranked:
         if item.source in used_sources:
             continue
         topic = topic_for(item)
         if topic and topic in used_topics:
             continue
+        event = event_for(item)
+        if event and event in used_events:
+            continue
         selected.append(item)
         used_sources.add(item.source)
         if topic:
             used_topics.add(topic)
+        if event:
+            used_events.add(event)
         if len(selected) == limit:
             break
     return selected
