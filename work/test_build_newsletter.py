@@ -40,6 +40,9 @@ class QualityGateTests(unittest.TestCase):
             "Indian Express Economy", "Indian Express Markets",
         } & sources)
 
+    def test_recency_window_defaults_to_and_caps_at_36_hours(self):
+        self.assertEqual(builder.DEFAULT_RECENCY_HOURS, 36)
+
     def test_national_feeds_keep_only_policy_and_strategy_stories(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         foreign_policy = item(
@@ -93,7 +96,7 @@ class QualityGateTests(unittest.TestCase):
 <!-- RSS:NATIONAL:START --><!-- RSS:NATIONAL:END -->
 <!-- RSS:TECH:START --><!-- RSS:TECH:END -->
 <h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Wednesday, 17 September</p>
-<p>The 48-hour RSS audit did not contain a distinct, date-specific event for 17 September, so this section does not recycle stories.</p>'''
+<p>The 36-hour RSS audit did not contain a distinct, date-specific event for 17 September, so this section does not recycle stories.</p>'''
         with tempfile.TemporaryDirectory() as directory:
             original_html, original_audit = builder.HTML_PATH, builder.AUDIT_PATH
             builder.HTML_PATH = Path(directory) / "newsletter.html"
@@ -108,7 +111,7 @@ class QualityGateTests(unittest.TestCase):
                     ],
                     [{"source": "test", "section": "macro", "url": "https://example.com", "items_parsed": 3, "error": None}],
                     now,
-                    48,
+                    36,
                     "test",
                 )
                 audit = __import__("json").loads(builder.AUDIT_PATH.read_text(encoding="utf-8"))
@@ -284,7 +287,7 @@ class QualityGateTests(unittest.TestCase):
 
     def test_refresh_catalyst_date_points_to_tomorrow(self):
         document = '''<h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 25 September</p>
-        <p>The 48-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle stories.</p>'''
+        <p>The 36-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle stories.</p>'''
         refreshed = builder.refresh_catalyst_date(document, datetime(2026, 9, 25, 2, tzinfo=timezone.utc))
         self.assertIn("Saturday, 26 September", refreshed)
         self.assertIn("event for 26 September", refreshed)

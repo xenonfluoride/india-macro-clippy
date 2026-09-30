@@ -17,6 +17,7 @@ LOW_SIGNAL = (
     "expected specs", "auction result", "vrrr", "money market operations",
     "raises", "funding round", "series a", "series b", "first close", "fund iii", "talent gap", "engineering is not a degree", "executive interview", "ipo tracker", "ipo-bound", "draft ipo", "drhp", "listing mandate", "set for worst year", "worst monthly", "nifty 50 down", "nifty 50 falls", "sitharaman discusses", "hope rbi", "rupee hits", "techsparks gets bolder", "where is india's fintech story headed next",
 )
+MAX_RECENCY_HOURS = 36
 
 
 def text(value: str) -> str:
@@ -58,8 +59,8 @@ def evaluate(html_path: Path, audit_path: Path) -> int:
             if item["link"] not in audited_selected:
                 report("FAIL", f"Selected item is missing a candidate-audit decision: {item['title']}", findings)
 
-    if audit.get("hours", 49) > 48:
-        report("FAIL", "Audit window exceeds 48 hours.", findings)
+    if audit.get("hours", MAX_RECENCY_HOURS + 1) > MAX_RECENCY_HOURS:
+        report("FAIL", f"Audit window exceeds {MAX_RECENCY_HOURS} hours.", findings)
     cutoff = datetime.fromisoformat(audit["cutoff"])
     for item in selected:
         if datetime.fromisoformat(item["published_at"]) < cutoff:

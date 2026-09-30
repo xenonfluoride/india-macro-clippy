@@ -13,7 +13,7 @@ Build a short, source-linked newsletter for India macro, national strategy, mark
 
 - Use RSS or Atom feeds to discover newsletter stories. Do not use web search to fill editorial sections unless the user explicitly changes this rule.
 - Keep a timestamped audit of each fetched item, selected item, and feed failure.
-- Enforce the requested recency cutoff. The default is 48 hours; discard undated items.
+- Enforce the requested recency cutoff. The maximum and default is 36 hours; discard undated items.
 - The configured roster is: Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, Mint Markets, Hindustan Times India, NDTV India, BBC News India, Economic Times Tech, The Hindu Technology, YourStory, and Inc42.
 - Treat a failed or restricted feed as unavailable, never as permission to substitute a search result.
 

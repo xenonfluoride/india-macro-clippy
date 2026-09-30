@@ -6,7 +6,7 @@ India Macro Clippy is a static, source-linked daily briefing for India macro, na
 
 Editorial cards use only the configured RSS/Atom feeds and their title and summary text. Market Tape is a clearly labelled Yahoo Finance price snapshot from a separate updater. Do not use web search to fill a story, price, or catalyst.
 
-The builder keeps a 48-hour window, records every retained item and fetch failure in `outputs/india-macro-clippy-data.json`, and publishes only source-linked cards that pass the relevance filters.
+The builder keeps a hard 36-hour window, records every retained item and fetch failure in `outputs/india-macro-clippy-data.json`, and publishes only source-linked cards that pass the relevance filters.
 
 ## Current RSS roster
 
@@ -22,7 +22,7 @@ The macro selector uses word-aware editorial themes rather than raw substring ma
 
 ```bash
 git pull --ff-only
-python3 work/build_newsletter.py --hours 48
+python3 work/build_newsletter.py --hours 36
 python3 work/update_market_tape.py
 python3 -m unittest work/test_build_newsletter.py
 python3 skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py \

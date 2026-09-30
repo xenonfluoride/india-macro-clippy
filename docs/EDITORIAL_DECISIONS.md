@@ -4,7 +4,7 @@ This log records durable choices behind the newsletter so later editions do not 
 
 ## 2026-09-22: Use a 10-feed, India-focused RSS roster
 
-The roster was chosen after a live 48-hour audit of source volume, recency, and whether RSS summaries contained enough detail for an editor-written card.
+The roster was chosen after a live RSS audit of source volume, recency, and whether RSS summaries contained enough detail for an editor-written card.
 
 - **Macro:** Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, and Mint Markets provide recurring economic, trade, external-balance, and market-policy coverage.
 - **National & Strategy:** Hindustan Times India, NDTV India, and BBC News India are read together. They provide domestic policy and legal coverage plus an India-focused foreign-affairs and security supplement; the lane is filtered rather than treated as general national news.
@@ -15,7 +15,7 @@ The roster was chosen after a live 48-hour audit of source volume, recency, and 
 
 ## 2026-09-22: Make selection quality explicit
 
-- Keep a hard 48-hour editorial window and retain a JSON audit of source items, selected cards, and fetch failures.
+- Keep a hard 36-hour editorial window and retain a JSON audit of source items, selected cards, and fetch failures.
 - Do not use web search to write editorial cards or catalysts. Market Tape and the chart are separately sourced from Yahoo Finance.
 - Reject routine central-bank operations, stock tips, dividends, listing chatter, gadget reviews, product-spec posts, generic local-national stories, and unrelated global technology.
 - Prevent repeated Macro themes in one issue across energy, external finance, trade, monetary policy, and markets.
@@ -79,3 +79,8 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - The Hindu National was a single point of failure. It is replaced with three feeds that were live and current in validation: Hindustan Times India, NDTV India, and BBC News India.
 - The lane has no one-card cap. It can carry up to three distinct policy, law, security, or foreign-affairs events when the RSS summaries support them.
 - Overlapping coverage from independent feeds is a confidence signal, not a requirement: it raises a story’s rank, appears in the audit, and still becomes one card rather than a repeated event.
+
+## 2026-09-30: Shorten the editorial window
+
+- The recurring issue window is 36 hours, not 48. It is short enough to prevent yesterday’s already-covered events from remaining eligible while retaining an overnight margin for feeds that publish late.
+- The builder and evaluator enforce the cap, and the scheduled workflow passes the same value explicitly.

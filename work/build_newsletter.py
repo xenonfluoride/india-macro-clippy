@@ -2,8 +2,8 @@
 """Build the India Macro Clippy editorial sections from selected RSS feeds.
 
 The script uses only RSS/Atom endpoints for news. It accepts no search results,
-keeps items published in the preceding 48 hours, normalises duplicates, and writes
-both an audit JSON file and the rendered newsletter HTML.
+keeps items published in the configured recency window, normalises duplicates,
+and writes both an audit JSON file and the rendered newsletter HTML.
 """
 
 from __future__ import annotations
@@ -28,6 +28,7 @@ OUTPUTS = ROOT / "outputs"
 HTML_PATH = OUTPUTS / "india-macro-clippy.html"
 AUDIT_PATH = OUTPUTS / "india-macro-clippy-data.json"
 USER_AGENT = "IndiaMacroClippy/1.0 RSS reader (personal newsletter)"
+DEFAULT_RECENCY_HOURS = 36
 
 FEEDS = (
     ("Business Standard Economy & Policy", "macro", "https://www.business-standard.com/rss/economy-policy-102.rss"),
@@ -609,7 +610,7 @@ def empty_card(section: str) -> str:
           <div class="story-no">—</div>
           <div>
             <h3>No fresh {section} items passed the filter.</h3>
-            <p>This build keeps the 48-hour cutoff hard. Check the feed audit for source errors or the next scheduled refresh.</p>
+            <p>This build keeps its configured recency cutoff hard. Check the feed audit for source errors or the next scheduled refresh.</p>
           </div>
         </article>'''
 
@@ -693,9 +694,9 @@ def rebuild_from_audit(hours: int) -> int:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build India Macro Clippy from RSS feeds")
-    parser.add_argument("--hours", type=int, default=48, help="maximum age of included items")
+    parser.add_argument("--hours", type=int, default=DEFAULT_RECENCY_HOURS, help="maximum age of included items (36 hours maximum)")
     parser.add_argument("--from-audit", action="store_true", help="rebuild from the most recent successful RSS audit without fetching")
     arguments = parser.parse_args()
-    if arguments.hours <= 0:
-        parser.error("--hours must be positive")
+    if not 0 < arguments.hours <= DEFAULT_RECENCY_HOURS:
+        parser.error(f"--hours must be between 1 and {DEFAULT_RECENCY_HOURS}")
     raise SystemExit(rebuild_from_audit(arguments.hours) if arguments.from_audit else build(arguments.hours))
