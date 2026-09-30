@@ -65,3 +65,11 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 
 - A minister asking states to act, an investment claim from a party spokesperson, and a generic private-placement announcement are not enough on their own to clear the editorial bar. The builder now rejects those patterns rather than filling a card slot.
 - India Tech treats a UPI/MDR development as one event across feeds. A court action can stand alone, while a same-event retailer protest does not create a second card.
+
+## 2026-09-30: Exclude index recaps and favour disclosed operating decisions
+
+- A broad index recap framed around how bad a calendar year may become is market sentiment, not a distinct macro development, so it does not fill a Macro slot.
+- A reported ministerial discussion is not a policy, investment, or trade decision merely because it names a large commitment; the card needs the decision itself.
+- When a generic workforce-gap report competes with a disclosed India-company acquisition from the same source, the acquisition is the more concrete operating signal and receives a selection boost. A small generic startup-support programme does not become an India Tech card merely because it has an institutional partner.
+- A standalone rupee move and an India-linked company’s overseas capex do not establish an India macro operating effect. Generic conference previews also cannot fill an India Tech slot.
+- A workforce-gap report identifies a constraint but does not establish a resulting operating, policy, or infrastructure change; it does not fill a Tech lane ahead of a disclosed acquisition.

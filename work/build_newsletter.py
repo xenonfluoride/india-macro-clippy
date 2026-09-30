@@ -179,7 +179,7 @@ SOURCE_WEIGHT = {
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "experts see", "weekly policy watch", "blue-chip stocks",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "listing mandate", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "nifty falls", "nifty 50 falls", "nifty 50 down", "set for worst year", "worst monthly", "experts see", "weekly policy watch", "blue-chip stocks", "minister discusses", "hope rbi", "common ground with us", "rupee hits", "what does it mean for the indian stock market", "steel manufacturing in the us",
 )
 STOCK_PREDICTION = (
     "prediction", "outlook", "target price", "price target", "stock recommendations",
@@ -229,7 +229,7 @@ CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
     "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "no upi day", "report card",
-    "raises", "funding round", "series a", "series b", "funding", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe",
+    "raises", "funding round", "series a", "series b", "funding", "first close", "fund iii", "talent gap", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe", "nurture indian deeptech startups", "techsparks gets bolder", "where is india's fintech story headed next",
 )
 MACRO_SIGNALS = tuple(phrase for phrases in MACRO_TOPICS.values() for phrase in phrases)
 TECH_SIGNALS = (
@@ -315,6 +315,8 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         signal_score += 18
     if item.section == "tech" and has_any(text, ("mdr", "npci", "cyber threats")):
         signal_score += 16
+    if item.section == "tech" and has_any(text, ("acquire", "acquisition")):
+        signal_score += 10
     if item.section == "tech" and has_any(text, ("phonepe", "payment devices", "bharat market")):
         signal_score += 10
     published = datetime.fromisoformat(item.published_at)

@@ -15,7 +15,7 @@ from pathlib import Path
 LOW_SIGNAL = (
     "stock to buy", "share price", "dividend", "gadget review", "smartphone review", "open market operation", "omo sale", "stock market prediction", "underwriting auction", "government securities",
     "expected specs", "auction result", "vrrr", "money market operations",
-    "raises", "funding round", "series a", "series b", "engineering is not a degree", "executive interview", "ipo tracker", "ipo-bound", "draft ipo", "drhp",
+    "raises", "funding round", "series a", "series b", "first close", "fund iii", "talent gap", "engineering is not a degree", "executive interview", "ipo tracker", "ipo-bound", "draft ipo", "drhp", "listing mandate", "set for worst year", "worst monthly", "nifty 50 down", "nifty 50 falls", "sitharaman discusses", "hope rbi", "rupee hits", "techsparks gets bolder", "where is india's fintech story headed next",
 )
 
 
