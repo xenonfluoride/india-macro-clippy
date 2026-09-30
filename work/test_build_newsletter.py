@@ -89,6 +89,17 @@ class QualityGateTests(unittest.TestCase):
         self.assertEqual(len(selected), 2)
         self.assertEqual(sum(builder.event_for(row) == "upi-mdr" for row in selected), 1)
 
+    def test_domestic_digital_policy_belongs_in_tech_and_deduplicates(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        it_rules = item("Economic Times Tech", "tech", "Centre will amend IT Rules to bar under-18s from social media", "Supreme Court asks the Centre to examine statutory safeguards for minors")
+        court_follow_up = item("YourStory", "tech", "Supreme Court asks Centre about social-media safeguards for minors", "The Centre must examine changes to IT Rules for under-18s", 9)
+        overseas_programme = item("Economic Times Tech", "tech", "Meta expands Instagram school programme", "Social media safety programme expands overseas", 8)
+        selected = builder.select_items((it_rules, court_follow_up, overseas_programme), "tech", now)
+        self.assertIsNotNone(builder.quality_score(it_rules, now))
+        self.assertIsNone(builder.quality_score(overseas_programme, now))
+        self.assertEqual(selected, [it_rules])
+        self.assertEqual(builder.event_for(it_rules), "social-media-minors")
+
     def test_render_includes_the_national_lane_in_the_audit_and_html(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         template = '''<span id="rss-status"></span>

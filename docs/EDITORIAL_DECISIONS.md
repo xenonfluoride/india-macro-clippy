@@ -84,3 +84,8 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 
 - The recurring issue window is 36 hours, not 48. It is short enough to prevent yesterday’s already-covered events from remaining eligible while retaining an overnight margin for feeds that publish late.
 - The builder and evaluator enforce the cap, and the scheduled workflow passes the same value explicitly.
+
+## 2026-09-30: Keep domestic digital policy in India Tech
+
+- A Centre, Parliament, ministry, or Supreme Court decision on a digital rule is India Tech when it changes how an online platform, user, or technology provider operates.
+- Such a policy card does not need the word “India” in the RSS summary when the domestic decision-maker is explicit. Matching coverage of the same rule remains one card.

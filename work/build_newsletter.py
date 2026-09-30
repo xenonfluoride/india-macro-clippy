@@ -249,6 +249,8 @@ TECH_SIGNALS = (
     "openai", "anthropic", "meta", "google", "amazon", "jio", "gaming",
     "digital maturity", "non-profit", "gameskraft",
 )
+TECH_POLICY_SIGNALS = ("it rules", "social media", "digital policy", "online safety", "intermediary")
+DOMESTIC_POLICY_ACTORS = ("centre", "central government", "supreme court", "government of india", "ministry", "parliament")
 INDIA_TERMS = (
     "india", "indian", "rbi", "sebi", "upi", "jio", "modi", "bengaluru",
     "mumbai", "delhi", "rupee", "nifty", "sensex", "phonepe", "paytm",
@@ -289,6 +291,8 @@ def event_for(item: FeedItem) -> str | None:
     text = f"{item.title} {item.summary}"
     if item.section == "tech" and has_any(text, ("upi", "merchant discount rate", "mdr")):
         return "upi-mdr"
+    if item.section == "tech" and has_any(text, TECH_POLICY_SIGNALS) and has_any(text, ("under-18", "minor", "minors")):
+        return "social-media-minors"
     return None
 
 
@@ -339,7 +343,8 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         if has_any(text, NATIONAL_LOW_SIGNAL) or not has_any(text, NATIONAL_SIGNALS):
             return None
     if item.section == "tech":
-        if has_any(text, CONSUMER_TECH) or has_any(text, ("next major frontier", "next infrastructure push")) or not has_any(text, INDIA_TERMS) or not has_any(text, TECH_SIGNALS):
+        domestic_tech_policy = has_any(text, TECH_POLICY_SIGNALS) and has_any(text, DOMESTIC_POLICY_ACTORS)
+        if has_any(text, CONSUMER_TECH) or has_any(text, ("next major frontier", "next infrastructure push")) or not (has_any(text, INDIA_TERMS) or domestic_tech_policy) or not (has_any(text, TECH_SIGNALS) or domestic_tech_policy):
             return None
 
     signal_words = {"national": NATIONAL_SIGNALS, "tech": TECH_SIGNALS}[item.section]
@@ -356,6 +361,8 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         signal_score += 10
     if item.section == "tech" and has_any(text, ("phonepe", "payment devices", "bharat market")):
         signal_score += 10
+    if item.section == "tech" and has_any(text, TECH_POLICY_SIGNALS) and has_any(text, DOMESTIC_POLICY_ACTORS):
+        signal_score += 14
     published = datetime.fromisoformat(item.published_at)
     age_hours = max(0.0, (now - published).total_seconds() / 3600)
     freshness_score = max(0, round(8 - age_hours / 6))
