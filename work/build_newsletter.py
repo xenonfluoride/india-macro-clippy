@@ -35,7 +35,9 @@ FEEDS = (
     ("Economic Times Economy", "macro", "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
     ("The Hindu Economy", "macro", "https://www.thehindu.com/business/Economy/feeder/default.rss"),
     ("Mint Markets", "macro", "https://www.livemint.com/rss/markets"),
-    ("The Hindu National", "national", "https://www.thehindu.com/news/national/feeder/default.rss"),
+    ("Hindustan Times India", "national", "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"),
+    ("NDTV India", "national", "https://feeds.feedburner.com/ndtvnews-india-news"),
+    ("BBC News India", "national", "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml"),
     ("Economic Times Tech", "tech", "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"),
     ("The Hindu Technology", "tech", "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"),
     ("YourStory", "tech", "https://yourstory.com/feed"),
@@ -167,7 +169,9 @@ SOURCE_WEIGHT = {
     "Business Standard Companies": 6,
     "Economic Times Economy": 7,
     "The Hindu Economy": 8,
-    "The Hindu National": 8,
+    "Hindustan Times India": 8,
+    "NDTV India": 8,
+    "BBC News India": 7,
     "The Print India": 6,
     "Economic Times Tech": 7,
     "The Hindu Technology": 7,
@@ -196,6 +200,11 @@ NATIONAL_LOW_SIGNAL = (
     "hit-and-run", "celebrity", "cricket", "movie", "school students", "hyperactive on the street",
     "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes", "spokesperson", "next pharma frontier",
 )
+NATIONAL_EVENT_STOPWORDS = {
+    "about", "after", "against", "amid", "case", "court", "defence", "defense",
+    "government", "india", "indian", "ministry", "national", "policy", "security",
+    "state", "states", "supreme", "their", "there", "through", "under", "with",
+}
 MACRO_TOPICS = {
     "food-and-rural": (
         "food price", "edible oil", "palm oil", "soya oil", "sunflower oil", "onion",
@@ -282,6 +291,33 @@ def event_for(item: FeedItem) -> str | None:
     return None
 
 
+def national_event_terms(item: FeedItem) -> set[str]:
+    """Keep the specific terms that can corroborate one national story across feeds."""
+    text = f"{item.title} {item.summary}".lower()
+    return {
+        token for token in re.findall(r"[a-z][a-z0-9-]+", text)
+        if len(token) >= 4 and token not in NATIONAL_EVENT_STOPWORDS
+    }
+
+
+def national_corroborators(item: FeedItem, items: Iterable[FeedItem]) -> set[str]:
+    """Return independent sources covering the same specific national event."""
+    if item.section != "national":
+        return set()
+    terms = national_event_terms(item)
+    corroborators: set[str] = set()
+    for other in items:
+        if other.section != "national" or other.source == item.source:
+            continue
+        if len(terms & national_event_terms(other)) >= 2:
+            corroborators.add(other.source)
+    return corroborators
+
+
+def same_national_event(left: FeedItem, right: FeedItem) -> bool:
+    return left.section == right.section == "national" and len(national_event_terms(left) & national_event_terms(right)) >= 2
+
+
 def quality_score(item: FeedItem, now: datetime) -> int | None:
     text = f"{item.title} {item.summary}"
     if item.section == "macro":
@@ -325,8 +361,19 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
     return SOURCE_WEIGHT.get(item.source, 4) + signal_score + freshness_score
 
 
+def selection_score(item: FeedItem, items: Iterable[FeedItem], now: datetime) -> int | None:
+    """Rank strong national stories higher when another independent feed confirms them."""
+    score = quality_score(item, now)
+    if score is None:
+        return None
+    if item.section == "national":
+        score += min(8, 4 * len(national_corroborators(item, items)))
+    return score
+
+
 def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: int = 3) -> list[FeedItem]:
-    ranked = [(quality_score(item, now), item) for item in items if item.section == section]
+    item_list = list(items)
+    ranked = [(selection_score(item, item_list, now), item) for item in item_list if item.section == section]
     ranked = [(score, item) for score, item in ranked if score is not None]
     if section == "macro":
         # A thin market-calendar or general-market item must not fill a third slot.
@@ -338,6 +385,8 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
     used_topics: set[str] = set()
     used_events: set[str] = set()
     for _, item in ranked:
+        if section == "national" and any(same_national_event(item, chosen) for chosen in selected):
+            continue
         if item.source in used_sources:
             continue
         topic = topic_for(item)
@@ -366,7 +415,7 @@ def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, sele
     for item in items:
         if item.section != section:
             continue
-        score = quality_score(item, now)
+        score = selection_score(item, items, now)
         text = f"{item.title} {item.summary}"
         if item in selected_items:
             decision = "selected"
@@ -379,6 +428,8 @@ def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, sele
                 decision = "rejected: no recognised macro theme"
             else:
                 decision = "rejected: section relevance or hard editorial exclusion"
+        elif section == "national" and any(same_national_event(item, chosen) for chosen in selected_items):
+            decision = "eligible but excluded: duplicate national event"
         elif item.source in selected_sources:
             decision = "eligible but excluded: duplicate source"
         elif section == "macro" and topic_for(item) in selected_topics:
@@ -393,6 +444,7 @@ def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, sele
             "published_at": item.published_at,
             "score": score,
             "themes": macro_topics(item) if section == "macro" else [],
+            "corroborated_by": sorted(national_corroborators(item, items)) if section == "national" else [],
             "decision": decision,
         })
     return sorted(rows, key=lambda row: ((row["score"] is not None), row["score"] or -1, row["published_at"]), reverse=True)
@@ -575,7 +627,7 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
     fresh = [item for item in all_items if datetime.fromisoformat(item.published_at) >= cutoff]
     items = dedupe(fresh)
     macro = select_items(items, "macro", now)
-    national = select_items(items, "national", now, limit=1)
+    national = select_items(items, "national", now)
     tech = select_items(items, "tech", now)
 
     audit = {

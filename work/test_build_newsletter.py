@@ -33,7 +33,8 @@ class QualityGateTests(unittest.TestCase):
             "The Hindu Economy",
         }.issubset(sources))
         self.assertTrue({"Economic Times Tech", "The Hindu Technology"}.issubset(sources))
-        self.assertIn("The Hindu National", sources)
+        self.assertTrue({"Hindustan Times India", "NDTV India", "BBC News India"}.issubset(sources))
+        self.assertNotIn("The Hindu National", sources)
         self.assertFalse({
             "RBI", "SEBI", "MediaNama", "Mint Technology", "Indian Express Technology",
             "Indian Express Economy", "Indian Express Markets",
@@ -61,6 +62,20 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(local_crime, now))
         self.assertIsNone(builder.quality_score(state_spokesperson, now))
         self.assertIsNone(builder.quality_score(speculative_sector, now))
+
+    def test_national_selection_allows_multiple_distinct_events_and_rewards_corroboration(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        court_ht = item("Hindustan Times India", "national", "FSSAI faces Supreme Court order", "India court directs FSSAI to review food safety rules")
+        court_ndtv = item("NDTV India", "national", "Supreme Court asks FSSAI to review food safety", "India court issues FSSAI direction on food safety rules", 9)
+        defence_bbc = item("BBC News India", "national", "India and France sign defence agreement", "India bilateral security agreement establishes defence cooperation", 8)
+        selected = builder.select_items((court_ht, court_ndtv, defence_bbc), "national", now)
+        self.assertEqual(len(selected), 2)
+        self.assertIn(court_ht, selected)
+        self.assertIn(defence_bbc, selected)
+        self.assertGreater(
+            builder.selection_score(court_ht, (court_ht, court_ndtv, defence_bbc), now),
+            builder.quality_score(court_ht, now),
+        )
 
     def test_tech_selection_keeps_one_card_per_repeated_event(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)

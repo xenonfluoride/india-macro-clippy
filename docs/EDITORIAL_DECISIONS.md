@@ -7,7 +7,7 @@ This log records durable choices behind the newsletter so later editions do not 
 The roster was chosen after a live 48-hour audit of source volume, recency, and whether RSS summaries contained enough detail for an editor-written card.
 
 - **Macro:** Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, and Mint Markets provide recurring economic, trade, external-balance, and market-policy coverage.
-- **National & Strategy:** The Hindu National is the sole input. It is filtered for policy, law, security, and foreign affairs rather than treated as a general national-news feed.
+- **National & Strategy:** Hindustan Times India, NDTV India, and BBC News India are read together. They provide domestic policy and legal coverage plus an India-focused foreign-affairs and security supplement; the lane is filtered rather than treated as general national news.
 - **India Tech:** Economic Times Tech, The Hindu Technology, YourStory, and Inc42 provide a mix of infrastructure, regulation, funding, and builders.
 - **Removed sources:** Bloomberg author feeds, RBI, SEBI, Indian Express economy, markets, and technology feeds, Mint Technology, and MediaNama did not consistently produce enough usable RSS detail or volume for this daily brief.
 - **Rejected trial:** The Print India was tested but not retained because its current feed skewed toward regional and local news rather than the national-strategy beat.
@@ -19,7 +19,7 @@ The roster was chosen after a live 48-hour audit of source volume, recency, and 
 - Do not use web search to write editorial cards or catalysts. Market Tape and the chart are separately sourced from Yahoo Finance.
 - Reject routine central-bank operations, stock tips, dividends, listing chatter, gadget reviews, product-spec posts, generic local-national stories, and unrelated global technology.
 - Prevent repeated Macro themes in one issue across energy, external finance, trade, monetary policy, and markets.
-- Give National & Strategy one high-signal card rather than padding it with local incidents or live-news churn.
+- Give National & Strategy only high-signal cards rather than padding it with local incidents or live-news churn.
 - Require a story-specific, two-sentence `Why it matters`: mechanism first, then the next observable signal, tradeoff, or decision point.
 
 ## 2026-09-22: Publish only after all gates pass
@@ -73,3 +73,9 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - When a generic workforce-gap report competes with a disclosed India-company acquisition from the same source, the acquisition is the more concrete operating signal and receives a selection boost. A small generic startup-support programme does not become an India Tech card merely because it has an institutional partner.
 - A standalone rupee move and an India-linked company’s overseas capex do not establish an India macro operating effect. Generic conference previews also cannot fill an India Tech slot.
 - A workforce-gap report identifies a constraint but does not establish a resulting operating, policy, or infrastructure change; it does not fill a Tech lane ahead of a disclosed acquisition.
+
+## 2026-09-30: Make National & Strategy resilient and evidence-ranked
+
+- The Hindu National was a single point of failure. It is replaced with three feeds that were live and current in validation: Hindustan Times India, NDTV India, and BBC News India.
+- The lane has no one-card cap. It can carry up to three distinct policy, law, security, or foreign-affairs events when the RSS summaries support them.
+- Overlapping coverage from independent feeds is a confidence signal, not a requirement: it raises a story’s rank, appears in the audit, and still becomes one card rather than a repeated event.
