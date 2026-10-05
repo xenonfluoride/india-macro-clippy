@@ -184,20 +184,37 @@ SOURCE_WEIGHT = {
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "listing mandate", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "nifty falls", "nifty 50 falls", "nifty 50 down", "set for worst year", "worst monthly", "experts see", "weekly policy watch", "blue-chip stocks", "minister discusses", "hope rbi", "common ground with us", "rupee hits", "what does it mean for the indian stock market", "steel manufacturing in the us",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "listing mandate", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "nifty falls", "nifty 50 falls", "nifty 50 down", "set for worst year", "worst monthly", "experts see", "weekly policy watch", "blue-chip stocks", "minister discusses", "hope rbi", "common ground with us", "rupee hits", "what does it mean for the indian stock market", "steel manufacturing in the us", "h1fy", "h2fy", "top gainers", "top losers", "no upi day", "nifty 50 stocks", "posted double-digit losses", "market sell-off", "5-year cagr", "bank fd returns", "mutual fund sahi hai", "stock tanked", "nifty inclusion", "index reshuffle", "what lies ahead for investors",
 )
 STOCK_PREDICTION = (
     "prediction", "outlook", "target price", "price target", "stock recommendations",
     "stock to buy", "should investors", "should you", "buy the dip", "bull case",
     "bear case", "stop-loss", "stock selection", "expert view", "strong technicals",
 )
+MACRO_SPECULATION = (
+    "likely to hike", "may hike", "may increase rates", "could keep rates",
+    "experts poll", "poll shows", "according to economists", "in talks with",
+    "plans india service centres", "could spur further liberalisation",
+    "enters race for proposed", "proposed polymer banknote programme",
+    "deloitte india", "rbi mpc meeting", "round of cepa talks", "repo rate may climb",
+    "meets us corporate leaders",
+)
+MACRO_COMMENTARY_OR_RECAP = (
+    "says shaktikanta das", "within striking distance", "resilience not accidental",
+    "cash, derivatives volumes", "cash derivatives volumes", "fastest-growing asia market",
+)
 NATIONAL_SIGNALS = (
     "cabinet", "parliament", "ministry", "government", "policy", "bill", "act",
     "court", "constitution", "election", "security", "defence", "defense", "border",
     "diplomat", "foreign", "bilateral", "multilateral", "treaty", "unsc", "strategic",
 )
+NATIONAL_SCOPE_SIGNALS = (
+    "india", "indian", "centre", "central government", "union government", "supreme court",
+    "parliament", "ministry", "national", "defence", "foreign", "bilateral", "multilateral",
+)
 NATIONAL_LOW_SIGNAL = (
-    "live updates", "gold rate", "weather", "gang-rape", "murder", "accident",
+    "live updates", "gold rate", "weather", "gang-rape", "murder", "accident", "criminal investigation", "cover-up job",
+    "cjp protest", "paper leak", "charge sheet",
     "hit-and-run", "celebrity", "cricket", "movie", "school students", "hyperactive on the street",
     "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes", "spokesperson", "next pharma frontier",
 )
@@ -238,6 +255,7 @@ MACRO_TOPICS = {
 CONSUMER_TECH = (
     "review", "price", "expected specs", "launch date", "headsets",
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
+    "k-pop",
     "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "no upi day", "report card",
     "raises", "funding round", "series a", "series b", "funding", "first close", "fund iii", "talent gap", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe", "nurture indian deeptech startups", "techsparks gets bolder", "where is india's fintech story headed next",
 )
@@ -261,6 +279,11 @@ CONCRETE_ACTIONS = (
     "approved", "announced", "attached", "build", "consult", "declared", "deploy",
     "discuss", "fund", "issued", "launched", "met", "plans", "review", "will keep",
 )
+NATIONAL_DECISIONS = (
+    "approved", "amended", "announced", "direct", "directed", "directs", "enacted",
+    "established", "imposed", "issued", "join", "joined", "joins", "launched", "notified",
+    "ordered", "passed", "rule", "ruled", "sign", "signed", "signs",
+)
 
 
 def phrase_pattern(phrase: str) -> str:
@@ -273,6 +296,14 @@ def phrase_pattern(phrase: str) -> str:
 
 def has_any(text: str, phrases: Iterable[str]) -> bool:
     return any(re.search(phrase_pattern(phrase), text, flags=re.IGNORECASE) for phrase in phrases)
+
+
+def is_generic_startup_support(text: str) -> bool:
+    """Reject public startup-support schemes that lack an operating outcome."""
+    return has_any(text, ("startup", "startups")) and (has_any(text, (
+        "government first", "startup scheme", "startup initiative", "target startups",
+        "plan deeptech fund", "plans deeptech fund",
+    )) or (has_any(text, ("fund",)) and has_any(text, ("target",))))
 
 
 def macro_topics(item: FeedItem) -> list[str]:
@@ -328,7 +359,9 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
     if item.section == "macro":
         if not has_any(text, INDIA_TERMS):
             return None
-        if has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION):
+        if (has_any(text, ROUTINE_MACRO) or has_any(text, STOCK_PREDICTION)
+                or has_any(item.title, MACRO_SPECULATION)
+                or has_any(item.title, MACRO_COMMENTARY_OR_RECAP)):
             return None
         themes = macro_topics(item)
         if not themes:
@@ -340,11 +373,17 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         freshness_score = max(0, round(8 - age_hours / 6))
         return SOURCE_WEIGHT.get(item.source, 4) + theme_score + evidence_score + freshness_score
     if item.section == "national":
-        if has_any(text, NATIONAL_LOW_SIGNAL) or not has_any(text, NATIONAL_SIGNALS):
+        if (has_any(text, NATIONAL_LOW_SIGNAL) or not has_any(text, NATIONAL_SIGNALS)
+                or not has_any(text, NATIONAL_SCOPE_SIGNALS)
+                or not has_any(text, NATIONAL_DECISIONS)):
             return None
     if item.section == "tech":
         domestic_tech_policy = has_any(text, TECH_POLICY_SIGNALS) and has_any(text, DOMESTIC_POLICY_ACTORS)
-        if has_any(text, CONSUMER_TECH) or has_any(text, ("next major frontier", "next infrastructure push")) or not (has_any(text, INDIA_TERMS) or domestic_tech_policy) or not (has_any(text, TECH_SIGNALS) or domestic_tech_policy):
+        if (has_any(text, CONSUMER_TECH) or has_any(text, ("ceo",)) or is_generic_startup_support(text)
+                or has_any(text, ("industry experts", "experts said", "experts say"))
+                or has_any(text, ("next major frontier", "next infrastructure push"))
+                or not (has_any(text, INDIA_TERMS) or domestic_tech_policy)
+                or not (has_any(text, TECH_SIGNALS) or domestic_tech_policy)):
             return None
 
     signal_words = {"national": NATIONAL_SIGNALS, "tech": TECH_SIGNALS}[item.section]
@@ -515,6 +554,8 @@ def why_it_matters(item: FeedItem) -> str:
             return "Lower import duties reduce the landed cost of key cooking oils, creating room for retail prices to ease. Watch pass-through at the shelf and whether protections for domestic oilseed growers become the next policy trade-off."
         if has_any(text, ("omcs", "oil marketing companies", "fuel losses", "under-recoveries")):
             return "Fuel under-recoveries transfer a crude-price shock from consumers to state-owned refiners and their balance sheets. Watch for retail-price changes, compensation, or a further rise in daily losses if international oil stays elevated."
+        if has_any(text, ("deepwater gas", "kg-d6", "gas price ceiling")):
+            return "A higher ceiling price improves the return available for difficult offshore gas production, making capital-intensive fields more viable to develop. Watch producer investment plans and domestic output data to see whether the price change translates into supply rather than only better realised prices."
         if has_any(text, ("india-new zealand", "india-new zealand", "new zealand fta")):
             return "The tariff schedule gives Indian exporters a defined route into New Zealand while preserving sensitive domestic farm segments. Watch exporter use of the concessions after the agreement takes effect and the remaining exclusions in agricultural trade."
         if has_any(text, ("project viability", "collateral to cash flows", "cash flows")):
@@ -534,6 +575,16 @@ def why_it_matters(item: FeedItem) -> str:
         return "Sanctions policy can constrain India’s room to manage energy and defence ties even when bilateral diplomacy remains constructive. Watch the official readout and any waiver or enforcement detail that turns the concern into a commercial constraint."
     if item.section == "national" and has_any(text, ("mines act", "mineral rights", "mineral-bearing lands")):
         return "The amendments shift the balance of fiscal authority over mineral rights by narrowing states’ scope to levy taxes and cesses, which can change the economics of mining projects and state revenues. Watch Odisha’s assessment, litigation, and any central guidance for the first measure of the fiscal trade-off."
+    if item.section == "national" and has_any(text, ("capital punishment", "death sentence", "reformation of convict")):
+        return "The Supreme Court’s emphasis on assessing a convict’s prospect of reform raises the evidentiary threshold before capital punishment can be sustained. Watch lower-court sentencing hearings and subsequent appeals for how consistently that safeguard is applied."
+    if item.section == "national" and has_any(text, ("advisory", "russian forces", "recruitment")):
+        return "The advisory makes recruitment into a foreign conflict a direct consular and security risk for Indian citizens, rather than a distant geopolitical headline. Watch for official case counts, assistance measures, or diplomatic representations that show whether the exposure is widening."
+    if has_any(text, ("it rules", "social media")) and has_any(text, ("under-18", "minor", "minors")):
+        return "An under-18 social-media restriction would shift age-assurance, account-design, and moderation costs onto platforms serving Indian users. Watch the amendment’s age-verification standard and enforcement timetable for the balance between child safety, privacy, and access."
+    if has_any(text, ("cyber incidents", "cyber incident")) and has_any(text, ("internal silos", "fragmented data")):
+        return "Fragmented data and approval chains can delay a company’s response after an intrusion, turning an internal operating problem into a larger security exposure. Watch whether firms set shared incident-response ownership and report faster containment as the next test of the finding."
+    if has_any(text, ("bitchat",)) and has_any(text, ("meity", "play store", "apple")):
+        return "A MeitY-linked removal can determine whether a messaging product remains reachable through India’s mainstream app-distribution channels. Watch for the underlying order, scope, and any restoration or appeal to clarify the compliance standard for similar services."
     if has_any(text, ("semiconductor", "chip", "deeptech")):
         return "Signed customers, deployed capacity, and repeat orders matter more than the announcement. Deep-tech sales cycles can hide weak commercial demand behind a strong launch narrative."
     if has_any(text, ("gcc", "capability center", "capability centres")):
@@ -557,6 +608,26 @@ def why_it_matters(item: FeedItem) -> str:
     if has_any(text, ("regulation", "privacy", "antitrust", "data")):
         return "The rule's scope and enforcement will decide which companies carry the cost. Compliance deadlines and exemptions will separate the exposed firms from the beneficiaries."
     return "The report identifies a specific operational or regulatory pressure on the companies involved. Watch the first disclosed response or enforcement step to determine whether that pressure changes behaviour."
+
+
+def editorial_brief(item: FeedItem) -> str:
+    """Apply concise, RSS-grounded editing to the specific high-signal cards."""
+    text = f"{item.title} {item.summary}".lower()
+    if has_any(text, ("india-new zealand", "india new zealand")) and has_any(text, ("tariff", "duty-free")):
+        return "The India-New Zealand FTA takes effect on 20 October, with tariffs on a range of processed food products falling to zero on day one."
+    if has_any(text, ("advisory", "russian forces", "recruitment")):
+        return "India has issued an advisory after reports that its citizens were being recruited into Russian forces."
+    if has_any(text, ("it rules", "social media")) and has_any(text, ("under-18", "minor", "minors")):
+        return "The Centre told the Supreme Court it plans to amend the IT Rules to bar under-18s from social media."
+    if has_any(text, ("cyber incidents", "cyber incident")) and has_any(text, ("internal silos", "fragmented data")):
+        return "Cisco says 96% of Indian firms faced a cyber incident in the past year, while data, approval, and team silos slowed their defences."
+    if has_any(text, ("deepwater gas", "kg-d6", "gas price ceiling")):
+        return "The government lifted the ceiling on difficult-field gas prices to $9.89 per MMBtu for October–March, while retaining the $7 cap for legacy ONGC and Oil India fields."
+    if has_any(text, ("capital punishment", "death sentence", "reformation of convict")):
+        return "The Supreme Court said capital punishment is possible only after a court has ruled out the prospect that the convicted person can reform."
+    if has_any(text, ("bitchat",)) and has_any(text, ("meity", "play store", "apple")):
+        return "Bitchat has been removed from Google Play in India; Apple cited a MeitY order for the offline messaging app’s unavailability."
+    return compact(item.summary, 220)
 
 
 def refresh_edition(document: str, now: datetime) -> str:
@@ -592,14 +663,20 @@ def refresh_catalyst_date(document: str, now: datetime) -> str:
         document,
         count=1,
     )
-    if heading_count != 1 or note_count != 1:
+    document, window_count = re.subn(
+        r'\b\d+-hour RSS audit\b',
+        f'{DEFAULT_RECENCY_HOURS}-hour RSS audit',
+        document,
+        count=1,
+    )
+    if heading_count != 1 or note_count != 1 or window_count != 1:
         raise ValueError("Expected one dated Tomorrow’s catalysts module")
     return document
 
 
 def card(item: FeedItem, number: int) -> str:
     published = datetime.fromisoformat(item.published_at).strftime("%-d %b · %H:%M UTC")
-    summary = compact(item.summary, 220)
+    summary = editorial_brief(item)
     why = why_it_matters(item)
     return f'''        <article class="story">
           <div class="story-no">{number:02d}</div>

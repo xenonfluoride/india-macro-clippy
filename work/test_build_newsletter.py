@@ -66,6 +66,13 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(state_spokesperson, now))
         self.assertIsNone(builder.quality_score(speculative_sector, now))
 
+    def test_national_requires_a_concrete_decision_not_a_diplomatic_discussion(self):
+        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
+        discussion = item("Hindustan Times India", "national", "India and US review bilateral ties", "The leaders agreed to maintain close engagement on trade and defence.")
+        decision = item("BBC News India", "national", "India signs defence agreement with France", "The agreement establishes defence cooperation between the countries.")
+        self.assertIsNone(builder.quality_score(discussion, now))
+        self.assertIsNotNone(builder.quality_score(decision, now))
+
     def test_national_selection_allows_multiple_distinct_events_and_rewards_corroboration(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
         court_ht = item("Hindustan Times India", "national", "FSSAI faces Supreme Court order", "India court directs FSSAI to review food safety rules")
@@ -164,6 +171,9 @@ class QualityGateTests(unittest.TestCase):
         ministerial_discussion = item("Business Standard Economy & Policy", "macro", "Finance Minister discusses investment treaty with Qatar", "India trade and investment talks continue")
         index_recap = item("Mint Markets", "macro", "Nifty 50 down 13.5%, set for worst year in 15 years", "India market sentiment is weak")
         monthly_index_recap = item("Mint Markets", "macro", "Nifty 50 falls 6.3% in September, worst monthly series", "India market sentiment is weak")
+        stock_loss_recap = item("Mint Markets", "macro", "10 Nifty 50 stocks posted double-digit losses in September", "India market sell-off deepens")
+        long_term_return_recap = item("Mint Markets", "macro", "Nifty's 5-year CAGR falls below Bank FD returns", "India mutual fund return comparison")
+        index_constituent_mover = item("Mint Markets", "macro", "Why BSE stock tanked despite Nifty inclusion after index reshuffle", "India company stock move")
         chairman_commentary = item("Business Standard Companies", "macro", "Hope RBI will find a common ground with us: Chairman", "India corporate discussion")
         currency_mover = item("Mint Markets", "macro", "Rupee hits two-month low: What does it mean for the Indian stock market?", "India foreign exchange market update")
         offshore_capex = item("Business Standard Companies", "macro", "India's company to invest in steel manufacturing in the US", "India company investment announcement")
@@ -177,6 +187,16 @@ class QualityGateTests(unittest.TestCase):
         ipo_tracker = item("Inc42", "tech", "Indian Startup IPO Tracker 2026", "India startup listing recap")
         global_ai_warning = item("The Hindu Technology", "tech", "Australia breach offers warning for countries like India", "India should bring regulations after an Australia breach")
         government_commentary = item("Economic Times Tech", "tech", "AI, semiconductors to drive India's next infrastructure push: FM Sitharaman", "India should invest in infrastructure")
+        startup_scheme = item("YourStory", "tech", "Karnataka government first scheme: startup pilots", "The Government First initiative offers startups funding to pilot with departments.")
+        rate_poll = item("Economic Times Economy", "macro", "RBI likely to hike repo rate after experts poll", "India inflation outlook")
+        chip_talks = item("Business Standard Companies", "macro", "Canon in talks with chip projects, plans India centres", "India semiconductor discussion")
+        startup_fund_plan = item("YourStory", "tech", "Andhra Pradesh plans deeptech fund for 25 startups", "India state fund proposal")
+        industry_framework = item("Economic Times Tech", "tech", "India needs AI framework, industry experts say", "India AI policy commentary")
+        macro_commentary = item("Business Standard Economy & Policy", "macro", "Reforms key to growth, says Shaktikanta Das", "India economic commentary")
+        market_activity_recap = item("Mint Markets", "macro", "Cash, derivatives volumes sink as oil roils sentiment", "India market turnover recap")
+        local_protest = item("NDTV India", "national", "Human rights action over Mumbai CJP protest", "India ministry receives a notice")
+        exam_probe = item("Hindustan Times India", "national", "NTA officials may not be named in NEET paper leak charge sheet", "India investigation update")
+        ceo_commentary = item("Economic Times Tech", "tech", "India is fastest growing market, says company CEO", "India technology market commentary")
         self.assertIsNone(builder.quality_score(routine, now))
         self.assertIsNone(builder.quality_score(omo, now))
         self.assertIsNone(builder.quality_score(net_debt_sale, now))
@@ -205,6 +225,9 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(ministerial_discussion, now))
         self.assertIsNone(builder.quality_score(index_recap, now))
         self.assertIsNone(builder.quality_score(monthly_index_recap, now))
+        self.assertIsNone(builder.quality_score(stock_loss_recap, now))
+        self.assertIsNone(builder.quality_score(long_term_return_recap, now))
+        self.assertIsNone(builder.quality_score(index_constituent_mover, now))
         self.assertIsNone(builder.quality_score(chairman_commentary, now))
         self.assertIsNone(builder.quality_score(currency_mover, now))
         self.assertIsNone(builder.quality_score(offshore_capex, now))
@@ -218,6 +241,16 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(ipo_tracker, now))
         self.assertIsNone(builder.quality_score(global_ai_warning, now))
         self.assertIsNone(builder.quality_score(government_commentary, now))
+        self.assertIsNone(builder.quality_score(startup_scheme, now))
+        self.assertIsNone(builder.quality_score(rate_poll, now))
+        self.assertIsNone(builder.quality_score(chip_talks, now))
+        self.assertIsNone(builder.quality_score(startup_fund_plan, now))
+        self.assertIsNone(builder.quality_score(industry_framework, now))
+        self.assertIsNone(builder.quality_score(macro_commentary, now))
+        self.assertIsNone(builder.quality_score(market_activity_recap, now))
+        self.assertIsNone(builder.quality_score(local_protest, now))
+        self.assertIsNone(builder.quality_score(exam_probe, now))
+        self.assertIsNone(builder.quality_score(ceo_commentary, now))
 
     def test_selects_diverse_high_signal_items(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
@@ -298,10 +331,11 @@ class QualityGateTests(unittest.TestCase):
 
     def test_refresh_catalyst_date_points_to_tomorrow(self):
         document = '''<h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 25 September</p>
-        <p>The 36-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle stories.</p>'''
+        <p>The 48-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle stories.</p>'''
         refreshed = builder.refresh_catalyst_date(document, datetime(2026, 9, 25, 2, tzinfo=timezone.utc))
         self.assertIn("Saturday, 26 September", refreshed)
         self.assertIn("event for 26 September", refreshed)
+        self.assertIn("36-hour RSS audit", refreshed)
 
     def test_compact_keeps_complete_sentences(self):
         value = "First sentence is complete. Second sentence is deliberately much longer than the remaining room in this compact card."

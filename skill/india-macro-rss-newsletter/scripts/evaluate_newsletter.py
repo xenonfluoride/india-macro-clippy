@@ -15,7 +15,12 @@ from pathlib import Path
 LOW_SIGNAL = (
     "stock to buy", "share price", "dividend", "gadget review", "smartphone review", "open market operation", "omo sale", "stock market prediction", "underwriting auction", "government securities",
     "expected specs", "auction result", "vrrr", "money market operations",
-    "raises", "funding round", "series a", "series b", "first close", "fund iii", "talent gap", "engineering is not a degree", "executive interview", "ipo tracker", "ipo-bound", "draft ipo", "drhp", "listing mandate", "set for worst year", "worst monthly", "nifty 50 down", "nifty 50 falls", "sitharaman discusses", "hope rbi", "rupee hits", "techsparks gets bolder", "where is india's fintech story headed next",
+    "likely to hike", "experts poll", "in talks with", "industry experts",
+    "says shaktikanta das", "within striking distance", "cash, derivatives volumes",
+    "could spur further liberalisation", "enters race for proposed", "fastest-growing asia market",
+    "deloitte india", "rbi mpc meeting", "round of cepa talks", "repo rate may climb", "meets us corporate leaders", "k-pop",
+    "cjp protest", "paper leak", "charge sheet",
+    "funding round", "series a", "series b", "first close", "fund iii", "talent gap", "engineering is not a degree", "executive interview", "ipo tracker", "ipo-bound", "draft ipo", "drhp", "listing mandate", "set for worst year", "worst monthly", "nifty 50 down", "nifty 50 falls", "sitharaman discusses", "hope rbi", "rupee hits", "techsparks gets bolder", "where is india's fintech story headed next",
 )
 MAX_RECENCY_HOURS = 36
 

@@ -89,3 +89,15 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 
 - A Centre, Parliament, ministry, or Supreme Court decision on a digital rule is India Tech when it changes how an online platform, user, or technology provider operates.
 - Such a policy card does not need the word “India” in the RSS summary when the domestic decision-maker is explicit. Matching coverage of the same rule remains one card.
+
+## 2026-10-01: Reject advocacy, recaps, and outcome-free national coverage
+
+- A half-year index gainers-and-losers article is an index recap, not a macro development, even if it mentions oil, yields, or overseas flows. A trade-body protest or request around UPI pricing is advocacy until an authority makes a policy decision.
+- National & Strategy now needs a concrete policy, legal, security, or foreign-affairs decision. A diplomatic call that promises continued engagement and a general geopolitical market explainer do not meet that threshold.
+- A government-backed startup-pilot scheme remains generic startup support unless the RSS item establishes a specific operating, regulatory, or infrastructure outcome. This keeps the Tech lane open for consequential policy and company developments.
+- Long-term Nifty-versus-bank-deposit comparisons are investor-return recaps, not a current macro development. A state-level inspection of alleged industrial pollution is local enforcement, not National & Strategy coverage.
+
+## 2026-10-05: Prefer decisions over forecasts, plans, and commentary
+
+- An economist rate poll does not become a monetary-policy card until the RBI makes and communicates its decision. The same rule excludes preliminary company talks and announced intentions that do not establish an operating commitment.
+- A state-backed deeptech fund plan remains a generic startup-support proposal until it creates a specific operating, regulatory, or infrastructure outcome. Industry experts’ preferred AI framework is commentary, not a government rule.
