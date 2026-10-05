@@ -2,7 +2,7 @@
   "generated_at": "2026-10-05T02:10:33.402192+00:00",
   "cutoff": "2026-10-03T14:10:33.402192+00:00",
   "hours": 36,
-  "mode": "cached-rss",
+  "mode": "live-rss + Codex-session editorial trial",
   "feeds": [
     {
       "source": "Business Standard Economy & Policy",
@@ -1796,6 +1796,22 @@
         "link": "https://www.business-standard.com/economy/news/govt-raises-deepwater-gas-price-ceiling-to-9-89-per-mmbtu-apm-cap-at-7-126100400148_1.html",
         "published_at": "2026-10-04T06:23:19+00:00",
         "summary": "The government has raised the ceiling price for natural gas produced from difficult fields such as the KG-D6 block of Reliance Industries and BP to USD 9.89 per million British thermal units (MMBtu) for the six months beginning October 1, from USD 8.90 previously, while keeping the ceiling for gas produced from the legacy fields of state-run ONGC and Oil India Ltd at USD 7 per MMBtu. The new ceiling for gas from deepwater, ultra-deepwater and high-pressure, high-temperature discoveries is applicable for the period October 1, 2026 to March 31, 2027, according to a notification by the Petroleum Planning and Analysis Cell of the oil ministry. Gas produced from such difficult areas enjoys marketing and pricing freedom under the government's policy, but is subject to a government-notified ceiling. The higher ceiling could provide some relief to producers developing India's more technically challenging offshore gas resources, where production costs are generally higher than those from ..."
+      },
+      {
+        "source": "Economic Times Economy",
+        "section": "macro",
+        "title": "Textile output surges, but apparel production stays in the red. What’s driving the divergence?",
+        "link": "https://economictimes.indiatimes.com/news/economy/indicators/textile-output-surges-but-apparel-production-stays-in-the-red-whats-driving-the-divergence/articleshow/134672298.cms",
+        "published_at": "2026-10-04T08:59:55+00:00",
+        "summary": "Government data reveals growth of 8 percent in industrial output for August 2026, driven by manufacturing. Apparel production, however, declined by 7.4 percent in the same month, indicating ongoing challenges. In contrast, the textile industry has shown strong growth of 13.1 percent, signaling a divergence in trends. Experts suggest that upcoming festive seasons could boost demand for apparel manufacturing in the near future."
+      },
+      {
+        "source": "Mint Markets",
+        "section": "macro",
+        "title": "Booming Leverage in Indian Stocks Fuels $33 Billion Debt Binge",
+        "link": "https://www.livemint.com/market/booming-leverage-in-indian-stocks-fuels-33-billion-debt-binge-11791165418152.html",
+        "published_at": "2026-10-05T01:56:57+00:00",
+        "summary": "Stock brokers are emerging as a major force in India’s short-term debt market, borrowing billions of dollars to finance investors’ growing appetite for leveraged equity bets."
       }
     ],
     "national": [
@@ -1806,6 +1822,14 @@
         "link": "https://www.hindustantimes.com/india-news/capital-punishment-only-possible-if-reformation-of-convict-is-ruled-out-supreme-court-101791160857359.html",
         "published_at": "2026-10-05T01:09:33+00:00",
         "summary": "The bench criticised the trial court for imposing the death sentence on the same day as conviction without a separate hearing on punishment."
+      },
+      {
+        "source": "Hindustan Times India",
+        "section": "national",
+        "title": "India has 'gone beyond advocacy', held talks with both Russia and Ukraine to end war: Jaishankar",
+        "link": "https://www.hindustantimes.com/india-news/india-holds-talks-with-russia-ukraine-on-ending-war-jaishankar-101791123968850.html",
+        "published_at": "2026-10-04T14:26:08+00:00",
+        "summary": "Jaishankar also spoke at Sunday’s event on India’s long-standing positive ties with Russia and its burgeoning relationship with the European Union"
       }
     ],
     "tech": [
@@ -1816,6 +1840,14 @@
         "link": "https://inc42.com/buzz/jack-dorseys-bitchat-goes-offline-in-india-apple-cites-meity-order/",
         "published_at": "2026-10-03T19:35:25+00:00",
         "summary": "Bitchat, the decentralised messaging platform founded by Twitter (now X) cofounder Jack Dorsey, has been removed from Google Play Store…"
+      },
+      {
+        "source": "Hindustan Times India",
+        "section": "national",
+        "title": "Centre's AI and copyright committee falls silent, second paper overdue by months",
+        "link": "https://www.hindustantimes.com/india-news/centre-ai-and-copyright-committee-falls-silent-second-paper-overdue-by-months-101791097317509.html",
+        "published_at": "2026-10-04T07:05:03+00:00",
+        "summary": "A second working paper on the AI-copyright issue, which the government had earlier said would be out by February this year, is also yet to be prepared."
       }
     ]
   },
@@ -1870,7 +1902,7 @@
         "score": null,
         "themes": [],
         "corroborated_by": [],
-        "decision": "rejected: no recognised macro theme"
+        "decision": "selected"
       },
       {
         "source": "Mint Markets",
@@ -2448,7 +2480,7 @@
           "investment-and-industry"
         ],
         "corroborated_by": [],
-        "decision": "rejected: no India signal"
+        "decision": "selected"
       },
       {
         "source": "Mint Markets",
@@ -3202,7 +3234,7 @@
         "corroborated_by": [
           "NDTV India"
         ],
-        "decision": "rejected: section relevance or hard editorial exclusion"
+        "decision": "selected"
       },
       {
         "source": "Hindustan Times India",
@@ -3570,7 +3602,7 @@
         "corroborated_by": [
           "NDTV India"
         ],
-        "decision": "rejected: section relevance or hard editorial exclusion"
+        "decision": "selected"
       },
       {
         "source": "Hindustan Times India",
