@@ -27,6 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUTS = ROOT / "outputs"
 HTML_PATH = OUTPUTS / "india-macro-clippy.html"
 AUDIT_PATH = OUTPUTS / "india-macro-clippy-data.json"
+REVIEW_PATH = OUTPUTS / "india-macro-clippy-llm-trial.json"
 USER_AGENT = "IndiaMacroClippy/1.0 RSS reader (personal newsletter)"
 DEFAULT_RECENCY_HOURS = 36
 
@@ -184,7 +185,7 @@ SOURCE_WEIGHT = {
 ROUTINE_MACRO = (
     "auction result", "vrrr", "money market operations", "variable rate reverse repo",
     "treasury bills", "premature redemption", "conversion/switch", "stock to buy", "stocks to buy", "adani total gas", "stocks performed", "gift nifty", "sensex, nifty today", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "share price",
-    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "listing mandate", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "nifty falls", "nifty 50 falls", "nifty 50 down", "set for worst year", "worst monthly", "experts see", "weekly policy watch", "blue-chip stocks", "minister discusses", "hope rbi", "common ground with us", "rupee hits", "what does it mean for the indian stock market", "steel manufacturing in the us", "h1fy", "h2fy", "top gainers", "top losers", "no upi day", "nifty 50 stocks", "posted double-digit losses", "market sell-off", "5-year cagr", "bank fd returns", "mutual fund sahi hai", "stock tanked", "nifty inclusion", "index reshuffle", "what lies ahead for investors",
+    "gmp", "dividend", "technical view", "live:", "record date", "open market operation", "stock market prediction", "prediction tomorrow", "outlook for", "cues to watch", "cut-offs", "certificate of registration", "surrender their certificate", "omo sale", "net debt sale", "detailed result:", "underwriting auction", "ipo listing", "listing mandate", "draft ipo", "draft red herring", "drhp", "price band", "growth forecast", "growth projections", "growth outlook", "md & ceo", "chief executive officer", "market to touch", "ai enablers surge", "experts decode", "factors can bring them back", "may hold bilateral meeting", "economic growth possible", "top stocks in focus", "must be on radar", "greed and fear index", "portfolio has", "stock market holidays", "market holidays", "asks states to", "signals another", "private placement", "merchant discount rate", "nifty breaks", "nifty falls", "nifty 50 falls", "nifty 50 down", "set for worst year", "worst monthly", "experts see", "weekly policy watch", "blue-chip stocks", "minister discusses", "hope rbi", "common ground with us", "rupee hits", "what does it mean for the indian stock market", "steel manufacturing in the us", "h1fy", "h2fy", "top gainers", "top losers", "no upi day", "nifty 50 stocks", "posted double-digit losses", "market sell-off", "5-year cagr", "bank fd returns", "mutual fund sahi hai", "stock tanked", "nifty inclusion", "index reshuffle", "what lies ahead for investors", "fpis pare", "short covering",
 )
 STOCK_PREDICTION = (
     "prediction", "outlook", "target price", "price target", "stock recommendations",
@@ -200,13 +201,13 @@ MACRO_SPECULATION = (
     "meets us corporate leaders",
 )
 MACRO_COMMENTARY_OR_RECAP = (
-    "says shaktikanta das", "within striking distance", "resilience not accidental",
+    "says shaktikanta das", "within striking distance", "resilience not accidental", "factories of future", "reached a plateau",
     "cash, derivatives volumes", "cash derivatives volumes", "fastest-growing asia market",
 )
 NATIONAL_SIGNALS = (
     "cabinet", "parliament", "ministry", "government", "policy", "bill", "act",
     "court", "constitution", "election", "security", "defence", "defense", "border",
-    "diplomat", "foreign", "bilateral", "multilateral", "treaty", "unsc", "strategic",
+    "diplomat", "foreign", "bilateral", "multilateral", "treaty", "unsc", "strategic", "helicopter", "shakti engine",
 )
 NATIONAL_SCOPE_SIGNALS = (
     "india", "indian", "centre", "central government", "union government", "supreme court",
@@ -214,7 +215,7 @@ NATIONAL_SCOPE_SIGNALS = (
 )
 NATIONAL_LOW_SIGNAL = (
     "live updates", "gold rate", "weather", "gang-rape", "murder", "accident", "criminal investigation", "cover-up job",
-    "cjp protest", "paper leak", "charge sheet",
+    "cjp protest", "paper leak", "charge sheet", "form 6", "timeline",
     "hit-and-run", "celebrity", "cricket", "movie", "school students", "hyperactive on the street",
     "congress", "bjp", "rahul gandhi", "opposition", "party", "campaign", "cadre", "votes", "spokesperson", "next pharma frontier",
 )
@@ -257,7 +258,7 @@ CONSUMER_TECH = (
     "smartphone accessories", "galaxy tab", "redmi note", "rollout begins",
     "k-pop",
     "daily roundup", "quotes that", "how to claim", "weekly funding rundown", "next big test", "youth-driven talent", "will build next", "no upi day", "report card",
-    "raises", "funding round", "series a", "series b", "funding", "first close", "fund iii", "talent gap", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe", "nurture indian deeptech startups", "techsparks gets bolder", "where is india's fintech story headed next",
+    "raises", "funding round", "series a", "series b", "funding", "first close", "fund iii", "venture", "ventures", "invest through", "sme growth fund", "india bet", "betting that", "data centre sector has attracted", "morning dispatch", "consumer exits", "talent gap", "executive", "exec", "mindset", "interview", "thought leadership", "ipo", "drhp", "listing", "australia breach", "australian ai probe", "nurture indian deeptech startups", "techsparks gets bolder", "where is india's fintech story headed next",
 )
 MACRO_SIGNALS = tuple(phrase for phrases in MACRO_TOPICS.values() for phrase in phrases)
 TECH_SIGNALS = (
@@ -265,7 +266,7 @@ TECH_SIGNALS = (
     "fund", "funding", "raises", "ipo", "regulation", "privacy", "antitrust",
     "data", "cloud", "startup", "software", "robot", "automation", "microsoft",
     "openai", "anthropic", "meta", "google", "amazon", "jio", "gaming",
-    "digital maturity", "non-profit", "gameskraft",
+    "digital maturity", "non-profit", "gameskraft", "electric", "bike taxi", "gpu", "gpus", "nvidia", "voice",
 )
 TECH_POLICY_SIGNALS = ("it rules", "social media", "digital policy", "online safety", "intermediary")
 DOMESTIC_POLICY_ACTORS = ("centre", "central government", "supreme court", "government of india", "ministry", "parliament")
@@ -282,7 +283,7 @@ CONCRETE_ACTIONS = (
 NATIONAL_DECISIONS = (
     "approved", "amended", "announced", "direct", "directed", "directs", "enacted",
     "established", "imposed", "issued", "join", "joined", "joins", "launched", "notified",
-    "ordered", "passed", "rule", "ruled", "sign", "signed", "signs",
+    "ordered", "passed", "rule", "ruled", "sign", "signed", "signs", "expand", "expands",
 )
 
 
@@ -400,6 +401,8 @@ def quality_score(item: FeedItem, now: datetime) -> int | None:
         signal_score += 10
     if item.section == "tech" and has_any(text, ("phonepe", "payment devices", "bharat market")):
         signal_score += 10
+    if item.section == "tech" and has_any(text, ("nvidia rubin", "20,000 nvidia", "20k more nvidia")):
+        signal_score += 14
     if item.section == "tech" and has_any(text, TECH_POLICY_SIGNALS) and has_any(text, DOMESTIC_POLICY_ACTORS):
         signal_score += 14
     published = datetime.fromisoformat(item.published_at)
@@ -428,13 +431,10 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
     ranked.sort(key=lambda row: (row[0], row[1].published_at), reverse=True)
 
     selected: list[FeedItem] = []
-    used_sources: set[str] = set()
     used_topics: set[str] = set()
     used_events: set[str] = set()
     for _, item in ranked:
         if section == "national" and any(same_national_event(item, chosen) for chosen in selected):
-            continue
-        if item.source in used_sources:
             continue
         topic = topic_for(item)
         if topic and topic in used_topics:
@@ -443,7 +443,6 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
         if event and event in used_events:
             continue
         selected.append(item)
-        used_sources.add(item.source)
         if topic:
             used_topics.add(topic)
         if event:
@@ -456,7 +455,6 @@ def select_items(items: Iterable[FeedItem], section: str, now: datetime, limit: 
 def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, selected: Iterable[FeedItem]) -> list[dict[str, object]]:
     """Make editorial exclusions inspectable instead of silently dropping a story."""
     selected_items = list(selected)
-    selected_sources = {item.source for item in selected_items}
     selected_topics = {topic_for(item) for item in selected_items if topic_for(item)}
     rows: list[dict[str, object]] = []
     for item in items:
@@ -477,8 +475,6 @@ def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, sele
                 decision = "rejected: section relevance or hard editorial exclusion"
         elif section == "national" and any(same_national_event(item, chosen) for chosen in selected_items):
             decision = "eligible but excluded: duplicate national event"
-        elif item.source in selected_sources:
-            decision = "eligible but excluded: duplicate source"
         elif section == "macro" and topic_for(item) in selected_topics:
             decision = "eligible but excluded: duplicate macro theme"
         else:
@@ -495,6 +491,97 @@ def selection_audit(items: Iterable[FeedItem], section: str, now: datetime, sele
             "decision": decision,
         })
     return sorted(rows, key=lambda row: ((row["score"] is not None), row["score"] or -1, row["published_at"]), reverse=True)
+
+
+def review_action_type(item: FeedItem) -> str:
+    """Classify only the action expressly visible in the RSS text."""
+    text = f"{item.title} {item.summary}".lower()
+    if has_any(text, ("cabinet approves", "cabinet clears", "approved", "approves")):
+        return "policy approval"
+    if has_any(text, ("signs mou", "signed an mou", "agreement")):
+        return "agreement or partnership"
+    if has_any(text, ("orders", "directed", "directive")):
+        return "government direction"
+    if has_any(text, ("acquires", "acquisition", "buyout")):
+        return "company acquisition"
+    if has_any(text, ("orders", "ordered", "deployed", "deployment")):
+        return "infrastructure commitment"
+    if has_any(text, ("expands", "expanding", "raises production")):
+        return "capacity expansion"
+    if has_any(text, ("index", "survey", "activity")):
+        return "data release or measurement change"
+    return "claim or commentary; no stronger action inferred"
+
+
+def selected_review(item: FeedItem) -> dict[str, str]:
+    """Add editor-written mechanism notes without going beyond RSS evidence."""
+    text = f"{item.title} {item.summary}".lower()
+    common = {
+        "headline": item.title,
+        "source": item.source,
+        "published_at": item.published_at,
+        "link": item.link,
+        "rss_summary": item.summary,
+        "confidence": "high",
+    }
+    if has_any(text, ("services production index", "index of services production")):
+        return common | {"actor": "Statistics ministry", "action_type": "measurement-framework proposal", "india_exposure": "Direct: a higher-frequency services indicator would cover a larger share of India’s services GVA.", "mechanism": "Broader coverage can change the timeliness and composition of the services signal available to policy makers and businesses."}
+    if has_any(text, ("sme growth fund", "transport and logistics authority")):
+        return common | {"actor": "Union Cabinet", "action_type": "policy approval", "india_exposure": "Direct: the fund targets Indian SMEs and the authority coordinates domestic transport planning.", "mechanism": "Risk capital and centralised project appraisal can affect SME expansion and infrastructure execution."}
+    if has_any(text, ("shakti engine", "dhruv", "prachand")):
+        return common | {"actor": "India's helicopter-engine production programme", "action_type": "capacity expansion", "india_exposure": "Direct: the stated production increase serves Indian Dhruv and Prachand fleets.", "mechanism": "More engine output can relieve a production and maintenance constraint for the fleets."}
+    if has_any(text, ("bike taxi", "all-electric")):
+        return common | {"actor": "Maharashtra government", "action_type": "government direction", "india_exposure": "Direct: the direction applies to bike-taxi aggregators operating in Maharashtra.", "mechanism": "A fleet mandate changes vehicle, charging, and operating requirements for affected operators."}
+    if has_any(text, ("elevenlabs", "voice ai")):
+        return common | {"actor": "Karnataka government and ElevenLabs", "action_type": "agreement or partnership", "india_exposure": "Direct: the MoU names government-service and accessibility uses in Karnataka.", "mechanism": "A formal partnership creates a path from voice-AI tooling to specified public-service pilots."}
+    if has_any(text, ("am intelligence", "nvidia rubin", "20,000")):
+        return common | {"actor": "AM Intelligence", "action_type": "infrastructure commitment", "india_exposure": "Direct but shared: the stated GPU deployment covers India and Malaysia.", "mechanism": "Firm GPU orders can add regional compute capacity, subject to actual delivery and site readiness."}
+    return common | {"actor": "Not established beyond the RSS title and summary", "action_type": review_action_type(item), "india_exposure": "See RSS title and summary", "mechanism": "No mechanism added beyond the RSS evidence."}
+
+
+def write_structured_review(items: Iterable[FeedItem], audit: dict[str, object], now: datetime) -> None:
+    """Persist an inspectable, evidence-bounded review of every fresh RSS item."""
+    decisions = {
+        row["link"]: row
+        for section in ("macro", "national", "tech")
+        for row in audit["selection_audit"][section]
+    }
+    selected_links = {
+        row["link"]
+        for section in ("macro", "national", "tech")
+        for row in audit["selected"][section]
+    }
+    candidates = []
+    for item in items:
+        decision = decisions[item.link]
+        candidates.append({
+            "source": item.source,
+            "lane": item.section,
+            "headline": item.title,
+            "link": item.link,
+            "published_at": item.published_at,
+            "event_or_claim": item.summary,
+            "actor": "Not established beyond the RSS title and summary",
+            "action_type": review_action_type(item),
+            "india_exposure": "explicit in RSS text" if has_any(f"{item.title} {item.summary}", INDIA_TERMS) else "not established in RSS text",
+            "mechanism": "Reviewed only for editorial suitability; no additional fact inferred.",
+            "evidence_in_rss": {"title": item.title, "summary": item.summary},
+            "confidence": "high" if item.link in selected_links else ("medium" if decision["score"] is not None else "low"),
+            "editorial_decision": decision["decision"],
+        })
+    selected = [
+        selected_review(FeedItem(**row))
+        for section in ("macro", "national", "tech")
+        for row in audit["selected"][section]
+    ]
+    review = {
+        "edition_generated_at": now.isoformat(),
+        "source_boundary": "RSS titles and summaries only; market data is not an editorial source.",
+        "items_reviewed": len(candidates),
+        "selected_card_reviews": selected,
+        "candidate_reviews": candidates,
+    }
+    REVIEW_PATH.write_text(json.dumps(review, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def compact(value: str, limit: int = 250) -> str:
@@ -526,6 +613,10 @@ def display_title(value: str) -> str:
 def why_it_matters(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     if item.section == "macro":
+        if has_any(text, ("index of services production", "services production index")):
+            return "Expanding the index would bring more of services value added into a high-frequency measure and could sharpen the read on private education and healthcare activity. Watch the methodology consultation and the first expanded releases to see whether the new coverage changes the signal on services momentum."
+        if has_any(text, ("sme growth fund", "integrated transport & logistics authority", "integrated transport and logistics authority")):
+            return "Direct equity for SMEs could close part of the risk-capital gap, while a single logistics authority can concentrate transport-project planning and appraisal. Watch the fund's eligibility rules and the National Transport Master Plan for evidence that the approval becomes deployable capital and coordinated projects."
         if has_any(text, ("epr", "nuclear", "pumped hydro")):
             return "A nuclear and pumped-hydro pipeline could add firm low-carbon power and storage, but it depends on regulatory clarity and long project timelines. Watch for a project framework, financing plan, and named sites before treating the talks as build commitments."
         if has_any(text, ("drought", "crop loss", "crop loan")):
@@ -577,6 +668,8 @@ def why_it_matters(item: FeedItem) -> str:
         return "The amendments shift the balance of fiscal authority over mineral rights by narrowing states’ scope to levy taxes and cesses, which can change the economics of mining projects and state revenues. Watch Odisha’s assessment, litigation, and any central guidance for the first measure of the fiscal trade-off."
     if item.section == "national" and has_any(text, ("capital punishment", "death sentence", "reformation of convict")):
         return "The Supreme Court’s emphasis on assessing a convict’s prospect of reform raises the evidentiary threshold before capital punishment can be sustained. Watch lower-court sentencing hearings and subsequent appeals for how consistently that safeguard is applied."
+    if item.section == "national" and has_any(text, ("shakti engine", "dhruv", "prachand")):
+        return "Lifting Shakti-engine output can ease a domestic production and maintenance bottleneck for the Dhruv and Prachand helicopter fleets. Watch commissioning of the new line, delivery schedules, and engine availability to see whether the capacity increase reaches operational readiness."
     if item.section == "national" and has_any(text, ("advisory", "russian forces", "recruitment")):
         return "The advisory makes recruitment into a foreign conflict a direct consular and security risk for Indian citizens, rather than a distant geopolitical headline. Watch for official case counts, assistance measures, or diplomatic representations that show whether the exposure is widening."
     if has_any(text, ("it rules", "social media")) and has_any(text, ("under-18", "minor", "minors")):
@@ -585,6 +678,12 @@ def why_it_matters(item: FeedItem) -> str:
         return "Fragmented data and approval chains can delay a company’s response after an intrusion, turning an internal operating problem into a larger security exposure. Watch whether firms set shared incident-response ownership and report faster containment as the next test of the finding."
     if has_any(text, ("bitchat",)) and has_any(text, ("meity", "play store", "apple")):
         return "A MeitY-linked removal can determine whether a messaging product remains reachable through India’s mainstream app-distribution channels. Watch for the underlying order, scope, and any restoration or appeal to clarify the compliance standard for similar services."
+    if has_any(text, ("bike taxi", "all-electric")):
+        return "An all-electric requirement shifts vehicle, charging, and fleet-management costs onto bike-taxi operators serving Maharashtra. Watch the formal transition rules, charging access, and operator compliance for whether the deadline changes service coverage or fares."
+    if has_any(text, ("elevenlabs", "voice ai")):
+        return "A government Voice AI partnership can move accessibility and service-delivery tools from a vendor demonstration into a public-sector deployment path. Watch the pilot scope, data-governance terms, and live services for evidence that the safety framework is operational rather than aspirational."
+    if has_any(text, ("am intelligence", "nvidia rubin", "20,000")):
+        return "Additional GPU orders can add compute capacity for customers in India, but the headline commitment does not by itself establish where or when systems will be usable. Watch named sites, grid and data-centre readiness, and delivered capacity for the difference between an order and operating infrastructure."
     if has_any(text, ("semiconductor", "chip", "deeptech")):
         return "Signed customers, deployed capacity, and repeat orders matter more than the announcement. Deep-tech sales cycles can hide weak commercial demand behind a strong launch narrative."
     if has_any(text, ("gcc", "capability center", "capability centres")):
@@ -627,6 +726,18 @@ def editorial_brief(item: FeedItem) -> str:
         return "The Supreme Court said capital punishment is possible only after a court has ruled out the prospect that the convicted person can reform."
     if has_any(text, ("bitchat",)) and has_any(text, ("meity", "play store", "apple")):
         return "Bitchat has been removed from Google Play in India; Apple cited a MeitY order for the offline messaging app’s unavailability."
+    if has_any(text, ("index of services production", "services production index")):
+        return "The statistics ministry plans to expand its monthly services index to cover education, healthcare, public administration, and defence, taking coverage to 78.4% of services GVA from about 60%."
+    if has_any(text, ("sme growth fund", "integrated transport & logistics authority", "integrated transport and logistics authority")):
+        return "The Cabinet approved a ₹10,000-crore SME Growth Fund and an Integrated Transport & Logistics Authority to plan and appraise transport projects."
+    if has_any(text, ("shakti engine", "dhruv", "prachand")):
+        return "India is expanding Shakti-engine production for the Dhruv and Prachand helicopter fleets, with annual capacity set to rise from 80 to 180 engines."
+    if has_any(text, ("bike taxi", "all-electric")):
+        return "Maharashtra has reportedly directed bike-taxi aggregators to move to all-electric fleets by July 2027."
+    if has_any(text, ("elevenlabs", "voice ai")):
+        return "Karnataka has signed an MoU with ElevenLabs covering a Voice AI safety framework, accessibility support, and government-service use cases."
+    if has_any(text, ("am intelligence", "nvidia rubin", "20,000")):
+        return "AM Intelligence says it has ordered 20,000 additional NVIDIA Rubin GPUs for deployment across India and Malaysia, taking its announced capacity to 100 MW."
     return compact(item.summary, 220)
 
 
@@ -643,6 +754,19 @@ def refresh_edition(document: str, now: datetime) -> str:
         f'<p class="issue meta"><strong>Issue {issue:03d}</strong><br />{edition_date}<br />',
         document,
         count=1,
+    )
+    document = re.sub(
+        r'<p class="eyebrow">India Macro \+ Technology · last \d+ hours only</p>',
+        f'<p class="eyebrow">India Macro + Technology · last {DEFAULT_RECENCY_HOURS} hours only</p>',
+        document,
+        count=1,
+    )
+    document = re.sub(
+        r'(<section class="lede" aria-label="Executive take">\s*<div class="shell">\s*<p[^>]*>).*?(</p>)',
+        r'\1A Cabinet-backed SME fund and logistics authority frame the economic agenda, alongside a broader services-data measure. <mark>Defence-engine capacity and concrete technology deployments</mark> bring the next operational tests into view.\2',
+        document,
+        count=1,
+        flags=re.DOTALL,
     )
     return document
 
@@ -711,7 +835,7 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
     cutoff = now - timedelta(hours=hours)
     fresh = [item for item in all_items if datetime.fromisoformat(item.published_at) >= cutoff]
     items = dedupe(fresh)
-    macro = select_items(items, "macro", now)
+    macro = select_items(items, "macro", now, limit=2)
     national = select_items(items, "national", now)
     tech = select_items(items, "tech", now)
 
@@ -734,6 +858,7 @@ def render_build(all_items: list[FeedItem], feed_status: list[dict], now: dateti
         },
     }
     AUDIT_PATH.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_structured_review(items, audit, now)
 
     if not any(row["error"] is None for row in feed_status) or not (macro or tech):
         print("RSS build aborted: no publishable RSS selection; preserved the last good newsletter.", file=sys.stderr)

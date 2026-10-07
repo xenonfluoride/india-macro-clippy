@@ -116,9 +116,10 @@ class QualityGateTests(unittest.TestCase):
 <h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Wednesday, 17 September</p>
 <p>The 36-hour RSS audit did not contain a distinct, date-specific event for 17 September, so this section does not recycle stories.</p>'''
         with tempfile.TemporaryDirectory() as directory:
-            original_html, original_audit = builder.HTML_PATH, builder.AUDIT_PATH
+            original_html, original_audit, original_review = builder.HTML_PATH, builder.AUDIT_PATH, builder.REVIEW_PATH
             builder.HTML_PATH = Path(directory) / "newsletter.html"
             builder.AUDIT_PATH = Path(directory) / "newsletter.json"
+            builder.REVIEW_PATH = Path(directory) / "editorial-review.json"
             builder.HTML_PATH.write_text(template, encoding="utf-8")
             try:
                 exit_code = builder.render_build(
@@ -135,7 +136,7 @@ class QualityGateTests(unittest.TestCase):
                 audit = __import__("json").loads(builder.AUDIT_PATH.read_text(encoding="utf-8"))
                 rendered = builder.HTML_PATH.read_text(encoding="utf-8")
             finally:
-                builder.HTML_PATH, builder.AUDIT_PATH = original_html, original_audit
+                builder.HTML_PATH, builder.AUDIT_PATH, builder.REVIEW_PATH = original_html, original_audit, original_review
         self.assertEqual(exit_code, 0)
         self.assertEqual(len(audit["selected"]["national"]), 1)
         self.assertEqual(audit["selection_audit"]["macro"][0]["decision"], "selected")
@@ -197,6 +198,9 @@ class QualityGateTests(unittest.TestCase):
         local_protest = item("NDTV India", "national", "Human rights action over Mumbai CJP protest", "India ministry receives a notice")
         exam_probe = item("Hindustan Times India", "national", "NTA officials may not be named in NEET paper leak charge sheet", "India investigation update")
         ceo_commentary = item("Economic Times Tech", "tech", "India is fastest growing market, says company CEO", "India technology market commentary")
+        venture_announcement = item("Inc42", "tech", "New venture launches to back India's founders", "The firm will invest through direct startup investments.")
+        macro_policy_in_tech = item("Inc42", "tech", "Cabinet clears SME Growth Fund", "India's ₹10,000 crore SME Growth Fund will support manufacturing.")
+        national_timeline = item("Hindustan Times India", "national", "Form 6 row: how an ECI order reached Supreme Court | Timeline", "The ECI has maintained the disputed provision was separate.")
         self.assertIsNone(builder.quality_score(routine, now))
         self.assertIsNone(builder.quality_score(omo, now))
         self.assertIsNone(builder.quality_score(net_debt_sale, now))
@@ -251,6 +255,9 @@ class QualityGateTests(unittest.TestCase):
         self.assertIsNone(builder.quality_score(local_protest, now))
         self.assertIsNone(builder.quality_score(exam_probe, now))
         self.assertIsNone(builder.quality_score(ceo_commentary, now))
+        self.assertIsNone(builder.quality_score(venture_announcement, now))
+        self.assertIsNone(builder.quality_score(macro_policy_in_tech, now))
+        self.assertIsNone(builder.quality_score(national_timeline, now))
 
     def test_selects_diverse_high_signal_items(self):
         now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)

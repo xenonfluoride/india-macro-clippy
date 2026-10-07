@@ -101,3 +101,9 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 
 - An economist rate poll does not become a monetary-policy card until the RBI makes and communicates its decision. The same rule excludes preliminary company talks and announced intentions that do not establish an operating commitment.
 - A state-backed deeptech fund plan remains a generic startup-support proposal until it creates a specific operating, regulatory, or infrastructure outcome. Industry experts’ preferred AI framework is commentary, not a government rule.
+
+## 2026-10-07: Make the evidence review inspectable and source diversity soft
+
+- Each edition now writes an RSS-only structured review for every fresh candidate, preserving its title, summary, action classification, India exposure, confidence, and final decision alongside detailed selected-card reasoning.
+- A distinct, well-evidenced event is no longer discarded merely because its source already appears in the issue; source diversity ranks selection, while duplicate events and repeated Macro themes remain constrained.
+- Generic venture launches, news-digest commentary, and a legal timeline without a new decision are non-editorial even when keyword scoring would otherwise admit them.
