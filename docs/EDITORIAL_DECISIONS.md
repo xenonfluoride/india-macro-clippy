@@ -2,6 +2,20 @@
 
 This log records durable choices behind the newsletter so later editions do not reopen settled quality and sourcing questions.
 
+## 2026-10-12: Replace the editorial pipeline after a reproduced audit
+
+The current v2 skill, rubric and workflow supersede earlier keyword, hard-theme and fixed-lane-cap instructions in this historical log. The audit demonstrated that those rules suppressed substantive stories, inserted historical facts into new copy, and passed invalid editions.
+
+- Capture evidence into immutable run directories, retaining raw responses, IDs, parser/drop counts and failures. Failed runs never overwrite published artifacts.
+- The editor session assesses every candidate. There is no Python selector, fabricated review or selection-derived confidence. Reassign lanes by substance; source/theme diversity are soft preferences.
+- Author all card, hero and catalyst prose in edition data. Never add daily facts to reusable code. Distinguish completed events, proposals, estimates and company statements.
+- Require complete evidence-linked review, five to seven cards, a separate explicit semantic-check pass bound to input hashes, and exact rendering. Deterministic checks do not prove semantic truth.
+- Track prior published events in a ledger; unchanged repeats are excluded and follow-ups need new evidence. A 36-hour window alone never prevented repeats.
+- Market Tape remains separate Yahoo data, with raw provider evidence and individual timestamps. Label daily-bar snapshots honestly; use a bounded 96-hour observation age and fail closed beyond it.
+- Promote a validated live bundle and change one atomic accepted pointer. CI checks the accepted bundle before Pages deployment. Keep the legacy site until a v2 live edition is accepted.
+- Replay and shadow runs can never be promoted. The repaired pipeline was exercised against the 249-record audit batch with seven authored cards and the adversarial regression suite.
+- The weekday schedule and 36-hour window are preserved. Their weekend coverage gap is documented rather than silently widening the window or changing cadence.
+
 ## 2026-09-22: Use a 10-feed, India-focused RSS roster
 
 The roster was chosen after a live RSS audit of source volume, recency, and whether RSS summaries contained enough detail for an editor-written card.
@@ -107,3 +121,10 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - Each edition now writes an RSS-only structured review for every fresh candidate, preserving its title, summary, action classification, India exposure, confidence, and final decision alongside detailed selected-card reasoning.
 - A distinct, well-evidenced event is no longer discarded merely because its source already appears in the issue; source diversity ranks selection, while duplicate events and repeated Macro themes remain constrained.
 - Generic venture launches, news-digest commentary, and a legal timeline without a new decision are non-editorial even when keyword scoring would otherwise admit them.
+
+## 2026-10-09: Re-expand specialist RSS coverage after live validation
+
+- Added **Mint Companies** to Macro after a live validation returned timestamped, detailed company-operating coverage, including Indian earnings and capacity stories. Its lower source weight keeps broad market and global copy behind stronger macro reporting.
+- Added **Mongabay India** to Macro for India-specific climate, food, water, and resource-economy reporting. It broadens the climate-and-water theme without requiring a weak financial-market item to fill that lane.
+- Restored **Mint Technology** to India Tech after it again supplied timestamped, detailed India operating and infrastructure reports. The existing India-exposure, product-review, global-news, and commentary filters still apply.
+- Re-tested official PIB, RBI, and SEBI feeds alongside Indian Express. PIB returned a connection reset, RBI returned HTTP 418, SEBI exposed no parseable timestamped entries, and Indian Express provided no RSS summaries. They remain excluded rather than weakening the RSS-only evidence boundary.

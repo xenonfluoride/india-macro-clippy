@@ -5,7 +5,11 @@ on:
     branches: [main]
     paths:
       - "outputs/**"
+      - "work/**"
+      - "skill/india-macro-rss-newsletter/scripts/**"
       - ".github/workflows/newsletter-pages.yml"
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -18,7 +22,26 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run evidence and publication regression tests
+        run: python3 -B -m unittest work/test_build_newsletter.py
+      - name: Validate accepted edition if one exists
+        shell: bash
+        run: |
+          if [ -f outputs/current.json ]; then
+            python3 -B work/newsletter.py check-accepted
+          else
+            echo 'No v2 edition accepted yet; legacy site remains live.'
+          fi
   deploy:
+    needs: validate
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -28,21 +51,27 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Assemble the Pages artifact
+        id: assemble
         shell: bash
         run: |
-          mkdir -p site
-          cp outputs/india-macro-clippy.html site/index.html
-          cp outputs/india-macro-clippy-data.json site/india-macro-clippy-data.json
-          touch site/.nojekyll
+          if [ -f outputs/current.json ]; then
+            python3 -B work/assemble_site.py site
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'No accepted v2 edition; deployment skipped to preserve existing Pages.'
+          fi
 
       - name: Configure GitHub Pages
+        if: steps.assemble.outputs.ready == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: steps.assemble.outputs.ready == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
       - name: Deploy to GitHub Pages
+        if: steps.assemble.outputs.ready == 'true'
         id: deployment
         uses: actions/deploy-pages@v4

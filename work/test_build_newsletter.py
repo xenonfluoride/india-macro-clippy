@@ -1,354 +1,338 @@
-import importlib.util
+"""Regression suite for evidence contracts, isolation and publication."""
+import copy
+from dataclasses import asdict
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 import sys
 import tempfile
 import unittest
-from datetime import datetime, timezone
-from pathlib import Path
+from unittest.mock import patch
+from xml.etree import ElementTree as ET
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import newsletter as n
+import build_newsletter as b
+import update_market_tape as market
+from feeds import FEEDS, parse_payload
+
+NOW = datetime(2026, 10, 12, 8, tzinfo=timezone.utc)
 
 
-SCRIPT = Path(__file__).with_name("build_newsletter.py")
-SPEC = importlib.util.spec_from_file_location("newsletter_builder", SCRIPT)
-builder = importlib.util.module_from_spec(SPEC)
-sys.modules["newsletter_builder"] = builder
-SPEC.loader.exec_module(builder)
+def put(path, value):
+    n.replace_file(path, n.encoded(value))
 
 
-def item(source, section, title, summary="India policy and markets", hour=10):
-    return builder.FeedItem(
-        source=source,
-        section=section,
-        title=title,
-        link="https://example.com/story",
-        published_at=datetime(2026, 9, 17, hour, tzinfo=timezone.utc).isoformat(),
-        summary=summary,
-    )
+def approve_fixture(run):
+    """TEST ONLY: synthetic check records are not editorial approval."""
+    edition = n.read(run / 'edition.json')
+    v = {'schema_version': 2, 'verdict': 'approved', 'reviewer': 'unit-test fixture ONLY',
+         'checked_at': edition['created_at'], 'input_hashes': n.input_hashes(run),
+         'template_sha256': n.digest(n.TEMPLATE.read_bytes()),
+         'candidate_coverage': 'Test fixture accounts for every synthetic candidate in the input.',
+         'hero': 'Test fixture hero names the synthetic selected policies without extra claims.',
+         'catalysts': 'Test fixture contains no tomorrow-specific non-editorial event.',
+         'cards': [{'id': c['id'], 'factual_support': 'Test fixture brief is an exact quotation from its evidence.',
+                    'analysis': 'Test fixture mechanism and watch fields express distinct statements.',
+                    'novelty': 'Test fixture events are distinct and not in the seeded history.'}
+                   for c in edition['cards']]}
+    put(run / 'verification.json', v)
 
 
-class QualityGateTests(unittest.TestCase):
-    def test_roster_covers_independent_macro_and_tech_beats(self):
-        sources = {source for source, _, _ in builder.FEEDS}
-        self.assertTrue({
-            "Business Standard Economy & Policy",
-            "Economic Times Economy",
-            "The Hindu Economy",
-        }.issubset(sources))
-        self.assertTrue({"Economic Times Tech", "The Hindu Technology"}.issubset(sources))
-        self.assertTrue({"Hindustan Times India", "NDTV India", "BBC News India"}.issubset(sources))
-        self.assertNotIn("The Hindu National", sources)
-        self.assertFalse({
-            "RBI", "SEBI", "MediaNama", "Mint Technology", "Indian Express Technology",
-            "Indian Express Economy", "Indian Express Markets",
-        } & sources)
-
-    def test_recency_window_defaults_to_and_caps_at_36_hours(self):
-        self.assertEqual(builder.DEFAULT_RECENCY_HOURS, 36)
-
-    def test_national_feeds_keep_only_policy_and_strategy_stories(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        foreign_policy = item(
-            "The Hindu National", "national", "India joins multilateral grouping at the UN",
-            "India's foreign policy position is under discussion.",
-        )
-        local_crime = item(
-            "The Hindu National", "national", "Hit-and-run incident reported in Delhi",
-            "A local India crime report.",
-        )
-        state_spokesperson = item(
-            "The Hindu National", "national", "State investment drive lifts FDI, says party spokesperson",
-            "A state government spokesperson credits its investment drive.",
-        )
-        speculative_sector = item(
-            "The Hindu National", "national", "Why rare-disease drugs could become India’s next pharma frontier",
-            "An analysis of a possible industry opportunity.",
-        )
-        self.assertIsNotNone(builder.quality_score(foreign_policy, now))
-        self.assertIsNone(builder.quality_score(local_crime, now))
-        self.assertIsNone(builder.quality_score(state_spokesperson, now))
-        self.assertIsNone(builder.quality_score(speculative_sector, now))
-
-    def test_national_requires_a_concrete_decision_not_a_diplomatic_discussion(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        discussion = item("Hindustan Times India", "national", "India and US review bilateral ties", "The leaders agreed to maintain close engagement on trade and defence.")
-        decision = item("BBC News India", "national", "India signs defence agreement with France", "The agreement establishes defence cooperation between the countries.")
-        self.assertIsNone(builder.quality_score(discussion, now))
-        self.assertIsNotNone(builder.quality_score(decision, now))
-
-    def test_national_selection_allows_multiple_distinct_events_and_rewards_corroboration(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        court_ht = item("Hindustan Times India", "national", "FSSAI faces Supreme Court order", "India court directs FSSAI to review food safety rules")
-        court_ndtv = item("NDTV India", "national", "Supreme Court asks FSSAI to review food safety", "India court issues FSSAI direction on food safety rules", 9)
-        defence_bbc = item("BBC News India", "national", "India and France sign defence agreement", "India bilateral security agreement establishes defence cooperation", 8)
-        selected = builder.select_items((court_ht, court_ndtv, defence_bbc), "national", now)
-        self.assertEqual(len(selected), 2)
-        self.assertIn(court_ht, selected)
-        self.assertIn(defence_bbc, selected)
-        self.assertGreater(
-            builder.selection_score(court_ht, (court_ht, court_ndtv, defence_bbc), now),
-            builder.quality_score(court_ht, now),
-        )
-
-    def test_tech_selection_keeps_one_card_per_repeated_event(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        mdr_court = item("YourStory", "tech", "UPI MDR: Court seeks responses", "India court reviews merchant discount rate", 10)
-        mdr_protest = item("Inc42", "tech", "Retailers protest UPI MDR", "Indian retailers oppose merchant discount rate", 9)
-        acquisition = item("Economic Times Tech", "tech", "HCLTech acquires an AI software firm", "India software company acquires automation business", 8)
-        selected = builder.select_items((mdr_court, mdr_protest, acquisition), "tech", now)
-        self.assertEqual(len(selected), 2)
-        self.assertEqual(sum(builder.event_for(row) == "upi-mdr" for row in selected), 1)
-
-    def test_domestic_digital_policy_belongs_in_tech_and_deduplicates(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        it_rules = item("Economic Times Tech", "tech", "Centre will amend IT Rules to bar under-18s from social media", "Supreme Court asks the Centre to examine statutory safeguards for minors")
-        court_follow_up = item("YourStory", "tech", "Supreme Court asks Centre about social-media safeguards for minors", "The Centre must examine changes to IT Rules for under-18s", 9)
-        overseas_programme = item("Economic Times Tech", "tech", "Meta expands Instagram school programme", "Social media safety programme expands overseas", 8)
-        selected = builder.select_items((it_rules, court_follow_up, overseas_programme), "tech", now)
-        self.assertIsNotNone(builder.quality_score(it_rules, now))
-        self.assertIsNone(builder.quality_score(overseas_programme, now))
-        self.assertEqual(selected, [it_rules])
-        self.assertEqual(builder.event_for(it_rules), "social-media-minors")
-
-    def test_render_includes_the_national_lane_in_the_audit_and_html(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        template = '''<span id="rss-status"></span>
-<!-- RSS:MACRO:START --><!-- RSS:MACRO:END -->
-<!-- RSS:NATIONAL:START --><!-- RSS:NATIONAL:END -->
-<!-- RSS:TECH:START --><!-- RSS:TECH:END -->
-<h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Wednesday, 17 September</p>
-<p>The 36-hour RSS audit did not contain a distinct, date-specific event for 17 September, so this section does not recycle stories.</p>'''
-        with tempfile.TemporaryDirectory() as directory:
-            original_html, original_audit, original_review = builder.HTML_PATH, builder.AUDIT_PATH, builder.REVIEW_PATH
-            builder.HTML_PATH = Path(directory) / "newsletter.html"
-            builder.AUDIT_PATH = Path(directory) / "newsletter.json"
-            builder.REVIEW_PATH = Path(directory) / "editorial-review.json"
-            builder.HTML_PATH.write_text(template, encoding="utf-8")
-            try:
-                exit_code = builder.render_build(
-                    [
-                        item("Mint Markets", "macro", "India trade policy changes", "India trade policy update"),
-                        item("The Hindu National", "national", "India joins multilateral forum", "India foreign policy update"),
-                        item("Inc42", "tech", "PhonePe expands payment devices in Bharat", "India payment devices reach rural merchants"),
-                    ],
-                    [{"source": "test", "section": "macro", "url": "https://example.com", "items_parsed": 3, "error": None}],
-                    now,
-                    36,
-                    "test",
-                )
-                audit = __import__("json").loads(builder.AUDIT_PATH.read_text(encoding="utf-8"))
-                rendered = builder.HTML_PATH.read_text(encoding="utf-8")
-            finally:
-                builder.HTML_PATH, builder.AUDIT_PATH, builder.REVIEW_PATH = original_html, original_audit, original_review
-        self.assertEqual(exit_code, 0)
-        self.assertEqual(len(audit["selected"]["national"]), 1)
-        self.assertEqual(audit["selection_audit"]["macro"][0]["decision"], "selected")
-        self.assertIn("India joins multilateral forum", rendered)
-
-    def test_rejects_routine_and_consumer_items(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        routine = item("RBI", "macro", "Result of the VRRR auction")
-        omo = item("RBI", "macro", "Open Market Operation OMO sale")
-        net_debt_sale = item("Business Standard Economy & Policy", "macro", "RBI completes net debt sale", "India liquidity operation")
-        prediction = item("Mint Markets", "macro", "Stock Market prediction tomorrow")
-        outlook = item("Mint Markets", "macro", "Global rate hike cycle begins — Sensex, Nifty outlook")
-        stock_tip = item("Mint Markets", "macro", "Top stocks to buy on Monday")
-        blue_chip_tip = item("Mint Markets", "macro", "Four blue-chip stocks in India with expanding margins")
-        company_move = item("Mint Markets", "macro", "Why Adani Total Gas lost 5% as stocks performed")
-        market_cues = item("Mint Markets", "macro", "How Asian markets and GIFT Nifty will impact Sensex today")
-        promo = item("Inc42", "tech", "Spacetech’s Next Big Test, Weekly Funding Rundown")
-        registry = item("RBI", "macro", "NBFCs surrender their Certificate of Registration")
-        omo_detail = item("RBI", "macro", "Detailed Result: OMO Sale Auction")
-        underwriting = item("RBI", "macro", "Underwriting Auction for sale of Government Securities")
-        draft_ipo = item("Business Standard Companies", "macro", "Manufacturer files draft IPO papers")
-        forecast_recap = item("Business Standard Economy & Policy", "macro", "Ratings agencies raise India growth forecast")
-        irrelevant = item("Indian Express Economy", "macro", "Agency wins global public relations award", "Industry recognition announcement")
-        review = item("Indian Express Technology", "tech", "Oppo Find X9 Ultra review", "India smartphone review")
-        fundraising = item("Inc42", "tech", "India AI startup raises Series B funding", "Bengaluru startup funding announcement")
-        executive_commentary = item("YourStory", "tech", "Google exec says engineering is a mindset", "India AI commentary")
-        macro_executive_commentary = item("Mint Markets", "macro", "Fund MD & CEO says Dubai expansion is important", "India market commentary")
-        forecast_roundup = item("Business Standard Economy & Policy", "macro", "India's consumer market to touch ₹3 trillion by 2030", "India market forecast")
-        market_mover = item("Mint Markets", "macro", "India's AI enablers surge as data centre buildout gathers pace", "India technology shares rise")
-        conditional_diplomacy = item("Business Standard Economy & Policy", "macro", "Minister may hold bilateral meeting with USTR this week", "India trade discussion could happen")
-        investor_commentary = item("Mint Markets", "macro", "FIIs sell shares but five factors can bring them back — experts decode", "India investment commentary")
-        ministerial_growth_commentary = item("The Hindu Economy", "macro", "Over 10% economic growth possible for India: Finance Minister", "India economy can grow faster")
-        ministerial_discussion = item("Business Standard Economy & Policy", "macro", "Finance Minister discusses investment treaty with Qatar", "India trade and investment talks continue")
-        index_recap = item("Mint Markets", "macro", "Nifty 50 down 13.5%, set for worst year in 15 years", "India market sentiment is weak")
-        monthly_index_recap = item("Mint Markets", "macro", "Nifty 50 falls 6.3% in September, worst monthly series", "India market sentiment is weak")
-        stock_loss_recap = item("Mint Markets", "macro", "10 Nifty 50 stocks posted double-digit losses in September", "India market sell-off deepens")
-        long_term_return_recap = item("Mint Markets", "macro", "Nifty's 5-year CAGR falls below Bank FD returns", "India mutual fund return comparison")
-        index_constituent_mover = item("Mint Markets", "macro", "Why BSE stock tanked despite Nifty inclusion after index reshuffle", "India company stock move")
-        chairman_commentary = item("Business Standard Companies", "macro", "Hope RBI will find a common ground with us: Chairman", "India corporate discussion")
-        currency_mover = item("Mint Markets", "macro", "Rupee hits two-month low: What does it mean for the Indian stock market?", "India foreign exchange market update")
-        offshore_capex = item("Business Standard Companies", "macro", "India's company to invest in steel manufacturing in the US", "India company investment announcement")
-        listing_mandate = item("Business Standard Companies", "macro", "Why Tata Sons faces a listing mandate", "India corporate governance update")
-        fintech_outlook = item("YourStory", "tech", "Where is India's fintech story headed next?", "India payments and wealth outlook")
-        fund_close = item("YourStory", "tech", "Venture firm marks first close of Fund III", "India fund will invest in startups")
-        talent_report = item("YourStory", "tech", "India faces talent gap in GenAI and cloud skills", "India report measures workforce gap")
-        stock_watchlist = item("Mint Markets", "macro", "Top stocks in focus today: shares that must be on radar", "India market watchlist")
-        portfolio_tip = item("Mint Markets", "macro", "Greed and Fear index: investor portfolio has 22 stocks for the long term", "India market portfolio")
-        technicals_tip = item("Mint Markets", "macro", "Expert View: stock selection crucial; three sectors have strong technicals", "India market expert commentary")
-        ipo_tracker = item("Inc42", "tech", "Indian Startup IPO Tracker 2026", "India startup listing recap")
-        global_ai_warning = item("The Hindu Technology", "tech", "Australia breach offers warning for countries like India", "India should bring regulations after an Australia breach")
-        government_commentary = item("Economic Times Tech", "tech", "AI, semiconductors to drive India's next infrastructure push: FM Sitharaman", "India should invest in infrastructure")
-        startup_scheme = item("YourStory", "tech", "Karnataka government first scheme: startup pilots", "The Government First initiative offers startups funding to pilot with departments.")
-        rate_poll = item("Economic Times Economy", "macro", "RBI likely to hike repo rate after experts poll", "India inflation outlook")
-        chip_talks = item("Business Standard Companies", "macro", "Canon in talks with chip projects, plans India centres", "India semiconductor discussion")
-        startup_fund_plan = item("YourStory", "tech", "Andhra Pradesh plans deeptech fund for 25 startups", "India state fund proposal")
-        industry_framework = item("Economic Times Tech", "tech", "India needs AI framework, industry experts say", "India AI policy commentary")
-        macro_commentary = item("Business Standard Economy & Policy", "macro", "Reforms key to growth, says Shaktikanta Das", "India economic commentary")
-        market_activity_recap = item("Mint Markets", "macro", "Cash, derivatives volumes sink as oil roils sentiment", "India market turnover recap")
-        local_protest = item("NDTV India", "national", "Human rights action over Mumbai CJP protest", "India ministry receives a notice")
-        exam_probe = item("Hindustan Times India", "national", "NTA officials may not be named in NEET paper leak charge sheet", "India investigation update")
-        ceo_commentary = item("Economic Times Tech", "tech", "India is fastest growing market, says company CEO", "India technology market commentary")
-        venture_announcement = item("Inc42", "tech", "New venture launches to back India's founders", "The firm will invest through direct startup investments.")
-        macro_policy_in_tech = item("Inc42", "tech", "Cabinet clears SME Growth Fund", "India's ₹10,000 crore SME Growth Fund will support manufacturing.")
-        national_timeline = item("Hindustan Times India", "national", "Form 6 row: how an ECI order reached Supreme Court | Timeline", "The ECI has maintained the disputed provision was separate.")
-        self.assertIsNone(builder.quality_score(routine, now))
-        self.assertIsNone(builder.quality_score(omo, now))
-        self.assertIsNone(builder.quality_score(net_debt_sale, now))
-        self.assertIsNone(builder.quality_score(prediction, now))
-        self.assertIsNone(builder.quality_score(outlook, now))
-        self.assertIsNone(builder.quality_score(stock_tip, now))
-        self.assertIsNone(builder.quality_score(blue_chip_tip, now))
-        self.assertIsNone(builder.quality_score(company_move, now))
-        self.assertIsNone(builder.quality_score(market_cues, now))
-        self.assertIsNone(builder.quality_score(promo, now))
-        self.assertIsNone(builder.quality_score(registry, now))
-        self.assertIsNone(builder.quality_score(omo_detail, now))
-        self.assertIsNone(builder.quality_score(underwriting, now))
-        self.assertIsNone(builder.quality_score(draft_ipo, now))
-        self.assertIsNone(builder.quality_score(forecast_recap, now))
-        self.assertIsNone(builder.quality_score(irrelevant, now))
-        self.assertIsNone(builder.quality_score(review, now))
-        self.assertIsNone(builder.quality_score(fundraising, now))
-        self.assertIsNone(builder.quality_score(executive_commentary, now))
-        self.assertIsNone(builder.quality_score(macro_executive_commentary, now))
-        self.assertIsNone(builder.quality_score(forecast_roundup, now))
-        self.assertIsNone(builder.quality_score(market_mover, now))
-        self.assertIsNone(builder.quality_score(conditional_diplomacy, now))
-        self.assertIsNone(builder.quality_score(investor_commentary, now))
-        self.assertIsNone(builder.quality_score(ministerial_growth_commentary, now))
-        self.assertIsNone(builder.quality_score(ministerial_discussion, now))
-        self.assertIsNone(builder.quality_score(index_recap, now))
-        self.assertIsNone(builder.quality_score(monthly_index_recap, now))
-        self.assertIsNone(builder.quality_score(stock_loss_recap, now))
-        self.assertIsNone(builder.quality_score(long_term_return_recap, now))
-        self.assertIsNone(builder.quality_score(index_constituent_mover, now))
-        self.assertIsNone(builder.quality_score(chairman_commentary, now))
-        self.assertIsNone(builder.quality_score(currency_mover, now))
-        self.assertIsNone(builder.quality_score(offshore_capex, now))
-        self.assertIsNone(builder.quality_score(listing_mandate, now))
-        self.assertIsNone(builder.quality_score(fintech_outlook, now))
-        self.assertIsNone(builder.quality_score(fund_close, now))
-        self.assertIsNone(builder.quality_score(talent_report, now))
-        self.assertIsNone(builder.quality_score(stock_watchlist, now))
-        self.assertIsNone(builder.quality_score(portfolio_tip, now))
-        self.assertIsNone(builder.quality_score(technicals_tip, now))
-        self.assertIsNone(builder.quality_score(ipo_tracker, now))
-        self.assertIsNone(builder.quality_score(global_ai_warning, now))
-        self.assertIsNone(builder.quality_score(government_commentary, now))
-        self.assertIsNone(builder.quality_score(startup_scheme, now))
-        self.assertIsNone(builder.quality_score(rate_poll, now))
-        self.assertIsNone(builder.quality_score(chip_talks, now))
-        self.assertIsNone(builder.quality_score(startup_fund_plan, now))
-        self.assertIsNone(builder.quality_score(industry_framework, now))
-        self.assertIsNone(builder.quality_score(macro_commentary, now))
-        self.assertIsNone(builder.quality_score(market_activity_recap, now))
-        self.assertIsNone(builder.quality_score(local_protest, now))
-        self.assertIsNone(builder.quality_score(exam_probe, now))
-        self.assertIsNone(builder.quality_score(ceo_commentary, now))
-        self.assertIsNone(builder.quality_score(venture_announcement, now))
-        self.assertIsNone(builder.quality_score(macro_policy_in_tech, now))
-        self.assertIsNone(builder.quality_score(national_timeline, now))
-
-    def test_selects_diverse_high_signal_items(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        candidates = [
-            item("RBI", "macro", "Money Market Operations", "India liquidity data"),
-            item("Bloomberg · Anup Roy", "macro", "India announces semiconductor logistics policy", "India manufacturing plan"),
-            item("Mint Markets", "macro", "India refiners trim Russian crude purchases", "India oil buyers reassess cargoes"),
-            item("Inc42", "tech", "PhonePe expands payment devices in Bharat", "India payment devices reach rural merchants"),
-            item("MediaNama", "tech", "India reopens UPI pricing debate"),
-            item("Indian Express Technology", "tech", "New AI model launches globally", "Global enterprise product launch"),
-        ]
-        macro = builder.select_items(candidates, "macro", now)
-        tech = builder.select_items(candidates, "tech", now)
-        self.assertEqual(set(row.source for row in macro), {"Bloomberg · Anup Roy", "Mint Markets"})
-        self.assertEqual(set(row.source for row in tech), {"MediaNama", "Inc42"})
-
-    def test_macro_themes_use_whole_words_and_cover_real_economy_stories(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        treaty = item("Economic Times Economy", "macro", "India keeps taxation out of investment treaty", "Foreign investors must use local remedies before arbitration")
-        edf = item("Economic Times Economy", "macro", "India and EDF discuss EPR nuclear and pumped hydro", "Power ministry discusses deployment and regulation")
-        drought = item("Business Standard Economy & Policy", "macro", "Maharashtra declares drought and crop-loan relief", "Rainfall deficit causes crop loss")
-        water = item("Business Standard Economy & Policy", "macro", "AIIB plans water financing in India", "Water infrastructure will address rainfall deficit")
-        logistics = item("Business Standard Companies", "macro", "Chip logistics facility planned in Gujarat", "India semiconductor workforce training is planned")
-        self.assertFalse(builder.has_any("arbitration", ("rbi",)))
-        self.assertIn("external-finance", builder.macro_topics(treaty))
-        self.assertIn("energy-and-infrastructure", builder.macro_topics(edf))
-        self.assertIn("food-and-rural", builder.macro_topics(drought))
-        self.assertIn("climate-and-water", builder.macro_topics(water))
-        self.assertIn("investment-and-industry", builder.macro_topics(logistics))
-        for candidate in (treaty, edf, drought, water, logistics):
-            self.assertIsNotNone(builder.quality_score(candidate, now))
-
-    def test_macro_selection_avoids_repeating_the_same_theme(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        candidates = [
-            item("Business Standard Economy & Policy", "macro", "India crude oil bill rises", "India crude import costs rise"),
-            item("Mint Markets", "macro", "India refiners trim Russian oil cargoes", "India oil buyers reassess cargoes"),
-            item("The Hindu Economy", "macro", "India trade agreement expands duty-free access", "India trade policy changes"),
-        ]
-        macro = builder.select_items(candidates, "macro", now)
-        self.assertEqual(len(macro), 2)
-        self.assertEqual({row.source for row in macro}, {"Business Standard Economy & Policy", "The Hindu Economy"})
-
-    def test_macro_selection_leaves_a_slot_empty_for_a_thin_market_calendar(self):
-        now = datetime(2026, 9, 17, 12, tzinfo=timezone.utc)
-        candidates = [
-            item("Business Standard Economy & Policy", "macro", "India crude oil bill rises", "India crude import costs rise"),
-            item("The Hindu Economy", "macro", "India trade agreement expands duty-free access", "India trade policy changes"),
-            item("Mint Markets", "macro", "Stock market holidays next week", "India market calendar"),
-        ]
-        macro = builder.select_items(candidates, "macro", now)
-        self.assertEqual(len(macro), 2)
-
-    def test_strips_publisher_style_headline_tails(self):
-        title = "Sensex rises after Fed decision — Experts explain the move"
-        self.assertEqual(builder.display_title(title), "Sensex rises after Fed decision")
-        self.assertEqual(builder.display_title("US Federal Reserve raises rates: Is RBI next?"), "US Federal Reserve raises rates")
-
-    def test_payment_story_context_is_specific_to_the_event(self):
-        share = item("Inc42", "tech", "Navi's UPI market share rises", "India transaction volumes rise")
-        pricing = item("MediaNama", "tech", "UPI MDR pricing debate returns", "India payment fee policy")
-        self.assertIn("value share", builder.why_it_matters(share))
-        self.assertIn("cybersecurity", builder.why_it_matters(pricing))
-
-    def test_digital_rupee_and_sanctions_notes_name_their_own_mechanisms(self):
-        digital_rupee = item("Business Standard Companies", "macro", "Bank tests digital rupee rewards", "India CBDC wallet adds merchant payments")
-        sanctions = item("The Hindu National", "national", "Jaishankar raises sanctions Act concerns", "India and U.S. officials discuss foreign policy")
-        self.assertIn("merchant integration", builder.why_it_matters(digital_rupee))
-        self.assertIn("waiver", builder.why_it_matters(sanctions))
-
-    def test_refresh_edition_updates_date_and_increments_only_for_a_new_day(self):
-        document = '<title>India Macro Clippy: 23 September 2026</title><p class="issue meta"><strong>Issue 003</strong><br />23 September 2026<br />'
-        next_day = builder.refresh_edition(document, datetime(2026, 9, 24, 2, tzinfo=timezone.utc))
-        same_day = builder.refresh_edition(next_day, datetime(2026, 9, 24, 3, tzinfo=timezone.utc))
-        self.assertIn("Issue 004", next_day)
-        self.assertIn("24 September 2026", next_day)
-        self.assertIn("Issue 004", same_day)
-
-    def test_refresh_catalyst_date_points_to_tomorrow(self):
-        document = '''<h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 25 September</p>
-        <p>The 48-hour RSS audit did not contain a distinct, date-specific event for 25 September, so this section does not recycle stories.</p>'''
-        refreshed = builder.refresh_catalyst_date(document, datetime(2026, 9, 25, 2, tzinfo=timezone.utc))
-        self.assertIn("Saturday, 26 September", refreshed)
-        self.assertIn("event for 26 September", refreshed)
-        self.assertIn("36-hour RSS audit", refreshed)
-
-    def test_compact_keeps_complete_sentences(self):
-        value = "First sentence is complete. Second sentence is deliberately much longer than the remaining room in this compact card."
-        self.assertEqual(builder.compact(value, 30), "First sentence is complete.")
-        self.assertEqual(builder.compact("The regulator took action against platforms…", 80), "The regulator took action against platforms.")
+def fixture(run, count=5):
+    run.mkdir(parents=True, exist_ok=True)
+    (run / 'raw').mkdir(exist_ok=True)
+    source, _, url = FEEDS[0]
+    candidates, decisions, cards = [], [], []
+    root = ET.Element('rss')
+    channel = ET.SubElement(root, 'channel')
+    for i in range(count):
+        row = {'source': source, 'section': 'macro', 'title': f'India approves policy number {i}',
+               'summary': f'The Indian ministry approved policy number {i} for manufacturers.',
+               'link': f'https://example.org/policy/{i}', 'published_at': (NOW - timedelta(hours=1)).isoformat()}
+        row['id'] = n.candidate_id(row)
+        candidates.append(row)
+        entry = ET.SubElement(channel, 'item')
+        for tag, value in [('title', row['title']), ('description', row['summary']), ('link', row['link']), ('pubDate', row['published_at'])]:
+            ET.SubElement(entry, tag).text = value
+        lane = n.LANES[i % 3]
+        decisions.append({'id': row['id'], 'decision': 'select', 'confidence': 'high',
+                          'event': row['summary'], 'actor': 'Indian ministry', 'action_type': 'policy approval',
+                          'india_exposure': 'Domestic manufacturing policy', 'mechanism': 'Compliance duties for domestic producers',
+                          'reason': 'A concrete policy action described in the source evidence.',
+                          'materiality': 3, 'lane': lane, 'event_key': f'india-policy-number-{i}',
+                          'evidence': [row['summary']]})
+        cards.append({'id': row['id'], 'lane': lane, 'headline': row['title'], 'brief': row['summary'],
+                      'mechanism': f'Policy number {i} could change compliance costs for domestic manufacturers.',
+                      'watch': f'Watch the implementation notice for policy number {i} to establish when duties begin.',
+                      'claims': [{'statement': row['summary'], 'evidence': [row['summary']]}]})
+    raw = ET.tostring(root)
+    (run / 'raw/rss.xml').write_bytes(raw)
+    feeds = [{'source': s, 'section': lane, 'url': u, 'error': None if s == source else 'fixture unavailable'}
+             for s, lane, u in FEEDS]
+    feeds[0].update(raw_path='raw/rss.xml', raw_sha256=n.digest(raw))
+    capture = {'schema_version': 2, 'run_id': 'fixture-v2', 'mode': 'live',
+               'captured_at': NOW.isoformat(), 'cutoff': (NOW - timedelta(hours=36)).isoformat(),
+               'hours': 36, 'feeds': feeds, 'candidates': candidates}
+    put(run / 'capture.json', capture)
+    put(run / 'history.json', {'schema_version': 2, 'entries': []})
+    put(run / 'review.json', {'schema_version': 2, 'run_id': 'fixture-v2', 'editor': 'test fixture editor',
+         'capture_sha256': n.digest((run / 'capture.json').read_bytes()), 'candidates': decisions})
+    put(run / 'edition.json', {'schema_version': 2, 'run_id': 'fixture-v2', 'date': '2026-10-12',
+         'created_at': NOW.isoformat(), 'issue': 11,
+         'hero': 'Several Indian policy decisions set the domestic manufacturing agenda in this synthetic fixture.',
+         'hero_card_ids': [c['id'] for c in cards], 'cards': cards, 'catalysts': [],
+         'catalyst_review': 'The synthetic fixture contains no distinct date-specific signal for tomorrow.'})
+    results, quotes = {}, {}
+    for name, (symbol, currency) in n.SYMBOLS.items():
+        payload = {'chart': {'result': [{'timestamp': [int((NOW - timedelta(days=d)).timestamp()) for d in (4, 3)],
+                  'meta': {'currency': currency}, 'indicators': {'quote': [{'close': [100, 101]}]}}]}}
+        results[name] = {'payload': payload}
+        quotes[name] = market.parse_quote(symbol, payload)
+    put(run / 'raw/market.json', {'results': results})
+    put(run / 'market.json', {'schema_version': 2, 'run_id': 'fixture-v2', 'provider': 'Yahoo Finance',
+         'fetched_at': NOW.isoformat(), 'quotes': quotes, 'raw_path': 'raw/market.json',
+         'raw_sha256': n.digest((run / 'raw/market.json').read_bytes())})
+    approve_fixture(run)
+    data = n.validate(run, historical=True, check_html=False)
+    (run / 'newsletter.html').write_text(n.render(data), encoding='utf-8')
+    return run
 
 
-if __name__ == "__main__":
+class Contracts(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.run = fixture(Path(self.tmp.name) / 'run')
+
+    def edit(self, name, mutate, reapprove=False):
+        data = n.read(self.run / name)
+        mutate(data)
+        put(self.run / name, data)
+        if reapprove:
+            approve_fixture(self.run)
+
+    def fail(self, match=None):
+        with self.assertRaises((n.InvalidEdition, KeyError, ValueError, OSError)) as result:
+            n.validate(self.run, now=NOW)
+        if match:
+            self.assertIn(match, str(result.exception))
+
+    def test_valid_fixture(self):
+        n.validate(self.run, now=NOW)
+
+    def test_seven_card_issue_passes(self):
+        run = fixture(Path(self.tmp.name) / 'seven', 7)
+        n.validate(run, now=NOW)
+
+    def test_old_placeholder_review_is_rejected(self):
+        self.edit('review.json', lambda d: d['candidates'][0].update(actor='Not established beyond the RSS title and summary'), True)
+        self.fail('Placeholder')
+
+    def test_duplicate_requires_explicit_representative(self):
+        self.edit('review.json', lambda d: d['candidates'][0].update(decision='duplicate', duplicate_of='missing-id'), True)
+        self.fail('Duplicate must reference')
+
+    def test_evidence_can_expire_during_editing(self):
+        with self.assertRaises(n.InvalidEdition):
+            n.validate(self.run, now=NOW + timedelta(hours=37))
+
+    def test_original_roster_preserved(self):
+        self.assertEqual(len(FEEDS), 15)
+        self.assertTrue({'Mint Companies', 'Mint Technology', 'Mongabay India'} <= {x[0] for x in FEEDS})
+
+    def test_missing_review_and_missing_verification_block(self):
+        for name in ('review.json', 'verification.json'):
+            original = (self.run / name).read_bytes()
+            (self.run / name).unlink()
+            self.fail()
+            (self.run / name).write_bytes(original)
+
+    def test_every_candidate_must_be_reviewed_once(self):
+        self.edit('review.json', lambda d: d['candidates'].pop(), True)
+        self.fail('Every candidate')
+
+    def test_duplicate_review_cannot_hide_missing_candidate(self):
+        self.edit('review.json', lambda d: d['candidates'].__setitem__(0, d['candidates'][1]), True)
+        self.fail('Every candidate')
+
+    def test_one_and_eight_card_issues_fail(self):
+        for count in (1, 8):
+            run = Path(self.tmp.name) / f'count-{count}'
+            with self.assertRaisesRegex(n.InvalidEdition, 'five to seven'):
+                fixture(run, count)
+
+    def test_false_html_copy_fails(self):
+        path = self.run / 'newsletter.html'
+        path.write_text(path.read_text().replace('The Indian ministry approved policy number 0 for manufacturers.', 'India abolished all taxes overnight.'))
+        self.fail('HTML differs')
+
+    def test_false_edition_claim_fails_even_with_rebound_verification(self):
+        self.edit('edition.json', lambda d: d['cards'][0].update(brief='India abolished all taxes overnight.'), True)
+        self.fail('Claim must quote')
+
+    def test_changed_copy_invalidates_semantic_approval(self):
+        self.edit('edition.json', lambda d: d.update(hero='A different unsupported hero with enough characters to evade length checks.'))
+        self.fail('Inputs changed')
+
+    def test_source_records_cannot_be_deleted(self):
+        self.edit('capture.json', lambda d: d['candidates'].pop(), True)
+        self.fail('Candidate pool')
+
+    def test_raw_feed_tampering_fails(self):
+        (self.run / 'raw/rss.xml').write_text('<rss />')
+        self.fail('RSS response changed')
+
+    def test_future_timestamp_fails(self):
+        self.edit('capture.json', lambda d: d['candidates'][0].update(published_at=(NOW + timedelta(days=30)).isoformat()), True)
+        self.fail()
+
+    def test_future_edition_fails(self):
+        self.edit('edition.json', lambda d: d.update(created_at=(NOW + timedelta(days=1)).isoformat()), True)
+        self.fail()
+
+    def test_cutoff_cannot_be_extended(self):
+        self.edit('capture.json', lambda d: d.update(cutoff=(NOW - timedelta(days=8)).isoformat()), True)
+        self.fail('Cutoff')
+
+    def test_wrong_visible_date_fails(self):
+        path = self.run / 'newsletter.html'
+        path.write_text(path.read_text().replace('12 October 2026', '1 January 2001'))
+        self.fail('HTML differs')
+
+    def test_wrong_json_date_fails(self):
+        self.edit('edition.json', lambda d: d.update(date='2001-01-01'), True)
+        self.fail('Wrong IST')
+
+    def test_empty_prices_fail(self):
+        self.edit('market.json', lambda d: d['quotes'].update({k: {} for k in n.SYMBOLS}), True)
+        self.fail()
+
+    def test_stale_symbol_fails(self):
+        self.edit('market.json', lambda d: d['quotes']['Brent'].update(observed_at='2001-01-01T00:00:00+00:00'), True)
+        self.fail()
+
+    def test_price_must_match_raw_provider_record(self):
+        self.edit('market.json', lambda d: d['quotes']['Brent'].update(current=100, change_pct=0), True)
+        self.fail('Prices differ')
+
+    def test_bad_currency_fails(self):
+        self.edit('market.json', lambda d: d['quotes']['Brent'].update(currency='INR'), True)
+        self.fail('currency')
+
+    def test_nonfinite_prices_fail(self):
+        self.edit('market.json', lambda d: d['quotes']['Brent'].update(current=float('nan')), True)
+        self.fail('finite')
+
+    def test_duplicate_event_fails(self):
+        self.edit('review.json', lambda d: d['candidates'][1].update(event_key=d['candidates'][0]['event_key']), True)
+        self.fail('Duplicate event')
+
+    def test_prior_event_requires_real_update(self):
+        c = n.read(self.run / 'capture.json')['candidates'][0]
+        self.edit('history.json', lambda d: d['entries'].append({'event_key': 'india-policy-number-0', 'link': c['link']}), True)
+        self.fail('Previously published')
+
+    def test_proposals_do_not_receive_automatic_fact_substitutions(self):
+        source = n.read(self.run / 'capture.json')
+        self.assertFalse(hasattr(b, 'editorial_brief'))
+        self.assertFalse(hasattr(b, 'quality_score'))
+        self.assertNotIn('ElevenLabs', n.render(n.validate(self.run, now=NOW)))
+        self.assertEqual(len(source['candidates']), 5)
+
+    def test_sentences_are_separate(self):
+        self.edit('edition.json', lambda d: d['cards'][0].update(watch=d['cards'][0]['mechanism']), True)
+        self.fail('must differ')
+
+    def test_three_sentences_fail(self):
+        self.edit('edition.json', lambda d: d['cards'][0].update(watch='Watch the first implementation notice. Then watch compliance data.'), True)
+        self.fail('exactly two')
+
+    def test_hero_and_catalyst_coverage_required(self):
+        self.edit('edition.json', lambda d: d.update(hero_card_ids=[]), True)
+        self.fail('Hero')
+
+    def test_publish_is_pointer_based_and_replay_prohibited(self):
+        outputs = Path(self.tmp.name) / 'outputs'
+        outputs.mkdir()
+        with patch.object(n, 'now_utc', return_value=NOW):
+            dest = n.promote(self.run, outputs, now=NOW)
+        self.assertEqual(n.current_bundle(outputs), dest)
+        n.check_accepted(outputs)
+        self.assertTrue((dest / 'ledger.json').exists())
+        before = (outputs / 'current.json').read_bytes()
+        with self.assertRaises(n.InvalidEdition):
+            n.promote(self.run, outputs, now=NOW)
+        self.assertEqual(before, (outputs / 'current.json').read_bytes())
+
+    def test_replay_cannot_be_promoted(self):
+        self.edit('capture.json', lambda d: d.update(mode='replay'))
+        self.edit('review.json', lambda d: d.update(capture_sha256=n.digest((self.run / 'capture.json').read_bytes())), True)
+        with self.assertRaisesRegex(n.InvalidEdition, 'Replay'):
+            n.promote(self.run, Path(self.tmp.name) / 'outputs', now=NOW)
+
+    def test_failure_before_pointer_swap_preserves_site(self):
+        outputs = Path(self.tmp.name) / 'outputs'
+        outputs.mkdir()
+        marker = outputs / 'india-macro-clippy.html'
+        marker.write_text('last good site')
+        real_replace = n.replace_file
+        def failing_replace(path, payload):
+            if Path(path).name == 'current.json':
+                raise OSError('simulated disk failure')
+            return real_replace(path, payload)
+        with patch.object(n, 'replace_file', side_effect=failing_replace):
+            with self.assertRaises(OSError):
+                n.promote(self.run, outputs, now=NOW)
+        self.assertEqual(marker.read_text(), 'last good site')
+        self.assertFalse((outputs / 'current.json').exists())
+        self.assertTrue((self.run / 'capture.json').exists())
+
+    def test_pages_assembly_uses_only_accepted_bundle(self):
+        import assemble_site
+        outputs = Path(self.tmp.name) / 'outputs'
+        outputs.mkdir()
+        with self.assertRaises(n.InvalidEdition):
+            assemble_site.assemble(Path(self.tmp.name) / 'missing-site', outputs)
+        n.promote(self.run, outputs, now=NOW)
+        site = assemble_site.assemble(Path(self.tmp.name) / 'site', outputs)
+        self.assertEqual((site / 'index.html').read_bytes(), (self.run / 'newsletter.html').read_bytes())
+        self.assertTrue((site / 'review.json').exists())
+
+    def test_accepted_manifest_detects_tampering(self):
+        outputs = Path(self.tmp.name) / 'outputs'
+        outputs.mkdir()
+        destination = n.promote(self.run, outputs, now=NOW)
+        (destination / 'newsletter.html').write_text('unverified replacement')
+        with self.assertRaisesRegex(n.InvalidEdition, 'Accepted bundle changed'):
+            n.check_accepted(outputs)
+
+    def test_parser_does_not_confuse_updated_with_publication(self):
+        xml = b'<feed><entry><title>Story</title><link href="https://example.org"/><updated>2026-10-12T08:00:00Z</updated><summary>India news</summary></entry></feed>'
+        rows, drops = parse_payload('test', 'macro', xml)
+        self.assertEqual(rows, [])
+        self.assertEqual(drops['updated_only'], 1)
+
+    def test_capture_isolated_on_total_feed_failure(self):
+        with patch.object(b, 'retrieve', side_effect=lambda spec, _: ([], {'source': spec[0], 'section': spec[1], 'url': spec[2], 'error': 'network failed'})):
+            with patch.object(b, 'publication_history', return_value={'schema_version': 2, 'entries': []}):
+                run = b.capture(runs=Path(self.tmp.name) / 'failed')
+        self.assertEqual(n.read(run / 'capture.json')['candidates'], [])
+        self.assertFalse((run / 'review.json').exists())
+        self.assertFalse((run / 'newsletter.html').exists())
+
+    def test_missing_market_observations_fail(self):
+        payload = {'chart': {'result': [{'timestamp': [1], 'meta': {'currency': 'USD'}, 'indicators': {'quote': [{'close': [1]}]}}]}}
+        with self.assertRaises(ValueError):
+            market.parse_quote('BZ=F', payload)
+
+    def test_all_market_failures_keep_diagnostics(self):
+        (self.run / 'market.json').unlink()
+        with patch.object(market, 'fetch', return_value={'error': 'network failed'}):
+            with self.assertRaisesRegex(ValueError, 'incomplete'):
+                market.update(self.run)
+        self.assertFalse((self.run / 'market.json').exists())
+        self.assertTrue(list((self.run / 'raw').glob('market-fetch-*.json')))
+
+
+if __name__ == '__main__':
     unittest.main()

@@ -1,17 +1,30 @@
 # Project instructions
 
-## Documentation is required
+## Source of truth
 
-Always update documentation in the same change when modifying the RSS roster, editorial selection rules, newsletter structure, market-data workflow, evaluator, validation commands, or publishing process. At minimum, keep `README.md`, `skill/india-macro-rss-newsletter/SKILL.md`, and `skill/india-macro-rss-newsletter/references/evaluation-rubric.md` accurate. Record durable sourcing and quality decisions in `docs/EDITORIAL_DECISIONS.md`.
+Use the v2 workflow in `skill/india-macro-rss-newsletter/SKILL.md`, its evaluation rubric, and `docs/EDITORIAL_WORKFLOW.md`. The historical blacklist and hardcoded prose in audit snapshots are evidence of defects, not reusable rules.
 
-## Publishing guardrails
+## Required editorial behavior
 
-- Editorial cards must be grounded only in the RSS audit. Do not use web search to fill stories or catalysts.
-- The editorial recency window is 36 hours. The builder and evaluator reject a longer window so consecutive daily issues cannot silently drift back to two-day coverage.
-- Market Tape is a clearly labelled Yahoo Finance price snapshot, not editorial inference. Do not publish a routine daily chart without a distinct analytical purpose.
-- Preserve the last good site if RSS selection, market data, tests, or evaluation fail.
-- Publish only after `python3 -m unittest work/test_build_newsletter.py` and the newsletter evaluator pass.
-- The builder must reject IPO/listing chatter, market-mover posts, standalone currency and index recaps (including half-year gainers-and-losers and long-term-return roundups), trade-body advocacy without a policy decision, recycled long-range growth forecasts, rate polls and other speculative policy previews, reported ministerial discussions without a decision, investor punditry, generic placement announcements, offshore capex without an India operating effect, macro ministerial or executive commentary, thin market-calendar items, party-political churn, unsupported spokesperson claims, local-national stories, national diplomatic discussions without a concrete outcome, and generic tech fundraising, startup-support schemes or proposed funds without an operating outcome, conference-preview, workforce-gap, ministerial, executive, or industry-expert commentary. It should leave a lane short rather than fill it with a weak item. India Tech includes concrete domestic digital-policy decisions, rejects offshore incidents that only speculate about a possible India response, prefers disclosed operating acquisitions over generic workforce reports when they compete for a source slot, avoids duplicate cards for one event, and refreshes the visible edition date on a new issue.
-- Macro relevance must use word-aware themes, not raw substring checks. Keep the candidate-level score, detected themes, and final inclusion or exclusion reason in the RSS audit so editorial misses can be inspected.
-- Keep `outputs/india-macro-clippy-llm-trial.json` with the RSS-only structured review of every fresh candidate and detailed selected-card reasoning. Source diversity can rank candidates but must not automatically veto a distinct, well-evidenced event.
-- National & Strategy reads Hindustan Times India, NDTV India, and BBC News India every build. It may publish up to three distinct high-signal events, with independent source corroboration used as a ranking boost and duplicate events collapsed to one card.
+- Use only captured RSS titles and summaries for editorial facts; no search or article-body supplementation.
+- Read every fresh candidate in bounded batches. Author real event, actor, action, India exposure, mechanism, confidence and disposition assessments.
+- Distinguish completed actions, commitments, proposals, estimates and commentary. Confidence measures evidence support, not whether a candidate was selected.
+- Feed lane, source and theme are soft guidance. Reassign lanes by substance and select five to seven cards globally.
+- Reject actual stock tips, listing/dividend alerts, routine recaps, consumer reviews, local crime, political churn, unrelated global news, unsupported commentary and duplicate events. A keyword alone is never a reason.
+- Keep original headlines and exact evidence. Every brief must map fully to supporting RSS spans; every Why note has one mechanism sentence and one next-signal sentence.
+- Review prior publication history. New coverage of an unchanged event is not a new event; document any substantive update.
+- Author the hero and inspect all dated catalyst candidates. One closing catalyst section only.
+
+## Publication safety
+
+Capture, Market Tape and rendering only write run directories. They must never edit the legacy output files. Failed evidence is retained.
+
+The sole deployment pointer is `outputs/current.json`, referencing a complete immutable v2 bundle. Promotion requires live evidence, a complete model-authored review, valid prices, exact rendered HTML, explicit semantic verification bound to all input hashes, and current publication history. Never bypass the gate, fabricate approval notes, relabel a replay as live, or hand-edit HTML to hide invalid data.
+
+Run `python3 -B -m unittest work/test_build_newsletter.py` and the evaluator with `--run RUN` before promotion. CI repeats checks. Verify the deployed edition after a push.
+
+A validation pass does not prove semantic truth; it proves the artifacts match the explicitly reviewed version and satisfy the mechanical contract. Do not report a review as complete merely because a JSON row exists.
+
+## Documentation
+
+Changes to roster, editorial contracts, schema, validation or deployment must update README, this file, the skill, rubric and applicable decisions. Preserve pre-existing user changes; stage intentional paths explicitly.

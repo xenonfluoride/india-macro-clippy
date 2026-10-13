@@ -1,39 +1,51 @@
 ---
 name: india-macro-rss-newsletter
-description: Build or refresh a concise India macro, national-strategy, and technology newsletter from RSS/Atom feeds, with source provenance, a strict recency window, editorial selection, and HTML quality checks. Use for India-focused market, policy, strategy, or technology briefs; do not use for general news digests or live-price data alone.
-metadata:
-  short-description: RSS-first India macro and tech newsletter
+description: Capture, review, compose, validate and publish an RSS-only India macro, strategy and technology newsletter with complete candidate review and immutable evidence.
 ---
 
-# India Macro RSS Newsletter
+# India Macro RSS Newsletter — v2
 
-Build a short, source-linked newsletter for India macro, national strategy, markets, and technology. The page should read as a useful morning brief, not an RSS reader.
+Read this file and `references/evaluation-rubric.md` completely before an edition. Artifact schemas and examples are in `docs/EDITORIAL_WORKFLOW.md`.
 
-## Source boundary
+## Evidence capture
 
-- Use RSS or Atom feeds to discover newsletter stories. Do not use web search to fill editorial sections unless the user explicitly changes this rule.
-- Keep a timestamped audit of each fetched item, selected item, and feed failure, plus an inspectable RSS-only structured-review artifact for every fresh candidate.
-- Enforce the requested recency cutoff. The maximum and default is 36 hours; discard undated items.
-- The configured roster is: Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, Mint Markets, Hindustan Times India, NDTV India, BBC News India, Economic Times Tech, The Hindu Technology, YourStory, and Inc42.
-- Treat a failed or restricted feed as unavailable, never as permission to substitute a search result.
+1. Synchronize the requested branch using `git pull --ff-only`. Preserve changes on failure. A restricted-network DNS failure needs an approved network retry, not an assumption that GitHub is unavailable.
+2. Run `python3 -B work/build_newsletter.py --hours 36`. Record the printed RUN directory. This captures evidence only; it produces no selection or review.
+3. Run `python3 -B work/update_market_tape.py --run RUN`. Any price failure blocks publication. Diagnostics stay in the run.
+4. Read `capture.json`, feed failures and `history.json`. Inspect all candidates using `python3 -B work/newsletter.py context --run RUN --offset 0 --limit 40`; follow every next_offset. Do not dump a whole batch and then treat truncated output as a full review.
 
-## Editorial selection
+The roster in `work/feeds.py` contains Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, Mint Markets, Mint Companies, Mongabay India, Hindustan Times India, NDTV India, BBC News India, Economic Times Tech, The Hindu Technology, Mint Technology, YourStory and Inc42. Read all configured inputs. Feed category does not fix the editorial lane.
 
-Select fewer stories when the alternatives are weak, including thin market-calendar items. Prefer a mix of primary policy sources, high-quality reporting, and distinct subjects.
+Use original titles, RSS summaries, URLs, sources and publication timestamps only. Never use web search or article bodies to fill missing facts. Raw responses and parser/drop counts are retained. Future-dated and undated records are excluded; updated-only entries cannot silently become new publications.
 
-- Reject routine central-bank operations, stock tips, dividend alerts, draft-IPO/listing chatter and IPO trackers, market-mover posts, standalone currency and index recaps (including half-year gainers-and-losers and long-term-return roundups), trade-body advocacy without a policy decision, recycled long-range market forecasts, rate polls and other speculative policy previews, reported ministerial discussions without a decision, investor punditry, offshore capex without an India operating effect, macro ministerial or executive commentary, gadget reviews, product-spec posts, non-India tech stories or offshore incidents that only speculate about India, routine fund-raise announcements, generic startup-support schemes or proposed funds without an operating outcome, conference-preview, or workforce-gap reports, and generic ministerial, executive, or industry-expert commentary without a concrete Indian operating, regulatory, or infrastructure signal. National & Strategy needs a nationally scoped policy, law, security, or foreign-affairs decision—not a local enforcement story or diplomatic discussion alone. A concrete domestic digital-policy decision belongs in India Tech, even when the RSS summary omits the word “India”; collapse duplicate coverage of the same rule to one card. Prefer a disclosed India-company acquisition over a generic workforce report when both compete for a source slot.
-- Require a concrete India macro, market, policy, deep-tech, payments, regulation, company, or infrastructure signal.
-- Avoid repeating a theme or event unless it genuinely needs follow-up coverage; one event should not occupy two cards simply because it appeared in more than one feed. Source diversity is a soft ranking preference, never an automatic veto of a distinct, well-evidenced event.
-- Use word-aware Macro themes, rather than raw substring checks: food and rural conditions; energy and infrastructure; climate and water; external finance; trade and rules; investment and industry; digital payments; monetary policy; and markets. Keep themes distinct in one issue and retain each candidate’s score, detected themes, and selection decision in the audit. Read all three National & Strategy feeds on every build. Use that lane only for policy, law, security, or foreign-affairs stories; reject local incidents, party-political churn, live-news churn, and unsupported spokesperson claims. Treat independent coverage of the same event as corroboration: raise its rank, expose the corroborating sources in the audit, and render one card for the event. The lane may include up to three distinct high-signal events.
-- Preserve the reporter's headline. You may remove publisher-style tails such as “check the details” or “experts explain.”
-- Give every selected item a two-sentence **Why it matters** note. Sentence one states the exposure, incentive, or mechanism. Sentence two names the next observable signal, tradeoff, or decision point. Do not reuse the same note for two different stories. Card summaries must end on a complete sentence, never an ellipsis.
+## Complete editorial review
 
-## Page shape
+Author `review.json` yourself for every candidate ID. Python must not choose stories or synthesize a review. Record event, actor, action_type, india_exposure, mechanism, evidence spans, confidence, materiality, lane, decision and reason. An actor not established by the evidence must be explicitly marked uncertain with a case-specific explanation; never invent one.
 
-Keep the established order: Market Tape, Macro, National & Strategy, India Tech, then Tomorrow’s catalysts. The catalyst section should appear once, at the end. Use it only for distinct, date-specific signals in the audit; state plainly when none qualify instead of recycling editorial stories. Refresh the visible edition date for a new issue. Keep market prices separate from RSS news, label the separate price source, and omit a routine daily chart unless it adds a genuinely new comparison or analysis.
+Confidence means support for a bounded claim, separate from importance. Estimates, proposals and company statements can be useful if labelled accurately. A report or an executive quote is not automatically commentary. Reject actual stock advice, alerts, routine recaps, consumer reviews, local crime, political churn, unrelated global stories, unsupported commentary and duplicate events. Do not use a phrase blacklist.
 
-Use source links and publication times. Keep a short source label in every card. Avoid filler such as “Open the source for the full report.”
+Use decisions select, update, eligible, reject or duplicate. Source/theme diversity are soft preferences. Choose five to seven high-confidence distinct events across the three lanes when supported. No fixed Macro cap. If fewer than five survive a complete review, retain the failed run and hold publication.
 
-## Evaluate before delivery
+Give each selected event a stable descriptive event_key. Duplicate records reference a non-duplicate representative via duplicate_of and share its event key; retain their evidence. Review history before selection. An update to a published event needs previous_event_key and a specific new_evidence explanation, not merely a new source URL.
 
-Run `scripts/evaluate_newsletter.py` against the generated HTML and RSS audit. Read [references/evaluation-rubric.md](references/evaluation-rubric.md) if the evaluator reports a failure or warning. Fix failed checks before delivery; report any unavailable feeds without inventing replacements.
+## Composition and semantic verification
+
+Author `edition.json`: issue/date/created_at, cards, hero/hero_card_ids, catalysts and catalyst_review. Preserve RSS headlines. Each brief has claims whose statement strings cover the whole brief and whose evidence strings appear exactly in the source. Do not smuggle new numbers, dates, named entities or completed-action claims into a paraphrase.
+
+Write each card's mechanism and watch as separate, distinct single sentences. They are analysis and a next observable signal, not additional unsupported news. Write the hero from the selected slate. Inspect tomorrow's date-specific items and record why none qualify when appropriate. A stock record-date or conference preview is not a useful catalyst merely because it has a date.
+
+Get hashes with `python3 -B work/newsletter.py verification-context --run RUN`. Conduct a separate evidence-check pass on every final card, its attribution/action status, analysis, novelty, hero and catalysts. Author `verification.json` with specific findings and the exact hashes; the context command does not approve the edition. This can be a second pass by the current session; do not claim an independent reviewer unless one actually reviewed it. Edits after verification require another check and updated verification.
+
+## Render, validate, publish
+
+- `python3 -B work/newsletter.py render --run RUN`
+- `python3 -B -m unittest work/test_build_newsletter.py`
+- `python3 -B skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py --run RUN`
+
+Fix source artifacts, not HTML. Layout stays Market Tape, Macro, National & Strategy, India Tech, then exactly one Tomorrow’s catalysts module. Hero and visible issue date are refreshed. Market Tape is labelled Yahoo Finance daily-bar price snapshots with each instrument's observation time; it is not RSS-derived and does not promise a completed session close.
+
+Only when publishing is authorized and all checks pass, run `python3 -B work/newsletter.py promote --run RUN`. Stage the returned `outputs/editions/RUN_ID/` and `outputs/current.json`, plus only intentional pipeline/documentation changes. Commit `chore: refresh newsletter`, then push. Verify Pages completion and the deployed run ID. A successful push alone is not deployment confirmation.
+
+Never restore away evidence or overwrite the legacy three output files. No accepted pointer means the last legacy site stays live. A failed run or price fetch means no push. Preserve failed run directories. Replay/shadow captures cannot be promoted even if they pass historical validation.
+
+Changes to the pipeline require the documentation updates specified in CLAUDE.md. Do not add edition-specific prose or facts to Python.

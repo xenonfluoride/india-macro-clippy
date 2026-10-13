@@ -1,0 +1,53 @@
+{
+  "entries": [
+    {
+      "event_key": "legacy-e2c544e94620eb8a",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/indicators/india-to-widen-services-production-index-to-include-education-health-and-defence/articleshow/134749155.cms",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The statistics ministry plans to expand the monthly Index of Services Production to cover education, healthcare, public administration and defence, raising its coverage to 78.4% of services GVA from about 60%. The proposed framework could use UPI transaction data to track private education and healthcare activity and government expenditure data for public services.",
+      "title": "India to widen services production index to include education, health and defence"
+    },
+    {
+      "event_key": "legacy-1a1845b4323e5a58",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/cabinet-approves-rs-10000-crore-sme-growth-fund-and-new-authority-to-plan-transport-and-logistics/articleshow/134748940.cms",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The Indian government has approved a ₹10,000-crore SME Growth Fund aimed at supporting small and medium enterprises. Additionally, an Integrated Transport & Logistics Authority has been established to enhance transport infrastructure planning. This fund is intended to address equity capital gaps currently faced by SMEs and facilitate their growth. ITLA will create a comprehensive National Transport Master Plan to improve coordination across various transport sectors.",
+      "title": "Cabinet approves Rs 10,000-crore SME Growth Fund and new authority to plan transport and logistics"
+    },
+    {
+      "event_key": "legacy-97e5c1144e2f59bb",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/india-expands-shakti-engine-production-for-dhruv-prachand-helicopters-101791255013190.html",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "HAL currently produces 80 Ardiden 1H1 Shakti engines annually at its Bengaluru facility, and the new production line will raise its annual capacity to 180 engines",
+      "title": "India expands Shakti engine production for Dhruv, Prachand helicopters"
+    },
+    {
+      "event_key": "legacy-a5f4e7b41b01f72a",
+      "lane": "tech",
+      "link": "https://economictimes.indiatimes.com/tech/technology/am-intelligence-plans-20-billion-additional-investment-in-15-months-orders-20k-more-nvidia-gpus/articleshow/134713444.cms",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The company announced that it has placed two further firm and binding orders for 20,000 NVIDIA Rubin GPUs for deployment of the systems across India and Malaysia, taking its total capacity to 100 Megawatt.",
+      "title": "AM Intelligence plans $20 billion additional investment in 15 months, orders 20k more Nvidia GPUs"
+    },
+    {
+      "event_key": "legacy-20de4981ece163a0",
+      "lane": "tech",
+      "link": "https://inc42.com/buzz/go-all-electric-by-july-2027-maharashtra-govt-to-bike-taxi-aggregators/",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The Maharashtra government has reportedly directed all bike taxi aggregators, including Rapido, Uber and Ola, to transition to an all-electric…",
+      "title": "Go All-Electric By July 2027: Maharashtra Govt To Bike Taxi Aggregators"
+    },
+    {
+      "event_key": "legacy-e374859571940cfb",
+      "lane": "tech",
+      "link": "https://yourstory.com/2026/10/karnataka-govt-signs-mou-with-elevenlabs-for-voice-ai-services",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The partnership will focus on voice AI safety framework, assisting people with speaking disabilities and usage in government services.",
+      "title": "Karnataka govt signs MoU with ElevenLabs for Voice AI services"
+    }
+  ],
+  "schema_version": 2
+}

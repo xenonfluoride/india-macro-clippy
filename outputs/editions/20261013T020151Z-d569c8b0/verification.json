@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate evidence-check pass after composition; no independent reviewer claimed",
+  "checked_at": "2026-10-13T02:47:00+00:00",
+  "input_hashes": {
+    "capture.json": "5e9231178d0a3985b2164a98ff8dc54379744ff277ae61fc1a8fb26d40fefd10",
+    "history.json": "474da0d786d3f3f5d1f4c3af9e4c3f55a415bbb4b06c1496783000baf5b305b9",
+    "review.json": "11837616fa3c7eabbf20572663a927b6209deee0f911ba472a8f5c0a77917be3",
+    "edition.json": "1e662a01eb168c3c391a8e0f0bda5f9dd50d1204ba09335f6d1e405a7410e08d",
+    "market.json": "d1cf902515a9fbd7bd8eda33143812d8a4d2431fb517b02f3339cd5bd020c2ae"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read the entire live pool in bounded context batches 0–39, 40–79, 80–119, 120–159, 160–199, 200–239, 240–279 and 280–313; next_offset ends at null. Every one of 314 IDs has an authored event/actor/action/exposure/mechanism/confidence/materiality/lane/disposition assessment. Forty-five duplicate records point to non-duplicate representatives, including CPI, RDI, the vehicle partnership, HCLTech earnings, governor appointments and recurring political filings. Rejected-looking crime, stock, book, gadget, global and conference records were individually assessed. Material alternatives reviewed include GST inspection and arrest reforms, DHL's planned chip warehouse, CreditAccess funding, pulse prices, flight cancellations, army ration logistics, UGC advisories and TCS hiring; sparse actor/India evidence is explicitly marked rather than supplemented. No blacklist or program selected the slate.",
+  "hero": "Checked each hero clause against all seven cards: 5.54% is the September retail inflation reading; generation and storage additions are attributed to Tata Power Renewable; vehicle engineering and aerospace sourcing remain plans; reservation ruling concerns enhanced quotas; RDI capital is committed and HCLTech's pact sets up future delivery. The hero adds no date, number, entity or completed-output assertion beyond the selected evidence, and its prioritisation is editorial analysis.",
+  "catalysts": "Checked the full pool for 14 October, the day after this IST edition. The only explicit October 14 items concern corporate-action record dates and IPO anchor bidding; they do not establish a distinct consequential policy or operating event. Tuesday court/protest items refer to October 13, while October 15/19/27/28 items fall later. Weekly WPI/forex references have no supported tomorrow date. Empty catalysts and the one closing module accurately reflect this lack of a qualifying dated event.",
+  "cards": [
+    {
+      "id": "922c59d3e4822f5a4ee529b6",
+      "factual_support": "Headline supports September retail inflation of 5.54%; summary explicitly gives August 4.83%, food inflation 7.74%, onions, transport and services. Both brief sentences map fully to these spans. Business Standard attribution is retained; no invented statistical department, future rate hike or inconsistent peak-period comparison is added.",
+      "analysis": "Purchasing-power pressure is an inference from higher food and service prices, expressed with 'can'; the watch asks about subsequent readings rather than asserting persistence or a monetary-policy response. Each field is one distinct sentence.",
+      "novelty": "September 2026 CPI release is a different event from the legacy services index, SME fund and earlier commodity cards. ET and Hindu CPI records are clustered with this representative; differing rounding and forecasts do not create extra cards."
+    },
+    {
+      "id": "646244a04ea11822c03806dd",
+      "factual_support": "Summary explicitly attributes 419 MW generation added in July–September 2026, versus 182 MW a year earlier, and 131.2 MWhr storage executed in Q2 to the company. MWh is the same megawatt-hour unit. Brief keeps attribution and quarter; it neither assigns storage to all listed projects nor completes the truncated portfolio sentence.",
+      "analysis": "Potential supply/flexibility benefits are conditional; the next signal is utilisation and storage performance. The distinction between capacity and dependable delivered power prevents asserting output that RSS does not measure.",
+      "novelty": "New quarterly renewable commissioning figures differ from the earlier deepwater-gas ceiling and crude-supply stories. No corresponding link or renewable-capacity event appears in captured history or inspected recent legacy editions."
+    },
+    {
+      "id": "78b2a3159ecc087e0ab3d586",
+      "factual_support": "Title and summary support an expanded Tata Motors PV–Stellantis technology/product agreement and prospective India-made vehicles for more than 50 global markets. Brief states collaboration, not vehicles already built or exported, and adds no spending amount or timetable.",
+      "analysis": "Spreading development costs is a conditional industrial mechanism, not a sourced financial saving. Watching named programmes and schedules tests execution without asserting existing launches or sales.",
+      "novelty": "This partnership differs from Tata's Iveco tender alternative and the historical HCLTech acquisition. Companion Business Standard record ef4dfcaaf825489958ce0088 is explicitly grouped with this event, and history contains no prior publication of this agreement."
+    },
+    {
+      "id": "ab10b5f42fa337ab833458bf",
+      "factual_support": "ET headline supports an intention to nearly double Indian supplier spending by 2030; the summary supports the accompanying EY report and named sector coverage. No starting amount, contracted value, completed doubling or independently verified impact is claimed.",
+      "analysis": "Local component/engineering demand is conditional on larger sourcing; the watch asks for contracts and actual spending. This keeps a procurement target distinct from realised output and does not infer defence orders.",
+      "novelty": "GE's India procurement target is distinct from the previously published HAL Shakti engine-capacity expansion. Same aviation theme is not treated as the same actor/action event, and no matching link or target exists in history."
+    },
+    {
+      "id": "4c574f65f04137f2010dcbe5",
+      "factual_support": "NDTV title supports quashing SC/ST quota above the 50% cap; summary separately supports striking Section 4 enhanced state-service reservation under Articles 14 and 16. Brief does not invent the Act's name, exact quota percentages, ruling date, statewide removal of all reservations or appeal outcome.",
+      "analysis": "Legal-framework consequences are limited to the affected enhanced provisions. The next signal asks about government response, appeal or instructions, without asserting any have occurred.",
+      "novelty": "Reservation ruling differs from previous capital-punishment and UPI/MDR decisions and from the unaccepted speedy-trial audit story. No matching event exists in the accepted history; event key uses the reported October 13 date without inventing the actual judgment date."
+    },
+    {
+      "id": "5319675c8af736aad2e09314",
+      "factual_support": "ET summary supports approval of 19 second-level managers in the first cohort and a total commitment of Rs 7,131 crore for research/emerging technologies. Brief preserves approval and commitment; it does not say funds have reached startups, been spent or produced research outcomes.",
+      "analysis": "Managers provide a capital-routing mechanism; the watch explicitly separates future disbursements and project activity from commitments. The mechanism is analysis, not an added claim about completed investment.",
+      "novelty": "RDI manager approvals differ from the legacy Rs 10,000-crore SME Growth Fund despite both being public finance. Inc42 3e68e9dac662d2f50813e982 is grouped as duplicate of this new research-capital cohort."
+    },
+    {
+      "id": "08b7ff9f8b6103510c334184",
+      "factual_support": "BS headline supports a signed HCLTech–Anthropic pact; summary says the dedicated business unit and centre will be set up for Claude-based solutions and enterprise adoption. Brief keeps the organisational build prospective and does not imply deployed clients, contract revenue or a finished centre.",
+      "analysis": "Repeatable enterprise service delivery is a conditional mechanism; unit launch and client deployments are distinct execution signals. No benchmark, AI performance claim or revenue estimate is introduced.",
+      "novelty": "This signed AI partnership differs from the prior Robotiq.ai acquisition and current-quarter earnings cluster. It also differs from the legacy ElevenLabs government MoU and AM Intelligence GPU orders; no selected link or same-event announcement appears in history."
+    }
+  ]
+}

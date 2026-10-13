@@ -1,38 +1,53 @@
 # India Macro Clippy
 
-India Macro Clippy is a static, source-linked daily briefing for India macro, national strategy, and technology. GitHub Pages publishes the site from `main`.
+A daily India macro, national-strategy and technology briefing. Editorial facts come only from configured RSS titles and summaries. Yahoo Finance supplies a separate Market Tape.
 
-## Editorial boundary
+## Pipeline v2
 
-Editorial cards use only the configured RSS/Atom feeds and their title and summary text. Market Tape is a clearly labelled Yahoo Finance price snapshot from a separate updater. Do not use web search to fill a story, price, or catalyst.
+The 12 October audit found false exclusions, canned historical facts and ineffective gates. The replacement separates evidence capture, editorial judgment, rendering and publication.
 
-The builder keeps a hard 36-hour window, records every retained item and fetch failure in `outputs/india-macro-clippy-data.json`, writes an evidence-bounded candidate review to `outputs/india-macro-clippy-llm-trial.json`, and publishes only source-linked cards that pass the relevance filters.
+1. Capture immutable evidence: `python3 -B work/build_newsletter.py --hours 36`.
+2. Use the printed `RUN` directory throughout. Fetch prices: `python3 -B work/update_market_tape.py --run RUN`.
+3. Read candidates in batches: `python3 -B work/newsletter.py context --run RUN --offset 0 --limit 40`. Follow `next_offset` until every record has been reviewed.
+4. The current model session authors `review.json` and `edition.json` in RUN. No code chooses stories, assigns confidence or writes news prose.
+5. Review the complete copy against RSS evidence; obtain digests with `python3 -B work/newsletter.py verification-context --run RUN`, then author `verification.json`. Digests bind approval to the exact inputs; the command does not approve them.
+6. Render and validate: `python3 -B work/newsletter.py render --run RUN`; `python3 -B skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py --run RUN`.
+7. Run `python3 -B -m unittest work/test_build_newsletter.py`. Only an explicitly verified live run can be promoted: `python3 -B work/newsletter.py promote --run RUN`.
 
-## Current RSS roster
+See [the editorial workflow](docs/EDITORIAL_WORKFLOW.md) for artifact schemas, review instructions and publishing.
 
-| Beat | Sources |
+## Sources
+
+| Suggested beat | Configured RSS sources |
 | --- | --- |
-| Macro | Business Standard Economy & Policy; Business Standard Companies; Economic Times Economy; The Hindu Economy; Mint Markets |
+| Macro | Business Standard Economy & Policy; Business Standard Companies; Economic Times Economy; The Hindu Economy; Mint Markets; Mint Companies; Mongabay India |
 | National & Strategy | Hindustan Times India; NDTV India; BBC News India |
-| India Tech | Economic Times Tech; The Hindu Technology; YourStory; Inc42 |
+| India Tech | Economic Times Tech; The Hindu Technology; Mint Technology; YourStory; Inc42 |
 
-The macro selector uses word-aware editorial themes rather than raw substring matching. It covers food and rural conditions, energy and infrastructure, climate and water, external finance, trade and rules, investment and industry, digital payments, monetary policy, and markets; it also prevents a theme from repeating in one issue. It excludes draft-IPO/listing chatter, market-mover posts, standalone currency and index recaps (including half-year gainers-and-losers and long-term-return roundups), trade-body advocacy without a policy decision, recycled long-range market forecasts, rate polls and other speculative policy previews, reported ministerial discussions without a decision, investor punditry, generic placement announcements, offshore capex by an India-linked company without an India operating effect, and ministerial or executive commentary; it leaves a slot empty rather than use a thin market-calendar item. The audit includes each candidate’s score, themes, and selection decision. National & Strategy reads three independent feeds on every build, admits nationally scoped India policy, law, security, and foreign-affairs stories only when they record a concrete decision, and rejects local incidents, live updates, price checks, entertainment, party-political churn, unsupported spokesperson claims, and diplomatic discussions without an outcome. Independent corroboration raises an item’s rank but never creates a duplicate card; the lane can carry up to three distinct high-signal events. India Tech also includes concrete domestic digital-policy decisions, while excluding IPO trackers, routine fund-raise announcements, generic startup-support schemes and proposed funds without an operating outcome, conference-preview, and workforce-gap reports, generic ministerial, executive, or industry-expert commentary, and offshore incidents that merely invite hypothetical India action. Every card needs a concrete Indian operating, regulatory, or infrastructure signal, and one event receives only one card. A disclosed India-company acquisition receives an explicit relevance boost because it is a concrete operating decision.
+Feed categories are suggestions. The editor can reassign an onion-price report from a national feed to Macro, or an IT-company event to Tech. Source and theme diversity are soft preferences, never vetoes. Select five to seven distinct, well-supported events globally. Do not exclude an event merely for mentioning a CEO, forecast, fund, publisher or expert.
 
-## Build and publish
+## What is authoritative
 
-```bash
-git pull --ff-only
-python3 work/build_newsletter.py --hours 36
-python3 work/update_market_tape.py
-python3 -m unittest work/test_build_newsletter.py
-python3 skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py \
-  outputs/india-macro-clippy.html outputs/india-macro-clippy-data.json
-```
+Each capture creates `work/runs/RUN_ID/`; failed runs remain inspectable. Raw RSS, source diagnostics, original normalized text, timestamps and IDs are retained. Review covers every candidate. The edition owns all prose, including the hero and catalysts.
 
-After the builder runs, rewrite the selected cards in `outputs/india-macro-clippy.html` as concise editor-written briefs with complete sentences, never an ellipsis. Each `Why it matters` note must use two story-specific sentences: mechanism first, then the next observable signal, tradeoff, or decision point. Source and theme diversity are ranking preferences, not automatic vetoes; duplicate events remain one card. The builder refreshes the visible edition date; keep exactly one Tomorrow’s catalysts section at the end, and leave it empty rather than recycling editorial stories when the RSS audit has no distinct, dated catalyst.
+Promotion installs an immutable bundle in `outputs/editions/RUN_ID/` and atomically replaces `outputs/current.json`. That pointer is the sole authority for deployment. A publication ledger tracks prior events and links. An unchanged event cannot be reused; a follow-up requires documented new evidence.
 
-If every command passes and the issue is publishable, commit the generated HTML and audit plus intentional builder, evaluator, test, or documentation updates with `chore: refresh newsletter`, then `git push`. Do not push if RSS selection, market data, tests, or evaluation fail.
+The old three `outputs/india-macro-clippy*` files are retained as the legacy published edition, not v2 working files. Never restore a failed run over them or overwrite its evidence. Until the first live v2 edition is accepted and pushed, the existing site remains live.
 
-## Documentation standard
+Pages CI runs the regression suite and validates the accepted bundle before deployment. It publishes HTML, capture, review, edition, market snapshot, semantic verification and manifest. Confirm the deployed run ID after a push.
 
-Documentation is part of every change. Any update to the RSS roster, editorial rules, pipeline, evaluator, validation commands, or publishing workflow must update this README and the relevant files in `skill/india-macro-rss-newsletter/` in the same change. Record durable sourcing and quality choices in [docs/EDITORIAL_DECISIONS.md](docs/EDITORIAL_DECISIONS.md).
+## Limits and honest guarantees
+
+The deterministic gate checks provenance, complete review coverage, exact rendering, 5–7 cards, IST issue date, 36-hour evidence bounds, typed price values, hashes and novelty declarations. It cannot prove semantic truth. The editor must check factual support, actor/action status, attribution, analysis and novelty, and record that verification. A hash prevents changing reviewed content; it does not make an inaccurate review true.
+
+RSS summaries may be sparse. Skip unsupported claims rather than fill them from search or article bodies. Prices carry individual observation timestamps and are labelled daily-bar snapshots, not necessarily completed-session closes. The maximum observation age is 96 hours to accommodate weekends; longer closures fail closed. Any missing price blocks publication.
+
+A 36-hour window still overlaps successive daily runs; the ledger handles repeats. The existing weekday schedule leaves a weekend coverage gap. The rebuild does not silently change that schedule or expand the recency window.
+
+## Replay and regression evidence
+
+`python3 -B work/build_newsletter.py --replay work/audits/2026-10-12/fetched-records.json` creates an isolated replay. Replay runs can be validated with `--historical` but can never be promoted. Historical validation is not publication authorization.
+
+The original failure probes and legacy implementation snapshots are retained under `work/audits/2026-10-12/`. The seven-card, fully reviewed shadow run is `work/runs/20261012T075140Z-b5180c1a/`.
+
+Keep README, CLAUDE, the newsletter skill, rubric and editorial decisions synchronized whenever this workflow changes.

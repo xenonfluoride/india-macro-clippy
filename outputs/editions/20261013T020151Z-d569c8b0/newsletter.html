@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 13 October 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 011</strong><br />13 October 2026<br /><span id="rss-status">RSS edition · 20261013T020151Z-d569c8b0</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">Food-price pressure is the immediate constraint: September retail inflation reached 5.54%, while Tata Power Renewable reported fresh generation and storage additions. Vehicle engineering and aerospace sourcing plans point to a longer industrial pipeline; a Karnataka reservation ruling changes the public-service framework, and research-fund commitments and HCLTech&#x27;s Anthropic pact set up the next tests of technology delivery.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>22,363.35</strong><span class="down">Nifty 50 · -0.70%</span><span class="flat">12 Oct 03:45 UTC</span></div><div class="quote"><strong>71,924.68</strong><span class="down">Sensex · -0.76%</span><span class="flat">12 Oct 03:45 UTC</span></div><div class="quote"><strong>₹95.760</strong><span class="up">USD/INR · -1.10%</span><span class="flat">13 Oct 01:35 UTC</span></div><div class="quote"><strong>$105.49</strong><span class="up">Brent · +0.74%</span><span class="flat">13 Oct 01:51 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="922c59d3e4822f5a4ee529b6"><div class="story-no">01</div><div><h3>Food, fuel push retail inflation to 23-month high of 5.54% in September</h3><p>Business Standard reports September retail inflation of 5.54%, up from 4.83% in August. Food inflation climbed to 7.74%, led by onion prices, with transport and services costs adding pressure.</p><p class="why"><span>Why it matters</span><br />Higher food and essential-service prices can reduce households&#x27; room for discretionary spending. Watch whether subsequent inflation readings show food-price pressure spreading or easing.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/food-fuel-push-retail-inflation-to-23-month-high-of-5-54-in-september-126101200829_1.html">Business Standard Economy &amp; Policy, 12 Oct · 12:07 UTC</a></p></div></article>
+<article class="story" data-candidate="646244a04ea11822c03806dd"><div class="story-no">02</div><div><h3>Tata Power Renewable doubles capacity addition to 419 MW in Q2 FY27</h3><p>Tata Power Renewable Energy said it added 419 MW of utility-scale generation capacity during July–September 2026, compared with 182 MW a year earlier. The company also reported executing 131.2 MWh of storage projects in the quarter.</p><p class="why"><span>Why it matters</span><br />Additional generation and storage could improve the supply and flexibility of renewable electricity. Watch utilisation and storage performance to distinguish installed capacity from dependable power delivery.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/tata-power-renewable-doubles-capacity-addition-to-419-mw-in-q2-fy27-126101200567_1.html">Business Standard Companies, 12 Oct · 10:19 UTC</a></p></div></article>
+<article class="story" data-candidate="78b2a3159ecc087e0ab3d586"><div class="story-no">03</div><div><h3>Stellantis, Tata Motors PV join hands for vehicle tech, product development</h3><p>Business Standard reports that Tata Motors PV and Stellantis expanded their technology and product-development partnership. The collaboration will combine Tata Motors&#x27; vehicle technology with Stellantis&#x27; engineering capabilities to develop India-made vehicles for more than 50 global markets.</p><p class="why"><span>Why it matters</span><br />Shared engineering could spread development costs across a wider export opportunity for Indian manufacturing. Watch for named vehicle programmes and production schedules before treating market reach as realised exports.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/stellantis-tata-motors-pv-join-hands-for-vehicle-tech-product-development-126101200811_1.html">Business Standard Companies, 12 Oct · 12:02 UTC</a></p></div></article>
+<article class="story" data-candidate="ab10b5f42fa337ab833458bf"><div class="story-no">04</div><div><h3>GE Aerospace to nearly double supplier spend in India by 2030, eyes growing aviation demand</h3><p>Economic Times reports that GE Aerospace intends to nearly double supplier spending in India by 2030. The announcement accompanied an EY report assessing its contribution to India&#x27;s aviation, defence, manufacturing and engineering sectors.</p><p class="why"><span>Why it matters</span><br />A larger sourcing programme could increase demand for local components and engineering services. Watch for supplier contracts and actual spending to show how much of the target becomes procurement.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/tech/startups/ge-aerospace-to-nearly-double-supplier-spend-in-india-by-2030-eyes-growing-aviation-demand/articleshow/134891657.cms">Economic Times Tech, 12 Oct · 12:02 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="4c574f65f04137f2010dcbe5"><div class="story-no">05</div><div><h3>&quot;Unconstitutional&quot;: Karnataka Court Quashes ST/SC Quota Exceeding 50% Cap</h3><p>NDTV reports that a Karnataka court quashed SC/ST reservation exceeding the 50% cap. The court also struck down Section 4 of the Act, covering enhanced reservation in state government services, as unconstitutional for violating Articles 14 and 16.</p><p class="why"><span>Why it matters</span><br />Invalidating the enhanced quota provisions changes the legal framework for affected public-service applicants. Watch for the government&#x27;s response and any appeal or revised recruitment instructions.</p><p class="source">RSS · <a href="https://www.ndtv.com/india-news/karnataka-high-court-quashes-st-sc-quota-exceeding-50-cap-12176499#publisher=newsstand">NDTV India, 13 Oct · 00:54 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="5319675c8af736aad2e09314"><div class="story-no">06</div><div><h3>Govt selects 19 fund managers under RDI, committing Rs 7,131 crore</h3><p>Economic Times reports that the government&#x27;s Research, Development and Innovation Fund approved its first cohort of 19 second-level fund managers. The cohort carries a total commitment of ₹7,131 crore to help mobilise private investment in research and emerging technologies.</p><p class="why"><span>Why it matters</span><br />Manager approvals create a route for research capital to reach projects beyond the initial government allocation. Watch actual disbursements and funded projects to distinguish committed capital from research activity.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/tech/startups/rdif-approves-19-fund-managers-with-rs-7131-crore-commitment-to-boost-indias-rd-ecosystem/articleshow/134896665.cms">Economic Times Tech, 12 Oct · 15:18 UTC</a></p></div></article>
+<article class="story" data-candidate="08b7ff9f8b6103510c334184"><div class="story-no">07</div><div><h3>HCLTech signs pact with Anthropic to set up dedicated AI business unit</h3><p>Business Standard reports that HCLTech signed a pact with Anthropic to establish a dedicated AI business unit. HCLTech plans a unit and centre to develop solutions using Claude models and support enterprise adoption.</p><p class="why"><span>Why it matters</span><br />A dedicated delivery structure could help turn model access into repeatable enterprise services. Watch for the unit&#x27;s launch and client deployments to test whether the partnership produces operating results.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/hcltech-signs-pact-with-anthropic-to-set-up-dedicated-ai-business-unit-126101200830_1.html">Business Standard Companies, 12 Oct · 12:09 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Wednesday, 14 October</p></div><div class="catalysts"><p>No separate date-specific catalyst qualified in this RSS audit.</p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>
