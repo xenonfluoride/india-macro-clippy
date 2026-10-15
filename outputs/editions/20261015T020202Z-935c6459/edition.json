@@ -1,0 +1,135 @@
+{
+  "schema_version": 2,
+  "run_id": "20261015T020202Z-935c6459",
+  "created_at": "2026-10-15T02:13:00+00:00",
+  "date": "2026-10-15",
+  "issue": 12,
+  "hero": "Wholesale inflation at 11.4% sharpens the cost-pressure backdrop as the Cabinet approves continued social assistance and advances IDBI Bank's ownership restructuring. Hyundai's Pune expansion plan and Skyroot's overseas launch orders point to future industrial demand, while Saudi airport attacks disrupt Indian flights and the Supreme Court quashes a police demand for a journalist's digital footprints.",
+  "hero_card_ids": [
+    "927457f1bd7ce717948d5261",
+    "f0553fb333476071c2de74bf",
+    "d4b64c8f82f4461d9533b1ed",
+    "a5f09f35a712dee7e5a9284d",
+    "861de6053088f333eb74ac0c",
+    "2434198bc12f703543c1f7a5",
+    "331459d20526de1f9effec97"
+  ],
+  "cards": [
+    {
+      "id": "927457f1bd7ce717948d5261",
+      "lane": "macro",
+      "headline": "Wholesale inflation hits series high of 11.4% in September as fuel, food prices surge",
+      "brief": "Economic Times reports that India's wholesale inflation reached 11.4% in September, up from 9.9% in August. Food inflation climbed to 8.7%, a 23-month high.",
+      "mechanism": "Rising wholesale input costs can squeeze producer margins or feed into higher selling prices.",
+      "watch": "Watch subsequent price releases for whether fuel and food pressure spreads further into manufactured goods.",
+      "claims": [
+        {
+          "statement": "Economic Times reports that India's wholesale inflation reached 11.4% in September, up from 9.9% in August.",
+          "evidence": ["India's wholesale inflation reached 11.4% in September, significantly increasing from 9.9% in August."]
+        },
+        {
+          "statement": "Food inflation climbed to 8.7%, a 23-month high.",
+          "evidence": ["Food inflation climbed to 8.7%, marking a 23-month high."]
+        }
+      ]
+    },
+    {
+      "id": "f0553fb333476071c2de74bf",
+      "lane": "macro",
+      "headline": "From RBI Action To Strategic Restructuring: Timeline Of IDBI Bank Stake Sale",
+      "brief": "NDTV reports that the Centre approved IDBI Bank's strategic restructuring, with Fairfax set to acquire a 60.72% controlling stake for ₹52,878 crore.",
+      "mechanism": "A change in bank control could reshape governance and credit priorities once the transaction is completed.",
+      "watch": "Watch for regulatory clearances and transaction closing before counting the sale as completed.",
+      "claims": [
+        {
+          "statement": "NDTV reports that the Centre approved IDBI Bank's strategic restructuring, with Fairfax set to acquire a 60.72% controlling stake for ₹52,878 crore.",
+          "evidence": ["The Centre on Wednesday approved the strategic restructuring of IDBI Bank, with Fairfax set to acquire 60.72 per cent controlling stake for Rs 52,878 crore."]
+        }
+      ]
+    },
+    {
+      "id": "d4b64c8f82f4461d9533b1ed",
+      "lane": "macro",
+      "headline": "Hyundai plans ₹4,000 crore investment in Maharashtra, aims to double Pune plant capacity by 2030",
+      "brief": "Mint reports that Hyundai Motor India plans an additional ₹4,000 crore investment in Maharashtra by 2030. The plan would gradually expand the Pune plant's annual capacity from 1.7 lakh to 3.2 lakh vehicles.",
+      "mechanism": "Additional vehicle capacity could increase demand for local components and manufacturing services as the investment is delivered.",
+      "watch": "Watch commissioning milestones and plant output to test how much planned capacity becomes production.",
+      "claims": [
+        {
+          "statement": "Mint reports that Hyundai Motor India plans an additional ₹4,000 crore investment in Maharashtra by 2030.",
+          "evidence": ["Hyundai Motor India will invest an additional ₹4,000 crore in Maharashtra by 2030"]
+        },
+        {
+          "statement": "The plan would gradually expand the Pune plant's annual capacity from 1.7 lakh to 3.2 lakh vehicles.",
+          "evidence": ["gradually expanding its Pune plant’s annual capacity from 1.7 lakh to 3.2 lakh vehicles."]
+        }
+      ]
+    },
+    {
+      "id": "a5f09f35a712dee7e5a9284d",
+      "lane": "national",
+      "headline": "Cabinet clears Rs 53,428 crore for social assistance scheme, revises disability pension norms",
+      "brief": "Economic Times reports that the Union Cabinet approved a ₹53,428 crore outlay to continue the National Social Assistance Programme from 2026-27 to 2030-31 with updated eligibility criteria. Monthly disability-pension assistance will increase with adjustments for age and disability severity.",
+      "mechanism": "Changes to eligibility and assistance can alter income support for households covered by the programme.",
+      "watch": "Watch implementation guidance and beneficiary payments to see how the revised pension terms reach households.",
+      "claims": [
+        {
+          "statement": "Economic Times reports that the Union Cabinet approved a ₹53,428 crore outlay to continue the National Social Assistance Programme from 2026-27 to 2030-31 with updated eligibility criteria.",
+          "evidence": ["The Union Cabinet has approved an outlay of Rs 53,428 crore for the National Social Assistance Programme.", "This approval will support the program's continuation from 2026-27 to 2030-31 with updated eligibility criteria."]
+        },
+        {
+          "statement": "Monthly disability-pension assistance will increase with adjustments for age and disability severity.",
+          "evidence": ["Monthly assistance rates for disability pension beneficiaries will increase with adjustments for age and disability severity."]
+        }
+      ]
+    },
+    {
+      "id": "861de6053088f333eb74ac0c",
+      "lane": "national",
+      "headline": "Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA",
+      "brief": "Hindustan Times reports that the MEA said attacks on Saudi airports disrupted Indian carriers' flights to Riyadh, Jeddah, Dammam and Medina. Cancellations were announced until October 17.",
+      "mechanism": "Interrupted air links can constrain travel between India and Saudi Arabia and complicate access for the diaspora.",
+      "watch": "Watch airline resumption notices and consular advisories as the announced cancellation period ends.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the MEA said attacks on Saudi airports disrupted Indian carriers' flights to Riyadh, Jeddah, Dammam and Medina.",
+          "evidence": ["The MEA said attacks on Saudi airports have disrupted Indian carriers’ flights to Riyadh, Jeddah, Dammam and Medina"]
+        },
+        {
+          "statement": "Cancellations were announced until October 17.",
+          "evidence": ["with cancellations announced until October 17."]
+        }
+      ]
+    },
+    {
+      "id": "2434198bc12f703543c1f7a5",
+      "lane": "national",
+      "headline": "SC quashes UP police notice asking social media data of journalist who reported Ayodhya temple theft",
+      "brief": "Hindustan Times reports that the Supreme Court set aside a directive from Uttar Pradesh police seeking the digital footprints of a journalist who reported an Ayodhya temple theft.",
+      "mechanism": "Quashing this demand limits police access to the journalist's digital trail through that directive.",
+      "watch": "Watch any further court directions for the scope of protection and the permissible course of the investigation.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the Supreme Court set aside a directive from Uttar Pradesh police seeking the digital footprints of a journalist who reported an Ayodhya temple theft.",
+          "evidence": ["The Supreme Court on Wednesday set aside a directive by the Uttar Pradesh police seeking the digital footprints of a journalist", "SC quashes UP police notice asking social media data of journalist who reported Ayodhya temple theft"]
+        }
+      ]
+    },
+    {
+      "id": "331459d20526de1f9effec97",
+      "lane": "tech",
+      "headline": "India's Skyroot Bags Major Private US Contract After Vikram-1 Launch Success",
+      "brief": "NDTV reports that US-based Reflect Orbital purchased two dedicated launches on Skyroot rockets for future spacecraft deployment.",
+      "mechanism": "An overseas launch contract can turn rocket capability into export demand for India's private space sector.",
+      "watch": "Watch mission schedules and completed launches to distinguish booked demand from delivered service.",
+      "claims": [
+        {
+          "statement": "NDTV reports that US-based Reflect Orbital purchased two dedicated launches on Skyroot rockets for future spacecraft deployment.",
+          "evidence": ["US-based Reflect Orbital, a company seeking to harness sunlight from space and redirect it back to Earth, has purchased two dedicated launches on Skyroot rockets for future spacecraft deployment."]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed all 366 captured titles and summaries for Friday, October 16, 2026. Candidate 59b8a50a1f6aefc88039793e gives October 16 dividend and split record dates for Hindustan Composites, Canara Robeco and Bansal Wire alongside HCL dividend coverage; these shareholder entitlement alerts provide no distinct operating or policy catalyst. Candidate bdcf88e2e20dfef9bf87fa3f calls supporters to a Delhi gathering on October 16; this is political mobilisation rather than a substantive scheduled decision or release. Ladakh inaugurations described as tomorrow in the October 14 record 4e6d0cbd7885712ee6165439 mean October 15, not October 16. The SIR hearing is October 15 or October 28; Andhra roll revision runs to October 30. Saudi cancellations run until October 17, the marathon is October 18, IPO anchor bidding is October 19 and the Jio issue is October 21-23, audit filings are due October 21, and Oppo rollout dates are October 22 and 29. Weekly sugar crushing and future industrial plans supply no exact October 16 milestone. No separate consequential catalyst for October 16 is established by this capture."
+}

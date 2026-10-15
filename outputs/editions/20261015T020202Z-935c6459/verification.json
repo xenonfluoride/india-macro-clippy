@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex current model session, separate second evidence-check pass; no independent or external reviewer claimed",
+  "checked_at": "2026-10-15T02:14:00+00:00",
+  "input_hashes": {
+    "capture.json": "a3c10370c2e25ead92d21d47a788a6fe1b6662b559642eb30295e72f1cf55e2a",
+    "history.json": "4401fc18c9dd8230b1cd3e59dc79e42b115041d5c73b0dd16861f46f934326cd",
+    "review.json": "a32ad12c91dc2e680e3323974d795cbc160d5a04a0c96e7883170057e76fa356",
+    "edition.json": "96ca030a4a1e244f84cd21347eda443f11678e4afed68914ade2884a4e7867ea",
+    "market.json": "69cfcb7b9694ebb2db99e9cd242c0a0be558675e82a3c7c4970a89a8484ba3a1"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read every captured title and summary using context batches at offsets 0, 40, 80, 120, 160, 200, 240, 280, 320 and 360, following next_offset to null. Re-read batch zero in compact untruncated form after the metadata-heavy first output was truncated. Authored 366 case-specific assessments and 58 explicit duplicate links. Reviewed substantive details inside rejected-looking material: the IDBI timeline contains an actual approval and is selected; the BHEL buy-framed article contains a manufacturing investment and is eligible; the tiger commentary includes a real translocation and is eligible. No keyword blacklist selected or rejected records. Alternatives include Russia employment ratification, BS-VII draft norms, Bihar fertiliser restrictions, DGFT silver authorisations, Biocon settlement, railway bonus, drought aid, offshore mineral tender, SaaS acquisitions and electricity-data rollout. These remain eligible rather than being called unsupported simply for losing a seven-card comparison. Current WPI data are distinct from prior CPI; the RDI manager-selection update repeats published commitments and was rejected. All fifteen feeds succeeded on the network-approved live capture. Four Yahoo quotes are finite, fresh and backed by captured provider payloads after the network retry.",
+  "hero": "Checked the hero against all seven cards and their original summaries. The 11.4% figure is WPI rather than CPI; social-assistance continuation and IDBI restructuring are approvals, with no completed Fairfax acquisition implied. Hyundai is explicitly an expansion plan; Skyroot has launch orders, not completed contract missions. Saudi disruptions and the quashed journalist-data demand are bounded to the captured events. Future industrial demand is analysis. All seven card IDs are present and no unrelated daily fact is added.",
+  "catalysts": "Separately checked the October 16 record-date article and CJP gathering call. Entitlement dates and political mobilisation do not establish a distinct substantive catalyst. Corrected the editorial review to avoid assigning HCL an October 16 date that its summary does not explicitly state; the date is explicit for Hindustan Composites, Canara Robeco and Bansal Wire. Rechecked that corrected wording against candidate 59b8a50a1f6aefc88039793e. Ladakh's tomorrow is anchored to its October 14 publication and means October 15. The actual hearing, cancellation, race, IPO, tax-filing and device dates fall on October 15, 17, 18, 19, 21-23, 28, 29 or 30. An empty catalyst array accurately produces one closing module without inventing an October 16 event.",
+  "cards": [
+    {
+      "id": "927457f1bd7ce717948d5261",
+      "factual_support": "Re-read both brief sentences against the Economic Times summary: September WPI 11.4%, August 9.9%, food 8.7% and the 23-month food high are explicit. Other coverage reports 11.39% and 9.92%; the selected source's rounding is preserved. The headline's series high is not expanded into an all-time historical record in the brief. Attribution is retained and no forecast is stated as a result.",
+      "analysis": "Input-cost transmission to margins or selling prices is framed as a possible mechanism, not measured pass-through. The next signal is a subsequent release showing breadth of manufactured-goods pressure, distinct from the mechanism sentence.",
+      "novelty": "History published September retail CPI of 5.54% and food CPI 7.74%, not this wholesale-price release. The new WPI event has its own key and one card; five other WPI records are explicitly clustered to the representative rather than used as separate stories."
+    },
+    {
+      "id": "f0553fb333476071c2de74bf",
+      "factual_support": "The NDTV summary explicitly reports Centre approval, Fairfax set to acquire 60.72% and Rs 52,878 crore. The brief preserves approval versus future acquisition and the chosen source's amount, without resolving another source's one-crore difference by invention. A timeline headline was not mistaken for evidence of no fresh action.",
+      "analysis": "Governance and credit priorities are conditional consequences after completion; neither is claimed to have changed already. Regulatory clearances and closing are prospective signals, not additional reported approvals.",
+      "novelty": "No history entry concerns the Fairfax-IDBI approval. Related fiscal-proceeds estimates, CSB implications, founder profile, workforce assurance and other transaction coverage are grouped under this event, preventing multiple cards for the same approval."
+    },
+    {
+      "id": "d4b64c8f82f4461d9533b1ed",
+      "factual_support": "Both sentences map to the Mint summary: additional ₹4,000 crore in Maharashtra by 2030 and Pune annual capacity from 1.7 lakh to 3.2 lakh. These are planned spending and capacity, not delivered output. The original headline's approximate doubling language is preserved as required; the brief instead gives the precise source capacities and makes no exact-doubling claim.",
+      "analysis": "Potential local component and service demand is tied to delivered investment. Commissioning and actual output are the separate next signal; no job count, localisation percentage or production date is invented.",
+      "novelty": "History's vehicle story is Tata Motors-Stellantis engineering, not Hyundai's Pune expansion. Other Hyundai market-rank and broader group-investment records were inspected; no second Hyundai card is selected and their totals are not added to this plant plan."
+    },
+    {
+      "id": "a5f09f35a712dee7e5a9284d",
+      "factual_support": "The summary supports ₹53,428 crore NSAP continuation from 2026-27 through 2030-31, updated eligibility and future increases in disability-pension assistance adjusted for age and severity. The brief calls the outlay approved and the assistance prospective; it does not invent an individual rate, immediate disbursement or annualise the total.",
+      "analysis": "Household income support is the programme's direct mechanism, phrased as a possible effect of changed terms. Implementation guidance and actual beneficiary payments are distinct observable signals.",
+      "novelty": "The ledger's SME Growth Fund and RDI fund are different programmes and beneficiaries. NSAP continuation is absent from history. Its Business Standard duplicate and the railway-bonus article's NSAP background were read without creating extra programme cards."
+    },
+    {
+      "id": "861de6053088f333eb74ac0c",
+      "factual_support": "The MEA attribution, Saudi airport attacks, four destinations and cancellations until October 17 all occur in the same HT summary. The brief does not say every Saudi flight is cancelled, name an attacking actor, assert casualties or promise resumption on a particular date.",
+      "analysis": "Travel and diaspora-access constraints follow from interrupted air links, without quantifying unsupported losses. Airline notices and consular guidance are suitable next signals as the announced period ends; they are not claimed new announcements.",
+      "novelty": "No Saudi-airport cancellation event appears in the current ledger. Earlier flight-cancellation references in the prior edition's catalyst review did not form a published story; this selected evidence establishes the current attacks and October 17 horizon. The separate Air India hijack-code diversion is not merged into this event."
+    },
+    {
+      "id": "2434198bc12f703543c1f7a5",
+      "factual_support": "The HT summary states the Supreme Court set aside a UP police digital-footprint directive, and its title supplies the journalist's Ayodhya theft reporting. Rechecked the grammatical revision to 'a directive from Uttar Pradesh police' against that unchanged evidence; meaning is unchanged. No journalist identity, statutory finding or universal immunity is added.",
+      "analysis": "The access implication is expressly limited to this directive. Further court directions are a prospective signal for the protection's scope and investigation, without claiming a general new digital-rights law.",
+      "novelty": "The prior Karnataka reservation ruling concerns a different court, law and constituency. This journalist-data directive does not appear in history and is distinct from the pending alcohol-packaging and food-labelling PIL notices also reviewed today."
+    },
+    {
+      "id": "331459d20526de1f9effec97",
+      "factual_support": "NDTV's summary explicitly identifies US-based Reflect Orbital and its purchase of two dedicated Skyroot launches for future spacecraft deployment. The brief does not state a contract value, launch dates, spacecraft success or completion of the purchased launches. The preserved headline's Vikram-1 background is not expanded beyond its wording.",
+      "analysis": "Export demand is a conditional economic interpretation of an overseas purchase from an Indian launch provider. Mission schedules and completed launches are the distinct delivery test, without promising that the customer's sunlight project will work.",
+      "novelty": "History contains no Skyroot or Reflect Orbital contract. Global space-funding estimates, conference spacetech discussion and an RDI aerial-logistics project are different events, all inspected but not substitutes or additional cards for this launch purchase."
+    }
+  ]
+}
