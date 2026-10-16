@@ -1,0 +1,172 @@
+{
+  "schema_version": 2,
+  "run_id": "20261016T015850Z-25b94a03",
+  "issue": 13,
+  "date": "2026-10-16",
+  "created_at": "2026-10-16T02:20:42.100452+00:00",
+  "hero": "September trade and labour data show stronger exports alongside a steady national unemployment rate. A green-ammonia financing pact and Logitech's local manufacturing start add investment signals, while a bank-bond ruling, searchable voter rolls and a forthcoming caller-name requirement reshape institutional and operating rules.",
+  "hero_card_ids": [
+    "0acb9a4ad5d9783566884432",
+    "645db57a05e904d27de7b9d5",
+    "0113b368284b2d855b930819",
+    "64ffd86137d684e51745b91f",
+    "59d0047903a9aba41bbca714",
+    "5688f6ed09d6e0493ab07b45",
+    "18c5b4d223bb3c26399ae257"
+  ],
+  "cards": [
+    {
+      "brief": "Government data released on Thursday showed India's September exports rose 23% to $44.4 billion and imports rose 8% to $74.61 billion. The trade deficit was $30.21 billion, compared with $33 billion in September 2025.",
+      "mechanism": "A smaller year-on-year goods gap reduces the external funding burden relative to a year earlier, while the remaining deficit leaves India exposed to import costs.",
+      "watch": "Watch whether subsequent goods releases show export growth continuing to outpace import growth.",
+      "claims": [
+        {
+          "statement": "Government data released on Thursday showed India's September exports rose 23% to $44.4 billion and imports rose 8% to $74.61 billion.",
+          "evidence": [
+            "India's exports increased by 23 per cent to USD 44.4 billion in September",
+            "government data released on Thursday said.",
+            "The country's imports rose by 8 per cent to USD 74.61 billion in September."
+          ]
+        },
+        {
+          "statement": "The trade deficit was $30.21 billion, compared with $33 billion in September 2025.",
+          "evidence": [
+            "the trade deficit narrowed to USD 30.21 billion",
+            "India's trade deficit in September 2025 stood at USD 33 billion."
+          ]
+        }
+      ],
+      "id": "0acb9a4ad5d9783566884432",
+      "headline": "India's exports rise 23% to $44.4 bn in September, trade deficit narrows",
+      "lane": "macro"
+    },
+    {
+      "brief": "The NSO put India's September unemployment rate at 5%, unchanged from August. Rural unemployment was 4.2%, against 4.1% in August, while the urban rate rose from 6.8% to 6.9%.",
+      "mechanism": "A stable national jobless rate can conceal different pressures in rural and urban labour markets.",
+      "watch": "Watch the next labour-force release for changes in participation alongside the rural and urban unemployment rates.",
+      "claims": [
+        {
+          "statement": "The NSO put India's September unemployment rate at 5%, unchanged from August.",
+          "evidence": [
+            "Unemployment rate in country stands at 5% in September, stable compared to August: NSO"
+          ]
+        },
+        {
+          "statement": "Rural unemployment was 4.2%, against 4.1% in August, while the urban rate rose from 6.8% to 6.9%.",
+          "evidence": [
+            "The rural unemployment rate remains “broadly stable” at 4.2% against 4.1% in August, while urban rate marginally rises from 6.8% in August to 6.9% in this month"
+          ]
+        }
+      ],
+      "id": "645db57a05e904d27de7b9d5",
+      "headline": "Unemployment rate in country stands at 5% in September, stable compared to August: NSO",
+      "lane": "macro"
+    },
+    {
+      "brief": "ADB and the government of Japan signed a financing pact with AM Green Ammonia. The deal includes a $100 million JICA-financed loan to help build a 1.1-million-tonne renewable-powered green ammonia facility in Kakinada, Andhra Pradesh.",
+      "mechanism": "Project financing can move renewable-powered ammonia capacity closer to construction while leaving execution and buyer demand as separate risks.",
+      "watch": "Watch for construction milestones and disclosed offtake commitments for the Kakinada facility.",
+      "claims": [
+        {
+          "statement": "ADB and the government of Japan signed a financing pact with AM Green Ammonia.",
+          "evidence": [
+            "ADB, govt of Japan sign financing pact with AM Green Ammonia"
+          ]
+        },
+        {
+          "statement": "The deal includes a $100 million JICA-financed loan to help build a 1.1-million-tonne renewable-powered green ammonia facility in Kakinada, Andhra Pradesh.",
+          "evidence": [
+            "The deal includes a $100 million JICA-financed loan to help build a 1.1-million-tonne renewable-powered green ammonia facility in Kakinada, Andhra Pradesh."
+          ]
+        }
+      ],
+      "id": "0113b368284b2d855b930819",
+      "headline": "ADB, govt of Japan sign financing pact with AM Green Ammonia",
+      "lane": "macro"
+    },
+    {
+      "brief": "The Supreme Court upheld the Bombay High Court order quashing Yes Bank's ₹8,415 crore AT-1 bond write-off. The dispute concerns whether the bank's administrator had legal authority to cancel the bonds under its reconstruction plan.",
+      "mechanism": "Judicial limits on a bank administrator's loss-allocation powers can influence how investors assess bank-capital resolution risk.",
+      "watch": "Watch for subsequent orders or bank disclosures on the treatment of the affected bondholders.",
+      "claims": [
+        {
+          "statement": "The Supreme Court upheld the Bombay High Court order quashing Yes Bank's ₹8,415 crore AT-1 bond write-off.",
+          "evidence": [
+            "Supreme Court upholds Bombay HC order quashing Yes Bank’s ₹8,415 cr AT-1 bond write-off"
+          ]
+        },
+        {
+          "statement": "The dispute concerns whether the bank's administrator had legal authority to cancel the bonds under its reconstruction plan.",
+          "evidence": [
+            "The dispute centres on whether Yes Bank’s administrator had the legal authority to cancel the bonds as part of the bank’s reconstruction plan"
+          ]
+        }
+      ],
+      "id": "64ffd86137d684e51745b91f",
+      "headline": "Supreme Court upholds Bombay HC order quashing Yes Bank’s ₹8,415 cr AT-1 bond write-off",
+      "lane": "macro"
+    },
+    {
+      "brief": "The Election Commission directed officers to provide recognised political parties with searchable PDF copies of draft and final voter rolls, excluding voters' photographs.",
+      "mechanism": "Searchable rolls can lower the effort needed to scrutinise voter-list changes while the photograph exclusion limits the data shared.",
+      "watch": "Watch whether parties receive usable files and report discrepancies through the electoral process.",
+      "claims": [
+        {
+          "statement": "The Election Commission directed officers to provide recognised political parties with searchable PDF copies of draft and final voter rolls, excluding voters' photographs.",
+          "evidence": [
+            "The Election Commission has directed officers to provide recognised political parties with searchable PDF copies of draft and final voter rolls, excluding voters’ photographs."
+          ]
+        }
+      ],
+      "id": "59d0047903a9aba41bbca714",
+      "headline": "ECI directs officers to provide political parties with searchable PDF voter rolls",
+      "lane": "national"
+    },
+    {
+      "brief": "Logitech has commenced local manufacturing in India. The company said establishing assembly capabilities in India reflects a market-driven strategy to improve operational agility and supply-chain resilience.",
+      "mechanism": "Domestic assembly can shorten supply responses and diversify production exposure, although its economic scale depends on the depth of localisation.",
+      "watch": "Watch for disclosed production volumes, local sourcing and the range of products assembled in India.",
+      "claims": [
+        {
+          "statement": "Logitech has commenced local manufacturing in India.",
+          "evidence": [
+            "Logitech commences local manufacturing in India to drive agility and AI-era expansion"
+          ]
+        },
+        {
+          "statement": "The company said establishing assembly capabilities in India reflects a market-driven strategy to improve operational agility and supply-chain resilience.",
+          "evidence": [
+            "Logitech stated that establishing assembly capabilities in India is rooted in a market-driven strategy designed to enhance operational agility and supply chain resilience"
+          ]
+        }
+      ],
+      "id": "5688f6ed09d6e0493ab07b45",
+      "headline": "Logitech commences local manufacturing in India to drive agility and AI-era expansion",
+      "lane": "tech"
+    },
+    {
+      "brief": "Telecom operators are to show the KYC name of incoming callers from November 1. The Caller Name Presentation requirement was piloted through much of 2025 within operators' own networks, according to The Hindu.",
+      "mechanism": "Displaying subscriber-record names changes caller identification while making the accuracy and privacy of those records more consequential.",
+      "watch": "Watch operators' rollout notices and how they handle incorrect caller names as the November deadline approaches.",
+      "claims": [
+        {
+          "statement": "Telecom operators are to show the KYC name of incoming callers from November 1.",
+          "evidence": [
+            "Telecom operators to show KYC name of incoming callers from November 1"
+          ]
+        },
+        {
+          "statement": "The Caller Name Presentation requirement was piloted through much of 2025 within operators' own networks, according to The Hindu.",
+          "evidence": [
+            "The Caller Name Presentation (CNAP) requirement has been in the works for years, and was piloted through much of 2025 within the telecom operators’ own networks"
+          ]
+        }
+      ],
+      "id": "18c5b4d223bb3c26399ae257",
+      "headline": "Telecom operators to show KYC name of incoming callers from November 1",
+      "lane": "tech"
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed all 370 titles and summaries for October 17, 2026, rather than treating publication timestamps or relative tomorrow as event dates. Connaught Place park closure continues October 16-17 but is a local protest-access restriction, not a material next-day macro catalyst; associated march is October 16. Yesterday's published Saudi-flight cancellations run until October 17 but no fresh distinct restart or safety decision appears in this pool. Stock split October 19, tax-audit deadline October 21, IRFC record date October 23, CNAP November 1, trade talks November, and sugar arrivals after October 20 do not qualify. October 15 earnings and TechSparks schedules are past. No distinct high-signal RSS-backed October 17 catalyst qualifies."
+}

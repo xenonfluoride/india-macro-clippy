@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate second semantic pass after composition; no independent reviewer claimed",
+  "checked_at": "2026-10-16T02:22:08.734973+00:00",
+  "input_hashes": {
+    "capture.json": "143fc26b51655ded54cab8988eb92fd682e211d8f714dffbe8b18410224d1b27",
+    "history.json": "1a5a0a95b2841c8845272500662410d23574c6dfc41f265121b609f42d950f57",
+    "review.json": "7f9f213b2626bb67dcec2aaf5fdc7ba2355e98d92973cfff6476fde92338732b",
+    "edition.json": "bab07ffd7ec17255532fa8f01470f80e8b38930dbfee061f5ba3f286be3eeb9b",
+    "market.json": "df92d05199b61180fdbf639acf5edd5a7e4cae4e6087b2787221ad9caf768d94"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "The first pass read all 370 records through context offsets 0 to 360 in bounded 40-item batches, ending next_offset=null, including stock alerts, criminal cases, conference items and sparse summaries. Authored assessments.tsv contains a case-specific actor, action, exposure, mechanism, disposition, confidence and materiality for each. review.json retains exact title and summary evidence and 63 duplicate links to non-duplicate representatives. Compared all selected events with the complete history ledger: none repeats October 7, 13 or 15 publication events. Strong unselected alternatives include direct taxes, SEBI closing auctions, RBI FERR exemptions, Ladakh infrastructure, UCO and Indian Bank results, Mankind acquisition and UP solar capacity. These were assessed on their evidence rather than excluded by phrases or publisher quotas. All fifteen successful feed captures and complete Yahoo prices remain separate; no article-body or web evidence was used.",
+  "hero": "Reread the hero against all seven final cards: stronger September exports and stable unemployment are reported data; financing pact and manufacturing commencement are distinct investment signals; bank-bond judgment, voter-roll access directive and forthcoming caller naming are accurately bounded institutional changes. No GDP, employment gain, project commissioning, bond repayment or fraud-prevention success is implied. hero_card_ids covers exactly the final slate and issue 013 is dated October 16 in IST.",
+  "catalysts": "Separately checked the dated candidates for October 17. Connaught Place closure continues into that day but remains local protest access; the march itself is October 16. Saudi cancellation duration is yesterday's published event without a fresh restart decision in today's evidence. The October 19 split, October 21 audit deadline, October 23 dividend record date, November 1 CNAP direction and November trade talks are not tomorrow. October 15 earnings and conference agenda are past. An empty catalyst list is justified; deterministic rendering supplies exactly one October 17 closing module and does not recycle watch sentences.",
+  "cards": [
+    {
+      "id": "0acb9a4ad5d9783566884432",
+      "factual_support": "Checked both final sentences against this Business Standard RSS summary: 23 percent exports to 44.4 billion dollars, 8 percent imports to 74.61 billion dollars and 30.21 billion deficit versus 33 billion in September 2025 are explicit. Thursday is the source's release attribution. The annual comparator is stated so narrowed cannot be confused with other feeds' monthly widening from August; conflicting nearly-11-percent import coverage was not merged.",
+      "analysis": "External funding exposure follows from a smaller year-on-year goods deficit and is framed as a mechanism, not a new capital-flow statistic. The distinct watch seeks future export/import growth comparisons without promising improvement or inferring an enacted US trade deal.",
+      "novelty": "September merchandise trade release is absent from the ledger, whose recent macro data are CPI and WPI. Five within-pool trade-release records were inspected; the selected source gives an explicit prior-year comparison and duplicate representatives converge on this card."
+    },
+    {
+      "id": "645db57a05e904d27de7b9d5",
+      "factual_support": "NSO attribution and September 5 percent stability appear in the headline. Summary supplies rural 4.2 versus August 4.1 and urban 6.9 versus August 6.8. The brief preserves these numbers and does not copy another source's inconsistent rural-improved description or imply job creation from a stable unemployment rate.",
+      "analysis": "Rural-versus-urban composition is a valid interpretation of the reported rates, with no invented participation figures. The watch requests next-release participation and unemployment evidence rather than announcing labour-market recovery.",
+      "novelty": "September PLFS unemployment is a different release from the published inflation and production stories. The Business Standard and Economic Times labour items are grouped to this representative, leaving one labour event in the edition."
+    },
+    {
+      "id": "0113b368284b2d855b930819",
+      "factual_support": "Mint headline establishes ADB and Japan signing a financing pact with AM Green Ammonia. Its summary explicitly provides the 100 million dollar JICA-financed loan, 1.1-million-tonne facility, renewable power and Kakinada location. The brief says help build and does not add annual capacity units, project completion, total financing size or disbursement.",
+      "analysis": "Financing enabling construction is a bounded inference; execution and buyer demand are risk categories rather than asserted problems. Construction milestones and disclosed offtake are future observable signals, not claimed signed contracts.",
+      "novelty": "No AM Green or Kakinada financing event appears in the publication history. This industrial-project loan is distinct from earlier Tata Power additions, Hyundai auto-capacity intention and GE Aerospace supplier-spending target."
+    },
+    {
+      "id": "64ffd86137d684e51745b91f",
+      "factual_support": "Mint title explicitly says Supreme Court upheld Bombay High Court quashing of the 8415-crore AT-1 write-off; summary identifies the administrator-authority dispute. Both brief sentences follow that bounded ruling. No refund, timing of recovery, damages amount or rule covering every future AT-1 instrument is asserted.",
+      "analysis": "The mechanism links judicial limits to investor assessment of resolution powers rather than promising a price move. The watch asks for further orders or bank disclosures about bondholder treatment, keeping operational consequences unresolved.",
+      "novelty": "This Yes Bank bank-capital ruling differs from history's Karnataka reservation and UP journalist digital-demand decisions and from IDBI ownership approval. The Business Standard same-ruling item is a duplicate, not a second legal card."
+    },
+    {
+      "id": "59d0047903a9aba41bbca714",
+      "factual_support": "The complete HT summary supports the entire brief: Election Commission direction, officers, recognised political parties, searchable PDFs, draft and final rolls, and excluded photographs. It does not say the files are already delivered, rolls corrected, electoral fraud proven or voter citizenship settled.",
+      "analysis": "Lower search effort and limited shared data are direct procedural implications of the format and exclusion. The next signal is receipt of usable files and reported discrepancies, without assuming violations or a court outcome.",
+      "novelty": "No voter-roll access direction is in the ledger. SSR in 17 states, SIR litigation notices and protest restrictions were individually assessed as separate events; this card selects the concrete data-access direction rather than conflating the controversies."
+    },
+    {
+      "id": "5688f6ed09d6e0493ab07b45",
+      "factual_support": "The Hindu title states manufacturing commencement in India, and its summary expressly attributes assembly strategy, agility and supply-chain resilience to Logitech. The brief retains that attribution and accurately describes assembly; it adds no factory investment amount, staffing, volume, exports achieved or entire-portfolio localisation.",
+      "analysis": "Domestic assembly can alter supply responses, but the mechanism conditions economic scale on localisation depth. The watch requests volumes, local sourcing and product scope, which are precisely the missing scale signals rather than fabricated outcomes.",
+      "novelty": "Logitech's local assembly start is absent from history and distinct from the previous RDI fund managers, HCLTech AI pact and Skyroot launch purchase. HT's same commencement report is grouped as a duplicate to the chosen company-attributed evidence."
+    },
+    {
+      "id": "18c5b4d223bb3c26399ae257",
+      "factual_support": "The Hindu headline supports incoming callers' KYC names from November 1, while the summary supports CNAP pilots during much of 2025 within operators' networks. The brief keeps November implementation future and attributes the pilot account to the source. It adds no nationwide completion, opt-out rule, fee or guaranteed spam reduction.",
+      "analysis": "Accuracy and privacy implications are framed as analysis of subscriber-record naming, not claimed incidents or legal safeguards. Rollout notices and incorrect-name handling provide a distinct next signal before the source-supported November deadline.",
+      "novelty": "The caller-name requirement is new to the ledger and distinct from earlier digital-policy and UPI material. Inc42, HT and Mint CNAP coverage are grouped to this representative, keeping the same November 1 direction to one card."
+    }
+  ]
+}
