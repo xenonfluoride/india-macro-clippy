@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "run_id": "20261020T020535Z-af25ac36",
+  "created_at": "2026-10-20T02:15:30.636048+00:00",
+  "date": "2026-10-20",
+  "issue": 14,
+  "cards": [
+    {
+      "id": "c7aa8b27216203bbed923146",
+      "lane": "macro",
+      "headline": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
+      "brief": "The RBI announced a Rs 1 lakh crore variable-rate repo auction on Monday after the weighted average call rate reached 5.67%, 17 basis points above the 5.50% repo rate, according to Economic Times. The central bank will conduct another Rs 50,000 crore variable-rate repo auction on Wednesday.",
+      "mechanism": "Additional short-term repo funding can ease banks’ cash shortages and reduce pressure on overnight borrowing costs.",
+      "watch": "Watch auction allotments and subsequent overnight call rates for evidence that funding pressure is easing.",
+      "claims": [
+        {
+          "statement": "The RBI announced a Rs 1 lakh crore variable-rate repo auction on Monday after the weighted average call rate reached 5.67%, 17 basis points above the 5.50% repo rate, according to Economic Times.",
+          "evidence": [
+            "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%."
+          ]
+        },
+        {
+          "statement": "The central bank will conduct another Rs 50,000 crore variable-rate repo auction on Wednesday.",
+          "evidence": [
+            "The central bank will conduct another VRR for Rs 50,000 crore on Wednesday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c8116a10a2066c853b05301",
+      "lane": "macro",
+      "headline": "RBI tightens scrutiny of $1 billion-plus overseas investments amid rupee pressure",
+      "brief": "The RBI is implementing stricter scrutiny of large overseas direct investments by Indian companies, Economic Times reports. Banks must collect and present detailed investment information to the RBI, and its checklist requires due diligence on the rationale for each investment.",
+      "mechanism": "More detailed bank checks can add preparation and scrutiny to large overseas transactions by Indian companies.",
+      "watch": "Watch how banks apply the checklist and whether companies report changes in transaction timelines.",
+      "claims": [
+        {
+          "statement": "The RBI is implementing stricter scrutiny of large overseas direct investments by Indian companies, Economic Times reports.",
+          "evidence": [
+            "The Reserve Bank of India is implementing stricter scrutiny on large overseas direct investments by Indian companies."
+          ]
+        },
+        {
+          "statement": "Banks must collect and present detailed investment information to the RBI, and its checklist requires due diligence on the rationale for each investment.",
+          "evidence": [
+            "Banks must now collect and present detailed information regarding these investments to the RBI.",
+            "The RBI's checklist requires banks to conduct thorough due diligence on the rationale behind each investment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9217fdea27f004654bc6570c",
+      "lane": "macro",
+      "headline": "India-NZ FTA in force: Over half of New Zealand’s exports to India now tariff-free, Wellington also eyes Brazil, Canada",
+      "brief": "The India–New Zealand free trade agreement has been implemented, making more than half of New Zealand’s exports to India tariff-free, Economic Times reports. The agreement will benefit products including sheep meat and wool.",
+      "mechanism": "Tariff removal can lower landed costs for qualifying imports and change competition for Indian suppliers.",
+      "watch": "Watch customs implementation and shipment uptake to see whether tariff preferences translate into additional trade.",
+      "claims": [
+        {
+          "statement": "The India–New Zealand free trade agreement has been implemented, making more than half of New Zealand’s exports to India tariff-free, Economic Times reports.",
+          "evidence": [
+            "A new free trade agreement with India has been implemented, making more than half of exports tariff-free.",
+            "India-NZ FTA in force: Over half of New Zealand’s exports to India now tariff-free"
+          ]
+        },
+        {
+          "statement": "The agreement will benefit products including sheep meat and wool.",
+          "evidence": [
+            "The agreement will benefit various products, including sheep meat and wool, as well as local businesses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aaa3bba9f3a374539758926d",
+      "lane": "macro",
+      "headline": "China announces export curbs on key machinery used in India's infrastructure development",
+      "brief": "China has announced export controls on machinery including tunnel boring machines and related items, walking excavators and specified dredger-related items, according to Economic Times. The restrictions will take effect on November 18, with the report identifying exposure for Indian infrastructure development.",
+      "mechanism": "Tighter access to specialised machinery could complicate procurement and schedules for Indian infrastructure projects.",
+      "watch": "Watch equipment sourcing plans and project disclosures for actual delays or substitution before the controls take effect.",
+      "claims": [
+        {
+          "statement": "China has announced export controls on machinery including tunnel boring machines and related items, walking excavators and specified dredger-related items, according to Economic Times.",
+          "evidence": [
+            "Beijing has announced new export controls on essential machinery",
+            "apply to tunnel boring machines and related items.",
+            "Additionally, the export controls include walking excavators and specific dredger-related items"
+          ]
+        },
+        {
+          "statement": "The restrictions will take effect on November 18, with the report identifying exposure for Indian infrastructure development.",
+          "evidence": [
+            "These restrictions will take effect on November 18",
+            "which will impact India's infrastructure development."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8609b118af7ba86306d38c82",
+      "lane": "national",
+      "headline": "CISF scraps territorial commands, puts sectors under specialist control",
+      "brief": "The CISF is replacing territorial supervision with specialist control, Hindustan Times reports. Eight of its eleven supervisory sectors will be realigned by function from November 1, with dedicated commands for power, coal, steel, oil and gas, and ports.",
+      "mechanism": "Specialist supervision could align security planning with the distinct operating risks of critical infrastructure sectors.",
+      "watch": "Watch the command transition and sector responsibilities for evidence that the new structure changes operational coordination.",
+      "claims": [
+        {
+          "statement": "The CISF is replacing territorial supervision with specialist control, Hindustan Times reports.",
+          "evidence": [
+            "CISF scraps territorial commands, puts sectors under specialist control"
+          ]
+        },
+        {
+          "statement": "Eight of its eleven supervisory sectors will be realigned by function from November 1, with dedicated commands for power, coal, steel, oil and gas, and ports.",
+          "evidence": [
+            "Eight of 11 supervisory sectors will be realigned by function from November 1, with dedicated commands for power, coal, steel, oil and gas, and ports."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7ac7f8e13c1932c30b51a6b8",
+      "lane": "tech",
+      "headline": "HFCL Q2 results: Profit surges to ₹394 crore as AI data centre demand rises",
+      "brief": "HFCL reported consolidated profit of Rs 394.22 crore for the quarter ended September 30, 2026, against around Rs 72 crore a year earlier, according to Business Standard. The company attributed the increase to demand for optical fibre cables from AI data centres; consolidated revenue from operations more than doubled to Rs 2,541.79 crore.",
+      "mechanism": "Demand for AI infrastructure can reach Indian equipment suppliers through the optical fibre needed to connect data centres.",
+      "watch": "Watch subsequent orders, revenue and margins to see whether the reported demand sustains supplier growth.",
+      "claims": [
+        {
+          "statement": "HFCL reported consolidated profit of Rs 394.22 crore for the quarter ended September 30, 2026, against around Rs 72 crore a year earlier, according to Business Standard.",
+          "evidence": [
+            "Domestic telecom gear maker HFCL has posted a multi-fold jump in consolidated profit to Rs 394.22 crore in the second quarter ended September 30, 2026",
+            "HFCL had posted net profit of around Rs 72 crore in the same period a year ago."
+          ]
+        },
+        {
+          "statement": "The company attributed the increase to demand for optical fibre cables from AI data centres; consolidated revenue from operations more than doubled to Rs 2,541.79 crore.",
+          "evidence": [
+            "driven by demand for optical fibre cables from AI data centres, the company said in a regulatory filing.",
+            "HFCL's consolidated revenue from operations more than doubled to Rs 2,541.79 crore"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a8176ce56711a90c69563d61",
+      "lane": "tech",
+      "headline": "Govt asks Meta to ensure its recommendation systems do not expose users to a limited set of narratives",
+      "brief": "In an advisory dated October 10, MeitY asked Meta to ensure that its recommendation systems do not expose users to a limited set of narratives, Economic Times reports. The ministry also asked Meta to provide adequate context for content depicting ongoing public events, particularly where authenticity, date, location or circumstances may be unclear to users.",
+      "mechanism": "Requests covering recommendations and content context could affect how Indian users encounter and interpret public-event information.",
+      "watch": "Watch Meta’s response and any published implementation measures to distinguish the advisory from demonstrated platform changes.",
+      "claims": [
+        {
+          "statement": "In an advisory dated October 10, MeitY asked Meta to ensure that its recommendation systems do not expose users to a limited set of narratives, Economic Times reports.",
+          "evidence": [
+            "Govt asks Meta to ensure its recommendation systems do not expose users to a limited set of narratives",
+            "The advisory by the Ministry of Electronics and Information Technology (MeitY), dated October 10"
+          ]
+        },
+        {
+          "statement": "The ministry also asked Meta to provide adequate context for content depicting ongoing public events, particularly where authenticity, date, location or circumstances may be unclear to users.",
+          "evidence": [
+            "asked Meta to undertake appropriate measures to provide adequate context in relation to photographs, videos, graphics, or other content depicting ongoing public events, particularly where the authenticity, date, location or circumstances of such content may not be readily apparent to users."
+          ]
+        }
+      ]
+    }
+  ],
+  "hero_card_ids": [
+    "c7aa8b27216203bbed923146",
+    "5c8116a10a2066c853b05301",
+    "9217fdea27f004654bc6570c",
+    "aaa3bba9f3a374539758926d",
+    "8609b118af7ba86306d38c82",
+    "7ac7f8e13c1932c30b51a6b8",
+    "a8176ce56711a90c69563d61"
+  ],
+  "hero": "Today’s transmission runs through funding, trade and infrastructure: the RBI addresses money-market pressure while tightening overseas investment checks, and the India–New Zealand pact moves into force as China announces machinery controls. CISF command changes, HFCL’s reported fibre demand and an earlier MeitY advisory add security and technology signals whose implementation still matters.",
+  "catalysts": [],
+  "catalyst_review": "Reviewed the complete pool for October 21. The RBI's Wednesday Rs 50,000 crore VRR is a concrete next-day event, but it is already included in selected card 18 and cannot also occupy a distinct catalyst record. Record 8 gives Wednesday October 21 exchange reopening after today's Dussehra holiday, a routine calendar notice rather than a separate material event. Jio records 46, 115 and 143 give October 21 IPO opening, which is a listing alert rather than a qualifying economic catalyst; record 58 inconsistently calls October 19 Wednesday and was not used for a date claim. CJP's two-day custody duration in record 102 does not explicitly establish a next hearing date. Southern rainfall through October 24 is an ongoing forecast without a discrete October 21 action. Apple October 28, China November 18, CISF November 1, November rallies and late-November textile consultations are outside tomorrow. No distinct qualifying October 21 catalyst remains."
+}
