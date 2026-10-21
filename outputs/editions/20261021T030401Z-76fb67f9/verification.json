@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex current model session, separate second evidence-check pass; no independent reviewer claimed",
+  "checked_at": "2026-10-21T03:16:45+00:00",
+  "input_hashes": {
+    "capture.json": "d1780cad28991dc519f09071943006599f5fe277938438550003d62ddb8f09e9",
+    "history.json": "63930b5338e8d8ebbaf6866ca145a8de1953a328a9b2a465845143e8cc5dff8c",
+    "review.json": "7053b85c706d3e8b136e45c139ce0bc34605b3860fe6a9978b7392b55f137fd6",
+    "edition.json": "98b8c5917ebb562b24bbbd88e5f8fb58c81adcd499b2c44da672d4a52ee9ea95",
+    "market.json": "c17949011e4263f753b7af014b4d28b51f76bb9bc21b17965be0c59b6d28b5c6"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 287 captured candidates through context batches at offsets 0, 40, 80, 120, 160, 200, 240 and 280, ending next_offset=null. The first verbose offset-0 output and one combined tool result were truncated; the compact batches were reread in full before decisions. Every record has an authored event, actor, action, exposure, mechanism, evidence, confidence, materiality and reason. There are seven selections, 48 eligible alternatives, 181 rejections and 51 explicitly linked duplicates. Reviewed title-only and rejected-looking records too: PARAKH rollout, mineral-policy committee, animal taxonomy, wildlife transfer, small funding, Coimbatore parole, FSSAI notices, bank results and CCPA enforcement were each assessed on their own evidence. Re-read all 34 history entries: exclude unchanged FTA commencement, RBI liquidity and outward-investment measures; the YES Bank capital response, fruit/honey quota and machinery-incentive proposal were considered for distinct new evidence but not selected. Thirteen of fifteen feeds succeeded; both Hindu feeds returned HTTP 403 after all retries. Those source-specific gaps are disclosed and retained, with no missing facts filled from outside RSS. Yahoo Finance's approved retry produced all four daily-bar snapshots with individual timestamps, positive values and raw evidence; the earlier failed diagnostics remain, and the equity bars are not called completed-session closes. The final second pass compared every selected card with its original title and summary, then corrected the poll-affidavit analysis to avoid implying that an earlier legal sanction requirement had been repealed; also tightened blocking-order intimation wording and labelled uncertain action dates as reported dates in event keys. Those changed fields were reread before recording these final hashes.",
+  "hero": "The hero covers all seven selected IDs: maize food/fuel competition, Bajaj's borrower mix, CBDT disclosures, the two different court holdings, HAL delivery versus readiness, and seller-delisting enforcement. It adds no new numbers, dates, completed trade agreement, adopted crop allocation or training-readiness claim. None of the seven events matches history's HAL engine expansion, ECI searchable rolls, journalist digital-footprint order, Meta advisory or RBI investment-scrutiny event.",
+  "catalysts": "For October 22, record 82 has explicit VRL buyback and JSW Dulux split record dates, but both are shareholder eligibility reminders and not useful policy or operating catalysts. Rechecked that Jio subscriptions, the RBI Wednesday VRR, CBSE list deadline and Delhi HC Wednesday custody hearing are October 21. Two-day custody language does not prove another hearing tomorrow. Routine exchange trading is not a distinct catalyst; the three-day Rubio itinerary specifies no October 22 deliverable. Later dates for Apple, iQOO, Temple, Titan, satellite readiness, fire-audit implementation and Bajaj's target do not qualify. Empty catalysts is therefore supported, and deterministic rendering supplies exactly one closing October 22 module.",
+  "cards": [
+    {
+      "id": "16bd8bc169605246bd31d98b",
+      "factual_support": "Both factual sentences map completely to ET's four summary sentences: drought reduces maize supply; poultry, starch and ethanol compete; prices rise; industry bodies urge food priority. No crop volume, price number or government allocation order is invented, and advocacy remains labelled as a request.",
+      "analysis": "The mechanism is an explicit inference about competing crop uses transmitting demand to poultry feed costs, grounded in the named users and shortage. The separate watch asks for a government response and feed availability; it does not claim either has occurred.",
+      "novelty": "History contains aggregate CPI/WPI inflation and earlier food-price context, but no maize shortage or food-versus-ethanol allocation episode. This is a distinct commodity mechanism, not a rewritten September inflation release; the competing pulses and spice records were assessed separately."
+    },
+    {
+      "id": "b9cd3dd4285b066bc356b936",
+      "factual_support": "The single complete claim tracks the whole Mint summary: Bajaj Finance is halving a share of new loans, the customers have three or more lending relationships, the target is 3.5%, and the deadline is March 2027. It does not say all such loans stop, that outstanding credit halves, or that the target is already reached.",
+      "analysis": "The mechanism treats overlapping-debt risk and access to credit as a tradeoff, not a measured effect. The watch seeks the targeted share and overall new lending without inventing realised volumes, delinquency rates or additional deadlines.",
+      "novelty": "No Bajaj underwriting restriction appears among the 34 published events. This is distinct from RBI liquidity, overseas-investment scrutiny, IDBI restructuring and YES Bank bonds; other bank results were retained as alternatives rather than confused with this credit-allocation decision."
+    },
+    {
+      "id": "ebf409e8addf3ce03792a1e8",
+      "factual_support": "The BS title establishes notification, and its summary establishes Form 173A, eligible foreign investors and BIS, holdings, interest income, capital gains and the Income-tax Act, 2025. Both brief sentences are fully covered. No acronym expansion, new exemption rate, filing deadline or general-investor scope is added.",
+      "analysis": "The mechanism explains the information condition attached to exemption claims. The watch asks for implementation guidance without asserting such guidance has been issued. It does not confuse this form with the separate Maharajah bond TDS exemption.",
+      "novelty": "The ET Form 173A record 83 is explicitly grouped under this representative. Neither the form nor this claimant-specific tax compliance event is in history; RBI's previously published outward-investment checklist concerns a different authority function and transaction type."
+    },
+    {
+      "id": "69697681fa475bd626814774",
+      "factual_support": "The original HT headline directly supports citizens challenging false poll affidavits without ECI sanction. The summary separately supports handling potential harassment under the existing regime. The brief makes no case-specific conviction, cancellation of election, universal procedural detail or invented statutory citation.",
+      "analysis": "Rechecked the corrected mechanism: allowing challenges without sanction may widen scrutiny; it does not assert repeal of a previously valid sanction requirement. The watch identifies later judicial application and harassment safeguards as future observations.",
+      "novelty": "History's ECI searchable voter-roll direction is administrative access to election data, not this Supreme Court holding on false affidavits. Current SIR protests and duplicate voter-ID removal are also different events. No earlier published card covers this holding."
+    },
+    {
+      "id": "f331a75bc7087804afafc364",
+      "factual_support": "HT's headline supports handover of the first three HTT-40 trainers to IAF and the conditional two-year full-training horizon; the summary supports 70 aircraft, ₹6,838 crore and an order three years earlier. The brief preserves delivery versus readiness and does not claim all 70 were delivered or assign an unsupported handover date.",
+      "analysis": "The mechanism separates aircraft availability from usable pilot-training capacity, matching the headline's readiness qualification. The watch asks about future handovers and training milestones with no invented production rate or promised service date.",
+      "novelty": "The legacy ledger's HAL story concerns Shakti helicopter-engine production capacity, a different product and programme. This trainer handover is also distinct from the ceremonial final sortie and the future Army communications-satellite schedule in this capture."
+    },
+    {
+      "id": "2c0ff2885f84134e2e33a47f",
+      "factual_support": "The complete HT summary establishes the Punjab and Haryana High Court holding that users also receive intimation of a government takedown or blocking order communicated to the platform. The brief preserves intimation rather than inventing mandatory full-file disclosure, automatic restoration, appeal success or a nationwide implementation deadline.",
+      "analysis": "The mechanism uses can to distinguish the inference that notice helps users understand or challenge blocking. The watch seeks delivery practice by authorities and platforms without claiming implementation has already occurred.",
+      "novelty": "History's Supreme Court journalist digital-footprint decision concerns police data demands; the Meta advisory concerns recommendation context. This different court's blocking-notice holding is a distinct remedy and event, appropriately reassigned from the national feed to India Tech."
+    },
+    {
+      "id": "5f47bf19986ffe72891b5412",
+      "factual_support": "Mint's original title supports CCPA action on seven online platforms and 3,940 sellers delisted; the summary exactly lists all seven names. The two brief sentences are fully mapped. Delistings are not called convictions, permanent business bans, destroyed goods or completed criminal prosecutions.",
+      "analysis": "The mechanism links seller delisting to constraints on online explosive-material access without asserting a quantified safety outcome. The watch asks for compliance disclosures and further orders; neither is presented as existing additional news.",
+      "novelty": "Inc42 record 147 is explicitly grouped under this same seven-platform action. The separate FSSAI quick-commerce notices are a different regulator and notice stage, while Justdial's earnings are a different corporate event. No prior publication covers these explosive-listing delistings."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "run_id": "20261021T030401Z-76fb67f9",
+  "created_at": "2026-10-21T03:15:00+00:00",
+  "date": "2026-10-21",
+  "issue": 15,
+  "hero": "Drought is sharpening the contest for maize between food and fuel, while Bajaj Finance tightens its approach to borrowers with multiple lenders and CBDT adds securities-exemption disclosures. Two court holdings address citizen access to election challenges and government blocking orders. HAL's first trainer handover marks a delivery milestone, with training readiness still ahead; online explosive listings draw enforcement and seller delistings.",
+  "hero_card_ids": ["16bd8bc169605246bd31d98b", "b9cd3dd4285b066bc356b936", "ebf409e8addf3ce03792a1e8", "69697681fa475bd626814774", "f331a75bc7087804afafc364", "2c0ff2885f84134e2e33a47f", "5f47bf19986ffe72891b5412"],
+  "cards": [
+    {
+      "id": "16bd8bc169605246bd31d98b",
+      "lane": "macro",
+      "headline": "India’s drought-hit maize crunch pits poultry, ethanol makers in ‘me first’ fight",
+      "brief": "Economic Times reports that drought has reduced maize supply, intensifying competition among poultry producers, starch manufacturers and ethanol plants. Industry bodies have urged the government to prioritise food production over fuel use as maize prices rise.",
+      "mechanism": "Competition for the same crop can transmit biofuel demand into poultry feed costs when drought constrains supply.",
+      "watch": "Watch for a government allocation response and whether maize availability improves for feed producers.",
+      "claims": [
+        {"statement": "Economic Times reports that drought has reduced maize supply, intensifying competition among poultry producers, starch manufacturers and ethanol plants.", "evidence": ["Drought conditions have caused a significant decrease in maize supply, leading to competition among industries for access.", "Poultry producers, starch manufacturers, and ethanol plants are all vying for limited maize resources, exacerbating the situation."]},
+        {"statement": "Industry bodies have urged the government to prioritise food production over fuel use as maize prices rise.", "evidence": ["As maize prices continue to rise, the poultry industry has expressed concerns about potential feed shortages.", "Industry bodies have urged the government to prioritize maize for food production over fuel use."]}
+      ]
+    },
+    {
+      "id": "b9cd3dd4285b066bc356b936",
+      "lane": "macro",
+      "headline": "Bajaj Finance to shrink lending to reckless borrowers",
+      "brief": "Mint reports that Bajaj Finance is halving the share of new loans to customers with three or more lending relationships to 3.5% by March 2027 amid concerns about indebtedness.",
+      "mechanism": "Restricting new lending to customers with multiple lenders can curb overlapping debt exposure while narrowing their access to credit.",
+      "watch": "Watch whether the targeted loan share falls towards 3.5% and how overall new lending responds.",
+      "claims": [
+        {"statement": "Mint reports that Bajaj Finance is halving the share of new loans to customers with three or more lending relationships to 3.5% by March 2027 amid concerns about indebtedness.", "evidence": ["Bajaj Finance is halving the share of new loans to customers with three or more lending relationships to 3.5% by March 2027 amid concerns indebtedness."]}
+      ]
+    },
+    {
+      "id": "ebf409e8addf3ce03792a1e8",
+      "lane": "macro",
+      "headline": "CBDT notifies new form for tax exemption claims on govt securities",
+      "brief": "Business Standard reports that CBDT has notified Form 173A for eligible foreign investors and BIS claiming tax exemptions on government securities. The form requires disclosure of security holdings, interest income and capital gains under the Income-tax Act, 2025.",
+      "mechanism": "More detailed disclosures make securities-tax relief depend on a clearer record of the claimant's holdings and income.",
+      "watch": "Watch for filing guidance that clarifies how eligible claimants must supply the required information.",
+      "claims": [
+        {"statement": "Business Standard reports that CBDT has notified Form 173A for eligible foreign investors and BIS claiming tax exemptions on government securities.", "evidence": ["CBDT notifies new form for tax exemption claims on govt securities", "The new Form 173A requires eligible foreign investors and BIS to disclose security holdings, interest income and capital gains to claim exemptions under the Income-tax Act, 2025"]},
+        {"statement": "The form requires disclosure of security holdings, interest income and capital gains under the Income-tax Act, 2025.", "evidence": ["The new Form 173A requires eligible foreign investors and BIS to disclose security holdings, interest income and capital gains to claim exemptions under the Income-tax Act, 2025"]}
+      ]
+    },
+    {
+      "id": "69697681fa475bd626814774",
+      "lane": "national",
+      "headline": "‘Citizens can challenge false poll affidavits without ECI sanction’, says Supreme Court",
+      "brief": "Hindustan Times reports that the Supreme Court has said citizens can challenge false poll affidavits without ECI sanction. The court said concerns about complaints being used to harass elected representatives can be handled under the existing regime.",
+      "mechanism": "Allowing challenges without ECI sanction can widen citizen access to scrutiny of elected representatives' disclosures.",
+      "watch": "Watch how subsequent courts apply the holding to complaints and address claims of harassment.",
+      "claims": [
+        {"statement": "Hindustan Times reports that the Supreme Court has said citizens can challenge false poll affidavits without ECI sanction.", "evidence": ["‘Citizens can challenge false poll affidavits without ECI sanction’, says Supreme Court"]},
+        {"statement": "The court said concerns about complaints being used to harass elected representatives can be handled under the existing regime.", "evidence": ["The court pointed out that the possibility of such complaints being used to harass elected representatives can be duly dealt with under the existing regime."]}
+      ]
+    },
+    {
+      "id": "f331a75bc7087804afafc364",
+      "lane": "national",
+      "headline": "HT exclusive: HAL hands over first 3 HTT-40 trainers to IAF; full training ops may take 2 years",
+      "brief": "Hindustan Times reports that HAL has handed over the first three HTT-40 trainers to IAF, while full training operations may take two years. The air force ordered 70 basic trainers for ₹6,838 crore three years earlier.",
+      "mechanism": "Delivery advances domestic aircraft availability, while the gap to full training operations limits how quickly it can translate into pilot-training capacity.",
+      "watch": "Watch for the next aircraft handovers and milestones that bring the trainers into full training use.",
+      "claims": [
+        {"statement": "Hindustan Times reports that HAL has handed over the first three HTT-40 trainers to IAF, while full training operations may take two years.", "evidence": ["HT exclusive: HAL hands over first 3 HTT-40 trainers to IAF; full training ops may take 2 years"]},
+        {"statement": "The air force ordered 70 basic trainers for ₹6,838 crore three years earlier.", "evidence": ["The air force ordered 70 basic trainer aircraft for ₹6,838 crore three years ago to train pilots and meet its growing training requirements."]}
+      ]
+    },
+    {
+      "id": "2c0ff2885f84134e2e33a47f",
+      "lane": "tech",
+      "headline": "HC: Social media user must get govt order of content blocking",
+      "brief": "Hindustan Times reports that the Punjab and Haryana High Court has held that users must also receive intimation of a government takedown or blocking order concerning a social media channel or page that is communicated to the platform.",
+      "mechanism": "User notification can make government blocking decisions easier for affected account holders to understand and challenge.",
+      "watch": "Watch how authorities and platforms implement delivery of blocking-order information to affected users.",
+      "claims": [
+        {"statement": "Hindustan Times reports that the Punjab and Haryana High Court has held that users must also receive intimation of a government takedown or blocking order concerning a social media channel or page that is communicated to the platform.", "evidence": ["The Punjab and Haryana high court has held that intimation of the take down/ blocking order of a social media channel/page communicated to the platform by the government must be sent to the user also."]}
+      ]
+    },
+    {
+      "id": "5f47bf19986ffe72891b5412",
+      "lane": "tech",
+      "headline": "Ammonium nitrate to PETN: CCPA cracks down on 7 online platforms over explosive listings; 3,940 sellers delisted",
+      "brief": "Mint reports a CCPA crackdown on seven online platforms over explosive listings, with 3,940 sellers delisted. The platforms named by the authority are IndiaMART, TradeIndia, Dial4Trade, Justdial, Sigma-Aldrich India, ExportersIndia and Ibuychemikals.",
+      "mechanism": "Seller delistings make marketplace compliance a direct constraint on online access to explosive materials.",
+      "watch": "Watch for platform compliance disclosures and further enforcement orders on the affected listings.",
+      "claims": [
+        {"statement": "Mint reports a CCPA crackdown on seven online platforms over explosive listings, with 3,940 sellers delisted.", "evidence": ["Ammonium nitrate to PETN: CCPA cracks down on 7 online platforms over explosive listings; 3,940 sellers delisted"]},
+        {"statement": "The platforms named by the authority are IndiaMART, TradeIndia, Dial4Trade, Justdial, Sigma-Aldrich India, ExportersIndia and Ibuychemikals.", "evidence": ["The platforms named by the authority are IndiaMART, TradeIndia, Dial4Trade, Justdial, Sigma-Aldrich India, ExportersIndia and Ibuychemikals."]}
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "All 287 candidates were inspected for a distinct October 22 event. Record 82 explicitly dates VRL Logistics' buyback record date and JSW Dulux's proposed split record date to October 22; these are shareholder eligibility alerts rather than useful economy or policy catalysts. Jio's issue opening, the RBI follow-up VRR, the CBSE list deadline and the CJP hearing fall on October 21, not tomorrow. A two-day custody extension does not establish an October 22 hearing. The ordinary October 22 exchange session has no separate event; the roster says no further October weekday trading holidays. Apple's and iQOO's October 28 launches, Temple's November 1 preorders, the November Titan results meeting, and later satellite, fire-audit and lending targets are outside tomorrow. Rubio's three-day visit does not establish a specified October 22 deliverable. No distinct high-confidence date-specific catalyst qualifies."
+}
