@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 22 October 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 016</strong><br />22 October 2026<br /><span id="rss-status">RSS edition · 20261022T030142Z-b9a51285</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">Industrial output strengthened, while weather and sugar supply remain risks to India&#x27;s production outlook. Today&#x27;s slate also tracks infrastructure financing information, the limits on courts suggesting custodial interrogation, scrutiny of nutrition claims and the response to eMudhra&#x27;s certificate incident.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>22,811.35</strong><span class="down">Nifty 50 · -0.34%</span><span class="flat">21 Oct 03:45 UTC</span></div><div class="quote"><strong>73,709.69</strong><span class="down">Sensex · -0.19%</span><span class="flat">21 Oct 03:45 UTC</span></div><div class="quote"><strong>₹94.450</strong><span class="up">USD/INR · -0.28%</span><span class="flat">22 Oct 02:32 UTC</span></div><div class="quote"><strong>$110.37</strong><span class="up">Brent · +1.42%</span><span class="flat">22 Oct 02:51 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="c9c05450d22b2f5bb367d291"><div class="story-no">01</div><div><h3>Core sector growth rises to 7.9%, highest in new series</h3><p>Core industries output grew 7.9% in September, up from 5.9% in August, according to commerce ministry data reported by Hindustan Times. September recorded the highest growth in the new Index of Core Industries series, which uses 2022-23 as its base year.</p><p class="why"><span>Why it matters</span><br />Faster core-sector output can improve industrial supply, although the aggregate alone does not establish strength across every industry. Watch the next sector breakdown for whether the acceleration broadens beyond the industries leading September&#x27;s increase.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/core-sector-growth-rises-to-7-9-highest-in-new-series-101792609383803.html">Hindustan Times India, 22 Oct · 02:14 UTC</a></p></div></article>
+<article class="story" data-candidate="3bfe9f9d49e320740d67301d"><div class="story-no">02</div><div><h3>El Nino could be unprecedented, may rise to 3.8°C above average between Nov-Jan: WMO</h3><p>The WMO says El Nino could reach 3.8°C above average between November and January. A December peak is likely, with higher temperatures and weaker rainfall expected in south and southeast Asia, including India.</p><p class="why"><span>Why it matters</span><br />The forecast points to risks for Indian water availability and crop production if hotter and drier conditions materialise. Watch subsequent rainfall and temperature observations for whether the projected seasonal stress develops in India.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/el-nino-could-be-unprecedented-may-rise-to-3-8-c-above-average-between-nov-jan-wmo-101792636927904.html">Hindustan Times India, 22 Oct · 02:43 UTC</a></p></div></article>
+<article class="story" data-candidate="fff1eadf714d2d0865f46d9a"><div class="story-no">03</div><div><h3>Import window for duty-free raw sugar extended till Dec 31</h3><p>The government extended the deadline for duty-free imports of 10 lakh tonnes of raw sugar to December 31. Economic Times reports that imports have reached only 3 lakh tonnes amid price-control measures.</p><p class="why"><span>Why it matters</span><br />A longer import window could ease sugar supply constraints, but limited uptake shows that permission alone may not draw in sufficient cargoes. Watch actual import arrivals for evidence that the extension converts the unused allowance into additional supply.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/import-window-for-duty-free-raw-sugar-extended-till-dec-31/articleshow/135099520.cms">Economic Times Economy, 21 Oct · 18:57 UTC</a></p></div></article>
+<article class="story" data-candidate="8451191a9c423a32e2562ecb"><div class="story-no">04</div><div><h3>NaBFID gets Finance Ministry, RBI nod for national infrastructure project repository</h3><p>NaBFID has secured finance ministry and RBI approvals to establish a national repository of infrastructure projects. The proposed platform will consolidate project information for lenders and investors, drawing on government agencies including NHAI.</p><p class="why"><span>Why it matters</span><br />A consolidated project record could reduce information gaps that complicate infrastructure financing decisions. Watch for the repository&#x27;s launch and data coverage to assess whether the approvals produce a usable financing resource.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/infrastructure/nabfid-gets-finmin-rbi-nod-for-national-infrastructure-project-repository/articleshow/135096343.cms">Economic Times Economy, 21 Oct · 16:27 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="60cd92734b1f58b1cdabace2"><div class="story-no">05</div><div><h3>Courts can’t suggest custodial quizzing, says Supreme Court</h3><p>The Supreme Court has said that courts cannot suggest custodial interrogation, Hindustan Times reports.</p><p class="why"><span>Why it matters</span><br />The boundary limits judicial steering of investigative methods while leaving agencies responsible for their interrogation choices. Watch subsequent orders for how courts apply this boundary when considering requests involving interrogation.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/sc-supreme-court-custodial-interrogation-gujarat-hc-high-court-101792629525669.html">Hindustan Times India, 22 Oct · 01:18 UTC</a></p></div></article>
+<article class="story" data-candidate="c34f08541f72fc036194a8c5"><div class="story-no">06</div><div><h3>FSSAI issues notices to Nestlé India, Zydus Wellness over product claims</h3><p>FSSAI issued notices to Nestlé India seeking scientific evidence for claims about Lactogen Pro 1 and Nan Excella Pro Stage 1. Zydus Wellness also received a notice concerning Complan and said its claims are factual and backed by science.</p><p class="why"><span>Why it matters</span><br />Requiring scientific substantiation can constrain how nutrition products are marketed to families. Watch the companies&#x27; submissions and FSSAI&#x27;s response for whether the notices lead to changes in product claims.</p><p class="source">RSS · <a href="https://www.livemint.com/companies/news/fssai-issues-notices-to-nestl-india-zydus-wellness-over-product-claims-11792594297822.html">Mint Companies, 21 Oct · 15:27 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="52d518d3462c7da9470b2352"><div class="story-no">07</div><div><h3>eMudhra security incident: MeitY orders probe, says impact on Indian websites and apps was limited; details here</h3><p>MeitY ordered a probe into the eMudhra security incident involving eight digital certificates. The ministry said the impact on Indian websites and apps was limited and that domestic digital-signature services were not affected.</p><p class="why"><span>Why it matters</span><br />Certificate-control weaknesses can undermine website authentication, making the scope of exposure central to the incident response. Watch the probe findings for confirmed misuse and the control changes required of the certificate provider.</p><p class="source">RSS · <a href="https://www.livemint.com/technology/tech-news/emudhra-security-incident-meity-orders-probe-says-impact-on-indian-websites-and-apps-was-limited-details-here-11792599679180.html">Mint Technology, 21 Oct · 16:57 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 23 October</p></div><div class="catalysts"><p>No separate date-specific catalyst qualified in this RSS audit.</p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

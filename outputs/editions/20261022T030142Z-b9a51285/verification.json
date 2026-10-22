@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate second semantic pass after composition; no external or independent reviewer claimed",
+  "checked_at": "2026-10-22T03:12:54+00:00",
+  "input_hashes": {
+    "capture.json": "c4dec93578dcd2da087c7a1ecaccd6be177622566b8ada64c069f42cefce1a6f",
+    "history.json": "954d62c07ab26a07399958d770ae79befa01a43e3662131a02d87d098c1a109c",
+    "review.json": "8c5c1a351da1c523e6f756cfb7d72e8589562f02d6675f9cdf7d408caad32bf2",
+    "edition.json": "ad042a88fbd7b3a7c23fd2f404eccc8220a55de2731912240220b2ec0945ecfe",
+    "market.json": "4fc1158fc6fae4578e01ded9b6fd9412b9c287865e7344b0fee621a1f8df6167"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 333 fresh records with context offsets 0, 40, 80, 120, 160, 200, 240, 280 and 320, ending next_offset=null; reread offset 0 and 120 after large-output truncation. Assessed each title and full captured summary, including rejected-looking records, with 333 individually authored dispositions: 7 selected, 76 eligible alternatives, 170 rejections and 80 explicit duplicate links. Corrected positional mapping of records 73-77 against the indexed capture before packaging. Reviewed all 41 publication-history entries and excluded unchanged HAL deliveries, CCPA delistings, maize scarcity and Form 173A; did not infer a newly made rate hike from fresh MPC-minutes coverage. Alternatives included L&T orders, KENT battery investment, Essar terminal concession, DCGI drug approval, GRAP activation, SBI data disclosure and Glance distribution partnership. Feed lanes were reassigned by substance, including core output to macro and food-claim enforcement to national. Thirteen feeds succeeded; both Hindu feeds returned 403 after three attempts, retained in capture without external supplementation. The four Yahoo snapshots are complete and separate from RSS; failed preliminary network diagnostics remain inspectable. All factual prose is in edition JSON, not in Python.",
+  "hero": "Read the final hero against all seven cards. Stronger output refers to the September growth release; weather and sugar are conditional supply risks rather than asserted new crop losses. The remaining clauses name repository information, the narrow interrogation boundary, claim-substantiation scrutiny and certificate incident response. No invented cross-story causal link, new number or implemented repository is implied; hero_card_ids covers the entire slate.",
+  "catalysts": "Inspected explicit October 23 and Friday records: VanDyke hearing and Das-Ranka appearance are individual case proceedings without a captured systemic trigger; the GMDA shutdown is local; record dates are shareholder alerts and Jio's subscription close is a listing event. Today's Micron strike and yesterday's Vijayan hearing or surety review cannot qualify for tomorrow. October 25 marches, October 26 IPO, October 29 earnings and November operating schedules are outside October 23. Empty catalysts and the case-specific review are justified; deterministic rendering supplies exactly one closing module dated tomorrow.",
+  "cards": [
+    {
+      "id": "c9c05450d22b2f5bb367d291",
+      "factual_support": "Both sentences map fully to the HT summary: 7.9% September growth versus 5.9% August, commerce ministry attribution and a highest-growth claim explicitly limited to the new 2022-23-base ICI series. No all-time or every-sector claim is added; other core-output reports are grouped as the same release.",
+      "analysis": "The mechanism treats output as supply capacity and explicitly avoids claiming uniform sectoral strength. The next signal asks whether breadth expands in a subsequent breakdown, without adding a new sector statistic to the card.",
+      "novelty": "The 41-entry ledger includes CPI, WPI, trade and unemployment releases but no September ICI release. Records 54, 156 and 176 are the same new release and receive explicit duplicate links rather than extra cards."
+    },
+    {
+      "id": "3bfe9f9d49e320740d67301d",
+      "factual_support": "The title attributes the possible 3.8-degree-above-average November-January El Nino outcome to WMO; the summary supplies a likely December peak, hotter temperatures and weaker rainfall with explicit India inclusion. Could, likely and expected preserve forecast status and no observed warming or rainfall amount is invented.",
+      "analysis": "Farm and water risks are stated conditionally if the projected weather materialises. The next signal is actual Indian rainfall and temperature observations, distinct from the mechanism and not a claim of current crop damage.",
+      "novelty": "The October 21 maize scarcity report is a different event about existing allocation competition. This is a newly captured named seasonal forecast, not a rewrite of that maize story; no earlier WMO seasonal event appears in the ledger."
+    },
+    {
+      "id": "fff1eadf714d2d0865f46d9a",
+      "factual_support": "The ET summary supports a completed extension through December 31 for the 10-lakh-tonne raw-sugar duty-free import window and only 3 lakh tonnes of imports amid price controls. The brief keeps quota and uptake distinct and does not turn the unused balance into cargoes already delivered.",
+      "analysis": "The mechanism explains why a longer window could ease supply while limited uptake remains a constraint. The watch sentence identifies actual arrivals as the observable test and adds no unsupported import target or price forecast.",
+      "novelty": "No sugar import-window extension appears in the 41-entry ledger. This implemented trade measure is distinct from yesterday's maize resource competition and from the selected weather forecast."
+    },
+    {
+      "id": "8451191a9c423a32e2562ecb",
+      "factual_support": "The ET title and summary establish finance ministry and RBI approvals obtained by NaBFID for a national infrastructure repository. Lender and investor information, and data sourced from agencies including NHAI, are supported; proposed platform wording avoids claiming a live repository or concluded financial-institution partnerships.",
+      "analysis": "Reduced financing information gaps is a bounded inference about the stated consolidated information purpose. The next signal is repository launch and coverage rather than invented financing volumes or approved project loans.",
+      "novelty": "The ledger's older logistics authority and SME fund are different actors and instruments. No NaBFID repository approval is present; this is not a repeat of an infrastructure order or a generic discussion."
+    },
+    {
+      "id": "60cd92734b1f58b1cdabace2",
+      "factual_support": "The single brief sentence is deliberately limited to the exact headline's Supreme Court statement that courts cannot suggest custodial interrogation, attributed to HT. The sparse summary supports an agency-discretion distinction but does not justify added bail conditions, statutory exceptions or universal prohibitions on custody, none of which are asserted.",
+      "analysis": "The mechanism interprets the narrow boundary as limiting judicial steering of interrogation choices while retaining agency responsibility; it does not claim immunity from judicial oversight. The next signal asks how later orders apply that same boundary.",
+      "novelty": "Earlier ledger court events concern poll affidavits, journalist digital demands, reservation and AT-1 bonds. None is this interrogation-suggestion ruling, so it is a distinct judicial development despite recurring court coverage."
+    },
+    {
+      "id": "c34f08541f72fc036194a8c5",
+      "factual_support": "The Mint summary establishes FSSAI notices, Lactogen Pro 1 and Nan Excella Pro Stage 1, scientific-evidence requests and a Complan notice with Zydus's factual-and-scientific response. Both sentences preserve notice status; no misleading-claim finding, ban or health-effect conclusion is asserted.",
+      "analysis": "The mechanism concerns marketing substantiation rather than medical effectiveness. Submissions and regulator response are observable next steps; the card does not predict a sanction or require families to change treatment or feeding choices.",
+      "novelty": "No nutrition-claim notice appears in history. Yesterday's CCPA explosive-platform action is a different regulator, product category and event; NDTV record 71 is explicitly grouped with this FSSAI notice event."
+    },
+    {
+      "id": "52d518d3462c7da9470b2352",
+      "factual_support": "The Mint Technology summary supports MeitY's probe and eight certificates. The brief omits the potentially ambiguous compromised adjective and attributes limited Indian impact and unaffected domestic digital signatures to the ministry. It does not claim exploited keys, stolen data, a nationwide outage or that government assurances are independently verified.",
+      "analysis": "Authentication risk is an inference tied to certificate controls and supported by the duplicate incident records; it remains a potential risk. Probe findings on misuse and required controls are future observations, not claims that misuse has already been proved.",
+      "novelty": "No eMudhra event is in the ledger. All related key-flaw, browser-blocking and ministry-response records are grouped under this incident rather than counted as multiple technology stories; SBI's data disclosure is a separate eligible alternative."
+    }
+  ]
+}

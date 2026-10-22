@@ -1,0 +1,171 @@
+{
+  "cards": [
+    {
+      "brief": "Core industries output grew 7.9% in September, up from 5.9% in August, according to commerce ministry data reported by Hindustan Times. September recorded the highest growth in the new Index of Core Industries series, which uses 2022-23 as its base year.",
+      "claims": [
+        {
+          "evidence": [
+            "Core sector industries output, as measured by the Index of Core Industries (ICI) stood at 7.9% in September, up from 5.9% in August, according to data released by Ministry of Commerce and Industry on Wednesday."
+          ],
+          "statement": "Core industries output grew 7.9% in September, up from 5.9% in August, according to commerce ministry data reported by Hindustan Times."
+        },
+        {
+          "evidence": [
+            "September output was the highest growth in the new ICI series, which has 2022-23 as its base year."
+          ],
+          "statement": "September recorded the highest growth in the new Index of Core Industries series, which uses 2022-23 as its base year."
+        }
+      ],
+      "headline": "Core sector growth rises to 7.9%, highest in new series",
+      "id": "c9c05450d22b2f5bb367d291",
+      "lane": "macro",
+      "mechanism": "Faster core-sector output can improve industrial supply, although the aggregate alone does not establish strength across every industry.",
+      "watch": "Watch the next sector breakdown for whether the acceleration broadens beyond the industries leading September's increase."
+    },
+    {
+      "brief": "The WMO says El Nino could reach 3.8°C above average between November and January. A December peak is likely, with higher temperatures and weaker rainfall expected in south and southeast Asia, including India.",
+      "claims": [
+        {
+          "evidence": [
+            "El Nino could be unprecedented, may rise to 3.8°C above average between Nov-Jan: WMO"
+          ],
+          "statement": "The WMO says El Nino could reach 3.8°C above average between November and January."
+        },
+        {
+          "evidence": [
+            "A peak is likely in December, with weather patterns to be disrupted globally, including higher than normal temperatures and weaker rainfall in south and southeast Asia, including India"
+          ],
+          "statement": "A December peak is likely, with higher temperatures and weaker rainfall expected in south and southeast Asia, including India."
+        }
+      ],
+      "headline": "El Nino could be unprecedented, may rise to 3.8°C above average between Nov-Jan: WMO",
+      "id": "3bfe9f9d49e320740d67301d",
+      "lane": "macro",
+      "mechanism": "The forecast points to risks for Indian water availability and crop production if hotter and drier conditions materialise.",
+      "watch": "Watch subsequent rainfall and temperature observations for whether the projected seasonal stress develops in India."
+    },
+    {
+      "brief": "The government extended the deadline for duty-free imports of 10 lakh tonnes of raw sugar to December 31. Economic Times reports that imports have reached only 3 lakh tonnes amid price-control measures.",
+      "claims": [
+        {
+          "evidence": [
+            "The government has extended the deadline for duty-free imports of 10 lakh tonnes of raw sugar to December 31"
+          ],
+          "statement": "The government extended the deadline for duty-free imports of 10 lakh tonnes of raw sugar to December 31."
+        },
+        {
+          "evidence": [
+            "domestic imports have lagged at just 3 lakh tonnes due to price control measures"
+          ],
+          "statement": "Economic Times reports that imports have reached only 3 lakh tonnes amid price-control measures."
+        }
+      ],
+      "headline": "Import window for duty-free raw sugar extended till Dec 31",
+      "id": "fff1eadf714d2d0865f46d9a",
+      "lane": "macro",
+      "mechanism": "A longer import window could ease sugar supply constraints, but limited uptake shows that permission alone may not draw in sufficient cargoes.",
+      "watch": "Watch actual import arrivals for evidence that the extension converts the unused allowance into additional supply."
+    },
+    {
+      "brief": "NaBFID has secured finance ministry and RBI approvals to establish a national repository of infrastructure projects. The proposed platform will consolidate project information for lenders and investors, drawing on government agencies including NHAI.",
+      "claims": [
+        {
+          "evidence": [
+            "NaBFID has obtained approvals from the finance ministry and the Reserve Bank of India to establish a national repository.",
+            "national infrastructure project repository"
+          ],
+          "statement": "NaBFID has secured finance ministry and RBI approvals to establish a national repository of infrastructure projects."
+        },
+        {
+          "evidence": [
+            "This repository will offer consolidated information on infrastructure projects for lenders and investors.",
+            "The platform aims to facilitate access to data sourced from various government agencies like NHAI and others."
+          ],
+          "statement": "The proposed platform will consolidate project information for lenders and investors, drawing on government agencies including NHAI."
+        }
+      ],
+      "headline": "NaBFID gets Finance Ministry, RBI nod for national infrastructure project repository",
+      "id": "8451191a9c423a32e2562ecb",
+      "lane": "macro",
+      "mechanism": "A consolidated project record could reduce information gaps that complicate infrastructure financing decisions.",
+      "watch": "Watch for the repository's launch and data coverage to assess whether the approvals produce a usable financing resource."
+    },
+    {
+      "brief": "The Supreme Court has said that courts cannot suggest custodial interrogation, Hindustan Times reports.",
+      "claims": [
+        {
+          "evidence": [
+            "Courts can’t suggest custodial quizzing, says Supreme Court"
+          ],
+          "statement": "The Supreme Court has said that courts cannot suggest custodial interrogation, Hindustan Times reports."
+        }
+      ],
+      "headline": "Courts can’t suggest custodial quizzing, says Supreme Court",
+      "id": "60cd92734b1f58b1cdabace2",
+      "lane": "national",
+      "mechanism": "The boundary limits judicial steering of investigative methods while leaving agencies responsible for their interrogation choices.",
+      "watch": "Watch subsequent orders for how courts apply this boundary when considering requests involving interrogation."
+    },
+    {
+      "brief": "FSSAI issued notices to Nestlé India seeking scientific evidence for claims about Lactogen Pro 1 and Nan Excella Pro Stage 1. Zydus Wellness also received a notice concerning Complan and said its claims are factual and backed by science.",
+      "claims": [
+        {
+          "evidence": [
+            "FSSAI has issued notices to Nestlé India over claims on Lactogen Pro 1 and Nan Excella Pro Stage 1, seeking scientific evidence."
+          ],
+          "statement": "FSSAI issued notices to Nestlé India seeking scientific evidence for claims about Lactogen Pro 1 and Nan Excella Pro Stage 1."
+        },
+        {
+          "evidence": [
+            "Zydus Wellness also received a notice over Complan, but said its claims are factual and backed by science."
+          ],
+          "statement": "Zydus Wellness also received a notice concerning Complan and said its claims are factual and backed by science."
+        }
+      ],
+      "headline": "FSSAI issues notices to Nestlé India, Zydus Wellness over product claims",
+      "id": "c34f08541f72fc036194a8c5",
+      "lane": "national",
+      "mechanism": "Requiring scientific substantiation can constrain how nutrition products are marketed to families.",
+      "watch": "Watch the companies' submissions and FSSAI's response for whether the notices lead to changes in product claims."
+    },
+    {
+      "brief": "MeitY ordered a probe into the eMudhra security incident involving eight digital certificates. The ministry said the impact on Indian websites and apps was limited and that domestic digital-signature services were not affected.",
+      "claims": [
+        {
+          "evidence": [
+            "MeitY has ordered a probe into the eMudhra security incident involving eight compromised digital certificates."
+          ],
+          "statement": "MeitY ordered a probe into the eMudhra security incident involving eight digital certificates."
+        },
+        {
+          "evidence": [
+            "The ministry said the impact on Indian websites and apps was limited and clarified that domestic digital signature services were not affected."
+          ],
+          "statement": "The ministry said the impact on Indian websites and apps was limited and that domestic digital-signature services were not affected."
+        }
+      ],
+      "headline": "eMudhra security incident: MeitY orders probe, says impact on Indian websites and apps was limited; details here",
+      "id": "52d518d3462c7da9470b2352",
+      "lane": "tech",
+      "mechanism": "Certificate-control weaknesses can undermine website authentication, making the scope of exposure central to the incident response.",
+      "watch": "Watch the probe findings for confirmed misuse and the control changes required of the certificate provider."
+    }
+  ],
+  "catalyst_review": "Reviewed the complete captured pool for Friday, October 23. The VanDyke hearing concerns an individual security prosecution with no established broader policy trigger; the Das-Ranka appearance concerns individual release conditions. GMDA's Friday water shutdown is a local utility alert. October 23 dividends, bonus and split record dates are shareholder-entitlement alerts, and the Jio IPO subscription close is a listing event. None warrants a distinct macro, strategy or technology catalyst. The Micron strike is October 22, the Vijayan hearing and surety review were October 21, the marches are October 25, other IPO and earnings dates are October 26 and 29, and the remaining programme or operating dates are in November or later. No qualifying distinct October 23 catalyst is established by captured RSS evidence.",
+  "catalysts": [],
+  "created_at": "2026-10-22T03:12:26.516440+00:00",
+  "date": "2026-10-22",
+  "hero": "Industrial output strengthened, while weather and sugar supply remain risks to India's production outlook. Today's slate also tracks infrastructure financing information, the limits on courts suggesting custodial interrogation, scrutiny of nutrition claims and the response to eMudhra's certificate incident.",
+  "hero_card_ids": [
+    "c9c05450d22b2f5bb367d291",
+    "3bfe9f9d49e320740d67301d",
+    "fff1eadf714d2d0865f46d9a",
+    "8451191a9c423a32e2562ecb",
+    "60cd92734b1f58b1cdabace2",
+    "c34f08541f72fc036194a8c5",
+    "52d518d3462c7da9470b2352"
+  ],
+  "issue": 16,
+  "run_id": "20261022T030142Z-b9a51285",
+  "schema_version": 2
+}
