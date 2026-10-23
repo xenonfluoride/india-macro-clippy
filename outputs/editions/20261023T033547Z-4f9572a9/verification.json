@@ -1,0 +1,61 @@
+{
+  "schema_version":2,
+  "verdict":"approved",
+  "reviewer":"Current Codex session, separate second semantic pass; no external or independent reviewer claimed",
+  "checked_at":"2026-10-23T03:49:15+00:00",
+  "input_hashes":{
+    "capture.json":"3e8e6c5f58a9500c02aa1029a2c80d094bd4bc8b4c4b06bf0892bbc63f1ccdc9",
+    "history.json":"06a6a22e2dae87d8abc4e04e63489fd859d3c0ae7dac0c5a610bcf2304f555cc",
+    "review.json":"add02071fe6c1e5fdf6e727360d260d7074723a6700e3721dd21d90498d4816e",
+    "edition.json":"92af3709a4bf977025cdbae50e3aff49a2c51c8f0f856f93b2b0ab3e89620ad8",
+    "market.json":"b7e2c83d35ed6d140434b9492750ce0f9339bd124a093cb11bc32366972425cf"
+  },
+  "template_sha256":"add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage":"Read every captured title and summary through context offsets 0, 40, 80, 120, 160, 200, 240, 280 and 320 with terminal next_offset null. Reread the truncated first output and the complete 40-79 batch in compact form; no truncated output counted as full review. All 344 records have authored event, actor/status, exposure, mechanism, confidence, materiality and disposition assessments. Sixty-three duplicates link directly to non-duplicate representatives, including Swiggy results versus its distinct inventory-model plan and eMudhra's exit versus the prior probe. Ninety-nine eligible alternatives include GSTN invoice categories, GST registration/refund plans, silver permits, Kent commissioning, Knauf capex, chipmaker customer pursuit, credit results and the fire-regime study. They were considered on substance, not feed lane or phrase vetoes. Seven higher-priority distinct events fill the slate. All 48 ledger entries were read; unchanged core output, sugar extension, NaBFID repository and the eMudhra probe are excluded. Thirteen feeds succeeded; both Hindu feeds returned 403 after three attempts, retained without outside supplementation. All four Yahoo daily-bar snapshots have positive values and recent ordered per-symbol timestamps; the recovered successful snapshot, not failed diagnostics, is the publication input.",
+  "hero":"Compared the final hero with all seven cards after the second-pass corrections. Groundworks and sourcing match the industrial and oil evidence; collateral relief is value-bounded in its card; braking standards remain proposed; trafficking guidance remains requested; RBI controls are directions and eMudhra exit is planned. The hero introduces no extra quantities, causation or claim of operational project completion.",
+  "catalysts":"Inspected date-specific records for Saturday October 24. The Telangana curtain-raiser is merely an expo preview without a procurement deliverable, and December main-event dates do not qualify. The Keralam forecast through October 25 covers weather risk but identifies no distinct October 24 release or material quantified disruption. Friday protests and checks, application close and Infosys review refer to October 23. Listing/allotment, October 28/29 results, November reforms and bypoll, cultural-programme dates and December appointment fall later. No supported distinct material October 24 catalyst remains. Empty catalysts therefore correctly produces one closing no-catalyst module, rather than inventing a hearing or economic release.",
+  "cards":[
+    {
+      "id":"331eb1677dd7f5aa9188a831",
+      "factual_support":"Business Standard's summary explicitly names the Coal India-BHEL joint venture, Odisha, Rs 25000 crore, ground construction and Peeyush Kumar's attribution, and quotes most tenders awarded. The brief preserves all of these without saying the plant is commissioned or allocating the national 100-million-tonne mission target to this project.",
+      "analysis":"Import substitution is explicitly conditional on commissioning and consistent with the summary's chemical-import rationale. The watch sentence asks for construction and commissioning evidence; it does not invent an operating date or forecast output.",
+      "novelty":"The 48-entry ledger has no BCGCL ground-construction milestone. This is distinct from prior renewable additions, green-ammonia financing and the NaBFID information repository. Today's Kent and Knauf capacity stories remain eligible alternatives, not duplicates."
+    },
+    {
+      "id":"556d386aa7650adef6db6abd",
+      "factual_support":"The RSS directly supports September West Asia imports of 2.8 million barrels per day and 54% of purchases, and Russian imports down 14% month-on-month to 1.8 million barrels per day. Ship-data attribution is retained, with no invented tracker, causal explanation or comparison period for the headline's pre-war phrase.",
+      "analysis":"Geographic supply exposure is a bounded inference from the sourcing mix. The watch asks for subsequent import data; no September mix is claimed to persist or guarantee cheaper oil.",
+      "novelty":"No published ledger entry covers September crude-source composition. The prior goods-trade release is a different dataset and the Saudi-flight disruption concerns travel, so this is a distinct fresh energy-sourcing report."
+    },
+    {
+      "id":"3e1932c1e1dcf9e226e82abc",
+      "factual_support":"Mint's title establishes Sebi easing after EPI and its summary specifies clearing corporations, trading or clearing members, subsequent client positions and the accepted-value ceiling. The brief keeps that ceiling and does not claim all margins are waived. EPI is left as captured rather than adding an expansion absent from title and summary; the review was also corrected to this boundary.",
+      "analysis":"Reduced additional collateral demand follows from the stated prohibition, within the accepted EPI value. Implementation and member-margin treatment are future observables, not a claimed liquidity amount or stock recommendation.",
+      "novelty":"The ledger contains no accepted-EPI margin instruction. This is distinct from earlier bank repo liquidity, foreign-investor tax documentation and Bajaj borrower restrictions; trading-tip and listing candidates were separately reviewed and rejected."
+    },
+    {
+      "id":"6d4c7d9765be62722cadce2f",
+      "factual_support":"Hindustan Times title supplies automatic emergency braking, while the summary labels the rule draft and gives October 2030 for new models and October 2032 for existing models still in production. The brief says proposed and retains both model scopes and dates without implying a current mandate.",
+      "analysis":"A staged design and integration path is an inference from the two-phase proposal. The next signal is final notification or changed dates; no quantified crash reduction, vehicle cost or adoption rate is invented.",
+      "novelty":"No ledger entry covers this braking draft. It differs from prior Maharashtra electric bike-taxi directions and today's separate learner-licence proposal; shared transport subject matter does not make them the same event."
+    },
+    {
+      "id":"2a082842f25ea221dd9804e5",
+      "factual_support":"The captured headline establishes the Supreme Court call to distinguish trafficking from voluntary sex work; the summary assigns guideline work to the National Judicial Academy and a fresh pre-hearing compliance report to the Centre. The brief preserves the distinction between requested future guidelines and an already issued final framework.",
+      "analysis":"The coercion-versus-voluntary distinction is expressed as a potential benefit of clearer magistrate guidance, not a newly enacted statutory test. The watch names the two deliverables in the RSS and invents neither a hearing date nor a completed compliance report.",
+      "novelty":"The ledger's court cards concern custodial questioning, false poll affidavits, digital notices, reservation and bank bonds. None covers this trafficking-guidance direction; today's vacation-listing recommendation is a separate eligible alternative."
+    },
+    {
+      "id":"18717e6595940c70d71aaa4c",
+      "factual_support":"The Economic Times summary supports public-interface removal, administrative MFA, least-privilege cloud/backend access, exposed-credential auditing and immediate rotation/purge. The separate check added the headline's in-case-of-data-breach condition to the final brief and evidence mapping, then reread the amended card. No particular bank breach or completed remediation is claimed.",
+      "analysis":"Limiting privileged pathways and replacing compromised credentials is a conditional security mechanism, not a quantified safety guarantee. The revised watch asks how entities implement the directions, without implying actual bank remediation disclosures already exist.",
+      "novelty":"The ledger has no RBI credential-remediation direction. It is distinct from eMudhra's certificate-provider withdrawal and the global PHP flaw; feed assignment is changed from macro to technology because the operative content is cyber controls."
+    },
+    {
+      "id":"d956db696973af678b613478",
+      "factual_support":"Mint's summary supports the planned SSL/TLS business exit, weak keys in eight issuing certification authorities and the company's statement of revocation within 14 hours with no data breach. The brief correctly says authorities, not eight customer certificates, and keeps no-breach and revocation claims attributed to the company.",
+      "analysis":"Migration and certificate-supply implications are qualified as possible consequences of a planned withdrawal. The watch seeks an exit timetable and customer arrangements rather than asserting all customers must migrate immediately or domestic signatures were impaired.",
+      "novelty":"Explicit update links yesterday's MeitY eight-certificate probe event. Newly captured withdrawal is a concrete corporate decision absent from yesterday's limited-impact/probe summary; multiple exit records corroborate the same event and occupy no additional card. Incident explainers and repeated ministry assurances remain grouped under the older probe representative."
+    }
+  ]
+}

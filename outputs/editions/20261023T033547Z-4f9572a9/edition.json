@@ -1,0 +1,172 @@
+{
+  "issue": 17,
+  "date": "2026-10-23",
+  "hero": "Construction and crude sourcing lead today's real-economy signals: BCGCL reports groundworks in Odisha as September ship data show a shift in India's oil suppliers. Sebi eases collateral demands, the road ministry proposes future braking standards, and the Supreme Court seeks clearer trafficking guidance. Digital trust brings both RBI security directions and eMudhra's planned certificate-business exit.",
+  "catalysts": [],
+  "catalyst_review": "Reviewed all 344 records for October 24, 2026. Telangana's Saturday defence-expo curtain-raiser is a promotional gathering without a stated procurement or policy deliverable; the main expo is in December. IMD's Keralam rain forecast through October 25 spans tomorrow but names no distinct October 24 release, decision or quantified macro disruption. Jio and Paras application close and Infosys board review are October 23, not tomorrow; allotment, listing, Coal India and Vedanta results fall later. The Friday anti-EC march and Uttarakhand EVM checks refer to October 23 and are not tomorrow's catalysts. November GST changes, the Rajya Sabha bypoll, the Kashi programme and ONGC's December appointment are outside tomorrow. No distinct, material, date-specific October 24 catalyst qualifies.",
+  "cards": [
+    {
+      "brief": "BCGCL, the Coal India and BHEL joint venture, has begun ground construction on its ₹25,000-crore coal gasification project in Odisha, managing director Peeyush Kumar said. He said most tenders had been awarded.",
+      "mechanism": "If commissioned, coal-to-chemical capacity could reduce dependence on imported products such as ammonia and methanol.",
+      "watch": "Watch for construction milestones and commissioning dates to test whether awarded tenders translate into operating capacity.",
+      "claims": [
+        {
+          "statement": "BCGCL, the Coal India and BHEL joint venture, has begun ground construction on its ₹25,000-crore coal gasification project in Odisha, managing director Peeyush Kumar said.",
+          "evidence": [
+            "Bharat Coal Gasification and Chemicals Ltd (BCGCL), the joint venture of Coal India Ltd (CIL) and BHEL, has started ground construction activities for its Rs 25,000 crore coal gasification project in Odisha, with most of the tenders awarded, its Managing Director Peeyush Kumar said on Thursday."
+          ]
+        },
+        {
+          "statement": "He said most tenders had been awarded.",
+          "evidence": [
+            "Most of the tenders have been awarded and construction has started"
+          ]
+        }
+      ],
+      "id": "331eb1677dd7f5aa9188a831",
+      "lane": "macro",
+      "headline": "BCGCL begins construction work on ₹25,000 crore coal gasification project"
+    },
+    {
+      "brief": "India imported 2.8 million barrels a day of West Asian crude in September, representing 54% of purchases, according to ship data reported by Business Standard. Imports of Russian oil fell 14% from the previous month to 1.8 million barrels a day.",
+      "mechanism": "The sourcing shift changes India's geographic supply exposure and the balance of procurement options available to refiners.",
+      "watch": "Watch subsequent import data for whether the September mix persists as refiners adjust their sourcing.",
+      "claims": [
+        {
+          "statement": "India imported 2.8 million barrels a day of West Asian crude in September, representing 54% of purchases, according to ship data reported by Business Standard.",
+          "evidence": [
+            "India's West Asia crude imports rose to 2.8 mn barrels per day in September, accounting for 54% of purchases",
+            "ship data showed"
+          ]
+        },
+        {
+          "statement": "Imports of Russian oil fell 14% from the previous month to 1.8 million barrels a day.",
+          "evidence": [
+            "Russian oil imports fell 14% month-on-month to 1.8 million bpd"
+          ]
+        }
+      ],
+      "id": "556d386aa7650adef6db6abd",
+      "lane": "macro",
+      "headline": "India's West Asia oil imports hit pre-war levels; Russian crude falls"
+    },
+    {
+      "brief": "Sebi has eased margin rules for trades after EPI, Mint reported. Clearing corporations must not collect additional margins from trading or clearing members on clients’ subsequent positions up to the value of accepted EPI.",
+      "mechanism": "The relief can reduce additional collateral demands for subsequent positions within the accepted EPI value.",
+      "watch": "Watch how clearing corporations implement the value limit and reflect the relief in member margin requirements.",
+      "claims": [
+        {
+          "statement": "Sebi has eased margin rules for trades after EPI, Mint reported.",
+          "evidence": [
+            "Sebi eases margin rules for trades post EPI"
+          ]
+        },
+        {
+          "statement": "Clearing corporations must not collect additional margins from trading or clearing members on clients’ subsequent positions up to the value of accepted EPI.",
+          "evidence": [
+            "Clearing corporations must not collect additional margins from trading or clearing members on clients’ subsequent positions, up to the value of EPI they have accepted."
+          ]
+        }
+      ],
+      "id": "3e1932c1e1dcf9e226e82abc",
+      "lane": "macro",
+      "headline": "Sebi eases margin rules for trades post EPI"
+    },
+    {
+      "brief": "The road ministry has proposed automatic emergency braking systems for new car models from October 2030 and for existing models still in production from October 2032, Hindustan Times reported.",
+      "mechanism": "The proposed timetable gives carmakers a staged path to integrate braking systems into new designs and continuing models.",
+      "watch": "Watch for final notification and any changes to the two proposed implementation dates.",
+      "claims": [
+        {
+          "statement": "The road ministry has proposed automatic emergency braking systems for new car models from October 2030 and for existing models still in production from October 2032, Hindustan Times reported.",
+          "evidence": [
+            "Govt proposes mandatory automatic emergency braking in new car models from October 2030",
+            "The road ministry's draft rules propose AEBS for new car models from October 2030 and all existing models still in production from October 2032."
+          ]
+        }
+      ],
+      "id": "6d4c7d9765be62722cadce2f",
+      "lane": "national",
+      "headline": "Govt proposes mandatory automatic emergency braking in new car models from October 2030"
+    },
+    {
+      "brief": "The Supreme Court has called for distinguishing human trafficking from voluntary sex work, Hindustan Times reported. The National Judicial Academy has been asked to frame guidelines for magistrates, and the Centre must submit a fresh compliance report before the next hearing.",
+      "mechanism": "Clearer guidance could help magistrates distinguish coercion from voluntary activity when applying legal protections.",
+      "watch": "Watch for the academy's guidelines and the Centre's compliance report at the next hearing.",
+      "claims": [
+        {
+          "statement": "The Supreme Court has called for distinguishing human trafficking from voluntary sex work, Hindustan Times reported.",
+          "evidence": [
+            "Supreme Court calls for setting human trafficking apart from voluntary sex work"
+          ]
+        },
+        {
+          "statement": "The National Judicial Academy has been asked to frame guidelines for magistrates, and the Centre must submit a fresh compliance report before the next hearing.",
+          "evidence": [
+            "The National Judicial Academy has been asked to frame guidelines for magistrates, while the Centre must submit a fresh compliance report before the next hearing"
+          ]
+        }
+      ],
+      "id": "2a082842f25ea221dd9804e5",
+      "lane": "national",
+      "headline": "Supreme Court calls for setting human trafficking apart from voluntary sex work"
+    },
+    {
+      "brief": "For cases involving a data breach, the RBI has asked financial entities to remove management and administrative interfaces from public internet access, require multi-factor authentication for administrative access, and restrict cloud and backend access on a least-privilege basis, The Economic Times reported. The measures also include auditing for exposed credentials and immediately rotating and purging compromised credentials.",
+      "mechanism": "Restricting privileged access and replacing compromised credentials can limit the paths through which a breach spreads into financial systems.",
+      "watch": "Watch how financial entities translate the directions into access controls and breach-response procedures.",
+      "claims": [
+        {
+          "statement": "For cases involving a data breach, the RBI has asked financial entities to remove management and administrative interfaces from public internet access, require multi-factor authentication for administrative access, and restrict cloud and backend access on a least-privilege basis, The Economic Times reported.",
+          "evidence": [
+            "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+            "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis."
+          ]
+        },
+        {
+          "statement": "The measures also include auditing for exposed credentials and immediately rotating and purging compromised credentials.",
+          "evidence": [
+            "The measures include auditing source code, repositories, configuration files, client applications and cloud storage for exposed credentials, and immediately rotating and purging compromised credentials."
+          ]
+        }
+      ],
+      "id": "18717e6595940c70d71aaa4c",
+      "lane": "tech",
+      "headline": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach"
+    },
+    {
+      "brief": "eMudhra will leave the SSL/TLS certificate business after weak keys were found in eight issuing certification authorities, Mint reported. The company said it revoked affected authorities within 14 hours and reported no data breach.",
+      "mechanism": "The planned withdrawal could prompt website customers to reassess certificate supply and migration needs.",
+      "watch": "Watch for the withdrawal timetable and customer migration arrangements as the exit proceeds.",
+      "claims": [
+        {
+          "statement": "eMudhra will leave the SSL/TLS certificate business after weak keys were found in eight issuing certification authorities, Mint reported.",
+          "evidence": [
+            "eMudhra will exit its SSL/TLS certificate business after weak keys were found in eight of its issuing certification authorities."
+          ]
+        },
+        {
+          "statement": "The company said it revoked affected authorities within 14 hours and reported no data breach.",
+          "evidence": [
+            "The company said it revoked affected authorities within 14 hours and reported no data breach."
+          ]
+        }
+      ],
+      "id": "d956db696973af678b613478",
+      "lane": "tech",
+      "headline": "eMudhra to exit website security certification business after security weakness, company says no data breach—All we know"
+    }
+  ],
+  "schema_version": 2,
+  "run_id": "20261023T033547Z-4f9572a9",
+  "created_at": "2026-10-23T03:49:04.758040+00:00",
+  "hero_card_ids": [
+    "331eb1677dd7f5aa9188a831",
+    "556d386aa7650adef6db6abd",
+    "3e1932c1e1dcf9e226e82abc",
+    "6d4c7d9765be62722cadce2f",
+    "2a082842f25ea221dd9804e5",
+    "18717e6595940c70d71aaa4c",
+    "d956db696973af678b613478"
+  ]
+}
