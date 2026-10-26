@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "run_id": "20261026T025658Z-7b8d82c1",
+  "created_at": "2026-10-26T03:12:28.178799+00:00",
+  "date": "2026-10-26",
+  "issue": 18,
+  "hero": "Filing relief and import protection lead India's rule changes, while grid orders and a conditional jewellery acquisition put execution in focus. Presidential assent advances Frontier Nagaland's authority framework, the Election Commission orders statewide scrutiny in Uttar Pradesh, and RBI's Odisha data centre reaches its inauguration milestone.",
+  "hero_card_ids": [
+    "c88e1660497da1a67baeb3e7",
+    "b81a9b546bd091884b3ee84c",
+    "30ccc03af614fb37b13c880f",
+    "0681ff0769cd307647a64d59",
+    "c385b8bd7fd2b836fc8caaf6",
+    "e911c736cd3d4b1507a5e6e3",
+    "a7d9da48d1913933798c8035"
+  ],
+  "cards": [
+    {
+      "id": "c88e1660497da1a67baeb3e7",
+      "lane": "macro",
+      "headline": "Govt extends deadlines for cos to file annual financial statements, returns",
+      "brief": "The corporate affairs ministry has extended the deadline for companies' FY2025-26 annual financial statements to December 31, 2026, and annual returns to January 31, 2027. Its October 24 circular allows the filings without an additional fee after stakeholders reported difficulties submitting them through the MCA21 portal.",
+      "mechanism": "The extension can reduce penalty exposure and give companies more time to clear filing backlogs.",
+      "watch": "Watch whether portal submissions improve before the two revised deadlines.",
+      "claims": [
+        {
+          "statement": "The corporate affairs ministry has extended the deadline for companies' FY2025-26 annual financial statements to December 31, 2026, and annual returns to January 31, 2027.",
+          "evidence": [
+            "The corporate affairs ministry has extended the deadline for companies to file their annual financial statements for the fiscal 2025-26 till December 31.",
+            "for the financial year 2025-26 can be filed up to December 31, 2026.",
+            "For the 2025-26 fiscal year, annual returns in e-forms MGT-7 and MGT-7A can be submitted till January 31, 2027."
+          ]
+        },
+        {
+          "statement": "Its October 24 circular allows the filings without an additional fee after stakeholders reported difficulties submitting them through the MCA21 portal.",
+          "evidence": [
+            "The extension of deadlines follow representations from stakeholders as they were facing issues in submitting the annual statutory filings through the MCA 21 portal.",
+            "According to the circular dated October 24, the ministry said that in view of the representations received and to enable companies to complete their annual statutory filings, the deadlines have been extended without paying an additional fee."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b81a9b546bd091884b3ee84c",
+      "lane": "macro",
+      "headline": "India brings back duties on specified Chinese titanium dioxide imports",
+      "brief": "India has reintroduced anti-dumping duties on specified titanium dioxide imports from China following a Directorate General of Trade Remedies recommendation. Economic Times reports the duties will apply for five years unless revoked or amended, after a finding of dumped prices and material injury to domestic producers.",
+      "mechanism": "The duties can protect domestic producers while increasing procurement costs for users reliant on the affected imports.",
+      "watch": "Watch how importers adjust sourcing and whether domestic suppliers can meet the resulting demand.",
+      "claims": [
+        {
+          "statement": "India has reintroduced anti-dumping duties on specified titanium dioxide imports from China following a Directorate General of Trade Remedies recommendation.",
+          "evidence": [
+            "India brings back duties on specified Chinese titanium dioxide imports",
+            "India has reintroduced anti-dumping duties on titanium dioxide imports from China due to material injury caused to domestic producers.",
+            "This action follows a recommendation from the Directorate General of Trade Remedies"
+          ]
+        },
+        {
+          "statement": "Economic Times reports the duties will apply for five years unless revoked or amended, after a finding of dumped prices and material injury to domestic producers.",
+          "evidence": [
+            "The duties will be effective for five years unless revoked or amended.",
+            "due to material injury caused to domestic producers",
+            "which concluded that Chinese imports were sold at dumped prices."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30ccc03af614fb37b13c880f",
+      "lane": "macro",
+      "headline": "KEC International shares in focus on Monday Oct 26 after ₹2872 cr PGCIL order win; YTD orders mark crosses ₹13.5k cr",
+      "brief": "KEC International has secured ₹2,872 crore in turnkey orders from Power Grid Corporation for 765 kV transmission lines linked to evacuating 8.5 GW of renewable energy in Gujarat. The orders take its year-to-date intake above ₹13,500 crore, according to Mint.",
+      "mechanism": "The contracts can strengthen renewable-power evacuation by adding transmission links that move generation to users.",
+      "watch": "Watch project execution and commissioning milestones to track delivery of the awarded transmission infrastructure.",
+      "claims": [
+        {
+          "statement": "KEC International has secured ₹2,872 crore in turnkey orders from Power Grid Corporation for 765 kV transmission lines linked to evacuating 8.5 GW of renewable energy in Gujarat.",
+          "evidence": [
+            "KEC International secured ₹2,872 crore in turnkey orders from Power Grid Corporation for 765 kV transmission lines linked to evacuating 8.5 GW of renewable energy in Gujarat."
+          ]
+        },
+        {
+          "statement": "The orders take its year-to-date intake above ₹13,500 crore, according to Mint.",
+          "evidence": [
+            "The wins mark a record for its domestic T&D business and take year-to-date order intake above ₹13,500 crore."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0681ff0769cd307647a64d59",
+      "lane": "macro",
+      "headline": "Senco Gold to acquire 68% stake in August Jewellery for ₹68 crore",
+      "brief": "Senco Gold said it has signed agreements to acquire a 68% stake in August Jewellery, which operates Melorra, for ₹68 crore. The investment will occur in multiple tranches, with completion targeted by February 2027 subject to specified conditions, the company said in a regulatory filing. It said the fresh equity funds are intended for growth, expansion and the discharge of existing liabilities.",
+      "mechanism": "The investment can combine Melorra's design and e-commerce capabilities with Senco's existing business while funding August Jewellery.",
+      "watch": "Watch the tranche payments and fulfilment of closing conditions before treating the acquisition as complete.",
+      "claims": [
+        {
+          "statement": "Senco Gold said it has signed agreements to acquire a 68% stake in August Jewellery, which operates Melorra, for ₹68 crore.",
+          "evidence": [
+            "Senco Gold Ltd on Sunday said it has signed agreements to acquire a 68 per cent stake in August Jewellery Pvt Ltd, which operates the 'Melorra' brand, for Rs 68 crore."
+          ]
+        },
+        {
+          "statement": "The investment will occur in multiple tranches, with completion targeted by February 2027 subject to specified conditions, the company said in a regulatory filing.",
+          "evidence": [
+            "The investment will be made in multiple tranches, with completion targeted by February 2027, subject to fulfilment of specified conditions, the company said in a regulatory filing."
+          ]
+        },
+        {
+          "statement": "It said the fresh equity funds are intended for growth, expansion and the discharge of existing liabilities.",
+          "evidence": [
+            "The investment will happen through fresh equity issuance, with the funds intended for the company's growth and expansion, and the discharge of existing liabilities, the filing said."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c385b8bd7fd2b836fc8caaf6",
+      "lane": "national",
+      "headline": "President Droupadi Murmu gives assent to Frontier Nagaland Territorial Authority Bill",
+      "brief": "President Droupadi Murmu has given assent to the Frontier Nagaland Territorial Authority Bill. Nagaland chief minister Neiphiu Rio announced this on Sunday and thanked the President in a post on X.",
+      "mechanism": "Assent advances the authority's legal foundation, making the details of implementation the next test of the governance change.",
+      "watch": "Watch for published implementation details on the authority's powers, commencement and administrative arrangements.",
+      "claims": [
+        {
+          "statement": "President Droupadi Murmu has given assent to the Frontier Nagaland Territorial Authority Bill.",
+          "evidence": [
+            "President Droupadi Murmu gives assent to Frontier Nagaland Territorial Authority Bill"
+          ]
+        },
+        {
+          "statement": "Nagaland chief minister Neiphiu Rio announced this on Sunday and thanked the President in a post on X.",
+          "evidence": [
+            "Announcing this on Sunday, Nagaland chief minister Neiphiu Rio thanked President Murmu in a post on X."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e911c736cd3d4b1507a5e6e3",
+      "lane": "national",
+      "headline": "Election Commission orders statewide scrutiny of Uttar Pradesh voter list entries, deletions post-SIR",
+      "brief": "The Election Commission has ordered statewide scrutiny of Uttar Pradesh voter-list entries and deletions after SIR. Divisional commissioners will supervise the work, while electoral officers must promptly review applications, resolve complaints and remove duplicate entries, according to Hindustan Times.",
+      "mechanism": "Supervised scrutiny can improve roll accuracy, with access to complaint resolution central to protecting eligible voters.",
+      "watch": "Watch how electoral officers report complaint disposal, corrections and duplicate removals under the statewide exercise.",
+      "claims": [
+        {
+          "statement": "The Election Commission has ordered statewide scrutiny of Uttar Pradesh voter-list entries and deletions after SIR.",
+          "evidence": [
+            "Election Commission orders statewide scrutiny of Uttar Pradesh voter list entries, deletions post-SIR"
+          ]
+        },
+        {
+          "statement": "Divisional commissioners will supervise the work, while electoral officers must promptly review applications, resolve complaints and remove duplicate entries, according to Hindustan Times.",
+          "evidence": [
+            "Divisional commissioners will supervise the work, while electoral officers must promptly review applications, resolve complaints and remove duplicate entries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a7d9da48d1913933798c8035",
+      "lane": "tech",
+      "headline": "PM inaugurates RBI's Rs 169-cr data centre, Cybersecurity Training Institute in Odisha",
+      "brief": "The prime minister has inaugurated RBI's ₹169-crore data centre and Cybersecurity Training Institute in Odisha. The government said the data centre will host mission-critical payment and settlement systems, along with other flagship initiatives.",
+      "mechanism": "Dedicated infrastructure and cybersecurity training can strengthen the resilience of essential financial systems.",
+      "watch": "Watch for system-hosting and training milestones that show how the inaugurated facilities are put to use.",
+      "claims": [
+        {
+          "statement": "The prime minister has inaugurated RBI's ₹169-crore data centre and Cybersecurity Training Institute in Odisha.",
+          "evidence": [
+            "PM inaugurates RBI's Rs 169-cr data centre, Cybersecurity Training Institute in Odisha"
+          ]
+        },
+        {
+          "statement": "The government said the data centre will host mission-critical payment and settlement systems, along with other flagship initiatives.",
+          "evidence": [
+            "The data centre will host mission-critical payment and settlement systems, along with other flagship initiatives, the government said in a statement."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed the complete pool for October 27, 2026. Candidate 185 specifies Jio IPO refunds and demat credits on October 27; candidate 221 gives MK Sons anchor bidding on October 27; candidate 73 spans IT dividend record dates from October 26 to 30; these are investor-allocation or entitlement alerts rather than substantive catalysts. Candidate 229 ends OnePlus tablet and audio promotions on October 27, a consumer sale deadline. Candidate 106 identifies an October 27-28 FOMC meeting, but supplies no distinct October 27 decision or India-specific deliverable; do not move its decision into tomorrow. Candidate 156 has a three-day rainfall alert covering tomorrow without a distinct dated event, and candidate 158 gives port warnings without an October 27 action. October 26 allotments and court appearance are today; November 1 rallies, chief-secretary transition and wearable preorders, November 12 march, December trade talks, December 31 exits, and January filing deadlines are later. No distinct, sufficiently evidenced October 27 catalyst qualifies."
+}

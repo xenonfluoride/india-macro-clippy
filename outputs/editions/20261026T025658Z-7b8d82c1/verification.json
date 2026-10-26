@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate second semantic pass; no independent reviewer claimed",
+  "checked_at": "2026-10-26T03:14:28.635332+00:00",
+  "input_hashes": {
+    "capture.json": "a7598a573586a540dea4ecfb8fc222453db36d33bd5bd362528894057356fd3f",
+    "history.json": "1dfb66366bb1b649384833b4e039c6660c90b6746da2bccacba1771692423c14",
+    "review.json": "5c09e9649a552c773210ad9b1f8433535c26b9ba80c8d2525fca9103dd7d98c8",
+    "edition.json": "f38152089e5adcc39f70cee11deda5ca340343fce53bbc4add619ef91aa7ff63",
+    "market.json": "a0f8d02481fcb88ac11d75540b7cf27a8919369d4262ed2aa8d7ea3da423ad96"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 232 fresh candidates using bounded context commands at offsets 0, 40, 80, 120, 140, 180 and 220, ending next_offset=null; compact re-reads recovered truncated displays. Authored one case-specific event, actor, status, exposure, mechanism, confidence and disposition for each, including rejected-looking crime, stock advice and consumer records. Seven selected, 70 eligible, 28 direct duplicate links and 127 rejected. Assessed actual earnings embedded in stock headlines, named reports and conditional proposals without keyword vetoes. Reviewed all 55 history entries. Strong alternatives included Microtek solar investment, Arvind textile inauguration, CoinDCX old-wallet loss disclosure, ISRO roadmap, ECI software RTI refusal, Bihar teacher AI training and NCERT curriculum. They were retained with bounded status and confidence, not falsely labelled unsupported merely for being unselected. Four macro cards reflect global materiality ranking rather than a lane cap or source quota. Thirteen feeds succeeded; both Hindu feeds returned 403 after three attempts and no outside facts were substituted. Separate Yahoo payload has all four instruments with distinct observation timestamps; Friday equity bars remain within the 96-hour weekend ceiling, while Monday FX and oil observations are daily-bar snapshots, not promised closes.",
+  "hero": "Reread the final hero against all seven cards. Filing relief maps to MCA, import protection to titanium dioxide duties, grid orders to KEC, conditional acquisition to Senco, assent to Frontier Nagaland, statewide scrutiny to UP and inauguration to RBI Odisha. It claims neither acquisition closing, operating grid capacity, voter deletions completed nor payment-system migration. New edition number 18 and IST date October 26 follow accepted Issue 17; no prior hero was reused.",
+  "catalysts": "Checked October 27 against all captured dated items. Jio refunds/demat credits, MK Sons anchor bidding and the October 26-30 IT record-date range are investor processing or entitlement notices. OnePlus sale end is a retail promotion. The FOMC meeting spans October 27-28 and establishes no distinct October 27 decision in RSS, so no decision date is advanced. Three-day Tamil Nadu rainfall warnings cover tomorrow but provide no separately dated action or landfall. Today's allotment and case appearance, November 1 rallies/appointment/preorders, November 12 march, December exit and trade plans, and later filing deadlines are outside tomorrow. Empty catalysts is therefore deliberate, with one closing module supplied by the unchanged template.",
+  "cards": [
+    {
+      "id": "c88e1660497da1a67baeb3e7",
+      "factual_support": "The summary explicitly distinguishes FY2025-26 financial statements due December 31, 2026 from annual returns due January 31, 2027; both dates, the October 24 circular, portal difficulties and no additional fee are covered by exact spans. No claim that all statutory duties are waived is made.",
+      "analysis": "Penalty exposure and backlog relief are conditional mechanisms of extra filing time. Watching submission performance before both deadlines adds an observable next signal without inventing portal recovery data or new fees.",
+      "novelty": "No MCA annual-filing extension appears among the 55 ledger events. It differs from CBDT Form 173A tax-exemption disclosure and unrelated NSAP or sugar-import extensions; the explicit October 24 circular is new evidence, not old news relabelled."
+    },
+    {
+      "id": "b81a9b546bd091884b3ee84c",
+      "factual_support": "Title supports specified Chinese imports; summary supports reintroduction, DGTR recommendation, dumped-price conclusion, material injury and five years unless revoked or amended. No duty rate, product coverage expansion or exact imposition date is invented; the Economic Times attribution preserves report provenance.",
+      "analysis": "Domestic protection versus importer procurement cost is a conditional trade-remedy mechanism. Sourcing changes and domestic response are future signals, not claims that prices or output have already moved.",
+      "novelty": "History's China machinery controls concern Chinese exports of infrastructure equipment, whereas this is India's reinstated import remedy on titanium dioxide. No matching Indian titanium-dioxide duty event or source URL is in the ledger."
+    },
+    {
+      "id": "30ccc03af614fb37b13c880f",
+      "factual_support": "Mint's summary directly supports 2872 crore in turnkey orders from Power Grid Corporation, 765 kV lines, 8.5 GW renewable-energy evacuation in Gujarat and over 13500 crore YTD intake. The original stock-focused headline is preserved, but the brief reports actual orders rather than trading advice or completed infrastructure.",
+      "analysis": "Reread the revised mechanism: it describes what transmission links can enable without asserting an unsupported existing construction lag. The watch sentence asks for execution and commissioning, preserving the award-versus-delivery distinction.",
+      "novelty": "No KEC-PGCIL order appears in the publication ledger. Tata Power's earlier commissioned generation additions and AM Green ammonia financing are different actors, projects and action stages, so the shared renewable-energy theme is not an event repeat."
+    },
+    {
+      "id": "0681ff0769cd307647a64d59",
+      "factual_support": "Company filing evidence supports signed agreements, 68 percent for 68 crore, Melorra identity, tranches, conditional February 2027 target and fresh-equity uses. The brief does not conflate the separate promoter-group investment or 79 percent combined stake with Senco's own 68 percent, and never states the deal has closed.",
+      "analysis": "Combining design/e-commerce capabilities with Senco's existing business is explicitly conditional analysis supported by the stated omnichannel rationale. Revised wording names August Jewellery as the funding target, avoiding any implication that control has already transferred; closing conditions and tranche payments are observable next steps.",
+      "novelty": "The 55 ledger entries contain no Senco-August/Melorra transaction. Earlier Fairfax-IDBI approval is an unrelated banking restructuring; this conditional jewellery investment is a distinct newly announced signed agreement."
+    },
+    {
+      "id": "c385b8bd7fd2b836fc8caaf6",
+      "factual_support": "The title supports President Murmu's assent and the summary identifies Rio's Sunday announcement and thanks on X. Neither text states the authority's powers, districts, funding or commencement; the brief adds none of those details and does not declare the authority operational.",
+      "analysis": "Legal foundation advancing through assent is a bounded institutional inference. The revised watch asks for published implementation details on powers and commencement rather than assuming a specific notification or operational schedule already exists.",
+      "novelty": "No Frontier Nagaland authority event appears in history. It is distinct from Karnataka reservation adjudication, CISF command realignment and other constitutional or administrative developments, with fresh assent as the action."
+    },
+    {
+      "id": "e911c736cd3d4b1507a5e6e3",
+      "factual_support": "Headline establishes statewide scrutiny of post-SIR UP entries and deletions; the exact summary specifies commissioner supervision and electoral officers' application, complaint and duplicate duties. No claim of proven statewide fraud, automatic deletion, completed corrections or new voter eligibility criteria is inserted.",
+      "analysis": "Roll accuracy and protection through complaint access are conditional governance mechanisms. The next signal is reported complaint disposal, corrections and removals, not a prediction about party advantage or the result of scrutiny.",
+      "novelty": "The published ECI event required searchable PDFs for parties. This is a new statewide operational review in UP with supervisory duties. The current pool's Azamgarh disciplinary direction, Form-8 allegations and SIR software RTI refusal are related but different events and are explicitly assessed rather than merged into the card."
+    },
+    {
+      "id": "a7d9da48d1913933798c8035",
+      "factual_support": "Selected YourStory title supports the prime minister's inauguration, RBI, 169 crore, Odisha and the training institute. Its summary supports the government's future mission-critical payment/settlement hosting statement. Removed the full personal name from this representative's brief and review because it appears only in duplicate coverage; final text says the prime minister. Inauguration is not described as system migration or completed hosting.",
+      "analysis": "Infrastructure plus training can strengthen resilience as conditional analysis. Watching hosting and training milestones keeps intended use separate from proven operational performance; no claimed security effectiveness, throughput or uptime is added.",
+      "novelty": "History's RBI breach-remediation directions addressed financial entities' access and credential controls, not the commissioning ceremony for new Odisha facilities. The duplicate HT inauguration record is linked to this representative, and no ledger entry reports this infrastructure event."
+    }
+  ]
+}
