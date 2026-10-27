@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex current model session, separate second evidence-check pass; no independent reviewer claimed",
+  "candidate_coverage": "Read all 319 fresh candidates through context offsets 0, 40, 80, 120, 160, 200, 240 and 280, ending next_offset=null; used compact complete candidate outputs and reread all 62 history entries separately after the combined history output was truncated. Authored 319 case-specific assessments: seven selected, 108 eligible alternatives, 63 explicit same-event duplicate links and 141 rejections. Inspected actual operations inside stock-focused headlines, including paper, coal, bank and EV earnings. Did not use feed-lane quotas, keyword vetoes or outside article facts. Material alternatives include Paytm and Ather results, MoSPI project overruns, BPCL procurement expectations, Rajasthan drought declaration, ASUSE redesign, LTTS-Nokia's contract, the DPDP challenge and Censor Board data exposure. Excluded the contradictory outward-FDI direction and Kay Beauty valuation/GMV metric. Rechecked duplicate representative dispositions; all links point directly to non-duplicate assessments. Review and capture counts agree, and no capture command authored the editorial decisions.",
+  "hero": "The hero names the E100 route and exporter-cover extension, distinguishes defence approvals from the provisional Iveco bid milestone, and distinguishes inaugurated chip-engineering centres from a planned fibre network. Its clean-air outcome framing is supported by the seventh selected event. Every card is covered by hero_card_ids; the hero introduces no new number, date, actor, realised spending or completed acquisition.",
+  "catalysts": "Exactly one distinct catalyst is supported: NDTV explicitly forecasts Cyclone Arnab crossing Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam by the forenoon of October 28, with 115-125 kmph winds and gusts to 140 kmph. The text preserves forecast status and treats transport disruption as a signal to observe. October 28 is tomorrow in IST for the October 27 edition. HT records 104 and 183 corroborate the calendar date; the inconsistent Thursday wording in record 298 was not used as authority. All cyclone coverage is clustered under a non-selected representative. Jio listing and dividend record dates are investor alerts, the custody endpoint is case-specific, and Garena has not confirmed the speculative October 28 launch. Later and same-day dates were inspected and excluded. Renderer supplies the single closing catalyst module.",
+  "cards": [
+    {
+      "id": "701c85dc80d25d49e6b7bd2d",
+      "factual_support": "The unchanged HT title directly establishes a motor-vehicle rule amendment allowing E100-capable flex-fuel vehicles. Its summary establishes the ethanol-petrol mixture range. Both composed sentences map completely to those fields. The brief does not extend the permission to conventional petrol cars, assert a certification count, or announce fuel availability.",
+      "analysis": "The mechanism identifies compatible vehicle designs and fuel access as adoption constraints, rather than claiming sales or ethanol demand have already increased. The watch names observable model certifications and E100 supply; it is distinct from the rule itself and adds no asserted current result.",
+      "novelty": "The 62-entry ledger contains ethanol-related maize allocation pressure but no E100 motor-vehicle amendment. Counterpart record 31 is explicitly linked as a same-event duplicate, so this is one new regulatory event rather than two vehicle cards. Reassigned from the national feed to Macro for its vehicle and fuel-market exposure."
+    },
+    {
+      "id": "c6ca85eea458b9f7ae3d1fd4",
+      "factual_support": "ET's summary states the Centre extended RELIEF to March 31, 2027, names shipping and insurance cost exposure, specifies eligible 95 percent coverage and insurance-premium protection, and requires claims through the named corporation's customer portal. Both sentences are fully supported. Risk coverage is not paraphrased as reimbursement of every shipping bill or automatic receipt of funds.",
+      "analysis": "Potential reduction of exporter risk is a conditional mechanism, with eligibility and processing explicitly retained. Approved claims and shipment activity are proposed outcome signals, not invented uptake statistics. The mechanism and watch each remain a single complete sentence.",
+      "novelty": "No prior ledger event covers the RELIEF extension. Historical trade-flow releases, sugar import windows and SME funding concern different instruments and actors. This is a newly reported programme extension with a specific end date, rather than a repeat of the India-US negotiation statement."
+    },
+    {
+      "id": "deee047cf59155cc647fdc57",
+      "factual_support": "Business Standard's title establishes passage of the 80 percent acceptance threshold; the summary attributes 89.42 percent of common share capital to provisional results and both companies. The brief preserves those qualifications exactly in substance. Mint's competing completed-acquisition headline is grouped as duplicate record 56 but is not used to turn provisional acceptance into confirmed completion.",
+      "analysis": "The mechanism is a conditional inference about progress through the takeover, without an unestablished synergy estimate, vehicle category or integration result. The watch asks for final acceptance and formal completion disclosures, keeping the difference between a threshold milestone and a final transaction explicit.",
+      "novelty": "The ledger's Tata Motors PV-Stellantis technology partnership has a different counterparty and object. No prior Iveco event is present. Tata Motors Q2 earnings at record 217 were also reviewed as a distinct, eligible event; they were not collapsed into this transaction or selected to create a second card."
+    },
+    {
+      "id": "ecbbd111ec0fedf7dbda5227",
+      "factual_support": "The HT summary directly gives a seven-year analysis, spending over 12000 crore or around 72 percent out of 16824 crore, and 21 of 130 cities achieving a 40 percent PM10 reduction by 2025-26. The brief attributes the result to a reported analysis and retains all denominators. It does not invent a baseline year, causal pollution reduction per rupee or a conclusion that unspent funds were misused.",
+      "analysis": "Comparing spending with target attainment is a defensible delivery lens, not proof that funding caused or failed to cause any city's result. The watch seeks city-level spending and PM10 outcomes to test the inference. No fresh pollution forecast or unsupported health estimate is inserted.",
+      "novelty": "Earlier seasonal El Nino and maize-supply stories concern weather and commodity exposure, not this programme-performance assessment. The publication ledger has no NCAP spending-and-attainment event. Daily Delhi AQI observations were reviewed separately and not treated as duplicate evidence of programme effects. Macro assignment reflects public expenditure and environmental outcomes."
+    },
+    {
+      "id": "24d1d4c1d9fca859f2e3321e",
+      "factual_support": "The HT title supplies DAC approval of 2.12 lakh crore defence buys covering drones, artillery and helicopters; the summary names Rajnath Singh as chair and Acceptance of Necessity for special utility helicopters. The first sentence retains clearance status, the second the precise procedural stage. The draft's expanded council name was narrowed to the captured DAC wording; no contract signing, payment or delivery is claimed.",
+      "analysis": "The mechanism treats approvals as a possible order pipeline and explicitly keeps contracts separate from booked demand. The watch requests tender and contract disclosures with delivery schedules. Neither sentence invents a vendor allocation, domestic-content ratio or procurement deadline.",
+      "novelty": "Prior HAL HTT-40 deliveries and Shakti production-line expansion are distinct completed supply events. The ledger contains no matching DAC approval package. This card is a new institutional procurement milestone, without reusing either historical aircraft event as an update."
+    },
+    {
+      "id": "f0248507aaa61f7978fd410e",
+      "factual_support": "The captured company-release report explicitly says HCLTech and Japanese chipmaker Rapidus inaugurated two centres in Bengaluru and Hubli. Mask design, process design kit development, layout design and the planned Indian talent pipeline for Japan all appear in the summary. Capabilities and talent collaboration remain future work after the completed inauguration; no fabrication plant or completed hiring count is claimed.",
+      "analysis": "The mechanism links concentrated design skills and a named customer to semiconductor-engineering work. The watch asks for programme delivery and talent-pipeline development, without asserting fabricated wafers, Japanese migration or current revenues. Both statements are single sentences with different purposes.",
+      "novelty": "The ledger's HCLTech-Anthropic dedicated AI unit is a different partnership, technology and deliverable. LTTS-Nokia records 245 and 259 concern a separate telecom R&D contract and were explicitly reviewed as an eligible representative plus duplicate. Shared company or engineering themes were not used as a hard exclusion. Reassigned the business feed's macro suggestion to Tech."
+    },
+    {
+      "id": "56570d0e06f9eacffbd6acb6",
+      "factual_support": "The unchanged Business Standard title gives planned investment of 400-450 million dollars. The summary supplies a 10000 km network across data-centre and AI hubs and expected meaningful contribution from FY28-29. Both brief sentences preserve planning and expectation. The unusual captured capacity-unit figure is omitted rather than corrected from outside knowledge, and no route is described as commissioned.",
+      "analysis": "The mechanism explains how connectivity can enable distributed compute as a conditional investment case. Commissioned routes and customer traffic are future observable tests; the watch does not claim customers or revenue already exist. Analysis introduces no unestablished city, project phase or completion deadline.",
+      "novelty": "No Tata Communications fibre programme appears in the 62-entry ledger. AM Intelligence GPU orders, RBI's data centre and HCLTech's AI unit have different actors and assets. Five current records covering this same fibre programme are explicitly grouped as the selected representative and four duplicates, so the 40 percent target and corridor versions do not create extra cards."
+    }
+  ],
+  "input_hashes": {
+    "capture.json": "945b75796e0be418637dbb005dc4cb19d1c730a95083db8e60cc368f8d3de474",
+    "history.json": "07f88f84f1132bcdd3a38ab4ebb70d2df8a987f9164f149b2d2437f8c2207224",
+    "review.json": "97a6d7031a6286c0eeb408560a00e5915fae6789c8d4acca9310e836b47621d1",
+    "edition.json": "4869089db7f39705ffea83e47d28e31456ad5fe51d3d93fcb4c04be051f69c3f",
+    "market.json": "a0f8da640ebf1994a8543bfe65496636e2d01a49f2fdb9df49d0918313ef2276"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "checked_at": "2026-10-27T03:19:06.154617+00:00"
+}

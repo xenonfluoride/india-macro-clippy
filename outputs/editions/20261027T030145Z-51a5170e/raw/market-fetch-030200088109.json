@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-10-27T03:02:00.088109+00:00",
+  "results": {
+    "Brent": {
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "errors": [
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=10d&interval=1d"
+    },
+    "Nifty 50": {
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "errors": [
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=10d&interval=1d"
+    },
+    "Sensex": {
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "errors": [
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?range=10d&interval=1d"
+    },
+    "USD/INR": {
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "errors": [
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=10d&interval=1d"
+    }
+  }
+}
