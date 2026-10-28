@@ -1,0 +1,61 @@
+{
+  "schema_version":2,
+  "verdict":"approved",
+  "reviewer":"Codex current model session, separate second evidence-check pass; no external or independent reviewer claimed",
+  "checked_at":"2026-10-28T03:20:45+00:00",
+  "input_hashes":{
+    "capture.json":"1b9dc4f1697e07a5607bfb273a8804d185cf2ae66c70d5423149152bb2a7187b",
+    "history.json":"0d3db5c494d16a2d96e33e4edb7539c1098aba4a8733d9580d1bfeebed8553dc",
+    "review.json":"c3f4dd182de9f248daa702d3febd028297236df57049140b029ee97d088929ec",
+    "edition.json":"70b8447d871c8808e04b74b22c25dc50dbeea95738b885576b52bce67a3aa218",
+    "market.json":"4f590c18923c3ecfdedab31e91c3e21958e233e7b786d413f7e4ff82cf5c1554"
+  },
+  "template_sha256":"add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage":"Read all 363 original titles and complete captured summaries in bounded context batches at offsets 0,40,80,120,160,200,240,280,320,360, ending next_offset=null; recovered the initially truncated first output through a complete compact reread. All fifteen feeds succeeded. Authored 363 case-specific assessments, retained as 151 rejections, 123 eligible alternatives, 82 direct duplicate links and seven selections. The packaging script copies authored rows and evidence only, without selecting or inferring reviews. Read all 69 history entries in bounded slices after combined output truncation. Examined substantive operating information in stock headlines, including OneSource, Acutaas, Maruti and United Breweries; examined proposals, estimates, rights rulings, climate reports, minority/local topics and all feed lanes. No source quota or Macro cap applied. Rotoris funding and Coal India capex discrepancies remained unselected; E100, Iveco threshold and September crude mix do not become new events through new coverage. Four separate Yahoo daily-bar quotes have correct symbols, currencies and per-instrument timestamps with retained provider evidence; failed restricted-network diagnostics remain inspectable and the successful retry supplies the complete snapshot.",
+  "hero":"Reread the final hero against all seven cards. Registration simplicity and insolvency finality are grounded in the CBIC and Supreme Court reports; UP is described as clearing projects rather than completing them; wheat is early sowing rather than a harvest forecast; Karnataka publication asserts no unlawful deletion; Microsoft is an offer and Amazon an expansion plan. No market-price assertion or unselected news event has entered the hero.",
+  "catalysts":"Checked October 29 against the complete pool. No RSS establishes a distinct next-day catalyst. Arnab landfall is October 28 and is ongoing in the latest observation, while associated forecasts span multiple days without a separate October 29 decision. The game conference begins October 28 without a dated day-two deliverable, and the Fed item states only an upcoming meeting. The expressly dated October 30, October 31, November 1, November 2 and November 3 events are outside tomorrow; IPO/earnings calendars are past or today and Free Fire is unconfirmed. Empty catalyst data is deliberate and the renderer will supply exactly one closing absence module.",
+  "cards":[
+    {
+      "id":"43b6859e01de8cecd14fa20b",
+      "factual_support":"Both complete brief sentences map to ET's CBIC summary. Udyam certificate removal, unpaid-bill rejections, Aadhaar authentication, seven working days and reasoned demands are explicit; seven days is not silently changed to calendar days or unconditional automatic approval.",
+      "analysis":"Registration time and documentation are the direct compliance mechanism; the watch asks for observable processing times and reasons, without asserting measured improvement or introducing penalty rates.",
+      "novelty":"The 69-entry ledger has MCA annual filings, CBDT exemption claims and Sebi margins, not these GST registration clarifications. Related CBIC notice records are explicitly grouped to this package; November 1 discount/refund changes remain alternatives rather than duplicate selections."
+    },
+    {
+      "id":"39e334a1d18393ff5be5febf",
+      "factual_support":"ET explicitly supplies Agriculture Ministry attribution, October 23, 11,000 hectares against 27,000 a year earlier, soil-moisture and irrigation concerns, Punjab and Rajasthan and lower rabi coverage. The brief preserves early-season measurement and makes no claim about final yield or harvest size.",
+      "analysis":"Moisture constraints plausibly delay planting and increase irrigation reliance; subsequent acreage releases provide a specific observable check rather than forecasting food inflation or a policy response.",
+      "novelty":"Prior maize allocation, sugar imports and WMO seasonal forecasts concern different commodities or weather horizons. The October 23 wheat-acreage release is not in the ledger, and broader weak-monsoon coverage remains an alternative rather than a second card."
+    },
+    {
+      "id":"beeb15e63d59ca8fb2954315",
+      "factual_support":"Business Standard's title establishes UP and its summary explicitly records Cabinet approvals. Four expressways carry 17,542 crore; 1,710 crore attaches to GCC projects, with a separate Greater Noida robotics park. The brief does not attach GCC value to roads or claim completed construction.",
+      "analysis":"Construction demand and business capacity are conditional on execution; tender awards and starts are observable next signals. No unsupported completion deadline, output or employment total is introduced.",
+      "novelty":"The ledger's NaBFID repository and KEC Gujarat transmission orders are different actors and projects. This UP Cabinet package is new; the detailed UPEIDA road article is directly grouped as duplicate coverage of the same approval."
+    },
+    {
+      "id":"57995b299863ee7e241004fb",
+      "factual_support":"Mint's summary supports the full rule for both CoC and resolution applicants under IBC. The brief retains the limiting word merely and changed attractiveness; it does not create an absolute ban on every withdrawal or expand the unprovided CoC acronym.",
+      "analysis":"Predictability of approved transactions follows from limiting commercially motivated withdrawals; subsequent disputes testing other grounds are a relevant next signal, without asserting an outcome for any unnamed case.",
+      "novelty":"No approved-plan withdrawal ruling occurs in the 69-entry history. The Yes Bank AT1 judgment, capital-punishment history noted in memory and other criminal-procedure rulings concern separate legal questions, not a semantic repeat."
+    },
+    {
+      "id":"d2704d6ecaaff65a3be826f3",
+      "factual_support":"Hindustan Times supplies Karnataka in the title and exact final and June 16 general-elector counts in the summary. Their difference is 9,976,625. The brief describes the reported net reduction without equating it with proven wrongful exclusions or with the draft 10.8-million exclusion figure.",
+      "analysis":"The mechanism concerns recorded electoral eligibility, and the watch seeks future registration/correction outcomes. It asserts no partisan effect, fraud determination or already successful remedial application.",
+      "novelty":"Previously published UP post-SIR scrutiny and searchable-PDF directions are different actions and scope. Karnataka final-roll publication is a distinct completed event; previews, demographic totals and registration advice are grouped directly to the final-roll representative."
+    },
+    {
+      "id":"16c2d498de9618a673e88daa",
+      "factual_support":"Mint explicitly names India, US, UK and Canada, eligible staff, voluntary buyouts and rising AI investment context. The brief expands only the familiar country abbreviations. It does not call 60,000 actual layoffs, assign that number to India, infer severance terms or equate all 23,000 Indian employees with eligibility.",
+      "analysis":"Staffing reallocation is conditional on voluntary acceptance, and the watch explicitly asks for India-specific eligibility and take-up. The current lack of local count is respected rather than filled from external reporting.",
+      "novelty":"No Microsoft exit-offer event appears in the ledger. Qualcomm explanation and career commentary are separate alternatives; multiple offer reports and follow-on opinion have been assessed without multiplying the programme into several cards."
+    },
+    {
+      "id":"a6d77f268b45724e61acfdc0",
+      "factual_support":"Business Standard's title supports expected India fleet above 20,000 next year, while the summary establishes more than 15,000 current vehicles, Tata Motors partnership, 3,000 planned electric trucks and charging infrastructure. The total fleet is not called all trucks and deployment is not called completed.",
+      "analysis":"Charging demand is a conditional direct consequence of fleet electrification; actual truck and charger additions are an observable next signal. The card invents no emissions, savings, order value or charging-site count.",
+      "novelty":"The ledger includes vehicle technology and Hyundai capacity plans but no Amazon/Tata electric freight partnership. Delhi-corridor coverage and the initial fleet flag-off are grouped as related evidence rather than additional events or proof all 3,000 trucks are already operating."
+    }
+  ]
+}

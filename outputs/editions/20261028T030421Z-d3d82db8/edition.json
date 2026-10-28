@@ -1,0 +1,164 @@
+{
+  "schema_version": 2,
+  "run_id": "20261028T030421Z-d3d82db8",
+  "created_at": "2026-10-28T03:19:36.843159+00:00",
+  "date": "2026-10-28",
+  "issue": 20,
+  "hero": "Business rules meet execution risk: GST registration gets simpler and the Supreme Court reinforces approved insolvency plans, while Uttar Pradesh clears new projects and early wheat sowing trails last year. Karnataka publishes its final voter roll; Microsoft offers voluntary exits including in India, and Amazon sets out a larger electric delivery fleet.",
+  "hero_card_ids": [
+    "43b6859e01de8cecd14fa20b",
+    "39e334a1d18393ff5be5febf",
+    "beeb15e63d59ca8fb2954315",
+    "57995b299863ee7e241004fb",
+    "d2704d6ecaaff65a3be826f3",
+    "16c2d498de9618a673e88daa",
+    "a6d77f268b45724e61acfdc0"
+  ],
+  "cards": [
+    {
+      "id": "43b6859e01de8cecd14fa20b",
+      "lane": "macro",
+      "headline": "GST registration gets easier as CBIC drops Udyam proof, sets seven-day limit for approvals",
+      "brief": "The Central Board of Indirect Taxes and Customs has clarified that businesses no longer need Udyam certificates for GST registration or face rejection because of unpaid bills. Applications with Aadhaar authentication must be processed within seven working days, and tax demands must carry clear justifications.",
+      "mechanism": "Simpler documentation and a processing deadline can reduce the time businesses spend obtaining tax registration.",
+      "watch": "Watch whether processing times and rejection reasons change in registration outcomes.",
+      "claims": [
+        {
+          "statement": "The Central Board of Indirect Taxes and Customs has clarified that businesses no longer need Udyam certificates for GST registration or face rejection because of unpaid bills.",
+          "evidence": [
+            "The Central Board of Indirect Taxes and Customs has issued clarifications regarding GST registration requirements for businesses.",
+            "Companies will no longer need to provide Udyam certificates or face rejections due to unpaid bills."
+          ]
+        },
+        {
+          "statement": "Applications with Aadhaar authentication must be processed within seven working days, and tax demands must carry clear justifications.",
+          "evidence": [
+            "Registration applications must be processed within seven working days with Aadhaar authentication.",
+            "Tax demands must include clear justifications and cannot be arbitrary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39e334a1d18393ff5be5febf",
+      "lane": "macro",
+      "headline": "Wheat sowing lags at 11,000 hectare so far amid deficient monsoon; rabi acreage down",
+      "brief": "Agriculture Ministry data showed wheat sowing reached 11,000 hectares by October 23, against 27,000 hectares a year earlier. The deficient southwest monsoon has raised concerns about soil moisture and irrigation availability, with Punjab and Rajasthan facing particular risks and overall rabi crop coverage also lower.",
+      "mechanism": "Limited soil moisture can delay planting and increase reliance on irrigation during the wheat sowing window.",
+      "watch": "Watch subsequent acreage releases to see whether the early planting gap narrows.",
+      "claims": [
+        {
+          "statement": "Agriculture Ministry data showed wheat sowing reached 11,000 hectares by October 23, against 27,000 hectares a year earlier.",
+          "evidence": [
+            "Wheat sowing in India has reached 11,000 hectares as of October 23, against 27,000 hectares a year earlier",
+            "Agriculture Ministry data showed."
+          ]
+        },
+        {
+          "statement": "The deficient southwest monsoon has raised concerns about soil moisture and irrigation availability, with Punjab and Rajasthan facing particular risks and overall rabi crop coverage also lower.",
+          "evidence": [
+            "as a deficient southwest monsoon raises concerns over soil moisture and irrigation availability.",
+            "Punjab and Rajasthan face particular risks, while overall rabi crop coverage has also fallen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beeb15e63d59ca8fb2954315",
+      "lane": "macro",
+      "headline": "UP to begin work on key industrial projects ahead of Assembly elections",
+      "brief": "Uttar Pradesh's Cabinet has approved four link expressways worth ₹17,542 crore, a robotics park in Greater Noida and GCC projects involving ₹1,710 crore in investments, Business Standard reports.",
+      "mechanism": "Approved transport and industrial projects can support construction demand and business capacity as they move into execution.",
+      "watch": "Watch for tender awards and construction starts to show which approvals translate into spending.",
+      "claims": [
+        {
+          "statement": "Uttar Pradesh's Cabinet has approved four link expressways worth ₹17,542 crore, a robotics park in Greater Noida and GCC projects involving ₹1,710 crore in investments, Business Standard reports.",
+          "evidence": [
+            "UP to begin work on key industrial projects ahead of Assembly elections",
+            "State Cabinet approves four link expressways worth ₹17,542 crore, a robotics park in Greater Noida and GCC projects involving investments of ₹1,710 crore"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57995b299863ee7e241004fb",
+      "lane": "national",
+      "headline": "SC bars creditors from withdrawing insolvency plan over improved finances",
+      "brief": "The Supreme Court has ruled that, under the Insolvency and Bankruptcy Code, neither the CoC nor the resolution applicant can withdraw an approved resolution merely because developments have made the transaction less attractive, Mint reports.",
+      "mechanism": "Limiting withdrawals based on changed commercial appeal can make approved insolvency transactions more predictable for participants.",
+      "watch": "Watch how subsequent insolvency disputes distinguish reduced attractiveness from other grounds for challenging a plan.",
+      "claims": [
+        {
+          "statement": "The Supreme Court has ruled that, under the Insolvency and Bankruptcy Code, neither the CoC nor the resolution applicant can withdraw an approved resolution merely because developments have made the transaction less attractive, Mint reports.",
+          "evidence": [
+            "Under the Insolvency and Bankruptcy Code (IBC), neither the CoC nor the resolution applicant can withdraw the approved resolution merely by stating that certain developments have made the transaction less attractive, rules the SC."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2704d6ecaaff65a3be826f3",
+      "lane": "national",
+      "headline": "9.97 million names deleted in Karnataka final electoral roll after SIR revision",
+      "brief": "Karnataka's final electoral roll contains 45,455,689 general electors, against 55,432,314 on June 16 when SIR began, Hindustan Times reports. The reported reduction is 9,976,625 general electors.",
+      "mechanism": "The size and composition of the final roll determine who is recorded as eligible to participate in elections.",
+      "watch": "Watch subsequent registration and correction outcomes for evidence of how disputed exclusions are resolved.",
+      "claims": [
+        {
+          "statement": "Karnataka's final electoral roll contains 45,455,689 general electors, against 55,432,314 on June 16 when SIR began, Hindustan Times reports.",
+          "evidence": [
+            "9.97 million names deleted in Karnataka final electoral roll after SIR revision",
+            "The final roll contains 45,455,689 general electors, compared to 55,432,314 on the rolls as of June 16, when SIR began"
+          ]
+        },
+        {
+          "statement": "The reported reduction is 9,976,625 general electors.",
+          "evidence": [
+            "marking a reduction of 9,976,625."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16c2d498de9618a673e88daa",
+      "lane": "tech",
+      "headline": "Microsoft's voluntary exit offer to 60k employees explained: What is a buyout and how will it affect Indians?",
+      "brief": "Microsoft is offering voluntary buyouts to eligible employees in India, the United States, the United Kingdom and Canada as it reshapes its workforce amid rising AI investments, Mint reports.",
+      "mechanism": "Voluntary buyouts can change staffing and skill allocation while giving eligible employees a choice about leaving.",
+      "watch": "Watch for India-specific eligibility and take-up disclosures to establish the programme's local scale.",
+      "claims": [
+        {
+          "statement": "Microsoft is offering voluntary buyouts to eligible employees in India, the United States, the United Kingdom and Canada as it reshapes its workforce amid rising AI investments, Mint reports.",
+          "evidence": [
+            "Microsoft offers voluntary buyouts to eligible employees in the US, the UK, Canada and India as it reshapes its workforce amid rising AI investments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a6d77f268b45724e61acfdc0",
+      "lane": "tech",
+      "headline": "Amazon expects India EV fleet to cross 20,000 vehicles over next year",
+      "brief": "Amazon expects its India electric vehicle fleet to cross 20,000 vehicles over the next year, from more than 15,000 currently, Business Standard reports. It is partnering with Tata Motors to deploy 3,000 electric trucks and boost charging infrastructure.",
+      "mechanism": "A larger electric delivery fleet can shift logistics energy demand toward charging and increase the importance of charging availability.",
+      "watch": "Watch actual truck deployments and charging additions against the planned fleet expansion.",
+      "claims": [
+        {
+          "statement": "Amazon expects its India electric vehicle fleet to cross 20,000 vehicles over the next year, from more than 15,000 currently, Business Standard reports.",
+          "evidence": [
+            "Amazon expects India EV fleet to cross 20,000 vehicles over next year",
+            "Amazon plans to expand its electric vehicle fleet from over 15,000 currently"
+          ]
+        },
+        {
+          "statement": "It is partnering with Tata Motors to deploy 3,000 electric trucks and boost charging infrastructure.",
+          "evidence": [
+            "while partnering with Tata Motors to deploy 3,000 electric trucks and boost charging infrastructure"
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed the complete 363-candidate pool for October 29 in IST. No distinct date-specific catalyst is established by the captured titles or summaries. Arnab's Wednesday October 28 landfall is today, and the northern India October 28-November 1 and Jharkhand three-day rain forecasts do not identify a separate October 29 action. The four-day game developer conference starts October 28 but names no October 29 decision. The FOMC reference specifies only an upcoming meeting, without a supported October 29 deliverable. November 1 GST and vehicle rules, October 30 Dharmasthala questioning and opposition event, October 31 rally, November 2 Kappan hearing and November 3 bus strike are outside tomorrow. Jio listing and earnings calendars concern October 27-28 investor alerts; Free Fire's October 28 launch is explicitly unconfirmed. Longer project and funding targets also do not qualify."
+}
