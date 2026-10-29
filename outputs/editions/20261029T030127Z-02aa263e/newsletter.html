@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 29 October 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 021</strong><br />29 October 2026<br /><span id="rss-status">RSS edition · 20261029T030127Z-02aa263e</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">Industrial growth is moderating even as manufacturing expands, while new container support, easier textile incentives and a retrospective allowance increase outline fresh support for production and household income. A tuberculosis patent refusal and a narrower foreign-national bail bar put access in focus; PhonePe is widening its app marketplace into digital goods.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>22,698.85</strong><span class="down">Nifty 50 · -0.22%</span><span class="flat">28 Oct 03:45 UTC</span></div><div class="quote"><strong>73,246.03</strong><span class="down">Sensex · -0.48%</span><span class="flat">28 Oct 03:45 UTC</span></div><div class="quote"><strong>₹95.210</strong><span class="down">USD/INR · +0.03%</span><span class="flat">29 Oct 00:00 UTC</span></div><div class="quote"><strong>$110.40</strong><span class="down">Brent · -4.27%</span><span class="flat">29 Oct 02:51 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="053862706aa1e579d0950bd9"><div class="story-no">01</div><div><h3>IIP growth eases to 4-month low in September as mining output contracts</h3><p>Economic Times reports that September industrial output growth eased to 6.7%, a four-month low, with a high base and weaker mining activity weighing on the reading. Manufacturing output grew 7.6% from a year earlier, while electricity generation also increased.</p><p class="why"><span>Why it matters</span><br />The divergence suggests that the aggregate slowdown should be read alongside sector performance when assessing industrial demand. Watch the next production release for whether mining recovers while manufacturing maintains its expansion.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/indicators/iip-growth-eases-to-4-month-low-in-september-as-mining-output-contracts/articleshow/135276567.cms">Economic Times Economy, 28 Oct · 18:19 UTC</a></p></div></article>
+<article class="story" data-candidate="8fb1e288827f002090d97085"><div class="story-no">02</div><div><h3>Cabinet approves ₹10,000 crore scheme to boost container manufacturing</h3><p>The Cabinet approved a ₹10,000 crore container manufacturing scheme. Business Standard reports that financial support will run until 2039-40, aiming to reduce import dependence, bridge cost gaps and raise annual capacity tenfold to 750,000 TEUs.</p><p class="why"><span>Why it matters</span><br />Bridging manufacturing cost gaps could make domestic container supply more competitive for India&#x27;s logistics industry. Watch the support terms and subsequent capacity additions to assess how much of the target becomes usable supply.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/cabinet-approves-10-000-crore-scheme-to-boost-container-manufacturing-126102801586_1.html">Business Standard Economy &amp; Policy, 28 Oct · 13:12 UTC</a></p></div></article>
+<article class="story" data-candidate="5195043844a1c0c5d4f29069"><div class="story-no">03</div><div><h3>Government extends PLI scheme for textiles until 2033-34 to boost MSME participation and investments</h3><p>The government extended the textiles Production Linked Incentive scheme until 2033-34, Economic Times reports. The ministry reduced the minimum turnover requirement for certain manufacturers from ₹200 crore to ₹100 crore, and the reopened application portal will accept submissions from November 1 to December 31.</p><p class="why"><span>Why it matters</span><br />The lower turnover threshold could bring more textile manufacturers within reach of production incentives. Watch the reopened application window for participation by newly eligible manufacturers and their investment commitments.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/policy/government-extends-pli-scheme-for-textiles-until-2033-34-to-boost-msme-participation-and-investments/articleshow/135279965.cms">Economic Times Economy, 28 Oct · 20:39 UTC</a></p></div></article>
+<article class="story" data-candidate="f02f3389fb6941d60ede3771"><div class="story-no">04</div><div><h3>Union cabinet approves 3% DA hike for 11.6 million central employees and pensioners, effective July 1</h3><p>The Union Cabinet approved a 3% dearness allowance increase for employees and pensioners, retrospectively effective from July 1. Economic Times reports that the increase is expected to benefit over 11.6 million people and cost the exchequer ₹10,016 crore.</p><p class="why"><span>Why it matters</span><br />The retrospective allowance increase can lift beneficiary household cash flow while adding to government spending. Watch the payment schedule to see when the approved increase and retrospective amounts reach beneficiaries.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/policy/union-cabinet-approves-3-da-hike-for-11-6-million-central-employees-and-pensioners-effective-july-1/articleshow/135279321.cms">Economic Times Economy, 28 Oct · 20:33 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="aa8f0b34c23dfc53b0842a7f"><div class="story-no">05</div><div><h3>TB Alliance fails to get patent for six-month treatment regimen</h3><p>The Indian Patent Office rejected a patent application for BPaL on Tuesday, according to a joint statement by the groups that opposed it, reported by Hindustan Times. The report describes BPaL as a three-medicine combination that has cut drug-resistant tuberculosis treatment to six months.</p><p class="why"><span>Why it matters</span><br />Refusal of this patent application may preserve room for competing supply of the treatment combination. Watch any challenge to the refusal and subsequent supplier announcements for evidence of changes in treatment availability.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/tb-alliance-fails-to-get-patent-for-six-month-treatment-regimen-101793215103983.html">Hindustan Times India, 29 Oct · 02:25 UTC</a></p></div></article>
+<article class="story" data-candidate="67b4967ce04aba0cbd8e06c2"><div class="story-no">06</div><div><h3>UAPA does not bar bail for all foreigners; illegal entry is key, rules Supreme Court</h3><p>The Supreme Court ruled that the UAPA bail bar does not apply to all foreigners, Hindustan Times reports. The court said the statutory bar applies only when a foreigner has entered India without authorisation or illegally.</p><p class="why"><span>Why it matters</span><br />Tying this statutory bar to the manner of entry narrows a nationality-based obstacle to bail consideration. Watch how subsequent bail orders apply the entry condition alongside other applicable requirements.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/uapa-does-not-bar-bail-for-all-foreigners-illegal-entry-is-key-rules-sc-101793155752385.html">Hindustan Times India, 28 Oct · 02:50 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="41e8b5b222146b54bdba161f"><div class="story-no">07</div><div><h3>PhonePe rebrands Indus Appstore, expands into digital goods and webstore</h3><p>PhonePe is rebranding Indus Appstore and expanding it into digital goods and a webstore, Business Standard reports. The marketplace is present on more than 200 million devices through OEM partnerships and is adding gift cards and top-ups as it seeks wider consumer and developer reach.</p><p class="why"><span>Why it matters</span><br />Adding digital purchases and a webstore could give the marketplace transaction channels beyond app distribution. Watch whether the expanded offerings convert device presence into repeat consumer transactions and developer participation.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/phonepe-rebrands-indus-appstore-expands-into-digital-goods-and-webstore-126102801326_1.html">Business Standard Companies, 28 Oct · 11:50 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 30 October</p></div><div class="catalysts"><p>PM-Kisan: the Prime Minister is scheduled to launch the 24th instalment in Gujarat on October 30, aiming to support over 9.34 crore farmer families nationwide with more than ₹18,680 crore; watch the release confirmation and beneficiary coverage. <a href="https://economictimes.indiatimes.com/news/economy/agriculture/pm-modi-to-release-rs-18680-crore-under-pm-kisan-scheme-on-october-30/articleshow/135272539.cms">Economic Times Economy</a></p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

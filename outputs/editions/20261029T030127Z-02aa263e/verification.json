@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate final evidence-check pass; no external reviewer",
+  "checked_at": "2026-10-29T03:16:30+00:00",
+  "input_hashes": {
+    "capture.json": "ef087338073e9e4421844ab011d96e9bb8600871dfb2650232d1820da37a0ddf",
+    "history.json": "9191b3e85ac9ee27b8790c7e5c21cd40b3cb4123637f82211fc065811acd9fb5",
+    "review.json": "215693bb16223e0bee36ef9520322798954a1da880f21f68f55fe3ba59cce41a",
+    "edition.json": "78023c47afbfef88a62f1bf66b75243e72a398002418a59a1d68d6fa5e4c4ac2",
+    "market.json": "3cd2295e595690d4aa895f01a85ded7826edcdb5faabb6d5fcf22a4efb9705e8"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 366 original titles and summaries in context batches at offsets 0,40,80,120,160,200,240,280,320,360, ending next_offset=null. Recovered the first verbose batch's truncation by reprinting the complete candidate-only batch. All 15 feeds succeeded; raw status and parser drops inspected. Authored 366 individual assessments: 7 select, 135 eligible, 159 reject, 65 direct duplicate links, with source-specific evidence and explicit representatives. Read all 76 history records. Assessed operating earnings inside trading headlines, substantive reports, court decisions and feed-lane reassignments; PhonePe moves from company feed to tech and IIP from national alternatives to macro. No fixed macro cap or source quota. Unchanged UP approvals, CBIC registration and E100 events excluded; Microsoft CFO uptake prediction does not establish realised new exits. New warehouse GST and post-sales discount provisions are distinct eligible events. Innodata layoff claims, inconsistent Fed month and Vedanta profit scopes were not promoted. Final card evidence and analysis were reread against the retained RSS and ledger in a separate pass.",
+  "hero": "Checked the final hero against all seven cards after replacing wording that could imply approved production and income measures were already implemented. It now describes support, moderating industrial growth alongside manufacturing expansion, patent and bail access, and marketplace diversification. It does not claim completed container capacity, allowance payments, cheaper TB medicines, automatic bail or active app users.",
+  "catalysts": "The single closing module uses candidate 43bc8904b04bda5a4af9f16a, whose summary explicitly dates the 24th PM-Kisan launch to October 30 and supplies Gujarat, over 9.34 crore families and more than Rs18680 crore. The text keeps scheduled/aiming status and asks for release confirmation; it does not say funds reached accounts. The candidate is distinct from all seven cards. October 30 exporter awareness workshop lacks a discrete policy deliverable; other calendars are earlier, later or multiday weather/transport coverage without a distinct October 30 action. Removed a historical CNAP reference from the catalyst review so the final review is confined to this captured pool.",
+  "cards": [
+    {
+      "id": "053862706aa1e579d0950bd9",
+      "factual_support": "The ET summary explicitly supports September 6.7 percent growth, four-month low, high-base and mining explanation, manufacturing 7.6 percent year-on-year, and increased electricity generation. Attribution retained; the GDP forecast above 7 percent is not presented as an actual result.",
+      "analysis": "Sector divergence is an interpretation of the captured components, not an extra statistic. The next-signal sentence asks about the next mining and manufacturing readings and asserts no future recovery.",
+      "novelty": "All 76 history records checked: the previously published September core-industries 7.9 percent index is a different statistical release, while this is the broader IIP event. Four alternate IIP records link to this representative, leaving only one card."
+    },
+    {
+      "id": "8fb1e288827f002090d97085",
+      "factual_support": "The title supplies Cabinet approval and Rs10000 crore. The summary supplies support through 2039-40 and the tenfold 750000 TEU target. The brief calls capacity an aim and never describes factories or financing disbursement as completed.",
+      "analysis": "Cost competitiveness is conditional on bridging the cited cost gap. Watching support terms and subsequent usable capacity distinguishes the approved scheme from actual output without adding dates or eligibility rules.",
+      "novelty": "No container-manufacturing approval exists in history; the earlier SME Growth Fund also cost Rs10000 crore but has a different object. Three other captured scheme reports are explicitly clustered behind this representative."
+    },
+    {
+      "id": "5195043844a1c0c5d4f29069",
+      "factual_support": "Fiscal horizon 2033-34 comes from the preserved title; the summary's until-2034 wording is compatible. The Rs200-to-Rs100 crore turnover change applies only to certain manufacturers, and November 1 to December 31 is the future application window, not completed submissions.",
+      "analysis": "Potential broader eligibility follows from the lower threshold without claiming all MSMEs qualify. The watch asks for actual applicant participation and commitments, making the incentive-to-investment channel observable.",
+      "novelty": "The ledger contains no textiles PLI extension or threshold change. The existing electronics PLI commentary in the pool concerns another industry and supplies no same-event duplication."
+    },
+    {
+      "id": "f02f3389fb6941d60ede3771",
+      "factual_support": "ET supports Cabinet approval of a 3 percent DA increase, retrospective July 1 effect, expected over-11.6-million beneficiaries and Rs10016 crore cost. The brief neither calls the hike three percentage points nor states that arrears have been paid.",
+      "analysis": "Household cash flow and fiscal spending are conditional consequences of the approved allowance. Watching payment timing explicitly recognises the gap between authorisation and receipt.",
+      "novelty": "No DA increase exists in the ledger. The social-assistance programme and senior-citizen fund release have different beneficiaries and instruments; two direct DA reports are grouped rather than occupying extra cards."
+    },
+    {
+      "id": "aa8f0b34c23dfc53b0842a7f",
+      "factual_support": "The original summary names the Indian Patent Office, Tuesday rejection, BPaL, three medicines, six-month drug-resistant TB treatment and the opposing groups' joint statement. The brief preserves that source chain; no drug names, efficacy rates, prices or finality beyond this application are invented.",
+      "analysis": "The supply mechanism is explicitly possible, not a guarantee that all patents have disappeared or medicines become cheaper. Future challenges and supplier announcements are signals, not reported events.",
+      "novelty": "No BPaL or TB patent decision appears in the ledger. Earlier FSSAI nutrition notices concern a different regulator and action; cancer medicine price cuts in this pool are separate eligible alternatives."
+    },
+    {
+      "id": "67b4967ce04aba0cbd8e06c2",
+      "factual_support": "The title identifies Supreme Court and UAPA; the summary confines the statutory bar to unauthorised or illegal entry. The two brief sentences retain this condition and do not promise bail for all lawfully entered foreigners or remove other statutory tests.",
+      "analysis": "The mechanism addresses this particular bar, while the next signal explicitly retains other applicable requirements. Neither sentence expands the ruling into automatic release or a general exemption from UAPA.",
+      "novelty": "Checked against previous false-affidavit, custodial-interrogation, trafficking and other court decisions in history: none concerns the foreign-national entry condition for this bail bar. The evidence remains within the live 36-hour window."
+    },
+    {
+      "id": "41e8b5b222146b54bdba161f",
+      "factual_support": "The title supports PhonePe's rebrand and expansion; the summary supports more than 200 million devices through OEM partnerships, gift cards, top-ups and a webstore. Device presence is not called active users, transactions, paying customers or completed monetisation.",
+      "analysis": "Additional transaction channels are a conditional commercial inference from the named goods and webstore. Watching repeat purchases and developer participation tests whether distribution converts to usage without inventing conversion data.",
+      "novelty": "No Indus Appstore rebrand or digital-goods expansion exists in history. Google's Registered App Stores rollout is a separate eligible platform event; foreign app-store penalties are another jurisdiction and not duplicates of PhonePe's action."
+    }
+  ]
+}

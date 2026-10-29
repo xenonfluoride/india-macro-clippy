@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "run_id": "20261029T030127Z-02aa263e",
+  "created_at": "2026-10-29T03:15:00+00:00",
+  "date": "2026-10-29",
+  "issue": 21,
+  "hero": "Industrial growth is moderating even as manufacturing expands, while new container support, easier textile incentives and a retrospective allowance increase outline fresh support for production and household income. A tuberculosis patent refusal and a narrower foreign-national bail bar put access in focus; PhonePe is widening its app marketplace into digital goods.",
+  "hero_card_ids": ["053862706aa1e579d0950bd9", "8fb1e288827f002090d97085", "5195043844a1c0c5d4f29069", "f02f3389fb6941d60ede3771", "aa8f0b34c23dfc53b0842a7f", "67b4967ce04aba0cbd8e06c2", "41e8b5b222146b54bdba161f"],
+  "cards": [
+    {
+      "id": "053862706aa1e579d0950bd9",
+      "lane": "macro",
+      "headline": "IIP growth eases to 4-month low in September as mining output contracts",
+      "brief": "Economic Times reports that September industrial output growth eased to 6.7%, a four-month low, with a high base and weaker mining activity weighing on the reading. Manufacturing output grew 7.6% from a year earlier, while electricity generation also increased.",
+      "mechanism": "The divergence suggests that the aggregate slowdown should be read alongside sector performance when assessing industrial demand.",
+      "watch": "Watch the next production release for whether mining recovers while manufacturing maintains its expansion.",
+      "claims": [
+        {"statement": "Economic Times reports that September industrial output growth eased to 6.7%, a four-month low, with a high base and weaker mining activity weighing on the reading.", "evidence": ["September witnessed a decline in India's factory output growth, falling to 6.7%, the lowest rate observed in four months.", "The drop is largely linked to a high base effect and decreased mining activity."]},
+        {"statement": "Manufacturing output grew 7.6% from a year earlier, while electricity generation also increased.", "evidence": ["manufacturing output surged by 7.6% compared to the previous year, while electricity generation also grew"]}
+      ]
+    },
+    {
+      "id": "8fb1e288827f002090d97085",
+      "lane": "macro",
+      "headline": "Cabinet approves ₹10,000 crore scheme to boost container manufacturing",
+      "brief": "The Cabinet approved a ₹10,000 crore container manufacturing scheme. Business Standard reports that financial support will run until 2039-40, aiming to reduce import dependence, bridge cost gaps and raise annual capacity tenfold to 750,000 TEUs.",
+      "mechanism": "Bridging manufacturing cost gaps could make domestic container supply more competitive for India's logistics industry.",
+      "watch": "Watch the support terms and subsequent capacity additions to assess how much of the target becomes usable supply.",
+      "claims": [
+        {"statement": "The Cabinet approved a ₹10,000 crore container manufacturing scheme.", "evidence": ["Cabinet approves ₹10,000 crore scheme to boost container manufacturing"]},
+        {"statement": "Business Standard reports that financial support will run until 2039-40, aiming to reduce import dependence, bridge cost gaps and raise annual capacity tenfold to 750,000 TEUs.", "evidence": ["The scheme will offer financial support to domestic container manufacturers until 2039-40, aiming to cut import dependence, bridge cost gaps and boost annual capacity tenfold to 750,000 TEUs"]}
+      ]
+    },
+    {
+      "id": "5195043844a1c0c5d4f29069",
+      "lane": "macro",
+      "headline": "Government extends PLI scheme for textiles until 2033-34 to boost MSME participation and investments",
+      "brief": "The government extended the textiles Production Linked Incentive scheme until 2033-34, Economic Times reports. The ministry reduced the minimum turnover requirement for certain manufacturers from ₹200 crore to ₹100 crore, and the reopened application portal will accept submissions from November 1 to December 31.",
+      "mechanism": "The lower turnover threshold could bring more textile manufacturers within reach of production incentives.",
+      "watch": "Watch the reopened application window for participation by newly eligible manufacturers and their investment commitments.",
+      "claims": [
+        {"statement": "The government extended the textiles Production Linked Incentive scheme until 2033-34, Economic Times reports.", "evidence": ["Government extends PLI scheme for textiles until 2033-34", "extension of the Production Linked Incentive scheme for the textiles sector"]},
+        {"statement": "The ministry reduced the minimum turnover requirement for certain manufacturers from ₹200 crore to ₹100 crore, and the reopened application portal will accept submissions from November 1 to December 31.", "evidence": ["The textiles ministry has reduced the minimum turnover requirement for certain manufacturers from ₹200 crore to ₹100 crore.", "A reopened application portal will accept submissions for manufacturing various textiles from November 1 to December 31."]}
+      ]
+    },
+    {
+      "id": "f02f3389fb6941d60ede3771",
+      "lane": "macro",
+      "headline": "Union cabinet approves 3% DA hike for 11.6 million central employees and pensioners, effective July 1",
+      "brief": "The Union Cabinet approved a 3% dearness allowance increase for employees and pensioners, retrospectively effective from July 1. Economic Times reports that the increase is expected to benefit over 11.6 million people and cost the exchequer ₹10,016 crore.",
+      "mechanism": "The retrospective allowance increase can lift beneficiary household cash flow while adding to government spending.",
+      "watch": "Watch the payment schedule to see when the approved increase and retrospective amounts reach beneficiaries.",
+      "claims": [
+        {"statement": "The Union Cabinet approved a 3% dearness allowance increase for employees and pensioners, retrospectively effective from July 1.", "evidence": ["the Union cabinet approved a 3% increase in dearness allowance for employees and pensioners", "The change will take effect retrospectively from July 1"]},
+        {"statement": "Economic Times reports that the increase is expected to benefit over 11.6 million people and cost the exchequer ₹10,016 crore.", "evidence": ["This increase is expected to benefit over 11.6 million individuals", "costing the exchequer ₹10,016 crore"]}
+      ]
+    },
+    {
+      "id": "aa8f0b34c23dfc53b0842a7f",
+      "lane": "national",
+      "headline": "TB Alliance fails to get patent for six-month treatment regimen",
+      "brief": "The Indian Patent Office rejected a patent application for BPaL on Tuesday, according to a joint statement by the groups that opposed it, reported by Hindustan Times. The report describes BPaL as a three-medicine combination that has cut drug-resistant tuberculosis treatment to six months.",
+      "mechanism": "Refusal of this patent application may preserve room for competing supply of the treatment combination.",
+      "watch": "Watch any challenge to the refusal and subsequent supplier announcements for evidence of changes in treatment availability.",
+      "claims": [
+        {"statement": "The Indian Patent Office rejected a patent application for BPaL on Tuesday, according to a joint statement by the groups that opposed it, reported by Hindustan Times.", "evidence": ["The Indian Patent Office on Tuesday rejected a patent application for BPaL", "according to a joint statement by the groups that opposed it"]},
+        {"statement": "The report describes BPaL as a three-medicine combination that has cut drug-resistant tuberculosis treatment to six months.", "evidence": ["a combination of three medicines that has cut treatment for drug-resistant tuberculosis (TB) to six months"]}
+      ]
+    },
+    {
+      "id": "67b4967ce04aba0cbd8e06c2",
+      "lane": "national",
+      "headline": "UAPA does not bar bail for all foreigners; illegal entry is key, rules Supreme Court",
+      "brief": "The Supreme Court ruled that the UAPA bail bar does not apply to all foreigners, Hindustan Times reports. The court said the statutory bar applies only when a foreigner has entered India without authorisation or illegally.",
+      "mechanism": "Tying this statutory bar to the manner of entry narrows a nationality-based obstacle to bail consideration.",
+      "watch": "Watch how subsequent bail orders apply the entry condition alongside other applicable requirements.",
+      "claims": [
+        {"statement": "The Supreme Court ruled that the UAPA bail bar does not apply to all foreigners, Hindustan Times reports.", "evidence": ["UAPA does not bar bail for all foreigners; illegal entry is key, rules Supreme Court"]},
+        {"statement": "The court said the statutory bar applies only when a foreigner has entered India without authorisation or illegally.", "evidence": ["The court said the statutory bar applies only when a foreigner has entered India unauthorisedly or illegally"]}
+      ]
+    },
+    {
+      "id": "41e8b5b222146b54bdba161f",
+      "lane": "tech",
+      "headline": "PhonePe rebrands Indus Appstore, expands into digital goods and webstore",
+      "brief": "PhonePe is rebranding Indus Appstore and expanding it into digital goods and a webstore, Business Standard reports. The marketplace is present on more than 200 million devices through OEM partnerships and is adding gift cards and top-ups as it seeks wider consumer and developer reach.",
+      "mechanism": "Adding digital purchases and a webstore could give the marketplace transaction channels beyond app distribution.",
+      "watch": "Watch whether the expanded offerings convert device presence into repeat consumer transactions and developer participation.",
+      "claims": [
+        {"statement": "PhonePe is rebranding Indus Appstore and expanding it into digital goods and a webstore, Business Standard reports.", "evidence": ["PhonePe rebrands Indus Appstore, expands into digital goods and webstore"]},
+        {"statement": "The marketplace is present on more than 200 million devices through OEM partnerships and is adding gift cards and top-ups as it seeks wider consumer and developer reach.", "evidence": ["The app marketplace, now present on more than 200 million devices through OEM partnerships, is adding gift cards, top-ups and a webstore as it seeks to broaden its reach among consumers and developers"]}
+      ]
+    }
+  ],
+  "catalysts": [
+    {
+      "id": "43bc8904b04bda5a4af9f16a",
+      "date": "2026-10-30",
+      "text": "PM-Kisan: the Prime Minister is scheduled to launch the 24th instalment in Gujarat on October 30, aiming to support over 9.34 crore farmer families nationwide with more than ₹18,680 crore; watch the release confirmation and beneficiary coverage.",
+      "evidence": "On October 30, Prime Minister Narendra Modi is set to launch the 24th installment of the PM-Kisan scheme in Gujarat, aiming to support over 9.34 crore farmer families across the country with more than Rs 18,680 crore."
+    }
+  ],
+  "catalyst_review": "Inspected all captured date-bearing records for October 30. The scheduled PM-Kisan instalment supplies a distinct, quantified national income-transfer deliverable and is not a selected card. The DGFT/Karnataka/FIEO October 30 workshop is awareness training without a separate policy decision. PLI and GST starts and the opposition rally concern November 1; cancer-drug rates begin November 9; trial witnesses, school calendars, the Jharkhand session and the book prize concern later dates. Cyclone warnings and rail disruptions span days without a distinct October 30 action. October 28 earnings and landfall, October 29 trading alerts and the Sudarshan board review do not qualify for tomorrow. No other distinct October 30 catalyst is established."
+}
