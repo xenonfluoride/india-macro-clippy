@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "run_id": "20261030T025920Z-b8aa66da",
+  "created_at": "2026-10-30T03:13:00+00:00",
+  "date": "2026-10-30",
+  "issue": 22,
+  "hero": "The finance ministry estimates September-quarter growth at 7.35%, with crude, food prices and capital pressures among the risks. Karnataka's announced milk-price increase brings the household-cost question into focus. Elsewhere, forest dredging gets a qualified clearance exemption, the ESIC dispute-settlement window is extended, two Supreme Court decisions clarify disclosure and evidentiary boundaries, and Bengaluru-built Inkle broadens its business through an acquisition.",
+  "hero_card_ids": [
+    "37a2ed873995c9d0ee6f1842",
+    "3f1b8e37d52ad0466aca0f9d",
+    "62c0393fa46751fd3c5fab68",
+    "e62899e38fea08318223b34e",
+    "286b56cc7449e5b3be5fe6c4",
+    "6c1bab3bf99f63c10691794f",
+    "1a5e719a0aefcf9ba3eb247f"
+  ],
+  "cards": [
+    {
+      "id": "37a2ed873995c9d0ee6f1842",
+      "lane": "macro",
+      "headline": "Finmin pegs Q2 expansion at 7.35%,flags capital pressure over US yield",
+      "brief": "The finance ministry estimates that India's economy grew 7.35% in the September quarter, supported by industrial output, GST collections, energy use, port traffic and auto sales. It expects domestic demand and investment to sustain momentum, while flagging high crude prices, food inflation, rupee pressure and elevated US bond yields as second-half risks.",
+      "mechanism": "Strong activity can coexist with tighter household budgets and more expensive capital when food, energy and external financing pressures rise.",
+      "watch": "Watch whether the eventual GDP release and subsequent activity indicators confirm the ministry's estimate as these cost pressures evolve.",
+      "claims": [
+        {
+          "statement": "The finance ministry estimates that India's economy grew 7.35% in the September quarter, supported by industrial output, GST collections, energy use, port traffic and auto sales.",
+          "evidence": [
+            "India’s economy is estimated to have grown 7.35% in the September quarter, supported by strong industrial output, GST collections, energy use, port traffic and auto sales, the finance ministry said."
+          ]
+        },
+        {
+          "statement": "It expects domestic demand and investment to sustain momentum, while flagging high crude prices, food inflation, rupee pressure and elevated US bond yields as second-half risks.",
+          "evidence": [
+            "It expects domestic demand and investment to sustain momentum, while warning that high crude prices, food inflation, rupee pressure and elevated US bond yields could pose risks in the second half."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3f1b8e37d52ad0466aca0f9d",
+      "lane": "macro",
+      "headline": "Fresh rules issued for dredging in forest areas to mitigate floods",
+      "brief": "The Centre has issued guidelines allowing scientifically planned river dredging in forest areas to mitigate floods and restore river ecosystems without treating the activity as a non-forest purpose. Qualifying works are exempt from forest clearance requirements, compensatory afforestation and net present value payments.",
+      "mechanism": "Removing these requirements can reduce the approval and payment burden for qualifying works, making the boundary of eligibility important for environmental oversight.",
+      "watch": "Watch which dredging projects qualify and how their scientific plans and ecological outcomes are documented.",
+      "claims": [
+        {
+          "statement": "The Centre has issued guidelines allowing scientifically planned river dredging in forest areas to mitigate floods and restore river ecosystems without treating the activity as a non-forest purpose.",
+          "evidence": [
+            "The Centre has issued fresh guidelines allowing scientifically planned river dredging in forest areas to mitigate floods and restore river ecosystems, without treating the activity as a “non-forest purpose”"
+          ]
+        },
+        {
+          "statement": "Qualifying works are exempt from forest clearance requirements, compensatory afforestation and net present value payments.",
+          "evidence": [
+            "exempting qualifying works from forest clearance requirements, compensatory afforestation and net present value (NPV) payments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "62c0393fa46751fd3c5fab68",
+      "lane": "macro",
+      "headline": "Govt extends Amnesty Scheme under ESIC for three month till December 31",
+      "brief": "The government has extended the amnesty scheme under ESIC until December 31. The ministry describes the New Amnesty Scheme 2025 as a one-time dispute-resolution initiative to reduce court-case backlogs and promote compliance under the erstwhile Employees' State Insurance Act; cases filed up to March 31, 2025 are eligible.",
+      "mechanism": "A longer settlement window can give eligible employers more time to resolve litigation and reduce uncertainty around compliance liabilities.",
+      "watch": "Watch the number and value of eligible disputes settled before the extended deadline.",
+      "claims": [
+        {
+          "statement": "The government has extended the amnesty scheme under ESIC until December 31.",
+          "evidence": [
+            "Govt extends Amnesty Scheme under ESIC for three month till December 31"
+          ]
+        },
+        {
+          "statement": "The ministry describes the New Amnesty Scheme 2025 as a one-time dispute-resolution initiative to reduce court-case backlogs and promote compliance under the erstwhile Employees' State Insurance Act; cases filed up to March 31, 2025 are eligible.",
+          "evidence": [
+            "The ‘New Amnesty Scheme 2025’, rolled out on October 1, 2025, is a one-time dispute resolution initiative aimed at reducing the backlog of court cases and promoting compliance under the erstwhile Employees’ State Insurance Act.",
+            "Court cases filed up to March 31, 2025 are eligible under this scheme, the ministry said on Thursday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e62899e38fea08318223b34e",
+      "lane": "macro",
+      "headline": "Karnataka hikes Nandini milk prices by ₹8 per litre from November 1: State minister",
+      "brief": "Karnataka is increasing Nandini milk prices by ₹8 per litre from November 1, according to a state minister. The minister said the government considered demands from farmers and their representatives before finalising the increase.",
+      "mechanism": "A higher per-litre milk price raises household food spending, while the benefit to farmers depends on how the additional revenue is distributed.",
+      "watch": "Watch the effective retail prices and any disclosed change in payments to milk producers when the increase takes effect.",
+      "claims": [
+        {
+          "statement": "Karnataka is increasing Nandini milk prices by ₹8 per litre from November 1, according to a state minister.",
+          "evidence": [
+            "Karnataka hikes Nandini milk prices by ₹8 per litre from November 1: State minister"
+          ]
+        },
+        {
+          "statement": "The minister said the government considered demands from farmers and their representatives before finalising the increase.",
+          "evidence": [
+            "Karnataka minister said the government had considered the demands raised by farmers and their representatives before finalising the increase."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "286b56cc7449e5b3be5fe6c4",
+      "lane": "national",
+      "headline": "Supreme Court rejects Mahua Moitra’s plea on AIF-FPI ownership disclosure",
+      "brief": "The Supreme Court rejected Mahua Moitra's plea on AIF-FPI ownership disclosure. The court said there is presently no legal or regulatory framework mandating public disclosure of their beneficial owners, and its order would not prevent the Centre or SEBI from framing a policy.",
+      "mechanism": "The decision leaves the design of a public-disclosure requirement with policymakers rather than creating one through this plea.",
+      "watch": "Watch for a government or SEBI proposal specifying what beneficial-ownership information would become public and under which conditions.",
+      "claims": [
+        {
+          "statement": "The Supreme Court rejected Mahua Moitra's plea on AIF-FPI ownership disclosure.",
+          "evidence": [
+            "Supreme Court rejects Mahua Moitra’s plea on AIF-FPI ownership disclosure"
+          ]
+        },
+        {
+          "statement": "The court said there is presently no legal or regulatory framework mandating public disclosure of their beneficial owners, and its order would not prevent the Centre or SEBI from framing a policy.",
+          "evidence": [
+            "The court said that its order will not come in the way of the Centre or the Securities Exchange Board of India (SEBI) from framing a policy as there is presently no legal or regulatory framework mandating public disclosure of beneficial owners of Alternate Investment Fund (AIF) and Foreign Portfolio Investments (FPI)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6c1bab3bf99f63c10691794f",
+      "lane": "national",
+      "headline": "Accused must explain source of excess wealth, not investigators: Supreme Court",
+      "brief": "The Supreme Court ruled that public servants must explain wealth exceeding their known income once the prosecution establishes a disproportionate-assets case against them.",
+      "mechanism": "After the prosecution establishes the case, documented sources of a public servant's wealth become central to answering the allegation.",
+      "watch": "Watch how subsequent cases apply that threshold and assess the explanations offered for excess wealth.",
+      "claims": [
+        {
+          "statement": "The Supreme Court ruled that public servants must explain wealth exceeding their known income once the prosecution establishes a disproportionate-assets case against them.",
+          "evidence": [
+            "The Supreme Court rules public servants must explain wealth exceeding known income once prosecution establishes a disproportionate-assets case against them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1a5e719a0aefcf9ba3eb247f",
+      "lane": "tech",
+      "headline": "Bengaluru-based Inkle acquires Finally’s bookkeeping arm, expands team to 160",
+      "brief": "Bengaluru-built, San Francisco-headquartered Inkle has acquired Finally's bookkeeping division in an all-cash deal for an undisclosed amount. The acquisition takes its team to about 160 people across five countries and extends its business from startups to non-tech small businesses.",
+      "mechanism": "Buying an existing bookkeeping operation can broaden Inkle's customer base while adding integration demands across a larger international team.",
+      "watch": "Watch whether Inkle retains the acquired clients and integrates the expanded team while serving its broader small-business market.",
+      "claims": [
+        {
+          "statement": "Bengaluru-built, San Francisco-headquartered Inkle has acquired Finally's bookkeeping division in an all-cash deal for an undisclosed amount.",
+          "evidence": [
+            "Bengaluru-built, San Francisco-headquartered CPA firm Inkle has acquired Finally's bookkeeping division in an undisclosed all-cash deal"
+          ]
+        },
+        {
+          "statement": "The acquisition takes its team to about 160 people across five countries and extends its business from startups to non-tech small businesses.",
+          "evidence": [
+            "taking its team to about 160 people across five countries and extending it from startups to non-tech small businesses."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "No distinct October 31 catalyst qualifies after the complete 367-candidate review. Reliance and Jio earnings, the NVS-03 launch, the PM-Kisan instalment schedule, the DGFT exporter workshop, Delhi Metro extension and concert traffic curbs are dated October 30, which is today. Nandini pricing, the textile PLI portal and opposition march are dated November 1; the selected milk-price decision cannot also be a catalyst. The tribal campaign runs November 1-15. SIR claim deadlines are November 13 or 25, disposition by December 15 and final rolls November 30 or December 22. NEET deadlines and exams, the November 5 trust hearing, November 12 Trent succession, November 18-19 FICCI meeting and November 4 Coal India record date are outside tomorrow, with the last also an investor alert. ESIC's December 31 deadline, future EPFO guidelines, expected November 30 KYC revision and undated summit or biodiversity previews provide no October 31 decision. October 29 rainfall forecasts referring to tomorrow concern October 30; Arnab aftermath and a new low-pressure system have no separate October 31 deliverable. Prior ledger dates do not supply fresh catalyst evidence."
+}

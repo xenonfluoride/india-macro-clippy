@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate second evidence-check pass; no independent reviewer claimed",
+  "checked_at": "2026-10-30T03:14:30+00:00",
+  "input_hashes": {
+    "capture.json": "329eaec87c90fea5ee218ad3d3cb2aebeaab5832ee82177ab432df7c97ab6c5b",
+    "history.json": "071d7d48e18b80c00335c2de7a8d9139772330b1325f4e0e2b22f70dbf448a4c",
+    "review.json": "e2298a99a1c7a21608676b94076884b8c76d55493c75b273845d50bc0a72c1ea",
+    "edition.json": "7ce9864fcb42ebb0d7964baa62653607839c69e946d10172218360eb38637603",
+    "market.json": "46befaafa81e94ade0f3aa3da5aed8cf23c6173c4aec013feaf83684f9e47d90"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 367 fresh candidates from all fifteen successful feeds through context offsets 0,40,80,120,160,200,240,280,320,360, ending next_offset=null. The first verbose context response truncated because it included the full ledger; the candidate-only compact reprint at offset 0 recovered every title, summary, URL, source and timestamp without truncation, and subsequent batches were bounded and complete. Read all 83 history records, recovering the middle records 20-55 in a separate bounded print after whole-history output truncation. Authored each of 367 substantive rows in editor-decisions.tsv and mechanically packaged those decisions into review.json; Python performed no editorial selection. Seven selected, 113 eligible, 186 rejected and 61 explicitly linked duplicates. Inspected operating evidence inside share/dividend headlines: Coal India profit, Yes Bank's already-published AT1 trigger, Asian Paints' margins and Alphabet's cash burn were evaluated on substance. Considered services data, pharma exports, Maruti shipments, TVS planned capacity, IHCL signed hotels, GST warehouse registration, EPFO proposed allocations, Uber features and Freshworks acquisition. Explicit Indian origin and business scope support Inkle; no India hiring claim was imported for Freshworks. Conflicting Klassroom profit and Vedanta segment scope remain unselected. Preserved the exact original evidence, forecast versus realised outcomes, uncertain actors and proposal status. No source quota or Macro cap applied; four Macro selections are retained.",
+  "hero": "Checked every clause against the seven final cards. The 7.35% value remains a ministry estimate with crude, food and capital risks; milk pricing is announced rather than already effective. Qualified forest exemption, extended ESIC window, two different Supreme Court decisions and the completed Inkle acquisition each correspond to a selected card. Hero does not introduce new numbers, events or an unsupported claim of nationwide milk pricing. All seven IDs are covered.",
+  "catalysts": "Checked tomorrow as October 31 in IST against the full pool. Reliance/Jio earnings, NVS-03, PM-Kisan, exporter workshop and concert services are October 30; no outcome inferred from their schedules. Milk price and textile portal start November 1, as do march and tribal campaign dates. Later SIR, NEET, trust, Trent, FICCI, Coal India, KYC and ESIC dates are outside tomorrow; shareholder dates and promotion previews would not independently qualify. The weather-tomorrow article was published October 29 and therefore refers to October 30, while residual Arnab and the distinct new low-pressure system lack an October 31 deliverable. No separate qualifying October 31 item was found, so an empty array and a specific absence review are appropriate for the single closing module.",
+  "cards": [
+    {
+      "id": "37a2ed873995c9d0ee6f1842",
+      "factual_support": "Reread both final brief sentences against the ET summary: 7.35% refers to the September quarter and is explicitly the finance ministry's estimate, not an official realised GDP release. Each of the five supporting indicators and four second-half risk categories is present in the exact spans. No unsupported comparison with previous-quarter growth is added.",
+      "analysis": "The mechanism draws a conditional link from food, energy and financing pressure to household budgets and capital costs. The watch names eventual GDP and subsequent activity as future observations without inventing a release date or claiming a forecast guarantee.",
+      "novelty": "Compared all 83 ledger entries: September IIP, core output and the goods-trade release are older distinct series, not this Q2 GDP nowcast. Candidates 70, 215 and 236 are explicitly grouped with this assessment, leaving one card for the ministry review. No previous link or equivalent published GDP estimate was found."
+    },
+    {
+      "id": "3f1b8e37d52ad0466aca0f9d",
+      "factual_support": "The HT summary supports issued guidelines, scientifically planned river dredging in forest areas, flood mitigation and river restoration, non-forest-purpose treatment and all three specified exemptions. Final wording retains qualifying works, avoiding an unlimited exemption for any excavation or project in a forest.",
+      "analysis": "Reduced approval and payment burden follows from the enumerated exemptions; eligibility and ecological documentation are interpretive implementation questions. Neither sentence claims dredging is already completed or that an environmental outcome has been achieved.",
+      "novelty": "No forest-dredging guideline event appears in the 83-record history. Earlier NCAP spending, climate forecasts, vehicle rules and the UP project approvals concern different authorities and instruments. Reassigned from the National feed to Macro for permitting and resource-economics substance."
+    },
+    {
+      "id": "62c0393fa46751fd3c5fab68",
+      "factual_support": "The ET headline establishes the extension through December 31; the summary names New Amnesty Scheme 2025, one-time dispute resolution, the erstwhile ESI Act and the March 31, 2025 case-filing cutoff. Final brief does not claim automatic settlement, universal eligibility, penalties waived or funds disbursed.",
+      "analysis": "A longer window can help eligible employers resolve litigation, which is an explicitly conditional mechanism rather than an asserted settlement result. The next signal is actual settled disputes and their value before the deadline, with no invented target.",
+      "novelty": "History's MCA filing extension concerns company annual returns and statements, not ESIC court-case settlement. No equivalent amnesty extension was published in the captured ledger, and there is only one captured representative for this distinct programme."
+    },
+    {
+      "id": "e62899e38fea08318223b34e",
+      "factual_support": "The original HT title directly supplies Nandini, Karnataka, ₹8 per litre, November 1 and state-minister attribution; the summary supplies consideration of farmer demands. The final brief preserves the upcoming effective date and does not assert that the whole increase is paid to farmers or applies across India.",
+      "analysis": "Household spending and possible producer benefit are separated: distribution of the extra revenue remains a question. The watch asks for effective prices and disclosed producer payments after the change, without claiming an already notified procurement-price increase.",
+      "novelty": "No Karnataka milk-price increase is in the publication ledger. Candidate 78 is the political justification for this same increase and is directly marked duplicate_of this representative. Milky Mist earnings and Godrej pricing are separate private-company events, not repeats of this state price decision."
+    },
+    {
+      "id": "286b56cc7449e5b3be5fe6c4",
+      "factual_support": "The HT title establishes rejection of Mahua Moitra's AIF-FPI ownership-disclosure plea. The summary explicitly limits its statement to public disclosure, describes the present framework gap and preserves Centre/SEBI policymaking. Final brief avoids expanding the source's erroneous-looking full SEBI name and does not suggest all regulatory beneficial-owner reporting is absent.",
+      "analysis": "Leaving policy design with the authorities follows the court's stated caveat; the watch concerns a possible future proposal and its public-information scope. No prohibition on future rules or mandatory disclosure order is invented.",
+      "novelty": "Prior ledger legal stories cover AT1 bonds, IBC plan withdrawal, bail, electoral affidavits and other distinct holdings. SEBI's EPI margin relief is also different. This petition's rejection and public-disclosure caveat have no semantic match in the 83 published records."
+    },
+    {
+      "id": "6c1bab3bf99f63c10691794f",
+      "factual_support": "The final brief narrows the broad headline to the exact summary: public servants, wealth exceeding known income, and prosecution first establishing a disproportionate-assets case. It does not transfer the initial burden to every criminal defendant or pronounce any accused person guilty.",
+      "analysis": "During the separate pass, replaced a largely repetitive mechanism with the conditional consequence for explaining wealth sources. Reread the revised sentence against the threshold: documented sources become central after the prosecution establishes the case; this is analysis, not a new rule specifying mandatory document types. Watch concerns subsequent applications of that condition.",
+      "novelty": "No disproportionate-assets burden ruling is in history. The prior UAPA bail-bar, custodial-interrogation, false-affidavit and trafficking holdings concern different statutes or procedural questions. This event has its own key and only one selected representative."
+    },
+    {
+      "id": "1a5e719a0aefcf9ba3eb247f",
+      "factual_support": "The YourStory summary expressly supports Bengaluru-built and San Francisco-headquartered, acquisition of Finally's bookkeeping division, all-cash undisclosed consideration, about 160 total people across five countries, and expansion from startups to non-tech small businesses. Final brief does not say 160 new hires, all staff in India or acquisition of Finally as a whole.",
+      "analysis": "Customer expansion and integration demands are reasonable potential consequences of acquiring the operation. Client retention and team integration are future checks, without invented revenue, synergies, employment commitments or a closing timetable.",
+      "novelty": "No Inkle/Finally transaction appears in the ledger. Earlier HCLTech/Anthropic and HCLTech/Rapidus collaborations are separate companies and actions. Candidate 139 reports the same Inkle acquisition and is explicitly linked here; the more detailed selected RSS supplies the domestic connection and total-team scope."
+    }
+  ]
+}

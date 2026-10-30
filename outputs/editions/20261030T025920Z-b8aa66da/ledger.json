@@ -1,0 +1,725 @@
+{
+  "entries": [
+    {
+      "event_key": "legacy-e2c544e94620eb8a",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/indicators/india-to-widen-services-production-index-to-include-education-health-and-defence/articleshow/134749155.cms",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The statistics ministry plans to expand the monthly Index of Services Production to cover education, healthcare, public administration and defence, raising its coverage to 78.4% of services GVA from about 60%. The proposed framework could use UPI transaction data to track private education and healthcare activity and government expenditure data for public services.",
+      "title": "India to widen services production index to include education, health and defence"
+    },
+    {
+      "event_key": "legacy-1a1845b4323e5a58",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/cabinet-approves-rs-10000-crore-sme-growth-fund-and-new-authority-to-plan-transport-and-logistics/articleshow/134748940.cms",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The Indian government has approved a ₹10,000-crore SME Growth Fund aimed at supporting small and medium enterprises. Additionally, an Integrated Transport & Logistics Authority has been established to enhance transport infrastructure planning. This fund is intended to address equity capital gaps currently faced by SMEs and facilitate their growth. ITLA will create a comprehensive National Transport Master Plan to improve coordination across various transport sectors.",
+      "title": "Cabinet approves Rs 10,000-crore SME Growth Fund and new authority to plan transport and logistics"
+    },
+    {
+      "event_key": "legacy-97e5c1144e2f59bb",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/india-expands-shakti-engine-production-for-dhruv-prachand-helicopters-101791255013190.html",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "HAL currently produces 80 Ardiden 1H1 Shakti engines annually at its Bengaluru facility, and the new production line will raise its annual capacity to 180 engines",
+      "title": "India expands Shakti engine production for Dhruv, Prachand helicopters"
+    },
+    {
+      "event_key": "legacy-a5f4e7b41b01f72a",
+      "lane": "tech",
+      "link": "https://economictimes.indiatimes.com/tech/technology/am-intelligence-plans-20-billion-additional-investment-in-15-months-orders-20k-more-nvidia-gpus/articleshow/134713444.cms",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The company announced that it has placed two further firm and binding orders for 20,000 NVIDIA Rubin GPUs for deployment of the systems across India and Malaysia, taking its total capacity to 100 Megawatt.",
+      "title": "AM Intelligence plans $20 billion additional investment in 15 months, orders 20k more Nvidia GPUs"
+    },
+    {
+      "event_key": "legacy-20de4981ece163a0",
+      "lane": "tech",
+      "link": "https://inc42.com/buzz/go-all-electric-by-july-2027-maharashtra-govt-to-bike-taxi-aggregators/",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The Maharashtra government has reportedly directed all bike taxi aggregators, including Rapido, Uber and Ola, to transition to an all-electric…",
+      "title": "Go All-Electric By July 2027: Maharashtra Govt To Bike Taxi Aggregators"
+    },
+    {
+      "event_key": "legacy-e374859571940cfb",
+      "lane": "tech",
+      "link": "https://yourstory.com/2026/10/karnataka-govt-signs-mou-with-elevenlabs-for-voice-ai-services",
+      "published_at": "2026-10-07T02:03:39.005184+00:00",
+      "summary": "The partnership will focus on voice AI safety framework, assisting people with speaking disabilities and usage in government services.",
+      "title": "Karnataka govt signs MoU with ElevenLabs for Voice AI services"
+    },
+    {
+      "event_key": "india-september-2026-cpi-release-2026-10-12",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/economy/news/food-fuel-push-retail-inflation-to-23-month-high-of-5-54-in-september-126101200829_1.html",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "Retail inflation rose from 4.83% in August as food inflation climbed to 7.74%, led by a sharp rise in onion prices, while transport and services costs added to pressure",
+      "title": "Food, fuel push retail inflation to 23-month high of 5.54% in September"
+    },
+    {
+      "event_key": "tata-power-renewable-q2-fy27-capacity-additions-2026-10-12",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/companies/news/tata-power-renewable-doubles-capacity-addition-to-419-mw-in-q2-fy27-126101200567_1.html",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "Tata Power Renewable Energy on Monday said the company added 419 megawatt of utility-scale energy generation capacity during July-September 2026, more than double the 182 MW commissioned in the year-ago period. A utility-scale project refers to the installation of a large energy infrastructure designed to generate electricity. Tata Power Renewable Energy Limited (TPREL) also executed 131.2 MWhr (megawatt hour) of storage projects during the second quarter of FY27, the company said in a statement. During the first half of FY27, the company commissioned several key projects, including the 100.8-MW Jewali Wind Project, the Kalasar FDRE Project comprising 227.5 MW of solar capacity and a 101.2-MWhr Battery Energy Storage System (BESS), the 100 MW Kayathar Group Captive Project, and the 72.5-MW Tata Steel Captive Project. With these additions, the company's utility-scale operational portfolio has grown to 7.2 GW, comprising 5.8 GW of solar, 1.3 GW of wind, and 281.2 MWhr of Battery Stor",
+      "title": "Tata Power Renewable doubles capacity addition to 419 MW in Q2 FY27"
+    },
+    {
+      "event_key": "tata-motors-pv-stellantis-technology-partnership-expansion-2026-10-12",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/companies/news/stellantis-tata-motors-pv-join-hands-for-vehicle-tech-product-development-126101200811_1.html",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "The expanded partnership will combine Tata Motors' vehicle technology with Stellantis' engineering capabilities to develop India-made vehicles for more than 50 global markets",
+      "title": "Stellantis, Tata Motors PV join hands for vehicle tech, product development"
+    },
+    {
+      "event_key": "ge-aerospace-india-supplier-spend-2030-target-2026-10-12",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/tech/startups/ge-aerospace-to-nearly-double-supplier-spend-in-india-by-2030-eyes-growing-aviation-demand/articleshow/134891657.cms",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "The announcement was made alongside the release of a report by Ernst & Young (EY), titled 'Powering Progress: GE Aerospace's Economic Impact in India', which assesses the company's economic contribution to India's commercial aviation, defence, manufacturing and engineering sectors over four decades.",
+      "title": "GE Aerospace to nearly double supplier spend in India by 2030, eyes growing aviation demand"
+    },
+    {
+      "event_key": "karnataka-court-enhanced-sc-st-reservation-ruling-reported-2026-10-13",
+      "lane": "national",
+      "link": "https://www.ndtv.com/india-news/karnataka-high-court-quashes-st-sc-quota-exceeding-50-cap-12176499#publisher=newsstand",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "The court also struck down Section 4 of the Act, which provided for enhanced reservation for SCs and STs in state government services, as \"unconstitutional\" because it violates Articles 14 and 16 of the Constitution.",
+      "title": "\"Unconstitutional\": Karnataka Court Quashes ST/SC Quota Exceeding 50% Cap"
+    },
+    {
+      "event_key": "rdi-fund-19-managers-7131-crore-commitment-2026-10-12",
+      "lane": "tech",
+      "link": "https://economictimes.indiatimes.com/tech/startups/rdif-approves-19-fund-managers-with-rs-7131-crore-commitment-to-boost-indias-rd-ecosystem/articleshow/134896665.cms",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "The government's Research, Development and Innovation Fund (RDIF) has approved its first cohort of 19 second-level fund managers with a total commitment of Rs 7,131 crore, marking a key step towards mobilising private investment in research and development and emerging technologies.",
+      "title": "Govt selects 19 fund managers under RDI, committing Rs 7,131 crore"
+    },
+    {
+      "event_key": "hcltech-anthropic-dedicated-ai-unit-pact-2026-10-12",
+      "lane": "tech",
+      "link": "https://www.business-standard.com/companies/news/hcltech-signs-pact-with-anthropic-to-set-up-dedicated-ai-business-unit-126101200830_1.html",
+      "published_at": "2026-10-13T02:45:00+00:00",
+      "summary": "HCLTech will set up a dedicated business unit and centre to develop AI solutions using Anthropic's Claude models and support their enterprise adoption",
+      "title": "HCLTech signs pact with Anthropic to set up dedicated AI business unit"
+    },
+    {
+      "event_key": "india-september-2026-wpi-release-2026-10-14",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/indicators/wholesale-inflation-hits-series-high-of-11-4-in-september-as-fuel-food-prices-surge/articleshow/134950409.cms",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "India's wholesale inflation reached 11.4% in September, significantly increasing from 9.9% in August. Rising prices of fuel, food, and manufactured goods contributed to this surge. Food inflation climbed to 8.7%, marking a 23-month high. Retail inflation also saw an increase, rising to 5.54% year-on-year in September. Economists expect inflation to remain elevated in the coming months due to ongoing global commodity pressures.",
+      "title": "Wholesale inflation hits series high of 11.4% in September as fuel, food prices surge"
+    },
+    {
+      "event_key": "cabinet-fairfax-idbi-controlling-stake-approval-2026-10-14",
+      "lane": "macro",
+      "link": "https://www.ndtv.com/india-news/from-rbi-action-to-strategic-restructuring-timeline-of-idbi-bank-stake-sale-12186806#publisher=newsstand",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "The Centre on Wednesday approved the strategic restructuring of IDBI Bank, with Fairfax set to acquire 60.72 per cent controlling stake for Rs 52,878 crore.",
+      "title": "From RBI Action To Strategic Restructuring: Timeline Of IDBI Bank Stake Sale"
+    },
+    {
+      "event_key": "hyundai-pune-4000-crore-capacity-plan-2030-reported-2026-10-14",
+      "lane": "macro",
+      "link": "https://www.livemint.com/companies/news/hyundai-plans-4-000-crore-investment-in-maharashtra-aims-to-double-pune-plant-capacity-by-2030-11791999786904.html",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "Hyundai Motor India will invest an additional ₹4,000 crore in Maharashtra by 2030, gradually expanding its Pune plant’s annual capacity from 1.7 lakh to 3.2 lakh vehicles.",
+      "title": "Hyundai plans ₹4,000 crore investment in Maharashtra, aims to double Pune plant capacity by 2030"
+    },
+    {
+      "event_key": "cabinet-nsap-continuation-disability-pension-changes-2026-10-14",
+      "lane": "national",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/cabinet-clears-rs-53428-crore-for-social-assistance-scheme-revises-disability-pension-norms/articleshow/134941690.cms",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "The Union Cabinet has approved an outlay of Rs 53,428 crore for the National Social Assistance Programme. This approval will support the program's continuation from 2026-27 to 2030-31 with updated eligibility criteria. Monthly assistance rates for disability pension beneficiaries will increase with adjustments for age and disability severity.",
+      "title": "Cabinet clears Rs 53,428 crore for social assistance scheme, revises disability pension norms"
+    },
+    {
+      "event_key": "saudi-airport-attacks-indian-flight-cancellations-2026-10-14",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/saudi-airport-attacks-disrupt-indian-flights-embassy-focuses-on-diaspora-welfare-mea-101791990662575.html",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "The MEA said attacks on Saudi airports have disrupted Indian carriers’ flights to Riyadh, Jeddah, Dammam and Medina, with cancellations announced until October 17.",
+      "title": "Saudi airport attacks disrupt Indian flights, embassy focuses on diaspora welfare: MEA"
+    },
+    {
+      "event_key": "supreme-court-quashes-up-police-journalist-digital-demand-2026-10-14",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/sc-quashes-up-police-notice-asking-social-media-data-of-journalist-who-reported-ayodhya-temple-theft-101791980160083.html",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "The Supreme Court on Wednesday set aside a directive by the Uttar Pradesh police seeking the digital footprints of a journalist",
+      "title": "SC quashes UP police notice asking social media data of journalist who reported Ayodhya temple theft"
+    },
+    {
+      "event_key": "skyroot-reflect-orbital-two-launch-purchase-reported-2026-10-14",
+      "lane": "tech",
+      "link": "https://www.ndtv.com/india-news/indias-skyroot-bags-major-private-us-contract-after-vikram-1-launch-success-12186809#publisher=newsstand",
+      "published_at": "2026-10-15T02:13:00+00:00",
+      "summary": "US-based Reflect Orbital, a company seeking to harness sunlight from space and redirect it back to Earth, has purchased two dedicated launches on Skyroot rockets for future spacecraft deployment.",
+      "title": "India's Skyroot Bags Major Private US Contract After Vikram-1 Launch Success"
+    },
+    {
+      "event_key": "india-september-2026-goods-trade-release-2026-10-15",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/economy/news/india-s-exports-rise-23-to-44-4-bn-in-september-trade-deficit-narrows-126101500664_1.html",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "India's exports increased by 23 per cent to USD 44.4 billion in September, and the trade deficit narrowed to USD 30.21 billion, government data released on Thursday said. The country's imports rose by 8 per cent to USD 74.61 billion in September. India's trade deficit in September 2025 stood at USD 33 billion. During April-September this fiscal, exports jumped 18.51 per cent to USD 259.89 billion, and imports climbed 16.31 per cent to USD 437.53 billion. Exports are maintaining their growth trend, Commerce Secretary Rajesh Agarwal said in a press briefing on trade data.",
+      "title": "India's exports rise 23% to $44.4 bn in September, trade deficit narrows"
+    },
+    {
+      "event_key": "nso-september-2026-plfs-unemployment-release-2026-10-15",
+      "lane": "macro",
+      "link": "https://www.thehindu.com/business/Economy/unemployment-rate-in-country-stands-at-5-in-september-stable-compared-to-august-nso/article71589002.ece",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "The rural unemployment rate remains “broadly stable” at 4.2% against 4.1% in August, while urban rate marginally rises from 6.8% in August to 6.9% in this month",
+      "title": "Unemployment rate in country stands at 5% in September, stable compared to August: NSO"
+    },
+    {
+      "event_key": "am-green-kakinada-adb-japan-jica-financing-pact-2026-10-15",
+      "lane": "macro",
+      "link": "https://www.livemint.com/companies/news/adb-govt-of-japan-sign-pact-with-am-green-ammonia-11792074344102.html",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "The deal includes a $100 million JICA-financed loan to help build a 1.1-million-tonne renewable-powered green ammonia facility in Kakinada, Andhra Pradesh.",
+      "title": "ADB, govt of Japan sign financing pact with AM Green Ammonia"
+    },
+    {
+      "event_key": "supreme-court-yes-bank-at1-quashing-upheld-2026-10-15",
+      "lane": "macro",
+      "link": "https://www.livemint.com/companies/news/yes-bank-supreme-court-upholds-hc-order-at-1-bond-writeoff-11792042824907.html",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "The dispute centres on whether Yes Bank’s administrator had the legal authority to cancel the bonds as part of the bank’s reconstruction plan, leaving investors with losses on their investments.",
+      "title": "Supreme Court upholds Bombay HC order quashing Yes Bank’s ₹8,415 cr AT-1 bond write-off"
+    },
+    {
+      "event_key": "eci-searchable-pdf-voter-roll-direction-2026-10-15",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/eci-directs-officers-to-provide-political-parties-with-searchable-pdf-voter-rolls-101792080025548.html",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "The Election Commission has directed officers to provide recognised political parties with searchable PDF copies of draft and final voter rolls, excluding voters’ photographs.",
+      "title": "ECI directs officers to provide political parties with searchable PDF voter rolls"
+    },
+    {
+      "event_key": "logitech-india-local-assembly-commencement-2026-10-15",
+      "lane": "tech",
+      "link": "https://www.thehindu.com/sci-tech/technology/logitech-commences-local-manufacturing-in-india-to-drive-agility-and-ai-era-expansion/article71587209.ece",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "Highlighting the operational rationale behind the move, Logitech stated that establishing assembly capabilities in India is rooted in a market-driven strategy designed to enhance operational agility and supply chain resilience",
+      "title": "Logitech commences local manufacturing in India to drive agility and AI-era expansion"
+    },
+    {
+      "event_key": "dot-cnap-kyc-caller-name-november-1-direction-2026-10-15",
+      "lane": "tech",
+      "link": "https://www.thehindu.com/business/Industry/telecom-operators-to-show-kyc-name-of-incoming-callers-from-november-1/article71587959.ece",
+      "published_at": "2026-10-16T02:20:42.100452+00:00",
+      "summary": "The Caller Name Presentation (CNAP) requirement has been in the works for years, and was piloted through much of 2025 within the telecom operators’ own networks",
+      "title": "Telecom operators to show KYC name of incoming callers from November 1"
+    },
+    {
+      "event_key": "rbi-one-lakh-crore-vrr-announcement-2026-10-19",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. The central bank will conduct another VRR for Rs 50,000 crore on Wednesday.",
+      "title": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season"
+    },
+    {
+      "event_key": "rbi-large-overseas-investment-checklist-reported-2026-10-19",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "The Reserve Bank of India is implementing stricter scrutiny on large overseas direct investments by Indian companies. Banks must now collect and present detailed information regarding these investments to the RBI. This initiative aims to prevent potential losses for both the companies and the Indian economy. The RBI's checklist requires banks to conduct thorough due diligence on the rationale behind each investment.",
+      "title": "RBI tightens scrutiny of $1 billion-plus overseas investments amid rupee pressure"
+    },
+    {
+      "event_key": "india-new-zealand-fta-implementation-2026-10-20",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "New Zealand is working to strengthen trade relations with Brazil and Canada in response to economic uncertainties. The country expects to complete the first New Zealand-Brazil Trade and Investment Dialogue after upcoming elections. A new free trade agreement with India has been implemented, making more than half of exports tariff-free. The agreement will benefit various products, including sheep meat and wool, as well as local businesses.",
+      "title": "India-NZ FTA in force: Over half of New Zealand’s exports to India now tariff-free, Wellington also eyes Brazil, Canada"
+    },
+    {
+      "event_key": "china-machinery-export-controls-november-18-reported-2026-10-19",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/china-announces-export-curbs-on-key-machinery-used-in-indias-infrastructure-development/articleshow/135049611.cms",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "Beijing has announced new export controls on essential machinery, which will impact India's infrastructure development. These restrictions will take effect on November 18 and apply to tunnel boring machines and related items. Additionally, the export controls include walking excavators and specific dredger-related items, complicating several Indian projects.",
+      "title": "China announces export curbs on key machinery used in India's infrastructure development"
+    },
+    {
+      "event_key": "cisf-functional-command-realignment-november-1-reported-2026-10-19",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/cisf-scraps-territorial-commands-puts-sectors-under-specialist-control-101792378510178.html",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "Eight of 11 supervisory sectors will be realigned by function from November 1, with dedicated commands for power, coal, steel, oil and gas, and ports.",
+      "title": "CISF scraps territorial commands, puts sectors under specialist control"
+    },
+    {
+      "event_key": "hfcl-q2-fy27-optical-fibre-earnings-2026-10-19",
+      "lane": "tech",
+      "link": "https://www.business-standard.com/companies/news/hfcl-q2-results-profit-surges-to-394-crore-as-ai-data-centre-demand-rises-126101900444_1.html",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "Domestic telecom gear maker HFCL has posted a multi-fold jump in consolidated profit to Rs 394.22 crore in the second quarter ended September 30, 2026, driven by demand for optical fibre cables from AI data centres, the company said in a regulatory filing. HFCL had posted net profit of around Rs 72 crore in the same period a year ago. \"This is the best-ever quarterly performance in HFCL's history and marks a defining moment in our growth journey. The results reflect the increasing scale, strength and momentum of our business and reinforce our confidence in HFCL's ability to deliver sustained growth and create enduring value for stakeholders,\" HFCL managing director, Mahendra Nahata, said in a statement. The company has forecasted 80 per cent revenue growth in the current fiscal over financial year (FY) 2026 and expects to achieve the Rs 10,000 crore revenue mark before projected timeline of FY29. HFCL's consolidated revenue from operations more than doubled to Rs 2,541.79 crore dur",
+      "title": "HFCL Q2 results: Profit surges to ₹394 crore as AI data centre demand rises"
+    },
+    {
+      "event_key": "meity-meta-recommendation-context-advisory-2026-10-10",
+      "lane": "tech",
+      "link": "https://economictimes.indiatimes.com/tech/technology/govt-asks-meta-to-ensure-its-recommendation-systems-do-not-expose-users-to-a-limited-set-of-narratives/articleshow/135031354.cms",
+      "published_at": "2026-10-20T02:15:30.636048+00:00",
+      "summary": "The advisory by the Ministry of Electronics and Information Technology (MeitY), dated October 10, asked Meta to undertake appropriate measures to provide adequate context in relation to photographs, videos, graphics, or other content depicting ongoing public events, particularly where the authenticity, date, location or circumstances of such content may not be readily apparent to users.",
+      "title": "Govt asks Meta to ensure its recommendation systems do not expose users to a limited set of narratives"
+    },
+    {
+      "event_key": "india-drought-maize-allocation-crunch-2026-10-20",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/agriculture/indias-drought-hit-maize-crunch-pits-poultry-ethanol-makers-in-me-first-fight/articleshow/135075614.cms",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "Drought conditions have caused a significant decrease in maize supply, leading to competition among industries for access. Poultry producers, starch manufacturers, and ethanol plants are all vying for limited maize resources, exacerbating the situation. As maize prices continue to rise, the poultry industry has expressed concerns about potential feed shortages. Industry bodies have urged the government to prioritize maize for food production over fuel use.",
+      "title": "India’s drought-hit maize crunch pits poultry, ethanol makers in ‘me first’ fight"
+    },
+    {
+      "event_key": "bajaj-finance-multiple-lender-loan-share-cut-2026-10-19",
+      "lane": "macro",
+      "link": "https://www.livemint.com/companies/bajaj-finance-to-shrink-lending-to-reckless-borrowers-non-bank-lender-loans-11792422514442.html",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "Bajaj Finance is halving the share of new loans to customers with three or more lending relationships to 3.5% by March 2027 amid concerns indebtedness.",
+      "title": "Bajaj Finance to shrink lending to reckless borrowers"
+    },
+    {
+      "event_key": "cbdt-form173a-government-securities-exemption-2026-10-20",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/economy/news/cbdt-notifies-new-form-for-tax-exemption-claims-on-govt-securities-126102000805_1.html",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "The new Form 173A requires eligible foreign investors and BIS to disclose security holdings, interest income and capital gains to claim exemptions under the Income-tax Act, 2025",
+      "title": "CBDT notifies new form for tax exemption claims on govt securities"
+    },
+    {
+      "event_key": "supreme-court-false-poll-affidavit-no-eci-sanction-reported-2026-10-21",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/election-commission-eci-supreme-court-false-affidavit-karnataka-legislative-assembly-101792541486530.html",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "The court pointed out that the possibility of such complaints being used to harass elected representatives can be duly dealt with under the existing regime.",
+      "title": "‘Citizens can challenge false poll affidavits without ECI sanction’, says Supreme Court"
+    },
+    {
+      "event_key": "hal-first-three-htt40-delivery-reported-2026-10-21",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/htt40-india-iaf-hindustan-aeronautics-limited-delivery-training-pilots-101792547232649.html",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "The air force ordered 70 basic trainer aircraft for ₹6,838 crore three years ago to train pilots and meet its growing training requirements.",
+      "title": "HT exclusive: HAL hands over first 3 HTT-40 trainers to IAF; full training ops may take 2 years"
+    },
+    {
+      "event_key": "punjab-haryana-hc-blocking-order-user-notice-reported-2026-10-21",
+      "lane": "tech",
+      "link": "https://www.hindustantimes.com/india-news/hcsocial-media-user-must-get-govt-order-of-content-blocking-101792518344162.html",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "The Punjab and Haryana high court has held that intimation of the take down/ blocking order of a social media channel/page communicated to the platform by the government must be sent to the user also.",
+      "title": "HC: Social media user must get govt order of content blocking"
+    },
+    {
+      "event_key": "ccpa-online-explosives-delisting-2026-10-20",
+      "lane": "tech",
+      "link": "https://www.livemint.com/companies/news/ammonium-nitrate-to-petn-cracks-down-on-7-online-platforms-over-explosive-listings-3-940-sellers-delisted-11792527020743.html",
+      "published_at": "2026-10-21T03:15:00+00:00",
+      "summary": "The platforms named by the authority are IndiaMART, TradeIndia, Dial4Trade, Justdial, Sigma-Aldrich India, ExportersIndia and Ibuychemikals.",
+      "title": "Ammonium nitrate to PETN: CCPA cracks down on 7 online platforms over explosive listings; 3,940 sellers delisted"
+    },
+    {
+      "event_key": "india-september-2026-core-industries-output-release-2026-10-21",
+      "lane": "macro",
+      "link": "https://www.hindustantimes.com/india-news/core-sector-growth-rises-to-7-9-highest-in-new-series-101792609383803.html",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "Core sector industries output, as measured by the Index of Core Industries (ICI) stood at 7.9% in September, up from 5.9% in August, according to data released by Ministry of Commerce and Industry on Wednesday. September output was the highest growth in the new ICI series, which has 2022-23 as its base year.",
+      "title": "Core sector growth rises to 7.9%, highest in new series"
+    },
+    {
+      "event_key": "wmo-el-nino-seasonal-india-forecast-reported-2026-10-22",
+      "lane": "macro",
+      "link": "https://www.hindustantimes.com/india-news/el-nino-could-be-unprecedented-may-rise-to-3-8-c-above-average-between-nov-jan-wmo-101792636927904.html",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "A peak is likely in December, with weather patterns to be disrupted globally, including higher than normal temperatures and weaker rainfall in south and southeast Asia, including India",
+      "title": "El Nino could be unprecedented, may rise to 3.8°C above average between Nov-Jan: WMO"
+    },
+    {
+      "event_key": "india-raw-sugar-duty-free-import-window-extension-2026-10-21",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/import-window-for-duty-free-raw-sugar-extended-till-dec-31/articleshow/135099520.cms",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "The government has extended the deadline for duty-free imports of 10 lakh tonnes of raw sugar to December 31, as domestic imports have lagged at just 3 lakh tonnes due to price control measures. This decision aims to mitigate supply constraints following record high sugar prices linked to reduced domestic production and exports.",
+      "title": "Import window for duty-free raw sugar extended till Dec 31"
+    },
+    {
+      "event_key": "nabfid-infrastructure-repository-finmin-rbi-approval-2026-10-21",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/infrastructure/nabfid-gets-finmin-rbi-nod-for-national-infrastructure-project-repository/articleshow/135096343.cms",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "NaBFID has obtained approvals from the finance ministry and the Reserve Bank of India to establish a national repository. This repository will offer consolidated information on infrastructure projects for lenders and investors. The platform aims to facilitate access to data sourced from various government agencies like NHAI and others. NaBFID is considering partnerships with financial institutions to enhance the repository's effectiveness.",
+      "title": "NaBFID gets Finance Ministry, RBI nod for national infrastructure project repository"
+    },
+    {
+      "event_key": "supreme-court-custodial-interrogation-suggestion-boundary-reported-2026-10-22",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/sc-supreme-court-custodial-interrogation-gujarat-hc-high-court-101792629525669.html",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "The order is significant for the distinction it draws between the investigating agency’s discretion in deciding the manner of interrogation.",
+      "title": "Courts can’t suggest custodial quizzing, says Supreme Court"
+    },
+    {
+      "event_key": "fssai-nestle-zydus-nutrition-claim-notices-2026-10-21",
+      "lane": "national",
+      "link": "https://www.livemint.com/companies/news/fssai-issues-notices-to-nestl-india-zydus-wellness-over-product-claims-11792594297822.html",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "FSSAI has issued notices to Nestlé India over claims on Lactogen Pro 1 and Nan Excella Pro Stage 1, seeking scientific evidence. Zydus Wellness also received a notice over Complan, but said its claims are factual and backed by science.",
+      "title": "FSSAI issues notices to Nestlé India, Zydus Wellness over product claims"
+    },
+    {
+      "event_key": "meity-emudhra-eight-certificate-incident-probe-2026-10-21",
+      "lane": "tech",
+      "link": "https://www.livemint.com/technology/tech-news/emudhra-security-incident-meity-orders-probe-says-impact-on-indian-websites-and-apps-was-limited-details-here-11792599679180.html",
+      "published_at": "2026-10-22T03:12:26.516440+00:00",
+      "summary": "MeitY has ordered a probe into the eMudhra security incident involving eight compromised digital certificates. The ministry said the impact on Indian websites and apps was limited and clarified that domestic digital signature services were not affected.",
+      "title": "eMudhra security incident: MeitY orders probe, says impact on Indian websites and apps was limited; details here"
+    },
+    {
+      "event_key": "bcgcl-odisha-coal-gasification-groundworks-2026-10-22",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/companies/news/bcgcl-begins-construction-work-on-25-000-crore-coal-gasification-project-126102200671_1.html",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "Bharat Coal Gasification and Chemicals Ltd (BCGCL), the joint venture of Coal India Ltd (CIL) and BHEL, has started ground construction activities for its Rs 25,000 crore coal gasification project in Odisha, with most of the tenders awarded, its Managing Director Peeyush Kumar said on Thursday. The development assumes significance in the wake of the country's push to build 100 million tonne of coal gasification capacity by 2030 under the National Coal Gasification Mission, aimed at converting coal into chemicals and bringing down the import dependence on products such as LNG, urea, ammonia and methanol. \"We are going ahead with the joint venture of BHEL and Coal India, which is BCGCL....I am happy to share that we have started ground construction activities... Most of the tenders have been awarded and construction has started,\" Kumar said during the 17th Edition of Gasification India 2026 organised by Mission Energy Foundation. BCGCL--a joint venture in which CIL holds the majority",
+      "title": "BCGCL begins construction work on ₹25,000 crore coal gasification project"
+    },
+    {
+      "event_key": "india-september-2026-crude-import-source-mix-reported-2026-10-22",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/economy/news/india-s-west-asia-oil-imports-hit-pre-war-levels-russian-crude-falls-126102200409_1.html",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "India's West Asia crude imports rose to 2.8 mn barrels per day in September, accounting for 54% of purchases, while Russian oil imports fell 14% month-on-month to 1.8 million bpd, ship data showed",
+      "title": "India's West Asia oil imports hit pre-war levels; Russian crude falls"
+    },
+    {
+      "event_key": "sebi-accepted-early-payin-margin-relief-2026-10-22",
+      "lane": "macro",
+      "link": "https://www.livemint.com/market/stock-market-news/sebi-eases-margin-requirements-on-trades-backed-by-early-pay-in-of-shares-11792667584844.html",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "Clearing corporations must not collect additional margins from trading or clearing members on clients’ subsequent positions, up to the value of EPI they have accepted.",
+      "title": "Sebi eases margin rules for trades post EPI"
+    },
+    {
+      "event_key": "road-ministry-aebs-car-model-draft-2030-2032-2026-10-22",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/india-proposes-mandatory-advanced-emergency-braking-system-ae-bs-new-car-models-october-2030-all-models-2032-road-safety-101792677920257.html",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "The road ministry's draft rules propose AEBS for new car models from October 2030 and all existing models still in production from October 2032.",
+      "title": "Govt proposes mandatory automatic emergency braking in new car models from October 2030"
+    },
+    {
+      "event_key": "supreme-court-trafficking-sex-work-guideline-direction-2026-10-22",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/supreme-court-calls-for-setting-human-trafficking-apart-from-voluntary-sex-work-101792696712707.html",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "The National Judicial Academy has been asked to frame guidelines for magistrates, while the Centre must submit a fresh compliance report before the next hearing",
+      "title": "Supreme Court calls for setting human trafficking apart from voluntary sex work"
+    },
+    {
+      "event_key": "rbi-breach-remediation-admin-access-directions-reported-2026-10-22",
+      "lane": "tech",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/rbi-asks-banks-payment-firms-to-forensically-clear-tech-environments-in-case-of-a-data-breach/articleshow/135126425.cms",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The measures include auditing source code, repositories, configuration files, client applications and cloud storage for exposed credentials, and immediately rotating and purging compromised credentials.",
+      "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach"
+    },
+    {
+      "event_key": "emudhra-global-ssl-tls-business-exit-2026-10-22",
+      "lane": "tech",
+      "link": "https://www.livemint.com/companies/news/emudhra-to-exit-website-security-certification-business-after-security-weakness-company-says-no-data-breach-all-we-know-11792721101318.html",
+      "published_at": "2026-10-23T03:49:04.758040+00:00",
+      "summary": "eMudhra will exit its SSL/TLS certificate business after weak keys were found in eight of its issuing certification authorities. The company said it revoked affected authorities within 14 hours and reported no data breach.",
+      "title": "eMudhra to exit website security certification business after security weakness, company says no data breach—All we know"
+    },
+    {
+      "event_key": "mca-fy2025-26-annual-filings-deadline-extension-2026-10-24",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/industry/news/govt-extends-deadlines-for-cos-to-file-annual-financial-statements-returns-126102500402_1.html",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "The corporate affairs ministry has extended the deadline for companies to file their annual financial statements for the fiscal 2025-26 till December 31. Besides, companies can submit their annual returns to the ministry till January 31, 2027, as per a circular. The extension of deadlines follow representations from stakeholders as they were facing issues in submitting the annual statutory filings through the MCA 21 portal. According to the circular dated October 24, the ministry said that in view of the representations received and to enable companies to complete their annual statutory filings, the deadlines have been extended without paying an additional fee. Now, the annual financial statements in e-forms AOC-4, AOC-4 (CFS), AOC-4 (XBRL), AOC-4 NBFC (Ind AS) and AOC-4 CFS NBFC (Ind AS) for the financial year 2025-26 can be filed up to December 31, 2026. For the 2025-26 fiscal year, annual returns in e-forms MGT-7 and MGT-7A can be submitted till January 31, 2027. Generally, th",
+      "title": "Govt extends deadlines for cos to file annual financial statements, returns"
+    },
+    {
+      "event_key": "india-china-titanium-dioxide-antidumping-reinstatement-2026-10-24",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-brings-back-duties-on-specified-chinese-titanium-dioxide-imports/articleshow/135175778.cms",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "India has reintroduced anti-dumping duties on titanium dioxide imports from China due to material injury caused to domestic producers. This action follows a recommendation from the Directorate General of Trade Remedies, which concluded that Chinese imports were sold at dumped prices. The duties will be effective for five years unless revoked or amended. This decision comes after the Calcutta High Court ordered a reconsideration of a previous duty case.",
+      "title": "India brings back duties on specified Chinese titanium dioxide imports"
+    },
+    {
+      "event_key": "kec-pgcil-2872-crore-gujarat-transmission-orders-2026-10-25",
+      "lane": "macro",
+      "link": "https://www.livemint.com/market/stock-market-news/kec-international-shares-in-focus-on-monday-oct-28-after-rs-2872-cr-pgcil-order-win-ytd-orders-mark-crosses-rs-13-5k-cr-11792904618194.html",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "KEC International secured ₹2,872 crore in turnkey orders from Power Grid Corporation for 765 kV transmission lines linked to evacuating 8.5 GW of renewable energy in Gujarat. The wins mark a record for its domestic T&D business and take year-to-date order intake above ₹13,500 crore.",
+      "title": "KEC International shares in focus on Monday Oct 26 after ₹2872 cr PGCIL order win; YTD orders mark crosses ₹13.5k cr"
+    },
+    {
+      "event_key": "senco-august-jewellery-68percent-agreements-2026-10-25",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/companies/news/senco-gold-to-acquire-68-stake-in-august-jewellery-for-68-crore-126102500549_1.html",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "Senco Gold Ltd on Sunday said it has signed agreements to acquire a 68 per cent stake in August Jewellery Pvt Ltd, which operates the 'Melorra' brand, for Rs 68 crore. The investment will be made in multiple tranches, with completion targeted by February 2027, subject to fulfilment of specified conditions, the company said in a regulatory filing. It said that including the acquisition by a promoter group entity, the overall stake in August Jewellery will reach 79 per cent, following which the company will become a subsidiary of Senco Gold. The investment will happen through fresh equity issuance, with the funds intended for the company's growth and expansion, and the discharge of existing liabilities, the filing said. Senco Gold said the acquisition aligns with its digital and omnichannel strategy, particularly to cater to the fast-growing young consumer segment. Melorra's design and e-commerce capabilities are expected to complement Senco Gold's existing strengths and generate ...",
+      "title": "Senco Gold to acquire 68% stake in August Jewellery for ₹68 crore"
+    },
+    {
+      "event_key": "president-frontier-nagaland-territorial-authority-assent-reported-2026-10-25",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/president-droupadi-murmu-gives-assent-to-frontier-nagaland-territorial-authority-bill-101792939051918.html",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "Announcing this on Sunday, Nagaland chief minister Neiphiu Rio thanked President Murmu in a post on X.",
+      "title": "President Droupadi Murmu gives assent to Frontier Nagaland Territorial Authority Bill"
+    },
+    {
+      "event_key": "eci-uttar-pradesh-statewide-post-sir-roll-scrutiny-2026-10-25",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/election-commission-orders-statewide-scrutiny-of-uttar-pradesh-voter-list-entries-deletions-post-sir-101792957829316.html",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "Divisional commissioners will supervise the work, while electoral officers must promptly review applications, resolve complaints and remove duplicate entries.",
+      "title": "Election Commission orders statewide scrutiny of Uttar Pradesh voter list entries, deletions post-SIR"
+    },
+    {
+      "event_key": "rbi-odisha-data-centre-cybersecurity-institute-inauguration-2026-10-25",
+      "lane": "tech",
+      "link": "https://yourstory.com/2026/10/pm-inaugurates-rbis-rs-169-cr-data-centre-cybersecurity-training-institute-in-odisha",
+      "published_at": "2026-10-26T03:12:28.178799+00:00",
+      "summary": "The data centre will host mission-critical payment and settlement systems, along with other flagship initiatives, the government said in a statement.",
+      "title": "PM inaugurates RBI's Rs 169-cr data centre, Cybersecurity Training Institute in Odisha"
+    },
+    {
+      "event_key": "e100-flex-fuel-vehicle-approval-october-2026",
+      "lane": "macro",
+      "link": "https://www.hindustantimes.com/india-news/govt-allows-e100-fuel-for-flex-fuel-vehicles-under-amended-motor-vehicle-rules-101793011971096.html",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "Flex-fuel vehicles are designed to run on any mixture of ethanol and petrol, from pure petrol to E100.",
+      "title": "Govt allows flex-fuel vehicles that can run on E100, amends motor vehicle rules"
+    },
+    {
+      "event_key": "relief-exporter-risk-cover-extended-to-march-31-2027",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/exporters-get-six-more-months-of-risk-cover-amid-west-asia-turmoil/articleshow/135211390.cms",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "The Centre has extended the RELIEF initiative to March 31, 2027, to assist exporters. This scheme provides risk coverage to exporters facing higher shipping and insurance costs. Eligible exporters can receive 95 percent coverage and protection against rising insurance premiums. Exporters must submit claims through the Export Credit Guarantee Corporation's customer portal to benefit. The extension aims to support trade flows amid ongoing geopolitical tensions in West Asia.",
+      "title": "Exporters get six more months of risk cover amid West Asia turmoil"
+    },
+    {
+      "event_key": "tata-motors-iveco-bid-clears-80-percent-threshold-october-2026",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/companies/news/tata-motors-bid-to-takeover-iveco-clears-80-acceptance-threshold-126102601676_1.html",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "Tata now holds 89.42% of Iveco's common share capital based on provisional results, ‌both companies said",
+      "title": "Tata Motors' bid to takeover Iveco clears 80% acceptance threshold"
+    },
+    {
+      "event_key": "ncap-spending-and-city-target-attainment-2025-26",
+      "lane": "macro",
+      "link": "https://www.hindustantimes.com/india-news/after-spending-12-000-crore-only-21-out-of-130-cities-meet-clean-air-target-101793037829680.html",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "An analysis of seven years of India’s National Clean Air Programme (NCAP) has revealed around 72% or over ₹12,000 crores out of the ₹16,824 crores has been spent by states, but only 21 out of the 130 cities under the plan have so far managed to bring down PM 10 levels by 40% by 2025-26 — the latest target set under the plan.",
+      "title": "After spending ₹12,000 crore, only 21 out of 130 cities meet clean air target"
+    },
+    {
+      "event_key": "dac-2-12-lakh-crore-defence-approvals-october-2026",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/drones-artillery-guns-and-helicopters-dac-clears-2-12-lakh-crore-defence-buys-101793017758895.html",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "The DAC, chaired by defence minister Rajnath Singh, also granted Acceptance of Necessity (AoN) for special utility helicopters.",
+      "title": "Drones, artillery guns and helicopters: DAC clears ₹2.12 lakh crore defence buys"
+    },
+    {
+      "event_key": "hcltech-rapidus-bengaluru-hubli-centres-october-2026",
+      "lane": "tech",
+      "link": "https://www.business-standard.com/companies/news/hcl-opens-2-development-centres-to-support-rapidus-chip-engineering-needs-126102600638_1.html",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "Indian IT services firm HCL Technologies and Rapidus Corporation on Monday inaugurated two HCLTech development centres in India to support the Japanese chipmaker's growing semiconductor engineering needs. The centres, located in Bengaluru and Hubli, will draw on HCLTech's core engineering expertise to offer Rapidus a range of capabilities, including mask design, design infrastructure, process design kit development, design technology co-optimisation and layout design. HCLTech and Rapidus Corporation, a Japanese company developing and manufacturing advanced logic semiconductors, inaugurated two HCLTech development centers in India dedicated to supporting Rapidus' evolving semiconductor engineering requirements, according to a release. HCLTech will also collaborate with Rapidus to build a pipeline of Indian engineering talent to meet Rapidus' evolving talent requirements in Japan. Atsuyoshi Koike, Representative Director and CEO, Rapidus Corporation said: \"Through this collaboration",
+      "title": "HCL opens 2 development centres to support Rapidus' chip engineering needs"
+    },
+    {
+      "event_key": "tata-communications-400-450-million-india-ai-fibre-plan-october-2026",
+      "lane": "tech",
+      "link": "https://www.business-standard.com/industry/news/tata-communications-ai-fibre-network-india-investment-data-centres-126102600606_1.html",
+      "published_at": "2026-10-27T03:17:41.139100+00:00",
+      "summary": "The company will build a 10,000-km network with 7.2 petabytes of capacity across key data centre and AI hubs, with meaningful revenue contribution expected from FY28-29",
+      "title": "Tata Communications to invest $400-450 million in India AI fibre network"
+    },
+    {
+      "event_key": "cbic-gst-registration-clarifications-october-2026",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/finance/gst-registration-gets-easier-as-cbic-drops-udyam-proof-sets-seven-day-limit-for-approvals/articleshow/135243010.cms",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "The Central Board of Indirect Taxes and Customs has issued clarifications regarding GST registration requirements for businesses. Companies will no longer need to provide Udyam certificates or face rejections due to unpaid bills. Registration applications must be processed within seven working days with Aadhaar authentication. Tax demands must include clear justifications and cannot be arbitrary. These changes aim to simplify compliance and reduce disputes in tax administration.",
+      "title": "GST registration gets easier as CBIC drops Udyam proof, sets seven-day limit for approvals"
+    },
+    {
+      "event_key": "india-wheat-early-rabi-sowing-october-23-2026",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/agriculture/wheat-sowing-lags-at-11000-ha-so-far-amid-deficient-monsoon-rabi-acreage-down/articleshow/135224612.cms",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "Wheat sowing in India has reached 11,000 hectares as of October 23, against 27,000 hectares a year earlier, as a deficient southwest monsoon raises concerns over soil moisture and irrigation availability. Punjab and Rajasthan face particular risks, while overall rabi crop coverage has also fallen, Agriculture Ministry data showed.",
+      "title": "Wheat sowing lags at 11,000 hectare so far amid deficient monsoon; rabi acreage down"
+    },
+    {
+      "event_key": "up-cabinet-link-expressways-robotics-gcc-approvals-october-27-2026",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/economy/uttar-pradesh/up-to-begin-work-on-key-industrial-projects-ahead-of-assembly-elections-126102800029_1.html",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "State Cabinet approves four link expressways worth ₹17,542 crore, a robotics park in Greater Noida and GCC projects involving investments of ₹1,710 crore ahead of Assembly polls",
+      "title": "UP to begin work on key industrial projects ahead of Assembly elections"
+    },
+    {
+      "event_key": "supreme-court-ibc-approved-resolution-withdrawal-ruling-october-2026",
+      "lane": "national",
+      "link": "https://www.livemint.com/companies/news/sc-bars-creditors-from-withdrawing-insolvency-plan-over-improved-finances-11793100023873.html",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "Under the Insolvency and Bankruptcy Code (IBC), neither the CoC nor the resolution applicant can withdraw the approved resolution merely by stating that certain developments have made the transaction less attractive, rules the SC.",
+      "title": "SC bars creditors from withdrawing insolvency plan over improved finances"
+    },
+    {
+      "event_key": "karnataka-sir-final-electoral-roll-publication-october-27-2026",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/karnataka-sir-special-intensive-revision-final-voter-roll-deletion-eci-election-commission-of-india-gyanesh-kumar-101793127666941.html",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "The final roll contains 45,455,689 general electors, compared to 55,432,314 on the rolls as of June 16, when SIR began, marking a reduction of 9,976,625.",
+      "title": "9.97 million names deleted in Karnataka final electoral roll after SIR revision"
+    },
+    {
+      "event_key": "microsoft-voluntary-exit-offer-india-october-2026",
+      "lane": "tech",
+      "link": "https://www.livemint.com/companies/microsofts-voluntary-exit-offer-to-60k-employees-explained-what-is-a-buyout-and-how-will-it-affect-indians-11793106339191.html",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "Microsoft offers voluntary buyouts to eligible employees in the US, the UK, Canada and India as it reshapes its workforce amid rising AI investments. Here’s what the offer means, who qualifies, the reported severance benefits and how Indian employees, particularly H-1B holders, could be affected.",
+      "title": "Microsoft's voluntary exit offer to 60k employees explained: What is a buyout and how will it affect Indians?"
+    },
+    {
+      "event_key": "amazon-tata-india-electric-truck-fleet-plan-october-2026",
+      "lane": "tech",
+      "link": "https://www.business-standard.com/companies/news/amazon-expects-india-ev-fleet-to-cross-20-000-vehicles-over-next-year-126102701463_1.html",
+      "published_at": "2026-10-28T03:19:36.843159+00:00",
+      "summary": "Amazon plans to expand its electric vehicle fleet from over 15,000 currently, while partnering with Tata Motors to deploy 3,000 electric trucks and boost charging infrastructure",
+      "title": "Amazon expects India EV fleet to cross 20,000 vehicles over next year"
+    },
+    {
+      "event_key": "iip-growth-eases-to-4-month-low-in-september-as-mining-output-contracts",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/indicators/iip-growth-eases-to-4-month-low-in-september-as-mining-output-contracts/articleshow/135276567.cms",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "September witnessed a decline in India's factory output growth, falling to 6.7%, the lowest rate observed in four months. The drop is largely linked to a high base effect and decreased mining activity. Despite this, manufacturing output surged by 7.6% compared to the previous year, while electricity generation also grew, spurred by robust demand even with insufficient rainfall. Economists anticipate GDP growth to surpass 7% for the July-September period.",
+      "title": "IIP growth eases to 4-month low in September as mining output contracts"
+    },
+    {
+      "event_key": "cabinet-approves-10-000-crore-scheme-to-boost-container-manufacturing",
+      "lane": "macro",
+      "link": "https://www.business-standard.com/economy/news/cabinet-approves-10-000-crore-scheme-to-boost-container-manufacturing-126102801586_1.html",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "The scheme will offer financial support to domestic container manufacturers until 2039-40, aiming to cut import dependence, bridge cost gaps and boost annual capacity tenfold to 750,000 TEUs",
+      "title": "Cabinet approves ₹10,000 crore scheme to boost container manufacturing"
+    },
+    {
+      "event_key": "government-extends-pli-scheme-for-textiles-until-2033-34-to-boost-msme-participation-and-investments",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/government-extends-pli-scheme-for-textiles-until-2033-34-to-boost-msme-participation-and-investments/articleshow/135279965.cms",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "The government has announced an extension of the Production Linked Incentive scheme for the textiles sector until 2034. This change aims to encourage more companies to participate by relaxing eligibility norms for investment. The textiles ministry has reduced the minimum turnover requirement for certain manufacturers from ₹200 crore to ₹100 crore. A reopened application portal will accept submissions for manufacturing various textiles from November 1 to December 31.",
+      "title": "Government extends PLI scheme for textiles until 2033-34 to boost MSME participation and investments"
+    },
+    {
+      "event_key": "union-cabinet-approves-3-da-hike-for-11-6-million-central-employees-and-pensioners-effective-july-1",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/union-cabinet-approves-3-da-hike-for-11-6-million-central-employees-and-pensioners-effective-july-1/articleshow/135279321.cms",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "On Wednesday, the Union cabinet approved a 3% increase in dearness allowance for employees and pensioners. This increase is expected to benefit over 11.6 million individuals ahead of the festive season. The change will take effect retrospectively from July 1, costing the exchequer ₹10,016 crore. Additionally, the government revised dearness allowance rates for employees under the Fifth and Sixth Pay Commissions.",
+      "title": "Union cabinet approves 3% DA hike for 11.6 million central employees and pensioners, effective July 1"
+    },
+    {
+      "event_key": "tb-alliance-fails-to-get-patent-for-six-month-treatment-regimen",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/tb-alliance-fails-to-get-patent-for-six-month-treatment-regimen-101793215103983.html",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "The Indian Patent Office on Tuesday rejected a patent application for BPaL, a combination of three medicines that has cut treatment for drug-resistant tuberculosis (TB) to six months, according to a joint statement by the groups that opposed it",
+      "title": "TB Alliance fails to get patent for six-month treatment regimen"
+    },
+    {
+      "event_key": "uapa-does-not-bar-bail-for-all-foreigners-illegal-entry-is-key-rules-supreme-court",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/uapa-does-not-bar-bail-for-all-foreigners-illegal-entry-is-key-rules-sc-101793155752385.html",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "The court said the statutory bar applies only when a foreigner has entered India unauthorisedly or illegally",
+      "title": "UAPA does not bar bail for all foreigners; illegal entry is key, rules Supreme Court"
+    },
+    {
+      "event_key": "phonepe-rebrands-indus-appstore-expands-into-digital-goods-and-webstore",
+      "lane": "tech",
+      "link": "https://www.business-standard.com/companies/news/phonepe-rebrands-indus-appstore-expands-into-digital-goods-and-webstore-126102801326_1.html",
+      "published_at": "2026-10-29T03:15:00+00:00",
+      "summary": "The app marketplace, now present on more than 200 million devices through OEM partnerships, is adding gift cards, top-ups and a webstore as it seeks to broaden its reach among consumers and developers",
+      "title": "PhonePe rebrands Indus Appstore, expands into digital goods and webstore"
+    },
+    {
+      "event_key": "finmin-pegs-q2-expansion-at-7-35-flags-capital-pressure-over-us-yield",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/indicators/finmin-pegs-q2-expansion-at-7-35flags-capital-pressure-over-us-yield/articleshow/135337576.cms",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "India’s economy is estimated to have grown 7.35% in the September quarter, supported by strong industrial output, GST collections, energy use, port traffic and auto sales, the finance ministry said. It expects domestic demand and investment to sustain momentum, while warning that high crude prices, food inflation, rupee pressure and elevated US bond yields could pose risks in the second half.",
+      "title": "Finmin pegs Q2 expansion at 7.35%,flags capital pressure over US yield"
+    },
+    {
+      "event_key": "fresh-rules-issued-for-dredging-in-forest-areas-to-mitigate-floods",
+      "lane": "macro",
+      "link": "https://www.hindustantimes.com/india-news/fresh-rules-issued-for-dredging-in-forest-areas-to-mitigate-floods-101793301726183.html",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "The Centre has issued fresh guidelines allowing scientifically planned river dredging in forest areas to mitigate floods and restore river ecosystems, without treating the activity as a “non-forest purpose” and exempting qualifying works from forest clearance requirements, compensatory afforestation and net present value (NPV) payments",
+      "title": "Fresh rules issued for dredging in forest areas to mitigate floods"
+    },
+    {
+      "event_key": "govt-extends-amnesty-scheme-under-esic-for-three-month-till-december-31",
+      "lane": "macro",
+      "link": "https://economictimes.indiatimes.com/news/economy/policy/govt-extends-amnesty-scheme-under-esic-for-three-month-till-december-31/articleshow/135297550.cms",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "The ‘New Amnesty Scheme 2025’, rolled out on October 1, 2025, is a one-time dispute resolution initiative aimed at reducing the backlog of court cases and promoting compliance under the erstwhile Employees’ State Insurance Act. Court cases filed up to March 31, 2025 are eligible under this scheme, the ministry said on Thursday.",
+      "title": "Govt extends Amnesty Scheme under ESIC for three month till December 31"
+    },
+    {
+      "event_key": "karnataka-hikes-nandini-milk-prices-by-8-per-litre-from-november-1-state-minister",
+      "lane": "macro",
+      "link": "https://www.hindustantimes.com/india-news/karnataka-cabinet-hikes-milk-prices-by-rs-8-state-minister-nandini-milk-price-101793273245820.html",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "Karnataka minister said the government had considered the demands raised by farmers and their representatives before finalising the increase.",
+      "title": "Karnataka hikes Nandini milk prices by ₹8 per litre from November 1: State minister"
+    },
+    {
+      "event_key": "supreme-court-rejects-mahua-moitra-s-plea-on-aif-fpi-ownership-disclosure",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/supreme-court-rejects-mahua-moitra-s-plea-on-aif-fpi-ownership-disclosure-101793300206454.html",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "The court said that its order will not come in the way of the Centre or the Securities Exchange Board of India (SEBI) from framing a policy as there is presently no legal or regulatory framework mandating public disclosure of beneficial owners of Alternate Investment Fund (AIF) and Foreign Portfolio Investments (FPI)",
+      "title": "Supreme Court rejects Mahua Moitra’s plea on AIF-FPI ownership disclosure"
+    },
+    {
+      "event_key": "accused-must-explain-source-of-excess-wealth-not-investigators-supreme-court",
+      "lane": "national",
+      "link": "https://www.hindustantimes.com/india-news/accused-must-explain-source-of-excess-wealth-not-investigators-supreme-court-101793265574101.html",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "The Supreme Court rules public servants must explain wealth exceeding known income once prosecution establishes a disproportionate-assets case against them.",
+      "title": "Accused must explain source of excess wealth, not investigators: Supreme Court"
+    },
+    {
+      "event_key": "bengaluru-based-inkle-acquires-finally-s-bookkeeping-arm-expands-team-to-160",
+      "lane": "tech",
+      "link": "https://yourstory.com/2026/10/cpa-firm-inkle-buys-finally-bookkeeping-arm-headcount-160",
+      "published_at": "2026-10-30T03:13:00+00:00",
+      "summary": "Bengaluru-built, San Francisco-headquartered CPA firm Inkle has acquired Finally's bookkeeping division in an undisclosed all-cash deal, taking its team to about 160 people across five countries and extending it from startups to non-tech small businesses.",
+      "title": "Bengaluru-based Inkle acquires Finally’s bookkeeping arm, expands team to 160"
+    }
+  ],
+  "schema_version": 2
+}
