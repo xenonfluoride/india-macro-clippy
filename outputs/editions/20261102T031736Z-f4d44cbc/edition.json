@@ -1,0 +1,182 @@
+{
+  "issue": 23,
+  "hero": "October GST receipts strengthen the revenue picture as the Centre releases extra tax devolution to states and reshapes fuel export levies. Airline disclosure rules and a Supreme Court ruling address consumer and judicial procedures, while EPFO launches digital access and CCI clears Prosus’ proposed Navi stake purchase.",
+  "cards": [
+    {
+      "lane": "macro",
+      "brief": "Government data released on Sunday showed October gross GST collections rose 23% to more than ₹2.31 lakh crore. Collections from domestic sales rose 16% to more than ₹1.59 lakh crore, while import revenue rose 42% to ₹72,246 crore. After refunds, net GST collections rose 26% to more than ₹2.03 lakh crore.",
+      "mechanism": "Higher receipts expand fiscal resources, although nominal tax growth combines demand, prices and the composition of taxable activity.",
+      "watch": "Watch whether domestic collections and net receipts sustain their pace after the festive period.",
+      "claims": [
+        {
+          "statement": "Government data released on Sunday showed October gross GST collections rose 23% to more than ₹2.31 lakh crore.",
+          "evidence": [
+            "Gross GST collections increased 23 per cent to over Rs 2.31 lakh crore in October, driven by strong mop-up from domestic activities and imports, according to government data released on Sunday."
+          ]
+        },
+        {
+          "statement": "Collections from domestic sales rose 16% to more than ₹1.59 lakh crore, while import revenue rose 42% to ₹72,246 crore.",
+          "evidence": [
+            "Gross GST collections from domestic sales rose 16 per cent to over Rs 1.59 lakh crore, and revenues from imports climbed 42 per cent to Rs 72,246 crore."
+          ]
+        },
+        {
+          "statement": "After refunds, net GST collections rose 26% to more than ₹2.03 lakh crore.",
+          "evidence": [
+            "After adjusting for refunds, net GST collections rose 26 per cent to over Rs 2.03 lakh crore in October."
+          ]
+        }
+      ],
+      "id": "c0b6483425a2afb906dc92ef",
+      "headline": "Gross GST collections rise 23% to ₹2.31 trillion in October on strong sales"
+    },
+    {
+      "lane": "macro",
+      "brief": "The finance ministry said the Centre released an additional ₹1,09,019 crore in tax devolution to states on Saturday, beyond regular monthly devolution. It said the release was intended to help states accelerate capital spending and finance development or welfare expenditure ahead of the festive season.",
+      "mechanism": "An extra instalment brings cash forward for state budgets and can ease near-term financing constraints.",
+      "watch": "Watch whether state expenditure data show faster capital spending after the additional transfer.",
+      "claims": [
+        {
+          "statement": "The finance ministry said the Centre released an additional ₹1,09,019 crore in tax devolution to states on Saturday, beyond regular monthly devolution.",
+          "evidence": [
+            "The Centre on Saturday released additional instalment of tax devolution to state governments totalling over Rs 1.09 lakh crore.",
+            "This is in addition to the regular monthly devolution",
+            "The Union government released tax devolution of Rs 1,09,019 crore to state governments, the finance ministry said in a statement."
+          ]
+        },
+        {
+          "statement": "It said the release was intended to help states accelerate capital spending and finance development or welfare expenditure ahead of the festive season.",
+          "evidence": [
+            "This release is in view of the upcoming festive season and to enable states to accelerate capital spending, and also to finance their development/welfare related expenditure"
+          ]
+        }
+      ],
+      "id": "e12db6d7550eece2daa2ac51",
+      "headline": "Centre releases addl instalment of tax devolution of ₹1.09 trn to states"
+    },
+    {
+      "lane": "macro",
+      "brief": "The government raised diesel export duty by ₹3 to ₹11.50 per litre and increased the aviation turbine fuel levy to ₹11 per litre. It also withdrew the ₹2.50 duty on petrol exports.",
+      "mechanism": "The revised levies change relative export margins across refined fuels and may influence refiners’ product choices.",
+      "watch": "Watch how refiners adjust export volumes and product mix under the new duty schedule.",
+      "claims": [
+        {
+          "statement": "The government raised diesel export duty by ₹3 to ₹11.50 per litre and increased the aviation turbine fuel levy to ₹11 per litre.",
+          "evidence": [
+            "Govt raises export duty on diesel, aviation fuel; scraps petrol levy",
+            "Diesel export duty rises by ₹3 to ₹11.50 per litre, while the ATF levy increases to ₹11 per litre"
+          ]
+        },
+        {
+          "statement": "It also withdrew the ₹2.50 duty on petrol exports.",
+          "evidence": [
+            "the ₹2.50 duty on petrol exports has been withdrawn"
+          ]
+        }
+      ],
+      "id": "ca2d26ddd3dd9cf0d8e9cd44",
+      "headline": "Govt raises export duty on diesel, aviation fuel; scraps petrol levy"
+    },
+    {
+      "lane": "macro",
+      "brief": "New aviation rules mandate upfront disclosure of cancellation charges and refund terms. Under Rule 192 of the Bharatiya Vayuyan Niyam, 2026, airlines will have to show passengers the total amount payable on booking websites and tickets.",
+      "mechanism": "Making total fares and exit terms visible can reduce the cost of comparing airline bookings.",
+      "watch": "Watch how airlines present these charges across booking pages and issued tickets.",
+      "claims": [
+        {
+          "statement": "New aviation rules mandate upfront disclosure of cancellation charges and refund terms.",
+          "evidence": [
+            "New aviation rules mandate upfront disclosure of cancellation charges, refund terms"
+          ]
+        },
+        {
+          "statement": "Under Rule 192 of the Bharatiya Vayuyan Niyam, 2026, airlines will have to show passengers the total amount payable on booking websites and tickets.",
+          "evidence": [
+            "Under Rule 192 of the Bharatiya Vayuyan Niyam, 2026, airlines will have to show the total amount payable by a passenger on their booking websites and on the booked ticket"
+          ]
+        }
+      ],
+      "id": "0e8c4028dc0555cec8501b92",
+      "headline": "New aviation rules mandate upfront disclosure of cancellation charges, refund terms"
+    },
+    {
+      "lane": "national",
+      "brief": "The Supreme Court has cautioned courts against suspending the sentences of people convicted of heinous offences merely because their appeals are unlikely to be heard in the near future.",
+      "mechanism": "The ruling narrows the use of appeal delays alone as a basis for suspending sentences in heinous-offence cases.",
+      "watch": "Watch how appellate courts distinguish delay alone from other grounds when deciding sentence-suspension requests.",
+      "claims": [
+        {
+          "statement": "The Supreme Court has cautioned courts against suspending the sentences of people convicted of heinous offences merely because their appeals are unlikely to be heard in the near future.",
+          "evidence": [
+            "The Supreme Court has cautioned courts against suspending the sentences of people convicted of heinous offences merely because their appeals are unlikely to be heard in the near future"
+          ]
+        }
+      ],
+      "id": "b9b1081e5dba7af3a56d2ad0",
+      "headline": "Don’t cover up court failures by freeing convicts, SC tells courts"
+    },
+    {
+      "lane": "tech",
+      "brief": "Labour minister Mansukh Mandaviya launched EPFO services through WhatsApp, allowing subscribers to check provident-fund balances and transaction histories. Automatic settlement for small inoperative EPF accounts was also introduced, with around one lakh accounts expected to benefit.",
+      "mechanism": "Digital account access and automatic settlement can reduce the administrative effort needed to use provident-fund services.",
+      "watch": "Watch actual settlement completions and subscriber use of the new WhatsApp services.",
+      "claims": [
+        {
+          "statement": "Labour minister Mansukh Mandaviya launched EPFO services through WhatsApp, allowing subscribers to check provident-fund balances and transaction histories.",
+          "evidence": [
+            "Union Labour & Employment Minister Mansukh Mandaviya launched EPFO services through WhatsApp for easier access.",
+            "Subscribers can check their PF balance and transaction history conveniently using this platform."
+          ]
+        },
+        {
+          "statement": "Automatic settlement for small inoperative EPF accounts was also introduced, with around one lakh accounts expected to benefit.",
+          "evidence": [
+            "starts auto-settlement of small inoperative accounts",
+            "The automatic settlement for inoperative EPF accounts was also introduced, streamlining the process for beneficiaries.",
+            "In total, around one lakh accounts will benefit from this initiative."
+          ]
+        }
+      ],
+      "id": "740765f514152b6a4db40115",
+      "headline": "Mansukh Mandaviya rolls out EPFO services on WhatsApp, starts auto-settlement of small inoperative accounts"
+    },
+    {
+      "lane": "tech",
+      "brief": "CCI approved Prosus’ proposal to acquire a stake in Navi Ltd, following the fintech company’s $100 million fundraise from the Dutch investment group in August.",
+      "mechanism": "Competition clearance removes a regulatory hurdle for Prosus’ investment in India’s digital financial-services sector.",
+      "watch": "Watch for transaction completion and Navi’s subsequent disclosure of how it deploys the capital.",
+      "claims": [
+        {
+          "statement": "CCI approved Prosus’ proposal to acquire a stake in Navi Ltd, following the fintech company’s $100 million fundraise from the Dutch investment group in August.",
+          "evidence": [
+            "CCI has approved Prosus’ proposal to acquire a stake in Navi Ltd, following the fintech firm’s $100 million fundraise from the Dutch investment group in August."
+          ]
+        }
+      ],
+      "id": "c8cfcbb638c3ca8363095e37",
+      "headline": "Prosus investment in Sachin Bansal's Navi gets CCI nod"
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-11-03",
+      "text": "Cyclone Murasu is likely to make landfall on the morning of November 3 between Nellore and Narsapur in Andhra Pradesh, with gusts reaching 120 kmph, according to the Hindustan Times report.",
+      "evidence": "It is likely to make landfall on the morning of November 3 between Nellore and Narsapur in Andhra Pradesh, with winds of speeds gusting to 120kmph.",
+      "id": "280f2eaebbea1a90fbaf2821"
+    }
+  ],
+  "catalyst_review": "Reviewed the entire pool for November 3. The Murasu forecast explicitly supplies November 3 morning, the Andhra crossing corridor and gust speed; it is a distinct weather event absent from the seven cards. Record 209 corroborates the November 3 forecast, while 187 and 206 describe multi-day rainfall rather than a second discrete catalyst. Record 36 concerns Arnab impact, a different storm. Infosys record date in record 3, the Concord holding cutoff in 168 and the general corporate-action calendar in 147 are investor entitlement alerts. KAS exam on November 15, GGSIPU applications on November 6, the Niti Aayog meeting on November 5 and Emami/Dabur results on November 5/4 fall outside tomorrow. The symposium has no dated policy deliverable. GST process reforms and CISF transition refer to November 1, and the Delhi protest occurred then; do not roll those dates forward. No second distinct next-day catalyst qualifies.",
+  "schema_version": 2,
+  "run_id": "20261102T031736Z-f4d44cbc",
+  "created_at": "2026-11-02T03:30:14.017212+00:00",
+  "date": "2026-11-02",
+  "hero_card_ids": [
+    "c0b6483425a2afb906dc92ef",
+    "e12db6d7550eece2daa2ac51",
+    "ca2d26ddd3dd9cf0d8e9cd44",
+    "0e8c4028dc0555cec8501b92",
+    "b9b1081e5dba7af3a56d2ad0",
+    "740765f514152b6a4db40115",
+    "c8cfcbb638c3ca8363095e37"
+  ]
+}

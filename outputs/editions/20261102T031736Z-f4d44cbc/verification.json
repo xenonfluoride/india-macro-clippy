@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate second evidence-check pass after composition; no independent reviewer claimed",
+  "checked_at": "2026-11-02T03:31:33+00:00",
+  "input_hashes": {
+    "capture.json": "09bd3d5378566671d7b0ef755f224b102781358ad9db0ee5a9517e61ffc6bc45",
+    "history.json": "5ba535286bfc523b1b954ba204cd4004f0c3dffdcf696df4e97bd2915f0040f9",
+    "review.json": "d40b0c23fe735b96536e50b0bf649b48d4b839ffc07374fcd0a59ada92bbb91f",
+    "edition.json": "7086b56f4b40fa8e679bd52faaa27c86a4198a9c7ddd79e4cacfc5338e6877cf",
+    "market.json": "ebc723c288b9f056d7a00228cc4e90dfa3dc7add074d9ed212572bb73ddd38f6"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 253 candidates using bounded context offsets 0, 40, 80, 120, 160, 200 and 240, ending next_offset=null. Reprinted the first batch without repeated capture/history after verbose output truncation. Read all fifteen successful feed statuses and all ninety history entries, rereading entries 69-82 after history truncation. Authored individual event, actor, status, exposure, mechanism and disposition findings: seven select, eighty-one eligible, forty-nine explicit duplicates and 116 rejects. Actor identities absent from RSS are explicitly uncertain. Assessed substantive Sun Pharma, Reliance, StockGro and fuel-duty facts inside stock or IPO headlines; no keyword veto was used. RBI forward exposure, Icrier women's-work findings, UPI activity, CBDT charity rules, DGCA helicopter rules, EKA capacity and heliport clearance were credible alternatives. Four Macro cards were retained without a theme cap. Rejected rollout recaps do not demonstrate specific new implementation of the published CISF, CBIC or Meta events. All selected sources and claim spans were reread against final copy, not merely validated by hash.",
+  "hero": "Hero covers all seven selected cards: actual October GST receipts, additional state devolution, differentiated fuel export levies, airline disclosures, qualified sentence-suspension ruling, EPFO digital access and approved proposed Navi investment. Strengthening the revenue picture is a bounded synthesis of higher nominal receipts, not a claim of real consumption growth. CCI approval remains approval of a proposed stake purchase, and the hero does not turn state spending intentions into completed investment or portray the judicial holding as a universal bail ban.",
+  "catalysts": "Exactly one closing module contains one distinct November 3 catalyst: record 18 explicitly says likely landfall on the morning of November 3 between Nellore and Narsapur with gusts to 120 kmph. Final wording preserves forecast and Hindustan Times attribution without inventing the forecasting agency; record 209 supports the same date and storm corridor. Murasu is different from the previously covered Arnab forecast and current Arnab impact reports. Rainfall windows through November 3 or November 3-4 do not become extra events. Infosys and Concord dates concern shareholder entitlements; the exam, university deadline, Niti meeting and FMCG results are later. November 1 GST/CISF/protest dates cannot be shifted forward. No selected card is reused as a catalyst.",
+  "cards": [
+    {
+      "id": "c0b6483425a2afb906dc92ef",
+      "factual_support": "Reread the full BS government-data summary: gross October receipts rose 23% to over 2.31 lakh crore, domestic collections rose 16% to over 1.59 lakh crore, imports rose 42% to 72246 crore, and refund-adjusted receipts rose 26% to over 2.03 lakh crore. All three composed sentences map to these exact spans. Rupee trillion/lakh-crore units agree; rounded percentages are preserved rather than silently replaced with another source's 22.9% or 25.6%.",
+      "analysis": "Mechanism treats receipts as fiscal resources and explicitly distinguishes nominal tax growth from real demand. It introduces no measured inflation or consumption contribution. The next signal is subsequent domestic and net collections after the festive period, which is observable and distinct from the explanation.",
+      "novelty": "October collection data are a new monthly release, absent from all ninety history entries. Earlier finance-ministry September-quarter GDP estimates and September industrial data are different events. Four other October GST records are grouped directly under this fuller official-data representative rather than repeated as separate cards."
+    },
+    {
+      "id": "e12db6d7550eece2daa2ac51",
+      "factual_support": "The ministry statement supports completed Saturday release of 109019 crore and explicitly says it is additional to regular monthly devolution. Its stated festive, capital-spending and welfare purposes support the second sentence. Copy does not claim states have already spent the funds, that this increases their permanent tax share, or that it is the only additional instalment this financial year.",
+      "analysis": "An additional instalment changes near-term budget cash availability; easing financing constraints is conditional analysis rather than an announced borrowing reduction. Watching actual state expenditure separates a transfer already made from hoped-for capital-spending acceleration.",
+      "novelty": "No prior ledger entry covers this October 31 extra devolution instalment. Earlier central DA, social-assistance and industry outlay approvals are different fiscal actions. Records 243 and 249 are directly linked duplicates of this transfer, including the state allocation breakdown."
+    },
+    {
+      "id": "ca2d26ddd3dd9cf0d8e9cd44",
+      "factual_support": "BS title establishes government export-tax action and the summary states diesel rises by 3 to 11.50 per litre, ATF rises to 11 per litre, and the 2.50 petrol export duty is withdrawn. Final brief reproduces precisely those amounts and does not add a domestic fuel-price reduction, an unspecified previous ATF rate or a numerical petrol unit absent from the selected span.",
+      "analysis": "The export-margin mechanism is specific to differentiated refined-product taxes and uses may for production-choice effects. The watch asks for subsequent volumes and mix, without asserting refiners have already changed production or exports.",
+      "novelty": "The ledger has September crude-source mix and other energy projects, but no October 31 fuel export-duty revision. Current records 122 and 136 describe this same government review and are linked as duplicates, including the stock-focused headline which was assessed on its actual policy facts."
+    },
+    {
+      "id": "0e8c4028dc0555cec8501b92",
+      "factual_support": "HT headline supports cancellation-charge and refund-term disclosure; summary names Rule 192, Bharatiya Vayuyan Niyam 2026, total payable amount, booking websites and booked tickets. The brief retains will have to and adds neither an effective date nor a claim that all airlines are already compliant.",
+      "analysis": "Comparability of total costs and cancellation terms is a bounded consumer-search mechanism, not a forecast of cheaper fares. The watch concerns visible presentation on booking pages and tickets, directly testing implementation of the captured requirement.",
+      "novelty": "This fare-disclosure requirement is distinct from earlier connecting-flight reporting, current Char Dham crew-safety requirements and the separate heliport EIA clarification. No published history link or event establishes the same Rule 192 requirement. Reassigned the national feed item to Macro for its sector-wide consumer compliance effect."
+    },
+    {
+      "id": "b9b1081e5dba7af3a56d2ad0",
+      "factual_support": "The final sentence closely follows the HT summary and retains all legal boundaries: convicted people, heinous offences, suspension of sentence and delay alone. It does not convert the ruling into a general prohibition on bail, release for undertrials, or relief on other grounds. No case name or hearing date is invented.",
+      "analysis": "The mechanism identifies the restricted rationale for sentence suspension and preserves the delay-alone condition. The next signal is how courts distinguish delay from other grounds; it does not predict the outcomes of unreported appeals.",
+      "novelty": "Neither the UAPA foreign-entry bail ruling nor the disproportionate-assets explanation burden, custodial-interrogation boundary, IBC or trafficking directions in history concern this rule. Earlier speedy-trial discussion cannot be repeated by implication; this evidence specifically concerns convicted people and suspension of sentences in heinous-offence appeals."
+    },
+    {
+      "id": "740765f514152b6a4db40115",
+      "factual_support": "ET summary explicitly reports Mandaviya launching WhatsApp services, balance and transaction-history access, introduced automatic settlement and around one lakh accounts expected to benefit. Second-pass check restored small from the original headline to avoid generalising settlement scope; reread the corrected final brief and exact supporting title span before binding these hashes. The account estimate is expected reach, not completed settlements.",
+      "analysis": "Lower administrative effort is conditional service-access analysis, not evidence of fraud reduction or guaranteed immediate refunds. The watch separates actual settlements and WhatsApp use from the announcement and beneficiary estimate.",
+      "novelty": "The ledger contains ESI court-case amnesty, an unrelated dispute-resolution programme, but no EPFO WhatsApp launch or small-inoperative-account settlement launch. The story is placed in India Tech because its core action is digital service delivery rather than a changed contribution rate."
+    },
+    {
+      "id": "c8cfcbb638c3ca8363095e37",
+      "factual_support": "YourStory explicitly says CCI approved Prosus' proposal for a Navi stake after a 100 million dollar fundraise in August. Final sentence preserves approval, proposed acquisition and earlier fundraising as separate stages. It adds no stake percentage, new funding size, acquisition completion date or assertion that this amount was newly received today.",
+      "analysis": "Removing a competition-clearance hurdle is a direct transaction mechanism supported by the decision. Completion and subsequent capital-deployment disclosures are future observable signals; the watch does not imply transaction closure has already occurred.",
+      "novelty": "No Navi-Prosus approval appears in the ninety-entry ledger. August fundraising is background rather than the new event; the current approval is the discrete development. The weekly-funding digest was read but not used as a second card, and the unrelated CCI Vodafone Group stake clearance remains an eligible alternative."
+    }
+  ]
+}
