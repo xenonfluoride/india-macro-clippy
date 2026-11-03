@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate final evidence-check pass; no independent reviewer claimed",
+  "checked_at": "2026-11-03T03:48:22.176537+00:00",
+  "input_hashes": {
+    "capture.json": "a65aeeb51d2d4b91949a77d102c97632dc062e0898ea336c681531d10689f8ef",
+    "history.json": "76249753d670bd43500920b495b4ad588cbea3a15735a7b2b9f1192ec1981b05",
+    "review.json": "c88a9a58c8875eddc3f96d44e7555689ad28e23b3abf46261f3e389672ada02a",
+    "edition.json": "c703b1b48557d40518668e7c5140e0ca2d726ecef04de2cf08e72049f5e9c052",
+    "market.json": "293e3f857126603485620c8f2ab75037a835021a37602788d31c6403ed18ad62"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read every RSS title and complete summary through context offsets 0, 40, 80, 120, 160, 200, 240, 280 and 320, ending next_offset=null for 332 records. Recovered the first verbose context truncation by rereading a compact full candidate-only batch at offset 0; none of its missing text was assumed reviewed. All fifteen feeds succeeded and their counts and parser diagnostics were read. Read all 97 publication-history records in slices 0-34, 35-69 and 70-96. Authored 332 case-specific assessments in retained editor-decisions.tsv and mechanically packaged them into review.json; Python did not select or write assessments. Final pass rechecked seven exact source/card/review pairs, assessed operating evidence inside IPO, dividend and stock headlines, and explicitly clustered 50 duplicates to non-duplicate representatives. In the final coverage pass, record 301 was linked to Murasu 56 despite updated-summary timestamp concerns, Binance 123/319 were linked to reopening 309 while preserving differing metrics, and Apple preview 286 was rejected for absent India exposure. The resulting seven select, 127 eligible, 50 duplicate and 148 reject dispositions are fully authored. Strong alternatives include Petronet missing Qatar cargoes, rural grievance deadlines, SEBI's reported tax recommendation, GRAP-II, Exim export forecast, UPI volume, coal production and Ambuja capacity plan. Specific caveats retain forecast versus realised fiscal outcomes, inconsistent ITC/Devyani profit scopes, and intent versus execution. No keyword blacklist, source quota or automatic review was used. Four Yahoo daily-bar snapshots are complete, independently captured and correctly separated from RSS evidence; prior failed diagnostics remain on disk.",
+  "hero": "Rechecked the final hero against all seven cards: manufacturing momentum eases but export orders strengthen; UNEP describes a slowdown without claiming a definite total-emissions decline; corvette contracts are signed rather than delivered; preventive detention caution is a judicial statement rather than prisoner release; telecom standards, final Razorpay licence and completed Provision acquisition are distinct supported actions. Hero introduces no new number, date, causal linkage or operational-completion assertion. All seven IDs are covered. The November 3 date and Issue 024 follow the November 2 Issue 023 accepted edition.",
+  "catalysts": "Inspected November 4 dates across the complete pool. Dividend/bonus record dates in 8/78, CBSE correction deadline 28 and game promotion 160 are unsuitable entitlement, administration or consumer alerts. US election scenarios provide no precise supported India deliverable or result time; weekly macro preview 297 has no exact November 4 release date. Pune Metro 134 and Binance 2 are today November 3. Murasu 314 is today's prior forecast; actual landfall 56/57 supersedes the contradictory Wednesday forecast 221 and live 301 has an earlier publication timestamp with updated text. Neither can justify a November 4 catalyst. Niti meeting 327 is November 5 and cracker windows 209 are November 7-8. Empty catalysts is justified by the recorded review; deterministic renderer provides exactly one closing Tomorrow's catalysts module.",
+  "cards": [
+    {
+      "id": "1b613c9e0ac044368a025d31",
+      "factual_support": "Reread source title and summary against both final sentences. October is established by the title, 54.7 versus September 55.1 by the summary, and the six-month export-order pace and easing input inflation are exact summary facts. This is survey activity momentum, not a decline in the level of factory output or an official GDP result.",
+      "analysis": "Mechanism uses suggests to label the inference that export demand supports moderating activity. Watch asks for the next survey's order and output response rather than promising an outcome; each is one distinct sentence and adds no unsupported statistic.",
+      "novelty": "All six October manufacturing PMI records are explicitly grouped to representative 255. History contains September IIP and core-industry data and a GDP estimate, but no October manufacturing PMI release; those are different datasets and periods. No repeated fiscal or GST event is used."
+    },
+    {
+      "id": "5c44011f6ced3f14ac14207a",
+      "factual_support": "Reread the full Mongabay bullet summary. UNEP attribution, 2025 observation period and dataset disagreement appear in the opening sentence. Electricity generation gains of 98 terawatt-hours and coal decline of 44 terawatt-hours match the exact span and are changes, not total generation. Weather and demand qualifications remain in the final sentence. No categorical total-emissions decline is claimed.",
+      "analysis": "Mechanism explains possible substitution when renewable generation outpaces demand and qualifies persistence with weather and grid capacity. Watch follows storage and transmission as an observable condition, consistent with the source's caution rather than treating announced energy targets as built capacity.",
+      "novelty": "No ledger event covers this UNEP 2026 report on 2025 emissions and generation. Prior renewable commissioning, financing, power demand and El Nino forecasts are distinct actions or measures; PM renewable summit speeches in today's pool do not duplicate the empirical assessment."
+    },
+    {
+      "id": "813b1d7f88a0b7a313e0ff76",
+      "factual_support": "The exact RSS title supplies signed status, eight ships and 53867 crore rupees; the summary supplies future advanced weapons and sensors. Final copy attributes the report to Hindustan Times and uses will have for equipment. It names no builder, delivery date, employment number or completed vessel that the evidence does not supply.",
+      "analysis": "Mechanism distinguishes signed procurement from future delivered capability. Watch requests construction milestones and delivery schedules without asserting them; no actual construction start is represented as news.",
+      "novelty": "Compared with prior DAC AoN for drones artillery and helicopters, Shakti engine expansion and HTT-40 handover. None covers signed next-generation corvette contracts. This is a distinct procurement object and contractual stage, not a recycled general defence spending approval."
+    },
+    {
+      "id": "af766a4284fe38c4eb7570d8",
+      "factual_support": "The final sentence closely paraphrases the entire RSS summary: Supreme Court, Monday, preventive detention, liberty and strict legal conformity. It asserts no case outcome, named statute, new detention prohibition or automatic release absent from the source.",
+      "analysis": "Mechanism states a possible accountability effect of legal scrutiny and watch asks how later orders apply the instruction. Neither converts a caution into a blanket ban or an adjudicated remedy for a particular detainee.",
+      "novelty": "History's last SC card concerns suspending sentences of convicted heinous-offence offenders because appeals are delayed, a different legal posture. Earlier foreign-national UAPA bail entry condition and custodial interrogation ruling are also distinct; no preventive-detention caution event is repeated."
+    },
+    {
+      "id": "bf9e947eeee84214b23edd63",
+      "factual_support": "Exact source summary supports 24/7 AI centres, sixteen daily human-support hours, faster appeals and penalties up to twenty lakh rupees for mishandling. Attribution remains Hindustan Times. Up to preserves the ceiling; no effective date, complaint-resolution duration or imposed fine is invented. Mandate does not mean providers already comply.",
+      "analysis": "Mechanism explains how support access and penalties may change complaint incentives. Watch asks for implementation and reported outcomes rather than assuming better resolution. Human escalation is a proposed observation of support access, not an additional rule asserted in the brief.",
+      "novelty": "Reassigned from national feed to technology because the substance is telecom digital-service regulation. Prior CNAP caller identity requirement and Meta content advisory govern different obligations; neither covers complaint centres or this penalty/support structure."
+    },
+    {
+      "id": "09c325cd8feec02ab7a2364c",
+      "factual_support": "Final licence status is exactly in the title; summary establishes permission for foreign-currency transfers and multi-currency accounts from GIFT City under one framework. Copy says allows, not that transactions have started or accounts have already opened. No licence category or regulator name is imported from the URL.",
+      "analysis": "Mechanism identifies potential reduction in regulatory fragmentation as analysis. Watch separately asks which services become available and what activity is reported, preserving permission versus realised service use.",
+      "novelty": "Company-feed record reassigned to technology for its digital-payments substance. Ledger has Prosus/Navi approval, EPFO access and PhonePe Appstore expansion but no Razorpay GIFT City licence. Different firm, authorisation and service scope make this a distinct event."
+    },
+    {
+      "id": "4c00b15ed0bc023e61882669",
+      "factual_support": "The complete substantive RSS sentence establishes Anjali Sardana, Provision Labs, physical AI, Mumbai-based Basilisk Industries, acquired status and undisclosed consideration. Inc42 attribution is preserved. Brief stops at this sentence and adds no products, headcount, valuation or acquirer location from truncated material.",
+      "analysis": "Mechanism says could improve software/hardware coordination and is explicitly conditional analysis. Watch seeks an integrated product or customer deployment as future evidence, without asserting synergies or deployment already achieved.",
+      "novelty": "Compared the 97 ledger entries, including Inkle/Finally, Senco/Melorra, Tata/Iveco and Prosus/Navi. No Provision Labs/Basilisk transaction appears. Conference physical-AI commentary elsewhere in the pool does not establish another report of this completed acquisition."
+    }
+  ]
+}

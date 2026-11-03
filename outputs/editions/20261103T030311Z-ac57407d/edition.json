@@ -1,0 +1,171 @@
+{
+  "schema_version": 2,
+  "run_id": "20261103T030311Z-ac57407d",
+  "created_at": "2026-11-03T03:47:16.106545+00:00",
+  "date": "2026-11-03",
+  "issue": 24,
+  "hero": "Manufacturing growth eases even as export orders strengthen, while a UNEP assessment traces slower emissions growth alongside a shift in electricity generation. Signed Navy corvette contracts and a Supreme Court warning on preventive detention anchor the national agenda; telecom complaint standards, Razorpay’s final licence and Provision Labs’ acquisition mark distinct changes in digital services and physical AI.",
+  "hero_card_ids": [
+    "1b613c9e0ac044368a025d31",
+    "5c44011f6ced3f14ac14207a",
+    "813b1d7f88a0b7a313e0ff76",
+    "af766a4284fe38c4eb7570d8",
+    "bf9e947eeee84214b23edd63",
+    "09c325cd8feec02ab7a2364c",
+    "4c00b15ed0bc023e61882669"
+  ],
+  "cards": [
+    {
+      "id": "1b613c9e0ac044368a025d31",
+      "lane": "macro",
+      "headline": "Manufacturing PMI dips in October as output, orders see slow growth",
+      "brief": "HSBC’s India Manufacturing PMI fell to 54.7 in October from 55.1 in September. Export orders grew at their fastest pace in six months, while input cost inflation eased.",
+      "mechanism": "Slower overall activity alongside stronger export orders suggests overseas demand is providing some support as manufacturing momentum moderates.",
+      "watch": "Watch whether the next survey shows export strength translating into faster output and new-order growth.",
+      "claims": [
+        {
+          "statement": "HSBC’s India Manufacturing PMI fell to 54.7 in October from 55.1 in September.",
+          "evidence": [
+            "Manufacturing PMI dips in October as output, orders see slow growth",
+            "HSBC's India Manufacturing PMI fell to 54.7 from 55.1 in September"
+          ]
+        },
+        {
+          "statement": "Export orders grew at their fastest pace in six months, while input cost inflation eased.",
+          "evidence": [
+            "export orders grew at their fastest pace in six months and input cost inflation eased"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c44011f6ced3f14ac14207a",
+      "lane": "macro",
+      "headline": "India’s emissions growth slows as renewable energy begins replacing coal, UNEP report finds",
+      "brief": "UNEP’s Emissions Gap Report 2026 finds that India broke from rapid emissions growth in 2025, although datasets disagree on whether emissions rose or declined slightly, Mongabay reports. Renewable electricity generation increased by 98 terawatt-hours in 2025, nearly twice the increase in electricity demand, while coal-fired generation fell by 44 terawatt-hours. Milder weather and slower demand growth also contributed to the slowdown.",
+      "mechanism": "Renewable generation growing faster than demand can displace coal output, while weather and grid capacity affect how durable that shift becomes.",
+      "watch": "Watch whether storage and transmission investment supports further coal displacement as electricity demand changes.",
+      "claims": [
+        {
+          "statement": "UNEP’s Emissions Gap Report 2026 finds that India broke from rapid emissions growth in 2025, although datasets disagree on whether emissions rose or declined slightly, Mongabay reports.",
+          "evidence": [
+            "India’s greenhouse gas emissions broke from a longer period of rapid growth in 2025, according to UNEP’s Emissions Gap Report 2026.",
+            "However, different datasets disagree on whether emissions increased or declined slightly."
+          ]
+        },
+        {
+          "statement": "Renewable electricity generation increased by 98 terawatt-hours in 2025, nearly twice the increase in electricity demand, while coal-fired generation fell by 44 terawatt-hours.",
+          "evidence": [
+            "Renewable electricity generation increased by 98 terawatt-hours in 2025, nearly twice the increase in electricity demand, while coal-fired generation declined by 44 terawatt-hours."
+          ]
+        },
+        {
+          "statement": "Milder weather and slower demand growth also contributed to the slowdown.",
+          "evidence": [
+            "Milder weather and slower electricity demand growth also contributed to the slowdown."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "813b1d7f88a0b7a313e0ff76",
+      "lane": "national",
+      "headline": "Defence ministry signs ₹53,867 crore deals for 8 next-generation Navy corvettes",
+      "brief": "The defence ministry has signed deals worth ₹53,867 crore for eight next-generation Navy corvettes, Hindustan Times reports. The ships will have advanced missiles, weapons and sensor suites.",
+      "mechanism": "Signed contracts move naval procurement into an execution phase, with capability gains dependent on construction and delivery.",
+      "watch": "Watch for shipbuilding milestones and delivery schedules that show when the contracted capability will become operational.",
+      "claims": [
+        {
+          "statement": "The defence ministry has signed deals worth ₹53,867 crore for eight next-generation Navy corvettes, Hindustan Times reports.",
+          "evidence": [
+            "Defence ministry signs ₹53,867 crore deals for 8 next-generation Navy corvettes"
+          ]
+        },
+        {
+          "statement": "The ships will have advanced missiles, weapons and sensor suites.",
+          "evidence": [
+            "The corvettes will be equipped with modern capabilities, including advanced missiles, weapons and sensor suites"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "af766a4284fe38c4eb7570d8",
+      "lane": "national",
+      "headline": "State must use preventive detention powers with caution: SC",
+      "brief": "The Supreme Court said on Monday that the State must exercise preventive detention powers with utmost caution, circumspection and strict conformity with the law because of their direct impact on personal liberty.",
+      "mechanism": "Strict scrutiny of detention powers can constrain arbitrary loss of liberty and strengthen procedural accountability.",
+      "watch": "Watch how subsequent detention orders and judicial reviews apply the court’s insistence on strict legal compliance.",
+      "claims": [
+        {
+          "statement": "The Supreme Court said on Monday that the State must exercise preventive detention powers with utmost caution, circumspection and strict conformity with the law because of their direct impact on personal liberty.",
+          "evidence": [
+            "The Supreme Court on Monday said the State must exercise preventive detention powers, given their direct impact on personal liberty, with utmost caution, circumspection and in strict conformity with the requirements of law."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bf9e947eeee84214b23edd63",
+      "lane": "tech",
+      "headline": "TRAI mandates AI-led complaint centres, 16-hour human support",
+      "brief": "TRAI has mandated round-the-clock AI-enabled complaint centres and human support for 16 hours daily, Hindustan Times reports. The requirements also include faster appeals and penalties of up to ₹20 lakh for mishandled cases.",
+      "mechanism": "Minimum support hours and penalties can strengthen incentives to resolve telecom complaints rather than leave users in automated queues.",
+      "watch": "Watch providers’ implementation of human escalation and the regulator’s reporting of complaint outcomes and penalties.",
+      "claims": [
+        {
+          "statement": "TRAI has mandated round-the-clock AI-enabled complaint centres and human support for 16 hours daily, Hindustan Times reports.",
+          "evidence": [
+            "TRAI mandates 24/7 AI-enabled complaint centres, human support for 16 hours daily"
+          ]
+        },
+        {
+          "statement": "The requirements also include faster appeals and penalties of up to ₹20 lakh for mishandled cases.",
+          "evidence": [
+            "faster appeals and penalties up to ₹20 lakh for mishandled cases."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09c325cd8feec02ab7a2364c",
+      "lane": "tech",
+      "headline": "Razorpay gets final licence to expand cross-border payments from GIFT City",
+      "brief": "Razorpay has received a final licence to expand cross-border payments from GIFT City. The approval allows foreign currency transfers and multi-currency accounts under a single regulatory framework.",
+      "mechanism": "A unified permission framework can reduce regulatory fragmentation for cross-border payment services and account offerings.",
+      "watch": "Watch which authorised services Razorpay makes available and the transaction activity it subsequently reports.",
+      "claims": [
+        {
+          "statement": "Razorpay has received a final licence to expand cross-border payments from GIFT City.",
+          "evidence": [
+            "Razorpay gets final licence to expand cross-border payments from GIFT City"
+          ]
+        },
+        {
+          "statement": "The approval allows foreign currency transfers and multi-currency accounts under a single regulatory framework.",
+          "evidence": [
+            "The approval allows Razorpay to facilitate foreign currency transfers and offer multi-currency accounts from GIFT City under a single regulatory framework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4c00b15ed0bc023e61882669",
+      "lane": "tech",
+      "headline": "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
+      "brief": "Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum, Inc42 reports.",
+      "mechanism": "Combining physical AI development with a hardware team could improve coordination between software and device engineering.",
+      "watch": "Watch for a disclosed integrated product or customer deployment that demonstrates what the acquisition adds.",
+      "claims": [
+        {
+          "statement": "Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum, Inc42 reports.",
+          "evidence": [
+            "Pronto founder Anjali Sardana’s physical AI venture Provision Labs has acquired Mumbai-based hardware startup Basilisk Industries for an undisclosed sum."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed all 332 candidates for November 4, 2026. Coal India and the combined Godrej/Privi/Symphony/Asian Paints/Concord calendars (8 and 78) are dividend or bonus entitlement cutoffs, not useful public catalysts. CBSE LOC corrections (28) and game rewards (160) have November 4 deadlines but are routine administrative or consumer reminders. US midterm scenarios (23, 69, 152 and 231) offer no precise India-specific next-day deliverable or reliably supported result timetable. The weekly policy preview (297) names services PMI and forex reserves without a November 4 release date. Pune Metro inauguration (134), Binance network reopening (2) and the reliable Murasu forecast (314) concern Tuesday November 3, which is today. Record 221 says Wednesday for Murasu but later records 56 and 57 already report actual Tuesday landfall; the contradictory earlier forecast cannot support a next-day catalyst, and live item 301 has an updated-summary/publication-date mismatch. November 5 Niti Aayog meeting (327), November 7-8 green-cracker permission (209), December application windows and longer investment targets are outside tomorrow. No distinct high-materiality date-specific catalyst qualifies."
+}
