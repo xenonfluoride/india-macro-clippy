@@ -1,0 +1,177 @@
+{
+  "schema_version": 2,
+  "run_id": "20261104T030513Z-9b02a9e6",
+  "created_at": "2026-11-04T03:17:12.807192+00:00",
+  "date": "2026-11-04",
+  "issue": 25,
+  "hero": "India's next phase of expansion comes with an execution test: the RBI eases services reporting, the Health Ministry proposes more medical import gateways, and Odisha signs clean-energy agreements drawing investment proposals. The Supreme Court addresses indefinite protest-site occupation, while rural grievance rules set deadlines for complaints. Indigenous AI models and Crisil's data-centre forecast put secure deployment, power supply and project delivery in focus.",
+  "hero_card_ids": [
+    "b2e7388263afc6526127c149",
+    "49837c4d86b0e4624184a1af",
+    "ab076030a8810510da96b9ff",
+    "4382c235ab32257c95e90a6b",
+    "8625eb2345da473666886bca",
+    "575f76d58e8fbcf91d4d3e81",
+    "a190fbcdc7e5dc4d86835484"
+  ],
+  "cards": [
+    {
+      "id": "b2e7388263afc6526127c149",
+      "lane": "macro",
+      "headline": "India eases forex reporting rules for small value service exports, imports",
+      "brief": "The Reserve Bank of India has eased foreign exchange reporting for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions. Resident individuals exporting services will be deemed to have filed export declarations after submitting payment details to banks; reporting obligations for larger transactions and non-individual entities continue.",
+      "mechanism": "Simpler reporting can reduce paperwork for individual service exporters while leaving banks responsible for collecting payment details.",
+      "watch": "Watch how banks apply the threshold and distinguish individual exporters from entities with continuing reporting duties.",
+      "claims": [
+        {
+          "statement": "The Reserve Bank of India has eased foreign exchange reporting for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions.",
+          "evidence": [
+            "The Reserve Bank of India has eased foreign exchange reporting rules for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions."
+          ]
+        },
+        {
+          "statement": "Resident individuals exporting services will be deemed to have filed export declarations after submitting payment details to banks; reporting obligations for larger transactions and non-individual entities continue.",
+          "evidence": [
+            "Resident individuals exporting services will be deemed to have filed export declarations after submitting payment details to banks, while reporting obligations for larger transactions and non-individual entities will continue."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "49837c4d86b0e4624184a1af",
+      "lane": "macro",
+      "headline": "Centre plans to expand import clearance gateways for drugs, medical devices",
+      "brief": "The Health Ministry proposes adding seven inland container depots, a special economic zone and Jewar airport to the approved import gateway list for drugs, medical devices and cosmetics, Business Standard reports.",
+      "mechanism": "More approved entry points could reduce routing and clearance bottlenecks for medical imports if the proposal is adopted.",
+      "watch": "Watch for the final approved list and the operational readiness of inspection and clearance services at the added gateways.",
+      "claims": [
+        {
+          "statement": "The Health Ministry proposes adding seven inland container depots, a special economic zone and Jewar airport to the approved import gateway list for drugs, medical devices and cosmetics, Business Standard reports.",
+          "evidence": [
+            "The Health Ministry proposes adding seven inland container depots, an SEZ and Jewar airport to the approved list to ease imports of drugs, medical devices and cosmetics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab076030a8810510da96b9ff",
+      "lane": "macro",
+      "headline": "Odisha draws ₹1.17 trillion clean energy investment proposals at summit",
+      "brief": "Odisha signed clean-energy agreements with 15 companies at a renewable energy summit, drawing ₹1.17 trillion in investment proposals for projects spanning 11.74 GW of planned capacity, Business Standard reports.",
+      "mechanism": "The proposed generation buildout could widen Odisha's clean-power supply, with the benefit dependent on projects moving from agreements to financed construction.",
+      "watch": "Watch for financial commitments, project clearances and commissioning schedules that convert the summit proposals into operating capacity.",
+      "claims": [
+        {
+          "statement": "Odisha signed clean-energy agreements with 15 companies at a renewable energy summit, drawing ₹1.17 trillion in investment proposals for projects spanning 11.74 GW of planned capacity, Business Standard reports.",
+          "evidence": [
+            "Odisha signs clean-energy agreements with 15 companies at a renewable energy summit, drawing proposals worth Rs 1.17 trillion for projects spanning 11.74 GW of planned capacity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4382c235ab32257c95e90a6b",
+      "lane": "national",
+      "headline": "No individual, group can occupy a designated protest site indefinitely: Supreme Court",
+      "brief": "The Supreme Court said no individual or group can occupy a designated protest site indefinitely, Hindustan Times reports. The observations came while the court heard petitions arising from police action during July protests led by the Cockroach Janata Party.",
+      "mechanism": "A limit on indefinite occupation places the duration and shared use of designated protest spaces at the centre of the rights-management tradeoff.",
+      "watch": "Watch for the operative directions and how they distinguish limits on occupation from access to peaceful protest.",
+      "claims": [
+        {
+          "statement": "The Supreme Court said no individual or group can occupy a designated protest site indefinitely, Hindustan Times reports.",
+          "evidence": [
+            "No individual, group can occupy a designated protest site indefinitely: Supreme Court"
+          ]
+        },
+        {
+          "statement": "The observations came while the court heard petitions arising from police action during July protests led by the Cockroach Janata Party.",
+          "evidence": [
+            "The observations came as the court heard a clutch of petitions arising from the police action during the July protests led by the Cockroach Janata Party (CJP)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8625eb2345da473666886bca",
+      "lane": "national",
+      "headline": "VB-G RAM G grievance redressal rules set 15-day deadline",
+      "brief": "The VB-G RAM G grievance redressal rules set a 15-day deadline and establish mechanisms at gram panchayat, block and district levels, The Economic Times reports. Designated officers will receive, register, inquire into and dispose of complaints; inquiries must be completed within seven working days.",
+      "mechanism": "Designated officers and time limits can make rural complaints easier to track through successive levels of administration.",
+      "watch": "Watch whether states appoint accessible officers and report inquiry completion separately from final complaint disposal.",
+      "claims": [
+        {
+          "statement": "The VB-G RAM G grievance redressal rules set a 15-day deadline and establish mechanisms at gram panchayat, block and district levels, The Economic Times reports.",
+          "evidence": [
+            "VB-G RAM G grievance redressal rules set 15-day deadline",
+            "The rules establish a multi-tier grievance redressal mechanism at the gram panchayat, block and district levels."
+          ]
+        },
+        {
+          "statement": "Designated officers will receive, register, inquire into and dispose of complaints; inquiries must be completed within seven working days.",
+          "evidence": [
+            "Designated grievance redressal officers will be responsible for receiving, registering, inquiring into and disposing of complaints. Inquiries must be completed within seven working days."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "575f76d58e8fbcf91d4d3e81",
+      "lane": "tech",
+      "headline": "MeitY unveils indigenous AI Models EKA-1, Dhīr 2B and 5B under IndiaAI mission",
+      "brief": "The Ministry of Electronics and Information Technology unveiled EKA-1, Dhīr 2B and Dhīr 5B, three indigenous AI foundation models developed by domestic companies with IndiaAI Mission support, Mint reports. The government highlighted their potential for specialised applications and deployment in secure, offline environments.",
+      "mechanism": "The prospect of domestic models for offline use could broaden deployment options for organisations that need tighter control over their data environments.",
+      "watch": "Watch for demonstrated performance on specialised tasks and evidence of secure deployments beyond the unveiling.",
+      "claims": [
+        {
+          "statement": "The Ministry of Electronics and Information Technology unveiled EKA-1, Dhīr 2B and Dhīr 5B, three indigenous AI foundation models developed by domestic companies with IndiaAI Mission support, Mint reports.",
+          "evidence": [
+            "Ministry of Electronics and Information Technology (MeitY) has unveiled three indigenous artificial intelligence foundation models, EKA-1, Dhīr 2B and Dhīr 5B, developed by domestic companies with support under the IndiaAI Mission"
+          ]
+        },
+        {
+          "statement": "The government highlighted their potential for specialised applications and deployment in secure, offline environments.",
+          "evidence": [
+            "with the government highlighting their potential for specialised applications and deployment in secure, offline environments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a190fbcdc7e5dc4d86835484",
+      "lane": "tech",
+      "headline": "India's data centre capacity set for 5x surge by 2030: Crisil",
+      "brief": "Crisil forecasts a fivefold rise in India's data-centre capacity by 2030, YourStory reports. Growth will also depend on timely power supply, regulatory clearances and project execution capabilities.",
+      "mechanism": "Projected computing capacity creates demand for reliable electricity and project delivery before it can become usable digital infrastructure.",
+      "watch": "Watch commissioned capacity and power availability against the forecast, rather than counting announced projects as completed supply.",
+      "claims": [
+        {
+          "statement": "Crisil forecasts a fivefold rise in India's data-centre capacity by 2030, YourStory reports.",
+          "evidence": [
+            "India's data centre capacity set for 5x surge by 2030: Crisil"
+          ]
+        },
+        {
+          "statement": "Growth will also depend on timely power supply, regulatory clearances and project execution capabilities.",
+          "evidence": [
+            "The growth of data centres in India will also depend on factors like timely power supply, regulatory clearances and project execution capabilities."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-11-05",
+      "text": "Gurugram's reported 16-day construction ban begins on November 5 amid rising pollution; the same report says office attendance is capped at 50%, and the construction curbs cover roads, highways, flyovers, pipelines and other public infrastructure.",
+      "evidence": "Gurugram bans construction work for 16 days from November 5, caps office attendance at 50% amid rising pollution",
+      "id": "492bcf66d45e0f6a2fb51190"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "Public comments close on November 5 on draft animal-testing rules that would let institutional ethics committees approve mild and moderate experiments now requiring central approval, Mongabay India reports.",
+      "evidence": "Draft rules, open for public comment until November 5, would let institutional ethics committees approve “mild” and “moderate” experiments on animals which currently need central approval under prevailing regulations.",
+      "id": "e6f8d2e97c62c1725c22c628"
+    }
+  ],
+  "catalyst_review": "Inspected all 353 candidates for November 5 and relative dates. Candidate 85 explicitly starts a 16-day Gurugram construction ban on November 5; the attendance cap is reported alongside it without separately asserting a start date. Candidate 122 explicitly closes the public-comment window on draft animal-testing rules on November 5, a discrete regulatory deadline distinct from the slate. Candidate 80's November 5 Rajya Sabha result is individual bypoll procedure, not a material macro catalyst; candidate 118 repeats that event. CBSE timetable coverage has no confirmed November 5 release in the captured summary. Cyclone Murasu weakening, Binance withdrawal reopening and municipal counting refer to Tuesday November 3, not tomorrow. December device launches, the Power Grid December 1 appointment, 2027 admissions, 2028 aircraft delivery and 2030 capacity forecasts are later. The four-day wildlife conference and undated protest/strike calls do not establish a distinct November 5 deliverable. No stock recommendation or record-date reminder is promoted to a catalyst."
+}
