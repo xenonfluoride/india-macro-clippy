@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate final evidence-check pass; no external or independent reviewer claimed",
+  "checked_at": "2026-11-05T12:16:42.149550+00:00",
+  "input_hashes": {
+    "capture.json": "e5a83d5762ffd01986fecda5b296ca51f0718236a464100257dda090fb1e24a5",
+    "history.json": "c88430672d4ffce4e8f44ee1b03b380af344a76ff884f79b1534f5f9826bb989",
+    "review.json": "3b30db11f77a23116911684d580415cb918a77644d9f48c64bad97e157ffc4f7",
+    "edition.json": "b62dc56e2eac35e88a0b68d78feb52d874cfcccda61861f0a85feeee7da11aec",
+    "market.json": "8018d9e3e37a0c858e842733d68c4e36026fdf677513e17638c86b488cecc6c0"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 392 original titles and summaries from bounded context batches at offsets 0, 40, 80, 120, 160, 200, 240, 280, 320 and 360, ending next_offset=null. Reprinted offset 0 without its verbose history after truncation, so every candidate's full evidence was visible. Read all 111 accepted history records in three complete slices. Authored retained case-specific decisions and explicit duplicate mapping; final pass also grouped the sales-tax explainer and the repeated IndiaAI release. Considered operating facts inside stock headlines, including Rajesh Power's contract and OnEMI's fundraise. Kept VISTAR, Agniveer revision, active financial cyberthreats, drug quality proposals, Amul/Nandini pricing, SIDBI funding, IIFL allotment, mineral-tax proposal, import data and climate studies as real alternatives. Did not merge conflicting PhysicsWallah profit accounts or differing Agniveer service-term descriptions. Review lane changes reflect substance, including CERT-In to tech and hospitality/consumer operating results to macro. Seven selections, 156 eligible alternatives, 51 duplicate records and 178 rejections cover the pool without a keyword veto.",
+  "hero": "Checked the final hero against all seven card IDs: services survey strengthening, two Cabinet approvals, an introducing-stage offshore round, raised startup funding, a judicial detention rule and an issued AI audit framework. Investment execution is an analytical focus rather than a claim that capacity or exploration wells are already delivered. Safeguards describes the purpose of the court and audit provisions, not proof of full compliance or eliminated risk. No price move is attributed to the RSS slate.",
+  "catalysts": "Checked November 6 against the entire pool. Bosch's explicitly dated board meeting concerns possible share split and bonus action and lacks a material operating or policy deliverable. Gyftr has no supported next-day date. UP enrolment, Dabur appointment, SC Agrotech meeting, DevSparks and longer-term policy targets are later dates. The offshore details are promised shortly, without a November 6 deadline. Current cyclone recovery and Wednesday air quality are reported conditions, not a forecast deliverable tomorrow. Empty catalysts is therefore supported, with exactly one closing absence module supplied by the renderer.",
+  "cards": [
+    {
+      "id": "d3af93344887a4943985540b",
+      "factual_support": "Reread the ET RSS summary: S&P Global released the HSBC services PMI at 55.8 versus 55.2, fastest activity in four months and lowest input-cost inflation in more than six years. Both sentences map completely to those spans. PMI is retained as a survey index; no percentage GDP growth, output level, hiring result or margin improvement is asserted as fact.",
+      "analysis": "Margin room is framed as a conditional consequence of firmer activity and slower cost inflation, not a reported company earnings result. The next-survey watch checks persistence of the same measurable indicators without adding an unsupported release date.",
+      "novelty": "History's October manufacturing PMI at 54.7 is a separate survey and sector. No accepted October services release appears among the 111 entries. Four other captured services accounts are directly grouped with this representative, so the release occupies one card."
+    },
+    {
+      "id": "273e398dd456aa897b19fd72",
+      "factual_support": "The Hindu headline establishes Cabinet approval and 14500 crore VGF; the summary explicitly lists pumped hydro, battery systems and alternative storage technologies. The brief preserves scheme design and approval, with no assertion of disbursed funds, installed megawatts, a final subsidy percentage or a completed project.",
+      "analysis": "Financing-gap relief and shifting electricity availability are conditional storage mechanisms. Project awards and financing commitments are future observable evidence needed to move from programme approval toward actual capacity.",
+      "novelty": "No storage VGF approval is in accepted history. Earlier renewable investments and Odisha proposals are separate commitments. The Joshi interview is linked as duplicate coverage of this 14500-crore approval rather than selected again."
+    },
+    {
+      "id": "e32a19d357dd3d90ab79272c",
+      "factual_support": "Business Standard's title supports five years and 2814 crore; its summary supplies the 2026-27 to 2030-31 implementation period and aim to strengthen India's mineral ecosystem. The final card does not import the preview's tentative 30% subsidy or lithium/nickel details from different candidates.",
+      "analysis": "Local value addition and reduced supply bottlenecks are stated as possible processing-support effects. The watch explicitly seeks final terms and sanctioned projects, preserving the distinction between approved programme and productive capacity.",
+      "novelty": "The accepted ledger contains no critical-mineral processing approval. The mineral-tax parity proposal is separately assessed as a different contemplated instrument. Inc42, YourStory and The Hindu coverage of the approved scheme are grouped to this one representative."
+    },
+    {
+      "id": "9ad7dec235232de391e8330c",
+      "factual_support": "Reread all of the captured Business Standard summary, including its introducing-stage language and notice attribution. It supports monthly windows, relaxed fiscal terms, preparing to cover up to 50% of eligible exploratory well costs, the 84084-crore umbrella programme and bid details shortly. The brief does not claim every well receives half its costs, funds have been paid, or final bids have already been awarded.",
+      "analysis": "Risk sharing may draw offshore investment, while the mechanism expressly leaves discoveries and production uncertain. The watch asks for the detailed notice and eligibility terms rather than inventing a bid deadline or predicting output.",
+      "novelty": "Earlier accepted energy items concern gas prices, imports, coal gasification and renewable proposals. None is this special OALP introduction. New licensing framework and explicit exploratory-cost support provide a distinct investment event."
+    },
+    {
+      "id": "87e68cb4ad89b9188d567c3b",
+      "factual_support": "The HT headline explicitly begins the 24-hour clock when liberty is curtailed. The summary requires magistrate production within that period even for search-and-seizure detention. The card reports those two bounded propositions, retaining attribution without claiming automatic release, damages, conviction reversal or a ban on detention.",
+      "analysis": "Preventing a formal-label delay in oversight follows from the clock's starting point and is conditional analysis. Later court applications to disputed timelines are the observable next signal; no pending case or hearing date is invented.",
+      "novelty": "History covers preventive-detention caution, custodial-interrogation suggestions and sentence-suspension boundaries, each a different legal issue. This is the distinct judicial-production timing rule. Title-only coverage at candidate 127 is linked directly to the selected representative."
+    },
+    {
+      "id": "945ff467e37ab0ab5e32e7a7",
+      "factual_support": "HT supports issued AI security audit guidelines and a four-tier framework in the title. Its summary explicitly applies high-risk and critical requirements uniformly with no small-firm or startup relaxation. The brief does not import tool-use details from The Hindu or say the rules prove audits have already occurred.",
+      "analysis": "Potential compliance costs and reduced safeguard gaps are inference, with could preserving uncertainty. The watch seeks actual audit findings and classification practice, rather than assuming enforcement success or adding a deadline.",
+      "novelty": "Accepted history includes RBI breach remediation and TRAI complaint-centre rules, which regulate different conduct. This CERT-In AI audit framework is absent. The current financial-attack warning is also assessed separately as a threat event, while the agent-audit coverage is explicitly grouped here."
+    },
+    {
+      "id": "56bb782ae249a071de18011b",
+      "factual_support": "YourStory's title supplies 10.3 million dollars, Series A and Rainmatter/Mela leadership; its summary gives Bengaluru and each planned use. The card keeps raising funds separate from future manufacturing, research, qualification and hiring. It adds no production capacity, customer count, commercial revenue or funding valuation.",
+      "analysis": "Final evidence pass removed the phrase new materials from the mechanism because this selected summary does not describe the product category. Research conversion and repeatable supply are now conditional analysis grounded in stated manufacturing and qualification plans. The watch asks for those actual milestones.",
+      "novelty": "No accepted history event concerns altM. The Inkle and Basilisk acquisitions are unrelated transactions. Business Standard and Inc42 funding reports are linked duplicates, so this same 10.3-million-dollar round is selected once."
+    }
+  ]
+}

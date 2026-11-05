@@ -1,0 +1,180 @@
+{
+  "schema_version": 2,
+  "run_id": "20261105T115838Z-8ea62f93",
+  "created_at": "2026-11-05T12:14:50.516488+00:00",
+  "date": "2026-11-05",
+  "issue": 26,
+  "hero": "India’s services survey strengthened as the Cabinet approved energy-storage and critical-mineral programmes. A new offshore licensing round and altM’s funding put investment execution in focus. The Supreme Court’s detention ruling and CERT-In’s AI audit framework add distinct safeguards for public power and emerging technology.",
+  "hero_card_ids": [
+    "d3af93344887a4943985540b",
+    "273e398dd456aa897b19fd72",
+    "e32a19d357dd3d90ab79272c",
+    "9ad7dec235232de391e8330c",
+    "87e68cb4ad89b9188d567c3b",
+    "945ff467e37ab0ab5e32e7a7",
+    "56bb782ae249a071de18011b"
+  ],
+  "cards": [
+    {
+      "id": "d3af93344887a4943985540b",
+      "lane": "macro",
+      "headline": "India's services growth accelerates to 55.8 in October, cost pressures ease to six-year low",
+      "brief": "S&P Global’s October data put the HSBC India Services PMI at 55.8, up from 55.2 in September, marking the fastest activity expansion in four months. Input cost inflation eased to its lowest level in more than six years.",
+      "mechanism": "Firmer activity alongside slower cost inflation could give services businesses more room to protect margins.",
+      "watch": "Watch whether the next survey sustains the improvement in activity and input-cost conditions.",
+      "claims": [
+        {
+          "statement": "S&P Global’s October data put the HSBC India Services PMI at 55.8, up from 55.2 in September, marking the fastest activity expansion in four months.",
+          "evidence": [
+            "India's services sector activity expanded at its fastest pace in four months in October, with the HSBC India Services Purchasing Managers' Index (PMI) rising to 55.8 from 55.2 in September",
+            "according to data released by S&P Global on Wednesday."
+          ]
+        },
+        {
+          "statement": "Input cost inflation eased to its lowest level in more than six years.",
+          "evidence": [
+            "input cost inflation eased to its lowest level in more than six years"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "273e398dd456aa897b19fd72",
+      "lane": "macro",
+      "headline": "Union Cabinet approves ₹14,500 crore VGF scheme to develop large scale energy storage in India",
+      "brief": "The Union Cabinet approved a ₹14,500 crore viability gap funding scheme for large-scale energy storage, The Hindu reports. The scheme is designed to support pumped hydro, battery storage and alternative storage technologies.",
+      "mechanism": "Public funding could help storage projects bridge financing gaps and shift electricity availability toward periods of greater need.",
+      "watch": "Watch for project awards and financing commitments that turn the approved scheme into buildable storage capacity.",
+      "claims": [
+        {
+          "statement": "The Union Cabinet approved a ₹14,500 crore viability gap funding scheme for large-scale energy storage, The Hindu reports.",
+          "evidence": [
+            "Union Cabinet approves ₹14,500 crore VGF scheme to develop large scale energy storage in India"
+          ]
+        },
+        {
+          "statement": "The scheme is designed to support pumped hydro, battery storage and alternative storage technologies.",
+          "evidence": [
+            "The scheme is designed to provide for the development of hydro pumped storage plant (PSP) capacity, battery energy storage system (BESS) capacity, as well as alternative energy storage technologies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e32a19d357dd3d90ab79272c",
+      "lane": "macro",
+      "headline": "Cabinet approves five-year ₹2,814 cr push for critical mineral processing",
+      "brief": "The Cabinet approved a five-year ₹2,814 crore scheme for critical-mineral processing, Business Standard reports. Implementation is scheduled from 2026-27 to 2030-31, with the aim of strengthening India’s critical-mineral ecosystem.",
+      "mechanism": "Support for domestic processing could increase local value addition and reduce exposure to external supply bottlenecks.",
+      "watch": "Watch for implementation terms and sanctioned projects that establish which processing capacity the programme will actually support.",
+      "claims": [
+        {
+          "statement": "The Cabinet approved a five-year ₹2,814 crore scheme for critical-mineral processing, Business Standard reports.",
+          "evidence": [
+            "Cabinet approves five-year ₹2,814 cr push for critical mineral processing"
+          ]
+        },
+        {
+          "statement": "Implementation is scheduled from 2026-27 to 2030-31, with the aim of strengthening India’s critical-mineral ecosystem.",
+          "evidence": [
+            "The five-year scheme aims to strengthen India's critical mineral ecosystem, with implementation scheduled from 2026-27 to 2030-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9ad7dec235232de391e8330c",
+      "lane": "macro",
+      "headline": "India opens deepwater oil, gas bids, offers to fund up to 50% of well costs",
+      "brief": "The government is introducing a special OALP round for deepwater and ultra-deepwater exploration, with monthly bidding windows and relaxed fiscal terms. It is preparing to cover up to 50% of eligible exploratory well costs under the ₹84,084 crore Samudra Manthan programme; the Directorate General of Hydrocarbons said bid-round details would be announced shortly.",
+      "mechanism": "Sharing exploration risk could draw investment into costly offshore basins, although discoveries and production would remain uncertain.",
+      "watch": "Watch the detailed bid notice for eligible costs, fiscal conditions and the acreage available to explorers.",
+      "claims": [
+        {
+          "statement": "The government is introducing a special OALP round for deepwater and ultra-deepwater exploration, with monthly bidding windows and relaxed fiscal terms.",
+          "evidence": [
+            "The government is rolling out a special licensing round for deepwater and ultra-deepwater oil and gas blocks, offering monthly bidding windows and relaxed fiscal terms",
+            "a Special OALP is being introduced for fast-track award of deepwater and ultra-deepwater (DW/UDW) exploration blocks"
+          ]
+        },
+        {
+          "statement": "It is preparing to cover up to 50% of eligible exploratory well costs under the ₹84,084 crore Samudra Manthan programme; the Directorate General of Hydrocarbons said bid-round details would be announced shortly.",
+          "evidence": [
+            "as it prepares to shoulder up to 50 per cent of eligible exploratory well costs under its Rs 84,084-crore Samudra Manthan offshore exploration programme",
+            "the Directorate General of Hydrocarbons (DGH) said in a notice",
+            "DGH said details of the bid round will be announced shortly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87e68cb4ad89b9188d567c3b",
+      "lane": "national",
+      "headline": "Supreme Court ends distinction between detention and arrest, says 24-hour clock starts when liberty is curtailed",
+      "brief": "The Supreme Court said the 24-hour clock starts when liberty is curtailed, Hindustan Times reports. Even a person detained for search and seizure must be produced before a magistrate within that period.",
+      "mechanism": "Counting time from the loss of liberty could limit attempts to delay judicial oversight by postponing a formal arrest label.",
+      "watch": "Watch how subsequent court orders apply the clock to disputed detention timelines.",
+      "claims": [
+        {
+          "statement": "The Supreme Court said the 24-hour clock starts when liberty is curtailed, Hindustan Times reports.",
+          "evidence": [
+            "Supreme Court ends distinction between detention and arrest, says 24-hour clock starts when liberty is curtailed"
+          ]
+        },
+        {
+          "statement": "Even a person detained for search and seizure must be produced before a magistrate within that period.",
+          "evidence": [
+            "even a person detained for search and seizure must be produced before a magistrate within that period."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "945ff467e37ab0ab5e32e7a7",
+      "lane": "tech",
+      "headline": "Cert-In issues AI security audit guidelines, sets 4-tier risk framework",
+      "brief": "CERT-In issued AI security audit guidelines with a four-tier risk framework, Hindustan Times reports. It said requirements for high-risk and critical systems apply uniformly, with no exemptions or relaxed standards for smaller firms or startups.",
+      "mechanism": "Uniform requirements could raise the cost of deploying risky AI systems while reducing gaps in safeguards between large and small providers.",
+      "watch": "Watch for audit findings that show how firms classify and address high-risk and critical systems.",
+      "claims": [
+        {
+          "statement": "CERT-In issued AI security audit guidelines with a four-tier risk framework, Hindustan Times reports.",
+          "evidence": [
+            "Cert-In issues AI security audit guidelines, sets 4-tier risk framework"
+          ]
+        },
+        {
+          "statement": "It said requirements for high-risk and critical systems apply uniformly, with no exemptions or relaxed standards for smaller firms or startups.",
+          "evidence": [
+            "Cert-In emphasised that compliance requirements for high-risk and critical systems apply uniformly, with no exemptions or relaxed standards for smaller firms or startups."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "56bb782ae249a071de18011b",
+      "lane": "tech",
+      "headline": "altM raises $10.3M in Series A funding led by Rainmatter, Mela Ventures",
+      "brief": "Bengaluru-based altM raised $10.3 million in a Series A round led by Rainmatter and Mela Ventures, YourStory reports. It plans to expand manufacturing capacity, strengthen research and development, support customer qualification programmes and grow its engineering and commercial teams.",
+      "mechanism": "Funding production expansion alongside customer qualification could help convert research into repeatable commercial supply.",
+      "watch": "Watch for manufacturing ramp-up and customer qualification milestones that demonstrate progress beyond the funding announcement.",
+      "claims": [
+        {
+          "statement": "Bengaluru-based altM raised $10.3 million in a Series A round led by Rainmatter and Mela Ventures, YourStory reports.",
+          "evidence": [
+            "altM raises $10.3M in Series A funding led by Rainmatter, Mela Ventures",
+            "Bengaluru-based altM"
+          ]
+        },
+        {
+          "statement": "It plans to expand manufacturing capacity, strengthen research and development, support customer qualification programmes and grow its engineering and commercial teams.",
+          "evidence": [
+            "will use the funds to expand its manufacturing capacity, strengthen research and development, support customer qualification programmes, and grow its engineering and commercial teams."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed the complete 392-candidate pool for Friday, November 6. Bosch's explicitly dated November 6 board consideration of a stock split and bonus is a shareholder corporate-action preview without a material policy or operating deliverable, so it does not qualify. Gyftr's results-board alert has no explicit next-day date in the captured summary. SC Agrotech's November 13 meeting, November 12 UP enrolment drive, November 14 Dabur appointment, December 5 DevSparks event and later IPO, digitisation, policy and investment targets fall outside tomorrow. The services release, Cabinet approvals, current cyclone recovery and Wednesday air-quality readings are already reported events rather than next-day catalysts. The deepwater notice promises details shortly but gives no November 6 commitment. No distinct date-specific material catalyst is established."
+}
