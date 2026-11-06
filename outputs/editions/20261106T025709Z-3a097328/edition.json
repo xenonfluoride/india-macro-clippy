@@ -1,0 +1,136 @@
+{
+  "issue": 27,
+  "hero": "Bengal resets investment incentives while SEBI changes mutual-fund cash settlement and Mahindra cuts its tractor outlook. Courts tighten electoral due process and the handling of defection petitions, as two research startups raise capital for orbital servicing and drug discovery.",
+  "catalysts": [],
+  "catalyst_review": "Reviewed the complete pool for November 7. CJP's Kochi protest explicitly names November 7, but is a political mobilisation without a discrete policy or economic deliverable. The airport-road headline's tomorrow refers to its November 5 publication and therefore November 6, not November 7, and is a local diversion. Bosch's November 6 board consideration is today and concerns a stock split and bonus preview; Gyftr gives no explicit next-day date. Muhurat trading is November 8, Dabur and Titan changes are later, ECI draft rolls are November 30 and final rolls January 21, DevSparks is December 5, SEBI NRI KYC changes take effect December 3, and 2027-2031 project or fuel targets are outside tomorrow. Cyclone aftermath, ongoing pollution measures and open-ended safety or regulatory reviews provide no fresh date-specific November 7 decision. No qualifying catalyst is established in captured RSS evidence.",
+  "cards": [
+    {
+      "brief": "Business Standard reports that West Bengal's new investment policy offers enhanced incentives for priority-sector investments while excluding an estimated ₹50,000 crore backlog of incentives promised under previous regimes.",
+      "mechanism": "New incentives could improve project economics, while excluding old promises leaves a separate source of investor uncertainty.",
+      "watch": "Watch for eligibility rules and actual incentive disbursements to show how the policy changes investment decisions.",
+      "id": "d3ade3bcf593684da3ae5586",
+      "lane": "macro",
+      "headline": "West Bengal unveils new investment policy, offers up to 120% assistance",
+      "claims": [
+        {
+          "statement": "Business Standard reports that West Bengal's new investment policy offers enhanced incentives for priority-sector investments while excluding an estimated ₹50,000 crore backlog of incentives promised under previous regimes.",
+          "evidence": [
+            "The policy offers enhanced incentives for priority-sector investments, but excludes an estimated ₹50,000 crore backlog of industrial incentives promised under previous regimes"
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Mint reports that SEBI now allows mutual fund schemes to net cash-market fund settlements for eligible transactions, while securities must continue to settle on a gross basis.",
+      "mechanism": "Netting eligible cash obligations can reduce funding needs without removing the obligation to deliver securities in full.",
+      "watch": "Watch for implementation details defining eligible transactions and how schemes manage the remaining settlement obligations.",
+      "id": "3ee48010385591bce10a4f6a",
+      "lane": "macro",
+      "headline": "Sebi allows mutual fund schemes to net cash market fund settlements",
+      "claims": [
+        {
+          "statement": "Mint reports that SEBI now allows mutual fund schemes to net cash-market fund settlements for eligible transactions, while securities must continue to settle on a gross basis.",
+          "evidence": [
+            "Sebi allows mutual fund schemes to net cash market fund settlements",
+            "Sebi’s move changes the treatment of fund obligations for eligible mutual fund transactions, without altering the requirement for securities to be settled on a gross basis."
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Business Standard reports that Mahindra and Mahindra has cut its FY27 tractor-industry growth outlook to flat as deficient rainfall weighs on demand in Maharashtra and Karnataka, although northern markets remain resilient.",
+      "mechanism": "Weaker farm conditions can delay equipment purchases, making regional demand differences more important for tractor suppliers.",
+      "watch": "Watch subsequent tractor sales and regional demand commentary for evidence that the flat-growth forecast is holding.",
+      "id": "26d9e02bbe9fd6d47a03a33d",
+      "lane": "macro",
+      "headline": "M&M cuts FY27 tractor industry growth forecast to flat amid drought fears",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Mahindra and Mahindra has cut its FY27 tractor-industry growth outlook to flat as deficient rainfall weighs on demand in Maharashtra and Karnataka, although northern markets remain resilient.",
+          "evidence": [
+            "Deficient rainfall in Maharashtra and Karnataka weighs on tractor demand, prompting M&M to cut its FY27 industry growth outlook to flat, though northern markets remain resilient"
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Hindustan Times reports that the Bombay High Court directed restoration within ten days of the names of a Goa family deleted during SIR. The court held that an ERONET system freeze could not justify rejecting Form 8 applications and that voters must receive a hearing before removal.",
+      "mechanism": "A hearing requirement and limits on technical refusals can give affected voters a procedural route to contest deletion.",
+      "watch": "Watch for compliance with the restoration direction and how electoral officers process applications during system freezes.",
+      "id": "d111a6c7c2de40a8a6706b15",
+      "lane": "national",
+      "headline": "Restore names of Goa family deleted during SIR exercise in 10 days: Bombay high court",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the Bombay High Court directed restoration within ten days of the names of a Goa family deleted during SIR. The court held that an ERONET system freeze could not justify rejecting Form 8 applications and that voters must receive a hearing before removal.",
+          "evidence": [
+            "Restore names of Goa family deleted during SIR exercise in 10 days: Bombay high court",
+            "Court held that freezing the ERONET system could not be used to reject Form 8 applications, said voters must be given a hearing before their names are removed."
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Hindustan Times reports that the Supreme Court said anti-defection pleas must be handled expeditiously and that high courts should not deny directions to speakers merely because of an assembly's remaining tenure.",
+      "mechanism": "Rejecting remaining tenure as a reason for inaction can reduce the room for disqualification disputes to outlast meaningful legislative scrutiny.",
+      "watch": "Watch subsequent court directions and speakers' decisions for evidence that pending defection cases move toward resolution.",
+      "id": "1ad0c057607e69f678606484",
+      "lane": "national",
+      "headline": "SC: Assembly’s remaining tenure no ground to let defection petitions drag",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the Supreme Court said anti-defection pleas must be handled expeditiously and that high courts should not deny directions to speakers merely because of an assembly's remaining tenure.",
+          "evidence": [
+            "The Supreme Court on Wednesday held that pleas under the anti-defection law must be dealt with expeditiously and that high courts should not deny directions to speakers merely because of the remaining tenure of the legislative assembly"
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Business Standard reports that Cosmoserve Space has unveiled Base 1 in Hyderabad for space-debris removal and satellite servicing and raised $6 million in seed funding. The company targets commercial operations by 2028.",
+      "mechanism": "A dedicated facility and seed capital can support the development work needed before orbital services become a commercial business.",
+      "watch": "Watch for technical demonstrations and customer commitments that test the path from facility opening to commercial operations.",
+      "id": "6c21f70b58aa2e32375e22ba",
+      "lane": "tech",
+      "headline": "Cosmoserve unveils Hyderabad facility for space debris removal, refuelling",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Cosmoserve Space has unveiled Base 1 in Hyderabad for space-debris removal and satellite servicing and raised $6 million in seed funding. The company targets commercial operations by 2028.",
+          "evidence": [
+            "Cosmoserve Space unveils Base 1 in Hyderabad for space debris removal and satellite servicing, raises $6 million in seed funding and targets commercial operations by 2028"
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Business Standard reports that Venomics AI has raised $2.7 million to discover drugs from animal venom. The IISc spinout plans to use the pre-seed funding to expand its Venom Atlas molecular database, strengthen AI-led discovery and laboratory screening, and validate potential drugs.",
+      "mechanism": "Combining a larger molecular database with laboratory screening could help turn computational leads into testable drug candidates.",
+      "watch": "Watch for validation results showing which proposed candidates advance beyond database and model predictions.",
+      "id": "0479adf3df83b324a461ad5c",
+      "lane": "tech",
+      "headline": "Venomics AI raises $2.7 million to discover drugs from animal venom",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Venomics AI has raised $2.7 million to discover drugs from animal venom. The IISc spinout plans to use the pre-seed funding to expand its Venom Atlas molecular database, strengthen AI-led discovery and laboratory screening, and validate potential drugs.",
+          "evidence": [
+            "Venomics AI raises $2.7 million to discover drugs from animal venom",
+            "The IISc spinout will use the pre-seed funding to expand its Venom Atlas molecular database, strengthen AI-led drug discovery and laboratory screening, and validate potential drugs."
+          ]
+        }
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "run_id": "20261106T025709Z-3a097328",
+  "created_at": "2026-11-06T03:06:09.284239+00:00",
+  "date": "2026-11-06",
+  "hero_card_ids": [
+    "d3ade3bcf593684da3ae5586",
+    "3ee48010385591bce10a4f6a",
+    "26d9e02bbe9fd6d47a03a33d",
+    "d111a6c7c2de40a8a6706b15",
+    "1ad0c057607e69f678606484",
+    "6c21f70b58aa2e32375e22ba",
+    "0479adf3df83b324a461ad5c"
+  ]
+}

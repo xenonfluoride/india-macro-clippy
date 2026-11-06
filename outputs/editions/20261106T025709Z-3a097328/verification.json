@@ -1,0 +1,61 @@
+{
+  "candidate_coverage": "Current model session read all 355 RSS candidates through bounded context offsets 0, 40, 80, 120, 160, 200, 240, 280 and 320 with next_offset null. Read all 118 history entries, recovering initially truncated entries 47-73 separately. Retained case-specific editorial assessments and explicit duplicate representatives. Rechecked the final seven source/review/card triples in a separate pass. Considered substantive company operations in stock-framed records, including textile expansion, Lenskart earnings, electricity restructuring and foreign inflows. VISTAR approval, new critical-mineral auctions, CBG blending progress, organised manufacturing GVA, UPI court submissions and merchant study, financial cyberattack warnings, Zoho POS, Barclays capital and Fairfax allotment remain strong alternatives. No source quota applied; concentrated Business Standard selection reflects captured evidence support. Earlier services PMI, mineral scheme, offshore licensing, detention-clock ruling, audit framework and altM funding were not reused. Reread duplicate changes for ONGC results, Mistry filings, Airtel results, Google buyouts, detention ruling and mineral scheme before binding final hashes. Every selected event is high confidence for its bounded claim; importance is assessed separately.",
+  "hero": "Hero covers all seven cards: Bengal incentive policy, SEBI cash settlement, Mahindra tractor outlook, the two distinct electoral rulings, Cosmoserve infrastructure and Venomics research funding. It does not convert the tractor forecast into measured industry output or startup ambitions into commercial delivery. No daily price or unselected policy is introduced.",
+  "catalysts": "November 7 review found only a dated CJP political protest without a material policy deliverable. November 5 airport-road tomorrow means November 6; Bosch is also November 6, Muhurat trading November 8, appointments later in November, rolls November 30 and January 21, and developer conference December 5. Open-ended cybersecurity, drug safety, weather aftermath and proposed projects lack a distinct next-day decision. Empty catalyst array correctly renders exactly one closing absence module.",
+  "cards": [
+    {
+      "factual_support": "The RSS summary explicitly supports enhanced priority-sector incentives and exclusion of the estimated 50000 crore backlog; the brief keeps both the estimate and previous-regime scope. It does not turn the headline's up-to-120-percent assistance into a universal entitlement.",
+      "analysis": "Project economics is an inference from incentives, and old promises plausibly preserve uncertainty. Eligibility and actual disbursements are future checks, not asserted completed investments.",
+      "novelty": "History includes UP industrial approvals and Odisha clean-energy agreements, neither of which is this new West Bengal investment policy. NDTV policy coverage is grouped under this event rather than selected separately.",
+      "id": "d3ade3bcf593684da3ae5586"
+    },
+    {
+      "factual_support": "The title supports permission to net mutual-fund cash settlements; the summary limits eligibility and explicitly retains gross securities settlement. The brief preserves this distinction and does not claim all market trades qualify.",
+      "analysis": "Lower cash funding requirements are conditional analysis of netting. The watch asks for eligibility and implementation detail without inventing a start date or settlement cycle.",
+      "novelty": "Prior SEBI accepted-early-payin margin relief and NRI digital KYC coverage concern different obligations and constituencies. This is the mutual-fund cash-obligation netting event.",
+      "id": "3ee48010385591bce10a4f6a"
+    },
+    {
+      "factual_support": "The summary directly attributes a flat FY27 industry growth outlook to M&M, identifies Maharashtra and Karnataka rainfall weakness, and retains northern resilience. Flat is a forecast revision rather than actual reported industry sales.",
+      "analysis": "Equipment purchases may be delayed by weaker farm conditions; that conditional channel is separate from the news. Subsequent sales and regional commentary are observable tests of the forecast.",
+      "novelty": "The prior maize squeeze, wheat sowing and macro GDP estimate are distinct events. M&M earnings in this pool support a separate quarterly event; the card specifically selects the new industry forecast downgrade.",
+      "id": "26d9e02bbe9fd6d47a03a33d"
+    },
+    {
+      "factual_support": "The headline supplies the Bombay High Court, Goa family, SIR deletion and ten-day restoration direction. The summary supplies ERONET, Form 8 and hearing safeguards. The brief neither declares all deletions invalid nor asserts restoration has already occurred.",
+      "analysis": "Procedural access to contest deletion follows from hearings and inability to rely on a system freeze. The watch concerns compliance and application processing rather than predicted election outcomes.",
+      "novelty": "Earlier Karnataka final rolls, UP scrutiny and searchable PDF directions are different proceedings. This family-restoration order and ERONET boundary are specific new evidence, not repeated national roll statistics.",
+      "id": "d111a6c7c2de40a8a6706b15"
+    },
+    {
+      "factual_support": "The summary supports expeditious anti-defection handling and the bar on denying directions to speakers merely because of remaining assembly tenure. The brief asserts neither a fixed universal deadline nor an immediate disqualification.",
+      "analysis": "The mechanism addresses the risk of disputes outlasting useful legislative scrutiny. Court directions and speakers' decisions are concrete next signals; no party outcome is predicted.",
+      "novelty": "History's false-affidavit sanction ruling and insolvency case are unrelated. The current Calcutta High Court referral is retained separately as a case-specific procedural item, while this card addresses the broader timing principle.",
+      "id": "1ad0c057607e69f678606484"
+    },
+    {
+      "factual_support": "The selected summary explicitly states Base 1 unveiling in Hyderabad, space-debris removal and satellite servicing, six-million-dollar seed funding and a 2028 commercial target. Completed facility unveiling and capital raise remain distinct from targeted commercial operations.",
+      "analysis": "Development capacity is a conditional consequence of facility and funding. The watch requires demonstrations and customer commitments before assuming orbital services are commercially delivered.",
+      "novelty": "Prior Skyroot launch sales and defence corvette orders are distinct. YourStory and Inc42 six-million-dollar round coverage is explicitly grouped with this fuller facility record, not counted as extra stories.",
+      "id": "6c21f70b58aa2e32375e22ba"
+    },
+    {
+      "factual_support": "The title supports the 2.7-million-dollar raise and animal-venom purpose; the summary supports IISc spinout identity and planned Venom Atlas, AI discovery, screening and validation uses. It claims no clinical success, medicine approval or completed research spending.",
+      "analysis": "Moving computational leads toward testable candidates is explicitly conditional. Validation results are the next signal and avoid interpreting the capital raise as proof of therapeutic efficacy.",
+      "novelty": "The prior altM round concerns industrial chemicals and is excluded as repeated. Venomics is a distinct company and research round; Inc42 coverage of this round is linked as a duplicate.",
+      "id": "0479adf3df83b324a461ad5c"
+    }
+  ],
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex current model session, separate final evidence-check pass",
+  "checked_at": "2026-11-06T03:07:39.337728+00:00",
+  "input_hashes": {
+    "capture.json": "a5970ab28ad0c9e06d03f3e7da03e35afa3e144fb0dd2844bc5e94c16555045b",
+    "history.json": "fe13d72fa41f6ae6e771ed9df2581ae7bb5d0af1b21953baf3593076a0a1156e",
+    "review.json": "b13d35550d9d9309c6d9497fb3d28e089c15dbb63b594be0861699b707327b36",
+    "edition.json": "15075d0e43437daba29e754d9ba237b0106c729001745b73625d753a89f24d7e",
+    "market.json": "c0f05e2aa3df944359bf316e8ecd66a3de56836ffe8c39593f61f161f7d9e429"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4"
+}
