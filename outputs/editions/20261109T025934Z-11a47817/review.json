@@ -1,0 +1,2829 @@
+{
+  "schema_version": 2,
+  "run_id": "20261109T025934Z-11a47817",
+  "editor": "Current Codex model session; complete RSS-only editorial pass",
+  "capture_sha256": "e744ce90cf55202e31a41c6202a9d4e5ffe385f7d7659eb6cf0f19d53557a69c",
+  "candidates": [
+    {
+      "id": "f495f71a9b7640c34a04beb6",
+      "event": "Indian shares likely to open higher on lower crude prices, foreign inflow optimism",
+      "actor": "Indian equity benchmarks",
+      "action_type": "Session recap and opening prediction",
+      "india_exposure": "Indian equity traders",
+      "mechanism": "Price direction does not establish a new operating or policy transmission.",
+      "evidence": [
+        "Indian shares likely to open higher on lower crude prices, foreign inflow optimism",
+        "The benchmark Nifty 50 and the BSE Sensex edged lower in a special Diwali session on Sunday, as they consolidated after a seven-session winning streak."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-f495f71a9b7640c34a04beb6",
+      "reason": "Sunday consolidation and Monday optimism are a routine trading preview."
+    },
+    {
+      "id": "d2a9d3e43cf988468b58651d",
+      "event": "South Korea shares rise on chip rebound after AI-led selloff",
+      "actor": "South Korean equities",
+      "action_type": "Market rebound",
+      "india_exposure": "No direct Indian exposure established",
+      "mechanism": "Chip share moves alone do not identify Indian operating effects.",
+      "evidence": [
+        "South Korea shares rise on chip rebound after AI-led selloff",
+        "SOUTHKOREA-MARKETS/MIDDAY:South Korea shares rise on chip rebound after AI-led selloff"
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-d2a9d3e43cf988468b58651d",
+      "reason": "Foreign market recap without an India event."
+    },
+    {
+      "id": "27239d0e363fc32b49adb206",
+      "event": "IIT Delhi Partners With Walmart Global Tech For Rs 9 Crore AI Research And Education Initiative",
+      "actor": "IIT Delhi and Walmart Global Tech",
+      "action_type": "Research collaboration",
+      "india_exposure": "Indian AI research and education",
+      "mechanism": "Industry funding can connect academic AI work with applied research.",
+      "evidence": [
+        "IIT Delhi Partners With Walmart Global Tech For Rs 9 Crore AI Research And Education Initiative",
+        "IIT Delhi has collaborated with the Walmart Global Tech to strengthen research, education in Artificial Intelligence (AI), Machine Learning (ML) and Data Learning."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "tech",
+      "decision": "select",
+      "event_key": "iit-delhi-walmart-nine-crore-ai-research-collaboration-november-2026",
+      "reason": "Concrete collaboration and nine-crore initiative support a bounded research card."
+    },
+    {
+      "id": "2dbb84b951028218fc2e61f5",
+      "event": "South Korea says Nvidia issues won't affect contracted GPU supplies",
+      "actor": "Ryu Jemyung",
+      "action_type": "GPU supply assurance",
+      "india_exposure": "Korean budget and GPU users",
+      "mechanism": "Delivered Korean compute is not an Indian capacity addition.",
+      "evidence": [
+        "South Korea says Nvidia issues won't affect contracted GPU supplies",
+        "Vice Minister of Science and ICT Ryu Jemyung told a parliamentary budget committee that 10,000 GPUs funded under a 2025 supplementary budget had already arrived and were in use."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-2dbb84b951028218fc2e61f5",
+      "reason": "Specific delivery information but no established India exposure."
+    },
+    {
+      "id": "43e2062b6ad29d85ea633c6b",
+      "event": "'Wanted to portray my family honestly': Sonia Gandhi explains reason behind writing her memoir",
+      "actor": "Sonia Gandhi and HarperCollins India",
+      "action_type": "Memoir publication preview",
+      "india_exposure": "Indian book readers",
+      "mechanism": "A memoir release has no specified policy deliverable.",
+      "evidence": [
+        "'Wanted to portray my family honestly': Sonia Gandhi explains reason behind writing her memoir",
+        "Published by HarperCollins India, Sonia Gandhi's memoir will be released in India on November 10."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-43e2062b6ad29d85ea633c6b",
+      "reason": "November 10 is explicit but the book launch is not a material catalyst."
+    },
+    {
+      "id": "2dffd9e63ed2cf25cb3b7526",
+      "event": "Rajnath’s Sikkim visit shines spotlight on soldier who stands guard long after death",
+      "actor": "Rajnath Singh and Harbhajan Singh memorial",
+      "action_type": "Commemorative feature",
+      "india_exposure": "Sikkim military memorial visitors",
+      "mechanism": "Memorial history establishes no changed defence capability.",
+      "evidence": [
+        "Rajnath’s Sikkim visit shines spotlight on soldier who stands guard long after death",
+        "Harbhajan Singh was from the 23rd Battalion of the Punjab Regiment, and posted to east Sikkim. His memorial stands at an altitude of 13,123 feet."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-2dffd9e63ed2cf25cb3b7526",
+      "reason": "Visit-linked historical remembrance rather than procurement or readiness change."
+    },
+    {
+      "id": "d52805482562ad87937923fe",
+      "event": "Oil falls as Donald Trump says new Iran attacks ‘unlikely’",
+      "actor": "Iraq and United States",
+      "action_type": "Oil export shipping understanding",
+      "india_exposure": "Indian oil import supply risk indirectly",
+      "mechanism": "Access through Hormuz could affect freight and crude availability.",
+      "evidence": [
+        "Oil falls as Donald Trump says new Iran attacks ‘unlikely’",
+        "On November 8, 2026, ​Iraq reached an understanding with the U.S. to allow Iraqi oil exports through the Strait of Hormuz via ⁠a shipping lane near Oman"
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-d52805482562ad87937923fe",
+      "reason": "Concrete shipping understanding retained as an alternative; India transmission is indirect."
+    },
+    {
+      "id": "6357c13496213d8e8a54b8f8",
+      "event": "Taiwan Stocks Jump as Authorities Move to Stem Market Rout",
+      "actor": "Taiwan authorities",
+      "action_type": "Market confidence measures",
+      "india_exposure": "No Indian recipient identified",
+      "mechanism": "Foreign share support is not a domestic policy change.",
+      "evidence": [
+        "Taiwan Stocks Jump as Authorities Move to Stem Market Rout",
+        "Taiwanese shares rallied after authorities unveiled measures to restore investor confidence following the longest selling streak since 2022 amid a global AI stock rout."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-6357c13496213d8e8a54b8f8",
+      "reason": "Measures are unspecified in RSS and story is a foreign trading rebound."
+    },
+    {
+      "id": "e7256239e59cdca1a7296f93",
+      "event": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
+      "actor": "Nvidia board and Jensen Huang",
+      "action_type": "Investigation of alleged espionage",
+      "india_exposure": "No specific Indian exposure established",
+      "mechanism": "Board inquiry cannot establish Indian GPU supply effects.",
+      "evidence": [
+        "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
+        "The announcement came after Jensen Huang acknowledged to the board that he had been intimate with a business executive whom U.S. intelligence determined was gathering information for Beijing"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-e7256239e59cdca1a7296f93",
+      "reason": "Keep allegations qualified; no bounded Indian consequence in evidence."
+    },
+    {
+      "id": "08f00a5ad4f20cf9823711d6",
+      "event": "‘I take full responsibility’: Full text of Jensen Huang’s letter to Nvidia employees admitting affair with Chinese spy",
+      "actor": "Nvidia and Jensen Huang",
+      "action_type": "Apology and board inquiry",
+      "india_exposure": "No specific Indian exposure established",
+      "mechanism": "Apology does not change supported Indian technology capacity.",
+      "evidence": [
+        "‘I take full responsibility’: Full text of Jensen Huang’s letter to Nvidia employees admitting affair with Chinese spy",
+        "Nvidia CEO Jensen Huang apologized to his family and colleagues after admitting infidelity, as the company’s board investigates reports of a possible foreign intelligence effort. Huang said he would cooperate, while the board affirmed its confidence in him."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "duplicate",
+      "event_key": "rss-event-e7256239e59cdca1a7296f93",
+      "reason": "Same Nvidia inquiry as record 8.",
+      "duplicate_of": "e7256239e59cdca1a7296f93"
+    },
+    {
+      "id": "4c9a627f13c9f39ea0c88fc7",
+      "event": "Karnataka 1st PUC Exams 2027: Common Question Papers To Replace College-Level System",
+      "actor": "Karnataka and KSEAB",
+      "action_type": "Exam paper centralisation decision",
+      "india_exposure": "Karnataka first PUC students",
+      "mechanism": "Common papers may standardise assessment across colleges.",
+      "evidence": [
+        "Karnataka 1st PUC Exams 2027: Common Question Papers To Replace College-Level System",
+        "Karnataka will implement a centralized question paper system for 1st PUC exams starting in 2027, with KSEAB preparing state-level papers."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-4c9a627f13c9f39ea0c88fc7",
+      "reason": "Concrete 2027 education change; narrower than selected institutional stories."
+    },
+    {
+      "id": "caaa46b8285d76d0e9a8c682",
+      "event": "Startup ecosystem sees sharp rise VC inflow; Building a hemp ecosystem in Uttarakhand",
+      "actor": "Industry watchers, identities uncertain in RSS",
+      "action_type": "Funding outlook digest",
+      "india_exposure": "Indian startup funding",
+      "mechanism": "Expected capital rotation is not a measured funding event.",
+      "evidence": [
+        "Startup ecosystem sees sharp rise VC inflow; Building a hemp ecosystem in Uttarakhand",
+        "Industry watchers expect that a post-US midterm slowdown in AI funding could work in favor of Indian startups."
+      ],
+      "confidence": "medium",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-caaa46b8285d76d0e9a8c682",
+      "reason": "Digest title and speculative summary do not substantiate a discrete inflow release."
+    },
+    {
+      "id": "85dd9499f2131b1f2b94fc02",
+      "event": "Top stocks to watch today: Tata Steel, Adani Enterprises, Marico shares in focus on Monday, 9 November | Full list",
+      "actor": "Tata Steel and other listed companies",
+      "action_type": "Stocks-in-focus list",
+      "india_exposure": "Indian traders",
+      "mechanism": "A watchlist gives no supported new company action.",
+      "evidence": [
+        "Top stocks to watch today: Tata Steel, Adani Enterprises, Marico shares in focus on Monday, 9 November | Full list",
+        "Top stocks to watch today: Tata Steel, Whirlpool of India, Adani Enterprises, Mahindra & Mahindra, BHEL are among shares in focus on Monday."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-85dd9499f2131b1f2b94fc02",
+      "reason": "Named shares alone cannot support an operating brief."
+    },
+    {
+      "id": "42c9d4fc1be91f1c4ca567aa",
+      "event": "Delhi-NCR Chokes On Diwali Night As Smoke Engulfs City, AQI Nears 400",
+      "actor": "CAQM",
+      "action_type": "Reported Stage 3 enforcement",
+      "india_exposure": "Delhi-NCR activity and health",
+      "mechanism": "Pollution restrictions can constrain construction and mobility.",
+      "evidence": [
+        "Delhi-NCR Chokes On Diwali Night As Smoke Engulfs City, AQI Nears 400",
+        "In the run-up to Diwali, the Commission for Air Quality Management (CAQM) enforced Stage 3 of the Graded Response Action Plan (GRAP) across Delhi-NCR."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-42c9d4fc1be91f1c4ca567aa",
+      "reason": "Enforcement is concrete but summary lacks scope and new effective date."
+    },
+    {
+      "id": "acff46bff02a19efc29a263e",
+      "event": "Stock market outlook today, 9 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+      "actor": "Gift Nifty",
+      "action_type": "Opening indication",
+      "india_exposure": "Indian traders",
+      "mechanism": "Futures direction is a market signal rather than institutional change.",
+      "evidence": [
+        "Stock market outlook today, 9 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "Stock market prediction for Monday, 9 November, 2026: Gift Nifty was trading around the 25,018 level, up nearly 38 points or 0.15% from the Nifty futures’ previous close, indicating a positive start for the Indian stock market indices."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-acff46bff02a19efc29a263e",
+      "reason": "Opening prediction and overseas cues are routine market coverage."
+    },
+    {
+      "id": "07d490c26f3b9bbc280c075f",
+      "event": "Nvidia launches investigation into CEO over affair with alleged Chinese spy; Donald Trump calls Jensen Huang ‘honorable’",
+      "actor": "Nvidia board",
+      "action_type": "Espionage inquiry",
+      "india_exposure": "No specific Indian exposure established",
+      "mechanism": "Unproven allegations cannot establish Indian supply effects.",
+      "evidence": [
+        "Nvidia launches investigation into CEO over affair with alleged Chinese spy; Donald Trump calls Jensen Huang ‘honorable’",
+        "Nvidia’s board is investigating reports that CEO Jensen Huang was targeted by a foreign intelligence effort after he acknowledged an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly says was recruited to spy for China. Huang has apologized to the company and his family."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "duplicate",
+      "event_key": "rss-event-e7256239e59cdca1a7296f93",
+      "reason": "Same board investigation represented at record 8.",
+      "duplicate_of": "e7256239e59cdca1a7296f93"
+    },
+    {
+      "id": "3e91f659f65ca44af54718b9",
+      "event": "ROI-Tin hit by AI stock rout despite physical market tightness: Andy Home",
+      "actor": "Andy Home",
+      "action_type": "Tin market column",
+      "india_exposure": "No specific Indian exposure established",
+      "mechanism": "Physical tightness discussion lacks a bounded Indian change.",
+      "evidence": [
+        "ROI-Tin hit by AI stock rout despite physical market tightness: Andy Home",
+        "METALS-TIN/AHOME (REPEAT, ROI, COLUMN, PIX, GRAPHICS):RPT-ROI-Tin hit by AI stock rout despite physical market tightness: Andy Home"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-3e91f659f65ca44af54718b9",
+      "reason": "Column summary contains no usable India operating facts."
+    },
+    {
+      "id": "348406350dafd381c8f52f71",
+      "event": "Delhi's air quality ‘very poor’ morning after Diwali, capital chokes with AQI at 376",
+      "actor": "Delhi air monitoring stations",
+      "action_type": "Air quality observation",
+      "india_exposure": "Delhi residents",
+      "mechanism": "Severe pollution exposes households and workers to disruption.",
+      "evidence": [
+        "Delhi's air quality ‘very poor’ morning after Diwali, capital chokes with AQI at 376",
+        "The day after Diwali brought little relief from pollution in Delhi, with several areas recording AQI levels above 400 on Monday morning."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-348406350dafd381c8f52f71",
+      "reason": "Observed conditions matter but selected enforcement sweep is more actionable."
+    },
+    {
+      "id": "150346c0a760e360a7af5baf",
+      "event": "From iPhones to GPUs: Redington, Ingram Micro ride the AI boom",
+      "actor": "Redington and Ingram Micro",
+      "action_type": "Reported demand trend",
+      "india_exposure": "Indian technology distribution",
+      "mechanism": "AI infrastructure demand could change distributor revenue mix.",
+      "evidence": [
+        "From iPhones to GPUs: Redington, Ingram Micro ride the AI boom",
+        "Demand for AI servers, chips, and other data centre infrastructure is becoming a growth driver for Redington and Ingram Micro, offering a new avenue for expansion"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-150346c0a760e360a7af5baf",
+      "reason": "Useful operating trend but no quantified new order or investment."
+    },
+    {
+      "id": "60a7a60097cc8e08f99811e4",
+      "event": "Exide beats Amara in Q2, but returns from lithium-ion investments will decide the winner",
+      "actor": "Exide and Amara Raja",
+      "action_type": "Quarterly performance comparison",
+      "india_exposure": "Indian battery manufacturers",
+      "mechanism": "Demand and pricing can offset input costs during battery investment.",
+      "evidence": [
+        "Exide beats Amara in Q2, but returns from lithium-ion investments will decide the winner",
+        "Strong demand and price hikes drove Exide’s 54% profit surge while high input costs dragged Amara Raja down, even as both invest heavily into an uncertain lithium transition."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-60a7a60097cc8e08f99811e4",
+      "reason": "Operating profit and cost facts considered despite market framing; no stock advice adopted."
+    },
+    {
+      "id": "f3bd9ba4917ba18ba4df89a2",
+      "event": "Profits Are Just Half The Story This Earnings Season",
+      "actor": "New-age technology companies, identities uncertain in summary",
+      "action_type": "Earnings commentary",
+      "india_exposure": "Indian listed technology firms",
+      "mechanism": "Truncated festive-season commentary cannot establish a company event.",
+      "evidence": [
+        "Profits Are Just Half The Story This Earnings Season",
+        "The 2026 festive season began in muted fashion, but the performance of some of the key new-age tech stocks in…"
+      ],
+      "confidence": "medium",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-f3bd9ba4917ba18ba4df89a2",
+      "reason": "No specific earnings result is supported in the summary."
+    },
+    {
+      "id": "328169f0b8062c6262441cc7",
+      "event": "Raja Venkatraman recommends three stocks for 9 November",
+      "actor": "Raja Venkatraman",
+      "action_type": "Stock recommendations",
+      "india_exposure": "Indian investors",
+      "mechanism": "Technical trade strategies do not supply an operating mechanism.",
+      "evidence": [
+        "Raja Venkatraman recommends three stocks for 9 November",
+        "Market expert Raja Venkatraman shares his top stock picks for 9 November. Here’s his technical outlook and trade strategy."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-328169f0b8062c6262441cc7",
+      "reason": "Explicit stock picks rather than a new economic event."
+    },
+    {
+      "id": "a9343b50c1b4f891fc64c3bf",
+      "event": "Stock recommendations for 9 November from MarketSmith India",
+      "actor": "MarketSmith India",
+      "action_type": "Stock recommendations",
+      "india_exposure": "Indian investors",
+      "mechanism": "Buy recommendations do not change issuer operations.",
+      "evidence": [
+        "Stock recommendations for 9 November from MarketSmith India",
+        "MarketSmith India reveals its top stock recommendations for today, 9 November. Get expert insights into the best-performing stocks to guide your investment decisions."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-a9343b50c1b4f891fc64c3bf",
+      "reason": "Explicit investment tips without separate substantive evidence."
+    },
+    {
+      "id": "818f56ebaafd2260316e6238",
+      "event": "Australia Regulator Halts Private Credit Fund on Bathla Risks",
+      "actor": "Australian regulator and Angas Securities",
+      "action_type": "Sales restriction",
+      "india_exposure": "Australian fund investors",
+      "mechanism": "Private credit disclosure enforcement lacks a specified Indian link.",
+      "evidence": [
+        "Australia Regulator Halts Private Credit Fund on Bathla Risks",
+        "Australia’s regulator stopped Angas Securities Ltd. from selling two managed investment schemes, the latest in a slew of actions to prevent private credit funds offering products that don’t adequately highlight potential risks."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-818f56ebaafd2260316e6238",
+      "reason": "Foreign regulatory action with no established Indian exposure."
+    },
+    {
+      "id": "e72ec618efc024daf8f2a1a4",
+      "event": "Nvidia Board to Probe Spying Case After CEO Admits Infidelity",
+      "actor": "Nvidia board",
+      "action_type": "Espionage inquiry",
+      "india_exposure": "No specific Indian exposure established",
+      "mechanism": "Inquiry remains distinct from proven espionage or supply disruption.",
+      "evidence": [
+        "Nvidia Board to Probe Spying Case After CEO Admits Infidelity",
+        "Nvidia Corp.’s board is launching an investigation into whether Chief Executive Officer Jensen Huang was targeted by a foreign espionage plot after he admitted to employees that he was unfaithful to his wife."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "duplicate",
+      "event_key": "rss-event-e7256239e59cdca1a7296f93",
+      "reason": "Same board inquiry as record 8.",
+      "duplicate_of": "e7256239e59cdca1a7296f93"
+    },
+    {
+      "id": "c788a11f9e4ca6eeef5bdbe6",
+      "event": "Canva’s layoff package wins praise on LinkedIn: 6 months’ salary, 12 months’ healthcare, free MacBook and career support",
+      "actor": "Canva",
+      "action_type": "Workforce restructuring",
+      "india_exposure": "No India allocation established",
+      "mechanism": "Global layoffs do not establish Indian job losses.",
+      "evidence": [
+        "Canva’s layoff package wins praise on LinkedIn: 6 months’ salary, 12 months’ healthcare, free MacBook and career support",
+        "The Australian design platform's restructuring will affect 1,271 employees, or 22% of its total workforce."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-c788a11f9e4ca6eeef5bdbe6",
+      "reason": "Concrete global cuts but Indian headcount or operations are not specified."
+    },
+    {
+      "id": "b78724f30743c6f856b1567f",
+      "event": "TaMo keeps M&M in its rearview as EV sales drive lead in PV market race",
+      "actor": "Tata Motors and Mahindra",
+      "action_type": "EV sales comparison",
+      "india_exposure": "Indian passenger vehicle producers",
+      "mechanism": "Electric sales can shift relative volume leadership.",
+      "evidence": [
+        "TaMo keeps M&M in its rearview as EV sales drive lead in PV market race",
+        "Tata's 37,803-unit EV lead offsets Mahindra's advantage in non-electric PVs, as both automakers ramp up production capacity"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-b78724f30743c6f856b1567f",
+      "reason": "Specific EV lead retained; period scope is thin for a lead card."
+    },
+    {
+      "id": "1284877329d7c62f1a202b7b",
+      "event": "Dividend alert: MRF, Cochin Shipyard, Talbros and others may reward shareholders this week - Check key dates, returns",
+      "actor": "MRF and other issuers",
+      "action_type": "Results and dividend preview",
+      "india_exposure": "Shareholders",
+      "mechanism": "Possible distributions are not confirmed investment changes.",
+      "evidence": [
+        "Dividend alert: MRF, Cochin Shipyard, Talbros and others may reward shareholders this week - Check key dates, returns",
+        "MRF, Cochin Shipyard, Nile Limited, Talbros Automotive Components and EAAA India are scheduled to report Q2 FY27 results next week and may announce dividends."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-1284877329d7c62f1a202b7b",
+      "reason": "Shareholder calendar preview without a broader operating development."
+    },
+    {
+      "id": "93dea2c998eda701dfb0c36c",
+      "event": "Amazon Pay's next customers are in small towns, and they want credit",
+      "actor": "Amazon Pay and Vikas Bansal",
+      "action_type": "Customer mix disclosure",
+      "india_exposure": "Small-town Indian payments users",
+      "mechanism": "Geographic reach could expand distribution of credit products.",
+      "evidence": [
+        "Amazon Pay's next customers are in small towns, and they want credit",
+        "Three in four Amazon Pay customers now live outside India's big cities, says chief executive Vikas Bansal"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-93dea2c998eda701dfb0c36c",
+      "reason": "Attributed three-in-four customer statistic is substantive but not a credit launch."
+    },
+    {
+      "id": "750087bde7c5a894f5b94d7e",
+      "event": "Bosch bonus issue, stock split: 1 share to become 20 after 38% rally in one year! Check ratio, record date, returns",
+      "actor": "Bosch",
+      "action_type": "Conditional split and bonus approval",
+      "india_exposure": "Bosch shareholders",
+      "mechanism": "Share count changes do not themselves create productive capacity.",
+      "evidence": [
+        "Bosch bonus issue, stock split: 1 share to become 20 after 38% rally in one year! Check ratio, record date, returns",
+        "Bosch approved a 1:5 stock split and a 3:1 bonus issue, subject to shareholder approval. Together, the actions would turn one existing share into 20 shares with a face value of ₹2 each."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-750087bde7c5a894f5b94d7e",
+      "reason": "Completed board approval recognised, but low-materiality shareholder action."
+    },
+    {
+      "id": "6f3c1dd9be10b2e78e660884",
+      "event": "School Assembly News Headlines (November 9): Top National, International News",
+      "actor": "School news compilation, actor uncertain",
+      "action_type": "Headline digest",
+      "india_exposure": "Students reading assembly headlines",
+      "mechanism": "Compilation does not identify a new Indian policy mechanism.",
+      "evidence": [
+        "School Assembly News Headlines (November 9): Top National, International News",
+        "Globally, headlines focus on rising tensions involving Iran, Israel, and the United States, alongside political developments in the Middle East."
+      ],
+      "confidence": "medium",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-6f3c1dd9be10b2e78e660884",
+      "reason": "No coherent discrete event in title and summary."
+    },
+    {
+      "id": "3f977be7d054af4677a9aea2",
+      "event": "HD Kumaraswamy Claims IAS Officer Paid Bribe To Stop Transfer, Points To Minister",
+      "actor": "HD Kumaraswamy",
+      "action_type": "Bribery allegation",
+      "india_exposure": "Karnataka administration",
+      "mechanism": "Unverified messages do not establish a regulatory reform.",
+      "evidence": [
+        "HD Kumaraswamy Claims IAS Officer Paid Bribe To Stop Transfer, Points To Minister",
+        "Earlier today, speaking to reporters in Hassan after visiting the historic Hasanamba temple in Hassan, Kumaraswamy read out excerpts from a written script of what he described as a WhatsApp conversation between an unidentified person and Shashikiran."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-3f977be7d054af4677a9aea2",
+      "reason": "Political accusation lacks an adjudicated finding or systemic action."
+    },
+    {
+      "id": "4d2b92b0dda1ac3cea1ad23d",
+      "event": "Homes and temples glow across India to mark Diwali",
+      "actor": "Indian households and temples",
+      "action_type": "Festival celebration",
+      "india_exposure": "Indian communities",
+      "mechanism": "Celebration coverage contains no new economic intervention.",
+      "evidence": [
+        "Homes and temples glow across India to mark Diwali",
+        "Millions of Indians are marking the festival of lights with glowing lamps, fireworks and traditional sweets."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-4d2b92b0dda1ac3cea1ad23d",
+      "reason": "Cultural event coverage without a material policy change."
+    },
+    {
+      "id": "432497153bf901bc5e07650e",
+      "event": "\"Bangladeshis Lying In Wait\": Suvendu Adhikari To Security Forces At Bengal Border",
+      "actor": "Suvendu Adhikari",
+      "action_type": "Border allegation",
+      "india_exposure": "Bengal border communities",
+      "mechanism": "Rhetoric alone does not document border enforcement change.",
+      "evidence": [
+        "\"Bangladeshis Lying In Wait\": Suvendu Adhikari To Security Forces At Bengal Border",
+        "\"I used binoculars to scan the area - and there is nothing on the Bangladesh side. They are lying in wait, watching for the BSF to be momentarily out of sight so they can slip across,\" Suvendu Adhikari said"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-432497153bf901bc5e07650e",
+      "reason": "Attributed claim unsupported as a completed security event."
+    },
+    {
+      "id": "b80f824d9e458c8dcd1b2644",
+      "event": "Diwali Stock Picks 2026: Tata Steel, BEL, HDFC Bank - 25 brokerages reveal 187 shares to buy in Samvat 2083 | Full List",
+      "actor": "Twenty-five brokerages",
+      "action_type": "Stock selection compilation",
+      "india_exposure": "Indian investors",
+      "mechanism": "Recommendations do not establish new corporate investment.",
+      "evidence": [
+        "Diwali Stock Picks 2026: Tata Steel, BEL, HDFC Bank - 25 brokerages reveal 187 shares to buy in Samvat 2083 | Full List",
+        "Twenty-five brokerages have named 187 distinct stocks to watch for Samvat 2083, including large-, mid-, and emerging companies across a range of sectors. The market outlook favors earnings growth over valuation expansion."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-b80f824d9e458c8dcd1b2644",
+      "reason": "187 stock suggestions are actual investment advice."
+    },
+    {
+      "id": "138d6f3b874842e846b1490e",
+      "event": "Delhi Air Quality Turns 'Very Poor' On Diwali, To Turn 'Severe'",
+      "actor": "Air quality forecasters, identities uncertain",
+      "action_type": "Monday pollution forecast",
+      "india_exposure": "Delhi residents",
+      "mechanism": "Forecast pollution may impair outdoor activity.",
+      "evidence": [
+        "Delhi Air Quality Turns 'Very Poor' On Diwali, To Turn 'Severe'",
+        "The air quality is forecast to turn 'severe' on Monday following Diwali celebrations, combined with vehicular emissions, as well as the peak stubble-burning season."
+      ],
+      "confidence": "medium",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-138d6f3b874842e846b1490e",
+      "reason": "Forecast preserved as forecast; Monday is today, not tomorrow's catalyst."
+    },
+    {
+      "id": "97bf959151739adf1030db33",
+      "event": "Video: Whale Washes Ashore In Goa's Mandrem Beach, Released Into Sea",
+      "actor": "Goa volunteers",
+      "action_type": "Whale rescue",
+      "india_exposure": "Mandrem beach ecology",
+      "mechanism": "Single rescue does not establish a wider conservation policy.",
+      "evidence": [
+        "Video: Whale Washes Ashore In Goa's Mandrem Beach, Released Into Sea",
+        "Images and videos of the rescue show the group of volunteers wrapping the relatively small whale in pieces of large cloth sheets and dragging it closer to the sea."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-97bf959151739adf1030db33",
+      "reason": "Local wildlife incident without structural development."
+    },
+    {
+      "id": "a5190e5b6bd905743d2ea162",
+      "event": "SSB jawan found dead while on duty at India-Nepal border outpost in UP: Police",
+      "actor": "SSB and Uttar Pradesh police",
+      "action_type": "Death investigation",
+      "india_exposure": "Border-outpost personnel",
+      "mechanism": "An individual death does not establish a force-wide change.",
+      "evidence": [
+        "SSB jawan found dead while on duty at India-Nepal border outpost in UP: Police",
+        "Nautanwa circle officer Basant Singh said police received information about the death and immediately dispatched a team to the border outpost"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-a5190e5b6bd905743d2ea162",
+      "reason": "Local incident under investigation."
+    },
+    {
+      "id": "d172b1f8f04d847e804cc0f6",
+      "event": "Food Safety Body Seizes Banned Items Worth Rs 82 Crore In Nationwide Drive",
+      "actor": "Food safety regulator",
+      "action_type": "Nationwide seizure drive",
+      "india_exposure": "Indian food establishments and consumers",
+      "mechanism": "Inspection and seizure impose compliance costs on unsafe suppliers.",
+      "evidence": [
+        "Food Safety Body Seizes Banned Items Worth Rs 82 Crore In Nationwide Drive",
+        "The regulator said it inspected 56,431 food establishments during its nationwide enforcement drive between September 1 and November 5, and seized non-compliant food products, including paneer, ghee, milk and sweets."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "fssai-september-november-2026-nationwide-enforcement-results",
+      "reason": "Same September-November sweep as record 85, whose licence and notice data are more precise.",
+      "duplicate_of": "eebf0c4db265a971f559d9a7"
+    },
+    {
+      "id": "48dc01b6347abde8f14c17e0",
+      "event": "CSIR-UGC National Eligibility Test 2026 Registration Closing Tomorrow: 2,01,464 Candidates Registered",
+      "actor": "CSIR UGC-NET administrators",
+      "action_type": "Application deadline reminder",
+      "india_exposure": "Exam applicants",
+      "mechanism": "Registration cutoff is an administrative reminder.",
+      "evidence": [
+        "CSIR-UGC National Eligibility Test 2026 Registration Closing Tomorrow: 2,01,464 Candidates Registered",
+        "The CSIR UGC-NET application window is closing tomorrow, November 9, 2026. Candidates can apply for the exam through the official website, csirnet.nta.nic.in."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-48dc01b6347abde8f14c17e0",
+      "reason": "November 9 deadline is today and lacks a new system-level change."
+    },
+    {
+      "id": "ac123d28f24a4f0c9db74769",
+      "event": "\"This Is Not a Political Book\": Sonia Gandhi Explains Why She Wrote Her Memoir",
+      "actor": "Sonia Gandhi and HarperCollins India",
+      "action_type": "Memoir publication preview",
+      "india_exposure": "Indian readers",
+      "mechanism": "Book release contains no dated policy decision.",
+      "evidence": [
+        "\"This Is Not a Political Book\": Sonia Gandhi Explains Why She Wrote Her Memoir",
+        "Published by HarperCollins India, Gandhi's memoir will be released in India on November 10, ending uncertainty over the book's domestic publication following an \"impasse\" between the author's representatives and Penguin Random House India."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-43e2062b6ad29d85ea633c6b",
+      "reason": "Same November 10 memoir release as record 4.",
+      "duplicate_of": "43e2062b6ad29d85ea633c6b"
+    },
+    {
+      "id": "42f8aa86c12ba22e8194f4cf",
+      "event": "Delhi’s air quality ‘very poor’ on Diwali, expected to worsen",
+      "actor": "Delhi monitoring stations",
+      "action_type": "Diwali pollution observation",
+      "india_exposure": "Delhi residents",
+      "mechanism": "Poor air quality affects household and worker exposure.",
+      "evidence": [
+        "Delhi’s air quality ‘very poor’ on Diwali, expected to worsen",
+        "Of the 59 monitoring stations that recorded data on Sunday, air quality was in the 'severe' category at 12 and in the 'very poor' category at 22."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-348406350dafd381c8f52f71",
+      "reason": "Same Diwali pollution episode represented by record 17.",
+      "duplicate_of": "348406350dafd381c8f52f71"
+    },
+    {
+      "id": "c5feab936f50886541a9a22d",
+      "event": "Probe everyone's involvement on irregularities in Milma ghee supply to Sabarimala: HC to SIT",
+      "actor": "High court and SIT, court identity uncertain in RSS",
+      "action_type": "Ghee supply probe direction",
+      "india_exposure": "Sabarimala supply chain",
+      "mechanism": "Expanded investigation may expose procurement irregularities.",
+      "evidence": [
+        "Probe everyone's involvement on irregularities in Milma ghee supply to Sabarimala: HC to SIT",
+        "Probe everyone's involvement on irregularities in Milma ghee supply to Sabarimala: HC to SIT"
+      ],
+      "confidence": "medium",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-c5feab936f50886541a9a22d",
+      "reason": "Court direction is identifiable but findings and scope are sparse."
+    },
+    {
+      "id": "09bb8b2cfd24cc32e0e573d5",
+      "event": "Top 5 stocks to buy in Nov 2026: SBI, Swiggy, Adani Power, Lloyds Engineering, GE Vernova by Bajaj Broking | Target, SL",
+      "actor": "Bajaj Broking and Pabitro Mukherjee",
+      "action_type": "Stock recommendations",
+      "india_exposure": "Indian investors",
+      "mechanism": "Trading targets are not productive investment decisions.",
+      "evidence": [
+        "Top 5 stocks to buy in Nov 2026: SBI, Swiggy, Adani Power, Lloyds Engineering, GE Vernova by Bajaj Broking | Target, SL",
+        "Top 5 stocks to buy in Nov 2026: Bajaj Broking expert Pabitro Mukherjee has recommended stock-specific approach amid continuous rally on Dalal Street"
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-09bb8b2cfd24cc32e0e573d5",
+      "reason": "Five explicit buy recommendations."
+    },
+    {
+      "id": "6c05903b334ba56f9d9ad5a2",
+      "event": "Rajnath Singh Celebrates Diwali With Army At Indo-China Border In Sikkim",
+      "actor": "Rajnath Singh",
+      "action_type": "Festival troop address",
+      "india_exposure": "Sikkim armed forces",
+      "mechanism": "Ceremonial thanks establishes no new capability.",
+      "evidence": [
+        "Rajnath Singh Celebrates Diwali With Army At Indo-China Border In Sikkim",
+        "Addressing the troops, Rajnath Singh said the country's ability to celebrate Diwali peacefully was made possible by the sacrifices and dedication of its armed forces."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-6c05903b334ba56f9d9ad5a2",
+      "reason": "No procurement, deployment or policy decision supported."
+    },
+    {
+      "id": "68f11f2e4491275b00d49846",
+      "event": "Inside National Student Space Competition: 76 Teams, 18 Model Rockets, 61 Launches",
+      "actor": "National Student Space Competition",
+      "action_type": "Student rocket launches",
+      "india_exposure": "Indian engineering students",
+      "mechanism": "Hands-on launch activity can develop technical skills.",
+      "evidence": [
+        "Inside National Student Space Competition: 76 Teams, 18 Model Rockets, 61 Launches",
+        "National Student Space Competition 2026: In the Model Rocketry competition, 18 student-built rockets were launched."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-68f11f2e4491275b00d49846",
+      "reason": "Concrete educational activity, but limited industrial scale."
+    },
+    {
+      "id": "5f35f1d7321d8025f6875b38",
+      "event": "OnePlus ColorOS 17 update schedule: When will OnePlus 12, OnePlus Open, OnePlus Nord 6 and more receive new software?",
+      "actor": "OnePlus",
+      "action_type": "Software rollout schedule",
+      "india_exposure": "Phone users",
+      "mechanism": "Device software scheduling lacks broader technology capacity implications.",
+      "evidence": [
+        "OnePlus ColorOS 17 update schedule: When will OnePlus 12, OnePlus Open, OnePlus Nord 6 and more receive new software?",
+        "OnePlus confirmed a November schedule to rollout ColorOS 17. the OnePlus 13R was the first older model to receive the latest software."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-5f35f1d7321d8025f6875b38",
+      "reason": "Consumer update guide rather than material India technology news."
+    },
+    {
+      "id": "ade765a0b742f11b1fff3b5f",
+      "event": "Angel One becomes India's second-largest broker by active clients",
+      "actor": "Angel One",
+      "action_type": "Active-client count disclosure",
+      "india_exposure": "Indian brokerage customers",
+      "mechanism": "Client migration can alter brokerage scale and competition.",
+      "evidence": [
+        "Angel One becomes India's second-largest broker by active clients",
+        "The active client base of Angel One for October was 69.98 lakh which was an addition of 2.43 lakh for the month. Zerodha now is in the third spot."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-ade765a0b742f11b1fff3b5f",
+      "reason": "Specific October counts substantiate competition story; retained alternative."
+    },
+    {
+      "id": "a398fb1bf4e17a6780ce3262",
+      "event": "JioHome Diwali offer: Get 5 months of free Wi-Fi with a 10-month recharge of ₹6,660; check details",
+      "actor": "Reliance Jio",
+      "action_type": "Diwali tariff promotion",
+      "india_exposure": "Indian broadband subscribers",
+      "mechanism": "Promotional pricing affects household bills without changing sector rules.",
+      "evidence": [
+        "JioHome Diwali offer: Get 5 months of free Wi-Fi with a 10-month recharge of ₹6,660; check details",
+        "Reliance Jio has announced special Diwali offers for new and exisiting customers, respectively. Check benefits, price and how to avail the offers."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-a398fb1bf4e17a6780ce3262",
+      "reason": "Consumer offer details rather than infrastructure or policy development."
+    },
+    {
+      "id": "dc46fc796fa0deff5f083bcc",
+      "event": "A rare red Diwali: Sensex ends Muhurat trading lower for only the eighth time in 30 years",
+      "actor": "Indian equity benchmarks",
+      "action_type": "Muhurat session recap",
+      "india_exposure": "Indian traders",
+      "mechanism": "Turnover and index moves alone provide no new institutional mechanism.",
+      "evidence": [
+        "A rare red Diwali: Sensex ends Muhurat trading lower for only the eighth time in 30 years",
+        "Indian equities began Samvat 2083 on a muted note, even as NSE turnover rose from last year's session. Market experts see room for a rebound, but traders remain cautious about returns and volatility."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-dc46fc796fa0deff5f083bcc",
+      "reason": "Routine special-session close report."
+    },
+    {
+      "id": "75c1dd2d02a0dc4e4fb3688d",
+      "event": "Wanted in over 30 heinous criminal cases, carried ₹5 lakh reward: Punjab gangster Gurwinder alias Afridi brought back to India",
+      "actor": "Punjab police and Gurwinder",
+      "action_type": "Return of accused gangster",
+      "india_exposure": "Punjab policing",
+      "mechanism": "An individual criminal return does not establish new security policy.",
+      "evidence": [
+        "Wanted in over 30 heinous criminal cases, carried ₹5 lakh reward: Punjab gangster Gurwinder alias Afridi brought back to India",
+        "He is accused of directing targeted killings, extortion-related firing incidents and organised criminal networks in Punjab while operating from abroad."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-75c1dd2d02a0dc4e4fb3688d",
+      "reason": "Criminal case rather than system-level strategy."
+    },
+    {
+      "id": "7c0746cb341d97667286f80c",
+      "event": "One child dead, 269 people treated for firecracker-related burn injuries across Tamil Nadu during Diwali",
+      "actor": "Tamil Nadu ambulance services",
+      "action_type": "Festival injury bulletin",
+      "india_exposure": "Tamil Nadu residents",
+      "mechanism": "Injury burden pressures emergency services during celebrations.",
+      "evidence": [
+        "One child dead, 269 people treated for firecracker-related burn injuries across Tamil Nadu during Diwali",
+        "As per the official bulletin, the state 108 emergency ambulance network received 16,079 calls between 7 am on November 7 and 7 am on November 8."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-7c0746cb341d97667286f80c",
+      "reason": "Specific service burden considered; no new public-health measure."
+    },
+    {
+      "id": "401dc5db35471177882190f1",
+      "event": "Jaipur Cafe Owner Ambushed, Beaten With Iron Rods By Attackers",
+      "actor": "Jaipur police and cafe owner",
+      "action_type": "Assault investigation",
+      "india_exposure": "Jaipur victim",
+      "mechanism": "Individual violence lacks broader policy transmission in RSS.",
+      "evidence": [
+        "Jaipur Cafe Owner Ambushed, Beaten With Iron Rods By Attackers",
+        "Gopalia, seriously injured in the attack, was admitted to Fortis Hospital."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-401dc5db35471177882190f1",
+      "reason": "Local crime report."
+    },
+    {
+      "id": "0ec7e072ec2b0541bbd25abf",
+      "event": "CBSE Class 12 Exam 2027: Subject-Wise Schedule, Timings, Guidelines For Students",
+      "actor": "CBSE",
+      "action_type": "Exam schedule guidance",
+      "india_exposure": "Class 12 students",
+      "mechanism": "Exam timetable administration does not establish a new education reform.",
+      "evidence": [
+        "CBSE Class 12 Exam 2027: Subject-Wise Schedule, Timings, Guidelines For Students",
+        "CBSE 2027: More than 19.8 lakh students have registered for the Class 12 examinations, the board noted."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-0ec7e072ec2b0541bbd25abf",
+      "reason": "Student calendar guide; 2027 schedule is not tomorrow's catalyst."
+    },
+    {
+      "id": "c8ab3367d93eb6606e365f96",
+      "event": "Assam Chief Secy chairs monthly review meeting, stresses time-bound reforms",
+      "actor": "Assam chief secretary",
+      "action_type": "Monthly review meeting",
+      "india_exposure": "Assam administration",
+      "mechanism": "Unspecified reforms cannot establish implementation effects.",
+      "evidence": [
+        "Assam Chief Secy chairs monthly review meeting, stresses time-bound reforms",
+        "Assam Chief Secy chairs monthly review meeting, stresses time-bound reforms"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-c8ab3367d93eb6606e365f96",
+      "reason": "No concrete rule or deliverable beyond meeting exhortation."
+    },
+    {
+      "id": "d26474f037c4f5bf2de83779",
+      "event": "Global AI sell-off turns into India's gain as FPIs pump ₹46,000 crore in 5 sessions; will the buying spree sustain?",
+      "actor": "Foreign portfolio investors",
+      "action_type": "Reported November equity inflow",
+      "india_exposure": "Indian equity financing and rupee",
+      "mechanism": "Portfolio inflows may ease financing and currency pressure.",
+      "evidence": [
+        "Global AI sell-off turns into India's gain as FPIs pump ₹46,000 crore in 5 sessions; will the buying spree sustain?",
+        "Foreign investors poured ₹45,970 crore into Indian equities in November, helping the Nifty 50 post its strongest weekly gain since February 2021 and lifting the rupee. Lower oil prices, resilient earnings and a retreat from AI-linked stocks helped make India more attractive."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-d26474f037c4f5bf2de83779",
+      "reason": "Quantified flows are substantive, but causal narrative and period deserve caution."
+    },
+    {
+      "id": "e77b6e829a2e8fa3173f5f3e",
+      "event": "Israeli carrier Israir in talks to purchase local rival Arkia",
+      "actor": "Israir and Arkia",
+      "action_type": "Acquisition talks",
+      "india_exposure": "No Indian exposure established",
+      "mechanism": "Preliminary foreign airline talks provide no domestic transmission.",
+      "evidence": [
+        "Israeli carrier Israir in talks to purchase local rival Arkia",
+        "ARKIA-M"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-e77b6e829a2e8fa3173f5f3e",
+      "reason": "Summary supplies no substantive deal terms or India link."
+    },
+    {
+      "id": "fec1e187b05b9f3266b3e07c",
+      "event": "Ayatollah Mojtaba Khamenei's Representative Wishes Indians A Happy Diwali",
+      "actor": "Mojtaba Khamenei's representative",
+      "action_type": "Festival greetings",
+      "india_exposure": "Indian recipients",
+      "mechanism": "Greetings contain no diplomatic agreement or policy deliverable.",
+      "evidence": [
+        "Ayatollah Mojtaba Khamenei's Representative Wishes Indians A Happy Diwali",
+        "Describing the occasion as a \"festival of light,\" he offered his congratulations and wished everyone a long and healthy life."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-fec1e187b05b9f3266b3e07c",
+      "reason": "Ceremonial statement only."
+    },
+    {
+      "id": "d8459f623cd1503f1a224bce",
+      "event": "Fresh sexual harassment complaint against granite baron Veeramani",
+      "actor": "Veeramani and complainant, identity uncertain",
+      "action_type": "Harassment complaint",
+      "india_exposure": "Indian individual case",
+      "mechanism": "Complaint does not establish a wider regulatory change.",
+      "evidence": [
+        "Fresh sexual harassment complaint against granite baron Veeramani",
+        "Fresh sexual harassment complaint against granite baron Veeramani"
+      ],
+      "confidence": "medium",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-d8459f623cd1503f1a224bce",
+      "reason": "Local criminal allegation without systemic finding."
+    },
+    {
+      "id": "9e9730c15e8dd233d4c390cb",
+      "event": "Scientific, tech measures to be introduced to strengthen transparency in ghee sale: TDB to Kerala HC",
+      "actor": "Travancore Devaswom Board and Kerala HC",
+      "action_type": "Transparency measures promised",
+      "india_exposure": "Temple ghee procurement",
+      "mechanism": "Technical controls could improve supply transparency.",
+      "evidence": [
+        "Scientific, tech measures to be introduced to strengthen transparency in ghee sale: TDB to Kerala HC",
+        "Scientific, tech measures to be introduced to strengthen transparency in ghee sale: TDB to Kerala HC"
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-9e9730c15e8dd233d4c390cb",
+      "reason": "Promise is distinct from deployment; summary lacks actual controls."
+    },
+    {
+      "id": "6c1059ba94e09ce34f752451",
+      "event": "Odisha Invites Scholarship Applications Under 'Mukhyamantri Medhabi Chhatra Protsahan Yojana' 2026-27",
+      "actor": "Odisha government",
+      "action_type": "Scholarship applications invited",
+      "india_exposure": "Odisha students",
+      "mechanism": "Scholarships can lower education costs for applicants.",
+      "evidence": [
+        "Odisha Invites Scholarship Applications Under 'Mukhyamantri Medhabi Chhatra Protsahan Yojana' 2026-27",
+        "Interested students can apply through the official Odisha State Scholarship Portal at scholarship.odisha.gov.in."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-6c1059ba94e09ce34f752451",
+      "reason": "Application opening has limited new scheme detail."
+    },
+    {
+      "id": "a086d7eef5c1c3dbcbf330c0",
+      "event": "Woman held for joining son, friends in assaulting 17-year-old boy over Instagram messages in Kochi",
+      "actor": "Kochi police and accused family",
+      "action_type": "Assault arrest",
+      "india_exposure": "Kochi minor victim",
+      "mechanism": "Individual arrest does not identify a system-level intervention.",
+      "evidence": [
+        "Woman held for joining son, friends in assaulting 17-year-old boy over Instagram messages in Kochi",
+        "The assault took place on Saturday at the woman's rented house on Changampuzha Road in Edappally North, leaving the boy injured, they said."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-a086d7eef5c1c3dbcbf330c0",
+      "reason": "Local violence case."
+    },
+    {
+      "id": "b85f89b049157a5d6d0b2ecd",
+      "event": "25-year-old stabbed to death in Bengal flat, live-in partner, her mother arrested: Cop",
+      "actor": "Bengal police",
+      "action_type": "Homicide arrests",
+      "india_exposure": "Bengal victim's family",
+      "mechanism": "Arrests have no broader policy mechanism in RSS.",
+      "evidence": [
+        "25-year-old stabbed to death in Bengal flat, live-in partner, her mother arrested: Cop",
+        "According to the police, Sarthak Sarkar’s father and sister, who live in Barasat in North 24 Parganas district, said his phone was unreachable for several hours"
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-b85f89b049157a5d6d0b2ecd",
+      "reason": "Local criminal investigation."
+    },
+    {
+      "id": "6f720489e443aebf4dfc2998",
+      "event": "Rupee, bond outlook in Samvat 2083 hinges on West Asia, inflation, flows",
+      "actor": "Forecasting actor uncertain in RSS",
+      "action_type": "Conditional rupee and bond outlook",
+      "india_exposure": "Indian currency and debt investors",
+      "mechanism": "Oil conflict and inflation can change yields and exchange rates.",
+      "evidence": [
+        "Rupee, bond outlook in Samvat 2083 hinges on West Asia, inflation, flows",
+        "The rupee could strengthen to 92 per dollar if the US-Iran conflict eases, while bond yields may trade at 7-7.5 per cent amid inflation risks, rate hikes and capital flows."
+      ],
+      "confidence": "medium",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-6f720489e443aebf4dfc2998",
+      "reason": "Anonymous conditional scenarios rather than a bounded new release."
+    },
+    {
+      "id": "d0329eb99cd5b4e076bf90b3",
+      "event": "Why did RR Kabel share rally 8% during Muhurat Trading despite weak market sentiment — what triggered the surge?",
+      "actor": "RR Kabel",
+      "action_type": "Quarterly results and share rally",
+      "india_exposure": "Indian cable production",
+      "mechanism": "Revenue and profit growth may reflect operating scale.",
+      "evidence": [
+        "Why did RR Kabel share rally 8% during Muhurat Trading despite weak market sentiment — what triggered the surge?",
+        "RR Kabel shares rose 8% to ₹2,073 during Sunday’s Muhurat Trading session, helped by unusually high volumes despite broader market losses. The stock had recently weakened after subdued FY27 growth guidance, although September-quarter profit increased 55.7% and revenue rose 51.8% year on year."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-d0329eb99cd5b4e076bf90b3",
+      "reason": "Operating facts inspected; price jump is not the selection basis."
+    },
+    {
+      "id": "e2987020f9cf2f27f3c4c8a0",
+      "event": "Emami vs Dabur Q2 results: Which FMCG giant wins on profit, revenue and dividend? Check target, upcoming record dates",
+      "actor": "Emami and Dabur",
+      "action_type": "Quarterly profit comparison",
+      "india_exposure": "Indian consumer goods producers",
+      "mechanism": "Uneven profits can signal divergent cost and demand conditions.",
+      "evidence": [
+        "Emami vs Dabur Q2 results: Which FMCG giant wins on profit, revenue and dividend? Check target, upcoming record dates",
+        "Emami and Dabur shares rose nearly 7% over the past week after reporting Q2 FY27 results and announcing dividends. Emami’s profit slipped 1.92% to ₹145.50 crore, while Dabur’s rose 12.09% to ₹498.57 crore."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-e2987020f9cf2f27f3c4c8a0",
+      "reason": "Specific reported profits retained despite dividend and target framing."
+    },
+    {
+      "id": "becd1e0b080a399b5d54e049",
+      "event": "Why Bertie thinks investors should be like drones",
+      "actor": "Bertie columnist",
+      "action_type": "Capital allocation commentary",
+      "india_exposure": "Indian shareholders",
+      "mechanism": "General R&D preferences establish no new spending commitment.",
+      "evidence": [
+        "Why Bertie thinks investors should be like drones",
+        "Investors routinely call for higher corporate spending on R&D and capacity creation. But when companies actually commit capital to these priorities, shareholders are often less enthusiastic."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-becd1e0b080a399b5d54e049",
+      "reason": "Opinion rather than discrete issuer investment."
+    },
+    {
+      "id": "67dd0c001a84a2beb0aa70d0",
+      "event": "Muhurat Trading 2026: Samvat 2082 ends, Samvat 2083 begins - Sensex, Nifty end in red first time after 2017 | Reasons",
+      "actor": "Indian benchmarks",
+      "action_type": "Muhurat closing recap",
+      "india_exposure": "Indian traders",
+      "mechanism": "Session losses do not establish a new policy action.",
+      "evidence": [
+        "Muhurat Trading 2026: Samvat 2082 ends, Samvat 2083 begins - Sensex, Nifty end in red first time after 2017 | Reasons",
+        "Indian markets opened lower in Samvat 2083, with the Sensex and Nifty posting their first negative Muhurat Trading close since 2017. Rising oil prices, Middle East tensions, foreign investor outflows, a weaker rupee and higher US bond yields weighed on equities."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "duplicate",
+      "event_key": "rss-event-dc46fc796fa0deff5f083bcc",
+      "reason": "Same special-session close as record 49; conflicting causal market colour not adopted.",
+      "duplicate_of": "dc46fc796fa0deff5f083bcc"
+    },
+    {
+      "id": "4959994cc48f791ecfa8ddf5",
+      "event": "Punjab anti-drug activist Parvinder Singh Jhota cremated 26 days after being shot dead",
+      "actor": "Parvinder Singh Jhota's family",
+      "action_type": "Cremation after murder",
+      "india_exposure": "Punjab communities",
+      "mechanism": "Protests over an individual crime establish no new drug policy.",
+      "evidence": [
+        "Punjab anti-drug activist Parvinder Singh Jhota cremated 26 days after being shot dead",
+        "Jhota's murder in Mansa had triggered protests and a political row, with his family demanding justice and action against drug trafficking in Punjab."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-4959994cc48f791ecfa8ddf5",
+      "reason": "Crime aftermath and political dispute."
+    },
+    {
+      "id": "a7c8b055892e8e101d814abe",
+      "event": "Three family members, including 20-day-old baby, killed as house roof collapses in Kanpur",
+      "actor": "Kanpur family",
+      "action_type": "Fatal roof collapse",
+      "india_exposure": "Kanpur household",
+      "mechanism": "Single building failure lacks a wider rule or infrastructure intervention.",
+      "evidence": [
+        "Three family members, including 20-day-old baby, killed as house roof collapses in Kanpur",
+        "The incident took place in Panki Padav area when the roof, made of bamboo, wooden beams and mud, suddenly gave way."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-a7c8b055892e8e101d814abe",
+      "reason": "Local accident coverage."
+    },
+    {
+      "id": "a52c5876d83ebafd521dfdf7",
+      "event": "Primary Education Key To Social Transformation, Says Odisha Chief Minister",
+      "actor": "Odisha chief minister",
+      "action_type": "Health education foundation stones",
+      "india_exposure": "Odisha health students",
+      "mechanism": "Additional buildings could expand training capacity if completed.",
+      "evidence": [
+        "Primary Education Key To Social Transformation, Says Odisha Chief Minister",
+        "On the occasion, the chief minister also laid the foundation stones for a seven-storey dental college building and a 10-storey nursing college building to expand health education facilities."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-a52c5876d83ebafd521dfdf7",
+      "reason": "Concrete project milestones considered beneath generic speech headline."
+    },
+    {
+      "id": "5541af697bd60c1842a3c3ef",
+      "event": "Diwali Muhurat trading 2026: Why HDFC Bank shares a talking point today amid Samvat 2083 despite 13% monthly rally",
+      "actor": "HDFC Bank",
+      "action_type": "Share-price recap",
+      "india_exposure": "Indian shareholders",
+      "mechanism": "Price performance does not establish a new bank operating change.",
+      "evidence": [
+        "Diwali Muhurat trading 2026: Why HDFC Bank shares a talking point today amid Samvat 2083 despite 13% monthly rally",
+        "HDFC Bank shares fell 0.32% to ₹784.50 during Diwali Muhurat trading on November 8, reversing an early gain as the Nifty Bank index slipped 0.27%. The stock had risen 13.32% in the past week but remained down 20.82% in 2026."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-5541af697bd60c1842a3c3ef",
+      "reason": "Only market movement and historical returns supported."
+    },
+    {
+      "id": "7185aee5e61d8419cb1f01d5",
+      "event": "Army Cadet College January 2027 Registration Begins: Check Exam Date, Key Details",
+      "actor": "NTA and Army Cadet College",
+      "action_type": "Registration opening",
+      "india_exposure": "Army cadet applicants",
+      "mechanism": "Recruitment calendar does not change force structure.",
+      "evidence": [
+        "Army Cadet College January 2027 Registration Begins: Check Exam Date, Key Details",
+        "The NTA has released the application for the Common Entrance Examination for the Army Cadet College for the January 2027 session. The last date to submit the form is November 30, 2026."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-7185aee5e61d8419cb1f01d5",
+      "reason": "November 30 application deadline is later and routine."
+    },
+    {
+      "id": "724172a8cb6a9b0b7d1623fb",
+      "event": "Tata Teleservices shares jump 6% in Muhurat Trading, extend 4-day rally to 23% | What's driving the surge?",
+      "actor": "Tata Teleservices Maharashtra",
+      "action_type": "Results, penalty and share rally",
+      "india_exposure": "Indian telecom operations",
+      "mechanism": "Loss narrowing and revenue growth may improve operating resilience.",
+      "evidence": [
+        "Tata Teleservices shares jump 6% in Muhurat Trading, extend 4-day rally to 23% | What's driving the surge?",
+        "Tata Teleservices (Maharashtra) shares rose over 6% during Muhurat Trading, extending a four-session rally to more than 23%. The gain came despite a ₹25,000 DoT penalty. Q2 FY27 net loss narrowed to ₹59 crore as revenue increased 8.4% year on year."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-724172a8cb6a9b0b7d1623fb",
+      "reason": "Substantive results inspected; small penalty and stock surge do not warrant lead selection."
+    },
+    {
+      "id": "a65dbcf2ac715625134a6422",
+      "event": "Armed Maoists eliminated, but ‘dimagi Naxals’ remain a threat: PM Modi",
+      "actor": "Prime Minister Modi",
+      "action_type": "Claim of Maoist elimination",
+      "india_exposure": "Indian internal security",
+      "mechanism": "Political claim alone cannot verify elimination of insurgency.",
+      "evidence": [
+        "Armed Maoists eliminated, but ‘dimagi Naxals’ remain a threat: PM Modi",
+        "He described the elimination of armed Maoists as a victory for the government’s policies and strong political will"
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-a65dbcf2ac715625134a6422",
+      "reason": "Preserve attribution; RSS provides no operational evidence."
+    },
+    {
+      "id": "2ca400a86659fa757ea34df4",
+      "event": "EU Close to Deal to Link UK Carbon Market After Brexit Split",
+      "actor": "EU and UK",
+      "action_type": "Carbon market linking talks",
+      "india_exposure": "India exposure only indirect",
+      "mechanism": "Linked foreign markets could affect carbon pricing but deal is unfinished.",
+      "evidence": [
+        "EU Close to Deal to Link UK Carbon Market After Brexit Split",
+        "The European Union and the UK are in the final stages of a deal to link their emissions markets, a move that would boost liquidity and eventually save companies millions of euros in carbon border taxes."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-2ca400a86659fa757ea34df4",
+      "reason": "Substantive negotiations, but no supported India-specific cost change."
+    },
+    {
+      "id": "f2f22fcf7b6ed7471f54ebb3",
+      "event": "TN scraps Kurian panel on Centre-State relations, citing overlapping role",
+      "actor": "Tamil Nadu government",
+      "action_type": "Kurian panel dissolution",
+      "india_exposure": "Centre-state institutions",
+      "mechanism": "Removing an overlapping panel could change reform coordination.",
+      "evidence": [
+        "TN scraps Kurian panel on Centre-State relations, citing overlapping role",
+        "TN scraps Kurian panel on Centre-State relations, citing overlapping role"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-f2f22fcf7b6ed7471f54ebb3",
+      "reason": "Concrete institutional action but summary is title-only and thin on remit."
+    },
+    {
+      "id": "4bb535bd0d6cda808365c2cf",
+      "event": "On Muhurat Trading 2026 Diwali, Zee Entertainment shares in rocket mode; 11% jump on buyback, interim dividend news",
+      "actor": "Zee Entertainment board",
+      "action_type": "November 12 meeting preview",
+      "india_exposure": "Indian shareholders",
+      "mechanism": "Possible buyback or dividends remain undecided.",
+      "evidence": [
+        "On Muhurat Trading 2026 Diwali, Zee Entertainment shares in rocket mode; 11% jump on buyback, interim dividend news",
+        "Zee Entertainment shares rose as much as 11.1% during Muhurat trading after the company announced its board would meet on November 12 to discuss investor concerns and consider a share buyback, interim dividend or other measures. No decision has been made."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-4bb535bd0d6cda808365c2cf",
+      "reason": "Shareholder measures not approved; later date also excludes catalyst use."
+    },
+    {
+      "id": "e6a29a6c315f98315d261a09",
+      "event": "JNU student attacks peer on university campus over friendship with a woman, arrested",
+      "actor": "JNU student and police",
+      "action_type": "Campus assault arrest",
+      "india_exposure": "Delhi student victim",
+      "mechanism": "Arrest does not establish university-wide policy change.",
+      "evidence": [
+        "JNU student attacks peer on university campus over friendship with a woman, arrested",
+        "The accused student has been arrested in connection with the case, and further investigation is underway, sources said."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-e6a29a6c315f98315d261a09",
+      "reason": "Individual crime case."
+    },
+    {
+      "id": "316af7ca9fe1d640bc6dcb8b",
+      "event": "Why Safe Enterprises shares bleeding on Diwali Muhurat trading 2026 session despite Nifty, Sensex in green? Key reasons",
+      "actor": "Safe Enterprises Retail Fixtures",
+      "action_type": "Half-year results",
+      "india_exposure": "Indian retail fixtures supplier",
+      "mechanism": "Falling revenue and profit indicate operating demand pressure.",
+      "evidence": [
+        "Why Safe Enterprises shares bleeding on Diwali Muhurat trading 2026 session despite Nifty, Sensex in green? Key reasons",
+        "Safe Enterprises Retail Fixtures shares fell nearly 9% during Diwali Muhurat trading after the company reported a 34.57% year-on-year decline in H1 FY27 net profit to ₹21.75 crore. Revenue also dropped to ₹77.87 crore from ₹112.37 crore a year earlier."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-316af7ca9fe1d640bc6dcb8b",
+      "reason": "Real operating decline considered despite share-price framing; narrower scale than slate."
+    },
+    {
+      "id": "41b2b1872238b5e7eb291c73",
+      "event": "Finolex Cables shares jump 14% in Muhurat Trading 2026 Diwali session day - here's why | Stock up 59% YTD | Key levels",
+      "actor": "Finolex Cables",
+      "action_type": "Quarterly results",
+      "india_exposure": "Indian cable manufacturing",
+      "mechanism": "Higher volumes and realisations support industrial revenue growth.",
+      "evidence": [
+        "Finolex Cables shares jump 14% in Muhurat Trading 2026 Diwali session day - here's why | Stock up 59% YTD | Key levels",
+        "Finolex Cables shares rose 14% during Muhurat Trading after Q2 FY27 net profit climbed 67.5% to ₹273 crore, revenue increased 65% to ₹2,269 crore, and EBITDA more than doubled. Growth was driven by higher cable volumes and improved communication-segment realisations."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-41b2b1872238b5e7eb291c73",
+      "reason": "Strong quantified operating alternative; no buy recommendation adopted."
+    },
+    {
+      "id": "196a2645a08ddde75158efb3",
+      "event": "Muhurat Trading 2026: Tata Steel, Sun Pharma, BSE among top gainers as Nifty 50, Sensex swing between gains and losses",
+      "actor": "Tata Steel and Sun Pharma",
+      "action_type": "Market gainers recap",
+      "india_exposure": "Indian listed producers",
+      "mechanism": "Small profit detail does not establish new industry investment.",
+      "evidence": [
+        "Muhurat Trading 2026: Tata Steel, Sun Pharma, BSE among top gainers as Nifty 50, Sensex swing between gains and losses",
+        "Tata Steel led gains during Muhurat Trading, rising 2.5% after reporting a 16% year-on-year increase in Q2 net profit. Sun Pharma gained 1.5% for a fourth straight session, while Tata Motors Passenger Vehicles climbed 1.2%."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-196a2645a08ddde75158efb3",
+      "reason": "Trading leaderboard with limited operating context."
+    },
+    {
+      "id": "1a790c235974adc67d6791ad",
+      "event": "Railway Junior Engineer Answer Key 2026 Soon: Know How To Download, Next Process",
+      "actor": "Railway Recruitment Boards",
+      "action_type": "Expected answer key",
+      "india_exposure": "Exam applicants",
+      "mechanism": "Undated administrative release lacks material economic transmission.",
+      "evidence": [
+        "Railway Junior Engineer Answer Key 2026 Soon: Know How To Download, Next Process",
+        "The RRB JE Answer key 2026 for CBT 1 is expected to be released soon. Once released candidates will be able to download it using their registration number and password."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-1a790c235974adc67d6791ad",
+      "reason": "Expected soon is not a dated catalyst or reform."
+    },
+    {
+      "id": "02180845bbd84613e526251c",
+      "event": "Muhurat Trading 2026 Diwali Session Opening Bell: How Sensex, Nifty is performing on special day; check gainers, losers",
+      "actor": "Indian benchmark indices",
+      "action_type": "Muhurat opening recap",
+      "india_exposure": "Indian traders",
+      "mechanism": "Intraday moves contain no new operating action.",
+      "evidence": [
+        "Muhurat Trading 2026 Diwali Session Opening Bell: How Sensex, Nifty is performing on special day; check gainers, losers",
+        "Indian markets rose during the Diwali Muhurat trading session marking Samvat 2083. The Sensex gained over 400 points and the Nifty 50 climbed above 25,100, while smallcaps outperformed. Tata Steel and Sun Pharma led gainers; M&M and Infosys were among the laggards."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "duplicate",
+      "event_key": "rss-event-dc46fc796fa0deff5f083bcc",
+      "reason": "Same special-session event represented by record 49.",
+      "duplicate_of": "dc46fc796fa0deff5f083bcc"
+    },
+    {
+      "id": "a3ad0d1a23d6242e56215fc3",
+      "event": "Kashmiri food, phuljhadis from Old Delhi: Sonia Gandhi reminisces Diwali at ex-PM Indira's home",
+      "actor": "Sonia Gandhi",
+      "action_type": "Diwali reminiscence",
+      "india_exposure": "Indian memoir readers",
+      "mechanism": "Family memories establish no policy change.",
+      "evidence": [
+        "Kashmiri food, phuljhadis from Old Delhi: Sonia Gandhi reminisces Diwali at ex-PM Indira's home",
+        "Remembering the Diwali celebrations at former PM Indira's home, Sonia said that the whole place would be lit up with diyas (earthen lamps)."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-a3ad0d1a23d6242e56215fc3",
+      "reason": "Personal historical recollection rather than release event itself."
+    },
+    {
+      "id": "eebf0c4db265a971f559d9a7",
+      "event": "FSSAI seizes food items worth ₹81.8 crore, suspends over 1,100 licences in two-month enforcement drive",
+      "actor": "FSSAI",
+      "action_type": "Nationwide enforcement sweep",
+      "india_exposure": "Indian food suppliers and consumers",
+      "mechanism": "Seizures, suspensions and notices raise costs of unsafe supply.",
+      "evidence": [
+        "FSSAI seizes food items worth ₹81.8 crore, suspends over 1,100 licences in two-month enforcement drive",
+        "The food safety regulator said it had inspected 56,431 establishments and issued 10,047 improvement notices from September 1 to November 5 as part of the drive."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "national",
+      "decision": "select",
+      "event_key": "fssai-september-november-2026-nationwide-enforcement-results",
+      "reason": "Precise 81.8-crore seizure and licence suspensions support national compliance story."
+    },
+    {
+      "id": "98c16e347e49de185a494a16",
+      "event": "‘Growing a beard doesn’t make you Revanth Reddy’: Telangana CM takes swipe at KT Rama Rao",
+      "actor": "Revanth Reddy",
+      "action_type": "Political criticism",
+      "india_exposure": "Telangana politics",
+      "mechanism": "Personal jibes establish no government decision.",
+      "evidence": [
+        "‘Growing a beard doesn’t make you Revanth Reddy’: Telangana CM takes swipe at KT Rama Rao",
+        "Reddy also said political posturing without substance is like a fox trying to look like a tiger."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-98c16e347e49de185a494a16",
+      "reason": "Party rhetoric without changed public policy."
+    },
+    {
+      "id": "c66c898e4a9c91b2f4f54326",
+      "event": "Muhurat Trading 2026: Dalal Street defies global gloom — What lies ahead for Sensex, Nifty 50 in Samvat 2083?",
+      "actor": "Kedia Advisory",
+      "action_type": "Index target outlook",
+      "india_exposure": "Indian equity investors",
+      "mechanism": "Conditional index targets do not establish productive activity.",
+      "evidence": [
+        "Muhurat Trading 2026: Dalal Street defies global gloom — What lies ahead for Sensex, Nifty 50 in Samvat 2083?",
+        "Markets approach Muhurat Trading on a strong note as the Nifty and Sensex extend their winning streaks to seven sessions. Kedia Advisory sees potential for the Nifty to reach 27,100–27,500 in Samvat 2083, conditional on earnings and economic stability, while global risks remain."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-c66c898e4a9c91b2f4f54326",
+      "reason": "Market prediction rather than new operating evidence."
+    },
+    {
+      "id": "c5d6a74433735e358993b2a1",
+      "event": "Vijayan seeks roll back of Keralam circular allowing colleges to increase seats without govt nod, warns of commercialisation",
+      "actor": "Pinarayi Vijayan",
+      "action_type": "Request to reverse college circular",
+      "india_exposure": "Keralam colleges and students",
+      "mechanism": "Seat flexibility may alter education access but rollback is only requested.",
+      "evidence": [
+        "Vijayan seeks roll back of Keralam circular allowing colleges to increase seats without govt nod, warns of commercialisation",
+        "Pinarayi Vijayan has urged the Keralam government to withdraw its circular allowing certain colleges to increase seats without prior approval."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-c5d6a74433735e358993b2a1",
+      "reason": "Circular recognised as substantive; political request is not completed withdrawal."
+    },
+    {
+      "id": "6e97fbff5e8b5a0420af9647",
+      "event": "Rajasthan BJP MLA Jaswant Yadav dies at 73 in Jaipur after prolonged battle with cancer",
+      "actor": "Jaswant Yadav and Rajasthan assembly",
+      "action_type": "Legislator death",
+      "india_exposure": "Behror constituents",
+      "mechanism": "Vacancy may trigger bypoll but no institutional reform is established.",
+      "evidence": [
+        "Rajasthan BJP MLA Jaswant Yadav dies at 73 in Jaipur after prolonged battle with cancer",
+        "BJP MLA Jaswant Yadav's death reduces the strength of the Rajasthan Legislative Assembly to 199, with a by-election in Behror expected within six months."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-6e97fbff5e8b5a0420af9647",
+      "reason": "Obituary and expected electoral succession."
+    },
+    {
+      "id": "d5d7fad6f60b4c9b1ba932f9",
+      "event": "Bengaluru Metro: InMobi secures naming rights for Ibbaluru station for 30 years in ₹65 crore agreement with BMRCL",
+      "actor": "InMobi and BMRCL",
+      "action_type": "Station naming agreement",
+      "india_exposure": "Bengaluru metro financing",
+      "mechanism": "Naming revenue can diversify metro funding.",
+      "evidence": [
+        "Bengaluru Metro: InMobi secures naming rights for Ibbaluru station for 30 years in ₹65 crore agreement with BMRCL",
+        "InMobi said the arrangement was part of its commitment to the Bengaluru city, where it began its journey and subsequently expanded its global operations."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-d5d7fad6f60b4c9b1ba932f9",
+      "reason": "Concrete 65-crore agreement retained, without claiming service capacity increase."
+    },
+    {
+      "id": "216464498d09cf694388140d",
+      "event": "Hindalco flags coal shortage, expects 5% rise in aluminium production costs",
+      "actor": "Hindalco and Satish Pai",
+      "action_type": "Production cost forecast",
+      "india_exposure": "Indian aluminium operations",
+      "mechanism": "Coal scarcity can compress margins or raise metal prices.",
+      "evidence": [
+        "Hindalco flags coal shortage, expects 5% rise in aluminium production costs",
+        "The metals company expects aluminium production costs to rise another 5 per cent sequentially in the December quarter, after a similar increase in the September quarter, MD Satish Pai said"
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "macro",
+      "decision": "select",
+      "event_key": "hindalco-december-2026-quarter-cost-increase-forecast",
+      "reason": "Attributed sequential December-quarter cost forecast is a material industrial signal."
+    },
+    {
+      "id": "ece8f81538c96955277457ff",
+      "event": "‘We will withdraw from agitation only after Gyanesh Kumar is removed’: K C Venugopal",
+      "actor": "K C Venugopal",
+      "action_type": "Protest continuation statement",
+      "india_exposure": "Indian opposition supporters",
+      "mechanism": "Agitation demand is not a changed election rule.",
+      "evidence": [
+        "‘We will withdraw from agitation only after Gyanesh Kumar is removed’: K C Venugopal",
+        "Speaking to reporters here, Venugopal said protests were continuing across states and districts, with only a brief pause expected during the Diwali festival."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-ece8f81538c96955277457ff",
+      "reason": "Political campaign without specific institutional action."
+    },
+    {
+      "id": "e4173b7fd734104b7a9f7608",
+      "event": "'LK Advani was clear that opposition would support govt on security issues': Nitin Nabin",
+      "actor": "Nitin Nabin",
+      "action_type": "Birthday tribute",
+      "india_exposure": "Indian party organisation",
+      "mechanism": "Historic support statement does not establish a security agreement.",
+      "evidence": [
+        "'LK Advani was clear that opposition would support govt on security issues': Nitin Nabin",
+        "Speaking at a special event held at the party headquarters on Advani's 100th birthday, Nabin said Advani has been an inspiration for everyone in organisation."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-e4173b7fd734104b7a9f7608",
+      "reason": "Ceremonial party speech."
+    },
+    {
+      "id": "1d083a4f757038b879488309",
+      "event": "'Mockery of democracy': Ex-BJP MP Gopal Shetty tonsures head in protest over BMC demolition in Borivali",
+      "actor": "Gopal Shetty and BMC",
+      "action_type": "Demolition protest",
+      "india_exposure": "Borivali households",
+      "mechanism": "Local demolition affects residents but lacks a general rule in RSS.",
+      "evidence": [
+        "'Mockery of democracy': Ex-BJP MP Gopal Shetty tonsures head in protest over BMC demolition in Borivali",
+        "The BMC demolished 27 houses built on a 3,400-sq-metre plot in Borivali East. Shetty slammed the local BJP leadership for not supporting the affected families."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-1d083a4f757038b879488309",
+      "reason": "Individual dispute and political protest."
+    },
+    {
+      "id": "d6796d21bafb4e5cad48ca5b",
+      "event": "Buying gold or silver this Diwali? Which precious metal offers bigger upside in Samvat 2083? Check targets, strategy",
+      "actor": "Religare Broking",
+      "action_type": "Precious metals recommendations",
+      "india_exposure": "Indian investors",
+      "mechanism": "Accumulation bands and targets are trading advice.",
+      "evidence": [
+        "Buying gold or silver this Diwali? Which precious metal offers bigger upside in Samvat 2083? Check targets, strategy",
+        "Religare Broking’s Diwali 2026 report recommends accumulating gold at ₹1,30,000–1,35,000 per 10 grams and silver at ₹1,50,000–1,63,000 per kg. It sets targets and support levels for both metals."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-d6796d21bafb4e5cad48ca5b",
+      "reason": "Explicit gold and silver investment strategy."
+    },
+    {
+      "id": "53d7382da72e9e41e07b980b",
+      "event": "Ahmedabad woman held for stabbing ex-serviceman husband to death after domestic dispute",
+      "actor": "Ahmedabad police and Nirmala Kharadi",
+      "action_type": "Homicide arrest",
+      "india_exposure": "Ahmedabad family",
+      "mechanism": "Domestic criminal case establishes no systemic intervention.",
+      "evidence": [
+        "Ahmedabad woman held for stabbing ex-serviceman husband to death after domestic dispute",
+        "The accused, Nirmala Kharadi, allegedly attacked her husband Dilip with a kitchen knife, fatally stabbing him in the chest late Thursday night."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-53d7382da72e9e41e07b980b",
+      "reason": "Individual crime report."
+    },
+    {
+      "id": "9349e2b6a78c7028095f35d8",
+      "event": "PSU dividend record dates this week: CONCOR, ONGC, NBCC, RITES, HUDCO, NLC- Check amount, record date, payment timeline",
+      "actor": "CONCOR and other PSU issuers",
+      "action_type": "Dividend date reminder",
+      "india_exposure": "Shareholders",
+      "mechanism": "Payout eligibility dates are not new capital formation.",
+      "evidence": [
+        "PSU dividend record dates this week: CONCOR, ONGC, NBCC, RITES, HUDCO, NLC- Check amount, record date, payment timeline",
+        "Investors tracking PSU dividends should note record dates of November 11 for CONCOR, HUDCO, NBCC (India) and RITES, and November 12 for ONGC and NLC India. Declared payouts range from ₹0.25 to ₹8 per share."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-9349e2b6a78c7028095f35d8",
+      "reason": "November 11 and 12 reminders are later and low materiality."
+    },
+    {
+      "id": "de310a41ebdb611a396a2834",
+      "event": "Diwali Muhurat Trading 2026: PC Jeweller, Suzlon, Vedanta Power | 3 Samvat 2083 stock picks under ₹50 by Mahesh Ojha",
+      "actor": "Mahesh Ojha and KC Securities",
+      "action_type": "Stock recommendations",
+      "india_exposure": "Indian investors",
+      "mechanism": "Index hurdle does not establish operating change.",
+      "evidence": [
+        "Diwali Muhurat Trading 2026: PC Jeweller, Suzlon, Vedanta Power | 3 Samvat 2083 stock picks under ₹50 by Mahesh Ojha",
+        "Diwali Muhurat Trading 2026: Mahesh M Ojha of KC Securities believes the Nifty 50 index has closed above 25,000 and is facing a hurdle at 25,200."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-de310a41ebdb611a396a2834",
+      "reason": "Three explicit low-price stock picks."
+    },
+    {
+      "id": "d914c1fe8f262f1e0e5c6419",
+      "event": "Muhurat Trading 2026 on Diwali: From trade settlement to delivery, key rules investors should know about special trade",
+      "actor": "Indian exchanges",
+      "action_type": "Muhurat session explainer",
+      "india_exposure": "Indian traders",
+      "mechanism": "Special trading hours explain existing procedure.",
+      "evidence": [
+        "Muhurat Trading 2026 on Diwali: From trade settlement to delivery, key rules investors should know about special trade",
+        "Indian markets will hold a one-hour Muhurat Trading session to mark Samvat 2083, with equity and commodity trading scheduled from 2:20 pm to 3:30 pm. The tradition, associated with prosperity and Lakshmi Puja, began at the BSE in 1957."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-d914c1fe8f262f1e0e5c6419",
+      "reason": "November 8 session is past, with no new settlement reform established."
+    },
+    {
+      "id": "5967ef27693aca600624dd0c",
+      "event": "Diwali Muhurat Trading stock picks 2026: ICICI Bank, PVR Inox, Eternal among Geojit's 10 shares | Samvat 2083",
+      "actor": "Geojit",
+      "action_type": "Stock selection list",
+      "india_exposure": "Indian investors",
+      "mechanism": "Broker selection does not establish issuer action.",
+      "evidence": [
+        "Diwali Muhurat Trading stock picks 2026: ICICI Bank, PVR Inox, Eternal among Geojit's 10 shares | Samvat 2083",
+        "Geojit has selected 10 stocks for Samvat 2083, spanning banking, infrastructure, technology, autos, hospitality, healthcare and entertainment. The brokerage cites growth prospects, earnings visibility and valuations, while warning that global headwinds may keep markets volatile."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-5967ef27693aca600624dd0c",
+      "reason": "Explicit investment recommendations."
+    },
+    {
+      "id": "f897c02b41dd7542942072c9",
+      "event": "CJP’s Abhijeet Dipke says he spent night at airport on way back from Kochi protest",
+      "actor": "Abhijeet Dipke",
+      "action_type": "Airport delay account",
+      "india_exposure": "Individual traveller",
+      "mechanism": "Travel inconvenience does not establish transport policy change.",
+      "evidence": [
+        "CJP’s Abhijeet Dipke says he spent night at airport on way back from Kochi protest",
+        "CJP's Dipke offered an account of his airport experience, saying he had spent the night there, sleep-deprived, as he waited for a delayed connecting flight."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-f897c02b41dd7542942072c9",
+      "reason": "Personal anecdote following a rally."
+    },
+    {
+      "id": "b0380bf694d0ed18603fe258",
+      "event": "Top 12 Diwali Muhurat Trading stock picks 2026: Up to 41% gain! Buy Jio Platforms, Adani Ports, 10 more by KC Securities",
+      "actor": "KC Securities and Mahesh Ojha",
+      "action_type": "Stock recommendations",
+      "india_exposure": "Indian investors",
+      "mechanism": "Expected index gain is not a new economic event.",
+      "evidence": [
+        "Top 12 Diwali Muhurat Trading stock picks 2026: Up to 41% gain! Buy Jio Platforms, Adani Ports, 10 more by KC Securities",
+        "Diwali Muhurat trading 2026: Mahesh M Ojha of KC Securities believes the key benchmark indices Sensex and Nifty may end higher for the ninth straight ceremonial session"
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-b0380bf694d0ed18603fe258",
+      "reason": "Twelve explicit buy ideas."
+    },
+    {
+      "id": "94b9a4395638888956861d69",
+      "event": "Book Box: Diwali and the books we give each other",
+      "actor": "Book Box columnist",
+      "action_type": "Reading reflection",
+      "india_exposure": "Indian readers",
+      "mechanism": "Reading recommendations contain no institutional transmission.",
+      "evidence": [
+        "Book Box: Diwali and the books we give each other",
+        "A reflection on parent-child bonds, nostalgic reading, and recommended books for the festive season."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-94b9a4395638888956861d69",
+      "reason": "Lifestyle and literary commentary."
+    },
+    {
+      "id": "dc52bc1b4b8b813f8af1949c",
+      "event": "'First Diwali when India is free from Naxalism': PM Modi marks festival in Bastar",
+      "actor": "Prime Minister Modi",
+      "action_type": "Bastar Diwali address",
+      "india_exposure": "Indian internal security",
+      "mechanism": "Claimed insurgency elimination is not verified by the summary.",
+      "evidence": [
+        "'First Diwali when India is free from Naxalism': PM Modi marks festival in Bastar",
+        "Addressing the security personnel in Bastar, PM Modi said this was the first Diwali in which every district of the country was free from Naxalism."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-a65dbcf2ac715625134a6422",
+      "reason": "Same political security claim as record 74.",
+      "duplicate_of": "a65dbcf2ac715625134a6422"
+    },
+    {
+      "id": "0002b0551adac90509fbd0d6",
+      "event": "Allahabad HC calls civil liberties situation in UP 'shameful', flags illegal detention by police",
+      "actor": "Allahabad High Court",
+      "action_type": "Release and compensation order",
+      "india_exposure": "UP detainees and police accountability",
+      "mechanism": "Compensation can increase accountability for unlawful detention.",
+      "evidence": [
+        "Allahabad HC calls civil liberties situation in UP 'shameful', flags illegal detention by police",
+        "The Allahabad HC ordered the petitioner's release and directed the state to pay him ₹20,000, while flagging repeated claims of missing police CCTV footage."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "national",
+      "decision": "select",
+      "event_key": "allahabad-hc-up-illegal-detention-compensation-release-november-2026",
+      "reason": "Specific release and 20000-rupee direction with CCTV concerns supports bounded rights card."
+    },
+    {
+      "id": "bac07bbcc539b8be4dcc3eda",
+      "event": "Sony revives iconic 1979 Walkman design with MDR-3R USB-C headphones: Check price in India",
+      "actor": "Sony",
+      "action_type": "Headphone product launch",
+      "india_exposure": "Indian consumer electronics buyers",
+      "mechanism": "Retro packaging creates no structural technology change.",
+      "evidence": [
+        "Sony revives iconic 1979 Walkman design with MDR-3R USB-C headphones: Check price in India",
+        "Sony has even extended this vintage theme to the product's packaging and instruction manual, mirroring the original unboxing experience."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-bac07bbcc539b8be4dcc3eda",
+      "reason": "Consumer product and price feature."
+    },
+    {
+      "id": "0dbe9a6b68416266d64b754b",
+      "event": "Kanpur man killed as Thar rams his scooter and drags him along for 20 metres; driver flees",
+      "actor": "Kanpur police",
+      "action_type": "Fatal road collision investigation",
+      "india_exposure": "Kanpur road users",
+      "mechanism": "Vehicle seizure does not establish new transport policy.",
+      "evidence": [
+        "Kanpur man killed as Thar rams his scooter and drags him along for 20 metres; driver flees",
+        "DCP West Qasim Abidi said the vehicle had been seized and further action was underway."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-0dbe9a6b68416266d64b754b",
+      "reason": "Local accident and driver search."
+    },
+    {
+      "id": "3ac9e60727c2529f1b265af7",
+      "event": "Singapore Airlines' $1.6 bn cabin revamp: Bigger beds, privacy door for business class, Sanjeev Kapoor’s thalis and more",
+      "actor": "Singapore Airlines",
+      "action_type": "Cabin investment plan",
+      "india_exposure": "Passengers including Indian customers",
+      "mechanism": "Cabin redesign may improve services but no Indian capacity allocation is specified.",
+      "evidence": [
+        "Singapore Airlines' $1.6 bn cabin revamp: Bigger beds, privacy door for business class, Sanjeev Kapoor’s thalis and more",
+        "Singapore Airlines will invest more than S$2 billion to overhaul cabins across aircraft, with new products arriving from the second half of 2027. First class will feature double beds, business class privacy doors, and more than 100 updated dishes, including creations by Indian chef Sanjeev Kapoor."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-3ac9e60727c2529f1b265af7",
+      "reason": "Concrete investment considered; domestic industrial transmission is weak."
+    },
+    {
+      "id": "db06d72fe48b9dd06366f827",
+      "event": "Himachal Pradesh to set up first fish parlour in Bilaspur, offering live and fresh fish for sale",
+      "actor": "Himachal Pradesh government",
+      "action_type": "Fish retail facility proposal",
+      "india_exposure": "Bilaspur fishermen",
+      "mechanism": "New sales outlet could improve market access for fishermen.",
+      "evidence": [
+        "Himachal Pradesh to set up first fish parlour in Bilaspur, offering live and fresh fish for sale",
+        "The proposed facility will offer local fishermen a new platform to sell their produce while creating opportunities linked to tourism and employment."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-db06d72fe48b9dd06366f827",
+      "reason": "Local livelihood proposal with limited scale; not operating yet."
+    },
+    {
+      "id": "536f188128295ff380eebde3",
+      "event": "Bombay High Court quashes CBI case against 4 former Jet Airways employees in PF bribery case",
+      "actor": "Bombay High Court and former Jet employees",
+      "action_type": "Criminal case quashed",
+      "india_exposure": "Indian employment and prosecution safeguards",
+      "mechanism": "Intent requirement can constrain unsupported prosecution.",
+      "evidence": [
+        "Bombay High Court quashes CBI case against 4 former Jet Airways employees in PF bribery case",
+        "The Bombay High Court quashed the CBI case against four former Jet Airways employees, saying there was no evidence of criminal intent or conspiracy."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-536f188128295ff380eebde3",
+      "reason": "Concrete court action, but selected detention remedy has broader accountability relevance."
+    },
+    {
+      "id": "fdaede308fb685c167d1a1c5",
+      "event": "Adani Energy Solutions Step-Eleven says parent has funds to support power licence for proposed Noida data centre project",
+      "actor": "Adani Energy Solutions",
+      "action_type": "Reported power-licence financial response",
+      "india_exposure": "Noida data-centre electricity project",
+      "mechanism": "Funding assurances may support licensing but do not establish approval.",
+      "evidence": [
+        "Adani Energy Solutions Step-Eleven says parent has funds to support power licence for proposed Noida data centre project",
+        "Adani Energy Solutions has reportedly responded to the Uttar Pradesh Electricity Regulatory Commission (UPERC) queries saying that its parent has ₹15,155.80 crore in adjusted net worth to support a proposed ₹211 crore Noida data centre power project."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-fdaede308fb685c167d1a1c5",
+      "reason": "Specific proposed project and net worth retained with reported status."
+    },
+    {
+      "id": "c2ff727108695d6a015b8efb",
+      "event": "From campus to culinary success: How a 21-year-old Gurugram college student's cafe made ₹15 lakh in 50 days",
+      "actor": "Ananya Agarwal and Lume and Lime",
+      "action_type": "Cafe founder profile",
+      "india_exposure": "Gurugram business",
+      "mechanism": "Single-cafe revenue does not establish a wider sector change.",
+      "evidence": [
+        "From campus to culinary success: How a 21-year-old Gurugram college student's cafe made ₹15 lakh in 50 days",
+        "At 21, Ananya Agarwal is balancing her final year of college with running Lume & Lime, a European-style vegetarian bistro in Gurugram. The cafe serves Italian, Mexican, and Mediterranean dishes prepared authentically and reportedly earned over ₹15 lakh in its first 50 days."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-c2ff727108695d6a015b8efb",
+      "reason": "Entrepreneur profile rather than material operating investment."
+    },
+    {
+      "id": "fc0fc02eb00d60f4886ce5d8",
+      "event": "‘Had to accept her wish’: Row over Vedic rituals at wedding of DMK general secretary's granddaughter",
+      "actor": "Duraimurugan and Veeramani",
+      "action_type": "Wedding ritual dispute",
+      "india_exposure": "Tamil Nadu political families",
+      "mechanism": "Private ritual disagreement changes no public policy.",
+      "evidence": [
+        "‘Had to accept her wish’: Row over Vedic rituals at wedding of DMK general secretary's granddaughter",
+        "The wedding of DMK leader Duraimurugan's granddaughter drew objections from DK chief Veeramani, who questioned the use of religious rituals at the wedding."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-fc0fc02eb00d60f4886ce5d8",
+      "reason": "Personal political controversy."
+    },
+    {
+      "id": "e9332cf01d8b70c91a925743",
+      "event": "IOC to buy crude, LPG ships as West Asia crisis exposes shipping risks",
+      "actor": "Indian Oil Corporation and Anuj Jain",
+      "action_type": "Vessel acquisition plan and prior board approval",
+      "india_exposure": "Indian energy import logistics",
+      "mechanism": "Owned carriers could reduce exposure to charter-market disruption.",
+      "evidence": [
+        "IOC to buy crude, LPG ships as West Asia crisis exposes shipping risks",
+        "State-owned Indian Oil Corporation plans to acquire crude oil and liquefied petroleum gas carriers of its own as disruptions to shipping around the Strait of Hormuz and soaring freight costs prompt India's largest oil refiner to strengthen control over its energy supply chain. The company's board has already approved the purchase of a few vessels, and tenders were issued several months ago, Director of Finance Anuj Jain said during its second-quarter earnings call. \"The country needs oil sector companies to focus more on the shipping area now,\" Jain said, adding that IOC was also exploring the possibility of building ships in India under the government's Make in India initiative. The move marks a potential shift in the company's shipping strategy, which has traditionally relied on a mix of time-charter and voyage-chartered vessels. IOC is now examining three approaches: optimising existing charter arrangements, owning ships and supporting domestic shipbuilding. The importance of .."
+      ],
+      "confidence": "high",
+      "materiality": 5,
+      "lane": "macro",
+      "decision": "select",
+      "event_key": "ioc-crude-lpg-carrier-acquisition-plan-november-2026",
+      "reason": "Board approval and earlier tenders are supported; delivery and domestic building remain uncompleted."
+    },
+    {
+      "id": "c7b83458092981db0f3ca605",
+      "event": "10 years since demonetisation: Cash usage unchanged, fake notes on the rise",
+      "actor": "Prime Minister Modi and monetary policy retrospective",
+      "action_type": "Demonetisation anniversary analysis",
+      "india_exposure": "Indian cash users",
+      "mechanism": "Long-term assessment lacks a specific new intervention.",
+      "evidence": [
+        "10 years since demonetisation: Cash usage unchanged, fake notes on the rise",
+        "This Deepavali marks 10 years since Prime Minister Narendra Modi announced overnight demonetisation of 86% of the country’s cash. Data shows some stated aims of the move remain largely unmet"
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-c7b83458092981db0f3ca605",
+      "reason": "Retrospective can inform context but summary lacks a fresh quantified dataset."
+    },
+    {
+      "id": "a1d81ac34ddb73b7c1e0c027",
+      "event": "JNU student attacks fellow student over friendship with woman; victim loses sight in one eye",
+      "actor": "JNU student and hospital",
+      "action_type": "Assault injury report",
+      "india_exposure": "Delhi student victim",
+      "mechanism": "Injuries do not establish wider campus policy.",
+      "evidence": [
+        "JNU student attacks fellow student over friendship with woman; victim loses sight in one eye",
+        "According to the hospital, the student sustained severe injuries to his right eye, nose, face and shoulders, besides multiple fractures."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-e6a29a6c315f98315d261a09",
+      "reason": "Same campus assault as record 78.",
+      "duplicate_of": "e6a29a6c315f98315d261a09"
+    },
+    {
+      "id": "08ef84266748ef6c3e760cf5",
+      "event": "Pronto’s Second Shift",
+      "actor": "Pronto and Anjali Sardana",
+      "action_type": "Business feature",
+      "india_exposure": "Indian domestic services market",
+      "mechanism": "Truncated historical entry narrative does not establish current change.",
+      "evidence": [
+        "Pronto’s Second Shift",
+        "Anjali Sardana and Pronto entered India’s domestic services market in 2025 to solve a familiar urban problem: finding reliable…"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-08ef84266748ef6c3e760cf5",
+      "reason": "No new action supported; earlier Provision acquisition is distinct and already in history."
+    },
+    {
+      "id": "0c50439a497d73c7aa513709",
+      "event": "Adani Enterprises plans ₹35,000-₹40,000 cr annual capex in next two years",
+      "actor": "Adani Enterprises and Manan Vakharia",
+      "action_type": "Annual capex plan",
+      "india_exposure": "Indian airports, data centres and PVC",
+      "mechanism": "Planned infrastructure spending may expand capacity if executed.",
+      "evidence": [
+        "Adani Enterprises plans ₹35,000-₹40,000 cr annual capex in next two years",
+        "Adani Enterprises Ltd plans to spend between Rs 35,000 crore and Rs 40,000 crore annually over the next couple of years, with airports, data centres and its proposed PVC complex emerging as the biggest investment drivers as the conglomerate steps up expansion across its infrastructure businesses. \"We expect to do capex at a run rate of around Rs 40,000 crore. So, we may be somewhere in the range of Rs 35,000 crore to Rs 40,000 crore, which is the rate we expect to continue over the next couple of years,\" Manan Vakharia, head of finance at Adani Enterprises, said during the company's earnings call. The planned spending comes as the group seeks to scale up businesses built over recent years, including airports and data centres, while bringing its large manufacturing investments closer to commercial operation. \"The heavy lifting will be done by airports, data centres and PVC,\" Vakharia said. Adani Enterprises, the flagship incubator of the Adani Group, reported its highest-ever half-y"
+      ],
+      "confidence": "high",
+      "materiality": 5,
+      "lane": "macro",
+      "decision": "select",
+      "event_key": "adani-enterprises-annual-capex-plan-november-2026",
+      "reason": "Attributed 35000-40000-crore annual plan retained as intentions, not realised spending."
+    },
+    {
+      "id": "b3574afb723ed049cb2b2ab2",
+      "event": "4 of family, including 2 children, killed in Odisha fire; short circuit suspected: Cops",
+      "actor": "Odisha police and family",
+      "action_type": "Fatal fire investigation",
+      "india_exposure": "Jajpur household",
+      "mechanism": "Suspected electrical cause is not a confirmed regulatory finding.",
+      "evidence": [
+        "4 of family, including 2 children, killed in Odisha fire; short circuit suspected: Cops",
+        "The cause of the fire is yet to be ascertained, though a short circuit is suspected, the police said."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-b3574afb723ed049cb2b2ab2",
+      "reason": "Local accident with unresolved cause."
+    },
+    {
+      "id": "5d0f4448414bdc52c2c5b542",
+      "event": "Assam governor, CM greet people on Kali Puja, Diwali",
+      "actor": "Assam governor and chief minister",
+      "action_type": "Festival greetings",
+      "india_exposure": "Assam residents",
+      "mechanism": "Greetings do not change policy or public spending.",
+      "evidence": [
+        "Assam governor, CM greet people on Kali Puja, Diwali",
+        "Assam governor, CM greet people on Kali Puja, Diwali"
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-5d0f4448414bdc52c2c5b542",
+      "reason": "Ceremonial statements only."
+    },
+    {
+      "id": "b914da0d3be885281b212436",
+      "event": "iPhone Duo vs Samsung Fold 8 - One-hand mode - similarities and differences between the two foldable flagships",
+      "actor": "Apple and Samsung",
+      "action_type": "Foldable phone comparison",
+      "india_exposure": "Indian device buyers",
+      "mechanism": "Control layouts do not establish new industrial or regulatory change.",
+      "evidence": [
+        "iPhone Duo vs Samsung Fold 8 - One-hand mode - similarities and differences between the two foldable flagships",
+        "Apple’s iPhone Duo and Samsung’s Galaxy Z Fold 8 offer different foldable-phone experiences. iPhone’s fixed right-side controls may challenge left-handed users, while Samsung offers more flexible one-handed layouts. Both have 7.6-inch inner displays."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-b914da0d3be885281b212436",
+      "reason": "Consumer comparison guide."
+    },
+    {
+      "id": "c1dada84c25b7b222d7f350e",
+      "event": "Kannadigas form majority of workforce, will expand their hiring: Bengaluru airport amid calls for local hiring",
+      "actor": "Bengaluru airport and KRV",
+      "action_type": "Local workforce statement and hiring intention",
+      "india_exposure": "Kannadiga job seekers",
+      "mechanism": "Local hiring commitments may affect access but no numbers or rule are given.",
+      "evidence": [
+        "Kannadigas form majority of workforce, will expand their hiring: Bengaluru airport amid calls for local hiring",
+        "The statement followed pro-Kannada organisation KRV's meeting with 14 airport companies on Friday, seeking more job opportunities for Kannadigas."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-c1dada84c25b7b222d7f350e",
+      "reason": "Attributed workforce claim retained, not treated as a hiring mandate."
+    },
+    {
+      "id": "051bc6055a7637f39d2a014c",
+      "event": "More private equity, venture capital funds plan to create equity value beyond fees, carry: Fundamentum’s Ashish Kumar",
+      "actor": "Fundamentum and Ashish Kumar",
+      "action_type": "Fund-manager strategy forecast",
+      "india_exposure": "Indian private capital managers",
+      "mechanism": "Owning firms could change incentives but most lack firm plans.",
+      "evidence": [
+        "More private equity, venture capital funds plan to create equity value beyond fees, carry: Fundamentum’s Ashish Kumar",
+        "Some Indian fund managers want to earn from owning valuable firms of their own, not just from fees and profit share, says Fundamentum’s Ashish Kumar. He expects four or five to try within three years, though most have no firm plans yet."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-051bc6055a7637f39d2a014c",
+      "reason": "Named forecast considered; speculative plans lack a discrete transaction."
+    },
+    {
+      "id": "2b5dbdc486bb62032fd33247",
+      "event": "Diwali eve crackers leave Delhi under a toxic haze, air quality nears ‘severe’",
+      "actor": "Delhi monitoring stations",
+      "action_type": "Pollution observation",
+      "india_exposure": "Delhi residents",
+      "mechanism": "Severe readings indicate health exposure without a new response.",
+      "evidence": [
+        "Diwali eve crackers leave Delhi under a toxic haze, air quality nears ‘severe’",
+        "Twenty-four of the 54 monitoring stations across the city recorded “severe” air quality while the remaining stations stood in the “very poor” category."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-348406350dafd381c8f52f71",
+      "reason": "Same Diwali air-quality episode represented by record 17.",
+      "duplicate_of": "348406350dafd381c8f52f71"
+    },
+    {
+      "id": "17b5d97f108d5fb17542f124",
+      "event": "Bengal: Minor gives birth inside nursing home washroom, throws baby out of window",
+      "actor": "Bengal police and nursing home",
+      "action_type": "Infant death investigation",
+      "india_exposure": "Individual family",
+      "mechanism": "Tragic criminal incident establishes no systemic rule.",
+      "evidence": [
+        "Bengal: Minor gives birth inside nursing home washroom, throws baby out of window",
+        "A nurse rushed to the spot to take the baby inside but found it dead, the police officer said, adding that the newborn was a girl."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-17b5d97f108d5fb17542f124",
+      "reason": "Local crime report without broader policy action."
+    },
+    {
+      "id": "e4afdddd378d87d40f845b48",
+      "event": "Top AI adopters in customer service gain over 50% KPI improvements, but value realization remains uneven: EY report",
+      "actor": "EY India",
+      "action_type": "AI customer service report",
+      "india_exposure": "Indian service organisations",
+      "mechanism": "Uneven reported KPI gains may affect adoption priorities.",
+      "evidence": [
+        "Top AI adopters in customer service gain over 50% KPI improvements, but value realization remains uneven: EY report",
+        "Organizations realizing the highest value from artificial intelligence (AI) in customer service reported up to 50 per cent or higher improvements across core customer service key performance indicators, according to EY India's latest report."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-e4afdddd378d87d40f845b48",
+      "reason": "Attributed high-adopter results considered, without generalising to all firms or causal proof."
+    },
+    {
+      "id": "56fd41ea6449b1c9535d14de",
+      "event": "HT Morning News Brief November 8: Delhi’s worst Diwali eve air in 10 years; Israel Prez picks Netanyahu rival Eisenkot, and more",
+      "actor": "HT editors",
+      "action_type": "Morning digest",
+      "india_exposure": "Indian news readers",
+      "mechanism": "Mixed headlines lack one discrete institutional event.",
+      "evidence": [
+        "HT Morning News Brief November 8: Delhi’s worst Diwali eve air in 10 years; Israel Prez picks Netanyahu rival Eisenkot, and more",
+        "Here are today's top headlines from politics, national and global events, sports, and entertainment."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-56fd41ea6449b1c9535d14de",
+      "reason": "Compilation rather than usable evidence for a card."
+    },
+    {
+      "id": "2bdd78dbff02d2e03d1e55f2",
+      "event": "NMC Healthcare founder BR Shetty held liable for $5.4 billion fraud in Abu Dhabi - All you need to know about the case",
+      "actor": "UAE court, BR Shetty and Prasanth Manghat",
+      "action_type": "Fraud liability ruling",
+      "india_exposure": "No specific Indian balance-sheet exposure established",
+      "mechanism": "Foreign contribution assessment does not establish Indian creditor recovery.",
+      "evidence": [
+        "NMC Healthcare founder BR Shetty held liable for $5.4 billion fraud in Abu Dhabi - All you need to know about the case",
+        "A UAE court held NMC Health co-founder BR Shetty and former CEO Prasanth Manghat liable for knowingly participating in fraudulent trading, including concealing billions in borrowings. The court set $5.397 billion as starting point for assessing their contributions to NMC’s assets."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-2bdd78dbff02d2e03d1e55f2",
+      "reason": "Concrete ruling considered but India effects are unspecified and amount is starting point."
+    },
+    {
+      "id": "46f3d1bc17b7f048b0cee8fd",
+      "event": "How SBI is steadily catching up with HDFC Bank in the margin race",
+      "actor": "SBI and HDFC Bank",
+      "action_type": "Margin trend analysis",
+      "india_exposure": "Indian banking",
+      "mechanism": "NIM convergence may alter competitive profitability.",
+      "evidence": [
+        "How SBI is steadily catching up with HDFC Bank in the margin race",
+        "The difference between the net interest margins (NIMs) of India’s largest lender and its largest private lender has shrunk consistently over the years, data analysed by Mint showed."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-46f3d1bc17b7f048b0cee8fd",
+      "reason": "Data analysis is substantive but summary lacks actual margins or release detail."
+    },
+    {
+      "id": "b9f02bbc3e71bf76d379e740",
+      "event": "Costa Rica shell entity and unauthorised foreign transactions - what ED raids at CoinDCX and Delta Exchange found",
+      "actor": "Enforcement Directorate, CoinDCX and Delta Exchange",
+      "action_type": "Search findings and FEMA investigation",
+      "india_exposure": "Indian crypto and cross-border traders",
+      "mechanism": "Scrutiny of stablecoin and affiliate transfers may change platform compliance costs.",
+      "evidence": [
+        "Costa Rica shell entity and unauthorised foreign transactions - what ED raids at CoinDCX and Delta Exchange found",
+        "ED said searches at premises linked to CoinDCX and Delta Exchange uncovered evidence of alleged FEMA violations involving crypto derivatives, tokenised foreign stocks and cross-border transactions. The agency is investigating payments in stablecoins and transfers to overseas affiliates."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "tech",
+      "decision": "select",
+      "event_key": "ed-coindcx-delta-fema-search-findings-november-2026",
+      "reason": "Agency allegations and ongoing probe are material; no conviction or proven breach claimed."
+    },
+    {
+      "id": "94b65e51e65a224fed7f1262",
+      "event": "SBI expands US footprint as California subsidiary opens first Texas branch",
+      "actor": "SBI California",
+      "action_type": "Texas branch inauguration",
+      "india_exposure": "Indian-owned bank and North Texas clients",
+      "mechanism": "Additional branch expands physical banking distribution.",
+      "evidence": [
+        "SBI expands US footprint as California subsidiary opens first Texas branch",
+        "State Bank of India (California), a wholly-owned subsidiary of India's largest lender State Bank of India (SBI), has inaugurated its new branch in Frisco, Texas. This opening marks the subsidiary's first physical expansion beyond California, with its US branches now at eight locations. The inauguration ceremony was led by SBI Group Chairman Challa Sreenivasulu Setty, alongside Consul General of India in Houston, DC Manjunath and Frisco Mayor Mark Hill. Located in the rapidly growing North Dallas region, the new Frisco branch is designed to offer a full suite of retail and business banking services. These include personal and business deposits, commercial lending, and international remittances, tailored specifically for individuals, professionals, entrepreneurs, and corporate entities across North Texas. Welcoming the lender's strategic expansion into the Lone Star State, Consul General Manjunath highlighted the branch's role in bolstering India-US economic and commercial ties, whil"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-94b65e51e65a224fed7f1262",
+      "reason": "Completed expansion retained; narrower Indian transmission than selected capex."
+    },
+    {
+      "id": "1b3fda1b575059c1ca1099f7",
+      "event": "Workflow, AI, health: test your business creativity with Edition 257 of our weekly quiz!",
+      "actor": "YourStory",
+      "action_type": "Business quiz",
+      "india_exposure": "Indian readers",
+      "mechanism": "Quiz answers do not constitute a new economic event.",
+      "evidence": [
+        "Workflow, AI, health: test your business creativity with Edition 257 of our weekly quiz!",
+        "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 256th quiz. Ready?"
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-1b3fda1b575059c1ca1099f7",
+      "reason": "Educational entertainment without operating news."
+    },
+    {
+      "id": "4d83426e1f7cb54f219c0f77",
+      "event": "Artist Bhagya Ajaikumar explains how good curation balances individual expression and collective vision",
+      "actor": "Bhagya Ajaikumar",
+      "action_type": "Art exhibition photo essay",
+      "india_exposure": "Indian gallery visitors",
+      "mechanism": "Curatorial opinions establish no technology or economic intervention.",
+      "evidence": [
+        "Artist Bhagya Ajaikumar explains how good curation balances individual expression and collective vision",
+        "In this photo essay, we showcase the ‘Bhoomi’ exhibition at Venkatappa Art Gallery, along with curator insights."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-4d83426e1f7cb54f219c0f77",
+      "reason": "Arts feature outside edition remit."
+    },
+    {
+      "id": "694ccdc299b80b0ef93cef09",
+      "event": "Punjab Police brings back wanted gangster Gurwinder alias Afridi from Ethiopia",
+      "actor": "Punjab Police and Gurwinder",
+      "action_type": "Return from Ethiopia",
+      "india_exposure": "Punjab criminal justice",
+      "mechanism": "Single return lacks a broader security-policy change.",
+      "evidence": [
+        "Punjab Police brings back wanted gangster Gurwinder alias Afridi from Ethiopia",
+        "Gurwinder aka Afridi, against whom the Punjab government had announced a reward of ₹5 lakh, landed at Delhi’s Indira Gandhi International (IGI) Airport"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-75c1dd2d02a0dc4e4fb3688d",
+      "reason": "Same accused return as record 50.",
+      "duplicate_of": "75c1dd2d02a0dc4e4fb3688d"
+    },
+    {
+      "id": "819d0f0a5880cb1b4ac1f83a",
+      "event": "HC restrains unauthorised use of Amitabh’s name, likeness",
+      "actor": "Delhi High Court and Amitabh Bachchan",
+      "action_type": "Permanent personality-rights protection",
+      "india_exposure": "Indian creators and commercial users",
+      "mechanism": "Consent restraint may affect unauthorised persona monetisation.",
+      "evidence": [
+        "HC restrains unauthorised use of Amitabh’s name, likeness",
+        "The Delhi high court has permanently protected the personality rights of veteran Bollywood actor Amitabh Bachchan, restraining entities from using his name, image, voice or other aspects of his persona without his consent"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-819d0f0a5880cb1b4ac1f83a",
+      "reason": "Material IP alternative; no AI-specific holding inferred."
+    },
+    {
+      "id": "57731070878e645fee94e228",
+      "event": "Acquitted, but disarmed: SC orders cops to return bodyguard’s revolver",
+      "actor": "Supreme Court and private bodyguard",
+      "action_type": "Revolver return order",
+      "india_exposure": "Acquitted Indian worker",
+      "mechanism": "Returning property can restore an individual's livelihood.",
+      "evidence": [
+        "Acquitted, but disarmed: SC orders cops to return bodyguard’s revolver",
+        "For a private bodyguard, a revolver is more than a weapon — it can be the key to a job"
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-57731070878e645fee94e228",
+      "reason": "Concrete order but reasoning and broader legal scope absent."
+    },
+    {
+      "id": "f8251f7508d3d0f8d9897a90",
+      "event": "Berkshire surprised with record buybacks, but pace slowed as the stock rose",
+      "actor": "Berkshire Hathaway",
+      "action_type": "Quarterly results and buybacks",
+      "india_exposure": "No direct Indian exposure established",
+      "mechanism": "US railroad and insurance results do not establish domestic effects.",
+      "evidence": [
+        "Berkshire surprised with record buybacks, but pace slowed as the stock rose",
+        "Also noteworthy from the company’s third-quarter results were big revenue and earnings gains for the company’s railroad unit, BNSF, and a drop in profits for its huge insurance group."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-f8251f7508d3d0f8d9897a90",
+      "reason": "Foreign corporate recap without India linkage."
+    },
+    {
+      "id": "67c2623754e3c4cc3ccd7498",
+      "event": "Ex-Tech Mahindra executive shot 15 times by neighbour in Faridabad, had come home for Diwali",
+      "actor": "Faridabad police",
+      "action_type": "Neighbour homicide arrest",
+      "india_exposure": "Faridabad family",
+      "mechanism": "Criminal allegations establish no technology-industry development.",
+      "evidence": [
+        "Ex-Tech Mahindra executive shot 15 times by neighbour in Faridabad, had come home for Diwali",
+        "Police say the suspect fired multiple rounds and was arrested the next day. Relatives say the families had argued over a dog and parking-related issues."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-67c2623754e3c4cc3ccd7498",
+      "reason": "Former employer identity does not turn local murder into tech news."
+    },
+    {
+      "id": "848d27dc688dd783b0cf99b9",
+      "event": "PM Modi extends Diwali wishes, to mark festival in Bastar: ‘Where Naxalism once held sway’",
+      "actor": "Prime Minister Modi",
+      "action_type": "Diwali greetings and Bastar visit",
+      "india_exposure": "Indian security personnel",
+      "mechanism": "Ceremonial visit offers no independently established capability change.",
+      "evidence": [
+        "PM Modi extends Diwali wishes, to mark festival in Bastar: ‘Where Naxalism once held sway’",
+        "PM Modi extended Diwali greetings to people across the country on Sunday. He will be celebrating the festival with the security personnel in Bastar."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-848d27dc688dd783b0cf99b9",
+      "reason": "Greeting preview distinct from an operational security decision."
+    },
+    {
+      "id": "2c8755abdddb1dfd261ca9e6",
+      "event": "Delhi breathes worst air on Diwali eve in 10 years",
+      "actor": "Weather forecasters, identities uncertain",
+      "action_type": "Monday severe-air forecast",
+      "india_exposure": "Delhi residents",
+      "mechanism": "Weak winds may retain pollution but timing is today.",
+      "evidence": [
+        "Delhi breathes worst air on Diwali eve in 10 years",
+        "Weak winds are forecast to trap pollution, with forecasts suggesting air quality could reach the severe category by Monday."
+      ],
+      "confidence": "medium",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "duplicate",
+      "event_key": "rss-event-348406350dafd381c8f52f71",
+      "reason": "Same Diwali pollution episode represented by record 17; no November 10 trigger.",
+      "duplicate_of": "348406350dafd381c8f52f71"
+    },
+    {
+      "id": "7165294e7b9085a4ac3f7552",
+      "event": "NIT Raipur, AKSI Aerospace join hands, set-up Centre Of Excellence: What will the new partnership focus on?",
+      "actor": "NIT Raipur and AKSI Aerospace",
+      "action_type": "Centre and manufacturing facility plan",
+      "india_exposure": "Indian aerospace research and drone training",
+      "mechanism": "Research-industry links could expand domestic aerospace skills and production.",
+      "evidence": [
+        "NIT Raipur, AKSI Aerospace join hands, set-up Centre Of Excellence: What will the new partnership focus on?",
+        "NIT Raipur and AKSI Aerospace Group plan to establish a Centre of Excellence for aerospace and autonomous technologies, alongside a manufacturing facility. The partnership will connect research with industrial production, provide hands-on training, and support India’s indigenous drone capabilities."
+      ],
+      "confidence": "high",
+      "materiality": 4,
+      "lane": "tech",
+      "decision": "eligible",
+      "event_key": "rss-event-7165294e7b9085a4ac3f7552",
+      "reason": "Strong planned collaboration alternative; IIT funding is more bounded and fresher."
+    },
+    {
+      "id": "743d62fd806119b9ce4ed691",
+      "event": "Bengaluru airport declares full emergency after security threat on Lucknow-bound IndiGo flight",
+      "actor": "Bengaluru airport and IndiGo",
+      "action_type": "Threat-triggered emergency",
+      "india_exposure": "Indian aviation passengers",
+      "mechanism": "Emergency response temporarily disrupts operations without a new safety rule.",
+      "evidence": [
+        "Bengaluru airport declares full emergency after security threat on Lucknow-bound IndiGo flight",
+        "A full emergency was declared at Bengaluru airport after a suspected hijack threat note was found in the washroom of a Lucknow-bound IndiGo flight."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-743d62fd806119b9ce4ed691",
+      "reason": "Single suspected threat incident rather than systemic strategy."
+    },
+    {
+      "id": "5c364c4e09520a4522b55158",
+      "event": "‘Apologise to Ram Bhakts first’: Yogi Adityanath ahead of Akhilesh Yadav's visit to Ayodhya",
+      "actor": "Yogi Adityanath",
+      "action_type": "Political criticism ahead of visit",
+      "india_exposure": "UP political supporters",
+      "mechanism": "Temple rhetoric does not establish a public policy action.",
+      "evidence": [
+        "‘Apologise to Ram Bhakts first’: Yogi Adityanath ahead of Akhilesh Yadav's visit to Ayodhya",
+        "UP chief minister Yogi Adityanath said the same forces that had opposed the Ram temple movement were now trying to take political mileage from it."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-5c364c4e09520a4522b55158",
+      "reason": "Campaign confrontation only."
+    },
+    {
+      "id": "3b1266e462463ee83ca89028",
+      "event": "Apple charges iPhone 18 Pro users up to 3 times its cost for storage upgrades: What buyers pay",
+      "actor": "Apple and Wall Street Journal",
+      "action_type": "Storage-margin estimate",
+      "india_exposure": "Indian phone consumers indirectly",
+      "mechanism": "Component markup estimate does not establish domestic production change.",
+      "evidence": [
+        "Apple charges iPhone 18 Pro users up to 3 times its cost for storage upgrades: What buyers pay",
+        "Apple charges iPhone 18 Pro buyers up to three times its estimated cost for storage upgrades, a Wall Street Journal analysis found. The company reportedly makes an estimated $408 on the 1TB upgrade and $750 on the 2TB variant, highlighting the hefty margins it earns from higher-capacity models."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-3b1266e462463ee83ca89028",
+      "reason": "Consumer pricing analysis considered but no India industrial event."
+    },
+    {
+      "id": "bd9a2b2f1abd2582b3801ed0",
+      "event": "Why Beijing blocked SoftBank’s $5.4 billion ABB Robotics deal? Setback for Masayoshi Son’s physical AI ambitions",
+      "actor": "Chinese authorities and SoftBank",
+      "action_type": "Reported robotics deal block",
+      "india_exposure": "No specific Indian exposure established",
+      "mechanism": "Foreign acquisition setback has no supported Indian transmission.",
+      "evidence": [
+        "Why Beijing blocked SoftBank’s $5.4 billion ABB Robotics deal? Setback for Masayoshi Son’s physical AI ambitions",
+        "The acquisition was expected to strengthen SoftBank’s revenue and profitability as the Japanese investment firm continues to expand its AI portfolio and awaits a potential financial boost from OpenAI’s anticipated public listing"
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-bd9a2b2f1abd2582b3801ed0",
+      "reason": "Deal status is concrete but summary lacks India effects and regulatory detail."
+    },
+    {
+      "id": "4c50ae5e3388ea95f3b7f639",
+      "event": "Reliance’s Independence Power Up biscuits get a motorsport makeover with Ajith Kumar Racing",
+      "actor": "Reliance Consumer Products",
+      "action_type": "Biscuit range rollout plan",
+      "india_exposure": "Tamil Nadu consumers and retail distribution",
+      "mechanism": "Low-price trial packs could widen packaged-food reach.",
+      "evidence": [
+        "Reliance’s Independence Power Up biscuits get a motorsport makeover with Ajith Kumar Racing",
+        "Reliance Consumer Products Ltd (RCPL) to roll out an expanded range of Independence biscuit which will be availble in nine variants. Trial packs will be rolled out across Tamil Nadu at ₹5."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-4c50ae5e3388ea95f3b7f639",
+      "reason": "Product expansion retained, but limited scale and no capacity investment specified."
+    },
+    {
+      "id": "129a5313af1cccf84c5aa4dc",
+      "event": "Defence minister Rajnath Singh reviews battle readiness, infra push along LAC in Sikkim",
+      "actor": "Rajnath Singh",
+      "action_type": "Readiness review and cyber-resilience request",
+      "india_exposure": "Indian armed forces at LAC",
+      "mechanism": "Cyber resilience could improve readiness if implemented.",
+      "evidence": [
+        "Defence minister Rajnath Singh reviews battle readiness, infra push along LAC in Sikkim",
+        "Singh asked the armed forces to strengthen cyber resilience, information integrity and domain awareness to boost combat readiness and tackle emerging threats."
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "national",
+      "decision": "eligible",
+      "event_key": "rss-event-129a5313af1cccf84c5aa4dc",
+      "reason": "Substantive security priority, but instruction lacks a funded or delivered capability."
+    },
+    {
+      "id": "b60da334a48cc2e710b5401b",
+      "event": "TDP-led alliance sweeps Andhra Pradesh MPTC, ZPTC elections, secures landslide victory; YSRCP lags behind",
+      "actor": "TDP-led alliance",
+      "action_type": "Local election results",
+      "india_exposure": "Andhra Pradesh local government",
+      "mechanism": "Seat results alter representation without establishing new economic policy.",
+      "evidence": [
+        "TDP-led alliance sweeps Andhra Pradesh MPTC, ZPTC elections, secures landslide victory; YSRCP lags behind",
+        "The TDP emerged as the dominant party, winning 229 ZPTC seats and 4,823 MPTC seats, including those declared unopposed."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-b60da334a48cc2e710b5401b",
+      "reason": "Electoral churn rather than a specific governance decision."
+    },
+    {
+      "id": "c3694c7ea8e3a0757a016977",
+      "event": "Kirloskar Industries Q2 profit rises 5% to ₹105 crore, income up 17%",
+      "actor": "Kirloskar Industries",
+      "action_type": "Quarterly earnings statement",
+      "india_exposure": "Indian ferrous and real-estate operations",
+      "mechanism": "Income growth and capacity optimisation may support industrial profitability.",
+      "evidence": [
+        "Kirloskar Industries Q2 profit rises 5% to ₹105 crore, income up 17%",
+        "Kirloskar Industries Ltd (KIL) has reported a 5 per cent rise in consolidated profit after tax to Rs 105 crore in the quarter ended September 2026. The company had posted a consolidated PAT (profit after tax) of Rs 100.1 crore in the year-ago period. Consolidated income of the company during the second quarter rose to Rs 2,097.7 crore from Rs 1,790.1 crore in the year-ago period, KIL said in a statement. \"Our material subsidiary, Kirloskar Ferrous Industries Limited, continued to deliver a resilient performance during the year, supported by operational stability, capacity optimisation and strong demand for its products across the sectors. On the real estate front, our wholly-owned subsidiary, Avante Spaces Limited (ASL), is progressing well. Our landmark Kothrud project is going well and moving forward on track, reinforcing our vision of creating premium, future-ready spaces that maximise value for our stakeholders,\" George Verghese, Managing Director, KIL, said. Kirloskar Industr"
+      ],
+      "confidence": "high",
+      "materiality": 3,
+      "lane": "macro",
+      "decision": "eligible",
+      "event_key": "rss-event-c3694c7ea8e3a0757a016977",
+      "reason": "Concrete earnings alternative; company resilience language is attributed, not independently verified."
+    },
+    {
+      "id": "6efdfa253959fc73c54f0032",
+      "event": "From poverty alleviation to prosperity",
+      "actor": "Author uncertain in RSS",
+      "action_type": "Poverty and prosperity analysis",
+      "india_exposure": "Indian informal workers",
+      "mechanism": "Weak wages and jobs can constrain mobility but no fresh intervention is documented.",
+      "evidence": [
+        "From poverty alleviation to prosperity",
+        "India has reduced extreme poverty, but its high prosperity gap shows that millions remain far from a comfortable standard of living; informal work, stagnant wages and limited employment opportunities continue to constrain upward mobility"
+      ],
+      "confidence": "medium",
+      "materiality": 2,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-6efdfa253959fc73c54f0032",
+      "reason": "Substantive context considered; summary supplies no discrete dated report or new data."
+    },
+    {
+      "id": "a36f735fb5317542de4e34b3",
+      "event": "CJP’s Abhijeet Dipke predicts ‘Modi govt’s defeat in 2029’ at anti-SIR rally in Kochi: ‘He will definitely go’",
+      "actor": "Abhijeet Dipke",
+      "action_type": "Election prediction at rally",
+      "india_exposure": "Indian opposition supporters",
+      "mechanism": "2029 prediction does not change present election administration.",
+      "evidence": [
+        "CJP’s Abhijeet Dipke predicts ‘Modi govt’s defeat in 2029’ at anti-SIR rally in Kochi: ‘He will definitely go’",
+        "Dipke alleged that the government was waging a war against the country's youth to protect Gyanesh Kumar and questioned why he was so important to the PM."
+      ],
+      "confidence": "high",
+      "materiality": 0,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-a36f735fb5317542de4e34b3",
+      "reason": "Campaign rhetoric and allegations without a completed decision."
+    },
+    {
+      "id": "48d010ac4cba1b8f23485946",
+      "event": "New-Age Tech Stocks Extend Rally, CarTrade Leads With 23.3% Gain",
+      "actor": "Inc42-covered technology stocks",
+      "action_type": "Weekly price recap",
+      "india_exposure": "Indian listed tech shareholders",
+      "mechanism": "Share gains alone do not establish technology investment.",
+      "evidence": [
+        "New-Age Tech Stocks Extend Rally, CarTrade Leads With 23.3% Gain",
+        "New-age tech stocks extended their rally this week, with 54 of the 69 companies under Inc42’s coverage posting gains ranging…"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "tech",
+      "decision": "reject",
+      "event_key": "rss-event-48d010ac4cba1b8f23485946",
+      "reason": "Routine market performance compilation."
+    },
+    {
+      "id": "a46a8130b136ba1ac7d36801",
+      "event": "Sony raises PlayStation sales forecast ahead of GTA 6 launch, reveals Marvel’s Wolverine sales figure",
+      "actor": "Sony",
+      "action_type": "PlayStation forecast revision",
+      "india_exposure": "No India-specific allocation established",
+      "mechanism": "Gaming forecasts do not establish Indian operating capacity.",
+      "evidence": [
+        "Sony raises PlayStation sales forecast ahead of GTA 6 launch, reveals Marvel’s Wolverine sales figure",
+        "Sony has raised its PlayStation business sales and profit forecasts by 6%, citing stronger sales of third-party games. The company has also revealed that Marvel's Wolverine sold 2.4 million copies in its first 50 days."
+      ],
+      "confidence": "high",
+      "materiality": 2,
+      "lane": "out-of-scope",
+      "decision": "reject",
+      "event_key": "rss-event-a46a8130b136ba1ac7d36801",
+      "reason": "Concrete foreign forecast considered but domestic linkage absent."
+    },
+    {
+      "id": "88bafde7067e84ac1aae113a",
+      "event": "Rampur’s Lavi Fair: Storytelling through 300 years of Himalayan trade and tradition",
+      "actor": "Rampur Lavi Fair participants",
+      "action_type": "Trade-history feature",
+      "india_exposure": "Himachal traders and entrepreneurs",
+      "mechanism": "Digital payments narrative lacks a new measurable adoption event.",
+      "evidence": [
+        "Rampur’s Lavi Fair: Storytelling through 300 years of Himalayan trade and tradition",
+        "Rampur Bushahr’s Lavi Fair in Himachal Pradesh traces a Himalayan journey from wool and barter to women entrepreneurs and digital payments"
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "macro",
+      "decision": "reject",
+      "event_key": "rss-event-88bafde7067e84ac1aae113a",
+      "reason": "Historical cultural commerce feature, no dated new trade measure."
+    },
+    {
+      "id": "816620af7a9cd5271b31ec11",
+      "event": "Ayodhya lights up with over 30 lakh diyas on Diwali eve, CM Yogi attends 10th edition of Deepotsav",
+      "actor": "Ayodhya and state organisers",
+      "action_type": "Deepotsav celebration",
+      "india_exposure": "Ayodhya residents and visitors",
+      "mechanism": "Lamp ceremony establishes no new infrastructure or tourism policy.",
+      "evidence": [
+        "Ayodhya lights up with over 30 lakh diyas on Diwali eve, CM Yogi attends 10th edition of Deepotsav",
+        "Ayodhya lit up with thousands of earthen lamps on Saturday as the city celebrated the 10th edition of Deepotsav."
+      ],
+      "confidence": "high",
+      "materiality": 1,
+      "lane": "national",
+      "decision": "reject",
+      "event_key": "rss-event-816620af7a9cd5271b31ec11",
+      "reason": "Festival spectacle rather than material institutional event."
+    }
+  ]
+}

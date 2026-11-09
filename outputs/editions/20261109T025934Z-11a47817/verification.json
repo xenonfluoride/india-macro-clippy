@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session; separate second semantic pass, not independent review",
+  "checked_at": "2026-11-09T03:06:19.765328+00:00",
+  "input_hashes": {
+    "capture.json": "e744ce90cf55202e31a41c6202a9d4e5ffe385f7d7659eb6cf0f19d53557a69c",
+    "history.json": "1b1d5d5050169d4361448a504635019111da418c477cb174f258b11b4725e0ee",
+    "review.json": "03cb3f7d4a73bdc70c7644d314be2f9489254e44a33bacb9d14aad5c996c116c",
+    "edition.json": "bb7a98ac8e7ef33b548ca4366d4709c90c3e4d208f3aeb69673aeb9d39fad873",
+    "market.json": "56b2d8cf5b69171c13fc4a5ea05585bc319277b03ff6353bf175a1fd2b7edd51"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read bounded context batches at offsets 0, 40, 80 and 120 to next_offset=null; recovered the verbose first batch through candidate-only reprint and recovered records 149-155 separately. All 156 cases have authored actor, status, exposure, mechanism and disposition assessments in editor-decisions.psv, packaged without automated story selection. Examined operating facts in Finolex, Exide, RR Kabel, telecom and consumer-goods trading headlines; retained these plus portfolio flows, NIT aerospace, oil shipping access and legal alternatives. Explicitly linked Nvidia, memoir, pollution, FSSAI, JNU and other repeated events to representatives. Reviewed all 125 history titles and event keys and reread potentially related FSSAI, detention, cyber and energy summaries. No keyword or source quota selected this slate.",
+  "hero": "The hero covers all seven cards: carrier intentions, cost forecast and capex plan lead; enforcement and detention remedy are factual institutional actions; academic collaboration and ongoing crypto probe retain their different statuses. It adds no output estimates or completed deployments.",
+  "catalysts": "November 10 memoir publication appears in both HT and NDTV but is a book release without a material policy deliverable. November 9 CSIR deadline and Monday pollution forecasts concern today; November 8 trading is past. PSU November 11/12, Zee November 12 and Army November 30 are later and shareholder or application reminders. Other investment and education schedules supply no distinct next-day trigger; empty catalysts produces exactly one closing absence module.",
+  "cards": [
+    {
+      "factual_support": "Reread IOC's full RSS summary: crude and LPG carrier acquisition is planned; Anuj Jain attributes prior board approval and tenders issued months earlier. Brief explicitly preserves earlier timing and exploratory domestic shipbuilding; no purchase completion or vessel delivery is claimed.",
+      "analysis": "Ownership-versus-charter exposure is conditional analysis grounded in the stated logistics rationale. Tender awards and delivery schedules are future observable signals, not asserted outcomes or promised freight savings.",
+      "novelty": "History's September oil-source mix and new deepwater licensing concern different actions and actors. No prior IOC vessel acquisition event appears in the 125-entry ledger; earlier tender timing is disclosed rather than relabelled as today's action.",
+      "id": "e9332cf01d8b70c91a925743"
+    },
+    {
+      "factual_support": "Annual 35000-40000 crore range, next couple of years, Manan Vakharia finance role and airports/data centres/PVC drivers all appear in the RSS. Brief consistently calls this planned spending and never claims funds have been spent or projects commissioned.",
+      "analysis": "Capacity and financing demands are conditional consequences of execution. Actual expenditure and commissioning provide a distinct check against the stated annual intentions.",
+      "novelty": "No Adani Enterprises annual capex event is in the ledger. Other historical infrastructure programmes involve different actors and commitments; the Noida power-licence candidate is separately retained as an alternative, not fused into this brief.",
+      "id": "0c50439a497d73c7aa513709"
+    },
+    {
+      "factual_support": "The summary attributes another 5 per cent sequential December-quarter cost increase to managing director Satish Pai after a similar September-quarter rise. Coal shortage appears in the title. Brief preserves forecast and sequential basis, not realised quarter costs.",
+      "analysis": "Margin compression is conditional on pricing or efficiency offsets, not an asserted profit fall. The next operating update's realised costs and coal availability are relevant distinct signals.",
+      "novelty": "The ledger's Mahindra tractor outlook and earlier industrial indicators are different events. No Hindalco December-quarter production-cost forecast was published previously.",
+      "id": "216464498d09cf694388140d"
+    },
+    {
+      "factual_support": "Title supports 81.8 crore seizures and over 1100 suspended licences. Summary supplies 56431 inspections, 10047 improvement notices and September 1-November 5 period. Brief keeps all denominators, regulator attribution and suspension status without asserting convictions or permanent closures.",
+      "analysis": "Compliance costs follow from seizures and suspensions; correction route and follow-up checks are analysis and future signals. No success in improving food safety is claimed as already demonstrated.",
+      "novelty": "Reread history's Nestle/Zydus product-claim notices: those specific nutrition claims differ from this national sweep's aggregate inspections, seizures and licence suspensions. NDTV's rounded 82-crore coverage is explicitly duplicate_of this precise HT representative.",
+      "id": "eebf0c4db265a971f559d9a7"
+    },
+    {
+      "factual_support": "RSS supports Allahabad HC release order, state payment direction of 20000 rupees and repeated claims of missing police CCTV. Brief says ordered and directed, avoiding a completed release, paid compensation or independently proven destruction of footage.",
+      "analysis": "Financial accountability and evidentiary scrutiny follow from the compensation and CCTV concerns. Compliance and subsequent court assessments are next signals; no blanket nationwide detention rule is invented.",
+      "novelty": "History's Supreme Court preventive-detention caution and 24-hour production clock are separate rulings. This Allahabad case adds a specific release and compensation remedy and CCTV concern rather than reusing either earlier rule.",
+      "id": "0002b0551adac90509fbd0d6"
+    },
+    {
+      "factual_support": "NDTV title supplies IIT Delhi, Walmart Global Tech and nine crore initiative. Summary supplies collaboration for research/education in AI, ML and Data Learning. Brief preserves that unusual source wording and claims no disbursement, successful research or commercial deployment.",
+      "analysis": "Applied research and skills are conditional benefits. Funded projects and teaching/research outputs would substantiate execution without claiming undisclosed project terms.",
+      "novelty": "IndiaAI foundation-model unveiling, HCL partnerships and Venomics funding in history are distinct actors and events. NIT Raipur aerospace partnership is a fresh but separate alternative; no unchanged published AI launch is reused.",
+      "id": "27239d0e363fc32b49adb206"
+    },
+    {
+      "factual_support": "Mint summary explicitly attributes search findings to ED and calls the FEMA violations alleged. Derivatives, tokenised foreign stocks, cross-border transactions, stablecoins and overseas affiliates are supported. Brief preserves investigation status, avoiding guilt, charges, penalty or transaction amounts.",
+      "analysis": "Higher compliance and counterparty checks are a conditional platform implication. Formal findings and platform responses remain future observable signals rather than asserted enforcement outcomes.",
+      "novelty": "Prior RBI cyber-remediation rules, CERT-In audits and Razorpay licence concern different regulators, actions and products. No CoinDCX/Delta FEMA search-findings event is present in the publication ledger.",
+      "id": "b9f02bbc3e71bf76d379e740"
+    }
+  ]
+}

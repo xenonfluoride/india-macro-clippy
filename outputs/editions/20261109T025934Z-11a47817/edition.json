@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "run_id": "20261109T025934Z-11a47817",
+  "created_at": "2026-11-09T03:05:16.370870+00:00",
+  "date": "2026-11-09",
+  "issue": 28,
+  "hero": "Energy logistics, industrial costs and infrastructure spending lead this edition: IOC plans owned carriers, Hindalco forecasts another cost increase and Adani Enterprises outlines annual capex intentions. Food-safety enforcement and a detention remedy test institutional accountability, while an IIT Delhi research collaboration and an ongoing crypto-platform probe frame opportunity and compliance in technology.",
+  "hero_card_ids": [
+    "e9332cf01d8b70c91a925743",
+    "0c50439a497d73c7aa513709",
+    "216464498d09cf694388140d",
+    "eebf0c4db265a971f559d9a7",
+    "0002b0551adac90509fbd0d6",
+    "27239d0e363fc32b49adb206",
+    "b9f02bbc3e71bf76d379e740"
+  ],
+  "cards": [
+    {
+      "id": "e9332cf01d8b70c91a925743",
+      "lane": "macro",
+      "headline": "IOC to buy crude, LPG ships as West Asia crisis exposes shipping risks",
+      "brief": "Business Standard reports that Indian Oil Corporation plans to acquire its own crude oil and LPG carriers amid Hormuz shipping disruption and higher freight costs. Finance director Anuj Jain said the board had already approved a few vessel purchases and tenders were issued several months ago; building ships in India remains under exploration.",
+      "mechanism": "Owning carriers could give the refiner greater control over import logistics while shifting freight exposure into vessel ownership and operating costs.",
+      "watch": "Watch for tender awards and delivery schedules to show whether the approved purchases become usable shipping capacity.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Indian Oil Corporation plans to acquire its own crude oil and LPG carriers amid Hormuz shipping disruption and higher freight costs. Finance director Anuj Jain said the board had already approved a few vessel purchases and tenders were issued several months ago; building ships in India remains under exploration.",
+          "evidence": [
+            "State-owned Indian Oil Corporation plans to acquire crude oil and liquefied petroleum gas carriers of its own as disruptions to shipping around the Strait of Hormuz and soaring freight costs prompt India's largest oil refiner to strengthen control over its energy supply chain.",
+            "The company's board has already approved the purchase of a few vessels, and tenders were issued several months ago, Director of Finance Anuj Jain said during its second-quarter earnings call.",
+            "Jain said, adding that IOC was also exploring the possibility of building ships in India"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0c50439a497d73c7aa513709",
+      "lane": "macro",
+      "headline": "Adani Enterprises plans ₹35,000-₹40,000 cr annual capex in next two years",
+      "brief": "Business Standard reports that Adani Enterprises plans annual spending of ₹35,000 crore to ₹40,000 crore over the next couple of years. Finance head Manan Vakharia identified airports, data centres and PVC as the main investment drivers.",
+      "mechanism": "Executing the planned spending could expand transport, digital infrastructure and manufacturing capacity while increasing funding and project-delivery demands.",
+      "watch": "Watch for actual capital expenditure and commissioning milestones against the stated annual spending range.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Adani Enterprises plans annual spending of ₹35,000 crore to ₹40,000 crore over the next couple of years. Finance head Manan Vakharia identified airports, data centres and PVC as the main investment drivers.",
+          "evidence": [
+            "Adani Enterprises Ltd plans to spend between Rs 35,000 crore and Rs 40,000 crore annually over the next couple of years, with airports, data centres and its proposed PVC complex emerging as the biggest investment drivers",
+            "Manan Vakharia, head of finance at Adani Enterprises",
+            "\"The heavy lifting will be done by airports, data centres and PVC,\" Vakharia said."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216464498d09cf694388140d",
+      "lane": "macro",
+      "headline": "Hindalco flags coal shortage, expects 5% rise in aluminium production costs",
+      "brief": "Hindalco expects aluminium production costs to rise another 5% sequentially in the December quarter after a similar September-quarter increase, managing director Satish Pai said, according to Business Standard. The report flags a coal shortage.",
+      "mechanism": "Higher production costs could compress aluminium margins unless selling prices or operating efficiencies absorb the increase.",
+      "watch": "Watch for realised production costs and coal availability in the next operating update.",
+      "claims": [
+        {
+          "statement": "Hindalco expects aluminium production costs to rise another 5% sequentially in the December quarter after a similar September-quarter increase, managing director Satish Pai said, according to Business Standard. The report flags a coal shortage.",
+          "evidence": [
+            "The metals company expects aluminium production costs to rise another 5 per cent sequentially in the December quarter, after a similar increase in the September quarter, MD Satish Pai said",
+            "Hindalco flags coal shortage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eebf0c4db265a971f559d9a7",
+      "lane": "national",
+      "headline": "FSSAI seizes food items worth ₹81.8 crore, suspends over 1,100 licences in two-month enforcement drive",
+      "brief": "Hindustan Times reports that FSSAI seized food items worth ₹81.8 crore and suspended over 1,100 licences in its enforcement drive. The regulator said it inspected 56,431 establishments and issued 10,047 improvement notices between September 1 and November 5.",
+      "mechanism": "Seizures and licence suspensions raise the commercial cost of food-safety failures while improvement notices create a route to corrective compliance.",
+      "watch": "Watch for follow-up inspection results and licence-restoration decisions to assess whether the sweep produces sustained compliance.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that FSSAI seized food items worth ₹81.8 crore and suspended over 1,100 licences in its enforcement drive. The regulator said it inspected 56,431 establishments and issued 10,047 improvement notices between September 1 and November 5.",
+          "evidence": [
+            "FSSAI seizes food items worth ₹81.8 crore, suspends over 1,100 licences in two-month enforcement drive",
+            "The food safety regulator said it had inspected 56,431 establishments and issued 10,047 improvement notices from September 1 to November 5 as part of the drive."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0002b0551adac90509fbd0d6",
+      "lane": "national",
+      "headline": "Allahabad HC calls civil liberties situation in UP 'shameful', flags illegal detention by police",
+      "brief": "The Allahabad High Court ordered a petitioner's release and directed the state to pay him ₹20,000, Hindustan Times reports in its coverage of illegal police detention in Uttar Pradesh. The court also flagged repeated claims of missing police CCTV footage.",
+      "mechanism": "A compensation direction attaches a financial consequence to unlawful detention while missing footage can weaken scrutiny of police conduct.",
+      "watch": "Watch for compliance with the release and payment directions and any subsequent court assessment of CCTV record availability.",
+      "claims": [
+        {
+          "statement": "The Allahabad High Court ordered a petitioner's release and directed the state to pay him ₹20,000, Hindustan Times reports in its coverage of illegal police detention in Uttar Pradesh. The court also flagged repeated claims of missing police CCTV footage.",
+          "evidence": [
+            "The Allahabad HC ordered the petitioner's release and directed the state to pay him ₹20,000, while flagging repeated claims of missing police CCTV footage.",
+            "Allahabad HC calls civil liberties situation in UP 'shameful', flags illegal detention by police"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27239d0e363fc32b49adb206",
+      "lane": "tech",
+      "headline": "IIT Delhi Partners With Walmart Global Tech For Rs 9 Crore AI Research And Education Initiative",
+      "brief": "NDTV reports that IIT Delhi and Walmart Global Tech have partnered on a ₹9 crore AI research and education initiative. The collaboration aims to strengthen research and education in artificial intelligence, machine learning and data learning.",
+      "mechanism": "Industry-backed academic collaboration can support applied AI research and skills development without guaranteeing commercial deployment.",
+      "watch": "Watch for funded project announcements and research or teaching outputs that make the collaboration's scope observable.",
+      "claims": [
+        {
+          "statement": "NDTV reports that IIT Delhi and Walmart Global Tech have partnered on a ₹9 crore AI research and education initiative. The collaboration aims to strengthen research and education in artificial intelligence, machine learning and data learning.",
+          "evidence": [
+            "IIT Delhi Partners With Walmart Global Tech For Rs 9 Crore AI Research And Education Initiative",
+            "IIT Delhi has collaborated with the Walmart Global Tech to strengthen research, education in Artificial Intelligence (AI), Machine Learning (ML) and Data Learning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9f02bbc3e71bf76d379e740",
+      "lane": "tech",
+      "headline": "Costa Rica shell entity and unauthorised foreign transactions - what ED raids at CoinDCX and Delta Exchange found",
+      "brief": "The Enforcement Directorate said searches at premises linked to CoinDCX and Delta Exchange uncovered evidence of alleged FEMA violations involving crypto derivatives, tokenised foreign stocks and cross-border transactions, Mint reports. The agency is investigating stablecoin payments and transfers to overseas affiliates.",
+      "mechanism": "Scrutiny of cross-border platform flows could increase compliance and counterparty checks for Indian digital-asset services.",
+      "watch": "Watch for formal agency findings and platform responses that clarify the transactions under scrutiny.",
+      "claims": [
+        {
+          "statement": "The Enforcement Directorate said searches at premises linked to CoinDCX and Delta Exchange uncovered evidence of alleged FEMA violations involving crypto derivatives, tokenised foreign stocks and cross-border transactions, Mint reports. The agency is investigating stablecoin payments and transfers to overseas affiliates.",
+          "evidence": [
+            "ED said searches at premises linked to CoinDCX and Delta Exchange uncovered evidence of alleged FEMA violations involving crypto derivatives, tokenised foreign stocks and cross-border transactions.",
+            "The agency is investigating payments in stablecoins and transfers to overseas affiliates."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed the full pool for November 10, 2026. Sonia Gandhi's memoir release is explicitly dated November 10 but has no material policy or economic deliverable. CSIR UGC-NET closes November 9, which is today; pollution forecasts referring to Monday also concern today, and Muhurat trading occurred November 8. PSU dividend dates are November 11 and 12, Zee's undecided board measures November 12, Army Cadet College applications November 30, and exam, software, aircraft and capex schedules concern later periods or unspecified dates. None supplies a distinct material RSS-backed next-day catalyst."
+}
