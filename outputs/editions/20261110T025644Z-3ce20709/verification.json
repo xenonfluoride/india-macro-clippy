@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex session, separate second evidence-check pass",
+  "candidate_coverage": "Read every captured title and summary at offsets 0,40,80,120,160,200,240 through next_offset=null: 243 candidates from fifteen successful feeds. Authored individual actor, action, exposure, mechanism and disposition assessments; grouped duplicates with direct representative links. Compared all132 history titles and event keys, including special OALP introduction, prior detention and bail rulings, connectivity-adjacent telecom rules and research support. Retained stronger alternatives on CPSE pledges, storage approval, oilmeal, fuel testing, L&T order, Morepen launch, banking supervision and AI leadership. Examined operational information in market headlines, including Chemplast, Voltas, Gujarat Energy and Alembic rather than vetoing stock words. Incomplete ethanol and unverified chip claims have bounded uncertainty.",
+  "hero": "The hero maps all seven cards to actual capex, export competitiveness, bidding time, scholarship retention, bail implementation, connectivity and engineering capacity. It claims neither commissioned assets nor completed releases, realised planned spending or universal household connectivity.",
+  "catalysts": "Checked November11 against all date-bearing records. MarketSmith is stock advice; Wednesday Braskem deadline lacks Indian exposure. November10 closures and memoir are today, November13 CAIT/Chhath dates later, November23/25 pollution hearings later, December5 course later. Weekly macro calendar has no dated November11 release. Empty catalyst array and one closing absence module are warranted.",
+  "cards": [
+    {
+      "factual_support": "The CPSE summary directly supports63companies,nearly13percent growth,5.03trillion rupees and April-October spending with railways,highways and energy leading. The brief attributes the report and does not equate expenditure with commissioned assets.",
+      "analysis": "Supplier demand is an explicit inference from executed investment; the next report and project completions are observable follow-through rather than invented outcomes.",
+      "novelty": "This April-October spending report is absent from history and differs from Adani intentions and earlier individual investment announcements.",
+      "id": "08b7b9847170c64003dad705"
+    },
+    {
+      "factual_support": "SEA attribution,April-August comparison,28.51percent,12.82versus17.93lakh tonnes and205000versus757000soybean tonnes all reproduce the summary; no whole-year decline is inferred.",
+      "analysis": "Processor pressure from export competitiveness follows the source price-gap discussion; future export recovery is framed as a signal and not a forecast certainty.",
+      "novelty": "No oilmeal export release appears in history; prior maize allocation and drought coverage concern different commodities and events.",
+      "id": "5cd1d4d9d5593948b05aa84f"
+    },
+    {
+      "factual_support": "The summary explicitly names existing OALP10and11,December10,2026,seventh and third postponements and DGH's lack of stated reasons; the brief avoids endorsing the truncated speculative reason.",
+      "analysis": "Bidding extension implies more preparation time and later allocation opportunity, while receipt of bids or another extension is a distinct measurable next signal.",
+      "novelty": "History's special deepwater licensing introduction is a separate instrument; this new deadline for existing numbered rounds is not relabelled coverage of the earlier launch.",
+      "id": "7b1f73f465cf5450c6315c4e"
+    },
+    {
+      "factual_support": "The summary supports failure or missed exam causing loss of scholarship retention and mentorship restriction to years three and four with lower five-year maximum; no invented rupee reduction or effective date is added.",
+      "analysis": "Reduced funding continuity follows the two restrictions; implementation guidance on interrupted exams is a prospective question, not an asserted exemption.",
+      "novelty": "INSPIRE retention restrictions are not in the accepted ledger and are distinct from the earlier RDI fund manager approvals and AI research partnerships.",
+      "id": "5d4b87a39cc59a1516a81575"
+    },
+    {
+      "factual_support": "Title establishes undertrials still jailed after bail,summary establishes Supreme Court direction to Uttar Pradesh and DLSA consultation. No automatic release,compensation or new bail entitlement is claimed.",
+      "analysis": "Identification may expose practical release barriers; documented releases and explanations are future signals,not reported results.",
+      "novelty": "Distinct from Allahabad illegal-detention compensation,SC24hour production clock and convicted-prisoner sentence-suspension boundaries in history.",
+      "id": "790efd7089b682f0a0b9ecfd"
+    },
+    {
+      "factual_support": "The three-fourths,four-year and4Gclaims appear in the original headline; RTI provenance appears in the summary. This is a decline in villages without coverage,not a fourfold rise in coverage or universal access.",
+      "analysis": "Digital service access is a possible consequence explicitly qualified by household reliability; future speed and reliability evidence is the next signal.",
+      "novelty": "The ledger includes caller-name and complaint-support mandates but no four-year village connectivity data report.",
+      "id": "3f71fc308fa3527a1792e88f"
+    },
+    {
+      "factual_support": "Headline supports SplashBI centre opening in Hyderabad; summary supports over100million dollars planned over five to seven years and specified uses. The five-year-only YourStory variant is not blended into this claim.",
+      "analysis": "Local skills depend on execution of planned spending; staffing and infrastructure disclosures provide a specific check separate from the completed opening.",
+      "novelty": "New company and GCC event; prior Hyderabad Cosmoserve facility and other technology centre announcements have different actors and functions.",
+      "id": "fd99f500ee941e0af0eea153"
+    }
+  ],
+  "input_hashes": {
+    "capture.json": "7d763d6fc476b713ba0479f5ba76628539a97c0e251c9c25cf829e55d544a992",
+    "history.json": "91df7a6106b36caced20ebe2f9fab65543bb1b87fea1a382653c8329e8dc3bc0",
+    "review.json": "5517e18fb282f0b89719c2c529ee3d581d28d3052ab88098caff3d4e97ef5253",
+    "edition.json": "8b364b9d6e521b332aed3f5c204bbf2e0c76f6d8753437a55f145296ed524378",
+    "market.json": "10417193c805e223e1455084414bd40c3bf7c0b068a6490d7ce965cb63883e40"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "checked_at": "2026-11-10T03:05:28.694342+00:00"
+}

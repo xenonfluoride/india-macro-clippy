@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "run_id": "20261110T025644Z-3ce20709",
+  "created_at": "2026-11-10T03:03:52.155514+00:00",
+  "date": "2026-11-10",
+  "issue": 29,
+  "hero": "Public-sector capital spending is advancing, while oilmeal exporters face a sharp competitiveness squeeze and offshore bidders gain more time. Scholarship restrictions and a court direction on prisoners granted bail put implementation in focus; village connectivity data and a Hyderabad software centre show two different paths to wider digital capacity.",
+  "hero_card_ids": [
+    "08b7b9847170c64003dad705",
+    "5cd1d4d9d5593948b05aa84f",
+    "7b1f73f465cf5450c6315c4e",
+    "5d4b87a39cc59a1516a81575",
+    "790efd7089b682f0a0b9ecfd",
+    "3f71fc308fa3527a1792e88f",
+    "fd99f500ee941e0af0eea153"
+  ],
+  "cards": [
+    {
+      "id": "08b7b9847170c64003dad705",
+      "lane": "macro",
+      "headline": "CPSEs achieve 60% of FY27 capital expenditure target in April-October",
+      "brief": "Business Standard reports that capital expenditure by 63 CPSEs rose nearly 13 per cent to ₹5.03 trillion during April–October, with railways, highways and energy companies among the leading spenders.",
+      "mechanism": "Executed public-sector investment can support infrastructure suppliers and construction demand before new assets begin operating.",
+      "watch": "Watch whether subsequent spending reports sustain this pace and translate expenditure into completed projects.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that capital expenditure by 63 CPSEs rose nearly 13 per cent to ₹5.03 trillion during April–October, with railways, highways and energy companies among the leading spenders.",
+          "evidence": [
+            "CPSEs achieve 60% of FY27 capital expenditure target in April-October",
+            "Capital expenditure by 63 CPSEs rose nearly 13 per cent to ₹5.03 trillion during April-October, with railways, highways and energy companies among the leading spenders."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5cd1d4d9d5593948b05aa84f",
+      "lane": "macro",
+      "headline": "India's oilmeal exports fall 28.5% as soymeal loses to Brazil, Argentina",
+      "brief": "The Solvent Extractors’ Association of India said oilmeal exports fell 28.51 per cent to 12.82 lakh tonnes in April–August of the current fiscal year, against 17.93 lakh tonnes a year earlier. Soybean meal exports fell 73 per cent to 205,000 tonnes from 757,000 tonnes.",
+      "mechanism": "Weaker export competitiveness can squeeze Indian processors even when domestic feed demand supports sales.",
+      "watch": "Watch whether the next export data show soybean meal recovering volumes as the international price gap changes.",
+      "claims": [
+        {
+          "statement": "The Solvent Extractors’ Association of India said oilmeal exports fell 28.51 per cent to 12.82 lakh tonnes in April–August of the current fiscal year, against 17.93 lakh tonnes a year earlier. Soybean meal exports fell 73 per cent to 205,000 tonnes from 757,000 tonnes.",
+          "evidence": [
+            "India's oilmeal exports fall 28.5% as soymeal loses to Brazil, Argentina",
+            "India's exports of oilmeals, mainly used as animal feed, fell 28.51 per cent in the April-August period of the current fiscal year to 12.82 lakh tonne, as a slump in soybean meal sales weighed on shipments, an industry body said on Monday. Exports were 17.93 lakh tonnes in the same period a year earlier, the Solvent Extractors' Association of India (SEA) said. Total oilmeal exports in the 2025-26 fiscal year stood at 37.68 lakh tonnes. Soybean meal exports plunged 73 per cent to 2,05,000 tonnes from 7,57,000 tonnes a year earlier. \"Indian soybean meal has faced severe pricing pressure in international markets during August 2026, trading around USD 622 per tonne compared to global benchmarks near USD 445 per tonne,\" the SEA said in a statement. Cheaper supplies from South American producers such as Argentina and Brazil continue to capture major market share, it added. Strong domestic demand from livestock and poultry feed makers, along with continued Red Sea shipping disruptions an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7b1f73f465cf5450c6315c4e",
+      "lane": "macro",
+      "headline": "Govt extends deepsea oil, gas block bidding deadline again to December 10",
+      "brief": "Business Standard reports that the government extended bidding for deepwater and ultra-deepwater blocks under the tenth and eleventh Open Acreage Licensing Policy rounds to December 10, 2026. The report describes this as the seventh postponement for the tenth round and the third for the eleventh; DGH did not specify the reasons.",
+      "mechanism": "More time gives explorers additional room to prepare offers while delaying the path from acreage allocation to drilling.",
+      "watch": "Watch whether bids arrive by the revised deadline or another postponement follows.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that the government extended bidding for deepwater and ultra-deepwater blocks under the tenth and eleventh Open Acreage Licensing Policy rounds to December 10, 2026. The report describes this as the seventh postponement for the tenth round and the third for the eleventh; DGH did not specify the reasons.",
+          "evidence": [
+            "Govt extends deepsea oil, gas block bidding deadline again to December 10",
+            "The government has extended the deadline for submitting bids for deepsea oil and gas exploration blocks under its 10th and 11th Open Acreage Licensing Policy (OALP) rounds by almost a month, giving prospective investors until December 10, 2026, to submit offers for deepwater and ultra-deepwater acreage. The latest extension marks the seventh postponement for OALP-X and the third for OALP-XI, underscoring the challenges of attracting investment into India's technically complex offshore exploration sector despite a series of policy and fiscal measures aimed at improving its attractiveness. The Directorate General of Hydrocarbons (DGH), the upstream oil and gas nodal agency of the Ministry of Petroleum and Natural Gas, on its website that bids for the deepwater and ultra-deepwater blocks offered in OALP Bid Round-X and OALP Bid Round-XI is now December 10. While the DGH did not specify the reasons for the latest postponement, industry sources said the move may be linked to the recently"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d4b87a39cc59a1516a81575",
+      "lane": "national",
+      "headline": "DST: No INSPIRE grant if student fails, misses exam",
+      "brief": "Hindustan Times reports that students who fail or miss a university examination will no longer retain scholarships under the Centre’s INSPIRE-Scholarship for Higher Education scheme. The annual research mentorship grant is now restricted to the third and fourth years, reducing maximum support over five years.",
+      "mechanism": "Tighter retention and mentorship rules can reduce financial continuity for students pursuing science education.",
+      "watch": "Watch how implementation guidance handles interrupted examinations and communicates the revised support schedule.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that students who fail or miss a university examination will no longer retain scholarships under the Centre’s INSPIRE-Scholarship for Higher Education scheme. The annual research mentorship grant is now restricted to the third and fourth years, reducing maximum support over five years.",
+          "evidence": [
+            "DST: No INSPIRE grant if student fails, misses exam",
+            "Students who fail or miss a university examination will no longer be able to retain their scholarships under the Centre’s flagship INSPIRE-Scholarship for Higher Education (SHE) scheme, and the annual research mentorship grant has been restricted to the third and fourth years, reducing the maximum financial support over five years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "790efd7089b682f0a0b9ecfd",
+      "lane": "national",
+      "headline": "SC directs Uttar Pradesh to identify undertrial prisoners languishing in jails despite getting bail",
+      "brief": "Hindustan Times reports that the Supreme Court directed Uttar Pradesh to identify undertrial prisoners still in jail despite being granted bail, in consultation with DLSA.",
+      "mechanism": "Identifying prisoners who remain detained after bail can expose practical barriers between a court order and release.",
+      "watch": "Watch whether the identification exercise produces documented releases and explanations for continuing detention.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the Supreme Court directed Uttar Pradesh to identify undertrial prisoners still in jail despite being granted bail, in consultation with DLSA.",
+          "evidence": [
+            "SC directs Uttar Pradesh to identify undertrial prisoners languishing in jails despite getting bail",
+            "The Supreme Court asked the Uttar Pradesh government to identify such prisoners in consultations with DLSA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3f71fc308fa3527a1792e88f",
+      "lane": "tech",
+      "headline": "Number of villages without 4G connectivity falls by three-fourths in four years",
+      "brief": "The Hindu reports that the number of villages without 4G connectivity fell by three-fourths in four years. Its report draws on data obtained under the Right to Information Act.",
+      "mechanism": "A smaller village coverage gap can widen access to digital services, although coverage alone does not establish reliable household use.",
+      "watch": "Watch whether subsequent coverage data also document usable speeds and service reliability in the remaining gaps.",
+      "claims": [
+        {
+          "statement": "The Hindu reports that the number of villages without 4G connectivity fell by three-fourths in four years. Its report draws on data obtained under the Right to Information Act.",
+          "evidence": [
+            "Number of villages without 4G connectivity falls by three-fourths in four years",
+            "Data obtained by The Hindu under the Right to Information Act shows a sharp decline in the number of villages without serviceable internet speeds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fd99f500ee941e0af0eea153",
+      "lane": "tech",
+      "headline": "Enterprise data intelligence platform SplashBI opens GCC in Hyderabad, to invest over $100 million",
+      "brief": "Economic Times reports that SplashBI opened a global capability centre in Hyderabad. A company release says it plans to invest over $100 million over five to seven years in infrastructure, technology and talent to scale the centre and strengthen global product engineering and delivery.",
+      "mechanism": "An expanded Hyderabad engineering base could deepen local enterprise-software skills if the planned investment is executed.",
+      "watch": "Watch for disclosed staffing and infrastructure additions that demonstrate delivery against the investment plan.",
+      "claims": [
+        {
+          "statement": "Economic Times reports that SplashBI opened a global capability centre in Hyderabad. A company release says it plans to invest over $100 million over five to seven years in infrastructure, technology and talent to scale the centre and strengthen global product engineering and delivery.",
+          "evidence": [
+            "Enterprise data intelligence platform SplashBI opens GCC in Hyderabad, to invest over $100 million",
+            "The company plans to invest over $100 million over the next five to seven years in infrastructure, technology and talent to scale the Hyderabad centre and strengthen its global product engineering and delivery capabilities, a release said."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed the full pool for November 11: MarketSmith's explicitly dated recommendations are stock advice, while Braskem's Wednesday debt deadline has no established Indian exposure. November 10 exchange closure and memoir release are today; Chhath restrictions and CAIT meeting begin November 13, Supreme Court pollution hearings are November 23 and 25, and the IIT Hyderabad course starts December 5. The weekly policy calendar supplies no precise November 11 deliverable. No distinct material RSS-backed catalyst qualifies for tomorrow."
+}
