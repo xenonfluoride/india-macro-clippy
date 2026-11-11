@@ -19,6 +19,8 @@ Use the v2 workflow in `skill/india-macro-rss-newsletter/SKILL.md`, its evaluati
 
 Capture, Market Tape and rendering only write run directories. They must never edit the legacy output files. Failed evidence is retained.
 
+Market Tape tries Yahoo Finance first. A failed Yahoo set can use the complete NSE, Upstox, ECB and BeCoin set. Preserve the provider documents, dates and attribution. Both paths require four fresh, reproducible observations.
+
 The sole deployment pointer is `outputs/current.json`, referencing a complete immutable v2 bundle. Promotion requires live evidence, a complete model-authored review, valid prices, exact rendered HTML, explicit semantic verification bound to all input hashes, and current publication history. Never bypass the gate, fabricate approval notes, relabel a replay as live, or hand-edit HTML to hide invalid data.
 
 Run `python3 -B -m unittest work/test_build_newsletter.py` and the evaluator with `--run RUN` before promotion. CI repeats checks. Verify the deployed edition after a push.

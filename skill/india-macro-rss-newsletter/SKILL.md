@@ -11,7 +11,7 @@ Read this file and `references/evaluation-rubric.md` completely before an editio
 
 1. Synchronize the requested branch using `git pull --ff-only`. Preserve changes on failure. A restricted-network DNS failure needs an approved network retry, not an assumption that GitHub is unavailable.
 2. Run `python3 -B work/build_newsletter.py --hours 36`. Record the printed RUN directory. This captures evidence only; it produces no selection or review.
-3. Run `python3 -B work/update_market_tape.py --run RUN`. Any price failure blocks publication. Diagnostics stay in the run.
+3. Run `python3 -B work/update_market_tape.py --run RUN`. The updater tries Yahoo Finance, then a complete alternate set when Yahoo fails. Use `--alternate` to start with the alternate set. An incomplete or stale snapshot blocks publication. Diagnostics stay in the run.
 4. Read `capture.json`, feed failures and `history.json`. Inspect all candidates using `python3 -B work/newsletter.py context --run RUN --offset 0 --limit 40`; follow every next_offset. Do not dump a whole batch and then treat truncated output as a full review.
 
 The roster in `work/feeds.py` contains Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, Mint Markets, Mint Companies, Mongabay India, Hindustan Times India, NDTV India, BBC News India, Economic Times Tech, The Hindu Technology, Mint Technology, YourStory and Inc42. Read all configured inputs. Feed category does not fix the editorial lane.
@@ -42,7 +42,7 @@ Get hashes with `python3 -B work/newsletter.py verification-context --run RUN`. 
 - `python3 -B -m unittest work/test_build_newsletter.py`
 - `python3 -B skill/india-macro-rss-newsletter/scripts/evaluate_newsletter.py --run RUN`
 
-Fix source artifacts, not HTML. Layout stays Market Tape, Macro, National & Strategy, India Tech, then exactly one Tomorrow’s catalysts module. Hero and visible issue date are refreshed. Market Tape is labelled Yahoo Finance daily-bar price snapshots with each instrument's observation time; it is not RSS-derived and does not promise a completed session close.
+Fix source artifacts, not HTML. Layout stays Market Tape, Macro, National & Strategy, India Tech, then exactly one Tomorrow’s catalysts module. Hero and visible issue date are refreshed. Market Tape labels Yahoo daily-bar snapshots with observation times. The alternate set labels each observation date and source: NSE and Upstox closes, ECB reference cross, and BeCoin Brent futures. All price data stays separate from RSS.
 
 Only when publishing is authorized and all checks pass, run `python3 -B work/newsletter.py promote --run RUN`. Stage the returned `outputs/editions/RUN_ID/` and `outputs/current.json`, plus only intentional pipeline/documentation changes. Commit `chore: refresh newsletter`, then push. Verify Pages completion and the deployed run ID. A successful push alone is not deployment confirmation.
 

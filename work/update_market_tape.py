@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Capture separate, per-instrument Yahoo price snapshots; never edit HTML."""
+"""Capture separate Market Tape observations; never edit HTML."""
 from __future__ import annotations
 
 import argparse
@@ -10,6 +10,7 @@ import time
 from datetime import datetime, timezone
 from urllib.parse import quote
 from urllib.request import Request, urlopen
+import alternate_market_sources as alternate
 from newsletter import SYMBOLS, digest, now_utc, read, save_new, validate_market
 
 
@@ -43,32 +44,50 @@ def fetch(symbol):
     return {'error': errors[-1], 'errors': errors, 'url': url}
 
 
-def update(run):
-    run = Path(run)
-    capture = read(run / 'capture.json')
-    if (run / 'market.json').exists():
-        raise ValueError('Price snapshot already exists; start a new run instead of overwriting evidence')
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        results = dict(zip(SYMBOLS, pool.map(fetch, [x[0] for x in SYMBOLS.values()])))
+def snapshot(run, capture, provider, results):
     fetched = now_utc()
     (run / 'raw').mkdir(exist_ok=True)
     raw_path = run / 'raw' / ('market-fetch-' + fetched.strftime('%H%M%S%f') + '.json')
-    save_new(raw_path, {'fetched_at': fetched.isoformat(), 'results': results})
+    save_new(raw_path, {'fetched_at': fetched.isoformat(), 'provider': provider, 'results': results})
     if any('error' in r for r in results.values()):
-        raise ValueError('Market data incomplete after retries; diagnostics retained, publishing prohibited')
-    market = {'schema_version': 2, 'run_id': capture['run_id'], 'provider': 'Yahoo Finance',
-        'fetched_at': fetched.isoformat(), 'quotes': {name: row['quote'] for name, row in results.items()},
+        failures = ', '.join(name for name, row in results.items() if 'error' in row)
+        raise ValueError(f'Market data incomplete for {failures}; diagnostics retained')
+    quotes = {}
+    for name, (symbol, currency) in SYMBOLS.items():
+        row = results[name]
+        quotes[name] = (row['quote'] if provider == 'Yahoo Finance'
+                        else alternate.parse_quote(name, symbol, currency, row, fetched))
+    market = {'schema_version': 2, 'run_id': capture['run_id'], 'provider': provider,
+        'fetched_at': fetched.isoformat(), 'quotes': quotes,
         'raw_path': str(raw_path.relative_to(run)), 'raw_sha256': digest(raw_path.read_bytes())}
     validate_market(market, fetched)
     save_new(run / 'market.json', market)
     print(f'Price snapshot saved: {run / "market.json"}')
 
 
+def update(run, *, alternate_only=False):
+    run = Path(run)
+    capture = read(run / 'capture.json')
+    if (run / 'market.json').exists():
+        raise ValueError('Price snapshot already exists; start a new run instead of overwriting evidence')
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        if not alternate_only:
+            yahoo = dict(zip(SYMBOLS, pool.map(fetch, [x[0] for x in SYMBOLS.values()])))
+            try:
+                return snapshot(run, capture, 'Yahoo Finance', yahoo)
+            except ValueError as error:
+                print(f'Yahoo snapshot unavailable: {error}. Trying alternate sources.')
+        as_of = now_utc()
+        results = dict(zip(SYMBOLS, pool.map(lambda name: alternate.capture_source(name, as_of), SYMBOLS)))
+    snapshot(run, capture, alternate.PROVIDER, results)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run', type=Path, required=True)
+    parser.add_argument('--alternate', action='store_true', help='Capture the alternate sources directly')
     args = parser.parse_args()
     try:
-        update(args.run)
+        update(args.run, alternate_only=args.alternate)
     except (KeyError, TypeError, OSError, ValueError) as exc:
         parser.exit(1, f'Market Tape failed: {exc}\n')

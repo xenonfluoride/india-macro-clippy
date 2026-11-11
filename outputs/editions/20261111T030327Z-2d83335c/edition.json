@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "run_id": "20261111T030327Z-2d83335c",
+  "created_at": "2026-11-11T03:59:55.471773+00:00",
+  "date": "2026-11-11",
+  "issue": 30,
+  "hero": "Odisha widens pension coverage as a rural-led labour survey improvement offers a different view of household conditions. IIFL's planned equity raise tests lending expansion, two Supreme Court rulings clarify institutional and property boundaries, and digital-fraud scrutiny joins telecom interconnection reform on the technology agenda.",
+  "hero_card_ids": [
+    "289000f5145b7306fc25500f",
+    "f95e6be9eef88133970aa601",
+    "b814547ec2e44ea57ca4ce9a",
+    "e54afe8dc11bd0efbde395ce",
+    "00d236f0215f563810a283a9",
+    "9484aca4ccb327d80e2c97cd",
+    "1b3f5baf619ddd6cb44fccab"
+  ],
+  "cards": [
+    {
+      "id": "289000f5145b7306fc25500f",
+      "lane": "tech",
+      "headline": "'List Measures To Stop Digital Arrests, Cybercrimes': Top Court To WhatsApp",
+      "brief": "NDTV reports that the Supreme Court asked WhatsApp to list measures against digital arrests and cybercrimes and counsel Kapil Sibal told the bench that the platform had acted against 9,400 accounts and would file an affidavit detailing preventive steps.",
+      "mechanism": "Requiring a documented response can expose the gap between platform enforcement activity and protection against impersonation fraud.",
+      "watch": "Watch for the promised affidavit and the court's assessment of the measures described.",
+      "claims": [
+        {
+          "statement": "NDTV reports that the Supreme Court asked WhatsApp to list measures against digital arrests and cybercrimes and counsel Kapil Sibal told the bench that the platform had acted against 9,400 accounts and would file an affidavit detailing preventive steps.",
+          "evidence": [
+            "'List Measures To Stop Digital Arrests, Cybercrimes': Top Court To WhatsApp",
+            "Senior advocate Kapil Sibal, appearing for WhatsApp, had told the bench the platform had taken preventive measures, including action against 9,400 accounts, and would file an affidavit detailing the steps undertaken."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f95e6be9eef88133970aa601",
+      "lane": "national",
+      "headline": "Grandson can’t claim birthright in property after partition: Supreme Court",
+      "brief": "Hindustan Times reports that the Supreme Court dismissed a 29-year-old partition suit, holding that property inherited by a father under the Hindu Succession Act becomes his individual property.",
+      "mechanism": "The distinction between individual and ancestral property can determine whether descendants can demand a share by birth.",
+      "watch": "Watch how subsequent partition disputes apply the ruling to the source and character of inherited property.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the Supreme Court dismissed a 29-year-old partition suit, holding that property inherited by a father under the Hindu Succession Act becomes his individual property.",
+          "evidence": [
+            "Grandson can’t claim birthright in property after partition: Supreme Court",
+            "The ruling dismisses a 29-year-old partition suit, holding that property inherited by father under the Hindu Succession Act becomes his individual property."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b814547ec2e44ea57ca4ce9a",
+      "lane": "macro",
+      "headline": "Odisha scraps pension quota system, adds over 500,000 beneficiaries",
+      "brief": "Business Standard reports that Odisha has abolished its quota-based pension system, expanding Madhu Babu Pension Yojana coverage to 4.18 million beneficiaries at an additional annual cost of ₹625 crore.",
+      "mechanism": "Wider pension coverage can support recipient households while increasing the state's recurring spending commitments.",
+      "watch": "Watch whether the expanded entitlement translates into regular pension payments.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Odisha has abolished its quota-based pension system, expanding Madhu Babu Pension Yojana coverage to 4.18 million beneficiaries at an additional annual cost of ₹625 crore.",
+          "evidence": [
+            "Odisha scraps pension quota system, adds over 500,000 beneficiaries",
+            "The state government has abolished the quota-based pension system, expanding coverage under the Madhu Babu Pension Yojana to 4.18 million beneficiaries with an additional ₹625 crore annually."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e54afe8dc11bd0efbde395ce",
+      "lane": "macro",
+      "headline": "Blackstone to invest ₹5,000 crore in IIFL Finance for 16% stake",
+      "brief": "Mint reports that Blackstone will invest ₹5,000 crore in IIFL Finance for a fully diluted 16% stake as part of a ₹6,414-crore fundraise intended to support secured lending expansion.",
+      "mechanism": "Additional equity can increase the lender's capacity to grow without relying entirely on borrowed funding.",
+      "watch": "Watch for completion of the capital raise and subsequent secured-loan growth.",
+      "claims": [
+        {
+          "statement": "Mint reports that Blackstone will invest ₹5,000 crore in IIFL Finance for a fully diluted 16% stake as part of a ₹6,414-crore fundraise intended to support secured lending expansion.",
+          "evidence": [
+            "Blackstone to invest ₹5,000 crore in IIFL Finance for 16% stake",
+            "Blackstone will invest ₹5,000 crore in IIFL Finance for a 16% stake on a fully diluted basis, giving the lender a stronger capital base to expand its secured lending business. The deal, part of a ₹6,414-crore fundraise, marks a major private equity bet on India's NBFC sector."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "00d236f0215f563810a283a9",
+      "lane": "macro",
+      "headline": "Unemployment dips slightly to 5.1% in July-September: Govt survey",
+      "brief": "Business Standard reports that the PLFS put unemployment among people aged 15 and above at 5.1% in July-September 2026, down from 5.4% in the previous quarter, driven by lower rural joblessness.",
+      "mechanism": "A rural-led improvement can strengthen household income prospects while leaving urban labour-market pressures unresolved.",
+      "watch": "Watch whether the next survey shows the improvement extending across rural and urban workers.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that the PLFS put unemployment among people aged 15 and above at 5.1% in July-September 2026, down from 5.4% in the previous quarter, driven by lower rural joblessness.",
+          "evidence": [
+            "Unemployment dips slightly to 5.1% in July-September: Govt survey",
+            "India's unemployment rate for people aged 15 years and above fell to 5.1% in July-September 2026 from 5.4% in the previous quarter, driven by a decline in rural joblessness, the PLFS showed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9484aca4ccb327d80e2c97cd",
+      "lane": "national",
+      "headline": "Society tag can’t shield govt-controlled bodies from constitutional scrutiny: Supreme Court",
+      "brief": "Hindustan Times reports that a society label cannot shield government-controlled bodies from constitutional scrutiny, while the Supreme Court clarified that government grants or public functions alone do not automatically make an organisation an arm of the State.",
+      "mechanism": "The distinction can shape access to public-law remedies against organisations operating under government control.",
+      "watch": "Watch how later cases establish government control rather than relying solely on funding or public functions.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that a society label cannot shield government-controlled bodies from constitutional scrutiny, while the Supreme Court clarified that government grants or public functions alone do not automatically make an organisation an arm of the State.",
+          "evidence": [
+            "Society tag can’t shield govt-controlled bodies from constitutional scrutiny: Supreme Court",
+            "The court clarified that merely receiving government grants or performing public functions would not automatically make an organisation an arm of the State."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1b3f5baf619ddd6cb44fccab",
+      "lane": "tech",
+      "headline": "Regulator caps charges for internet-based links between telecom networks, pushes for phasing out of older port technology",
+      "brief": "Hindustan Times reports that TRAI has capped charges for internet-based links between telecom networks as part of a push to retire older technology used to connect calls across networks.",
+      "mechanism": "Interconnection pricing can influence operators' incentives to migrate call traffic toward newer network links.",
+      "watch": "Watch for operators' migration plans and evidence of adoption of the newer links.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that TRAI has capped charges for internet-based links between telecom networks as part of a push to retire older technology used to connect calls across networks.",
+          "evidence": [
+            "Regulator caps charges for internet-based links between telecom networks, pushes for phasing out of older port technology",
+            "The move from TRAI is part of a wider push to retire the decades-old technology that operators still use to connect calls between networks."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "Reviewed November 12 explicitly: the dividend record-date list is a routine shareholder entitlement reminder; the Congress Bharat Summit is a political conference without a captured concrete policy deliverable and its previews disagree on the opening range. The farm-fire report forecasts winds returning Wednesday and Thursday, but describes a multi-day weather risk rather than a distinct next-day policy action; retain the risk in the reviewed pool. NIA conference coverage supplies no exact next-day date. TVK's tomorrow refers to November 11 based on its November 10 publication, not November 12. November 18 Nvidia briefing, November 19 coaching/game dates, November 21 concert, November 24 market holiday and December dates are outside tomorrow. No sufficiently precise distinct economic or policy catalyst qualifies."
+}

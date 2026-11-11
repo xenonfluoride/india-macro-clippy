@@ -71,7 +71,7 @@ Mechanism and watch are analysis fields. Do not hide additional news claims or u
 
 hero_card_ids must cover all selected cards. Each catalyst requires id, date (tomorrow in IST), text and a supporting exact evidence substring. Its candidate cannot also be a selected card. The editor verifies the date is actually supported by the quoted source, not simply entered into JSON. When none qualifies, use an empty catalysts array and a case-specific catalyst_review explanation.
 
-`market.json` is produced only by the separate updater. Its raw provider response and per-symbol timestamp/value checks are required. A 96-hour ceiling accommodates an ordinary weekend but may hold publication over a longer holiday; do not silently relax it. Daily bars are not guaranteed completed-session closes.
+`market.json` is produced only by the separate updater. It captures either a complete Yahoo set or a complete alternate set. The alternate set uses NSE Nifty 50 closing files, Upstox's dated Sensex closes, ECB INR-per-EUR divided by USD-per-EUR for each reference day, and BeCoin's Yahoo-sourced Brent futures history through the previous UTC date. For each instrument, the last two distinct observations determine the percentage change. The fallback excludes the current UTC Brent bar. Alternate observations show dates and source links, with the start of each source date used for conservative freshness checks. Both modes retain and reparse provider documents. A 96-hour ceiling accommodates an ordinary weekend but may hold publication over a longer holiday.
 
 ## Semantic verification
 

@@ -11,7 +11,7 @@ The current v2 skill, rubric and workflow supersede earlier keyword, hard-theme 
 - Author all card, hero and catalyst prose in edition data. Never add daily facts to reusable code. Distinguish completed events, proposals, estimates and company statements.
 - Require complete evidence-linked review, five to seven cards, a separate explicit semantic-check pass bound to input hashes, and exact rendering. Deterministic checks do not prove semantic truth.
 - Track prior published events in a ledger; unchanged repeats are excluded and follow-ups need new evidence. A 36-hour window alone never prevented repeats.
-- Market Tape remains separate Yahoo data, with raw provider evidence and individual timestamps. Label daily-bar snapshots honestly; use a bounded 96-hour observation age and fail closed beyond it.
+- Market Tape remains separate from RSS, with raw provider evidence and individual observation dates or timestamps. Try Yahoo first and use NSE, Upstox, ECB and BeCoin as a complete fallback. Identify the ECB rate as a reference cross and BeCoin Brent as futures. Use a bounded 96-hour observation age and fail closed beyond it.
 - Promote a validated live bundle and change one atomic accepted pointer. CI checks the accepted bundle before Pages deployment. Keep the legacy site until a v2 live edition is accepted.
 - Replay and shadow runs can never be promoted. The repaired pipeline was exercised against the 249-record audit batch with seven authored cards and the adversarial regression suite.
 - The weekday schedule and 36-hour window are preserved. Their weekend coverage gap is documented rather than silently widening the window or changing cadence.

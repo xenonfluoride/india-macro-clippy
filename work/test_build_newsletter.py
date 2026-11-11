@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import newsletter as n
 import build_newsletter as b
 import update_market_tape as market
+import alternate_market_sources as alternate
 from feeds import FEEDS, parse_payload
 
 NOW = datetime(2026, 10, 12, 8, tzinfo=timezone.utc)
@@ -327,11 +328,47 @@ class Contracts(unittest.TestCase):
 
     def test_all_market_failures_keep_diagnostics(self):
         (self.run / 'market.json').unlink()
-        with patch.object(market, 'fetch', return_value={'error': 'network failed'}):
+        with patch.object(market, 'fetch', return_value={'error': 'network failed'}), \
+             patch.object(alternate, 'capture_source', return_value={'error': 'network failed'}):
             with self.assertRaisesRegex(ValueError, 'incomplete'):
                 market.update(self.run)
         self.assertFalse((self.run / 'market.json').exists())
-        self.assertTrue(list((self.run / 'raw').glob('market-fetch-*.json')))
+        self.assertEqual(len(list((self.run / 'raw').glob('market-fetch-*.json'))), 2)
+
+    def test_alternate_market_reproduces_each_observation(self):
+        day = NOW.date()
+        nse = [{'url': alternate.NSE_ARCHIVE.format(day), 'status': 404}]
+        for offset, close in [(1, 251), (2, 250)]:
+            session = day - timedelta(days=offset)
+            nse.append({'url': alternate.NSE_ARCHIVE.format(session),
+                        'body': 'Index Name,Index Date,Closing Index Value\n'
+                                f'Nifty 50,{session:%d-%m-%Y},{close}\n'})
+        sources = {
+            'Sensex': '<table><tr><th>Day</th><th>Open</th><th>Close</th><th>Change %</th></tr>'
+                      '<tr><td>11-Oct-26</td><td>700</td><td>₹702</td><td>1%</td></tr>'
+                      '<tr><td>10-Oct-26</td><td>702</td><td>₹700</td><td>1%</td></tr></table>',
+            'USD/INR': '<root><Cube time="2026-10-11"><Cube currency="USD" rate="1.2"/>'
+                       '<Cube currency="INR" rate="114"/></Cube><Cube time="2026-10-10">'
+                       '<Cube currency="USD" rate="1.1"/><Cube currency="INR" rate="103.4"/></Cube></root>',
+            'Brent': 'Date,Close\n2026-10-10,100\n2026-10-11,101\n2026-10-12,999\n',
+        }
+        results = {name: {'documents': [{'url': alternate.SOURCES[name][1], 'body': body}]}
+                   for name, body in sources.items()}
+        results['Nifty 50'] = {'documents': nse}
+        (self.run / 'market.json').unlink()
+        with patch.object(market, 'fetch', return_value={'error': 'network failed'}), \
+             patch.object(market, 'now_utc', side_effect=[NOW - timedelta(seconds=1), NOW, NOW]), \
+             patch.object(alternate, 'capture_source', side_effect=lambda name, _: results[name]):
+            market.update(self.run)
+        approve_fixture(self.run)
+        data = n.validate(self.run, historical=True, check_html=False)
+        self.assertEqual({name: q['current'] for name, q in data[4]['quotes'].items()},
+                         {'Nifty 50': 251, 'Sensex': 702, 'USD/INR': 95, 'Brent': 101})
+        rendered = n.render(data)
+        for source, url in alternate.SOURCES.values():
+            self.assertIn(f'href="{url}">{source}</a>', rendered)
+        self.edit('market.json', lambda d: d['quotes']['Brent'].update(current=100, change_pct=0), True)
+        self.fail('Prices differ')
 
 
 if __name__ == '__main__':

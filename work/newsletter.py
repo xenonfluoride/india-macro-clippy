@@ -19,6 +19,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
+import alternate_market_sources as alternate
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUTS = ROOT / 'outputs'
@@ -264,13 +265,20 @@ def validate_inputs(run, *, historical=False, now=None):
     require(digest(raw_prices.read_bytes()) == market['raw_sha256'], 'Market response changed')
     from update_market_tape import parse_quote
     payload = read(raw_prices)
-    for name, (symbol, _) in SYMBOLS.items():
-        require(parse_quote(symbol, payload['results'][name]['payload']) == market['quotes'][name], 'Prices differ from captured provider response')
+    for name, (symbol, currency) in SYMBOLS.items():
+        row = payload['results'][name]
+        if market['provider'] == alternate.PROVIDER:
+            require(payload.get('provider') == alternate.PROVIDER and payload.get('fetched_at') == market['fetched_at'],
+                    'Alternate market evidence provenance differs')
+            reproduced = alternate.parse_quote(name, symbol, currency, row, stamp(market['fetched_at']))
+        else:
+            reproduced = parse_quote(symbol, row['payload'])
+        require(reproduced == market['quotes'][name], 'Prices differ from captured provider response')
     return capture, history, review, edition, market
 
 
 def validate_market(market, at):
-    require(market.get('provider') == 'Yahoo Finance', 'Wrong price provider')
+    require(market.get('provider') in ('Yahoo Finance', alternate.PROVIDER), 'Wrong price provider')
     fetched = stamp(market['fetched_at'])
     require(abs((at - fetched).total_seconds()) <= 12 * 3600, 'Price fetch must belong to this edition')
     require(set(market['quotes']) == set(SYMBOLS), 'Market Tape snapshot incomplete')
@@ -319,6 +327,7 @@ def render(data, template_path=None):
             published = stamp(source['published_at']).strftime('%d %b · %H:%M UTC')
             lanes[lane].append(f'<article class="story" data-candidate="{card["id"]}"><div class="story-no">{n:02d}</div><div><h3>{escape(card["headline"])}</h3><p>{escape(card["brief"])}</p><p class="why"><span>Why it matters</span><br />{escape(card["mechanism"])} {escape(card["watch"])}</p><p class="source">RSS · <a href="{escape(source["link"], quote=True)}">{escape(source["source"])}, {published}</a></p></div></article>')
     market_cards = []
+    alternate_tape = market['provider'] == alternate.PROVIDER
     for name in SYMBOLS:
         q = market['quotes'][name]
         value = (f'₹{q["current"]:,.3f}' if name == 'USD/INR' else f'${q["current"]:,.2f}' if name == 'Brent' else f'{q["current"]:,.2f}')
@@ -326,9 +335,15 @@ def render(data, template_path=None):
         tone = 'flat' if change == 0 else 'up' if change > 0 else 'down'
         if name == 'USD/INR':
             tone = 'flat' if change == 0 else 'down' if change > 0 else 'up'
-        label = stamp(q['observed_at']).strftime('%d %b %H:%M UTC')
+        if alternate_tape:
+            source, url = alternate.SOURCES[name]
+            day = datetime.fromisoformat(q['observed_at']).strftime('%d %b')
+            label = f'{day} · <a href="{escape(url, quote=True)}">{escape(source)}</a>'
+        else:
+            label = stamp(q['observed_at']).strftime('%d %b %H:%M UTC')
         market_cards.append(f'<div class="quote"><strong>{value}</strong><span class="{tone}">{escape(name)} · {change:+.2f}%</span><span class="flat">{label}</span></div>')
-    tape = '<div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p>' + ''.join(market_cards) + '</div>'
+    tape_label = 'Index closes, futures and FX reference rates' if alternate_tape else 'Yahoo Finance price data · daily bar snapshots'
+    tape = f'<div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">{tape_label}</span></p>' + ''.join(market_cards) + '</div>'
     tomorrow = (stamp(edition['created_at']).astimezone(IST) + timedelta(days=1)).strftime('%A, %-d %B')
     catalyst_body = '<p>No separate date-specific catalyst qualified in this RSS audit.</p>'
     if edition['catalysts']:

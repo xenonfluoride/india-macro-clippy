@@ -1,13 +1,13 @@
 # India Macro Clippy
 
-A daily India macro, national-strategy and technology briefing. Editorial facts come only from configured RSS titles and summaries. Yahoo Finance supplies a separate Market Tape.
+A daily India macro, national-strategy and technology briefing. Editorial facts come only from configured RSS titles and summaries. The separate Market Tape uses Yahoo Finance with a fallback to NSE, Upstox, the ECB and BeCoin.
 
 ## Pipeline v2
 
 The 12 October audit found false exclusions, canned historical facts and ineffective gates. The replacement separates evidence capture, editorial judgment, rendering and publication.
 
 1. Capture immutable evidence: `python3 -B work/build_newsletter.py --hours 36`.
-2. Use the printed `RUN` directory throughout. Fetch prices: `python3 -B work/update_market_tape.py --run RUN`.
+2. Use the printed `RUN` directory throughout. Fetch prices: `python3 -B work/update_market_tape.py --run RUN`. Use `--alternate` to start with the fallback sources.
 3. Read candidates in batches: `python3 -B work/newsletter.py context --run RUN --offset 0 --limit 40`. Follow `next_offset` until every record has been reviewed.
 4. The current model session authors `review.json` and `edition.json` in RUN. No code chooses stories, assigns confidence or writes news prose.
 5. Review the complete copy against RSS evidence; obtain digests with `python3 -B work/newsletter.py verification-context --run RUN`, then author `verification.json`. Digests bind approval to the exact inputs; the command does not approve them.
@@ -40,7 +40,7 @@ Pages CI runs the regression suite and validates the accepted bundle before depl
 
 The deterministic gate checks provenance, complete review coverage, exact rendering, 5–7 cards, IST issue date, 36-hour evidence bounds, typed price values, hashes and novelty declarations. It cannot prove semantic truth. The editor must check factual support, actor/action status, attribution, analysis and novelty, and record that verification. A hash prevents changing reviewed content; it does not make an inaccurate review true.
 
-RSS summaries may be sparse. Skip unsupported claims rather than fill them from search or article bodies. Prices carry individual observation timestamps and are labelled daily-bar snapshots, not necessarily completed-session closes. The maximum observation age is 96 hours to accommodate weekends; longer closures fail closed. Any missing price blocks publication.
+RSS summaries may be sparse. Skip unsupported claims rather than fill them from search or article bodies. Yahoo prices carry individual observation timestamps and may include an in-progress daily bar. The fallback shows dated NSE Nifty 50 and Upstox Sensex closes, a USD/INR cross calculated from ECB reference rates, and Brent futures daily observations from BeCoin's Yahoo-sourced CSV through the previous UTC date. Both paths require all four instruments and enforce a 96-hour observation limit.
 
 A 36-hour window still overlaps successive daily runs; the ledger handles repeats. The existing weekday schedule leaves a weekend coverage gap. The rebuild does not silently change that schedule or expand the recency window.
 

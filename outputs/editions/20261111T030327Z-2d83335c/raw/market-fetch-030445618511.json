@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-11-11T03:04:45.618511+00:00",
+  "results": {
+    "Brent": {
+      "error": "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "errors": [
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=10d&interval=1d"
+    },
+    "Nifty 50": {
+      "error": "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "errors": [
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=10d&interval=1d"
+    },
+    "Sensex": {
+      "error": "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "errors": [
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?range=10d&interval=1d"
+    },
+    "USD/INR": {
+      "error": "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+      "errors": [
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      ],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=10d&interval=1d"
+    }
+  }
+}
