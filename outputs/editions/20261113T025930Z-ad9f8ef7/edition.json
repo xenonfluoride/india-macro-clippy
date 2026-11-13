@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "run_id": "20261113T025930Z-ad9f8ef7",
+  "date": "2026-11-13",
+  "issue": 31,
+  "created_at": "2026-11-13T03:09:47+00:00",
+  "hero": "October inflation crossed the RBI’s upper band as food inflation accelerated. A manufacturing incentives review tallied jobs and disbursals, the Cabinet extended two credit schemes, and the government banned exports of lithium-ion battery black mass. Draft voter rolls were published across 13 states and three Union territories, the consumer regulator ordered Ola to remove its advance tipping prompt, and OpenAI made local API inference available to Indian enterprises.",
+  "hero_card_ids": [
+    "68d6d19cf23a4e17b6d5739a",
+    "f2547971ba06f1baedd5cafa",
+    "dd0aa2c0e6f0fecef4a875df",
+    "15112679cd64931c1b7e085e",
+    "67dd4cd03f9a21e5eb871370",
+    "333ab785dbccc237969d21cb",
+    "4c1daa31b3354b9235128625"
+  ],
+  "cards": [
+    {
+      "id": "68d6d19cf23a4e17b6d5739a",
+      "lane": "macro",
+      "headline": "Retail inflation at 6.09% in October, breaches RBI's upper band after 2 yrs",
+      "brief": "India’s retail inflation reached 6.09% in October, breaching the RBI’s upper band for the first time in two years. Food inflation rose to 8.94% from 7.74% in September.",
+      "mechanism": "Higher food prices squeeze household budgets and can complicate the central bank’s rate decision.",
+      "watch": "Watch the November CPI release for signs that food inflation is easing.",
+      "claims": [
+        {
+          "statement": "India’s retail inflation reached 6.09% in October, breaching the RBI’s upper band for the first time in two years.",
+          "evidence": [
+            "Retail inflation at 6.09% in October, breaches RBI's upper band after 2 yrs"
+          ]
+        },
+        {
+          "statement": "Food inflation rose to 8.94% from 7.74% in September.",
+          "evidence": [
+            "Food inflation climbed to 8.94 per cent in October from 7.74 per cent in September, adding to pressure on India's retail inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f2547971ba06f1baedd5cafa",
+      "lane": "macro",
+      "headline": "Nearly 70% of PLI scheme segments on track, says NITI Aayog report",
+      "brief": "NITI Aayog’s assessment found that nearly 70% of targeted production-linked incentive segments were broadly on track. It reported cumulative employment of 849,069 and incentive disbursals of ₹35,354 crore as of March 2026.",
+      "mechanism": "Comparing employment and production across sectors can show whether the same incentive design delivers both outcomes.",
+      "watch": "Watch whether ministries change sector targets or payment criteria in response to the assessment.",
+      "claims": [
+        {
+          "statement": "NITI Aayog’s assessment found that nearly 70% of targeted production-linked incentive segments were broadly on track.",
+          "evidence": [
+            "nearly 70 per cent of the targeted segments are on track"
+          ]
+        },
+        {
+          "statement": "It reported cumulative employment of 849,069 and incentive disbursals of ₹35,354 crore as of March 2026.",
+          "evidence": [
+            "As of March 2026, cumulatively the scheme has attracted investments of Rs 2,40,138 crore, generated production worth Rs 22,66,412 crore, created employment for 8,49,069 individuals, and disbursed Rs 35,354 crore in incentives."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dd0aa2c0e6f0fecef4a875df",
+      "lane": "macro",
+      "headline": "Govt prohibits lithium-ion battery black mass exports",
+      "brief": "The government has prohibited exports of lithium-ion battery black mass with immediate effect to retain critical minerals for domestic recycling, an official said.",
+      "mechanism": "Keeping black mass in India could increase the feedstock available to domestic battery recyclers.",
+      "watch": "Watch whether recyclers take on more domestic material or exporters report stock building up.",
+      "claims": [
+        {
+          "statement": "The government has prohibited exports of lithium-ion battery black mass with immediate effect to retain critical minerals for domestic recycling, an official said.",
+          "evidence": [
+            "The government has prohibited the export of lithium-ion battery black mass with immediate effect to retain critical minerals for domestic recycling, an official said"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15112679cd64931c1b7e085e",
+      "lane": "macro",
+      "headline": "Stand-Up India and Mudra Yojana extended by Union Cabinet for 5 more years",
+      "brief": "The Union Cabinet extended Stand-Up India and Mudra Yojana by five years. It allocated ₹4,111 crore for the Stand-Up India fund and ₹5,000 crore for the Micro Units fund under the Pradhan Mantri Mudra Yojana.",
+      "mechanism": "The extensions keep two financing channels available to entrepreneurs and micro businesses as lenders decide how much credit to extend.",
+      "watch": "Watch the loan sanction and disbursement figures for both schemes after the extension.",
+      "claims": [
+        {
+          "statement": "The Union Cabinet extended Stand-Up India and Mudra Yojana by five years.",
+          "evidence": [
+            "Stand-Up India and Mudra Yojana extended by Union Cabinet for 5 more years"
+          ]
+        },
+        {
+          "statement": "It allocated ₹4,111 crore for the Stand-Up India fund and ₹5,000 crore for the Micro Units fund under the Pradhan Mantri Mudra Yojana.",
+          "evidence": [
+            "The Union Cabinet allocated ₹4,111 crore for the Stand-Up India fund and ₹5,000 crore for the Micro Units fund under the Pradhan Mantri Mudra Yojana."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67dd4cd03f9a21e5eb871370",
+      "lane": "national",
+      "headline": "Draft electoral rolls for SSR published in 13 states, 3 UTs; UP to release on Nov 17",
+      "brief": "Draft electoral rolls were published in 13 states and three Union territories, with Uttar Pradesh due to release its draft on November 17. Bihar’s draft adds about 1.3 million electors over its post-revision roll, while Tamil Nadu’s total rises to 57.7 million and remains below its pre-revision count.",
+      "mechanism": "Publishing the drafts gives voters a chance to check their entries and seek corrections before the rolls are finalised.",
+      "watch": "Watch the Uttar Pradesh release and the number of claims and objections recorded before finalisation.",
+      "claims": [
+        {
+          "statement": "Draft electoral rolls were published in 13 states and three Union territories, with Uttar Pradesh due to release its draft on November 17.",
+          "evidence": [
+            "Draft electoral rolls for SSR published in 13 states, 3 UTs; UP to release on Nov 17"
+          ]
+        },
+        {
+          "statement": "Bihar’s draft adds about 1.3 million electors over its post-revision roll, while Tamil Nadu’s total rises to 57.7 million and remains below its pre-revision count.",
+          "evidence": [
+            "Bihar’s list adds about 1.3 million electors over its post-SIR roll, while Tamil Nadu’s count rises to 57.7 million but remains below its pre-revision total."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "333ab785dbccc237969d21cb",
+      "lane": "national",
+      "headline": "CCPA orders Ola to stop advance tipping feature, imposes ₹10 lakh fine",
+      "brief": "The CCPA said Ola’s advance tipping prompt was misleading and pressured users to pay extra before ride confirmation. It ordered Ola to remove the feature and imposed a ₹10 lakh fine.",
+      "mechanism": "Dropping the advance prompt could reduce pressure to pay extra before a ride is confirmed.",
+      "watch": "Watch whether Ola removes the prompt from the booking flow and how the regulator confirms compliance.",
+      "claims": [
+        {
+          "statement": "The CCPA said Ola’s advance tipping prompt was misleading and pressured users to pay extra before ride confirmation.",
+          "evidence": [
+            "The CCPA found Ola's advance tipping feature misleading, saying it pressured customers to pay extra before ride confirmation."
+          ]
+        },
+        {
+          "statement": "It ordered Ola to remove the feature and imposed a ₹10 lakh fine.",
+          "evidence": [
+            "It ordered the platform to scrap the feature and pay a ₹10 lakh fine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4c1daa31b3354b9235128625",
+      "lane": "tech",
+      "headline": "OpenAI now allows enterprises to process AI requests within India",
+      "brief": "OpenAI now lets enterprises process API requests and generate AI responses within India, initially for GPT-6 Luna. The feature is intended to address enterprise data localisation requirements.",
+      "mechanism": "Local inference could make the API usable for workloads that require processing to stay within India.",
+      "watch": "Watch whether OpenAI adds more models and whether Indian enterprises report using local inference in production.",
+      "claims": [
+        {
+          "statement": "OpenAI now lets enterprises process API requests and generate AI responses within India, initially for GPT-6 Luna.",
+          "evidence": [
+            "OpenAI now allows enterprises to process AI requests within India",
+            "The facility initially supports GPT-6 Luna through OpenAI’s API, allowing requests to be processed and AI responses generated within the country"
+          ]
+        },
+        {
+          "statement": "The feature is intended to address enterprise data localisation requirements.",
+          "evidence": [
+            "to address enterprise data localisation requirements"
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "No captured RSS item identifies a material India event scheduled for Saturday, November 14. The Chilka parade and Verka price change are November 13; the Delhi dropout task-force deadline and Pune cooperative engineering revival ceremony are November 15; the ASEAN meetings and Uttar Pradesh draft-roll release are later. The Manila Quad preview says next week without a November 14 deliverable."
+}

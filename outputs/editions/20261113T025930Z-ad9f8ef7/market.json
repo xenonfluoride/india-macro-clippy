@@ -1,0 +1,50 @@
+{
+  "fetched_at": "2026-11-13T03:00:47.688818+00:00",
+  "provider": "NSE, Upstox, ECB and BeCoin",
+  "quotes": {
+    "Brent": {
+      "change_pct": 3.2988329971141317,
+      "currency": "USD",
+      "current": 95.81999969482422,
+      "kind": "daily-source-observation",
+      "observed_at": "2026-11-12T00:00:00+00:00",
+      "previous": 92.76000213623047,
+      "previous_at": "2026-11-11T00:00:00+00:00",
+      "symbol": "BZ=F"
+    },
+    "Nifty 50": {
+      "change_pct": 0.1754104624619668,
+      "currency": "INR",
+      "current": 25299.35,
+      "kind": "daily-source-observation",
+      "observed_at": "2026-11-12T00:00:00+05:30",
+      "previous": 25255.05,
+      "previous_at": "2026-11-11T00:00:00+05:30",
+      "symbol": "^NSEI"
+    },
+    "Sensex": {
+      "change_pct": 0.0386055589073786,
+      "currency": "INR",
+      "current": 81911.01,
+      "kind": "daily-source-observation",
+      "observed_at": "2026-11-12T00:00:00+05:30",
+      "previous": 81879.4,
+      "previous_at": "2026-11-11T00:00:00+05:30",
+      "symbol": "^BSESN"
+    },
+    "USD/INR": {
+      "change_pct": 0.37447889097232956,
+      "currency": "INR",
+      "current": 94.0454832596336,
+      "kind": "daily-source-observation",
+      "observed_at": "2026-11-12T00:00:00+01:00",
+      "previous": 93.69461669812169,
+      "previous_at": "2026-11-11T00:00:00+01:00",
+      "symbol": "INR=X"
+    }
+  },
+  "raw_path": "raw/market-fetch-030047688818.json",
+  "raw_sha256": "3aff4dfd5693fa493380cc8531d06fee7f978eb16f7b88278b35d382fda29b06",
+  "run_id": "20261113T025930Z-ad9f8ef7",
+  "schema_version": 2
+}

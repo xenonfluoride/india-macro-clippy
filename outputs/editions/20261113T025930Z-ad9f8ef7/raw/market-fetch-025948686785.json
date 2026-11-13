@@ -1,0 +1,22 @@
+{
+  "fetched_at": "2026-11-13T02:59:48.686785+00:00",
+  "provider": "NSE, Upstox, ECB and BeCoin",
+  "results": {
+    "Brent": {
+      "documents": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "Nifty 50": {
+      "documents": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "Sensex": {
+      "documents": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "USD/INR": {
+      "documents": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  }
+}

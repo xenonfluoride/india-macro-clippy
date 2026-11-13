@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 13 November 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 031</strong><br />13 November 2026<br /><span id="rss-status">RSS edition · 20261113T025930Z-ad9f8ef7</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">October inflation crossed the RBI’s upper band as food inflation accelerated. A manufacturing incentives review tallied jobs and disbursals, the Cabinet extended two credit schemes, and the government banned exports of lithium-ion battery black mass. Draft voter rolls were published across 13 states and three Union territories, the consumer regulator ordered Ola to remove its advance tipping prompt, and OpenAI made local API inference available to Indian enterprises.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Index closes, futures and FX reference rates</span></p><div class="quote"><strong>25,299.35</strong><span class="up">Nifty 50 · +0.18%</span><span class="flat">12 Nov · <a href="https://www.niftyindices.com/reports">NSE close</a></span></div><div class="quote"><strong>81,911.01</strong><span class="up">Sensex · +0.04%</span><span class="flat">12 Nov · <a href="https://upstox.com/indices/sensex-share-price/">Upstox close</a></span></div><div class="quote"><strong>₹94.045</strong><span class="down">USD/INR · +0.37%</span><span class="flat">12 Nov · <a href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml">ECB reference cross</a></span></div><div class="quote"><strong>$95.82</strong><span class="up">Brent · +3.30%</span><span class="flat">12 Nov · <a href="https://becoin.net/api/trading-asset-history?slug=brent">BeCoin futures</a></span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="68d6d19cf23a4e17b6d5739a"><div class="story-no">01</div><div><h3>Retail inflation at 6.09% in October, breaches RBI&#x27;s upper band after 2 yrs</h3><p>India’s retail inflation reached 6.09% in October, breaching the RBI’s upper band for the first time in two years. Food inflation rose to 8.94% from 7.74% in September.</p><p class="why"><span>Why it matters</span><br />Higher food prices squeeze household budgets and can complicate the central bank’s rate decision. Watch the November CPI release for signs that food inflation is easing.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/retail-inflation-at-6-09-in-october-breaches-rbi-s-upper-band-after-2-yrs-126111201088_1.html">Business Standard Economy &amp; Policy, 12 Nov · 10:42 UTC</a></p></div></article>
+<article class="story" data-candidate="f2547971ba06f1baedd5cafa"><div class="story-no">02</div><div><h3>Nearly 70% of PLI scheme segments on track, says NITI Aayog report</h3><p>NITI Aayog’s assessment found that nearly 70% of targeted production-linked incentive segments were broadly on track. It reported cumulative employment of 849,069 and incentive disbursals of ₹35,354 crore as of March 2026.</p><p class="why"><span>Why it matters</span><br />Comparing employment and production across sectors can show whether the same incentive design delivers both outcomes. Watch whether ministries change sector targets or payment criteria in response to the assessment.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/nearly-70-of-pli-scheme-segments-on-track-says-niti-aayog-report-126111201508_1.html">Business Standard Economy &amp; Policy, 12 Nov · 14:17 UTC</a></p></div></article>
+<article class="story" data-candidate="dd0aa2c0e6f0fecef4a875df"><div class="story-no">03</div><div><h3>Govt prohibits lithium-ion battery black mass exports</h3><p>The government has prohibited exports of lithium-ion battery black mass with immediate effect to retain critical minerals for domestic recycling, an official said.</p><p class="why"><span>Why it matters</span><br />Keeping black mass in India could increase the feedstock available to domestic battery recyclers. Watch whether recyclers take on more domestic material or exporters report stock building up.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/govt-prohibits-lithium-ion-battery-black-mass-exports-101794423059875.html">Hindustan Times India, 12 Nov · 02:06 UTC</a></p></div></article>
+<article class="story" data-candidate="15112679cd64931c1b7e085e"><div class="story-no">04</div><div><h3>Stand-Up India and Mudra Yojana extended by Union Cabinet for 5 more years</h3><p>The Union Cabinet extended Stand-Up India and Mudra Yojana by five years. It allocated ₹4,111 crore for the Stand-Up India fund and ₹5,000 crore for the Micro Units fund under the Pradhan Mantri Mudra Yojana.</p><p class="why"><span>Why it matters</span><br />The extensions keep two financing channels available to entrepreneurs and micro businesses as lenders decide how much credit to extend. Watch the loan sanction and disbursement figures for both schemes after the extension.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/stand-up-india-pmmy-pradhan-mantri-mudra-yojana-union-cabinet-credit-guarantee-schemes-101794443234813.html">Hindustan Times India, 12 Nov · 00:34 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="67dd4cd03f9a21e5eb871370"><div class="story-no">05</div><div><h3>Draft electoral rolls for SSR published in 13 states, 3 UTs; UP to release on Nov 17</h3><p>Draft electoral rolls were published in 13 states and three Union territories, with Uttar Pradesh due to release its draft on November 17. Bihar’s draft adds about 1.3 million electors over its post-revision roll, while Tamil Nadu’s total rises to 57.7 million and remains below its pre-revision count.</p><p class="why"><span>Why it matters</span><br />Publishing the drafts gives voters a chance to check their entries and seek corrections before the rolls are finalised. Watch the Uttar Pradesh release and the number of claims and objections recorded before finalisation.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/draft-electoral-rolls-for-ssr-published-in-13-states-3-uts-up-to-release-on-nov-17-101794529249169.html">Hindustan Times India, 13 Nov · 00:29 UTC</a></p></div></article>
+<article class="story" data-candidate="333ab785dbccc237969d21cb"><div class="story-no">06</div><div><h3>CCPA orders Ola to stop advance tipping feature, imposes ₹10 lakh fine</h3><p>The CCPA said Ola’s advance tipping prompt was misleading and pressured users to pay extra before ride confirmation. It ordered Ola to remove the feature and imposed a ₹10 lakh fine.</p><p class="why"><span>Why it matters</span><br />Dropping the advance prompt could reduce pressure to pay extra before a ride is confirmed. Watch whether Ola removes the prompt from the booking flow and how the regulator confirms compliance.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/ccpa-orders-ola-to-stop-advance-tipping-feature-imposes-10-lakh-fine-126111200184_1.html">Business Standard Companies, 12 Nov · 03:55 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="4c1daa31b3354b9235128625"><div class="story-no">07</div><div><h3>OpenAI now allows enterprises to process AI requests within India</h3><p>OpenAI now lets enterprises process API requests and generate AI responses within India, initially for GPT-6 Luna. The feature is intended to address enterprise data localisation requirements.</p><p class="why"><span>Why it matters</span><br />Local inference could make the API usable for workloads that require processing to stay within India. Watch whether OpenAI adds more models and whether Indian enterprises report using local inference in production.</p><p class="source">RSS · <a href="https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece">The Hindu Technology, 12 Nov · 09:29 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Saturday, 14 November</p></div><div class="catalysts"><p>No separate date-specific catalyst qualified in this RSS audit.</p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

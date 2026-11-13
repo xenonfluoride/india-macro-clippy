@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex current editorial session, separate evidence-check pass",
+  "checked_at": "2026-11-13T03:12:12+00:00",
+  "input_hashes": {
+    "capture.json": "d54f3634325759a3d1ebef59e67a3b93129080f5df97f3d4ce9ac9954ed5186f",
+    "history.json": "f9550133fa4d144997fef848844a5e39bda68a60986f060da91fa3686f44631b",
+    "review.json": "883ea7e03564a80ca7d21fca9ae561b5686ee6334a1d3a70c7a0c48d8210efdf",
+    "edition.json": "1891b8f822b34c3fbfbba33595ab3bad77c63989a1f8f8b9cb2cc9766e34eaa2",
+    "market.json": "897aeca93dcf20af2539f214d7a9f497fcf19b85cb8ba1f9a3a7582cdea3c1f1"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 333 titles and summaries from 15 successful feeds through offsets 0, 40, 80, 120, 160, 200, 240, 280 and 320 to null and reviewed all 146 history entries. Matched 7 selections, 155 eligible alternatives, 68 explicit duplicate links and 103 rejects to the reviewed records. Compared operating facts within Rail Vikas Nigam, Ola Electric and HAL trading coverage, and weighed the Noida Metro approval, Andhra industrial plans, direct tax receipts, HFCL export award and WHO incidence estimate. Separated provisional or reported positions on PE ownership and Qualcomm layoffs from confirmed decisions.",
+  "hero": "Checked all seven named developments against the final cards. The lead distinguishes retail inflation from its food component, identifies the exact battery export material, keeps the voter rolls at draft status and presents Ola compliance as an order rather than an observed change.",
+  "catalysts": "November 14 is Saturday in IST. The November 13 feed stamps anchor the Chilka parade and Verka pricing to Friday. The Delhi education recommendations and expected Pune cooperative revival ceremony are November 15, the Philippines visit is November 16 and the UP roll release is November 17. The Quad preview gives next week without an eligible Saturday milestone, and no November 14 text names a material India deliverable. The edition uses one closing absence module.",
+  "cards": [
+    {
+      "id": "68d6d19cf23a4e17b6d5739a",
+      "factual_support": "The Business Standard headline gives the 6.09% October reading and two-year threshold context. The summary explicitly compares October food inflation of 8.94% with September’s 7.74%.",
+      "analysis": "Household purchasing pressure and a more complicated rate decision are analytical implications. The November CPI watch does not predict the RBI’s vote or the timing of the release relative to it.",
+      "novelty": "The ledger records September CPI at 5.54%, whereas the October reading and upper-band breach are a fresh observation. The rounded Hindu figure and hike-prospects coverage were clustered with this release."
+    },
+    {
+      "id": "f2547971ba06f1baedd5cafa",
+      "factual_support": "The report is explicitly attributed to NITI Aayog. The brief preserves nearly 70% of targeted segments, cumulative employment of 8,49,069 and disbursements of ₹35,354 crore as of March 2026, without converting the segment share into a jobs-target share.",
+      "analysis": "The sector comparison is a proposed way to judge outcomes. Target or payment-rule changes are signals to watch, and the card does not state any such revisions have occurred.",
+      "novelty": "The ledger’s textile PLI eligibility and extension story concerns a specific policy change. This programme-wide impact assessment supplies separate outcomes and consolidates the report’s employment-target coverage."
+    },
+    {
+      "id": "dd0aa2c0e6f0fecef4a875df",
+      "factual_support": "The official cited by Hindustan Times identifies the immediate prohibition, the specific lithium-ion battery black mass export material and the domestic recycling purpose.",
+      "analysis": "Potential feedstock availability is an inference, and uptake and stock accumulation are alternative observable outcomes without a stated volume forecast.",
+      "novelty": "The prior ₹2,814-crore mineral processing programme is a separate funding measure. The current restriction applies at export and adds a distinct intervention."
+    },
+    {
+      "id": "15112679cd64931c1b7e085e",
+      "factual_support": "The headline supports the Cabinet’s five-year extensions. The summary explicitly assigns ₹4,111 crore to the Stand-Up India fund and ₹5,000 crore to the Micro Units fund under Mudra.",
+      "analysis": "Continuation of financing channels follows from extension, with sanction and disbursement figures left as future tests of access.",
+      "novelty": "Earlier ledger coverage of the SME Growth Fund and social assistance continuation concerns different programmes. Neither provides the two allocations and extensions reported here."
+    },
+    {
+      "id": "67dd4cd03f9a21e5eb871370",
+      "factual_support": "The HT headline supports publication of drafts across 13 states and three Union territories and the November 17 UP timing. The summary gives the Bihar increment and Tamil Nadu total with its pre-revision comparison.",
+      "analysis": "Voter checks and corrections explain the exposure of publishing drafts. The next-signal sentence keeps UP’s release and claims or objections prospective.",
+      "novelty": "Prior entries concern Karnataka’s final SIR roll, UP scrutiny, Goa family restoration and searchable PDFs. This is a new multi-jurisdiction draft publication with Bihar and Tamil Nadu figures."
+    },
+    {
+      "id": "333ab785dbccc237969d21cb",
+      "factual_support": "The Business Standard headline and summary confirm the ₹10 lakh penalty and removal order. The brief attributes the finding about pre-confirmation tipping pressure to CCPA and makes no claim that Ola paid or removed the prompt.",
+      "analysis": "Reduced pressure is a conditional effect of removal. The future interface check and regulator confirmation are concrete compliance signals.",
+      "novelty": "The earlier CCPA marketplace action addressed different products and sellers. The Inc42 fine-only account was linked to the same tipping enforcement event."
+    },
+    {
+      "id": "4c1daa31b3354b9235128625",
+      "factual_support": "The Hindu explicitly identifies processing and response generation within India, enterprise API use, initial GPT-6 Luna support and the stated data localisation purpose.",
+      "analysis": "Usability for location-constrained workloads is conditional. Model expansion and production use are future signals, and the card does not imply blanket compliance or full-platform availability.",
+      "novelty": "Neither IndiaAI’s prior model launches nor the data-centre forecast involved this OpenAI API feature. Inc42’s API residency account covers the same launch and was grouped with it."
+    }
+  ]
+}
