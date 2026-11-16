@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 16 November 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 032</strong><br />16 November 2026<br /><span id="rss-status">RSS edition · 20261116T025734Z-45159742</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">India’s goods trade gap widened in October even as exports grew faster than imports year over year. Coal India’s sale of a stake in Mahanadi Coalfields has a price band, and Escorts Kubota laid out plans for a tractor plant. An aviation safety audit is underway as Assam prepares to table flood-plain zoning legislation. SEBI outlined proposed safeguards for AI use, and Bharat Semi raised seed funding for programmable sensors.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>25,144.30</strong><span class="down">Nifty 50 · -0.61%</span><span class="flat">13 Nov 03:45 UTC</span></div><div class="quote"><strong>81,592.45</strong><span class="down">Sensex · -0.39%</span><span class="flat">13 Nov 03:45 UTC</span></div><div class="quote"><strong>₹94.230</strong><span class="down">USD/INR · +0.21%</span><span class="flat">16 Nov 02:18 UTC</span></div><div class="quote"><strong>$94.81</strong><span class="down">Brent · -1.07%</span><span class="flat">16 Nov 02:47 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="9c5c7ac723f8007719e3901e"><div class="story-no">01</div><div><h3>Policy support, exporter resilience drive strong Oct trade performance: CII</h3><p>Business Standard reported that India’s October goods exports rose 45% year over year to $49.47 billion, while imports rose 16% to $89.35 billion. The goods trade deficit widened to a high for the year of $39.88 billion.</p><p class="why"><span>Why it matters</span><br />A larger import bill can widen the goods deficit even when exports grow faster in percentage terms. Watch the next trade release for whether the gap narrows and whether export growth extends beyond October.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/policy-support-exporter-resilience-drive-strong-oct-trade-performance-cii-126111500334_1.html">Business Standard Economy &amp; Policy, 15 Nov · 10:00 UTC</a></p></div></article>
+<article class="story" data-candidate="88f163edbb9be0fb58511972"><div class="story-no">02</div><div><h3>Coal India&#x27;s Mahanadi Coalfields IPO price band set at ₹129 - ₹136 per share | Check GMP, issue details, key dates</h3><p>Mahanadi Coalfields set a price band of ₹129–136 a share for its IPO, which opens on November 19 and closes on November 23. Coal India is selling a 10% stake and will receive the proceeds.</p><p class="why"><span>Why it matters</span><br />The offer would give public investors direct exposure to the subsidiary and convert part of Coal India’s holding into cash. Watch the final issue price and subscription levels for a measure of investor demand.</p><p class="source">RSS · <a href="https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-price-band-set-at-rs-129-rs-136-per-share-check-gmp-issue-details-key-dates-11794795588725.html">Mint Markets, 16 Nov · 02:51 UTC</a></p></div></article>
+<article class="story" data-candidate="15575b650fba650c817e4cee"><div class="story-no">03</div><div><h3>Escorts Kubota plans new UP plant with 60,000-tractor capacity: CFO</h3><p>Escorts Kubota plans to start building a tractor plant near Jewar airport in Uttar Pradesh early next fiscal year, CFO Bharat Madan told PTI. The first phase would have capacity for 60,000 tractors, with room to expand to 100,000.</p><p class="why"><span>Why it matters</span><br />Added capacity would give Escorts Kubota more room to meet seasonal peaks in tractor demand. Watch for work to begin at the Jewar site early next fiscal year.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/escorts-kubota-plans-new-up-plant-with-60-000-tractor-capacity-cfo-126111500168_1.html">Business Standard Companies, 15 Nov · 06:15 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="5040ef2d73000af7dbfec0d3"><div class="story-no">04</div><div><h3>US FAA begins 5-day audit of DGCA’s safety oversight system</h3><p>The US Federal Aviation Administration began an audit of India’s Directorate General of Civil Aviation under its International Aviation Safety Assessment programme. The assessment is scheduled for November 16–20.</p><p class="why"><span>Why it matters</span><br />The audit scrutinises the regulator’s safety oversight and could identify where it needs to change its practices. Watch for the findings and any corrective actions requested of the DGCA.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/us-faa-begins-5-day-audit-of-dgca-s-safety-oversight-system-101794768518414.html">Hindustan Times India, 15 Nov · 18:48 UTC</a></p></div></article>
+<article class="story" data-candidate="fcd75fd71a3787ba526b6096"><div class="story-no">05</div><div><h3>Assam to restrict construction in flood-prone areas under proposed zoning law: CM</h3><p>Assam’s government has prepared a bill that would restrict construction in flood-prone areas. The Assam Flood Plain Zoning Bill is due to be tabled in the state assembly’s winter session next month.</p><p class="why"><span>Why it matters</span><br />Flood-plain zoning could limit new construction where it would add to flood exposure. Watch the bill as introduced for how it defines flood-prone areas and which construction it would restrict.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/assam-to-restrict-construction-in-flood-prone-areas-under-proposed-zoning-law-101794756338340.html">Hindustan Times India, 15 Nov · 15:25 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="3401dbc58c1c790520ecbdf9"><div class="story-no">06</div><div><h3>Sebi to issue AI usage guidelines for capital markets, focus on investor protection</h3><p>SEBI plans to issue guidance on AI use in capital markets. The regulator’s chief said the proposed safeguards would cover disclosures, accountability for regulated entities and human involvement in decisions.</p><p class="why"><span>Why it matters</span><br />Human review could give regulated firms a way to catch errors before automated decisions reach investors. Watch the published text for which uses require human review and what firms must disclose.</p><p class="source">RSS · <a href="https://yourstory.com/2026/11/sebi-issue-ai-usage-guidelines-investor-protection">YourStory, 15 Nov · 09:39 UTC</a></p></div></article>
+<article class="story" data-candidate="57de78f20c22a97baa84e29c"><div class="story-no">07</div><div><h3>Bharat Semi raises $24 million in seed round led by Info Edge, South Park Common</h3><p>Bharat Semi raised $24 million in a seed round led by Info Edge and South Park Common. The startup is developing programmable sensors for uses including automotive systems, surveillance and drones.</p><p class="why"><span>Why it matters</span><br />Seed funding can help Bharat Semi move sensor designs toward prototypes and customer testing. Watch for customer trials that show whether the sensors meet application requirements.</p><p class="source">RSS · <a href="https://www.livemint.com/companies/start-ups/bharat-semi-raises-24-million-seed-funding-info-edge-deeptech-startup-11794722449154.html">Mint Companies, 16 Nov · 00:30 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Tuesday, 17 November</p></div><div class="catalysts"><p>The IMD expects the Bay of Bengal system to intensify into a severe cyclonic storm by the evening of November 17, with the forecast track toward the Andhra Pradesh coast. <a href="https://www.hindustantimes.com/india-news/depression-over-bay-of-bengal-to-intensify-into-severe-cyclonic-storm-by-nov-17-move-towards-andhra-pradesh-coast-imd-101794761096139.html">Hindustan Times India</a></p><p>Prime Minister Narendra Modi is scheduled to attend the ASEAN–India Summit and East Asia Summit in Manila on November 17. <a href="https://www.hindustantimes.com/india-news/pm-modi-trump-to-join-asean-summit-in-manila-global-conflicts-maritime-economic-ties-on-agenda-101794760688896.html">Hindustan Times India</a></p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

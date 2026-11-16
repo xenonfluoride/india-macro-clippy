@@ -1,0 +1,3770 @@
+{
+  "candidates": [
+    {
+      "action_type": "Priced offer",
+      "actor": "Mahanadi Coalfields and Coal India",
+      "confidence": "high",
+      "decision": "select",
+      "event": "Price band fixed for 10% parent stake sale",
+      "event_key": "mahanadi-coalfields-coal-india-priced-10-percent-secondary-ipo-november-2026",
+      "evidence": [
+        "Coal India's Mahanadi Coalfields IPO price band set at ₹129 - ₹136 per share | Check GMP, issue details, key dates",
+        "Mahanadi Coalfields has set its IPO price band at ₹129–136 per share. The offer, open from 19 to 23 November, is a 10% stake sale by Coal India, which will receive the proceeds. Shares are tentatively due to list on BSE and NSE on 27 November."
+      ],
+      "id": "88f163edbb9be0fb58511972",
+      "india_exposure": "Coal India and domestic listed coal exposure",
+      "lane": "macro",
+      "materiality": 5,
+      "mechanism": "Proceeds flow to the selling parent",
+      "reason": "Terms and recipient are established ahead of subscription."
+    },
+    {
+      "action_type": "Cultural event underway",
+      "actor": "Golden Pagoda exposition organisers, identity uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Namsai relic exposition follows Bomdila programme",
+      "evidence": [
+        "Buddha relics arrive at Arunachal’s Golden Pagoda for final phase of exposition",
+        "The Namsai exposition follows a six-day programme at Bomdila’s Thubchog Gatsel Ling Monastery from November 8 to 13, which attracted more than 35,000 devotees"
+      ],
+      "id": "6b6b9ac5afa5a10023437203",
+      "india_exposure": "Arunachal pilgrims",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Attendance indicates religious reach",
+      "reason": "No new institutional or economic decision."
+    },
+    {
+      "action_type": "Filed allegations",
+      "actor": "Intel shareholders",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Proposed class action over PC sales disclosures",
+      "evidence": [
+        "Michigan pension fund drags Intel to court after 29% stock plunge in a day wiped out $140 billion in market value",
+        "Intel shareholders have filed a proposed class action, alleging the company concealed how slowing PC sales and excess inventory would hurt revenue. The suit says Intel disclosed the problems too late, before its stock plunged 28.6% in one day, wiping out about $140 billion in market value."
+      ],
+      "id": "0d3a74ddb94140c8fb10cbb4",
+      "india_exposure": "No Indian exposure identified",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Potential liabilities sit with US issuer",
+      "reason": "No Indian sales, assets or claimants in excerpt."
+    },
+    {
+      "action_type": "Police allegation",
+      "actor": "Rajasthan police",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Alleged ISI link in railway blast inquiry",
+      "event_key": "rajasthan-railway-blast-police-isi-link-investigation-november-2026",
+      "evidence": [
+        "Rajasthan railway blast accused have ISI links: Police",
+        "Investigators allege they made two earlier attempts to blow up the line. The blast damaged railway sleepers but caused no injuries."
+      ],
+      "id": "e042c2f95e541bfa46a00cb4",
+      "india_exposure": "Rail infrastructure in Rajasthan",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Damage interrupted use of affected track infrastructure",
+      "reason": "A serious investigation but no substantiated broader network or policy change."
+    },
+    {
+      "action_type": "Market forecast",
+      "actor": "Economists and traders, identities uncertain",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Forecast another 50–75 basis points of tightening",
+      "evidence": [
+        "India braces for higher interest rates as inflation, oil prices rise",
+        "Economists and financial traders expect the Reserve Bank of India to lift the benchmark rate by another 50 to 75 basis points in coming months, taking it as high as 6.25%, from 5.5% now"
+      ],
+      "id": "8ec40b6e54d5a29f0bbcec48",
+      "india_exposure": "Indian borrowers and RBI rate path",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Tightening would transmit through loan repricing",
+      "reason": "No official rate decision and weaker than measured data."
+    },
+    {
+      "action_type": "Reported education data",
+      "actor": "Report authors uncertain in excerpt",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Indian US enrolment falls 6.5%",
+      "evidence": [
+        "Indian enrolment for US higher education fell 6.5% in 2025-26, notes report",
+        "According to the report, the latest decline was driven largely by a 34% drop in Indian students pursuing graduate programmes."
+      ],
+      "id": "9c414402794ca3ce8e30f51a",
+      "india_exposure": "Indian international students",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Graduate enrolment drives weaker education outflows",
+      "reason": "Substantive cohort change but no report attribution beyond an unnamed report."
+    },
+    {
+      "action_type": "Operating incident",
+      "actor": "IndiGo and Pune airport director",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Pune flight returns after malfunction",
+      "event_key": "indigo-pune-guwahati-landing-gear-return-november-2026",
+      "evidence": [
+        "IndiGo flight returns to Pune after landing gear malfunction, fliers safe",
+        "All 192 people on board, including passengers and crew members, were safe, and no injuries were reported, said Santosh Dhoke, director, Pune Airport."
+      ],
+      "id": "cc95afbc157c54e1538ba263",
+      "india_exposure": "Passengers and airline",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Diversion interrupts one domestic service",
+      "reason": "No broader operational change or regulator finding."
+    },
+    {
+      "action_type": "Consultancy estimate",
+      "actor": "McKinsey",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Models returns on banking AI agents",
+      "evidence": [
+        "AI could reshape banking economics as early adopters see nearly 3x returns: McKinsey",
+        "Banks adopting artificial intelligence (AI) agents could see their investments pay off in around 10 months and generate returns of nearly three times the initial investment over three years, according to a report by McKinsey, which said the technology could reshape the economics and competitive landscape of the banking sector."
+      ],
+      "id": "1005b9e7d9de45785f4b8f85",
+      "india_exposure": "No India sample specified",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Automation could lower bank process costs",
+      "reason": "Hypothetical global return with no local evidence."
+    },
+    {
+      "action_type": "Operational visit",
+      "actor": "CRPF chief Singh",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "844cbbbbe5e1256dc5b4bced",
+      "event": "Kulgam site visit and review amid joint response",
+      "event_key": "kulgam-attack-joint-security-response-november-2026",
+      "evidence": [
+        "CRPF chief visits J&K, reviews security after attack in Kulgam",
+        "In a post on X on Saturday, CRPF said that its chief visited Kulgam, and interacted with the field officers for the intensified counter insurgency operations in the valley. Singh also visited the site of the attack and later the army hospital in Srinagar where one of the injured is admitted."
+      ],
+      "id": "fae5f6b50e3852dadb4c619a",
+      "india_exposure": "Jammu and Kashmir security",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Review accompanies the response to the attack",
+      "reason": "Same immediate Kulgam response as the fuller joint-operation account."
+    },
+    {
+      "action_type": "Session preview",
+      "actor": "Mint market desk; forecasters uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Monday trade and earnings watchlist",
+      "evidence": [
+        "Top stocks to watch today: Tata Motors PV, Eicher Motors, Hindalco shares in focus on Monday, 16 November | Full list",
+        "Indian markets may open higher on Monday as GIFT Nifty rose, despite cautious global cues. Investors will track quarterly results from Tata Motors Passenger Vehicles, Eicher Motors, Godrej Industries, Hero Motors and Zetwerk, alongside corporate deals, fundraising news and ex-dividend dates."
+      ],
+      "id": "ad4aebda12ac81528336b7dd",
+      "india_exposure": "Indian equity holders",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Earnings may move shares",
+      "reason": "No reported company outcomes in this roundup."
+    },
+    {
+      "action_type": "Accident investigation",
+      "actor": "Police, unit uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Fatal highway crash and CCTV inquiry",
+      "evidence": [
+        "Four of family killed as truck overturns on car on Delhi-Jaipur National Highway",
+        "The five-year-old nephew survived with head injuries. Police are reviewing CCTV footage to establish how the crash happened and identify the truck driver."
+      ],
+      "id": "b25d41699e620c72507e7c6f",
+      "india_exposure": "Delhi–Jaipur road users",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Isolated crash raises road-safety questions",
+      "reason": "No systemic remedial action reported."
+    },
+    {
+      "action_type": "Reported incident and analysis",
+      "actor": "Delhi civic authorities, responsibility uncertain",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Town Hall collapse illustrates disused civic stock",
+      "evidence": [
+        "Inside India’s forgotten civic heritage",
+        "The partial collapse of Delhi’s 160-year-old Town Hall has exposed the neglect of colonial-era civic buildings—from town halls to collectorates—abandoned and left to decay after their offices moved out"
+      ],
+      "id": "c617f6a3894eb362fdeff53e",
+      "india_exposure": "Municipal heritage property",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Vacancy can defer upkeep",
+      "reason": "Asset stewardship is material but no preservation decision is captured."
+    },
+    {
+      "action_type": "Completed schedule restoration",
+      "actor": "Air India",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Delhi and Mumbai nonstop New York flights restored",
+      "event_key": "air-india-delhi-mumbai-new-york-nonstop-restoration-november-2026",
+      "evidence": [
+        "Air India resumes direct New York flights as Iraq airspace reopens",
+        ": Air India on Sunday said it has restored non-stop operations on all its flights connecting Delhi and Mumbai with New York, following the reopening of previously restricted Iraq airspace that had necessitated technical stops on select services amid the ongoing US-Iran war"
+      ],
+      "id": "f771dd3105e1fc3880ba4848",
+      "india_exposure": "Indian long-haul passengers and airline",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Removing stops reduces travel friction",
+      "reason": "Direct operating change, narrowly scoped to affected routes."
+    },
+    {
+      "action_type": "Local crime inquiry",
+      "actor": "Police, unit uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Probe into ticket agent's death",
+      "evidence": [
+        "IndiGo Employee Found Dead After Outing With Friend, Cops Probe Murder Angle",
+        "Varsha, who worked at the IndiGo ticket counter at Pune Airport, had travelled to her maternal home in Madhya Pradesh's Balaghat district to celebrate Diwali with her two-and-a-half-year-old daughter."
+      ],
+      "id": "931e2388c4cfaecf860c6660",
+      "india_exposure": "Balaghat family",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Personal safety case",
+      "reason": "Employer affiliation supplies no airline operating exposure."
+    },
+    {
+      "action_type": "Retrospective interview",
+      "actor": "Tej Chingtham",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Recounts Northeast incubator origins",
+      "evidence": [
+        "How Tej Chingtham built Northeast’s first incubator; The pilot-turned-entrepreneur who is building a wellness brand",
+        "In a conversation with Shradha Sharma, Founder and CEO of YourStory and The Bharat Project, Prof Tej Chingtham, CEO of Atal Incubation Centre - Sikkim Manipal University Technology Business Incubation Foundation, recalls what led him to look at the Northeast's startup ecosystem closely."
+      ],
+      "id": "030dffebafb1a8a9fa8c7566",
+      "india_exposure": "Northeast founders",
+      "lane": "tech",
+      "materiality": 1,
+      "mechanism": "Incubation can connect founders to capital",
+      "reason": "No new programme, activity or result."
+    },
+    {
+      "action_type": "Ongoing probe",
+      "actor": "NIA and Jammu and Kashmir police",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Pir Panjal support-network investigation",
+      "evidence": [
+        "NIA probes network of overground workers operating in Jammu and Kashmir’s Pir Panjal",
+        "The terror module was busted by the Jammu and Kashmir police on September 11 this year when it arrested accused persons"
+      ],
+      "id": "1fc2e9c18398af41ec27f485",
+      "india_exposure": "Jammu and Kashmir security",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Tracing support links may inform enforcement",
+      "reason": "Summary anchors arrests to September and supplies no new adjudication or policy."
+    },
+    {
+      "action_type": "Recruitment administration",
+      "actor": "SSC",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Exam city details published",
+      "evidence": [
+        "SSC CPO 2026: Exam City Details Released, Admit Card 2-3 Days Before Exam",
+        "SSC has released exam city details for SSC CPO 2026 Paper 1, scheduled from November 23 to 28, for Sub-Inspector posts in Delhi Police and CAPFs."
+      ],
+      "id": "b4ad73b5410e35b6626e67ba",
+      "india_exposure": "Police recruitment candidates",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "City notice helps candidates plan travel",
+      "reason": "Routine administration with exams later in November."
+    },
+    {
+      "action_type": "Forecast and preparedness",
+      "actor": "IMD and Odisha authorities",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "ec820e8be71a4efba5b39fb4",
+      "event": "Expected severe Bay of Bengal cyclone",
+      "event_key": "bay-of-bengal-imd-november-17-severe-cyclone-forecast-2026",
+      "evidence": [
+        "Deep depression LIVE updates: Odisha steps up preparedness as IMD warns of another cyclonic storm over Bay of Bengal",
+        "Deep depression LIVE updates: The weather system is expected to become a severe cyclonic storm over the west-central Bay of Bengal by the evening of November 17, IMD said."
+      ],
+      "id": "e37da43f7e6996254f615671",
+      "india_exposure": "East-coast districts",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Storm intensification can trigger warnings",
+      "reason": "Same storm forecast as the dedicated November 17 Andhra-facing report."
+    },
+    {
+      "action_type": "Expected diplomacy",
+      "actor": "PM Modi and summit participants",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "ff0997904a79715f42113171",
+      "event": "Manila summit trade and security agenda",
+      "event_key": "modi-november-17-manila-asean-india-east-asia-summits-2026",
+      "evidence": [
+        "Trade, Indo-Pacific in focus as PM Modi heads to Manila for Asean, Quad summits",
+        "PM Modi’s meetings with Asean and other world leaders in Manila are expected to focus on boosting trade, investment, strengthening maritime security cooperation"
+      ],
+      "id": "675493dde9fafd4e880891d7",
+      "india_exposure": "India's regional economic ties",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Meetings may initiate future agreements",
+      "reason": "Grouped with specifically dated Manila meetings."
+    },
+    {
+      "action_type": "Personnel discussions",
+      "actor": "Jensen Huang and reported allies",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "Reported campaign for Nvidia reinstatement",
+      "event_key": "nvidia-post-resignation-huang-reinstatement-campaign-november-2026",
+      "evidence": [
+        "Embattled Jensen Huang is discussing comeback as Nvidia CEO amid mounting pressure on board to reinstate him: Report",
+        "A campaign is reportedly underway to reinstate Jensen Huang as Nvidia CEO days after his resignation amid allegations of extramarital relationships. Tech executives, investors and employees have voiced support, and allies are seeking White House backing."
+      ],
+      "id": "7b8ef102f86f06e5790ced22",
+      "india_exposure": "No India operating effect specified",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Board choice could shift company strategy",
+      "reason": "Reinstatement remains unconfirmed and no local commitments are reported."
+    },
+    {
+      "action_type": "Unconfirmed calendar",
+      "actor": "Union government and opposition parties",
+      "confidence": "low",
+      "decision": "duplicate",
+      "duplicate_of": "7db531b28be0c3fe21ebb27f",
+      "event": "Possible early December winter session",
+      "event_key": "india-parliament-early-december-winter-session-preview-2026",
+      "evidence": [
+        "Government may call Parliament winter session in early December",
+        "Opposition parties say the government has not shared the schedule and are protesting the electoral-roll revision."
+      ],
+      "id": "57c8a6eb1582b4ebc170db0e",
+      "india_exposure": "Indian Parliament",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Scheduling shapes time for legislative business",
+      "reason": "Same scheduling event as the report identifying proposed legislation."
+    },
+    {
+      "action_type": "Market recap",
+      "actor": "Gold traders and Warsh",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Gold rises before remarks",
+      "evidence": [
+        "Gold edges higher as investors await Warsh remarks for rate signals",
+        "GLOBAL-PRECIOUS:Gold edges higher as investors await Warsh remarks for rate signals"
+      ],
+      "id": "e72c051b54c688a2893776ff",
+      "india_exposure": "No India exposure shown",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Rate expectations can change bullion demand",
+      "reason": "Price movement and remarks preview only."
+    },
+    {
+      "action_type": "Showcase feature",
+      "actor": "Shenzhen tech firms, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Shenzhen automation scene at APEC",
+      "evidence": [
+        "The driverless taxis, robots and tech companies in APEC host city Shenzhen show Chinas ambitions",
+        "The driverless taxis, robots and tech companies in APEC host city Shenzhen show China's ambitions"
+      ],
+      "id": "8ea2313b9debbd4238fcaf29",
+      "india_exposure": "No Indian role shown",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Robotics illustrates local industrial capacity",
+      "reason": "Foreign technology tour without domestic exposure."
+    },
+    {
+      "action_type": "Trading forecast",
+      "actor": "Market forecasters, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Opening calls after Friday inflation reaction",
+      "evidence": [
+        "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "Sensex and Nifty 50 are expected to open flat to positive on Monday, despite weaker Asian markets and mixed global cues. Indian benchmarks fell on Friday as higher-than-expected retail inflation raised concerns about a possible RBI rate hike."
+      ],
+      "id": "812bfdef5ea02e9a0c60821a",
+      "india_exposure": "Indian equity holders",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Rates expectations affect valuations",
+      "reason": "Index call recycles the already covered October CPI."
+    },
+    {
+      "action_type": "FX recap",
+      "actor": "Currency traders, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Yen steady after soft Japan GDP",
+      "evidence": [
+        "Yen steady against euro and dollar after soft Japanese GDP data",
+        "GLOBAL-FOREX/:FOREX-Yen steady against euro and dollar after soft Japanese GDP data"
+      ],
+      "id": "c0b2c3ebe94fad8d61ebaa34",
+      "india_exposure": "No rupee or India effect reported",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "GDP news can alter yen positioning",
+      "reason": "Foreign FX recap."
+    },
+    {
+      "action_type": "Reported results and management outlook",
+      "actor": "Hitachi Energy",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Order and earnings strength with HVDC outlook",
+      "evidence": [
+        "Hitachi Energy’s growth outlook powers rally. Have valuations run ahead?",
+        "A strong earnings performance, robust order inflows and confidence in long-term demand sent Hitachi Energy shares soaring. The company expects growth to be supported by upcoming HVDC projects and continued investments in power transmission."
+      ],
+      "id": "73fc4895818820efeda4c185",
+      "india_exposure": "Indian transmission supply chain",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Project execution could convert orders to sales",
+      "reason": "Substantive operating evidence but summary leaves results and HVDC awards unquantified."
+    },
+    {
+      "action_type": "Reported scheme change",
+      "actor": "Indian military recruitment authorities, formal issuer uncertain",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Longer short-term military stint and another conversion chance",
+      "evidence": [
+        "Is India rethinking its short-term military recruitment scheme?",
+        "India has softened its recruitment scheme, giving young soldiers a longer military stint and another shot at permanent service."
+      ],
+      "id": "6451688e14fd3c0925df9b30",
+      "india_exposure": "Indian recruits and regular forces",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Longer service and conversion change retention",
+      "reason": "Summary leaves duration, effective date and instrument unspecified."
+    },
+    {
+      "action_type": "Foreign index recap",
+      "actor": "Australian equity investors",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Mining weakness weighs on Australian shares",
+      "evidence": [
+        "Australian shares slip to near one-week low as weaker copper, iron ore weigh on miners",
+        "AUSTRALIA-STOCKS/ MIDDAY:Australian shares slip to near one-week low as weaker copper, iron ore weigh on miners"
+      ],
+      "id": "d88034ad5506a0d92d90affc",
+      "india_exposure": "No Indian exposure shown",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Lower metals prices weigh on miners",
+      "reason": "No Indian commodity flow or policy outcome."
+    },
+    {
+      "action_type": "Fund launch and target corpus",
+      "actor": "Oister Global",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Launch of potential ₹600 crore growth fund",
+      "event_key": "oister-global-deep-tech-growth-fund-launch-november-2026",
+      "evidence": [
+        "Oister Global launches deep-tech fund with potential ₹600 crore corpus",
+        "The fund will invest in eight to 10 mature companies across semiconductors, defence, aerospace, quantum technologies and advanced mobility, focusing on commercialisation and growth"
+      ],
+      "id": "428f84da644af480b36d8d03",
+      "india_exposure": "Indian advanced-tech commercialisation",
+      "lane": "tech",
+      "materiality": 3,
+      "mechanism": "Growth capital can help mature companies scale",
+      "reason": "Concrete strategy but target corpus and deployments remain prospective."
+    },
+    {
+      "action_type": "Reported financing and operating position",
+      "actor": "Ola Electric",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Rights issue partly raised amid debt and rising losses",
+      "evidence": [
+        "Ola Electric's cash cushion dwindles as market share slips and losses persist",
+        "While the company's October rights issue of ₹1,000 crore, of which it has raised about ₹600 crore so far, will support its balance sheet, its existing loans of nearly ₹1,800 crore and rising quarterly losses mean its financial outlook remains uncertain."
+      ],
+      "id": "25c03da3533b53b1219a27e1",
+      "india_exposure": "Indian electric scooter producer",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Raised equity supports liquidity while debt and losses drain it",
+      "reason": "A separate financing position from the dealer transition."
+    },
+    {
+      "action_type": "Technical advice",
+      "actor": "Raja Venkatraman",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Three stock recommendations for November 16",
+      "evidence": [
+        "Raja Venkatraman recommends three stocks for 16 November",
+        "Market expert Raja Venkatraman shares his top stock picks for 16 November. Here’s his technical outlook and trade strategy."
+      ],
+      "id": "4e89690d5b4eeaacbc37b3df",
+      "india_exposure": "Indian traders",
+      "lane": "macro",
+      "materiality": 0,
+      "mechanism": "Trade setups target individual positions",
+      "reason": "No operating disclosure in summary."
+    },
+    {
+      "action_type": "Reported operating divergence",
+      "actor": "Yatra",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "September-quarter bookings up but revenue and profit weaker",
+      "evidence": [
+        "Yatra’s ‘MICE’ Problem",
+        "Bookings grew, but revenue shrank and profit disappeared. That was the paradox of Yatra in the September quarter, when India’s…"
+      ],
+      "id": "fe9e9e756a8e45481f8f31a3",
+      "india_exposure": "Indian corporate travel",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Bookings volume may fail to translate into realised margin",
+      "reason": "Truncated excerpt supplies no scale or driver."
+    },
+    {
+      "action_type": "Reported fundraising exploration",
+      "actor": "Transasia BioMedicals",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Explores minority stake sale of up to 20%",
+      "evidence": [
+        "Transasia BioMedicals explores up to 20% stake sale to raise $200 million",
+        "The medical equipment maker is seeking $150-200 million through a minority stake sale, with TPG, Warburg Pincus, ChrysCapital and others exploring the opportunity."
+      ],
+      "id": "d8e696bc53a2e169dd22d728",
+      "india_exposure": "Indian medical equipment business",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Equity placement could bring capital and new owners",
+      "reason": "Interest is preliminary and seller or issuance details remain unclear."
+    },
+    {
+      "action_type": "Investment advice",
+      "actor": "MarketSmith India",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "November 16 stock picks",
+      "evidence": [
+        "Stock recommendations for 16 November from MarketSmith India",
+        "MarketSmith India reveals its top stock recommendations for today, 16 November. Get expert insights into the best-performing stocks to guide your investment decisions."
+      ],
+      "id": "eba81ba9203bad2f6ec08565",
+      "india_exposure": "Indian equity traders",
+      "lane": "macro",
+      "materiality": 0,
+      "mechanism": "Recommendations concern positions",
+      "reason": "No issuer-level operating event."
+    },
+    {
+      "action_type": "Completed financing",
+      "actor": "Bharat Semi, Info Edge and South Park Common",
+      "confidence": "high",
+      "decision": "select",
+      "event": "Raises $24 million seed round",
+      "event_key": "bharat-semi-24-million-seed-financing-november-2026",
+      "evidence": [
+        "Bharat Semi raises $24 million in seed round led by Info Edge, South Park Common",
+        "The deeptech startup is developing programmable sensors for applications spanning surveillance, automotive and drones, as it looks to build a global customer base."
+      ],
+      "id": "57de78f20c22a97baa84e29c",
+      "india_exposure": "Indian sensor development",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Capital can advance programmable sensors toward customer testing",
+      "reason": "Named leads, funding and product focus are explicit."
+    },
+    {
+      "action_type": "Attributed investment opinion",
+      "actor": "Anand Radhakrishnan of Sundaram AMC",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Cautions that return of FII buying is premature",
+      "evidence": [
+        "Too early to call FII return to Indian equities a trend, says Sundaram AMC's Radhakrishnan",
+        "Anand Radhakrishnan says lower crude prices, steadier currency, attractive valuations and better-than-expected earnings offer more durable reasons for the renewed interest than a global retreat from AI stocks."
+      ],
+      "id": "33cbc74a706d4992c8ddb86b",
+      "india_exposure": "Indian equity financing",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Oil, rupee and earnings may influence allocations",
+      "reason": "No new measured flow series or decision in excerpt."
+    },
+    {
+      "action_type": "Reported credit conditions",
+      "actor": "IIFCL and Yotta",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Lender tightens GPU financing terms",
+      "evidence": [
+        "IIFCL tightens loan terms as Yotta's debt tops $1.4 billion",
+        "While Yotta will initially rent out Nvidia’s B300 GPUs, these chips will have to be eventually purchased by Darshan Hiranandani, promoter of Yotta, as per the terms set by IIFCL."
+      ],
+      "id": "69f70ab7cc73572fce7c41fc",
+      "india_exposure": "Indian AI computing capacity",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Promoter purchase requirement shifts ultimate asset financing",
+      "reason": "Concrete terms but weaker relative to clearer sector-wide regulatory news."
+    },
+    {
+      "action_type": "Fund launch and listing outlook",
+      "actor": "Oister Global",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "428f84da644af480b36d8d03",
+      "event": "New deep-tech fund alongside potential portfolio IPOs",
+      "event_key": "oister-global-deep-tech-growth-fund-launch-november-2026",
+      "evidence": [
+        "With nine portfolio firms eyeing IPOs, Oister Global launches ₹600 cr deep-tech fund",
+        "Nearly 9 of the 17-18 companies across Oister Global’s three ACE funds, such as Kuku FM, OfBusiness, and Bombay Shaving Company, are looking to list"
+      ],
+      "id": "1837f0cb458af5c03c7b19ef",
+      "india_exposure": "Indian venture portfolio",
+      "lane": "tech",
+      "materiality": 3,
+      "mechanism": "Fund could finance commercial expansion",
+      "reason": "Same fund announcement, with portfolio listing chatter as secondary context."
+    },
+    {
+      "action_type": "Completed financing",
+      "actor": "Bharat Semi",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "57de78f20c22a97baa84e29c",
+      "event": "$24 million intelligent-sensor seed round",
+      "event_key": "bharat-semi-24-million-seed-financing-november-2026",
+      "evidence": [
+        "Bharat Semi raises $24 million to develop intelligent sensors for AI",
+        "The India- and US-based startup is developing programmable sensors that integrate sensing and AI, targeting applications across robotics, vehicles, drones and consumer electronics"
+      ],
+      "id": "78fabf0d49bd17abdafb99ea",
+      "india_exposure": "India–US sensor startup",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Capital backs integrated sensing and AI",
+      "reason": "Same round as the report naming lead investors."
+    },
+    {
+      "action_type": "Technical outlook",
+      "actor": "Options analysts, identities uncertain",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "Market level forecast through Tuesday",
+      "evidence": [
+        "Markets poised for a breather after sharp rally",
+        "Options data implies an initial decline toward 24800 and upside target of 25400 through Tuesday"
+      ],
+      "id": "6b880daafe8a327104ed0d82",
+      "india_exposure": "Indian traders",
+      "lane": "macro",
+      "materiality": 0,
+      "mechanism": "Option positioning predicts a near-term range",
+      "reason": "No measurable economic release or operational catalyst."
+    },
+    {
+      "action_type": "Reported exploration and capacity targets",
+      "actor": "Jio",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Explores Indian launch partners for broadband constellation",
+      "evidence": [
+        "Jio explores Indian launch partners for satellite constellation; rocket capacity a hurdle",
+        "Jio is exploring domestic partners to launch satellites for a planned broadband constellation, with an initial batch of about 390 and a longer-term goal of 1,600. The effort could boost India’s private space sector, though limited launch capacity and high costs remain hurdles."
+      ],
+      "id": "17d40dd079463de7326d0c9b",
+      "india_exposure": "Domestic launch providers and satellite broadband",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Domestic launches would create demand for scarce rocket capacity",
+      "reason": "Quantified ambition but no partner award or launch commitment."
+    },
+    {
+      "action_type": "Market recap",
+      "actor": "Emerging-market investors",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "EM assets fall on chip and Fed worries",
+      "evidence": [
+        "Emerging-Market Assets Dip as Chip Rout, Fed Rate Worries Linger",
+        "Emerging-market assets fell on Friday as a rout in chipmakers weighed on equities and lingering concerns over the Federal Reserve’s rate path kept currencies under pressure."
+      ],
+      "id": "641c3950e2909a758c53ce4e",
+      "india_exposure": "No Indian allocation shown",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Global rate concerns affect risk pricing",
+      "reason": "No India-specific flow or change."
+    },
+    {
+      "action_type": "Reported allocation shift",
+      "actor": "Vietnamese retail investors and banks",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Equity to bank-note rotation",
+      "evidence": [
+        "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
+        "Vietnam’s retail investors are dumping equities and buying high-yielding notes from banks to capture interest rates nearing 10%, as locals and foreigners fall out of favor with the poor-performing stock market."
+      ],
+      "id": "3c11ad3160f3a655be5e2778",
+      "india_exposure": "No India exposure",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "High bank yields compete with stocks",
+      "reason": "Vietnam-only observed shift."
+    },
+    {
+      "action_type": "Ceremonial appearance",
+      "actor": "Rekha Gupta",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Offers Chhath prayers at Yamuna",
+      "evidence": [
+        "Delhi Chief Minister Rekha Gupta Celebrates Chhath Puja, Offers Prayers At Yamuna Ghat",
+        "Rekha Gupta offered Arghya to the setting Sun and prayed to Chhathi Maiya for the happiness, prosperity and good health of Delhiites."
+      ],
+      "id": "856e88ea9e705c6bf26ab902",
+      "india_exposure": "Delhi devotees",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Public observance",
+      "reason": "No programme or policy action."
+    },
+    {
+      "action_type": "Local crime allegation",
+      "actor": "Kolkata suspect and complainant",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Alleged killing of pets",
+      "event_key": "kolkata-alleged-pet-killings-investigation-november-2026",
+      "evidence": [
+        "Kolkata Man Kills Ex-Girlfriend's Dogs, Shows It To Her On Video Call",
+        "The woman immediately contacted a local man and asked him to check on the flat. Upon arrival, the man found both dogs dead, with blood splattered throughout the flat."
+      ],
+      "id": "0207e37eac4ce0487ccf4540",
+      "india_exposure": "Individual household",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Domestic abuse concern",
+      "reason": "No broader enforcement or legal change."
+    },
+    {
+      "action_type": "Audit underway",
+      "actor": "US FAA and DGCA",
+      "confidence": "high",
+      "decision": "select",
+      "event": "Five-day Indian aviation oversight assessment begins",
+      "event_key": "faa-dgca-international-aviation-safety-assessment-november-2026",
+      "evidence": [
+        "US FAA begins 5-day audit of DGCA’s safety oversight system",
+        "The assessment, scheduled from November 16 to 20, is being conducted under the FAA’s International Aviation Safety Assessment programme."
+      ],
+      "id": "5040ef2d73000af7dbfec0d3",
+      "india_exposure": "Indian aviation safety oversight",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Review tests the regulator's oversight framework",
+      "reason": "Clear institutional scope and start-end dates with findings pending."
+    },
+    {
+      "action_type": "Local crash",
+      "actor": "Vehicle driver, identity uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Car strikes parked jeep in Solan",
+      "evidence": [
+        "Video: Speeding Car Rams Parked Jeep, Injures Woman In Himachal's Solan",
+        "The incident occurred in Solan's Datauwal and was captured by a CCTV camera at the scene."
+      ],
+      "id": "bf9dd8f9849ef66e1a9ff4d6",
+      "india_exposure": "Himachal road users",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Individual road-safety incident",
+      "reason": "No wider enforcement response in excerpt."
+    },
+    {
+      "action_type": "Reported field observations",
+      "actor": "Delhi street workers interviewed",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Smog affects street workers and customer demand",
+      "evidence": [
+        "'We Endure': Staying Indoors Not An Option, Workers Suffer The Tyranny Of Smog In Delhi",
+        "Customers have moved online, and tourists have stayed away from India Gate, which is hidden behind smog anyway. But those who work on Delhi's streets say they cannot stop their business just because they struggle to breathe."
+      ],
+      "id": "f69333451c3cec6895ff7f9d",
+      "india_exposure": "Outdoor and informal workers in Delhi",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Exposure and reduced footfall pressure both health and income",
+      "reason": "Useful detail but effects are anecdotal and no new measure is reported."
+    },
+    {
+      "action_type": "Scheduled releases and preview",
+      "actor": "Nvidia and US statistical and monetary bodies",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "US weekly events calendar",
+      "evidence": [
+        "Wall Street Week Ahead: Nvidia earnings, Anthropic IPO, Federal Reserve minutes, retail sales - Top things to watch",
+        "Nvidia's earnings announcement on Tuesday will be among the biggest events of the week, as investors look for indications that demand for AI infrastructure remains strong amid concerns over the sustainability of massive investments in the sector"
+      ],
+      "id": "496c695a3d62a1e5111e8c2c",
+      "india_exposure": "No Indian effect specified",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "US earnings can change AI investment expectations",
+      "reason": "Tuesday earnings date lacks a concrete domestic channel in excerpt."
+    },
+    {
+      "action_type": "Attributed commentary and allegations",
+      "actor": "Scott Bessent",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Calls for Nvidia leadership and culture change",
+      "evidence": [
+        "‘Nvidia needs a dramatic shake-up’: Why Scott Bessent wants an outsider as CEO after Jensen Huang scandal",
+        "Scott Bessent questioned Nvidia’s corporate culture and its alleged role in facilitating the sale of advanced artificial intelligence (AI) chips to Chinese entities through shell companies, including those based in Singapore."
+      ],
+      "id": "e7c39f15bd0d904ee2bdd5bc",
+      "india_exposure": "No India company specified",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Personnel pressure could affect chip strategy",
+      "reason": "China and Singapore allegations establish no local effect."
+    },
+    {
+      "action_type": "Completed foreign launch",
+      "actor": "United Launch Alliance",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Vulcan returns with Amazon Leo payload",
+      "evidence": [
+        "ULA Vulcan Rocket Launches With Its First Amazon Leo Payload",
+        "United Launch Alliance launched its Vulcan rocket for the first time in nine months, a long-awaited return for a vehicle plagued by delays and technical mishaps."
+      ],
+      "id": "67c7729fd4032de06e4418d8",
+      "india_exposure": "No Indian role named",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "More lift capacity can support Leo deployment",
+      "reason": "No India procurement or service consequence shown."
+    },
+    {
+      "action_type": "Accident",
+      "actor": "Drivers, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Fatal Fazilka road collision",
+      "evidence": [
+        "5 Killed, 11 Injured As Car Collides With Truck In Punjab's Fazilka",
+        "The accident occurred near Theh Kalandar while they were returning from a wedding ceremony."
+      ],
+      "id": "984f7388fc3eb81170f432a6",
+      "india_exposure": "Punjab road users",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Local loss and injury",
+      "reason": "No network-level outcome."
+    },
+    {
+      "action_type": "Reported enforcement action",
+      "actor": "West Bengal police and Ratan Sheikh",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Fatal police encounter after reported firing",
+      "event_key": "west-bengal-birbhum-ratan-sheikh-encounter-november-2026",
+      "evidence": [
+        "Man Accused Of Shooting Cop Killed In Bengal. 5th Encounter In 6 Months",
+        "Ratan Sheikh was killed after he opened fire at a police team while trying to evade arrest at a brick kiln in Nanoor in the same district."
+      ],
+      "id": "06c4aa0958900831ee685e3a",
+      "india_exposure": "Birbhum policing",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Repeated encounters could warrant oversight",
+      "reason": "Specific case with no formal review or rule established."
+    },
+    {
+      "action_type": "Political speech and criticism",
+      "actor": "Giacomo Filibeck and BJP",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Slogan at Hyderabad event draws BJP response",
+      "event_key": "filibeck-hyderabad-bharat-summit-slogan-response-november-2026",
+      "evidence": [
+        "BJP Sees 'Treason' As Italian Leader Echoes 'Vote Chor' Slogan, Rahul Gandhi Laughs At Hyderabad Event",
+        "Giacomo Filibeck, secretary-general of the Party of European Socialists (PES), raised the Opposition's slogan \"Vote chor, gaddi chhod\", translating it to \"Vote thief, leave your seat\" -- a line that Rahul Gandhi has been using for a long time to attack the BJP and EC."
+      ],
+      "id": "51d95b28c237d93e0d0c8ca9",
+      "india_exposure": "Indian party debate",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Rhetoric shapes campaign messaging",
+      "reason": "No institutional outcome."
+    },
+    {
+      "action_type": "Follow-up reporting",
+      "actor": "Victims' family and crash parties, identities incomplete",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Individual victims identified in Assam collision",
+      "evidence": [
+        "3 Girls Of A Family Among 26 Killed In Assam Truck-Bus Collision",
+        "According to their father, his two younger daughters, aged 20 and 16, left home with their cousin. His eldest daughter is married and lives in Burapahar."
+      ],
+      "id": "4d6ac41cc230d9cde0cad96b",
+      "india_exposure": "Assam road users",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Shows human impact of a mass-fatality crash",
+      "reason": "Related to the later state probe, but no new governance step here."
+    },
+    {
+      "action_type": "Campaign positioning",
+      "actor": "Akhilesh Yadav",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Dalit outreach and Ayodhya visit intention",
+      "event_key": "akhilesh-yadav-up-dalit-outreach-november-2026",
+      "evidence": [
+        "Akhilesh Yadav's Dalit Pitch, Ayodhya Plan Stir UP Vote Bank Cauldron",
+        "While Samajwadi Party (SP) chief Akhilesh Yadav has announced his intention to visit the Ayodhya Ram temple, much of the action is also focussed on the Dalit vote"
+      ],
+      "id": "532e4a83cae74a410334130c",
+      "india_exposure": "UP voters",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Outreach attempts to shape coalition",
+      "reason": "No programme, rights or service change."
+    },
+    {
+      "action_type": "Party appointments",
+      "actor": "BJP and former AAP MPs",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Punjab election committee recruitment",
+      "event_key": "bjp-punjab-election-committee-appointments-november-2026",
+      "evidence": [
+        "Analysis: AAP Insiders Turn BJP's Punjab Warriors, To Draw Up Its 2027 Battle Plan",
+        "BJP brings Rajya Sabha MPs Raghav Chadha and Sandeep Pathak, once key strategists of the AAP in Punjab, along with others formerly with the AAP and Congress, into key election committees"
+      ],
+      "id": "26a2c672a5c39484809d6d28",
+      "india_exposure": "Punjab party organisation",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Appointments affect campaign planning",
+      "reason": "Internal organisation without government action."
+    },
+    {
+      "action_type": "Disclosed investment without terms",
+      "actor": "Ajinkya Rahane and Ember",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Celebrity invests in cookware brand",
+      "evidence": [
+        "‘The kitchen is at the heart of every household’: Why Ajinkya Rahane invested in cookware brand Ember",
+        "The investment marks Rahane's latest foray into India's startup ecosystem, adding another consumer-focused business to his investment portfolio."
+      ],
+      "id": "e578e549c70b784b10e84211",
+      "india_exposure": "India consumer brand",
+      "lane": "tech",
+      "materiality": 1,
+      "mechanism": "Capital could expand consumer distribution",
+      "reason": "No terms or specific scaling commitment."
+    },
+    {
+      "action_type": "Operational response underway",
+      "actor": "Jammu and Kashmir police, Army and CRPF",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Joint response to Kulgam attack launched",
+      "event_key": "kulgam-attack-joint-security-response-november-2026",
+      "evidence": [
+        "Massive Anti-Terrorist Operation Launched In Kashmir Over Kulgam Attack",
+        "The Jammu and Kashmir police, the Army and the CRPF have jointly launched the operation. Top police officers, including J&K DGP Nalin Parvati and the Inspector General of Kashmir Zone, Sujit Kumar, are personally supervising the operation."
+      ],
+      "id": "844cbbbbe5e1256dc5b4bced",
+      "india_exposure": "Jammu and Kashmir security",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Joint coordination reallocates local resources",
+      "reason": "A concrete mobilisation with outcomes unreported and limited new governance evidence."
+    },
+    {
+      "action_type": "Police allegation",
+      "actor": "Punjab and Rajasthan investigators",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "e042c2f95e541bfa46a00cb4",
+      "event": "Reported Pakistani handler in Rajasthan rail blast",
+      "event_key": "rajasthan-railway-blast-police-isi-link-investigation-november-2026",
+      "evidence": [
+        "Love, Drugs, Pak Link: How Punjab Woman Got Involved In Rajasthan Blast Plot",
+        "Police allege that Mahakdeep, a resident of Dostpur village, acted on the instructions of a Pakistan-based handler identified as 'Shah'. She had direct communication with him and subsequently involved Devinder Singh, a resident of Chaur Kalan village, in the operation."
+      ],
+      "id": "07ed16e6a99b1703062d49b5",
+      "india_exposure": "Rail infrastructure in Rajasthan",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Investigation seeks external links",
+      "reason": "Same blast inquiry with suspect-specific detail and unadjudicated assertions."
+    },
+    {
+      "action_type": "Dated weather forecast",
+      "actor": "IMD",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Severe cyclone forecast by evening of November 17",
+      "event_key": "bay-of-bengal-imd-november-17-severe-cyclone-forecast-2026",
+      "evidence": [
+        "Depression over Bay of Bengal likely to intensify into severe cyclonic storm by Nov 17, move towards Andhra Pradesh coast: IMD",
+        "The weather system is likely to become a Severe Cyclonic Storm over the westcentral Bay of Bengal by the evening of November 17, the IMD said."
+      ],
+      "id": "ec820e8be71a4efba5b39fb4",
+      "india_exposure": "Andhra coast and Bay of Bengal",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Intensification can change preparedness needs",
+      "reason": "Clear next-day signal with no confirmed landfall."
+    },
+    {
+      "action_type": "Scheduled diplomatic meetings",
+      "actor": "PM Modi and summit participants",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "November 17 ASEAN–India and East Asia summits",
+      "event_key": "modi-november-17-manila-asean-india-east-asia-summits-2026",
+      "evidence": [
+        "PM Modi, Trump to join ASEAN Summit in Manila; global conflicts, maritime, economic ties on agenda",
+        "Modi will travel to Manila on November 16 to participate in the ASEAN-India Summit and the East Asia Summit the following day."
+      ],
+      "id": "ff0997904a79715f42113171",
+      "india_exposure": "India's regional relations",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Summit meetings offer a venue for agreements",
+      "reason": "Distinct dated catalyst, with outcomes pending."
+    },
+    {
+      "action_type": "Local political incident",
+      "actor": "Uttarakhand MLA and chief minister",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Stage vandalism and booking",
+      "event_key": "uttarakhand-harish-dhami-stage-incident-november-2026",
+      "evidence": [
+        "Uttarakhand MLA loses temper, vandalises stage after he was denied chance to speak at event; booked",
+        "The chief minister lashed out at the Congress, saying it has lost its ground which is causing its members to “lose their mental balance”."
+      ],
+      "id": "a8c1febbe3fe5f5aabb07640",
+      "india_exposure": "Uttarakhand public event",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Booking may lead to individual proceedings",
+      "reason": "No legislative or policymaking change."
+    },
+    {
+      "action_type": "Consumer buying guide",
+      "actor": "Apple and review author",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Comparison of four iPhone cameras",
+      "evidence": [
+        "iPhone 18 Pro vs iPhone 17 Pro vs iPhone 16 Pro vs iPhone 15 Pro Max: Which has the best camera for photography?",
+        "From the iPhone 18 Pro's variable aperture to the iPhone 15 Pro Max's 5x optical zoom, Apple's Pro models offer different photography features. Here is how four generations compare on camera quality, zoom, portraits and low-light photography."
+      ],
+      "id": "9bd833a5f9c6a7c4372ae9dd",
+      "india_exposure": "Device shoppers",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Feature differences inform purchase",
+      "reason": "No Indian technology activity or policy."
+    },
+    {
+      "action_type": "Priced upcoming IPO",
+      "actor": "Watrana Rentals",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "₹120.10 crore fresh SME issue terms",
+      "evidence": [
+        "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
+        "Watrana Rentals’ ₹120.10 crore SME IPO will open on November 19 and close on November 23. The fresh issue comprises 49.02 lakh shares, with a price band of ₹232–245 and a lot size of 600 shares. The IPO is expected to list on NSE SME on November 27."
+      ],
+      "id": "de9e39aa811727f2cb41099a",
+      "india_exposure": "Indian equipment rental issuer",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Fresh issuance could fund the business",
+      "reason": "Genuine capital event but small scale and opens November 19."
+    },
+    {
+      "action_type": "Attributed speech",
+      "actor": "Mohan Bhagwat",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Warns about identity divisions",
+      "evidence": [
+        "‘Magnifying smaller identities’: Mohan Bhagwat says efforts on to divide India using British-era tactics",
+        "RSS chief Mohan Bhagwat said that while India is moving in the right direction today, certain global forces do not want the nation to become great."
+      ],
+      "id": "391caadf80adbcadfbd2e219",
+      "india_exposure": "Indian political discourse",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Rhetoric may influence social debate",
+      "reason": "No specific action or verified development."
+    },
+    {
+      "action_type": "Attributed warning",
+      "actor": "Volodymyr Zelenskyy",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Warns Starshield limits threaten winter defences",
+      "evidence": [
+        "Zelenskyy says Starshield restrictions threaten Ukraine’s energy defenses ahead of winter"
+      ],
+      "id": "5cc592f06bb95bc760402366",
+      "india_exposure": "Ukraine only in excerpt",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Connectivity affects Ukrainian protection",
+      "reason": "No India exposure."
+    },
+    {
+      "action_type": "Reported potential layoffs and terms",
+      "actor": "Qualcomm and unnamed report sources",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "India layoffs could affect 1,000 with severance",
+      "evidence": [
+        "Qualcomm layoffs: Who gets 4 months' salary and extra compensation under reported exit deal?",
+        "Qualcomm's India layoffs could affect 1,000 employees. Reports suggest affected staff may get up to four months' salary as severance, plus additional payouts."
+      ],
+      "id": "482144541c45bb4464a5d873",
+      "india_exposure": "Indian chip engineering employment",
+      "lane": "tech",
+      "materiality": 3,
+      "mechanism": "Headcount cuts would reduce local payroll",
+      "reason": "No confirmed tally or completed severance in excerpt."
+    },
+    {
+      "action_type": "Broker recommendation",
+      "actor": "IDBI Capital and Rolex Rings",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Buy call with utilisation cited",
+      "evidence": [
+        "Multibagger small cap stock delivers 91% return in 1 year! IDBI Capital sees 17% upside - Do you own? Check target price",
+        "Rolex Rings shares have gained 91% over the past year. IDBI Capital maintained a Buy rating and set a target price of ₹241, citing the company’s growth prospects from the Make in India ecosystem, rising capacity utilisation and strong quarterly results."
+      ],
+      "id": "0ff821b06b2cd6e8378e5838",
+      "india_exposure": "Indian parts producer and investors",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Utilisation could improve unit economics",
+      "reason": "No quantified incremental operating result supplied."
+    },
+    {
+      "action_type": "Party appointments",
+      "actor": "BJP Punjab election organisers",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "26a2c672a5c39484809d6d28",
+      "event": "Names election committee leaders and former AAP MPs",
+      "event_key": "bjp-punjab-election-committee-appointments-november-2026",
+      "evidence": [
+        "Raghav Chadha, Other MPs Who Came From AAP Get Key BJP Committee Roles For Punjab Polls",
+        "Avinash Rai Khanna to head manifesto committee for elections due early next year, Sunil Jakhar to lead the party's chargesheet committee that'll list issues against the ruling AAP"
+      ],
+      "id": "344eebf27ee8e28228ad247e",
+      "india_exposure": "Punjab campaign structure",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Committee assignment allocates campaign responsibilities",
+      "reason": "Same committee reorganisation as broader report."
+    },
+    {
+      "action_type": "Criminal investigation",
+      "actor": "Punjab police and accused network",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Gang arrests reported",
+      "evidence": [
+        "Shooters, Pistols And A Foreign Link: Gangster Ring Busted In Punjab",
+        "Accused allegedly involved in 15-plus criminal cases, including extortion-linked firing incidents"
+      ],
+      "id": "bc24dc42929b94a50ab91ff6",
+      "india_exposure": "Punjab public safety",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Arrests intervene in an alleged extortion network",
+      "reason": "No broader institutional change established."
+    },
+    {
+      "action_type": "Governance remarks",
+      "actor": "Noel Tata",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Articulates philanthropy priority in ownership debate",
+      "evidence": [
+        "Noel Tata reveals his idea of Tata way of life: ‘Charity precedes commerce, charity owns commerce; not other way around’",
+        "For Noel Tata, the central issue is not merely whether Tata Sons should be listed, but whether the Tata Group can preserve its founding philosophy of putting philanthropy and nation-building ahead of commercial considerations in a changing ownership structure."
+      ],
+      "id": "bf9c87c2690b17f2a3c57f40",
+      "india_exposure": "Tata group and trusts",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Control structure affects tradeoffs over listing",
+      "reason": "No board decision or transaction."
+    },
+    {
+      "action_type": "Criminal investigation",
+      "actor": "Delhi police and suspect",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Showroom homicide CCTV report",
+      "event_key": "delhi-showroom-trial-room-murder-case-november-2026",
+      "evidence": [
+        "CCTV Shows Moment Man Dragged Delhi Teen To Trial Room Before Murdering Her",
+        "The CCTV footage shows a man wearing an orange T-shirt entering the store and accosting her as she sat on a chair barely a few feet from the glass door."
+      ],
+      "id": "16b7b24b27c34c36fa620a80",
+      "india_exposure": "Individual Delhi workplace",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Evidence may establish the case sequence",
+      "reason": "No wider policy outcome."
+    },
+    {
+      "action_type": "Reported arrests and allegation",
+      "actor": "Police and accused pair",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "e042c2f95e541bfa46a00cb4",
+      "event": "Arrests in same Rajasthan track-blast case",
+      "event_key": "rajasthan-railway-blast-police-isi-link-investigation-november-2026",
+      "evidence": [
+        "Punjab woman, accomplice held in Rajasthan train track blast; police suspect ISI's 'romance' strategy to recruit women",
+        "Police said the woman is a resident of Gurdaspur and is separated from her husband who is lodged in jail in Punjab in a drug trafficking case."
+      ],
+      "id": "119201b73a9fae25c8a149bb",
+      "india_exposure": "Rajasthan rail security",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Arrests advance inquiry into incident",
+      "reason": "Same incident as police ISI-link report; linkage remains alleged."
+    },
+    {
+      "action_type": "Proposed capital restructuring",
+      "actor": "SC Agrotech",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Proposed stock split and bonus",
+      "evidence": [
+        "144% return in 6 months: Multibagger to turn 1 stock into 18 after split, bonus- Do you own it? Check ratio, return",
+        "SC Agrotech shares have surged, gaining 144% in six months and 266% in a year. The company has proposed a 1:10 stock split and a 4:5 bonus issue, which would turn each existing share into 18 shares. The record date for both actions is yet to be announced."
+      ],
+      "id": "4593bceb095b200a98b82c6d",
+      "india_exposure": "Shareholders",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Changes share count",
+      "reason": "No operating investment and no scheduled record date."
+    },
+    {
+      "action_type": "Individual case",
+      "actor": "Rajasthan police and teacher",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Arrest after relationship dispute",
+      "evidence": [
+        "Rajasthan teacher arrested after refusing to marry 61-year-old Canadian woman he met on dating app",
+        "Two days after the woman's arrival, the teacher told her he would not go ahead with the marriage because of their age difference"
+      ],
+      "id": "697a3dc4966ae3a75bae4c5a",
+      "india_exposure": "Rajasthan parties involved",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Criminal process resolves individual allegation",
+      "reason": "No institutional change."
+    },
+    {
+      "action_type": "Draft legislation pending tabling",
+      "actor": "Assam government and chief minister",
+      "confidence": "high",
+      "decision": "select",
+      "event": "Prepared flood-plain zoning bill for winter session",
+      "event_key": "assam-flood-plain-zoning-bill-prepared-for-winter-session-2026",
+      "evidence": [
+        "Assam to restrict construction in flood-prone areas under proposed zoning law: CM",
+        "The state government has prepared the Assam Flood Plain Zoning Bill, 2026, which will be tabled during the winter session of the state assembly next month"
+      ],
+      "id": "fcd75fd71a3787ba526b6096",
+      "india_exposure": "Assam flood-prone development",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Zoning could change sites available for building",
+      "reason": "Concrete draft and intended tabling with future effect conditional on passage."
+    },
+    {
+      "action_type": "Construction incident",
+      "actor": "Delhi police and builders, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Paharganj roof slab collapse injures eight",
+      "event_key": "delhi-paharganj-construction-roof-collapse-november-2026",
+      "evidence": [
+        "8 Injured As Part Of Building's Roof Falls In Delhi's Paharganj",
+        "According to police, construction work for a hotel building was underway when a portion of the structure collapsed. The roof slab of the second floor was being laid when the incident occurred."
+      ],
+      "id": "d26c5b57560750ab7677d2da",
+      "india_exposure": "Delhi workers and buildings",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Incident raises site supervision concerns",
+      "reason": "No reported inspection regime change."
+    },
+    {
+      "action_type": "Internal appointments",
+      "actor": "CJP organisers",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Zonal appointments and committees",
+      "evidence": [
+        "CJP announces zonal appointments, coordination committees in 10 states and regions",
+        "Kshitij Pagar has been appointed West Zone in-charge and Dr Vivek Sangwan North Zone in-charge."
+      ],
+      "id": "6f8612e48e32ccca14a26841",
+      "india_exposure": "Political organisation in ten states or regions",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Regional roles support internal coordination",
+      "reason": "No governmental or civic policy effect shown."
+    },
+    {
+      "action_type": "Internal procedure",
+      "actor": "Punjab Congress",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Panel to vet entrants from other parties",
+      "evidence": [
+        "Punjab Congress forms panel to oversee induction of leaders from other parties",
+        "The induction process shall be carried forward only after taking their views into consideration, ensuring proper coordination with the local leadership."
+      ],
+      "id": "26a9ffd7d9930f667d8ecbdd",
+      "india_exposure": "Punjab party membership",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Panel centralises candidate or member intake",
+      "reason": "No administrative or electoral rule changes."
+    },
+    {
+      "action_type": "Political analysis",
+      "actor": "Bhagwant Mann and Punjab government",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Wrap-up links welfare initiatives to 2027 campaign",
+      "evidence": [
+        "Free Electricity To 'Punjab Da Crorepati': Bhagwant Mann's Big Welfare Move",
+        "The emerging pattern suggests that the Aam Aadmi Party (AAP) government is looking to build a broad-based political narrative around welfare, financial relief, youth engagement and public infrastructure as it prepares for the 2027 electoral battle."
+      ],
+      "id": "7f10a4dadf3c8119c56f0a78",
+      "india_exposure": "Punjab households",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Electricity relief can alter bills",
+      "reason": "No bounded new eligibility, rollout or cost in excerpt."
+    },
+    {
+      "action_type": "Reported weekly tally comparison",
+      "actor": "YourStory funding roundup",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Weakest week of 2026 for Indian startup funding to date",
+      "evidence": [
+        "(Weekly funding roundup Nov 7-14) VC inflow drops to its lowest level in 2026",
+        "The second week of November saw venture capital funding into Indian startups drop to its lowest level for the year till now due to weak deal activity."
+      ],
+      "id": "c34fea0f5bbe3584424ca28c",
+      "india_exposure": "Indian venture-backed firms",
+      "lane": "tech",
+      "materiality": 3,
+      "mechanism": "Fewer deals constrain near-term capital availability",
+      "reason": "A measured directional indicator, without dollar or deal totals here."
+    },
+    {
+      "action_type": "Local human-interest story",
+      "actor": "UP resident, identity uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Holds his own death observance ceremony",
+      "evidence": [
+        "'Don't Want To Burden Daughter': UP Man Performs Own 'Tehrvi' While Alive",
+        "The preparations for the event were as elaborate as those for other major celebrations. Eight cooks were hired to cook food for around 900 people, which included fried bread and a vegetable curry, as well as sweets."
+      ],
+      "id": "4e090d30b9d100879432d8d0",
+      "india_exposure": "One family",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Personal choice affects family ritual",
+      "reason": "No policy or operating exposure."
+    },
+    {
+      "action_type": "Reported enforcement action",
+      "actor": "West Bengal police and Ratan Sheikh",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "06c4aa0958900831ee685e3a",
+      "event": "Birbhum fatal police encounter after alleged prior firing",
+      "event_key": "west-bengal-birbhum-ratan-sheikh-encounter-november-2026",
+      "evidence": [
+        "Bengal police shoots dead ‘criminal’ who allegedly opened fire at cop two days ago; fifth encounter in 6 months",
+        "Criminal Ratan Sheikh was charged 36 criminal cases in Bengal's Birbhum district and had opene dfire at a police constable two days ago."
+      ],
+      "id": "af2a3110f603973d0da31044",
+      "india_exposure": "Birbhum policing",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Police response ends pursuit of suspect",
+      "reason": "Same event as the fuller account of this encounter."
+    },
+    {
+      "action_type": "Reported financial result",
+      "actor": "Baazar Style Retail",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Reports ₹47,848.31 lakh operating revenue, down year over year",
+      "evidence": [
+        "Stock to buy after Q2 Results 2026: Up 70% in YTD! Should you buy retail stock after strong guidance? Target, stop-loss",
+        "Baazar Style Retail shares rose 5.39% on Friday and gained about 20% in a week ahead of the company’s Q2 FY27 results. Revenue from operations declined year over year to ₹47,848.31 lakh."
+      ],
+      "id": "d7cd1de0d60f7105deed5df0",
+      "india_exposure": "Indian value retail",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Lower revenue can pressure store economics",
+      "reason": "Concrete result despite trading lead, with no cause or new expansion in excerpt."
+    },
+    {
+      "action_type": "Wealth profile",
+      "actor": "Mercor co-founders",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Founder wealth and stakes highlighted",
+      "evidence": [
+        "AI makes 2 Indian-origin founders world’s youngest self-made billionaires worth ₹40,000 crore each, beats Zuckerberg",
+        "AI startup Mercor's three co-founders- Hiremath, chief technology officer; Midha, board chairman; and Brendan Foody, chief executive officer, hold 21% stakes in the company individually. Here's everything about them."
+      ],
+      "id": "923e7cad7963f8bbf59ec932",
+      "india_exposure": "Indian origin of founders only",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Equity values determine estimated wealth",
+      "reason": "No India operation or new transaction established."
+    },
+    {
+      "action_type": "Local rescue",
+      "actor": "Odisha teacher and rescuers",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Missing teacher found alive in ravine",
+      "evidence": [
+        "Missing for 15 days, Odisha teacher found alive in ravine after goat herder hears cries",
+        "After he went missing, his family approached Raikia police station, where a missing-person complaint was lodged on November 5"
+      ],
+      "id": "7647702d176e0c23a848166e",
+      "india_exposure": "Odisha family",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Search and rescue resolved disappearance",
+      "reason": "No wider public programme change."
+    },
+    {
+      "action_type": "Reported recovery",
+      "actor": "Online fiction platform operator, identity uncertain",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "Platform nearing service restoration",
+      "evidence": [
+        "Fans cheer as popular online platform for spinoff stories nears full return after security incident"
+      ],
+      "id": "db46d2d4f7cf12153505b17b",
+      "india_exposure": "No geography or India usage supplied",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Service recovery restores reader access",
+      "reason": "Named platform and Indian exposure absent from excerpt."
+    },
+    {
+      "action_type": "Campaign speech",
+      "actor": "Akhilesh Yadav",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "532e4a83cae74a410334130c",
+      "event": "Rebrands Dalit pitch within PDA slogan",
+      "event_key": "akhilesh-yadav-up-dalit-outreach-november-2026",
+      "evidence": [
+        "'Damdar Dalit': Akhilesh Yadav gives new spin to Samajwadi Party's PDA coinage",
+        "He said the 'D' in the party's 'PDA' coinage, which stands for 'pichhda' (backward classes), Dalit, and alpsankhyak (minorities) -- now stands for Damdar Dalit."
+      ],
+      "id": "58e87da60791710ae8f80c5c",
+      "india_exposure": "UP voters",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Messaging targets voter coalition",
+      "reason": "Same outreach event with no public-policy change."
+    },
+    {
+      "action_type": "Company statement and review",
+      "actor": "Megaspeed",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Says Alice Huang left in 2025 and conducts probe",
+      "event_key": "megaspeed-alice-huang-departure-statement-november-2026",
+      "evidence": [
+        "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout"
+      ],
+      "id": "7b3575da0b3667b4fc6eccdd",
+      "india_exposure": "No India business identified",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Internal probe could change governance practices",
+      "reason": "Foreign company personnel and investigation."
+    },
+    {
+      "action_type": "Police investigation",
+      "actor": "West Bengal police and BJP workers",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Panihati BJP worker dies after alleged assault",
+      "event_key": "panihati-arup-saha-fatal-assault-investigation-november-2026",
+      "evidence": [
+        "Bengal BJP leader dies after alleged assault by party workers in Panihati: Cop",
+        "The incident comes amid repeated warnings from senior BJP leaders and ministers that party workers and leaders involved in organised crime"
+      ],
+      "id": "c4e6e482224dd1f3df0175b6",
+      "india_exposure": "Local party workers",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Case could lead to individual prosecutions",
+      "reason": "No association with new enforcement policy."
+    },
+    {
+      "action_type": "Priced upcoming IPO",
+      "actor": "Crystal Crop Protection",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "₹455.49 crore issuer offer terms before November 18 opening",
+      "evidence": [
+        "Crystal Crop Protection IPO one lot profit calculator on latest GMP: How much can retail and HNI investors earn? Listing",
+        "Crystal Crop Protection’s ₹455.49 crore IPO opens November 18 and closes November 20, with shares priced at ₹259– ₹272. The latest grey market premium of ₹14 suggests a potential listing price of ₹286, or a 5.15% gain at the upper price band."
+      ],
+      "id": "6fff9aadc6297c5e8dbed81b",
+      "india_exposure": "Indian crop protection issuer",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Issuance creates public equity exposure",
+      "reason": "Terms are useful, grey-market gain is speculative and date is beyond tomorrow."
+    },
+    {
+      "action_type": "Opposition demand",
+      "actor": "CPI(M)",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Calls for judicial inquiry into Kerala power purchase",
+      "evidence": [
+        "CPI(M) demand judicial probe into 200 MW power purchase in Keralam"
+      ],
+      "id": "785885ce37fce5fac85c6311",
+      "india_exposure": "Kerala power consumers",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "A probe could review procurement if ordered",
+      "reason": "No inquiry order or purchase terms beyond capacity."
+    },
+    {
+      "action_type": "Legislative proposals",
+      "actor": "US lawmakers from both major parties",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Back bills on advanced chip exports to China",
+      "evidence": [
+        "Jensen Huang controversy triggers fresh US push to block advanced AI chip exports to China — Report",
+        "Democrats and Republicans are backing bills to curb sensitive chip exports and give Congress greater powers to review and block deals approved by the Trump administration."
+      ],
+      "id": "61020afa6b453a271870f99b",
+      "india_exposure": "No covered Indian export or importer cited",
+      "lane": "out-of-scope",
+      "materiality": 2,
+      "mechanism": "US review could restrict China-facing deals",
+      "reason": "Material foreign policy but no India exposure in the excerpt."
+    },
+    {
+      "action_type": "Product secrecy report",
+      "actor": "Rockstar Games",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Keeps GTA 6 details from original creators",
+      "evidence": [
+        "GTA 6: Why haven’t the game’s original creators been allowed to play it before launch?",
+        "Despite the excitement surrounding the release, Rockstar Games has kept details of GTA 6 closely guarded. Its strict secrecy extends even to the people who helped create the original game."
+      ],
+      "id": "8d5b4006a2926da973a245d8",
+      "india_exposure": "No Indian activity established",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Restricted preview controls disclosure",
+      "reason": "Entertainment preview without a domestic technology event."
+    },
+    {
+      "action_type": "Daily digest",
+      "actor": "Hindustan Times roundup",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Reprises Megaspeed statement and sports outcome",
+      "evidence": [
+        "HT Evening News Brief Nov 15: Megaspeed breaks silence on Alice Huang amid Nvidia row; India clinch ODI series vs New Zealand",
+        "Here's a quick recap of the day's top headlines from India, the world and the field of sports and entertainment."
+      ],
+      "id": "c69c12b84700ecbda9debb85",
+      "india_exposure": "India sports coverage only in headline",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Recap aggregates existing events",
+      "reason": "No new operating or policy evidence."
+    },
+    {
+      "action_type": "Audience milestone",
+      "actor": "Raj Shamani",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Podcast reaches 22 million subscribers as reported in headline",
+      "evidence": [
+        "Raj Shamani beats Joe Rogan, Steven Bartlett to become YouTube’s top podcaster with 22 million subscribers",
+        "Raj Shamani began his podcast Figuring Out with Raj Shamani in 2021. The podcast has featured several high profile guests such as OpenAI CEO Sam Altman, Bill Gates, Vijay Mallya, French President Emmanuel Macron and more."
+      ],
+      "id": "bbccba370df7aef1fbb3f103",
+      "india_exposure": "Indian creator market",
+      "lane": "tech",
+      "materiality": 1,
+      "mechanism": "Reach can broaden advertising inventory",
+      "reason": "No monetisation or market-wide change supplied."
+    },
+    {
+      "action_type": "Emergency response",
+      "actor": "Delhi Fire Services",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "d26c5b57560750ab7677d2da",
+      "event": "Hospital response after Paharganj partial collapse",
+      "event_key": "delhi-paharganj-construction-roof-collapse-november-2026",
+      "evidence": [
+        "8 injured after portion of under-construction building collapses in Delhi’s Paharganj",
+        "According to Delhi Fire Services, a call regarding the incident was received at 4:40 pm, following which the injured were rushed to a nearby hospital."
+      ],
+      "id": "2381c669dee27308a247557d",
+      "india_exposure": "Delhi construction workers",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Rescue addresses injuries",
+      "reason": "Same site collapse as construction-stage report."
+    },
+    {
+      "action_type": "Allegation and reporting",
+      "actor": "Arup Saha and West Bengal police",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "c4e6e482224dd1f3df0175b6",
+      "event": "Fatal alleged assault by fellow party workers",
+      "event_key": "panihati-arup-saha-fatal-assault-investigation-november-2026",
+      "evidence": [
+        "BJP worker dies after alleged assault by fellow party workers in West Bengal's North 24 Parganas",
+        "Arup Saha was allegedly attacked after intervening when his wife, a BJP functionary, was verbally abused during a dispute over an assault on a businessman."
+      ],
+      "id": "088a9bd6a49d55e7e8dbd8b2",
+      "india_exposure": "North 24 Parganas party workers",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Police process addresses the assault",
+      "reason": "Same death as Panihati account with family context."
+    },
+    {
+      "action_type": "Dated operational adjustment",
+      "actor": "Delhi Metro",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Starts Monday service two hours early",
+      "evidence": [
+        "Delhi Metro services to start 2 hours early on Monday for Chhath Puja devotees",
+        "Early services will start simultaneously from all terminal stations, with trains running every 15 minutes until regular services begin."
+      ],
+      "id": "bb807b8e81218b0e5f9a7a3a",
+      "india_exposure": "Delhi Chhath passengers",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Earlier trains ease festival access",
+      "reason": "One-day service on November 16, outside tomorrow's module."
+    },
+    {
+      "action_type": "Reported cancellation and company inquiry",
+      "actor": "VA Tech Wabag and Saudi customer",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "₹2,332 crore Yanbu tender project cancelled",
+      "evidence": [
+        "Saudi Arabia scraps VA Tech Wabag's ₹2,332 crore project: What went wrong with the Yanbu tender?",
+        "VA Tech Wabag said it was in the process of approaching the customer to obtain further clarity on the reasons behind the cancellation and understand the next course of action"
+      ],
+      "id": "40f9c480337d652a13dbb81e",
+      "india_exposure": "Indian water-engineering contractor",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Cancellation removes anticipated overseas work",
+      "reason": "Material but company has yet to establish cancellation reasons or next action."
+    },
+    {
+      "action_type": "Price recap and outlook",
+      "actor": "Bullion traders and analysts",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Weekly futures decline and wedding-demand forecast",
+      "evidence": [
+        "Gold, silver prices ahead of wedding season: Down over 4% this week - Investors guide before US Fed Dec meeting",
+        "Gold and silver futures recovered slightly on Friday but posted steep weekly losses as hotter US inflation, a stronger dollar and rising bond yields heightened expectations of a Fed rate hike. Analysts see near-term pressure, while Indian wedding demand and central-bank buying may cushion gold."
+      ],
+      "id": "58d84a196586f5b7fd3f556a",
+      "india_exposure": "Indian gold buyers",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Seasonal demand might cushion prices",
+      "reason": "No evidence of measured domestic purchase change."
+    },
+    {
+      "action_type": "Completed prepayment per company",
+      "actor": "House of Abhinandan Lodha and HDFC Capital",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "₹1,100 crore principal paid before due date",
+      "evidence": [
+        "House of Abhinandan Lodha prepays ₹1,100 crore loan to HDFC Capital",
+        "Real estate firm The House of Abhinandan Lodha (HoABL) has prepaid a Rs 1,100 crore loan to private equity firm HDFC Capital, which it had raised to develop housing projects, comprising mainly plots. In a statement on Sunday, HoABL said it has given an exit to HDFC Capital Advisors Ltd across many projects by making a payment of Rs 1,100 crore as the principal amount before the due date. In 2023, HoABL partnered with HDFC Capital to set up a joint platform to invest in plotted developments and low-rise projects located in metros, Tier II cities and emerging markets in India. HDFC Capital had committed around Rs 1,500 crore to the platform across 11 projects. To date, HoABL has returned around Rs 1,100 crore to HDFC Capital under the platform. Vipul Roongta, CEO of HDFC Capital, said, \"HoABL is a new-age real estate company, which has successfully created a differentiated real estate niche, particularly through plotted developments, low-rise projects and focus on affordable and ..."
+      ],
+      "id": "d1eeb21d42c354ae93647efa",
+      "india_exposure": "Indian plotted housing platform",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Early repayment frees lender capital and reduces borrower principal",
+      "reason": "Specific financing outcome, narrower than the selected offer and industrial expansion."
+    },
+    {
+      "action_type": "Investigative step",
+      "actor": "SIT and private contractors",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Search finds no remains at Veeramani property",
+      "evidence": [
+        "Veeramani case: SIT digs up granite baron’s garden, finds no remains",
+        "Officials, with the help of private contractors, dug up the garden at the bungalow of the 84-year-old granite baron on Avvai Shanmugam Salai"
+      ],
+      "id": "a028561cb44753ae6359ac1d",
+      "india_exposure": "Local case parties",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Negative search result narrows one line of inquiry",
+      "reason": "No change to wider investigation rules."
+    },
+    {
+      "action_type": "Political backlash",
+      "actor": "Giacomo Filibeck and BJP leaders",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "51d95b28c237d93e0d0c8ca9",
+      "event": "BJP criticism after Italian speaker repeats slogan",
+      "event_key": "filibeck-hyderabad-bharat-summit-slogan-response-november-2026",
+      "evidence": [
+        "BJP targets Rahul Gandhi after Italian leader raises 'vote chor' slogan: 'Who laughs when India is insulted'",
+        "Giacomo Filibeck raised the Vote Chor, Gaddi Chhod slogan at the Congress Bharat Summit, drawing criticism from BJP leaders."
+      ],
+      "id": "e2dc67450089a7767013f832",
+      "india_exposure": "Party contest in India",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Campaign argument dominates",
+      "reason": "Same speech and reaction as the Hyderabad event report."
+    },
+    {
+      "action_type": "Trading outlook",
+      "actor": "Equity analysts, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "November 16–20 rally and volatility forecast",
+      "evidence": [
+        "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June - Rally ahead or a pause?",
+        "Indian equities may extend their rally during November 16–20, though volatility is expected. Strong foreign inflows, earnings and bullish technical momentum support the outlook, while crude prices, the rupee, geopolitical tensions and US policy signals pose risks."
+      ],
+      "id": "7bd9b014547fb7af13e5addc",
+      "india_exposure": "Indian equity market",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Flows and earnings feed positioning",
+      "reason": "No new release or specific flow totals."
+    },
+    {
+      "action_type": "Company dataset finding",
+      "actor": "Policybazaar",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Reports 4.3-fold growth in pollution-linked claims over three years",
+      "evidence": [
+        "Delhi tops pollution-linked health insurance claims, 90% from working professionals, senior citizens: Report",
+        "Pollution-linked health insurance claims have seen a rise of 4.3 times in the last three years, revealed Policybazaar. Between October and March, nearly 56% of these annual claims were made in FY26."
+      ],
+      "id": "c7ab740ee5521c0147e89a11",
+      "india_exposure": "Indian insured workers and seniors",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Health exposure can raise claims pressure",
+      "reason": "Insurer-platform evidence merits attention, with denominator and attribution scope unstated."
+    },
+    {
+      "action_type": "Ceremonial statement",
+      "actor": "PM Modi",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Chhath greetings and prayers",
+      "evidence": [
+        "PM Modi extends wishes on Chhath Puja's sandhya arghya, prays for peace and prosperity",
+        "The Prime Minister wished citizens on the occasion, saying he hoped the Sun God's blessings would illuminate everyone's lives and strengthen social harmony."
+      ],
+      "id": "b4d2c7e92b11fe2c715eada0",
+      "india_exposure": "Indian devotees",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Public observance",
+      "reason": "No policy or programme."
+    },
+    {
+      "action_type": "Unproven investigative claims",
+      "actor": "Indushekar and Bengaluru investigators",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Possible motives in serial murder case",
+      "evidence": [
+        "Property dispute, gold sale among suspected motives behind serial murders by Bengaluru cab driver",
+        "Indushekar, 52, is accused of killing his wife and six of her relatives, including a seven-year-old child, over about 15 days between October 16 and 31"
+      ],
+      "id": "049aa1af7460d880bbb6dac7",
+      "india_exposure": "Victims and families",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Evidence may establish motives for prosecution",
+      "reason": "Local case without systemic reform."
+    },
+    {
+      "action_type": "Attributed agreement statement and past framework",
+      "actor": "Piyush Goyal and US counterparts",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Minister says preferential US access agreed",
+      "evidence": [
+        "India, US have agreed on preferential market access for Indian goods in America: Piyush Goyal",
+        "India and the US finalised the framework for the first phase of the bilateral trade agreement in February."
+      ],
+      "id": "647890bebe5d9122eef77e59",
+      "india_exposure": "Indian exporters",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Preferential treatment could change landed costs",
+      "reason": "Excerpt dates framework to February and supplies no new tariff schedule or effective date."
+    },
+    {
+      "action_type": "Personal finance advice",
+      "actor": "Investment commentator, identity uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Compares concentration and diversification for asset classes",
+      "evidence": [
+        "Equity vs bonds",
+        "Concentrated bets in equity market could generate high returns if your bet turns right; On the other hand, diversification pays off for bond investments"
+      ],
+      "id": "ab94439e9f9ca8c0e4a56152",
+      "india_exposure": "Indian savers if applicable",
+      "lane": "macro",
+      "materiality": 0,
+      "mechanism": "Diversification changes portfolio risk",
+      "reason": "No new macro or operating event."
+    },
+    {
+      "action_type": "Ownership explanation",
+      "actor": "Jensen and Lori Huang",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Trust and LLC ownership profile",
+      "evidence": [
+        "Jensen Huang's $140B Nvidia fortune isn't entirely his to control: How wife Lori, family trusts hold the keys — Details",
+        "The approximately 800 million shares jointly held through trusts and LLCs represent a substantial portion of the Huangs' Nvidia wealth. However, the different structures mean that not all these shares can necessarily be sold or transferred in the same way."
+      ],
+      "id": "60bcbb3cd2a3aa131655b7c9",
+      "india_exposure": "No India exposure",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Holding structures constrain disposition",
+      "reason": "No India transaction, sales or asset impact."
+    },
+    {
+      "action_type": "Consumer advice",
+      "actor": "Column author and digital lenders of unspecified identity",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Warns consumers about loan app tactics",
+      "evidence": [
+        "Need a quick loan? Beware of digital lending traps",
+        "From hidden charges and misuse of personal data to coercive recovery tactics, digital borrowing demands more than a cursory glance as borrowers need to know what the loan really costs"
+      ],
+      "id": "a1b644133a17af6b69ebd08d",
+      "india_exposure": "Potential Indian digital borrowers",
+      "lane": "tech",
+      "materiality": 1,
+      "mechanism": "Opaque fees and coercion can increase borrowing costs",
+      "reason": "No named new enforcement action, provider conduct or dataset."
+    },
+    {
+      "action_type": "Reported official accounts finding",
+      "actor": "National Health Accounts",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Health spending rises and out-of-pocket share falls",
+      "evidence": [
+        "India’s health spending triples to ₹4.14L cr, out-of-pocket spending drops to 42.7%: NHA"
+      ],
+      "id": "ef7cb3cc2d27e1c187bd1d0c",
+      "india_exposure": "Indian households and health budgets",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Lower household share can reduce direct funding burden",
+      "reason": "Title-only evidence omits periods and the definition of the ₹4.14 lakh crore."
+    },
+    {
+      "action_type": "Reported flow tally plus commentary",
+      "actor": "Foreign portfolio investors and cited analysts",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "₹84,291 crore invested in equities in November to date",
+      "evidence": [
+        "Sensex, Nifty cheer as Bulls, FPIs back in Indian stock market; pump in over ₹84k cr in Nov so far - More rally ahead?",
+        "FPIs invested ₹84,291 crore in Indian equities in November, helping the Sensex and Nifty extend their recovery and drawing buying into broader markets. Analysts cite earnings growth, reasonable valuations and global portfolio shifts as drivers."
+      ],
+      "id": "d53ee504a0c73d8206234bfd",
+      "india_exposure": "Indian listed equity market",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Foreign demand can improve near-term liquidity",
+      "reason": "Flow is substantive, but excerpt lacks reporting cutoff and primary attribution."
+    },
+    {
+      "action_type": "Project approval with estimated GDV",
+      "actor": "HARERA and Max Estates",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Regulatory nod for 243-home Gurugram project",
+      "evidence": [
+        "Max Estates gets HARERA nod for ₹4,000 crore luxury project in Gurugram",
+        "The Bungalows, spread across 7.25 acres in Gurugram's Sector 59, will feature 243 luxury residences across two towers, with an estimated gross development value of ₹4,000 crore"
+      ],
+      "id": "c5b69f8b83baa9f85549ea10",
+      "india_exposure": "NCR housing pipeline",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Approval lets developer advance marketing and execution",
+      "reason": "Estimated project value remains contingent on delivery and sales."
+    },
+    {
+      "action_type": "Launch after August approval",
+      "actor": "Standard Chartered and IFSCA",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Launches offshore fund distribution for resident Indians",
+      "evidence": [
+        "Standard Chartered taps GIFT City to help wealthy Indians diversify overseas",
+        "The launch follows an August approval from the IFSCA, GIFT City’s regulator, allowing the bank to distribute the funds to resident Indians. Launched four years ago, the funds manage $5 billion in assets across 13 markets."
+      ],
+      "id": "6b62156e84caea47eff9822c",
+      "india_exposure": "Indian wealth-management customers",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "GIFT distribution broadens access to offshore assets",
+      "reason": "Operational launch distinct from prior approval; total fund assets are global, not domestic flows."
+    },
+    {
+      "action_type": "Unconfirmed timetable and legislative intent",
+      "actor": "Union government",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Likely winter session and intended delimitation-linked quota bill",
+      "event_key": "india-parliament-early-december-winter-session-preview-2026",
+      "evidence": [
+        "Parliament winter session likely in early December, govt eyes push for delimitation-linked women’s quota bill",
+        "The govt is keen to push through the Constitution amendment bill, which seeks to expand the Lok Sabha's strength from the existing 543 seats."
+      ],
+      "id": "7db531b28be0c3fe21ebb27f",
+      "india_exposure": "Lok Sabha representation",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Passage could change seat allocation",
+      "reason": "Excerpt supports intention and current strength without a confirmed schedule or vote."
+    },
+    {
+      "action_type": "Local criminal investigation",
+      "actor": "Ghaziabad police and accused",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Arrests after neighbourhood killing",
+      "evidence": [
+        "Woman shot dead after confronting neighbours over brother’s assault in Ghaziabad: Police",
+        "Five people have been arrested and efforts are on to trace the prime accused, who fired at the deceased."
+      ],
+      "id": "2185ec05befe067f7f7ac22b",
+      "india_exposure": "Ghaziabad residents involved",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Arrests advance one homicide case",
+      "reason": "No wider institutional change."
+    },
+    {
+      "action_type": "Insurance coverage analysis",
+      "actor": "Nvidia and its insurers, carriers uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Reports executive D&O cover and company-level gap",
+      "evidence": [
+        "Nvidia's bosses have $900 million insurance cover. How does Jensen Huang's scandal expose a gap?",
+        "Nvidia has $900 million insurance for executives but no company-level D&O cover. Here's why the chipmaker could face costly shareholder lawsuits."
+      ],
+      "id": "25482b1e662173270a8c4305",
+      "india_exposure": "No India exposure",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Policy scope affects shareholder suit cost allocation",
+      "reason": "Foreign governance and coverage."
+    },
+    {
+      "action_type": "Regulatory preparation",
+      "actor": "SEBI",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "3401dbc58c1c790520ecbdf9",
+      "event": "Plans AI safeguards and reviews cyber framework",
+      "event_key": "sebi-capital-market-ai-guidelines-preparation-november-2026",
+      "evidence": [
+        "Sebi to issue AI guidelines for capital markets soon, focus on investor protection and human oversight",
+        "The regulator plans safeguards on AI disclosures, accountability and decision-making; cybersecurity framework also under review"
+      ],
+      "id": "7301256c30497d3dcda573f3",
+      "india_exposure": "Indian capital markets",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Disclosures and oversight would shape use",
+      "reason": "Same proposed AI guidelines; cyber review is secondary and unspecified."
+    },
+    {
+      "action_type": "Approval reported in filing",
+      "actor": "Alembic Pharmaceuticals and US FDA",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Final generic approval and eligibility for exclusivity",
+      "evidence": [
+        "Alembic Pharma receives USFDA approval for lung cancer drug Binimetinib",
+        "Alembic Pharmaceuticals has received final approval from the US Food and Drug Administration for its Abbreviated New Drug Application for Binimetinib tablets for treatment of lung cancer. The approved Abbreviated New Drug Application (ANDA) is therapeutically equivalent to the reference listed drug product, Mektovi Tablets (15 mg), of Array BioPharma Inc, the company said in a regulatory filing on Saturday. Alembic is eligible for 180 days of generic drug exclusivity for Binimetinib Tablets, 15 mg and 45 mg, as it was one of the first ANDA applicants for the 15 mg strength and the sole first applicant for the 45 mg strength to submit a substantially complete ANDA with a paragraph IV certification, the filing said. Binimetinib is a kinase inhibitor indicated, in combination with encorafenib, for the treatment of patients with unresectable or metastatic melanoma and non-small cell lung cancer with a BRAF V600E mutation, it said. According to IQVIA, Binimetinib tablets have an estimat"
+      ],
+      "id": "fc93ae3f69c81e3e5123b895",
+      "india_exposure": "Indian generic pharmaceuticals exporter",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Approval opens US commercial access subject to launch",
+      "reason": "Indications and exclusivity are detailed; approval differs from realised sales."
+    },
+    {
+      "action_type": "Reported current support structure",
+      "actor": "Centre and eligible Ujjwala beneficiaries",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Details direct LPG subsidy and per-cylinder support",
+      "evidence": [
+        "LPG cylinder price in Delhi: Why Ujjwala beneficiaries pay ₹642 for a cylinder that costs ₹1,267.24 to supply",
+        "Eligible Ujjwala beneficiaries pay ₹642 for a 14.2 kg LPG cylinder in Delhi, against the regular retail price of ₹942. The Centre provides a ₹300 direct subsidy and additional support of ₹325.24 per cylinder to cushion higher LPG costs."
+      ],
+      "id": "545ee0fb01a659c6dc98eff5",
+      "india_exposure": "Indian subsidised LPG buyers",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Support cushions price relative to supply cost",
+      "reason": "Clear incidence example, with no new decision or effective date."
+    },
+    {
+      "action_type": "Incident response",
+      "actor": "Mumbai railway and police agencies",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "CSMT threat searched and found hoax",
+      "evidence": [
+        "Mumbai: Bomb threat to CSMT turns out to be hoax after security agencies launch search ops",
+        "Following the alert, personnel from the RPF, GRP, Mumbai Police and other security agencies launched an extensive search operation at the terminus"
+      ],
+      "id": "0a3ab2b01cb5dbefcbf54b28",
+      "india_exposure": "Mumbai rail passengers",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Search reallocates security personnel temporarily",
+      "reason": "No new security system or operating rule."
+    },
+    {
+      "action_type": "Shareholder administration",
+      "actor": "Four listed public-sector companies",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Dividend record-date calendar",
+      "evidence": [
+        "PSU dividend this week Nov 16-20: Cochin Shipyard, Power Finance Corp, SCI to Oil India - Check record dates and returns",
+        "Four PSU stocks will attract attention this week as investors track dividend record dates: Cochin Shipyard and Shipping Corporation of India on November 16, Power Finance Corporation on November 17, and Oil India on November 20. Their announced dividends range from ₹3 to ₹7 per share."
+      ],
+      "id": "f7284e69c5fcdf47afc1c156",
+      "india_exposure": "Domestic PSU holders",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Record dates determine payment eligibility",
+      "reason": "PFC's November 17 date qualifies by date alone and supplies no broader catalyst."
+    },
+    {
+      "action_type": "Programme announcement",
+      "actor": "NITI Aayog",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Plans year-long government lessons workshops",
+      "evidence": [
+        "NITI Aayog to hold workshops to document lessons from Modi’s 25 years in government",
+        "The workshops will be held over a year, till October next year, NITI Aayog said in a statement."
+      ],
+      "id": "81b57e22995007a99d4323e4",
+      "india_exposure": "Indian public administration",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Workshops could disseminate practices",
+      "reason": "No specific administrative reform or deliverable beyond documentation."
+    },
+    {
+      "action_type": "Local enforcement",
+      "actor": "Delhi Police",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Six arrested in alleged heroin network and seizure",
+      "evidence": [
+        "Six arrested as Delhi Police busts family-run heroin trafficking network, seizes drugs worth ₹5 crore",
+        "The recovery includes heroin worth ₹5 crore, ₹73,400 in cash, two Mahindra Thar SUVs, two motorcycles, a scooter and five mobile phones."
+      ],
+      "id": "8ce7d7a16de86a3ca02d9c16",
+      "india_exposure": "Delhi public safety",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Seizure removes alleged supply in one case",
+      "reason": "No system-level interdiction change established."
+    },
+    {
+      "action_type": "Reported monthly trade data plus industry attribution",
+      "actor": "CII and Sanjay Budhia",
+      "confidence": "high",
+      "decision": "select",
+      "event": "October goods exports and imports rise, deficit widens",
+      "event_key": "india-october-2026-goods-trade-release",
+      "evidence": [
+        "Policy support, exporter resilience drive strong Oct trade performance: CII",
+        "The government's support and the strong efforts of exporters helped India's exports reach a record high of nearly USD 50 billion in October, CII's Sanjay Budhia said on Sunday. India's goods exports increased 45 per cent to USD 49.47 billion in October, compared to USD 34.11 billion in the same month last year. Imports also rose 16 per cent to USD 89.35 billion from USD 76.69 billion. As a result, trade deficit widened to a year high of USD 39.88 billion. Budhia, Chair - CII National Committee on Exports and Patton International's MD, said strong shipments of petroleum, electronics, engineering products and gems and jewellery pushed the country's shipments last month. \"India's export performance for October is indeed encouraging and energising. It reflects the resilience, competitiveness and growing global footprint of Indian industry,\" he said. The growth in non-petroleum exports is encouraging, with exports of electronic goods, engineering products, chemicals, gems and jewellery"
+      ],
+      "id": "9c5c7ac723f8007719e3901e",
+      "india_exposure": "India goods producers, importers and external balance",
+      "lane": "macro",
+      "materiality": 5,
+      "mechanism": "A larger import bill can offset strong export growth",
+      "reason": "Quantified and distinct month from the September release; no need to adopt CII's causal view."
+    },
+    {
+      "action_type": "Project announcement",
+      "actor": "PM Modi",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Announces projects worth ₹3,000 crore",
+      "evidence": [
+        "PM Modi credits tribal welfare schemes for poverty reduction, announces ₹3,000 crore projects",
+        "Prime Minister Narendra Modi was addressing the Janjatiya Gaurav Diwas programme in Maharashtra’s Gadchiroli through video conferencing"
+      ],
+      "id": "b82112b5f08f864dc5878ef7",
+      "india_exposure": "Indian tribal welfare programme context",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Investment could expand service provision",
+      "reason": "Summary establishes venue but neither project details nor funding status."
+    },
+    {
+      "action_type": "Local criminal allegation",
+      "actor": "Kolkata accused and complainant",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "0207e37eac4ce0487ccf4540",
+      "event": "Alleged killing of two dogs following partner moving out",
+      "event_key": "kolkata-alleged-pet-killings-investigation-november-2026",
+      "evidence": [
+        "Kolkata man kills live-in partner's two dogs after she moves out, shares videos with her",
+        "The accused allegedly shared videos with his partner showing how he killed the dogs."
+      ],
+      "id": "0a8961c175edc2a0c51759c3",
+      "india_exposure": "One Kolkata household",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Conduct prompts individual enforcement",
+      "reason": "Same reported killing as flat discovery account."
+    },
+    {
+      "action_type": "Proposed guidance",
+      "actor": "SEBI and its chief",
+      "confidence": "high",
+      "decision": "select",
+      "event": "Plans AI guidelines for capital-market use",
+      "event_key": "sebi-capital-market-ai-guidelines-preparation-november-2026",
+      "evidence": [
+        "Sebi to issue AI usage guidelines for capital markets, focus on investor protection",
+        "The Sebi chief said the proposed guidelines would focus on establishing appropriate guardrails for AI use, including disclosures, accountability of regulated entities, and a 'human-in-the-loop' approach."
+      ],
+      "id": "3401dbc58c1c790520ecbdf9",
+      "india_exposure": "Indian regulated firms and investors",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Human review and accountability can constrain automated decisions",
+      "reason": "Specific planned guardrails with text and compliance timing still pending."
+    },
+    {
+      "action_type": "Expert forecast",
+      "actor": "Unnamed analysts",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "Speculate US data-centre constraints redirect AI investment",
+      "evidence": [
+        "Nvidia disruption, likely Democratic shift on data centres could impact AI investments, say experts. Who is set to gain?",
+        "Experts feel that the Nvidia turmoil and potential Democratic-led limits on data-center construction could redirect AI investment towards other chipmakers and Big Tech firms with available computing capacity. Does long-term growth outlook remain strong?"
+      ],
+      "id": "c7a10725abcbd3b94665b27f",
+      "india_exposure": "No Indian project identified",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Supply constraints can shift computing demand",
+      "reason": "No new implemented US restriction or Indian channel."
+    },
+    {
+      "action_type": "Offer preview",
+      "actor": "Mahanadi Coalfields and Coal India",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "88f163edbb9be0fb58511972",
+      "event": "Earlier price-band preview of parent stake sale",
+      "event_key": "mahanadi-coalfields-coal-india-priced-10-percent-secondary-ipo-november-2026",
+      "evidence": [
+        "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details",
+        "Mahanadi Coalfields, Coal India’s largest coal-producing subsidiary, will open its IPO for subscription from 19 to 23 November. The offer is a sale of up to 66.18 crore shares by Coal India, expected to raise about ₹9,500 crore. The price band is yet to be announced."
+      ],
+      "id": "505b1cec88b46cd34c143d93",
+      "india_exposure": "Coal India shareholders",
+      "lane": "macro",
+      "materiality": 5,
+      "mechanism": "Secondary offer monetises parent ownership",
+      "reason": "Same offer, superseded on pricing by the fixed band."
+    },
+    {
+      "action_type": "Executive advice",
+      "actor": "Natalia Rachelson of Oracle",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Advises measuring AI by operational outcomes",
+      "evidence": [
+        "Measure AI by results, not number of agents deployed: Oracle senior executive",
+        "Business leaders should pick an outcome they can measure, such as reducing the time spent resolving accounting errors or lowering transport costs, said, Natalia Rachelson, Senior Vice President, Applications Development, Oracle."
+      ],
+      "id": "e5dcfebed751db1a53512602",
+      "india_exposure": "Potential enterprise adopters, no named Indian deployment",
+      "lane": "tech",
+      "materiality": 1,
+      "mechanism": "Outcome metrics can track cost reductions",
+      "reason": "No new customer result or procurement."
+    },
+    {
+      "action_type": "Goal reassessment",
+      "actor": "Eternal",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "14d969886069b904384579b9",
+      "event": "Works toward revised EV delivery timeline",
+      "event_key": "eternal-2030-electric-delivery-fleet-target-reassessment-november-2026",
+      "evidence": [
+        "Zomato-parent Eternal reworking 2030 EV delivery target amid fleet expansion, EV adoption",
+        "The company is working towards a revised timeline, factoring in the availability of electric vehicles, supporting government policies, and the transportation requirements of its various businesses."
+      ],
+      "id": "0c3624f91400d83aaa55afed",
+      "india_exposure": "Indian delivery riders",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Vehicle availability and fleet growth complicate rollout",
+      "reason": "Same 2030 reassessment as fuller PTI excerpt."
+    },
+    {
+      "action_type": "Filed petition",
+      "actor": "Sanjeev Chaturvedi",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Moves Supreme Court for whistleblower protection framework",
+      "evidence": [
+        "IFS Sanjeev Chaturvedi moves SC seeking framework to protect whistleblowers"
+      ],
+      "id": "ec24c4f244c765377fa6730c",
+      "india_exposure": "Indian whistleblowers and agencies",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Protections could alter retaliation risk",
+      "reason": "Petition is concrete but no ruling or proposed provisions appear."
+    },
+    {
+      "action_type": "Reported tax extension",
+      "actor": "Maharashtra government",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Extends 7% aviation turbine fuel VAT until April 14",
+      "evidence": [
+        "Maharashtra extends 7% VAT on aviation turbine fuel till April 14",
+        "On May 14, the state government had reduced the VAT on ATF from 18% to 7% for six months, with effect from May 15."
+      ],
+      "id": "bcbeca6bc37a8f7fd44a8b5c",
+      "india_exposure": "Airline fuel uplift in Maharashtra",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Lower VAT reduces eligible fuel tax relative to former 18% rate",
+      "reason": "Direct policy continuation; strong alternate with aviation already represented."
+    },
+    {
+      "action_type": "Company statement",
+      "actor": "Megaspeed",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "7b3575da0b3667b4fc6eccdd",
+      "event": "Says Alice Huang left in August last year",
+      "event_key": "megaspeed-alice-huang-departure-statement-november-2026",
+      "evidence": [
+        "Jensen Huang spy scandal: Singapore-based Megaspeed breaks silence on Alice Huang, says she left the firm last year",
+        "Singapore-based Megaspeed, the company that recruited Alice Huang, broke its silence on the controversy on Sunday (local time). The company said she had left the firm in August last year."
+      ],
+      "id": "40f572550184a90a9f719a3c",
+      "india_exposure": "No India operation identified",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Disclosure clarifies chronology under review",
+      "reason": "Same corporate statement with a more precise departure month."
+    },
+    {
+      "action_type": "Governance comments",
+      "actor": "Noel Tata",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Questions discipline of strategic investments",
+      "evidence": [
+        "Noel Tata questions big investments as $185 billion group feud deepens",
+        "Noel Tata has backed investments in strategic sectors but questioned whether projects are being executed with enough discipline"
+      ],
+      "id": "b7c645b9f5767d46deeff2a0",
+      "india_exposure": "Indian conglomerate capital allocation",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Project discipline could alter future spending",
+      "reason": "No specific cancelled investment or vote."
+    },
+    {
+      "action_type": "Criminal allegation",
+      "actor": "Delhi police and accused",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "16b7b24b27c34c36fa620a80",
+      "event": "18-year-old found murdered in showroom trial room",
+      "event_key": "delhi-showroom-trial-room-murder-case-november-2026",
+      "evidence": [
+        "18-year-old woman found murdered inside Delhi showroom's trial room: Police",
+        "The accused allegedly slit the woman's throat with a sharp-edged weapon before fleeing."
+      ],
+      "id": "e8463b370cea3562d9e8afbf",
+      "india_exposure": "Individual Delhi workplace",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Investigation seeks individual responsibility",
+      "reason": "Same showroom death as CCTV follow-up."
+    },
+    {
+      "action_type": "Market advice",
+      "actor": "Equity analysts, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Buy-on-dips after 6.09% October inflation",
+      "evidence": [
+        "Nifty 50 above 25,000, holds key moving averages: Is Buy-On-Dips right strategy? Here's what stock market experts say",
+        "Indian markets fell on Friday after retail inflation rose to 6.09%, above the RBI’s tolerance limit, but analysts said the broader technical outlook remains positive. They cited support around 24,850–24,900 and recommended buying on dips if key levels hold."
+      ],
+      "id": "92a7702992db7bf03351be5c",
+      "india_exposure": "Indian equity investors",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Higher inflation changes rate expectations",
+      "reason": "Inflation already published and the new material is technical advice."
+    },
+    {
+      "action_type": "Completed schedule restoration",
+      "actor": "Air India",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "f771dd3105e1fc3880ba4848",
+      "event": "Restores Delhi and Mumbai nonstop New York flights",
+      "event_key": "air-india-delhi-mumbai-new-york-nonstop-restoration-november-2026",
+      "evidence": [
+        "Air India restores non-stop New York flights from Delhi, Mumbai; travel time cut by 5 hours",
+        "Air India has resumed non-stop Delhi and Mumbai-New York flights after airspace restrictions eased, cutting journey times by up to five hours."
+      ],
+      "id": "c460e64b75d161361bd26a0e",
+      "india_exposure": "Indian long-haul travellers",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Removal of stop can cut journey time",
+      "reason": "Same operating decision, with travel-time detail separate from the reason for restoration."
+    },
+    {
+      "action_type": "Reported service recovery",
+      "actor": "Microsoft and other service providers",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Reports November Microsoft 365 recovery within outages roundup",
+      "event_key": "microsoft-365-november-12-2026-outage-and-recovery",
+      "evidence": [
+        "From Microsoft 365 to CrowdStrike - Biggest tech outages that almost brought the world to a standstill",
+        "A Microsoft 365 outage that began November 12 disrupted email and other services for days before being resolved Saturday. It joins a series of major global technology failures in recent years, including incidents affecting Windows devices, Meta platforms, AWS, and Google."
+      ],
+      "id": "3e40a372863d81e927a08301",
+      "india_exposure": "Potential Indian cloud users, local impact unspecified",
+      "lane": "tech",
+      "materiality": 3,
+      "mechanism": "Email and collaboration downtime affects dependent firms",
+      "reason": "Resolution is substantive, but no India-specific scale or customer fact."
+    },
+    {
+      "action_type": "Observed demand direction",
+      "actor": "Air purifier sellers, identities uncertain",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Reports rising air purifier sales amid worsening NCR AQI",
+      "evidence": [
+        "Air purifier sales surge across country as Delhi-NCR AQI deteriorates",
+        "The demand, triggered by seasonal pollution spikes, is increasingly shifting from panic-driven buying to more proactive adoption."
+      ],
+      "id": "79a5fe3fd2c7462206d76e03",
+      "india_exposure": "Indian consumer appliance buyers",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Air-quality deterioration can pull purchases forward",
+      "reason": "No sales data or named sample to support the scale."
+    },
+    {
+      "action_type": "Personal column",
+      "actor": "Book columnist",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Reading tips and book recommendations",
+      "evidence": [
+        "Book Box: How my mother got me to read",
+        "For Children’s Day weekend, three tricks learned from my mother and five children’s books worth buying in multiples"
+      ],
+      "id": "a09c66f2c55a53e38568bee4",
+      "india_exposure": "Readers and parents",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Book choices support reading habits",
+      "reason": "No relevant India economy or policy event."
+    },
+    {
+      "action_type": "Broker outlook with operating inputs",
+      "actor": "Fujiyama Power Systems and Motilal Oswal",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Broker expects earnings lift from facilities and distribution",
+      "evidence": [
+        "Powerful solar stock to generate further returns? 33% up in 6 months, Motilal Oswal sees 40% more; do you own it? Target",
+        "Fujiyama Power Systems shares fell 2.05% on Friday, extending recent losses, though they remain up 33% over six months. Motilal Oswal expects earnings growth in the second half of FY27, citing expanding distribution, new facilities and strong rooftop solar demand."
+      ],
+      "id": "ffe3dea12dde9c569e9eb326",
+      "india_exposure": "Indian rooftop solar suppliers",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Distribution can raise throughput if demand persists",
+      "reason": "No facility specifications or realised increment in excerpt."
+    },
+    {
+      "action_type": "Operational incident and inquiry",
+      "actor": "Ranchi railway division and probe authorities",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Reported empty train operated with brake fault; inquiry underway",
+      "evidence": [
+        "Ranchi division allows empty Vande Bharat to travel 463 km with faulty brakes; probe on"
+      ],
+      "id": "a2586af23c4cc1bf4fd55ec1",
+      "india_exposure": "Indian rail safety",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Defect oversight affects maintenance accountability",
+      "reason": "Serious incident but no probe findings, with source limited to headline."
+    },
+    {
+      "action_type": "Political statement",
+      "actor": "West Bengal minister Dasgupta",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Acknowledges continuing extortion and asks for time",
+      "evidence": [
+        "Bengal minister says extortion continues under new govt, seeks a year's time to eliminate practice",
+        "Dasgupta described extortion as a disturbing reality that needs to be addressed through both political and economic measures."
+      ],
+      "id": "5c94e8b9c64b685ec2cabae8",
+      "india_exposure": "West Bengal businesses",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Extortion could raise business costs",
+      "reason": "No named enforcement measure or statutory change."
+    },
+    {
+      "action_type": "Religious observance",
+      "actor": "Temple organisers and devotees, names uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Soorasamharam draws crowds across Tamil Nadu",
+      "evidence": [
+        "Lakhs of devotees throng Lord Murugan temples across TN for 'Soorasamharam'"
+      ],
+      "id": "ad857e2f13f94608a7e78a7f",
+      "india_exposure": "Tamil Nadu pilgrims",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Footfall affects local activity",
+      "reason": "No new public decision."
+    },
+    {
+      "action_type": "Reported workplace conduct",
+      "actor": "Jensen Huang and unnamed report sources",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Alleged abuse of Nvidia executives",
+      "evidence": [
+        "‘I hope you die…’: What ex-Nvidia CEO Jensen Huang told senior exec Jay Puri | A look at his temper tantrums",
+        "A report has shed light on Jensen Huang's alleged temper inside Nvidia, detailing how the former CEO reportedly berated senior executives, including Jay Puri, during meetings attended by dozens of employees."
+      ],
+      "id": "d17e1e648325fea3e5a5c601",
+      "india_exposure": "No Indian operations identified",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Leadership culture could affect retention",
+      "reason": "No domestic facts in excerpt."
+    },
+    {
+      "action_type": "Reported consolidated earnings",
+      "actor": "EaseMyTrip",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Quarterly net loss narrows to ₹56.5 lakh",
+      "evidence": [
+        "EaseMyTrip Q2: Loss Narrows 98% YoY To ₹57 Lakh, Revenue Up 34%",
+        "Online travel aggregator (OTA) EaseMyTrip managed to narrow its consolidated net loss by 98.4% to ₹56.5 Lakh in the second…"
+      ],
+      "id": "709d59eb212de0c67efeba11",
+      "india_exposure": "Indian online travel platform",
+      "lane": "tech",
+      "materiality": 2,
+      "mechanism": "Profitability improves if revenue gains exceed costs",
+      "reason": "Truncated summary lacks the revenue base and cause; ordinary result."
+    },
+    {
+      "action_type": "Retrospective operating disclosure and booked impairment",
+      "actor": "ONGC, Vedanta and Delhi High Court",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Filings disclose July Cambay takeover and roughly ₹379 crore impairment",
+      "evidence": [
+        "ONGC takes over disputed Cambay block from Vedanta after court ruling",
+        "State-run Oil and Natural Gas Corporation (ONGC) has taken over operations and control of the disputed Cambay offshore block from Vedanta Oil & Gas Ltd following a Delhi High Court ruling, according to regulatory filings by the two companies. Vedanta Oil & Gas Ltd has recognised an impairment charge of about Rs 379 crore against assets and receivables linked to the block. The takeover of the CB-OS-02 block took effect on July 22, 2026, after the High Court's single-judge bench dismissed Vedanta's challenge to the government's decision not to extend the production-sharing contract, ONGC said in its quarterly filing. The block was operated by Vedanta, which held a 40 per cent participating interest; ONGC held 50 per cent, and Invenire Petrodyne Ltd had the remaining 10 per cent. The government, through a September 19, 2025, letter, declined to extend the contract and directed the operator to hand over the block to ONGC. Vedanta challenged the decision before the Delhi High Court"
+      ],
+      "id": "fc9c84b73e056be68b7b2f7d",
+      "india_exposure": "Domestic offshore production and Vedanta accounts",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Operator changes field control and impairment affects carrying value",
+      "reason": "New disclosure but takeover itself dates to July; distinct from current block bidding."
+    },
+    {
+      "action_type": "Ceremonial observance",
+      "actor": "President Murmu and PM Modi",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Pay tribute to Birsa Munda",
+      "evidence": [
+        "President Murmu, PM Modi pay floral tributes to Birsa Munda",
+        "The occasion is also observed as Janjatiya Gaurav Diwas, honouring the contributions and legacy of India's tribal communities."
+      ],
+      "id": "c9c7b3a97b104743e762d9c4",
+      "india_exposure": "Indian tribal communities",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Commemoration provides recognition",
+      "reason": "No material programme change."
+    },
+    {
+      "action_type": "Travel plans",
+      "actor": "Princess Catherine and Prince William",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "India visit reported",
+      "evidence": [
+        "Princess Kate to join husband William on India visit in biggest foreign trip since chemo",
+        "The trip will also mark the couple's return to India nearly a decade after their previous joint visit in 2016."
+      ],
+      "id": "b3e3e2a3a2ad0244e1163e87",
+      "india_exposure": "India–UK public diplomacy",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Visit could enable exchanges",
+      "reason": "No dates, talks or deliverables in excerpt."
+    },
+    {
+      "action_type": "Attributed return expectations",
+      "actor": "Hussain Sajwani and Damac",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Highlights expected AI investment returns",
+      "evidence": [
+        "Meet Hussain Sajwani, the Dubai investor who made more money from Anthropic in 2 years than his 30 years of investments",
+        "Hussain Sajwani, founder of Damac Properties, says his Anthropic investment has delivered extraordinary returns and expects billions in profit from stakes in Anthropic, OpenAI and SpaceX. Damac Group invested $50 million in Anthropic in 2024 and has also backed xAI and Mistral."
+      ],
+      "id": "43835ff6b3a7a8276e7cb7b2",
+      "india_exposure": "No India investments named",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Valuation changes can raise paper gains",
+      "reason": "Foreign investor profile with no India exposure."
+    },
+    {
+      "action_type": "Local crime investigation",
+      "actor": "Madurai police and suspects",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Arrests in jewellery theft",
+      "evidence": [
+        "Auto driver among 2 held for ₹20 crore gold, diamond heist in Madurai; hunt on for key accused Police",
+        "CCTV footage showed a masked man entering the premises from the rear door around 3.30am on November 12."
+      ],
+      "id": "22730e6210bcbd570efdecb3",
+      "india_exposure": "Madurai jeweller",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Police seek recovery and other suspect",
+      "reason": "No industry-wide security or trade impact."
+    },
+    {
+      "action_type": "Speech and advocacy",
+      "actor": "Arunachal governor",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Calls for tribal human development efforts",
+      "evidence": [
+        "Arunachal governor calls for efforts to improve education, health, skill development of tribals"
+      ],
+      "id": "0f42731826717f00a4e34796",
+      "india_exposure": "Arunachal tribal residents",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Skills and services can support incomes",
+      "reason": "No funded policy or implementation commitment."
+    },
+    {
+      "action_type": "Reported earnings and order intake",
+      "actor": "ABB India",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "September-quarter orders grow 56% to ₹4,733 crore",
+      "evidence": [
+        "ABB India shares 36% up in 2026: Time to buy? Rating upgrade boost and target price hike by Motilal Oswal - Details here",
+        "ABB India reported an 11% rise in September-quarter profit to ₹440 crore and a 19.4% rise in revenue to ₹3,738 crore. Record order inflows rose 56% to ₹4,733 crore. Motilal Oswal upgraded the stock to Buy and set a target of ₹8,200, citing growth prospects and improving margins."
+      ],
+      "id": "58c4462874d9c09d9429c5cb",
+      "india_exposure": "Indian industrial equipment supply",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Larger orders can feed future deliveries and revenue",
+      "reason": "Quantified real outcomes despite broker framing; competing with specific capacity development."
+    },
+    {
+      "action_type": "Local accident",
+      "actor": "Drivers and victims, identities uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Four killed in Ballia racing crash",
+      "evidence": [
+        "Four friends killed after speeding car hits tree during race between two cars in UP’s Ballia",
+        "Four friends from the same village died after a speeding car crashed into a palm tree during a race between two cars in Uttar Pradesh’s Ballia district."
+      ],
+      "id": "91c69b41ace6ff84ef80b049",
+      "india_exposure": "UP road users",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Risky driving caused local losses as reported",
+      "reason": "No new enforcement or transport rule."
+    },
+    {
+      "action_type": "Management strategy and target",
+      "actor": "Samvardhana Motherson International and executives",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Plans to bring acquired technologies to Indian auto market",
+      "evidence": [
+        "Motherson eyes bigger India play with global technologies to drive growth",
+        "Auto components major Samvardhana Motherson International Ltd (SAMIL) aims to leverage technologies acquired through its global expansion to tap emerging opportunities in India's automotive market, as higher product standards and the shift to stricter emission norms drive demand for advanced solutions. The strategy is part of its broader Vision 2030 ambition to achieve USD 108 billion in topline gross revenue by 2029-30. In an interview with PTI, Pankaj Mital, Whole-time Director and President, and Gandharv Tongia, Group Chief Financial Officer, outlined the company's growth priorities, including bringing globally acquired technologies to India, expanding its presence across business segments and geographies, and strengthening its customer relationships. \"We believe that India's growth will also benefit us significantly, particularly because we now own many technologies. The quality of products being manufactured and consumed in India is improving, and the country is also moving ..."
+      ],
+      "id": "6951d97e3551c348e441a577",
+      "india_exposure": "Indian auto components",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Stricter standards could raise demand for advanced components",
+      "reason": "No named domestic product, order or commissioned capacity."
+    },
+    {
+      "action_type": "Reported retail price increase",
+      "actor": "Mahanagar Gas",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Mumbai CNG increases ₹1.50/kg, ₹9.50 cumulative since May 14",
+      "evidence": [
+        "Mahanagar Gas hikes CNG prices in Mumbai by ₹1.5/kg, sixth hike since May",
+        "Cumulatively prices of the vehicular gas have increased ₹9.5 per kg across six tranches since May 14"
+      ],
+      "id": "2cf2c348e7c1fecbe9dc1041",
+      "india_exposure": "Mumbai CNG drivers and fleets",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Higher fuel cost presses vehicle running budgets",
+      "reason": "Concrete regional price signal with no reported national change."
+    },
+    {
+      "action_type": "Retrospective and corporate outlook",
+      "actor": "Sunil Bharti Mittal and Bharti Airtel",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Anniversary profile sets out digital ambitions",
+      "evidence": [
+        "From bicycle parts to satellites: Inside Sunil Mittal's 50-year journey",
+        "When Sunil Bharti Mittal set up a small manufacturing unit making bicycle parts in Ludhiana in 1976, he was barely 18. Fifty years later, the founder of Bharti Enterprises is presiding over a business empire whose flagship, Bharti Airtel, has become one of the world's largest telecommunications companies. The journey from bicycle crankshafts to mobile networks, submarine cables and satellite communications has been marked by bets that often ran ahead of the market, setbacks triggered by policy changes and three major crises that Mittal describes as Bharti's \"Mahabharatas\". Now, as the group marks its 50th anniversary, Mittal is preparing for another transformation. He wants Airtel to evolve from a telecommunications operator into a digitally enabled technology company, with connectivity at its core and businesses spanning artificial intelligence, sovereign cloud, digital finance and satellite services. His prescription for India's digital economy is equally expansive: higher mobile"
+      ],
+      "id": "a87e2e1da97d911ec74a3777",
+      "india_exposure": "Indian connectivity and cloud",
+      "lane": "tech",
+      "materiality": 2,
+      "mechanism": "Expanded services could diversify connectivity revenues",
+      "reason": "No dated local procurement, deployment or investment commitment."
+    },
+    {
+      "action_type": "US retail promotion",
+      "actor": "Newegg",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Discounts Google Play gift card",
+      "evidence": [
+        "Wondering what to gift friends and family this Thanksgiving? Get a $100 Google Play gift card for $92 | Here’s how",
+        "With the holiday season approaching in the US, Newegg is offering an $8 discount on a $100 Google Play gift card, bringing its price down to $92. Here's how to claim the deal and what you can use the gift card for."
+      ],
+      "id": "d82333921bd33c32a94d12e5",
+      "india_exposure": "No India applicability",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Discount lowers US purchase price",
+      "reason": "Consumer deal only."
+    },
+    {
+      "action_type": "Reported distribution shift",
+      "actor": "Ola Electric and Bhavish Aggarwal",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Moves from company-owned sales to independent dealers",
+      "evidence": [
+        "Ola Electric founder Bhavish Aggarwal has a new plan to sell e-scooters: Shut down company-owned outlets and…",
+        "Ola Electric is shifting from direct sales to independent dealers, betting that the network will revive its scooter business and lower costs. The move comes as quarterly registrations fell year-over-year and sequentially."
+      ],
+      "id": "853158376c2a7e2abf45e851",
+      "india_exposure": "Indian scooter sales and service",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Dealer model can shift fixed costs and customer coverage",
+      "reason": "Concrete retrenchment with transition pace unspecified; distinct from Ola cab tipping order."
+    },
+    {
+      "action_type": "Reported company results",
+      "actor": "DSM Fresh Foods",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "H1 consolidated revenue rises sequentially but profit flat near ₹7.3 crore",
+      "evidence": [
+        "Zappfresh operator DSM Fresh Foods reports ₹7.3 crore profit in H1 FY27",
+        "DSM Fresh Foods Limited, which operates the meat and seafood brand Zappfresh, has reported a consolidated net profit of Rs 7.30 crore for the first half ended September 30, 2026. The company, which entered the capital markets in October 2025, had posted a net profit (after minority interest) of Rs 7.31 crore in the preceding six-month period ended March 31, 2026. Its total revenue from operations on a consolidated basis stood at Rs 165.48 crore in the April-September period of FY27, up 32.42 per cent compared to Rs 124.97 crore in the second half of FY26. Including other income, the total consolidated income reached Rs 165.89 crore. The company's expenses during the half-year rose 35.79 per cent to Rs 155.67 crore, up from Rs 114.64 crore in the preceding six months, weighing on bottom-line growth. On a standalone basis, DSM Fresh Foods posted a 25.64 per cent jump in net profit to Rs 8.83 crore for H1 FY27 compared to Rs 7.03 crore in the year-ago period. Standalone revenue from"
+      ],
+      "id": "cbfb8c5800aeb6c5eb5e3302",
+      "india_exposure": "Indian meat and seafood distribution",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Faster expense growth absorbs revenue improvement",
+      "reason": "Bounded results with a narrower market impact than selected cards."
+    },
+    {
+      "action_type": "Local incident",
+      "actor": "UP woman, family and police",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Tower protest over marriage objections",
+      "evidence": [
+        "Girl climbs mobile tower in Uttar Pradesh village, demands to marry her boyfriend",
+        "Cops revealed that the girl was in a relationship with a youth from Shishgarh village and wanted to marry him despite her family's opposition to his caste."
+      ],
+      "id": "de2a1e122c9c88f1f48a243b",
+      "india_exposure": "Family and local community",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Caste opposition shapes individual conflict",
+      "reason": "No general policy or enforcement action."
+    },
+    {
+      "action_type": "Operating incident",
+      "actor": "IndiGo flight crew and air traffic control",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "cc95afbc157c54e1538ba263",
+      "event": "Guwahati flight returns to Pune after landing gear fault",
+      "event_key": "indigo-pune-guwahati-landing-gear-return-november-2026",
+      "evidence": [
+        "Guwahati-bound IndiGo flight carrying 193 passengers returns to Pune after landing gear malfunction",
+        "The pilot alerted Air Traffic Control (ATC) about the technical issue."
+      ],
+      "id": "7dfb633b7dd29518844970cb",
+      "india_exposure": "Domestic passengers",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Crew alerts control and returns",
+      "reason": "Same flight; counts differ, so do not merge passenger totals."
+    },
+    {
+      "action_type": "Reported financial results",
+      "actor": "Tata Motors Passenger Vehicles",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Q2 consolidated loss and exceptional charges despite higher revenue",
+      "evidence": [
+        "Tata Motors shares: 22% down in 2026, right time to buy famous auto stock? What brokerages say after loss narrows in Q2",
+        "Tata Motors PV reported a Q2 FY27 consolidated loss of ₹5,531 cr, including exceptional charges of ₹6,738 cr, even as revenue rose 34% and EBITDA margin improved. Brokerages are divided: Motilal Oswal maintained Sell with a ₹240 target, while Nuvama retained Buy with a revised ₹360 target."
+      ],
+      "id": "7cfcfaf0b2ee573ccfcc47f6",
+      "india_exposure": "Indian vehicle group",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Exceptional charges separate accounting loss from margin trend",
+      "reason": "Strong operating data in a trading story, but India-specific contribution is unclear."
+    },
+    {
+      "action_type": "Proposed construction and capacity",
+      "actor": "Escorts Kubota and CFO Bharat Madan",
+      "confidence": "high",
+      "decision": "select",
+      "event": "Plans tractor plant with 60,000-unit first-phase capacity",
+      "event_key": "escorts-kubota-jewar-tractor-plant-construction-plan-november-2026",
+      "evidence": [
+        "Escorts Kubota plans new UP plant with 60,000-tractor capacity: CFO",
+        "Escorts Kubota plans to begin construction of a tractor facility in Uttar Pradesh early next fiscal year, with an initial capacity of 60,000 units that can be scaled up to one lakh units, as it prepares to expand production and tap future growth opportunities, a top official said. In an interview with PTI, Escorts Kubota Ltd Chief Financial Officer Bharat Madan said the proposed facility near Jewar airport is expected to take around two and a half years to complete. \"I think in the next year we are starting the commercial construction of the greenfield facility which will be for another 60,000 tractors in phase one and we hope to complete that in the next 2 to 2.5 years,\" Madan said. The capacity addition comes as the company is currently operating its tractor business at around 80-85 per cent average utilisation, with production utilisation touching nearly 90 per cent during the high-season quarter. Alongside the proposed manufacturing expansion, Escorts Kubota is seeing encouragi"
+      ],
+      "id": "15575b650fba650c817e4cee",
+      "india_exposure": "Uttar Pradesh tractor production",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Greenfield capacity could relieve utilisation constraints",
+      "reason": "Siting, planned scale and construction timing are bounded and useful."
+    },
+    {
+      "action_type": "Target revision under consideration",
+      "actor": "Eternal and sustainability chief Anjalli Ravi Kumar",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Reassesses all-electric 2030 delivery-fleet goal",
+      "event_key": "eternal-2030-electric-delivery-fleet-target-reassessment-november-2026",
+      "evidence": [
+        "Zomato-parent Eternal reworks 2030 EV delivery target amid fleet expansion",
+        "While remaining committed to green mobility, Zomato and Blinkit parent Eternal is reassessing its 2030 target for a 100 per cent electric delivery fleet due to rapid business expansion and an evolving EV ecosystem. In an interview with PTI, Anjalli Ravi Kumar, Chief Sustainability Officer at Eternal, said the company is working toward a revised timeline, factoring in the availability of electric vehicles, supporting government policies, and the transportation requirements of its various businesses. \"We are still committed to electrifying the fleet. We are deeply committed to it because it still makes economic sense,\" she said. However, acknowledging that the earlier deadline may not be achievable, Kumar said the company's operations had expanded considerably since the original target was set. \"It doesn't look feasible because, beyond the penetration numbers, our business is also growing massively. When we set the target, there were only 1.5 lakh monthly active riders on Zomato. Tod"
+      ],
+      "id": "14d969886069b904384579b9",
+      "india_exposure": "Indian platform delivery electrification",
+      "lane": "tech",
+      "materiality": 4,
+      "mechanism": "Rapid rider growth and EV availability affect fleet conversion pace",
+      "reason": "Credible timeline risk but no replacement deadline or changed rollout conditions confirmed."
+    },
+    {
+      "action_type": "Pending transaction",
+      "actor": "Thomas Cook India and Sterling Holiday Resorts",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Files demerger application and targets effectiveness in FY28",
+      "evidence": [
+        "Thomas Cook India expects demerger of resorts business by Oct 2027: MD",
+        "Thomas Cook (India) Ltd expects the proposed demerger of its resorts and resort-management business into Sterling Holiday Resorts to become effective by October 2027, according to a top company official. In an interview with PTI, Mahesh Iyer, Managing Director and CEO of Thomas Cook (India) Ltd, said the company expects the scheme to become effective by mid-FY28. \"The application in respect of the composite scheme of arrangement has been filed before NCLT Mumbai. Accordingly, we expect the scheme to become effective by mid of FY28. However, the same is subject to the requisite regulatory and shareholder approvals,\" Iyer shared. In March, the Board of Thomas Cook (India) Ltd (TCIL) approved a proposal for the demerger of the company's Resorts and Resort Management business into Sterling Holiday Resorts Ltd (SHRL) and a subsequent capital restructuring of TCIL. Separately, on the company's inorganic growth strategy, Iyer said, Thomas Cook India remained open to exploring acquisitions"
+      ],
+      "id": "e4ab5d15d7fc5aafa10d971d",
+      "india_exposure": "Indian hospitality ownership",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Demerger could change resort financing and governance",
+      "reason": "Board approval is earlier and regulatory and shareholder steps remain."
+    },
+    {
+      "action_type": "Management forecast and historical baseline",
+      "actor": "LICO Materials and CEO Gaurav Dolwani",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Targets FY27 recycling sales of ₹450–500 crore",
+      "evidence": [
+        "LICO Materials targets ₹450-500 crore revenue in current fiscal: CEO",
+        "Lithium-ion battery recycling and refurbishing firm LICO Materials is targeting revenue of about Rs 450500 crore in 202627, driven by higher material-processing volumes, improved capacity utilisation, and greater availability of end-of-life lithium-ion batteries, its CEO Gaurav Dolwani said. The company recorded revenue of approximately Rs 350 crore in 202526, Dolwani said, adding that its processing capacity has expanded significantly since the company last discussed its operations around March last year. The development assumes significance in the wake of the country's fast-expanding electric vehicle market and a growing push to build a domestic battery-recycling ecosystem that can recover critical minerals and bring down dependence on imports. \"For FY202627, we are targeting revenue of around Rs 450500 crore,\" Dolwani, who is also the founder of the company, told PTI in an interview, adding that the growth will be driven by higher material-processing volumes and improved capacity"
+      ],
+      "id": "d324e2391b281f645faa470d",
+      "india_exposure": "Indian battery recovery and reuse",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Volumes and utilisation can increase recycler sales",
+      "reason": "Sector signal after black-mass restriction, but separate event with forecast still unearned."
+    },
+    {
+      "action_type": "Negotiation outlook",
+      "actor": "Canada Trade Minister Maninder Sidhu and Indian negotiators",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "December targeted for CEPA conclusion",
+      "evidence": [
+        "India-Canada free trade deal may be concluded next month, says Maninder Sidhu",
+        "Canada’s Trade Minister Maninder Sidhu said India could be the next free trade deal concluded as CEPA negotiations target a December deadline."
+      ],
+      "id": "8e020451eddbd87dd1dbef27",
+      "india_exposure": "India–Canada trade",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Any final terms could affect access and tariff costs",
+      "reason": "No concluded text, tariff schedule or signing date."
+    },
+    {
+      "action_type": "Reported adviser selection",
+      "actor": "Kamarajar Port and selected banks",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Appoints three IPO advisers",
+      "evidence": [
+        "Kamarajar Port picks SBI Capital, IDBI Capital and ICICI Securities for IPO",
+        "Kamarajar Port valuation discussions are still some time away, but the IPO is likely to be completed within calendar 2027"
+      ],
+      "id": "5bdc0d07da701d93d82078a3",
+      "india_exposure": "Indian port and prospective public investors",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Mandates advance issue preparation",
+      "reason": "Valuation and proposed structure remain open, unlike priced coal offer."
+    },
+    {
+      "action_type": "Reported candidate speculation",
+      "actor": "Nvidia and Thomas Kurian",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "CEO successor discussion includes India-born executive",
+      "evidence": [
+        "Who is Thomas Kurian? Meet the India-born tech executive leading Google Cloud, considered for Nvidia CEO’s job",
+        "Nvidia is searching for a permanent CEO after Jensen Huang stepped down amid allegations, with CFO Colette Kress serving as interim chief. More than 132,000 people have petitioned for Huang’s return. Google Cloud CEO Thomas Kurian is among the candidates discussed."
+      ],
+      "id": "a92e2eefa52772855790c786",
+      "india_exposure": "Executive birthplace only",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Appointment would change leadership",
+      "reason": "No Indian operations or confirmed successor."
+    },
+    {
+      "action_type": "Local fire and response",
+      "actor": "Firefighters and Pataudi shopkeepers",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Fire damages 25 shops with no injuries",
+      "evidence": [
+        "25 shops gutted in fire at woollens market in Gurugram's Pataudi, no injuries reported",
+        "Firefighters brought the blaze under control, with no injuries reported. The cause and extent of the damage remain unknown."
+      ],
+      "id": "d87ad01724c85138c211b729",
+      "india_exposure": "Gurugram woollens market",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Affected merchants may lose stock or trading space",
+      "reason": "Cause and scale of wider disruption unknown."
+    },
+    {
+      "action_type": "Sector commentary",
+      "actor": "Indian wearable manufacturers discussed, speakers uncertain",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Feature flags lack of a domestic manufacturing playbook",
+      "evidence": [
+        "Not Just About Temple: India’s Wearable Impasse",
+        "“There is no established playbook for making wearables in India. If you have the capital, you can set up a…"
+      ],
+      "id": "0b9c090399855d5838125112",
+      "india_exposure": "Indian wearable makers",
+      "lane": "tech",
+      "materiality": 2,
+      "mechanism": "Execution and process know-how can condition manufacturing scale",
+      "reason": "Truncated excerpt gives neither new plant nor quantified gap."
+    },
+    {
+      "action_type": "Market recap and hypotheses",
+      "actor": "Crypto investors",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Bitcoin and market capitalisation fall",
+      "evidence": [
+        "Crypto news: Bitcoin price falls to $64,962, lowest since July as investors favour AI stocks, factor likely Fed hike",
+        "Bitcoin fell below $65,000 on November 15, its lowest level since July, amid macroeconomic concerns, market liquidations and possible competition for investment from AI companies. The broader crypto market cap dropped to $2.19 trillion."
+      ],
+      "id": "19d4bb43e604d2802159ad87",
+      "india_exposure": "No Indian holders or firms identified",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Liquidations can amplify declines",
+      "reason": "Global price action without domestic exposure."
+    },
+    {
+      "action_type": "Opinion based on incidents",
+      "actor": "Columnist and local bodies, agencies uncertain",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Delhi NCR child deaths prompt civic-safety critique",
+      "evidence": [
+        "Just Like That | A tale of two cities: Urban India’s moral and municipal abyss",
+        "Two children died in separate Delhi-NCR tragedies, exposing stark inequalities in urban safety, civic infrastructure and governance."
+      ],
+      "id": "44b4dcad34e7f2613198e53f",
+      "india_exposure": "Urban Indian children and infrastructure",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Uneven safety provision can magnify risks",
+      "reason": "No specific public investment or new municipal decision."
+    },
+    {
+      "action_type": "Pending tribunal approval and capex proposal",
+      "actor": "Tata Steel and CFO Koushik Chatterjee",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Targets NINL amalgamation this fiscal year before proposed expansion",
+      "evidence": [
+        "Tata Steel targets NINL amalgamation by FY27: CFO Koushik Chatterjee",
+        "Tata Steel is looking to complete the amalgamation process of Neelachal Ispat Nigam Ltd (NINL) in this financial year, a top company official said. NINL assets were acquired by the steel giant through its erstwhile subsidiary Tata Steel Long Products (TSLP) for Rs 12,100 crore. \"The amalgamation of NINL with Tata Steel remains on track for completion this financial year,\" Koushik Chatterjee, Executive Director and Chief Financial Officer (CFO) of Tata Steel, said. However, the amalgamation remains subject to final approval from the National Company Law Tribunal (NCLT), which is scheduled to hear the matter later this month, he said. The approval will pave the way for the proposed Rs 40,000 crore expansion plan at NINL. Tata Steel, which acquired NINL's 1 million tonnes per annum (MTPA) steel manufacturing unit in July 2022, plans to add around 5 million tonnes of capacity to the facility, located about 5-10 km from its Kalinganagar steel plant. \"We have... announced another 5 mil"
+      ],
+      "id": "fa61aacbff626450516571f4",
+      "india_exposure": "Odisha steel capacity",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Amalgamation could simplify execution of later expansion",
+      "reason": "Substantive ₹40,000 crore plan but approval, works and capacity all pending."
+    },
+    {
+      "action_type": "Calendar roundup",
+      "actor": "Crystal Crop, Mahanadi Coalfields and Watrana Rentals",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Combined IPO calendar and expected proceeds",
+      "evidence": [
+        "₹10,000 cr Upcoming IPOs: Latest GMP price, key dates | Crystal Crop Protection, Mahanadi Coalfields, Watrana Rentals",
+        "India’s IPO calendar is set to accelerate from 16 November, with Crystal Crop Protection, Mahanadi Coalfields and Watrana Rentals bringing three issues to market. The offerings are expected to raise more than ₹10,000 crore combined, with investors watching issue details and grey market premiums."
+      ],
+      "id": "9934636fa7710cf1552d4504",
+      "india_exposure": "Domestic issuers and traders",
+      "lane": "macro",
+      "materiality": 1,
+      "mechanism": "Offers create separate ownership and funding effects",
+      "reason": "No distinct event beyond three separately reviewed deals; do not combine secondary and fresh proceeds."
+    },
+    {
+      "action_type": "Retrospective commentary",
+      "actor": "Jensen Huang and Nvidia",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Profile of Nvidia founder following departure",
+      "evidence": [
+        "Jensen Huang | AI rainmaker meets his Waterloo",
+        "The Nvidia chief’s abrupt exit marks a stunning fall from grace for the man who built the hardware foundation of the AI revolution, forged deep ties with Silicon Valley’s tech leaders and expanded the company’s reach across every layer of the AI stack"
+      ],
+      "id": "6636ab9b357f0c7ae1b9121e",
+      "india_exposure": "No Indian operations cited",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Leadership transition can change corporate strategy",
+      "reason": "No new action or local effect."
+    },
+    {
+      "action_type": "Book guidance",
+      "actor": "Harinder Singh Pelia and feature author",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Self-belief lessons from book",
+      "evidence": [
+        "5 lessons from book Be Delusional by Harinder Singh Pelia",
+        "Discover five powerful lessons from Be Delusional by Harinder Singh Pelia on self-belief, ambition, confidence and turning big dreams into reality."
+      ],
+      "id": "2e011c2493517935478563d4",
+      "india_exposure": "Readers generally",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Offers personal-development suggestions",
+      "reason": "No domestic economic or technology evidence."
+    },
+    {
+      "action_type": "Political anecdote",
+      "actor": "D K Shivakumar",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Recalls Bengaluru Pink Line ride",
+      "evidence": [
+        "‘I had no money, so I told Modi to buy my ticket’: Shivakumar recounts Pink Line ride on Bengaluru metro",
+        "The Congress leader also said politics should be limited to elections, and development should be kept separate from it."
+      ],
+      "id": "8a7b59604308a3f0640a7f42",
+      "india_exposure": "Bengaluru passengers",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Metro routes can affect commuter access",
+      "reason": "Excerpt gives no opening date, capacity or operating change."
+    },
+    {
+      "action_type": "Headline recap",
+      "actor": "Hindustan Times roundup",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Morning digest includes Uttarakhand stage incident",
+      "evidence": [
+        "HT morning news brief November 15: Congress MLA vandalises stage at Uttarakhand event; Israel's Netanyahu pushes for unity government | Top updates",
+        "Catch the key developments making headlines across India and the world, along with the latest in sports and entertainment."
+      ],
+      "id": "27a99fd950efb2602feaa8a0",
+      "india_exposure": "Indian politics in one featured item",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Digest spreads already reported news",
+      "reason": "No distinct India development."
+    },
+    {
+      "action_type": "Trading advice and recap",
+      "actor": "Chandan Taparia",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Three buy calls after Friday index decline",
+      "evidence": [
+        "MCX, BSE, Bharti Airtel shares: Top 3 stocks to buy; check expected returns, ratings, target price by market expert",
+        "Sensex fell 318.56 points to 81,592.45 and Nifty 50 dropped 155.05 points to 25,144.30 on Friday, ending a three-session rally as October retail inflation rose to 6.09%. Analyst Chandan Taparia recommended MCX, BSE and Bharti Airtel, while identifying key index support and resistance levels."
+      ],
+      "id": "cc25bd2cf971488ca39e9ebe",
+      "india_exposure": "Indian equity holders",
+      "lane": "macro",
+      "materiality": 0,
+      "mechanism": "Sector positioning changes near-term exposures",
+      "reason": "No issuer operations and October CPI already covered."
+    },
+    {
+      "action_type": "Personal status announcement",
+      "actor": "Lalit Modi and UK citizenship authorities",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Announces British citizenship amid Indian investigations",
+      "evidence": [
+        "IPL founder Lalit Modi announces British citizenship over a decade after fleeing India: ‘A new chapter’",
+        "Lalit Modi fled India in 2010 and has lived in the UK since, facing investigations over alleged financial irregularities and money laundering."
+      ],
+      "id": "a9f2c66904ff9ed8b54f7999",
+      "india_exposure": "Indian investigators and pending cases",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Citizenship could affect case logistics",
+      "reason": "No ruling on extradition or investigation outcome in excerpt."
+    },
+    {
+      "action_type": "Forecast and preparedness",
+      "actor": "IMD and Odisha authorities",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "ec820e8be71a4efba5b39fb4",
+      "event": "Earlier storm forecast and Odisha alert",
+      "event_key": "bay-of-bengal-imd-november-17-severe-cyclone-forecast-2026",
+      "evidence": [
+        "Odisha on alert for third cyclone in three weeks; no hint of landfall area yet, says minister",
+        "The IMD said a well-marked low-pressure area over the southeast Bay of Bengal is likely to intensify into a cyclonic storm by November 16."
+      ],
+      "id": "88896218c9b97ea08b8bcd21",
+      "india_exposure": "Odisha coast",
+      "lane": "national",
+      "materiality": 4,
+      "mechanism": "Alerts inform response planning",
+      "reason": "Same current Bay of Bengal system; November 16 cyclone formation differs from November 17 severe intensification."
+    },
+    {
+      "action_type": "Reported route approval",
+      "actor": "Indian Railways",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Approves weekly Ayodhya–Janakpur train",
+      "evidence": [
+        "10+ stops, 604-km route: Railways approves train connecting Ayodhya to Nepal's Janakpur Dham",
+        "The service will operate once a week, departing from Janakpur Dham on Saturday and from Ayodhya Cantt on Monday."
+      ],
+      "id": "c17205650d77bf1811b4f5d2",
+      "india_exposure": "India–Nepal rail passengers",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Direct link can lower travel friction",
+      "reason": "Concrete approval; weekly departures give no first-service date."
+    },
+    {
+      "action_type": "Aspirational interview",
+      "actor": "Shubhanshu Shukla",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Moon-by-2040 ambition and mission recollection",
+      "evidence": [
+        "My real mission is to see Tricolour on Moon by 2040: Captain Shubhanshu Shukla",
+        "Shukla said he never felt alone during Axiom Mission 4 that took him to space and back in June 2025, \"because the whole nation was part of the mission\"."
+      ],
+      "id": "f6e6617d152597ea2825e281",
+      "india_exposure": "Indian human spaceflight",
+      "lane": "tech",
+      "materiality": 1,
+      "mechanism": "Ambition could drive future research",
+      "reason": "No new mission funding, vehicle or commitment."
+    },
+    {
+      "action_type": "Local access decision",
+      "actor": "Ujjain temple committee and security contractor",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Protocol access removed after unauthorised reel",
+      "evidence": [
+        "BJP MLA’s son makes reel inside Ujjain's Mahakal temple, action initiated against security firm",
+        "The temple committee said Rudraksh Shukla would be allowed to visit only as an ordinary devotee, without access to protocol arrangements."
+      ],
+      "id": "ebb117dbcfb81779b75e88b7",
+      "india_exposure": "Temple visitors and operator",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Restricts privileging of one visitor",
+      "reason": "Local enforcement with no broader public rule."
+    },
+    {
+      "action_type": "Attributed political allegation",
+      "actor": "Rahul Gandhi",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Alleges changes in Maharashtra electoral roll between polls",
+      "evidence": [
+        "India no longer a democracy, says Rahul Gandhi at Bharat Summit in Hyderabad",
+        "Gandhi cited Maharashtra's voter data, alleging that around 7 million additional voters were added to the rolls between the Lok Sabha and assembly elections."
+      ],
+      "id": "f4208289256cc7ab05c4e607",
+      "india_exposure": "Maharashtra voters",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Roll composition affects representation",
+      "reason": "No adjudication or independent verification of disputed count in excerpt."
+    },
+    {
+      "action_type": "Trading advice",
+      "actor": "Ganesh Dongre of Anand Rathi",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Stock picks and Nifty resistance range",
+      "evidence": [
+        "Top 3 stocks to buy: Redington, Aster DM, Canara Bank by Ganesh Dongre of Anand Rathi | Targets, stop-loss, market view",
+        "Nifty 50 prediction: The 25,500–25,600 zone will be the next significant resistance area to watch, says Ganesh Dongre of Anand Rathi"
+      ],
+      "id": "95646b6a6d6e4adb2a693377",
+      "india_exposure": "Indian traders",
+      "lane": "macro",
+      "materiality": 0,
+      "mechanism": "Support and resistance inform positions",
+      "reason": "No operating facts supplied."
+    },
+    {
+      "action_type": "Cultural feature",
+      "actor": "Contemporary Now festival participants",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Chennai art festival photo essay",
+      "evidence": [
+        "How the art ecosystem opens up a wide range of opportunities beyond creation of artworks",
+        "In this photo essay, we showcase more highlights from Chennai’s Contemporary Now arts festival, along with director insights."
+      ],
+      "id": "38f783810d7476e0652ab644",
+      "india_exposure": "Chennai galleries and artists",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Exhibitions can build audience",
+      "reason": "No named investment, programme change or measurable sector impact."
+    },
+    {
+      "action_type": "Educational entertainment",
+      "actor": "YourStory",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Weekly space, sustainability and AI quiz",
+      "evidence": [
+        "Space, sustainability, AI: test your business creativity with Edition 258 of our weekly quiz!",
+        "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 258th quiz. Ready?"
+      ],
+      "id": "10530c0645c25f609a3898d3",
+      "india_exposure": "General readers",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Quiz tests recall",
+      "reason": "No reported event or domestic exposure."
+    },
+    {
+      "action_type": "Attributed political commentary",
+      "actor": "Akhilesh Yadav",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Criticises policing and BJP promises",
+      "evidence": [
+        "‘BJP betrayed people of India by breaking promises’: SP's Akhilesh Yadav at HT Leadership Summit",
+        "Yadav said law-and-order had deteriorated in UP, rejecting the perception that frequent encounters and “bulldozer justice” were a sign of improved policing."
+      ],
+      "id": "3263472dad12530f161707f5",
+      "india_exposure": "UP public safety debate",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Enforcement methods affect public trust",
+      "reason": "No comparative data or official action in excerpt."
+    },
+    {
+      "action_type": "Campaign statement",
+      "actor": "Akhilesh Yadav and Samajwadi Party",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Says party decided contest size, withholding details",
+      "evidence": [
+        "SP has made up its mind on how many seats it will contest in UP elections: Akhilesh Yadav at HT Leadership Summit",
+        "Yadav refused to speculate whether he had reached out to the Bahujan Samaj Party but said that the Bahujan community will defeat the Bharatiya Janata Party."
+      ],
+      "id": "5a40a403ad7268f72611a599",
+      "india_exposure": "UP election tactics",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Seat strategy may affect alliances",
+      "reason": "No count or formal pact reported."
+    },
+    {
+      "action_type": "Reported disruption context",
+      "actor": "Microsoft",
+      "confidence": "medium",
+      "decision": "duplicate",
+      "duplicate_of": "3e40a372863d81e927a08301",
+      "event": "Explainer on worldwide outage effects",
+      "event_key": "microsoft-365-november-12-2026-outage-and-recovery",
+      "evidence": [
+        "How the Microsoft outage affected millions worldwide | Explained",
+        "The number of affected services came with significant consequences for professional users as well as entire sectors"
+      ],
+      "id": "a8dbf79b5f4ae9a87a82397b",
+      "india_exposure": "Possible Indian professional users, local reach unreported",
+      "lane": "tech",
+      "materiality": 3,
+      "mechanism": "Loss of services affects dependent sectors",
+      "reason": "Same outage as recovery item; no distinct India evidence."
+    },
+    {
+      "action_type": "Company commentary",
+      "actor": "Anthropic and commentator",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Questions durable profitability under infrastructure commitments",
+      "evidence": [
+        "Anthropic’s valuation can’t secure its moat",
+        "Its engineers need to keep building progressively more capable models; the AI firm has also not established that it will be able to sustain its profitability after honouring its infra commitments"
+      ],
+      "id": "3ba8cbb597437f4e824b6d91",
+      "india_exposure": "No India operation specified",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Infrastructure spending can strain margins",
+      "reason": "No new funding, product, audited profit or local impact."
+    },
+    {
+      "action_type": "Investor advocacy",
+      "actor": "Nvidia shareholders and Elon Musk",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "7b8ef102f86f06e5790ced22",
+      "event": "Urge consideration of Huang after departure",
+      "event_key": "nvidia-post-resignation-huang-reinstatement-campaign-november-2026",
+      "evidence": [
+        "Investors urge board to consider return of Jensen Huang, Musk says Nvidia will lose critical deals without its founder",
+        "Two major Nvidia investors urged the board to take a measured approach to leadership after CEO Jensen Huang resigned amid reports about alleged affairs. They said Huang should remain a possible option, citing his record and the uncertainty surrounding his departure."
+      ],
+      "id": "8de08a064fc561926e5764dc",
+      "india_exposure": "No India operating effect identified",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Investor pressure may affect board deliberations",
+      "reason": "Same contested return as reinstatement campaign."
+    },
+    {
+      "action_type": "Conference remarks",
+      "actor": "Joseph Stiglitz",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Urges attention to inequality and climate",
+      "evidence": [
+        "‘Tackling inequality is key for India in age of change’: Economist Joseph E Stiglitz at HT Leadership Summit",
+        "He also warned that climate impacts will hit tropical regions hard and said national economic sovereignty may increasingly shape global policy."
+      ],
+      "id": "a414ebd1bbcb415864b1c950",
+      "india_exposure": "Indian households and climate exposure",
+      "lane": "macro",
+      "materiality": 2,
+      "mechanism": "Climate risk can disproportionately burden tropical workers",
+      "reason": "No new publication, estimate or policy decision."
+    },
+    {
+      "action_type": "Policy commentary",
+      "actor": "Opinion author, identity uncertain",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Urges protections during AI transition",
+      "evidence": [
+        "How to ensure that AI disruption doesn’t leave workers behind",
+        "Policymakers and business leaders have important roles to play in supporting U.S. citizens through the AI transition."
+      ],
+      "id": "06fada293e9757157c96d2f5",
+      "india_exposure": "US workers only",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Transition support could cushion displacement",
+      "reason": "No Indian employment evidence or action."
+    },
+    {
+      "action_type": "Conference remarks",
+      "actor": "Joseph Stiglitz",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Calls for progressive AI agenda",
+      "evidence": [
+        "Progressive AI agenda required for a balance between winners, losers: Economist Joseph E Stiglitz at HT Leadership Summit",
+        "According to Stiglitz, the ongoing AI boom has generated two key challenges for the global economy: expected returns and balance in the global economy."
+      ],
+      "id": "fbb1de7107c9c84d48be2d41",
+      "india_exposure": "Global scope; India-specific effects unstated",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "AI returns can be distributed unevenly",
+      "reason": "Different subject from inequality remarks but no new data or measure."
+    },
+    {
+      "action_type": "Political response to same incident",
+      "actor": "Harish Dhami and Uttarakhand officials",
+      "confidence": "high",
+      "decision": "duplicate",
+      "duplicate_of": "a8c1febbe3fe5f5aabb07640",
+      "event": "MLA account of stage vandalism",
+      "event_key": "uttarakhand-harish-dhami-stage-incident-november-2026",
+      "evidence": [
+        "Congress MLA vandalises stage at Uttarakhand event: ‘Denied chance to speak before CM Dhami’",
+        "Speaking to reporters after the protest, Harish Dhami alleged that the state government was afraid of facing the opposition."
+      ],
+      "id": "ac08930f6b001778201496cf",
+      "india_exposure": "Uttarakhand local event",
+      "lane": "national",
+      "materiality": 0,
+      "mechanism": "Individual dispute prompted booking",
+      "reason": "Same event as initial report."
+    },
+    {
+      "action_type": "Expert assessment",
+      "actor": "Siddhartha Mukherjee",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Says AI can speed drug design and calls for safeguards",
+      "evidence": [
+        "‘AI speeding up drug design; next step is faster, cheaper medicines’: Siddhartha Mukherjee at HT Leadership Summit",
+        "He urged safeguards for faster trials and said India has a historic opportunity to make medicines faster, cheaper and better."
+      ],
+      "id": "20865f43262cd8fedd9e9e68",
+      "india_exposure": "Indian clinical research potential",
+      "lane": "tech",
+      "materiality": 2,
+      "mechanism": "Faster design still depends on trials",
+      "reason": "No named trial, regulatory change or realised time saving."
+    },
+    {
+      "action_type": "Institutional plans",
+      "actor": "Noel Tata and Tata Trusts",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Plans 40–50 nonprofit hospitals and partnerships",
+      "evidence": [
+        "Noel Tata on Tata Trusts’ twin roles: Philanthropy, projects of national importance",
+        "Plans include building lasting institutions, developing a network of 40 to 50 nonprofit hospitals and pursuing partnerships with other philanthropies."
+      ],
+      "id": "9221b516aa2fafd9b42461b1",
+      "india_exposure": "Indian nonprofit health capacity",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Hospital network could extend care if funded and opened",
+      "reason": "Specific prospective scale but no location, timetable or project commitments."
+    },
+    {
+      "action_type": "Reported technical milestone",
+      "actor": "SpaceX",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Reports first returning Starship spacecraft catch",
+      "evidence": [
+        "‘Holy Grail of spaceflight’: SpaceX pulls off first-ever midair 'catch' of Starship returning from orbit",
+        "SpaceX achieved the first catch of a Starship spacecraft, guiding the 171-foot vehicle into the arms of its launch tower after a 22-hour orbital mission. The ship completed 14 laps around Earth and deployed 26 Starlink satellites, while its booster exploded shortly after liftoff."
+      ],
+      "id": "f118bccfe4ebcf29d042158c",
+      "india_exposure": "No Indian mission or contracting party",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Reuse could affect launch economics",
+      "reason": "Foreign milestone with no India-linked deployment."
+    },
+    {
+      "action_type": "Executive departure",
+      "actor": "JPMorgan and Allison Beer",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Card chief departs for external role",
+      "evidence": [
+        "JPMorgan Loses Card Chief Allison Beer to ‘External Opportunity’",
+        "JPMorgan Chase & Co.’s Allison Beer, who runs a credit card business ranking among the world’s largest, is departing to work somewhere else."
+      ],
+      "id": "2b35128a6ae9f8e3ec4156b6",
+      "india_exposure": "No Indian office or role cited",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Succession affects card management",
+      "reason": "US personnel report."
+    },
+    {
+      "action_type": "Consumer rumours",
+      "actor": "Apple and unnamed forecast sources",
+      "confidence": "low",
+      "decision": "reject",
+      "event": "Unconfirmed early 2027 iPhones and India starting price",
+      "evidence": [
+        "Apple may launch three new iPhones in early 2027: iPhone 18, 18e and Air 2; what to expect",
+        "Apple may launch the iPhone 18, iPhone 18e and iPhone Air 2 in early 2027, potentially in March. Expected upgrades include the A20 chipset, better battery life, camera improvements and iOS 27. Prices in India could start at ₹79,900, though Apple has yet to confirm details."
+      ],
+      "id": "503ef78557e68c2b9e122499",
+      "india_exposure": "Indian device shoppers",
+      "lane": "out-of-scope",
+      "materiality": 0,
+      "mechanism": "Prices may affect upgrades",
+      "reason": "No company confirmation or concrete domestic production."
+    },
+    {
+      "action_type": "Investigation",
+      "actor": "Mumbai and Kerala police and unnamed suspect",
+      "confidence": "medium",
+      "decision": "reject",
+      "event": "Custody in reported reconnaissance case",
+      "evidence": [
+        "Man held for conducting ‘reconnaissance’ of sensitive locations in Mumbai",
+        "He was subsequently taken into custody by the Keralam police in connection with a case registered in the Thrissur district."
+      ],
+      "id": "e8940e167fdbe26e084a0273",
+      "india_exposure": "Local public safety in Mumbai and Kerala",
+      "lane": "national",
+      "materiality": 1,
+      "mechanism": "Interstate custody advances investigation",
+      "reason": "No adjudicated threat or institutional change."
+    },
+    {
+      "action_type": "Public advocacy on personnel",
+      "actor": "Elon Musk, Jensen Huang and Nvidia",
+      "confidence": "low",
+      "decision": "duplicate",
+      "duplicate_of": "7b8ef102f86f06e5790ced22",
+      "event": "Musk backs Nvidia reinstatement campaign",
+      "event_key": "nvidia-post-resignation-huang-reinstatement-campaign-november-2026",
+      "evidence": [
+        "Why Elon Musk wants affair marred Jensen Huang back at Nvidia? Is AI industry not ready for a post-Huang era",
+        "Elon Musk backs a campaign to reinstate Jensen Huang as Nvidia CEO following his abrupt exit. With Arm CEO Rene Haas among potential successors, Huang's departure raises questions about Nvidia's leadership and the AI industry's dependence on his technological and financial influence."
+      ],
+      "id": "d37e48af65c225ee0416609c",
+      "india_exposure": "No India operational exposure cited",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Support can influence board pressure",
+      "reason": "Same possible comeback, without board decision."
+    },
+    {
+      "action_type": "Reported resource-use gap and longer-term target",
+      "actor": "Indian iron ore producers and target-setting authorities, precise identities uncertain",
+      "confidence": "medium",
+      "decision": "eligible",
+      "event": "Reports capacity underutilisation in major states",
+      "evidence": [
+        "Iron ore capacity under-utilisation in major-producing states prompt concerns as India sets 2047 target",
+        "The underutilised capacity is particularly significant as it largely involves hematite, the highest-grade variety of iron ore."
+      ],
+      "id": "fa99c5575b26ce8d80fd2369",
+      "india_exposure": "Indian steel raw material supply",
+      "lane": "macro",
+      "materiality": 3,
+      "mechanism": "Idle high-grade ore capacity can constrain domestic inputs",
+      "reason": "No percentage, states or specific response in excerpt."
+    },
+    {
+      "action_type": "Reported financial result",
+      "actor": "DroneAcharya",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "H1 net profit falls 65.3% to ₹67 lakh",
+      "evidence": [
+        "DroneAcharya Profits Tank 65% YoY To ₹67 Lakh In H1",
+        "BSE SME-listed drone tech company DroneAcharya’s net profit plunged 65.3% to ₹67 Lakh in the first half (H1) of the…"
+      ],
+      "id": "0cf2a3919c7d864ff26058be",
+      "india_exposure": "Indian listed drone services",
+      "lane": "tech",
+      "materiality": 2,
+      "mechanism": "Lower profit reduces internal financing",
+      "reason": "Truncated evidence supplies no operating driver or sector-wide signal."
+    },
+    {
+      "action_type": "Proposal and market positioning",
+      "actor": "Elon Musk, Tesla and SpaceX",
+      "confidence": "high",
+      "decision": "reject",
+      "event": "Pitches possible merger amid cash burn",
+      "evidence": [
+        "SpaceX’s S&P 500 bid gets new life as Elon Musk pitches Tesla merger",
+        "Both Tesla and SpaceX have been burning through billions of dollars in cash, and plan to bleed through more to finance new ventures, even as worries about the sustainability of the AI boom drag on the stock market"
+      ],
+      "id": "fea7198ebe0dddea3e621f44",
+      "india_exposure": "No Indian assets named",
+      "lane": "out-of-scope",
+      "materiality": 1,
+      "mechanism": "Combined capital needs could affect investors",
+      "reason": "No final transaction or Indian effect."
+    },
+    {
+      "action_type": "Announced intention",
+      "actor": "Bodhi Tree Systems and Adyar Ananda Bhavan",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Plans $180 million majority stake investment",
+      "evidence": [
+        "Bodhi Tree Systems to invest $180 million for majority stake in south Indian food chain Adyar Ananda Bhavan",
+        "James Murdoch and Uday Shankar-backed platform plans to support Adyar Ananda Bhavan's expansion across India and overseas markets"
+      ],
+      "id": "8e2282aa92cbd51a71c75726",
+      "india_exposure": "South Indian food retail and employment",
+      "lane": "macro",
+      "materiality": 4,
+      "mechanism": "Ownership capital could fund expansion",
+      "reason": "Specific terms and strategic purpose, with closing and footprint growth pending."
+    },
+    {
+      "action_type": "Inquiry order; rule changes only intended",
+      "actor": "Assam chief minister Himanta Biswa Sarma",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Orders investigation into crash that killed 26",
+      "evidence": [
+        "Assam CM orders probe into crash that killed 26, vows stricter traffic rules",
+        "Himanta Biswa Sarma visited the accident site on Saturday afternoon and ordered a detailed investigation"
+      ],
+      "id": "7aacfd1a3e3e3402e1c036bc",
+      "india_exposure": "Assam transport enforcement",
+      "lane": "national",
+      "materiality": 3,
+      "mechanism": "Investigation could inform stricter traffic rules",
+      "reason": "Concrete state response, but no findings or operative new rules."
+    },
+    {
+      "action_type": "Government review and discussion",
+      "actor": "Manipur chief minister and security officials",
+      "confidence": "high",
+      "decision": "eligible",
+      "event": "Reviews security following killings in two districts",
+      "evidence": [
+        "Manipur CM chairs security review meeting after killings in Kangpokpi, Ukhrul",
+        "The meeting also discussed measures to further strengthen security arrangements in vulnerable areas of the state"
+      ],
+      "id": "3979a4a65eafba1264e84621",
+      "india_exposure": "Vulnerable Manipur areas",
+      "lane": "national",
+      "materiality": 2,
+      "mechanism": "Review could lead to reallocating security resources",
+      "reason": "No concrete new measure or operational result identified."
+    }
+  ],
+  "capture_sha256": "0a8210a2c3bf92cb71a639f04d4628474df307e29f50802daf9188b2d420857b",
+  "editor": "Codex daily editorial session, 16 November 2026",
+  "run_id": "20261116T025734Z-45159742",
+  "schema_version": 2
+}

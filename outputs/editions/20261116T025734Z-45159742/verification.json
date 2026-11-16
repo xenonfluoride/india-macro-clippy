@@ -1,0 +1,61 @@
+{
+  "candidate_coverage": "Read all 217 titles and summaries in six context batches through offset 200 and next_offset=null. Reviewed 117 rejections, 66 alternatives and 27 explicit duplicates, including the operating evidence in trading leads such as ABB India orders, Alembic approval and Ola Electric financing. Reviewed all 153 accepted history entries and rechecked overlapping summaries.",
+  "cards": [
+    {
+      "analysis": "The deficit follows the absolute figures even when the export growth rate is higher. The next release can show whether both movements persist.",
+      "factual_support": "Business Standard gives $49.47 billion in goods exports and $89.35 billion in imports, respective annual growth of 45% and 16%, and a $39.88 billion year-high goods deficit. The brief leaves out CII's causal interpretation.",
+      "id": "9c5c7ac723f8007719e3901e",
+      "novelty": "The accepted September trade entry showed a narrowing gap. October is a fresh measured period with a widening gap."
+    },
+    {
+      "analysis": "Cash to the parent is a secondary-sale consequence. Final issue pricing and subscriptions are future observations.",
+      "factual_support": "Mint gives the ₹129–136 price band, November 19–23 offer window and 10% stake sale by Coal India, which is due to receive proceeds. Completion and listing remain pending.",
+      "id": "88f163edbb9be0fb58511972",
+      "novelty": "Earlier preview 132 predates the announced price band and is linked. No Mahanadi pricing event is in publication history."
+    },
+    {
+      "analysis": "The seasonal-capacity inference follows from the reported high-season utilisation. Start of works is an observable test of the plan.",
+      "factual_support": "The PTI interview identifies CFO Bharat Madan and the site near Jewar airport. The construction start early next fiscal year and capacity of 60,000, expandable to 100,000, are proposed.",
+      "id": "15575b650fba650c817e4cee",
+      "novelty": "Earlier M&M coverage was an industry demand forecast. This is a distinct manufacturer and site-specific capacity plan."
+    },
+    {
+      "analysis": "Potential oversight changes depend on audit findings. The card does not assert adverse findings or corrective directions.",
+      "factual_support": "The title reports FAA audit commencement and identifies DGCA oversight. The summary names the International Aviation Safety Assessment programme and November 16–20 schedule.",
+      "id": "5040ef2d73000af7dbfec0d3",
+      "novelty": "Prior Rule 192 fare-disclosure and Saudi flight disruptions covered different institutions or operational questions, with no FAA assessment."
+    },
+    {
+      "analysis": "The conditional exposure mechanism and the watch for geographic definitions preserve draft status.",
+      "factual_support": "The headline supplies proposed flood-prone construction restrictions and the summary confirms the state prepared the named bill and expects winter-session tabling next month.",
+      "id": "fcd75fd71a3787ba526b6096",
+      "novelty": "Forest dredging clearance concerned a different instrument and activity. The Assam construction zoning proposal adds a separate new event."
+    },
+    {
+      "analysis": "Human review could catch errors and the published text can establish which obligations apply.",
+      "factual_support": "YourStory attributes proposed disclosures, regulated-entity accountability and human-in-the-loop oversight to the SEBI chief. The actual guidelines remain pending.",
+      "id": "3401dbc58c1c790520ecbdf9",
+      "novelty": "Candidate 120 is another report of the same plans. These capital-market safeguards differ from the prior CERT-In audit guidance."
+    },
+    {
+      "analysis": "The raise can enable future prototype and customer tests. Trials are a measurable next step rather than a reported outcome.",
+      "factual_support": "Mint names the $24 million seed raise, both lead investors and programmable sensors for automotive, surveillance and drones. Commercial deployment is unclaimed.",
+      "id": "57de78f20c22a97baa84e29c",
+      "novelty": "Candidate 38 is the same round and is linked to the Mint report. The ledger has no prior Bharat Semi raise."
+    }
+  ],
+  "catalysts": "The IMD title gives the Andhra direction and its summary dates severe intensification by November 17 evening. The November 16 formation forecast describes a different intensity milestone of the same system. The November 16 Manila travel date anchors the two summits to November 17. Both dated, distinct events fit in the single closing module. The FAA audit already began, and the PFC record date is shareholder administration.",
+  "checked_at": "2026-11-16T03:07:53.906684+00:00",
+  "hero": "The hero covers all seven cards and retains status: a reported trade gap, a priced offer, a plant plan, an audit underway, a bill pending tabling, proposed SEBI safeguards and completed seed financing.",
+  "input_hashes": {
+    "capture.json": "0a8210a2c3bf92cb71a639f04d4628474df307e29f50802daf9188b2d420857b",
+    "edition.json": "947894b8d8b1549cbc8cf14bb9ec9cea6a1f081744499a0341fd3ef277215923",
+    "history.json": "1cfccc26a17c529ab19d8ff738bf4b93fd0b6c8353e749c307a48a15ce2290e1",
+    "market.json": "86f0053e8fa7aacf863a78dca2f818d5097a2783ca9a82d6fb7eab3260a89437",
+    "review.json": "3891865c5d3d9e40e471da24385c3cd8d7a14657101db2344e096a1c07680c38"
+  },
+  "reviewer": "Codex daily editorial session, separate evidence pass",
+  "schema_version": 2,
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "verdict": "approved"
+}

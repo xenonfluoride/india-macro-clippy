@@ -1,0 +1,191 @@
+{
+  "cards": [
+    {
+      "brief": "Business Standard reported that India’s October goods exports rose 45% year over year to $49.47 billion, while imports rose 16% to $89.35 billion. The goods trade deficit widened to a high for the year of $39.88 billion.",
+      "claims": [
+        {
+          "evidence": [
+            "India's goods exports increased 45 per cent to USD 49.47 billion in October, compared to USD 34.11 billion in the same month last year. Imports also rose 16 per cent to USD 89.35 billion from USD 76.69 billion."
+          ],
+          "statement": "Business Standard reported that India’s October goods exports rose 45% year over year to $49.47 billion, while imports rose 16% to $89.35 billion."
+        },
+        {
+          "evidence": [
+            "trade deficit widened to a year high of USD 39.88 billion."
+          ],
+          "statement": "The goods trade deficit widened to a high for the year of $39.88 billion."
+        }
+      ],
+      "headline": "Policy support, exporter resilience drive strong Oct trade performance: CII",
+      "id": "9c5c7ac723f8007719e3901e",
+      "lane": "macro",
+      "mechanism": "A larger import bill can widen the goods deficit even when exports grow faster in percentage terms.",
+      "watch": "Watch the next trade release for whether the gap narrows and whether export growth extends beyond October."
+    },
+    {
+      "brief": "Mahanadi Coalfields set a price band of ₹129–136 a share for its IPO, which opens on November 19 and closes on November 23. Coal India is selling a 10% stake and will receive the proceeds.",
+      "claims": [
+        {
+          "evidence": [
+            "Mahanadi Coalfields has set its IPO price band at ₹129–136 per share. The offer, open from 19 to 23 November"
+          ],
+          "statement": "Mahanadi Coalfields set a price band of ₹129–136 a share for its IPO, which opens on November 19 and closes on November 23."
+        },
+        {
+          "evidence": [
+            "is a 10% stake sale by Coal India, which will receive the proceeds."
+          ],
+          "statement": "Coal India is selling a 10% stake and will receive the proceeds."
+        }
+      ],
+      "headline": "Coal India's Mahanadi Coalfields IPO price band set at ₹129 - ₹136 per share | Check GMP, issue details, key dates",
+      "id": "88f163edbb9be0fb58511972",
+      "lane": "macro",
+      "mechanism": "The offer would give public investors direct exposure to the subsidiary and convert part of Coal India’s holding into cash.",
+      "watch": "Watch the final issue price and subscription levels for a measure of investor demand."
+    },
+    {
+      "brief": "Escorts Kubota plans to start building a tractor plant near Jewar airport in Uttar Pradesh early next fiscal year, CFO Bharat Madan told PTI. The first phase would have capacity for 60,000 tractors, with room to expand to 100,000.",
+      "claims": [
+        {
+          "evidence": [
+            "Escorts Kubota plans to begin construction of a tractor facility in Uttar Pradesh early next fiscal year",
+            "In an interview with PTI, Escorts Kubota Ltd Chief Financial Officer Bharat Madan said the proposed facility near Jewar airport"
+          ],
+          "statement": "Escorts Kubota plans to start building a tractor plant near Jewar airport in Uttar Pradesh early next fiscal year, CFO Bharat Madan told PTI."
+        },
+        {
+          "evidence": [
+            "with an initial capacity of 60,000 units that can be scaled up to one lakh units"
+          ],
+          "statement": "The first phase would have capacity for 60,000 tractors, with room to expand to 100,000."
+        }
+      ],
+      "headline": "Escorts Kubota plans new UP plant with 60,000-tractor capacity: CFO",
+      "id": "15575b650fba650c817e4cee",
+      "lane": "macro",
+      "mechanism": "Added capacity would give Escorts Kubota more room to meet seasonal peaks in tractor demand.",
+      "watch": "Watch for work to begin at the Jewar site early next fiscal year."
+    },
+    {
+      "brief": "The US Federal Aviation Administration began an audit of India’s Directorate General of Civil Aviation under its International Aviation Safety Assessment programme. The assessment is scheduled for November 16–20.",
+      "claims": [
+        {
+          "evidence": [
+            "US FAA begins 5-day audit of DGCA’s safety oversight system",
+            "The assessment, scheduled from November 16 to 20, is being conducted under the FAA’s International Aviation Safety Assessment programme."
+          ],
+          "statement": "The US Federal Aviation Administration began an audit of India’s Directorate General of Civil Aviation under its International Aviation Safety Assessment programme."
+        },
+        {
+          "evidence": [
+            "The assessment, scheduled from November 16 to 20, is being conducted under the FAA’s International Aviation Safety Assessment programme."
+          ],
+          "statement": "The assessment is scheduled for November 16–20."
+        }
+      ],
+      "headline": "US FAA begins 5-day audit of DGCA’s safety oversight system",
+      "id": "5040ef2d73000af7dbfec0d3",
+      "lane": "national",
+      "mechanism": "The audit scrutinises the regulator’s safety oversight and could identify where it needs to change its practices.",
+      "watch": "Watch for the findings and any corrective actions requested of the DGCA."
+    },
+    {
+      "brief": "Assam’s government has prepared a bill that would restrict construction in flood-prone areas. The Assam Flood Plain Zoning Bill is due to be tabled in the state assembly’s winter session next month.",
+      "claims": [
+        {
+          "evidence": [
+            "Assam to restrict construction in flood-prone areas under proposed zoning law: CM",
+            "The state government has prepared the Assam Flood Plain Zoning Bill, 2026, which will be tabled during the winter session of the state assembly next month"
+          ],
+          "statement": "Assam’s government has prepared a bill that would restrict construction in flood-prone areas."
+        },
+        {
+          "evidence": [
+            "The state government has prepared the Assam Flood Plain Zoning Bill, 2026, which will be tabled during the winter session of the state assembly next month"
+          ],
+          "statement": "The Assam Flood Plain Zoning Bill is due to be tabled in the state assembly’s winter session next month."
+        }
+      ],
+      "headline": "Assam to restrict construction in flood-prone areas under proposed zoning law: CM",
+      "id": "fcd75fd71a3787ba526b6096",
+      "lane": "national",
+      "mechanism": "Flood-plain zoning could limit new construction where it would add to flood exposure.",
+      "watch": "Watch the bill as introduced for how it defines flood-prone areas and which construction it would restrict."
+    },
+    {
+      "brief": "SEBI plans to issue guidance on AI use in capital markets. The regulator’s chief said the proposed safeguards would cover disclosures, accountability for regulated entities and human involvement in decisions.",
+      "claims": [
+        {
+          "evidence": [
+            "Sebi to issue AI usage guidelines for capital markets, focus on investor protection"
+          ],
+          "statement": "SEBI plans to issue guidance on AI use in capital markets."
+        },
+        {
+          "evidence": [
+            "The Sebi chief said the proposed guidelines would focus on establishing appropriate guardrails for AI use, including disclosures, accountability of regulated entities, and a 'human-in-the-loop' approach."
+          ],
+          "statement": "The regulator’s chief said the proposed safeguards would cover disclosures, accountability for regulated entities and human involvement in decisions."
+        }
+      ],
+      "headline": "Sebi to issue AI usage guidelines for capital markets, focus on investor protection",
+      "id": "3401dbc58c1c790520ecbdf9",
+      "lane": "tech",
+      "mechanism": "Human review could give regulated firms a way to catch errors before automated decisions reach investors.",
+      "watch": "Watch the published text for which uses require human review and what firms must disclose."
+    },
+    {
+      "brief": "Bharat Semi raised $24 million in a seed round led by Info Edge and South Park Common. The startup is developing programmable sensors for uses including automotive systems, surveillance and drones.",
+      "claims": [
+        {
+          "evidence": [
+            "Bharat Semi raises $24 million in seed round led by Info Edge, South Park Common"
+          ],
+          "statement": "Bharat Semi raised $24 million in a seed round led by Info Edge and South Park Common."
+        },
+        {
+          "evidence": [
+            "The deeptech startup is developing programmable sensors for applications spanning surveillance, automotive and drones"
+          ],
+          "statement": "The startup is developing programmable sensors for uses including automotive systems, surveillance and drones."
+        }
+      ],
+      "headline": "Bharat Semi raises $24 million in seed round led by Info Edge, South Park Common",
+      "id": "57de78f20c22a97baa84e29c",
+      "lane": "tech",
+      "mechanism": "Seed funding can help Bharat Semi move sensor designs toward prototypes and customer testing.",
+      "watch": "Watch for customer trials that show whether the sensors meet application requirements."
+    }
+  ],
+  "catalyst_review": "November 17 has two distinct signals: the IMD’s severe cyclone intensification forecast and the scheduled ASEAN–India and East Asia summits in Manila. The earlier November 16 cyclone-formation forecast describes a different intensity stage. PFC’s dividend record date and Nvidia’s earnings preview supply no material India-wide next-day development. The FAA assessment began November 16 with no standalone November 17 milestone, and Delhi Metro’s adjusted Chhath service is on November 16. The coal and crop IPOs begin later, and the older November 17 UP electoral-roll preview is in publication history rather than fresh captured evidence.",
+  "catalysts": [
+    {
+      "date": "2026-11-17",
+      "evidence": "Depression over Bay of Bengal likely to intensify into severe cyclonic storm by Nov 17, move towards Andhra Pradesh coast: IMD\nThe weather system is likely to become a Severe Cyclonic Storm over the westcentral Bay of Bengal by the evening of November 17, the IMD said.",
+      "id": "ec820e8be71a4efba5b39fb4",
+      "text": "The IMD expects the Bay of Bengal system to intensify into a severe cyclonic storm by the evening of November 17, with the forecast track toward the Andhra Pradesh coast."
+    },
+    {
+      "date": "2026-11-17",
+      "evidence": "Modi will travel to Manila on November 16 to participate in the ASEAN-India Summit and the East Asia Summit the following day.",
+      "id": "ff0997904a79715f42113171",
+      "text": "Prime Minister Narendra Modi is scheduled to attend the ASEAN–India Summit and East Asia Summit in Manila on November 17."
+    }
+  ],
+  "created_at": "2026-11-16T03:06:16.646044+00:00",
+  "date": "2026-11-16",
+  "hero": "India’s goods trade gap widened in October even as exports grew faster than imports year over year. Coal India’s sale of a stake in Mahanadi Coalfields has a price band, and Escorts Kubota laid out plans for a tractor plant. An aviation safety audit is underway as Assam prepares to table flood-plain zoning legislation. SEBI outlined proposed safeguards for AI use, and Bharat Semi raised seed funding for programmable sensors.",
+  "hero_card_ids": [
+    "9c5c7ac723f8007719e3901e",
+    "88f163edbb9be0fb58511972",
+    "15575b650fba650c817e4cee",
+    "5040ef2d73000af7dbfec0d3",
+    "fcd75fd71a3787ba526b6096",
+    "3401dbc58c1c790520ecbdf9",
+    "57de78f20c22a97baa84e29c"
+  ],
+  "issue": 32,
+  "run_id": "20261116T025734Z-45159742",
+  "schema_version": 2
+}
