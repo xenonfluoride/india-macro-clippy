@@ -1,0 +1,181 @@
+{
+  "issue": 33,
+  "hero": "October’s wholesale inflation hit a series high even as unemployment edged down. The Centre raised fuel export duties again, and Hindustan Zinc approved a major capacity expansion. The Supreme Court increased compensation for a man held after acquittal, Delhi opened more ways to prove identity for public services, and TRAI tallied its latest spam enforcement.",
+  "cards": [
+    {
+      "claims": [
+        {
+          "statement": "Business Standard reported that India’s wholesale inflation reached a series high of 12.29% in October.",
+          "evidence": [
+            "Wholesale inflation hits series high of 12.29% in Oct on fuel price surge"
+          ]
+        },
+        {
+          "statement": "Fuel and power inflation reached 32.84%, even as price pressures in manufactured products eased.",
+          "evidence": [
+            "Fuel and power inflation surged to 32.84% in October, driving wholesale inflation to a series high of 12.29%, even as price pressures in manufactured products eased"
+          ]
+        }
+      ],
+      "mechanism": "Costlier energy can squeeze manufacturers when they cannot pass higher input costs through to customers.",
+      "watch": "Watch whether fuel and power inflation cools in the next wholesale price release.",
+      "id": "bbe00a37d488c206c6b942a0",
+      "lane": "macro",
+      "headline": "Wholesale inflation hits series high of 12.29% in Oct on fuel price surge",
+      "brief": "Business Standard reported that India’s wholesale inflation reached a series high of 12.29% in October. Fuel and power inflation reached 32.84%, even as price pressures in manufactured products eased."
+    },
+    {
+      "claims": [
+        {
+          "statement": "The latest Periodic Labour Force Survey put unemployment among people aged 15 and older at 4.9% in October, down from 5% in September.",
+          "evidence": [
+            "India's unemployment rate declined marginally to 4.9 per cent in October from 5 per cent in September",
+            "The overall unemployment rate for people aged 15 years and above",
+            "the latest Periodic Labour Force Survey (PLFS) bulletin"
+          ]
+        },
+        {
+          "statement": "Female labour force participation rose from 34.6% to 35%, while rural unemployment held at 4.2%.",
+          "evidence": [
+            "the female Labour Force Participation Rate (LFPR), which rose to 35 per cent in October from 34.6 per cent in September",
+            "rural unemployment remained unchanged at 4.2 per cent"
+          ]
+        }
+      ],
+      "mechanism": "Rising participation means more people are working or seeking work, so the jobless rate alone gives an incomplete picture of labour demand.",
+      "watch": "Track whether female participation stays higher and rural unemployment falls in the next monthly bulletin.",
+      "id": "85c14a0886acd992b728064c",
+      "lane": "macro",
+      "headline": "India's unemployment rate eases to eight-month low of 4.9% in October",
+      "brief": "The latest Periodic Labour Force Survey put unemployment among people aged 15 and older at 4.9% in October, down from 5% in September. Female labour force participation rose from 34.6% to 35%, while rural unemployment held at 4.2%."
+    },
+    {
+      "claims": [
+        {
+          "statement": "The Centre raised the special additional excise duty on diesel exports from ₹11.50 to ₹14 per litre and increased the levy on aviation turbine fuel exports to ₹12.50 per litre, Business Standard reported.",
+          "evidence": [
+            "Centre raises export duty on diesel, aviation fuel; petrol unchanged",
+            "Special additional excise duty on diesel exports raised to ₹14 per litre from ₹11.50, while levy on aviation turbine fuel increased to ₹12.50 per litre"
+          ]
+        },
+        {
+          "statement": "The petrol export duty was unchanged.",
+          "evidence": [
+            "petrol unchanged"
+          ]
+        }
+      ],
+      "mechanism": "Higher export duties reduce what refiners keep from overseas sales of the affected fuels.",
+      "watch": "Watch whether diesel and jet fuel export volumes ease after the revision.",
+      "id": "585f5260fac0d7fcdbcac9a8",
+      "lane": "macro",
+      "headline": "Centre raises export duty on diesel, aviation fuel; petrol unchanged",
+      "brief": "The Centre raised the special additional excise duty on diesel exports from ₹11.50 to ₹14 per litre and increased the levy on aviation turbine fuel exports to ₹12.50 per litre, Business Standard reported. The petrol export duty was unchanged."
+    },
+    {
+      "claims": [
+        {
+          "statement": "Hindustan Zinc’s board approved the ₹80,000 crore HZL 2.0 Growth Programme, Mint reported.",
+          "evidence": [
+            "Hindustan Zinc’s ₹80,000-crore expansion",
+            "The company's board of directors approved the HZL 2.0 Growth Programme"
+          ]
+        },
+        {
+          "statement": "The programme would add about one million tonnes of annual metal production capacity to the existing 1.1 million tonnes.",
+          "evidence": [
+            "increase its existing metal production capacity of 1.1 MTPA by approximately 1 MTPA"
+          ]
+        }
+      ],
+      "mechanism": "If built, the added capacity could give domestic metal buyers more supply options.",
+      "watch": "Watch for project contracts and commissioning dates that show when the new capacity could come online.",
+      "id": "9c030237e839306ec4dc7a1c",
+      "lane": "macro",
+      "headline": "Hindustan Zinc’s ₹80,000-crore expansion: The big bet to double its metal output and ride India’s infrastructure boom",
+      "brief": "Hindustan Zinc’s board approved the ₹80,000 crore HZL 2.0 Growth Programme, Mint reported. The programme would add about one million tonnes of annual metal production capacity to the existing 1.1 million tonnes."
+    },
+    {
+      "claims": [
+        {
+          "statement": "The Supreme Court raised to ₹30 lakh the compensation payable to a man who remained in prison for more than seven years after being acquitted of murder, Hindustan Times reported.",
+          "evidence": [
+            "the Supreme Court underlined on Monday, enhancing to ₹30 lakh the compensation payable to a man who remained in jail for more than seven years even after being acquitted of murder"
+          ]
+        }
+      ],
+      "mechanism": "A higher award makes extended wrongful detention a financial liability for the authorities responsible.",
+      "watch": "Watch how later courts use this award when assessing compensation for detention after acquittal.",
+      "id": "15c1f9b3bd7669325d5ecff0",
+      "lane": "national",
+      "headline": "SC moots aid for families when murder accused are acquitted",
+      "brief": "The Supreme Court raised to ₹30 lakh the compensation payable to a man who remained in prison for more than seven years after being acquitted of murder, Hindustan Times reported."
+    },
+    {
+      "claims": [
+        {
+          "statement": "Delhi made Aadhaar authentication voluntary for citizen services and allowed voter IDs and driving licences as alternatives, Hindustan Times reported.",
+          "evidence": [
+            "Delhi government allows voter ID, driving licence for citizen services, makes Aadhaar authentication voluntary"
+          ]
+        },
+        {
+          "statement": "The IT department must inform Aadhaar holders about alternative ways to establish their identity.",
+          "evidence": [
+            "The IT department is now mandated to inform Aadhaar number holders about alternative and viable means of identification."
+          ]
+        }
+      ],
+      "mechanism": "Accepting other forms of ID can keep an Aadhaar authentication problem from blocking access to public services.",
+      "watch": "Check whether online forms and service counters offer the alternative IDs in practice.",
+      "id": "d1d8bf21d72143559a9d4638",
+      "lane": "tech",
+      "headline": "Delhi government allows voter ID, driving licence for citizen services, makes Aadhaar authentication voluntary",
+      "brief": "Delhi made Aadhaar authentication voluntary for citizen services and allowed voter IDs and driving licences as alternatives, Hindustan Times reported. The IT department must inform Aadhaar holders about alternative ways to establish their identity."
+    },
+    {
+      "claims": [
+        {
+          "statement": "TRAI said operators’ AI systems flagged 19.9 billion calls and texts as suspected spam in July through September 2026, Mint reported.",
+          "evidence": [
+            "TRAI reported that telecom operators’ AI systems flagged 19.9 billion calls and SMSes as suspected spam in July–September 2026."
+          ]
+        },
+        {
+          "statement": "The regulator received 1.529 million complaints, took enforcement action against more than 124,000 telecom resources and blacklisted 374 senders.",
+          "evidence": [
+            "The regulator received 1.529 million complaints, took enforcement action against more than 124,000 telecom resources and blacklisted 374 senders."
+          ]
+        }
+      ],
+      "mechanism": "Action against telecom resources and senders can curb repeat traffic after operator systems flag it.",
+      "watch": "Track whether complaint volumes fall in the next report as enforcement continues.",
+      "id": "22ee9bed88f85e3d639282f6",
+      "lane": "tech",
+      "headline": "Jio vs Airtel vs Vi - which telecom operator had the fewest spam call complaints? What TRAI data says",
+      "brief": "TRAI said operators’ AI systems flagged 19.9 billion calls and texts as suspected spam in July through September 2026, Mint reported. The regulator received 1.529 million complaints, took enforcement action against more than 124,000 telecom resources and blacklisted 374 senders."
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-11-18",
+      "text": "Crystal Crop Protection’s IPO is scheduled to open for subscription on November 18, the first chance to see demand for the offering.",
+      "evidence": "Crystal Crop Protection’s IPO opens on November 18 and closes on November 20, 2026.",
+      "id": "bfa44a1ab9bb6fdb331db037"
+    }
+  ],
+  "catalyst_review": "November 18 is explicit for the Crystal Crop Protection IPO and marks actual opening of subscription, independent of the accompanying grey-market estimates. The date also appears for a Bengaluru accelerator pitch, but that is a shortlisting event with no commitment or date for admissions. The November 18 China machinery controls appear only in October publication history, not fresh RSS. Akvan coastal crossing is forecast for November 20 and Bengal rains from November 19; Mahanadi subscriptions open November 19. The Manila Tuesday events are November 17, and the weekly calendar lacks an exact November 18 release.",
+  "schema_version": 2,
+  "run_id": "20261117T030137Z-cab1ae1a",
+  "created_at": "2026-11-17T03:12:21.931626+00:00",
+  "date": "2026-11-17",
+  "hero_card_ids": [
+    "bbe00a37d488c206c6b942a0",
+    "85c14a0886acd992b728064c",
+    "585f5260fac0d7fcdbcac9a8",
+    "9c030237e839306ec4dc7a1c",
+    "15c1f9b3bd7669325d5ecff0",
+    "d1d8bf21d72143559a9d4638",
+    "22ee9bed88f85e3d639282f6"
+  ]
+}

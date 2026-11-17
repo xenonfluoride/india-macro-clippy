@@ -1,0 +1,61 @@
+{
+  "candidate_coverage": "Read all 312 fresh RSS titles and summaries via offsets 0, 40, 80, 120, 160, 200, 240 and 280 to next_offset=null, with one authored assessment per record. The final review contains six selections, one update, 123 eligible alternatives, 56 linked duplicates and 126 rejects. Considered results inside stock headlines, the NTPC Andaman plant award, edible oil data, the Videocon ruling, the Dreamteam round and the Yamuna order. Checked all 160 history titles and event keys and reread the related WPI, PLFS, retail inflation, fuel duties and detention comparators. The Hindu Economy and Technology returned 403; thirteen other feeds yielded the evidence pool.",
+  "hero": "The hero maps to all seven cards: October WPI high, modest October jobless rate decline, a further change in fuel export duties, board approval of zinc capacity, a higher individual compensation award, alternate ID for Delhi services, and TRAI enforcement figures. It makes no claim that producers added capacity, compensation was paid or spam fell.",
+  "catalysts": "Mint explicitly says Crystal Crop Protection subscriptions open November 18, 2026; the catalyst uses only the dated offering, omitting the grey-market forecast. The separately dated Bengaluru pitch has no admission or financing deliverable. The China controls were visible only in October history, Akvan and Mahanadi dates are later, and the Tuesday Manila schedule is November 17. One closing module holds the single fresh catalyst.",
+  "cards": [
+    {
+      "factual_support": "Business Standard gives 12.29% as the October wholesale series high, 32.84% for fuel and power and easing manufactured price pressure. The rounded 12.3% coverage is grouped under the same release; no retail rate is substituted.",
+      "analysis": "The input cost squeeze is conditional on limited pass-through; the next WPI fuel and power component can test whether the main driver cools.",
+      "novelty": "October wholesale data advance the period from September WPI and measure a separate price series from the already published October CPI.",
+      "id": "bbe00a37d488c206c6b942a0"
+    },
+    {
+      "factual_support": "The PLFS excerpt identifies the ministry bulletin, the 15-plus base, 4.9% versus 5%, a 34.6% to 35% female participation move and unchanged 4.2% rural joblessness. No truncated rural female figure is used.",
+      "analysis": "Participation supplies context for the rate and does not establish hiring by itself. Next release comparisons of female participation and rural unemployment are observable.",
+      "novelty": "This is the October monthly observation, distinct from September monthly PLFS and the separately published July–September quarterly aggregate.",
+      "id": "85c14a0886acd992b728064c"
+    },
+    {
+      "factual_support": "The headline supplies the Centre, export scope and petrol unchanged; the summary gives ₹11.50 to ₹14 for diesel and ₹12.50 for aviation turbine fuel, all per litre. No effective date or retail price impact is claimed.",
+      "analysis": "The change works through refiners’ net proceeds from exports. Later export volumes can show whether shipment behaviour changed without assuming a domestic pump price response.",
+      "novelty": "Explicit update to October 31 revision: history gave ₹11.50 diesel and ₹11 aviation turbine fuel; the fresh excerpt reports ₹14 and ₹12.50 respectively.",
+      "id": "585f5260fac0d7fcdbcac9a8"
+    },
+    {
+      "factual_support": "Mint’s headline supplies ₹80,000 crore and its summary says the board approved HZL 2.0, with approximately one MTPA incremental capacity against a 1.1 MTPA base. Capacity is projected; output is not reported as achieved.",
+      "analysis": "More supply options are conditional on facilities being built. Contracts and commissioning dates would distinguish execution from the board approval.",
+      "novelty": "No prior HZL 2.0 approval in history; the Business Standard plan and smelter coverage duplicate this same programme, and earlier Hindalco costs are a separate firm and event.",
+      "id": "9c030237e839306ec4dc7a1c"
+    },
+    {
+      "factual_support": "The Hindustan Times summary expressly gives the Supreme Court’s increase to ₹30 lakh for more than seven years of custody after acquittal. The original headline raises a related proposal; the brief reports the supported award and makes no claim that a scheme was adopted or payment made.",
+      "analysis": "Compensation can create financial consequences for extended custody, and subsequent judgments can show whether the award informs remedies after acquittal.",
+      "novelty": "Different court order, facts and award from the Allahabad High Court release and ₹20,000 remedy and the Supreme Court’s earlier identification of people held after bail.",
+      "id": "15c1f9b3bd7669325d5ecff0"
+    },
+    {
+      "factual_support": "Hindustan Times gives voluntary Aadhaar authentication and both named alternatives in the title, with a separate IT department duty to inform Aadhaar holders in the summary. The scope stays Delhi citizen services.",
+      "analysis": "Alternate credentials can remove a failed Aadhaar check as a barrier. Forms and counter procedures reveal whether the options are actually usable.",
+      "novelty": "This is a public services identity rule, distinct from voter roll administration even though one alternative credential is voter ID.",
+      "id": "d1d8bf21d72143559a9d4638"
+    },
+    {
+      "factual_support": "Mint attributes both metrics sentences to TRAI, preserving 19.9 billion suspected calls and messages, 1.529 million complaints, more than 124,000 resources and 374 senders. No operator ranking, confirmed spam or reduction is inferred.",
+      "analysis": "Enforcement targets resources and senders that can generate repeat traffic; the next measured complaint total can indicate whether customers report fewer incidents.",
+      "novelty": "This is a July–September measured enforcement tally, separate from the earlier caller ID directive, AI complaint centre mandate and internet interconnection rules.",
+      "id": "22ee9bed88f85e3d639282f6"
+    }
+  ],
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex daily editorial session, separate evidence-check pass",
+  "checked_at": "2026-11-17T03:13:43.805353+00:00",
+  "input_hashes": {
+    "capture.json": "3155220d682fad0fd8efc0841228a2579e1814a13176b56614f98357c5659cf9",
+    "history.json": "7a9b033350aa48d141b039976445d645e048a16a6e6c891a28e1d4edce41bea6",
+    "review.json": "85c5b8a9ef433af1f1124496238810090c4a792ce56e02e231d0f8762f4d6689",
+    "edition.json": "6ef9078810ca9de035274fbffa645936a9ef39fa064b955a6b7a96bcc7888d74",
+    "market.json": "edac12ed099edc97368e0fcff4ce2922204607d7fc4b2d67dada359f730bd014"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4"
+}
