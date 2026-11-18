@@ -1,0 +1,147 @@
+{
+  "schema_version": 2,
+  "run_id": "20261118T030403Z-c16fcb90",
+  "created_at": "2026-11-18T03:25:56.405947+00:00",
+  "date": "2026-11-18",
+  "issue": 34,
+  "hero": "State budgets face transfer and revenue pressures as SEBI resets commodity margins. Amazon outlines a renewable investment plan and IOC gains aviation-fuel supply approval, while Delhi-NCR rolls back pollution restrictions and satellite mapping and domestic AI serving add new technology options.",
+  "hero_card_ids": [
+    "e9d6285254cfa509b6c40b95",
+    "63becb634bd9a320d35b066f",
+    "dd3e1a56ff1710f0333cbd72",
+    "c9a8039669636d3257c724f2",
+    "b54708bccd79f6c784d8c63b",
+    "a19af4c02b91c723907713ab",
+    "4b9abb45299cfc8db6e0cadf"
+  ],
+  "cards": [
+    {
+      "id": "e9d6285254cfa509b6c40b95",
+      "lane": "macro",
+      "headline": "States' combined fiscal deficit seen narrowing to 2.9% of GDP in FY27",
+      "brief": "PRS Legislative Research says states have budgeted a combined fiscal deficit of 2.9% of GDP in FY27, with nine exceeding the 3% limit. Its assessment flags rising cash transfers and revenue pressures.",
+      "mechanism": "Expanding transfers can narrow the room for other state spending when revenue growth fails to keep pace.",
+      "watch": "Watch whether actual receipts and spending keep the states within their budgeted deficit paths.",
+      "claims": [
+        {
+          "statement": "PRS Legislative Research says states have budgeted a combined fiscal deficit of 2.9% of GDP in FY27, with nine exceeding the 3% limit. Its assessment flags rising cash transfers and revenue pressures.",
+          "evidence": [
+            "States' combined fiscal deficit seen narrowing to 2.9% of GDP in FY27",
+            "PRS Legislative Research flags rising cash transfers and revenue pressures as states budget a combined fiscal deficit of 2.9% of GDP in FY27, with nine exceeding the 3% limit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63becb634bd9a320d35b066f",
+      "lane": "macro",
+      "headline": "Sebi aligns margin requirements for agri, non-agri commodity derivatives",
+      "brief": "Mint reports that SEBI has aligned margin requirements for agricultural and non-agricultural commodity derivatives across volatility categories, effective 1 December.",
+      "mechanism": "Aligned collateral treatment can change the funding needed to carry commodity positions across volatility categories.",
+      "watch": "Watch how the revised requirements affect collateral demand when they take effect.",
+      "claims": [
+        {
+          "statement": "Mint reports that SEBI has aligned margin requirements for agricultural and non-agricultural commodity derivatives across volatility categories, effective 1 December.",
+          "evidence": [
+            "Sebi aligns margin requirements for agri, non-agri commodity derivatives",
+            "The regulator has aligned margins for agricultural and non-agricultural commodities across volatility categories, effective 1 December."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dd3e1a56ff1710f0333cbd72",
+      "lane": "macro",
+      "headline": "Amazon to invest $7 billion in India's renewable energy projects by 2030",
+      "brief": "Amazon says it plans to invest $7 billion in Indian renewable energy projects by 2030, in addition to $4 billion already contracted. The four newly unveiled wind and solar projects total 934 megawatts and form part of the existing $4 billion contracted through power purchase agreements.",
+      "mechanism": "Long-term corporate power purchases can give renewable developers a firmer demand base for financing projects.",
+      "watch": "Watch for commissioning milestones and contracts that turn the additional investment plan into operating capacity.",
+      "claims": [
+        {
+          "statement": "Amazon says it plans to invest $7 billion in Indian renewable energy projects by 2030, in addition to $4 billion already contracted. The four newly unveiled wind and solar projects total 934 megawatts and form part of the existing $4 billion contracted through power purchase agreements.",
+          "evidence": [
+            "Amazon to invest $7 billion in India's renewable energy projects by 2030",
+            "Amazon on Tuesday announced plans to invest USD 7 billion (about Rs 65,393 crore) in renewable energy projects in India by 2030, in addition to the USD 4 billion already contracted, as it unveiled four new wind and solar projects with a combined capacity of 934 megawatts. The company said the investment makes it one of India's leading corporate purchasers of carbon-free energy. The four initiatives consist of a 234 MW wind farm in Karnataka -- marking Amazon's largest contracted wind project in Asia to date -- alongside a 200 MW hybrid solar-and-wind facility in the same state, a 300 MW solar installation in Madhya Pradesh, and a 200 MW solar project in Rajasthan. Secured through power purchase agreements (PPAs), the projects are part of the USD 4 billion in renewable energy projects already contracted by Amazon in India, the company said. Once operational, Amazon's renewable energy portfolio in the country will have a combined capacity of more than 2 gigawatts (GW), enough to ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c9a8039669636d3257c724f2",
+      "lane": "macro",
+      "headline": "IOC gets govt nod to supply sustainable aviation fuel for blending target",
+      "brief": "IOC chairman A S Sahney says the company has government approvals to commercially supply sustainable aviation fuel from its Panipat refinery. He says the facility can meet India's 1% blending target for international flights in 2027, but did not specify the approved volume or the commercial supply start date. IOC plans to secure airline supply agreements before committing investments to additional projects.",
+      "mechanism": "Supply approval can reduce a regulatory barrier to aviation fuel blending while airline contracts determine the case for further capacity.",
+      "watch": "Watch for airline agreements and a confirmed commercial supply start date.",
+      "claims": [
+        {
+          "statement": "IOC chairman A S Sahney says the company has government approvals to commercially supply sustainable aviation fuel from its Panipat refinery. He says the facility can meet India's 1% blending target for international flights in 2027, but did not specify the approved volume or the commercial supply start date. IOC plans to secure airline supply agreements before committing investments to additional projects.",
+          "evidence": [
+            "IOC gets govt nod to supply sustainable aviation fuel for blending target",
+            "State-owned Indian Oil Corporation (IOC) has secured government approvals to commercially supply sustainable aviation fuel (SAF) from its Panipat refinery in north India, with the facility capable of producing enough fuel to meet the country's 1 per cent blending target for international flights in 2027, Chairman A S Sahney said on Tuesday. The state-run refiner plans to enter into supply agreements with airlines before committing investments to additional SAF projects, Sahney said at an industry event, signalling a demand-led approach to expanding production capacity as India prepares to introduce low-carbon fuel requirements for international aviation. IOC's Panipat facility is positioned to meet the initial blending mandate, Sahney said, although he did not specify the volume of fuel covered by the government approvals or when commercial supplies would begin. In August, an IOC executive had said the company expected to begin operations at its first SAF plant at Panipat within two"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b54708bccd79f6c784d8c63b",
+      "lane": "national",
+      "headline": "GRAP Stage III restrictions revoked in Delhi-NCR as AQI improves to 204",
+      "brief": "Hindustan Times reports that GRAP Stage III restrictions have been revoked in Delhi-NCR as the AQI improved to 204. CAQM says the decision followed a consistent decline in pollution levels across the national capital.",
+      "mechanism": "Rolling back a restriction tier can ease constraints on activity while leaving firms exposed to renewed pollution controls.",
+      "watch": "Watch whether subsequent air-quality readings sustain the rollback or trigger renewed restrictions.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that GRAP Stage III restrictions have been revoked in Delhi-NCR as the AQI improved to 204. CAQM says the decision followed a consistent decline in pollution levels across the national capital.",
+          "evidence": [
+            "GRAP Stage III restrictions revoked in Delhi-NCR as AQI improves to 204",
+            "The CAQM said the decision was taken after observing a consistent decline in pollution levels across the national capital."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a19af4c02b91c723907713ab",
+      "lane": "tech",
+      "headline": "IN-SPACe selects 3 space cos for satellite-based urban settlement mapping",
+      "brief": "Business Standard reports that IN-SPACe has selected SpacePixxel, KaleidEO and Azista Industries for satellite-based urban settlement mapping. The companies will receive ₹1.46 crore to develop high-resolution settlement layers using Indian satellite data, with pilots in Bengaluru and Shimla.",
+      "mechanism": "Satellite settlement layers could give urban planners a more detailed basis for locating development and service gaps.",
+      "watch": "Watch for the pilot outputs and evidence that planning agencies use the resulting maps.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that IN-SPACe has selected SpacePixxel, KaleidEO and Azista Industries for satellite-based urban settlement mapping. The companies will receive ₹1.46 crore to develop high-resolution settlement layers using Indian satellite data, with pilots in Bengaluru and Shimla.",
+          "evidence": [
+            "IN-SPACe selects 3 space cos for satellite-based urban settlement mapping",
+            "SpacePixxel, KaleidEO and Azista Industries will receive ₹1.46 crore to develop high-resolution settlement layers using Indian satellite data, with pilots in Bengaluru and Shimla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4b9abb45299cfc8db6e0cadf",
+      "lane": "tech",
+      "headline": "Sarvam AI Opens Token Factory To Run Global AI Models On Indian Servers",
+      "brief": "Inc42 reports that Sarvam AI has opened Token Factory to developers and enterprises to run global AI models on Indian servers.",
+      "mechanism": "Domestic model serving can widen infrastructure choices for Indian developers evaluating where to run AI workloads.",
+      "watch": "Watch for published service terms and deployment evidence that clarify the platform's practical limits.",
+      "claims": [
+        {
+          "statement": "Inc42 reports that Sarvam AI has opened Token Factory to developers and enterprises to run global AI models on Indian servers.",
+          "evidence": [
+            "Sarvam AI Opens Token Factory To Run Global AI Models On Indian Servers",
+            "AI unicorn Sarvam AI has opened Token Factory to developers and enterprises, giving them access to its own and global…"
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [
+    {
+      "id": "03865adfca2f74256179f970",
+      "date": "2026-11-19",
+      "text": "Hindustan Times says Rajnath Singh and S Jaishankar are scheduled to meet their Japanese counterparts for the 2+2 dialogue on November 19; watch for concrete defence or maritime cooperation commitments.",
+      "evidence": "Rajnath, Jaishankar to meet Japanese counterparts tomorrow for 2+2 dialogue, deepen bilateral ties"
+    }
+  ],
+  "catalyst_review": "Reviewed tomorrow as November 19 IST. The November 18 HT headline explicitly says tomorrow for the India-Japan 2+2, supporting a material defence and maritime dialogue preview; earlier NDTV arrival report supplies no conflicting date. Mahanadi IPO opening November 19 repeats an already published secondary-sale schedule and adds a grey-market calculator, so is not a second catalyst. Cyclone Akvan forecast landfall is November 20, not tomorrow. Bhagwat visit tomorrow from November 17 resolves to today and supplies no policy deliverable; contempt hearing tomorrow from November 17 is also today. Anthropic pricing Wednesday and trading Thursday are offshore without concrete India exposure. December 1 margins, December 19 budget proposals, December congressional hearing, February Budget, 2027 market-entry and 2030 capacity targets are outside tomorrow. NEET ruling preview has no explicit next-day date."
+}

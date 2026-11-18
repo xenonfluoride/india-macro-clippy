@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex current model session, separate final evidence-check pass",
+  "checked_at": "2026-11-18T03:37:46.543095+00:00",
+  "input_hashes": {
+    "capture.json": "ee90957f0e33af30f171021760883e9c0ac52e1569cbecfa0cee84a0307a2936",
+    "history.json": "2659cdae4e5b0b2228238007e25b759902c149178ae52a07cefb7071654c0cea",
+    "review.json": "c00d99fd2503244ef1005c36d7a11cf3cf2d3047ab212f3a582b6aa718a39f4f",
+    "edition.json": "7bb0f877ea04e72c8629f129eb668631097921f30814779b31fbfc272907da5f",
+    "market.json": "02bac42592a242491c639917bd9e1899313498a82c13c98daa8b3da79944e288"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 331 captured titles and summaries via bounded context offsets 0,40,80,120,160,200,240,280,320 ending next_offset null; recovered offset zero after verbose history caused truncation. Authored 331 individual dispositions in retained editor-decisions.psv and review.json. Read all 167 accepted history titles and event keys. Considered real operations inside trading headlines, including Vajra Alloys trials, Kaynes meter deliveries, wind order book and bank operations. Strong alternatives included LPG awards, DP World rail launch, ECI timelines, EU steel duties, Meta filters, BSNL results and JohnAIC funding. Thirteen feeds succeeded; The Hindu Economy and Technology returned 403s with complete diagnostics. Actor uncertainty narrowed for cyclone issuer rather than inventing IMD attribution.",
+  "hero": "Hero covers all seven selected cards and preserves budget pressures, margin alignment, planned Amazon spending, IOC approval, pollution rollback, mapping and domestic AI choices; it asserts neither realised capacity nor completed pilots.",
+  "catalysts": "November 18 publication plus explicit tomorrow supports November 19 India-Japan 2+2. Dialogue remains scheduled, no outcome invented. Same meeting arrival grouped as duplicate. Reviewed Mahanadi November 19 opening but retained no repeat calculator catalyst; November 20 cyclone is later; November 17 tomorrow visits/hearing are today; December and 2027 targets outside date. Exactly one closing module with one scheduled dialogue.",
+  "cards": [
+    {
+      "id": "e9d6285254cfa509b6c40b95",
+      "factual_support": "The PRS summary explicitly supports budgeted 2.9% of GDP, nine states above 3%, cash transfers and revenue pressures; brief never calls the budget an actual deficit outturn.",
+      "analysis": "Conditional spending-room mechanism follows from transfers and revenues; watch asks for receipts and expenditure rather than predicts a breach.",
+      "novelty": "No state-budget PRS aggregate event appears in 167 history entries; Odisha pension changes and central devolution are separate actions."
+    },
+    {
+      "id": "63becb634bd9a320d35b066f",
+      "factual_support": "Title and summary jointly support SEBI, both commodity categories, alignment across volatility categories and December 1 effect; no margin rates or assumed cuts added.",
+      "analysis": "Collateral demand mechanism is an inference without promising lower margins; implementation watch is distinct from the announced rule.",
+      "novelty": "Prior SEBI early-pay-in relief and mutual-fund cash netting involve different instruments and rules, not this commodity alignment."
+    },
+    {
+      "id": "dd3e1a56ff1710f0333cbd72",
+      "factual_support": "Company-attributed summary supports additional $7 billion by 2030, already contracted $4 billion and 934 MW projects within that existing contracted amount; no double-counting or commissioned capacity asserted.",
+      "analysis": "PPA financing mechanism is conditional; commissioning and incremental contracts are the next tests of intentions becoming capacity.",
+      "novelty": "Earlier Amazon electric-truck fleet plan is a different event; six overlapping renewable reports are explicitly linked to this representative."
+    },
+    {
+      "id": "c9a8039669636d3257c724f2",
+      "factual_support": "Sahney attribution retained for Panipat approval and 1% international-flight target in 2027; source explicitly withholds volume and commercial start, and places airline agreements before further investment.",
+      "analysis": "Analysis distinguishes regulatory approval from demand-backed capacity expansion; watch targets the missing agreement and start-date evidence.",
+      "novelty": "Earlier IOC carrier acquisitions address shipping and not SAF supply approval; no previous history item publishes this Panipat permission."
+    },
+    {
+      "id": "b54708bccd79f6c784d8c63b",
+      "factual_support": "Headline supplies Stage III revocation, Delhi-NCR and AQI 204; summary attributes consistent pollution decline to CAQM. No claim that air is safe or every restriction ended.",
+      "analysis": "Rollback may ease activity, while recurrent controls remain a conditional business exposure; next readings are observable rather than a new forecast.",
+      "novelty": "Earlier Gurugram construction-ban catalyst is not this later CAQM tier revocation; no matching accepted card event exists."
+    },
+    {
+      "id": "a19af4c02b91c723907713ab",
+      "factual_support": "Title names IN-SPACe selection and summary names all three firms, ₹1.46 crore, Indian satellite data and both pilot cities; funds will be received, maps are not said to be delivered.",
+      "analysis": "Urban-planning benefit is explicitly potential; watch asks for outputs and agency use rather than assuming pilots already improved services.",
+      "novelty": "Cosmoserve debris facility and defence-space history concern different actors and outputs; this settlement-mapping selection is new."
+    },
+    {
+      "id": "4b9abb45299cfc8db6e0cadf",
+      "factual_support": "Title supports global models on Indian servers and summary supports opened access for developers and enterprises. Truncation prevents model lists, performance, localisation guarantees or customer counts.",
+      "analysis": "Domestic serving is described as infrastructure choice, not a guarantee of sovereignty or legal compliance; service terms and deployments are open next signals.",
+      "novelty": "Prior OpenAI India API residency and MeitY model unveiling are different providers and products; no Sarvam Token Factory entry in history."
+    }
+  ]
+}

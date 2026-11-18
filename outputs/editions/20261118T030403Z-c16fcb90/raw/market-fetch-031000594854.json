@@ -1,0 +1,714 @@
+{
+  "fetched_at": "2026-11-18T03:10:00.594854+00:00",
+  "provider": "Yahoo Finance",
+  "results": {
+    "Brent": {
+      "errors": [],
+      "payload": {
+        "chart": {
+          "error": null,
+          "result": [
+            {
+              "indicators": {
+                "adjclose": [
+                  {
+                    "adjclose": [
+                      98.31999969482422,
+                      92.56999969482422,
+                      91.48999786376953,
+                      92.76000213623047,
+                      95.81999969482422,
+                      95.83999633789062,
+                      92.44000244140625,
+                      93.13999938964844,
+                      92.7300033569336
+                    ]
+                  }
+                ],
+                "quote": [
+                  {
+                    "close": [
+                      98.31999969482422,
+                      92.56999969482422,
+                      91.48999786376953,
+                      92.76000213623047,
+                      95.81999969482422,
+                      95.83999633789062,
+                      92.44000244140625,
+                      93.13999938964844,
+                      92.7300033569336
+                    ],
+                    "high": [
+                      100.91999816894531,
+                      98.41999816894531,
+                      92.81999969482422,
+                      94.7300033569336,
+                      96.25,
+                      97.12000274658203,
+                      96.76000213623047,
+                      94.13999938964844,
+                      93.47000122070312
+                    ],
+                    "low": [
+                      96.6500015258789,
+                      90.62999725341797,
+                      89.1500015258789,
+                      91.4800033569336,
+                      91.19000244140625,
+                      95.06999969482422,
+                      91.75,
+                      91.25,
+                      92.55999755859375
+                    ],
+                    "open": [
+                      99.23999786376953,
+                      98.05999755859375,
+                      92.38999938964844,
+                      91.7699966430664,
+                      92.51000213623047,
+                      95.88999938964844,
+                      95.83999633789062,
+                      92.04000091552734,
+                      93.25
+                    ],
+                    "volume": [
+                      39623,
+                      49221,
+                      40232,
+                      26842,
+                      35151,
+                      24085,
+                      21221,
+                      21221,
+                      875
+                    ]
+                  }
+                ]
+              },
+              "meta": {
+                "chartPreviousClose": 98.32,
+                "currency": "USD",
+                "currentTradingPeriod": {
+                  "post": {
+                    "end": 1794977940,
+                    "gmtoffset": -18000,
+                    "start": 1794977940,
+                    "timezone": "EST"
+                  },
+                  "pre": {
+                    "end": 1794891600,
+                    "gmtoffset": -18000,
+                    "start": 1794891600,
+                    "timezone": "EST"
+                  },
+                  "regular": {
+                    "end": 1794977940,
+                    "gmtoffset": -18000,
+                    "start": 1794891600,
+                    "timezone": "EST"
+                  }
+                },
+                "dataGranularity": "1d",
+                "exchangeName": "NYM",
+                "exchangeTimezoneName": "America/New_York",
+                "fiftyTwoWeekHigh": 126.1,
+                "fiftyTwoWeekLow": 58.72,
+                "firstTradeDate": 1185768000,
+                "fullExchangeName": "NY Mercantile",
+                "fulldayChange": -0.41,
+                "fulldayChangePercent": -0.44,
+                "fulldayPrice": 92.73,
+                "gmtoffset": -18000,
+                "hasPrePostMarketData": false,
+                "instrumentType": "FUTURE",
+                "longName": "Brent Crude Oil Last Day Financial Futures",
+                "priceHint": 2,
+                "range": "10d",
+                "regularMarketChangePercent": -0.44,
+                "regularMarketDayHigh": 93.47,
+                "regularMarketDayLow": 92.56,
+                "regularMarketPrice": 92.73,
+                "regularMarketTime": 1794970761,
+                "regularMarketVolume": 875,
+                "shortName": "Brent Crude Oil Last Day Financ",
+                "symbol": "BZ=F",
+                "timezone": "EST",
+                "validRanges": [
+                  "1d",
+                  "5d",
+                  "1mo",
+                  "3mo",
+                  "6mo",
+                  "1y",
+                  "2y",
+                  "5y",
+                  "10y",
+                  "ytd",
+                  "max"
+                ]
+              },
+              "timestamp": [
+                1793941200,
+                1794200400,
+                1794286800,
+                1794373200,
+                1794459600,
+                1794546000,
+                1794805200,
+                1794891600,
+                1794970761
+              ]
+            }
+          ]
+        }
+      },
+      "quote": {
+        "change_pct": -0.4401932954708698,
+        "currency": "USD",
+        "current": 92.7300033569336,
+        "kind": "daily-bar-snapshot",
+        "observed_at": "2026-11-18T02:59:21+00:00",
+        "previous": 93.13999938964844,
+        "previous_at": "2026-11-17T05:00:00+00:00",
+        "symbol": "BZ=F"
+      },
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=10d&interval=1d"
+    },
+    "Nifty 50": {
+      "errors": [],
+      "payload": {
+        "chart": {
+          "error": null,
+          "result": [
+            {
+              "indicators": {
+                "adjclose": [
+                  {
+                    "adjclose": [
+                      23810.849609375,
+                      23960.599609375,
+                      24536.599609375,
+                      25030.349609375,
+                      25044.650390625,
+                      25255.05078125,
+                      25299.349609375,
+                      25144.30078125,
+                      25291.099609375,
+                      25387.400390625
+                    ]
+                  }
+                ],
+                "quote": [
+                  {
+                    "close": [
+                      23810.849609375,
+                      23960.599609375,
+                      24536.599609375,
+                      25030.349609375,
+                      25044.650390625,
+                      25255.05078125,
+                      25299.349609375,
+                      25144.30078125,
+                      25291.099609375,
+                      25387.400390625
+                    ],
+                    "high": [
+                      23810.849609375,
+                      23960.599609375,
+                      24579.900390625,
+                      25030.349609375,
+                      25084.05078125,
+                      25424.349609375,
+                      25384.80078125,
+                      25246.349609375,
+                      25337.599609375,
+                      25501.349609375
+                    ],
+                    "low": [
+                      23482.80078125,
+                      23696.150390625,
+                      24296.30078125,
+                      24388.05078125,
+                      24838.75,
+                      25095.349609375,
+                      25142.94921875,
+                      25054.400390625,
+                      25172.099609375,
+                      25267.30078125
+                    ],
+                    "open": [
+                      23582.25,
+                      23742.25,
+                      24378.05078125,
+                      24538.19921875,
+                      25076.400390625,
+                      25337.80078125,
+                      25213.5,
+                      25209.849609375,
+                      25206.150390625,
+                      25277.30078125
+                    ],
+                    "volume": [
+                      408400,
+                      398400,
+                      534600,
+                      491000,
+                      406200,
+                      458000,
+                      349200,
+                      239600,
+                      352900,
+                      342500
+                    ]
+                  }
+                ]
+              },
+              "meta": {
+                "chartPreviousClose": 23810.85,
+                "currency": "INR",
+                "currentTradingPeriod": {
+                  "post": {
+                    "end": 1794996000,
+                    "gmtoffset": 19800,
+                    "start": 1794996000,
+                    "timezone": "IST"
+                  },
+                  "pre": {
+                    "end": 1794973500,
+                    "gmtoffset": 19800,
+                    "start": 1794973500,
+                    "timezone": "IST"
+                  },
+                  "regular": {
+                    "end": 1794996000,
+                    "gmtoffset": 19800,
+                    "start": 1794973500,
+                    "timezone": "IST"
+                  }
+                },
+                "dataGranularity": "1d",
+                "exchangeName": "NSI",
+                "exchangeTimezoneName": "Asia/Kolkata",
+                "fiftyTwoWeekHigh": 26373.2,
+                "fiftyTwoWeekLow": 22179.9,
+                "firstTradeDate": 1190000700,
+                "fullExchangeName": "NSE",
+                "fulldayChange": 96.301,
+                "fulldayChangePercent": 0.381,
+                "fulldayPrice": 25387.4,
+                "gmtoffset": 19800,
+                "hasPrePostMarketData": false,
+                "instrumentType": "INDEX",
+                "longName": "NIFTY 50",
+                "priceHint": 2,
+                "range": "10d",
+                "regularMarketChangePercent": 0.381,
+                "regularMarketDayHigh": 25501.35,
+                "regularMarketDayLow": 25267.3,
+                "regularMarketPrice": 25387.4,
+                "regularMarketTime": 1794909667,
+                "regularMarketVolume": 0,
+                "shortName": "NIFTY 50",
+                "symbol": "^NSEI",
+                "timezone": "IST",
+                "validRanges": [
+                  "1d",
+                  "5d",
+                  "1mo",
+                  "3mo",
+                  "6mo",
+                  "1y",
+                  "2y",
+                  "5y",
+                  "10y",
+                  "ytd",
+                  "max"
+                ]
+              },
+              "timestamp": [
+                1793677500,
+                1793763900,
+                1793850300,
+                1793936700,
+                1794195900,
+                1794368700,
+                1794455100,
+                1794541500,
+                1794800700,
+                1794887100
+              ]
+            }
+          ]
+        }
+      },
+      "quote": {
+        "change_pct": 0.3807694514567528,
+        "currency": "INR",
+        "current": 25387.400390625,
+        "kind": "daily-bar-snapshot",
+        "observed_at": "2026-11-17T03:45:00+00:00",
+        "previous": 25291.099609375,
+        "previous_at": "2026-11-16T03:45:00+00:00",
+        "symbol": "^NSEI"
+      },
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=10d&interval=1d"
+    },
+    "Sensex": {
+      "errors": [],
+      "payload": {
+        "chart": {
+          "error": null,
+          "result": [
+            {
+              "indicators": {
+                "adjclose": [
+                  {
+                    "adjclose": [
+                      76917.8515625,
+                      77301.3984375,
+                      79310.0078125,
+                      81028.0234375,
+                      81106.6484375,
+                      81879.3984375,
+                      81911.0078125,
+                      81592.453125,
+                      82104.7890625,
+                      82532.1875
+                    ]
+                  }
+                ],
+                "quote": [
+                  {
+                    "close": [
+                      76917.8515625,
+                      77301.3984375,
+                      79310.0078125,
+                      81028.0234375,
+                      81106.6484375,
+                      81879.3984375,
+                      81911.0078125,
+                      81592.453125,
+                      82104.7890625,
+                      82532.1875
+                    ],
+                    "high": [
+                      76917.8515625,
+                      77396.0390625,
+                      79470.03125,
+                      81028.0234375,
+                      81339.40625,
+                      82520.3984375,
+                      82325.609375,
+                      81879.5078125,
+                      82311.6484375,
+                      82897.4921875
+                    ],
+                    "low": [
+                      76033.7421875,
+                      76604.8515625,
+                      78520.5625,
+                      79016.046875,
+                      80519.3125,
+                      81417.390625,
+                      81576.1484375,
+                      81288.75,
+                      81762.8203125,
+                      82091.8984375
+                    ],
+                    "open": [
+                      76288.6484375,
+                      76853.109375,
+                      78910.9375,
+                      79413.65625,
+                      81327.2890625,
+                      82248.6796875,
+                      81762.2734375,
+                      81833.78125,
+                      81810.9765625,
+                      82150.6171875
+                    ],
+                    "volume": [
+                      12600,
+                      16800,
+                      31600,
+                      17100,
+                      19600,
+                      21500,
+                      22500,
+                      12800,
+                      13100,
+                      13300
+                    ]
+                  }
+                ]
+              },
+              "meta": {
+                "chartPreviousClose": 76917.85,
+                "currency": "INR",
+                "currentTradingPeriod": {
+                  "post": {
+                    "end": 1794996000,
+                    "gmtoffset": 19800,
+                    "start": 1794996000,
+                    "timezone": "IST"
+                  },
+                  "pre": {
+                    "end": 1794973500,
+                    "gmtoffset": 19800,
+                    "start": 1794973500,
+                    "timezone": "IST"
+                  },
+                  "regular": {
+                    "end": 1794996000,
+                    "gmtoffset": 19800,
+                    "start": 1794973500,
+                    "timezone": "IST"
+                  }
+                },
+                "dataGranularity": "1d",
+                "exchangeName": "BSE",
+                "exchangeTimezoneName": "Asia/Kolkata",
+                "fiftyTwoWeekHigh": 86159.02,
+                "fiftyTwoWeekLow": 71292.88,
+                "firstTradeDate": 867728700,
+                "fullExchangeName": "BSE",
+                "fulldayChange": 427.398,
+                "fulldayChangePercent": 0.521,
+                "fulldayPrice": 82532.19,
+                "gmtoffset": 19800,
+                "hasPrePostMarketData": false,
+                "instrumentType": "INDEX",
+                "longName": "S&P BSE SENSEX",
+                "priceHint": 2,
+                "range": "10d",
+                "regularMarketChangePercent": 0.521,
+                "regularMarketDayHigh": 82897.49,
+                "regularMarketDayLow": 82091.9,
+                "regularMarketPrice": 82532.19,
+                "regularMarketTime": 1794909748,
+                "shortName": "S&P BSE SENSEX",
+                "symbol": "^BSESN",
+                "timezone": "IST",
+                "validRanges": [
+                  "1d",
+                  "5d",
+                  "1mo",
+                  "3mo",
+                  "6mo",
+                  "1y",
+                  "2y",
+                  "5y",
+                  "10y",
+                  "ytd",
+                  "max"
+                ]
+              },
+              "timestamp": [
+                1793677500,
+                1793763900,
+                1793850300,
+                1793936700,
+                1794195900,
+                1794368700,
+                1794455100,
+                1794541500,
+                1794800700,
+                1794887100
+              ]
+            }
+          ]
+        }
+      },
+      "quote": {
+        "change_pct": 0.520552384800177,
+        "currency": "INR",
+        "current": 82532.1875,
+        "kind": "daily-bar-snapshot",
+        "observed_at": "2026-11-17T03:45:00+00:00",
+        "previous": 82104.7890625,
+        "previous_at": "2026-11-16T03:45:00+00:00",
+        "symbol": "^BSESN"
+      },
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?range=10d&interval=1d"
+    },
+    "USD/INR": {
+      "errors": [],
+      "payload": {
+        "chart": {
+          "error": null,
+          "result": [
+            {
+              "indicators": {
+                "adjclose": [
+                  {
+                    "adjclose": [
+                      94.5154037475586,
+                      94.45890045166016,
+                      93.90299987792969,
+                      93.9468002319336,
+                      93.92500305175781,
+                      93.69840240478516,
+                      94.03379821777344,
+                      94.23799896240234,
+                      93.96309661865234,
+                      93.45999908447266
+                    ]
+                  }
+                ],
+                "quote": [
+                  {
+                    "close": [
+                      94.5154037475586,
+                      94.45890045166016,
+                      93.90299987792969,
+                      93.9468002319336,
+                      93.92500305175781,
+                      93.69840240478516,
+                      94.03379821777344,
+                      94.23799896240234,
+                      93.96309661865234,
+                      93.45999908447266
+                    ],
+                    "high": [
+                      94.53500366210938,
+                      94.5177993774414,
+                      94.10890197753906,
+                      93.9657974243164,
+                      93.90760040283203,
+                      94.12899780273438,
+                      94.29560089111328,
+                      94.28130340576172,
+                      93.95909881591797,
+                      93.45999908447266
+                    ],
+                    "low": [
+                      94.19529724121094,
+                      93.83080291748047,
+                      93.6759033203125,
+                      93.34700012207031,
+                      93.41400146484375,
+                      93.57890319824219,
+                      93.9197006225586,
+                      93.81439971923828,
+                      93.34989929199219,
+                      93.45999908447266
+                    ],
+                    "open": [
+                      94.5154037475586,
+                      94.45890045166016,
+                      93.9719009399414,
+                      93.9468002319336,
+                      93.90760040283203,
+                      93.69840240478516,
+                      94.0333023071289,
+                      94.26609802246094,
+                      93.95909881591797,
+                      93.45999908447266
+                    ],
+                    "volume": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              "meta": {
+                "chartPreviousClose": 94.5154,
+                "currency": "INR",
+                "currentTradingPeriod": {
+                  "post": {
+                    "end": 1795046340,
+                    "gmtoffset": 0,
+                    "start": 1795046340,
+                    "timezone": "GMT"
+                  },
+                  "pre": {
+                    "end": 1794960000,
+                    "gmtoffset": 0,
+                    "start": 1794960000,
+                    "timezone": "GMT"
+                  },
+                  "regular": {
+                    "end": 1795046340,
+                    "gmtoffset": 0,
+                    "start": 1794960000,
+                    "timezone": "GMT"
+                  }
+                },
+                "dataGranularity": "1d",
+                "exchangeName": "CCY",
+                "exchangeTimezoneName": "Europe/London",
+                "fiftyTwoWeekHigh": 97.0541,
+                "fiftyTwoWeekLow": 85.8629,
+                "firstTradeDate": 1070236800,
+                "fullExchangeName": "CCY",
+                "fulldayChange": -0.01,
+                "fulldayChangePercent": -0.0107,
+                "fulldayPrice": 93.46,
+                "gmtoffset": 0,
+                "hasPrePostMarketData": false,
+                "instrumentType": "CURRENCY",
+                "longName": "USD/INR",
+                "priceHint": 4,
+                "range": "10d",
+                "regularMarketChangePercent": -0.0107,
+                "regularMarketDayHigh": 93.46,
+                "regularMarketDayLow": 93.46,
+                "regularMarketPrice": 93.46,
+                "regularMarketTime": 1794964441,
+                "regularMarketVolume": 0,
+                "shortName": "USD/INR",
+                "symbol": "USDINR=X",
+                "timezone": "GMT",
+                "validRanges": [
+                  "1d",
+                  "5d",
+                  "1mo",
+                  "3mo",
+                  "6mo",
+                  "1y",
+                  "2y",
+                  "5y",
+                  "10y",
+                  "ytd",
+                  "max"
+                ]
+              },
+              "timestamp": [
+                1793836800,
+                1793923200,
+                1794182400,
+                1794268800,
+                1794355200,
+                1794441600,
+                1794528000,
+                1794787200,
+                1794873600,
+                1794960000
+              ]
+            }
+          ]
+        }
+      },
+      "quote": {
+        "change_pct": -0.5354203429687954,
+        "currency": "INR",
+        "current": 93.45999908447266,
+        "kind": "daily-bar-snapshot",
+        "observed_at": "2026-11-18T00:00:00+00:00",
+        "previous": 93.96309661865234,
+        "previous_at": "2026-11-17T00:00:00+00:00",
+        "symbol": "INR=X"
+      },
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?range=10d&interval=1d"
+    }
+  }
+}
