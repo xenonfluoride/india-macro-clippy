@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "run_id": "20261119T030225Z-b6754ac0",
+  "created_at": "2026-11-19T03:10:38.695284+00:00",
+  "date": "2026-11-19",
+  "issue": 35,
+  "hero": "Odisha features on both sides of the investment ledger: a supplementary budget and ACME’s green ammonia decision, while bulk Scotch faces a customs barrier despite the UK trade pact. Prison reform, outbreak surveillance and Google’s India assistant rollout round out the edition; Cyclone Akvan’s forecast landfall is tomorrow’s immediate risk.",
+  "hero_card_ids": [
+    "8a9cf8479459cddb48045c09",
+    "a6dd863ef4a7dc3f5efe0d46",
+    "d702e921ad5277c78f26e78e",
+    "fa9a764e01e9ee6d144f323f",
+    "cdd61a9f60c6d537b9d68c20",
+    "d04f3e4ec32027bead4eaab7"
+  ],
+  "cards": [
+    {
+      "id": "8a9cf8479459cddb48045c09",
+      "lane": "macro",
+      "headline": "ACME takes final investment decision on $3.6 billion Odisha green ammonia project",
+      "brief": "Mint reports that ACME has taken the final investment decision on its $3.6 billion Odisha green ammonia project. The 760,000-tonne facility is expected to be commissioned by 2029 and supply buyers in India and Japan; Brookfield has committed $600 million to ACME’s green molecule business.",
+      "mechanism": "Moving an ammonia project through its investment decision can bring low-carbon fertiliser inputs closer to supply, while leaving construction and commissioning risk ahead.",
+      "watch": "Watch for construction milestones and commissioning updates to test whether the planned supply reaches buyers on schedule.",
+      "claims": [
+        {
+          "statement": "Mint reports that ACME has taken the final investment decision on its $3.6 billion Odisha green ammonia project.",
+          "evidence": [
+            "ACME takes final investment decision on $3.6 billion Odisha green ammonia project"
+          ]
+        },
+        {
+          "statement": "The 760,000-tonne facility is expected to be commissioned by 2029 and supply buyers in India and Japan; Brookfield has committed $600 million to ACME’s green molecule business.",
+          "evidence": [
+            "The 760,000-tonne facility, expected to be commissioned by 2029, will supply green ammonia to buyers in India and Japan, with Brookfield committing $600 million to ACME’s green molecule business."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a6dd863ef4a7dc3f5efe0d46",
+      "lane": "macro",
+      "headline": "Odisha tables ₹24,150 cr supplementary budget, food subsidies get big share",
+      "brief": "Business Standard reports that Odisha has tabled a ₹24,150 crore supplementary budget. Allocations include ₹8,389.76 crore for food supplies and ₹5,100 crore for disaster response; the supplementary outlay is nearly 7.8 per cent of the annual budget.",
+      "mechanism": "Additional budget provision can support food access and disaster response, with its economic effect depending on subsequent spending.",
+      "watch": "Watch for approval and disbursement records to distinguish the proposed fiscal provision from relief delivered.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that Odisha has tabled a ₹24,150 crore supplementary budget.",
+          "evidence": [
+            "Odisha tables ₹24,150 cr supplementary budget, food subsidies get big share"
+          ]
+        },
+        {
+          "statement": "Allocations include ₹8,389.76 crore for food supplies and ₹5,100 crore for disaster response; the supplementary outlay is nearly 7.8 per cent of the annual budget.",
+          "evidence": [
+            "Odisha has allocated ₹8,389.76 crore for food supplies and ₹5,100 crore for disaster response, with the supplementary outlay accounting for nearly 7.8 per cent of its annual budget"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d702e921ad5277c78f26e78e",
+      "lane": "macro",
+      "headline": "Govt imposes 162.5% duty on bulk scotch imports despite UK trade pact",
+      "brief": "Business Standard reports that India is imposing an effective 162.5% levy on bulk Scotch imports, above the pre-trade pact rate. A customs classification dispute has left over 80 containers stuck at ports.",
+      "mechanism": "Classification disputes can raise landed costs and tie up inventory even when a trade pact promises lower tariffs.",
+      "watch": "Watch for a customs clarification or container releases to determine whether the border bottleneck eases.",
+      "claims": [
+        {
+          "statement": "Business Standard reports that India is imposing an effective 162.5% levy on bulk Scotch imports, above the pre-trade pact rate.",
+          "evidence": [
+            "India is imposing an effective 162.5% levy on bulk Scotch imports, above the pre-trade pact rate"
+          ]
+        },
+        {
+          "statement": "A customs classification dispute has left over 80 containers stuck at ports.",
+          "evidence": [
+            "a customs classification dispute leaves over 80 containers stuck at ports."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fa9a764e01e9ee6d144f323f",
+      "lane": "national",
+      "headline": "Centre notifies new prison law for Andaman and Nicobar Islands, bans caste bias, allows open jails",
+      "brief": "Hindustan Times reports that the Centre has notified a new prison law for Andaman and Nicobar Islands that bans caste bias and allows open jails. The regulation replaces three existing laws, including two dating to the colonial era.",
+      "mechanism": "Changing the legal framework can reshape prison administration and custody options, with practical gains depending on implementation.",
+      "watch": "Watch for implementation rules and prison-level compliance evidence to assess whether the new safeguards change conditions.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that the Centre has notified a new prison law for Andaman and Nicobar Islands that bans caste bias and allows open jails.",
+          "evidence": [
+            "Centre notifies new prison law for Andaman and Nicobar Islands, bans caste bias, allows open jails"
+          ]
+        },
+        {
+          "statement": "The regulation replaces three existing laws, including two dating to the colonial era.",
+          "evidence": [
+            "Centre replaces three existing laws, including two dating back to the colonial era, with new regulation for Andaman and Nicobar Islands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdd61a9f60c6d537b9d68c20",
+      "lane": "national",
+      "headline": "ICMR launches infectious disease surveillance network for early outbreak warnings",
+      "brief": "Hindustan Times reports that ICMR has launched an infectious disease surveillance network for early outbreak warnings. It aims to use real-time or near real-time health data for immediate analysis and feedback on investigations of potential outbreaks.",
+      "mechanism": "Faster health-data feedback could shorten the interval between an outbreak signal and an epidemiological response.",
+      "watch": "Watch for coverage and response-time reporting to test whether the network improves the speed of outbreak investigation.",
+      "claims": [
+        {
+          "statement": "Hindustan Times reports that ICMR has launched an infectious disease surveillance network for early outbreak warnings.",
+          "evidence": [
+            "ICMR launches infectious disease surveillance network for early outbreak warnings"
+          ]
+        },
+        {
+          "statement": "It aims to use real-time or near real-time health data for immediate analysis and feedback on investigations of potential outbreaks.",
+          "evidence": [
+            "It aims to use real-time or near real-time health data to provide immediate analysis and feedback for epidemiological investigation of potential disease outbreaks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d04f3e4ec32027bead4eaab7",
+      "lane": "tech",
+      "headline": "Google Begins Rolling Out Personal AI Assistant, Tasks, In India",
+      "brief": "Inc42 reports that Google has begun rolling out its personal AI assistant Tasks in India. The summary describes the assistant as agentic and says it was formerly called Gemini Sparks.",
+      "mechanism": "Local rollout could broaden access to agentic assistance, while useful adoption will depend on reliability and user control.",
+      "watch": "Watch for India availability details and demonstrated task performance to separate rollout access from dependable automation.",
+      "claims": [
+        {
+          "statement": "Inc42 reports that Google has begun rolling out its personal AI assistant Tasks in India.",
+          "evidence": [
+            "Google Begins Rolling Out Personal AI Assistant, Tasks, In India"
+          ]
+        },
+        {
+          "statement": "The summary describes the assistant as agentic and says it was formerly called Gemini Sparks.",
+          "evidence": [
+            "Google has begun rolling out its new agentic AI assistant Tasks, formerly Gemini Sparks"
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [
+    {
+      "id": "5d3ccee268c248fc626b2816",
+      "date": "2026-11-20",
+      "text": "The IMD forecasts Cyclone Akvan to cross the North Andhra Pradesh-Yanam and South Odisha coasts between Narsapur and Puri by noon on November 20; watch for revised warnings and coastal disruption.",
+      "evidence": "The IMD said Cyclone Akvan is likely to move north-northwestwards and cross the North Andhra Pradesh-Yanam and South Odisha coasts between Narsapur and Puri by noon on November 20."
+    }
+  ],
+  "catalyst_review": "November 20 is tomorrow in IST. Candidate32 explicitly dates the IMD landfall forecast and is not a selected card; records130,168,183,213 are grouped with it rather than multiplied into catalysts. SBI downtime154 says tomorrow relative to November18 publication, making it November19. Air India review89 and GTA launch77 are November19, today. Mahanadi subscription219 opens today and closes November23; its pricing was published previously. SP seat talks12 are after November20 without a firm date or policy deliverable. Tata listing72 is next week; Mekedatu177 is November-end; court hearing258 is November21 and complaint243 November27. Rajawat196 and US hearing317 are December1 or later. NIA conference160 has no date-specific deliverable. FAA audit end is present only in history and is not fresh captured catalyst evidence. No second distinct November20 catalyst is established."
+}

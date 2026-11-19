@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex model session, separate second semantic pass; no independent reviewer claimed",
+  "checked_at": "2026-11-19T03:11:47.597164+00:00",
+  "input_hashes": {
+    "capture.json": "8316e74e98e2727db93125af86de1f285cea0518e3f00c1e64ef3b64d024280c",
+    "history.json": "1f0de792c2403fde53c15fc42ebfa2163aa266e46a727f774065ef5755c498a1",
+    "review.json": "65cc5eab0361cb39a466bd2ff21a2a8918456d640ac11dd3ebc8124e640cce0a",
+    "edition.json": "7e6578376481f21a4f17ec9395812a334220ba1836336a8b3f66e8624f75573c",
+    "market.json": "da48dc8faf974f00f8774b7a0a945073ce73a38deea0bf9cf74305ff354f328a"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 321 captured titles and summaries at offsets0,40,80,120,160,200,240,280,320 ending next_offset=null. Recovered offset0 in candidate-only output after verbose history truncation. Read all174 history event keys and titles. Authored321 substantive decisions:6 selections,143 eligible,50 directly linked duplicates,122 rejects. Strong alternatives included raw-sugar fresh bids, shared pumped storage, industrial parks, Kochhar sanction ruling, SpiceJet conditional fundraise, Tata Steel hydrogen FEED, proposed public-hospital packages, Botsync financing, smartphone shipment estimates, Maharashtra drought expansion, Biocon European authorisation and emBridge patch. Read operating facts inside V2 Retail, Indoco, bank rally, Jio and SEBI margin-funding headlines. Corrected Videocon explainer disposition because mandatory-code compliance is distinct from historical withdrawal restriction; did not claim a semantic repeat. Rejected unchanged Amazon and Sarvam announcements against history, rather than rotating sources. Thirteen feeds succeeded; two Hindu feeds returned403 with retained attempts. Complete four-instrument Yahoo snapshot checked separately; no price substituted into RSS reporting.",
+  "hero": "Hero covers all six selected cards and the separately evidenced cyclone forecast. Budget tabling and investment decision remain distinct from delivered spending or commissioned capacity; no causal link between the Odisha project and supplementary budget is asserted. UK trade-pact friction remains specific to bulk Scotch customs classification.",
+  "catalysts": "November20 is the IST next day. Candidate32 explicitly names IMD and dates expected crossing by noon November20. It is not a selected card and the wording remains forecast, not completed landfall. Other cyclone candidates are explicitly linked duplicates. SBI tomorrow is November19 relative to its November18 timestamp; GTA and Air India reviews are today. November21,23,27, month-end and December1 events do not qualify. NIA and after-November20 political talks lack a dated substantive outcome. Exactly one closing module contains the one supported cyclone catalyst.",
+  "cards": [
+    {
+      "id": "8a9cf8479459cddb48045c09",
+      "factual_support": "Reread Mint title and full summary: $3.6 billion FID,760000-tonne facility, expected2029 commissioning and India/Japan buyers are supported. Brookfield's $600 million is committed to the green molecule business, not assigned solely to this plant. Neither cash disbursement nor operating output is claimed.",
+      "analysis": "Mechanism identifies potential low-carbon fertiliser supply and explicitly leaves construction and commissioning risks ahead. Watch asks for future milestones without inventing an existing schedule beyond the source's expected2029 date.",
+      "novelty": "No prior ACME final investment decision in174-entry history. Earlier AM Green financing and Odisha multi-company proposals are different actors or milestones. Candidate91 is directly grouped with this same project, not a second card."
+    },
+    {
+      "id": "a6dd863ef4a7dc3f5efe0d46",
+      "factual_support": "Title supports tabling ₹24150 crore, and summary supports ₹8389.76 crore food supplies, ₹5100 crore disaster response and nearly7.8 percent of annual budget. Brief says allocations, not paid aid, and avoids assuming legislative approval.",
+      "analysis": "Mechanism conditions household and relief effects on subsequent spending. Watch explicitly asks for approval and disbursement evidence, preserving the gap between fiscal provision and delivered services.",
+      "novelty": "Prior Odisha pension expansion and general state-budget deficit assessment are distinct programmes and reports. This supplementary budget tabling and its named allocations are new to history."
+    },
+    {
+      "id": "d702e921ad5277c78f26e78e",
+      "factual_support": "Business Standard summary directly supports effective162.5 percent bulk Scotch levy, above pre-pact rate and over80 containers stuck due to classification dispute. Brief does not extend rate to bottled Scotch or all UK imports and attributes reporting.",
+      "analysis": "Mechanism links classification to landed cost and inventory with no unsupported revenue or price calculation. Watch asks for clarification and releases rather than predicting dispute resolution.",
+      "novelty": "No bulk Scotch classification levy appears in accepted history. Broader trade pact and unrelated tariff stories are not this event. HT candidate16 directly references this representative with same key."
+    },
+    {
+      "id": "fa9a764e01e9ee6d144f323f",
+      "factual_support": "HT title establishes notification, caste-bias ban and open-jail permission; summary establishes replacement of three laws including two colonial ones. Brief does not claim open jails have already opened or caste discrimination has ceased.",
+      "analysis": "Mechanism states possible administrative and custody change, conditional on implementation. Watch asks for rules and compliance evidence; no invented effective date or nationwide scope is introduced.",
+      "novelty": "Distinct Andaman and Nicobar prison regulation absent from history's detention, bail and compensation rulings. NDTV candidate63 is grouped as less precise coverage of same replacement, not selected separately."
+    },
+    {
+      "id": "cdd61a9f60c6d537b9d68c20",
+      "factual_support": "HT title establishes ICMR launch. Summary explicitly says aims to use real-time or near-real-time data for analysis and feedback on potential disease outbreaks. Brief preserves aim and does not invent sites, budget, diagnoses or detection performance.",
+      "analysis": "Mechanism uses could for faster feedback shortening response intervals. Watch demands coverage and response-time data, so improved detection is not stated as an achieved outcome.",
+      "novelty": "No ICMR surveillance-network launch in174 accepted entries. Other health approvals and drug-research stories concern different institutions and actions; selected network has a new stable key."
+    },
+    {
+      "id": "d04f3e4ec32027bead4eaab7",
+      "factual_support": "Inc42 title establishes India rollout of personal assistant Tasks; captured summary establishes agentic description and former Gemini Sparks name. Brief adds no price, supported task, universal availability or device compatibility absent from truncated evidence.",
+      "analysis": "Mechanism treats broader access as potential and ties adoption to reliability and control. Watch requests actual availability and performance evidence rather than assuming autonomous task completion works.",
+      "novelty": "Distinct Google assistant rollout is absent from history's Sarvam inference opening and OpenAI India inference-residency launch. No earlier Google Tasks card is present, and model or hosting stories are not treated as duplicates."
+    }
+  ]
+}
