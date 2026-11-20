@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 20 November 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 036</strong><br />20 November 2026<br /><span id="rss-status">RSS edition · 20261120T025613Z-d0a7a160</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">Retirement withdrawals become more flexible as the Centre proposes changes to corporate social spending and revises vehicle-testing intervals. An IEA oil outlook flags import exposure, while new financing backs Indian chip development and AI safeguards.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>25,514.30</strong><span class="up">Nifty 50 · +1.14%</span><span class="flat">19 Nov 03:45 UTC</span></div><div class="quote"><strong>83,021.75</strong><span class="up">Sensex · +1.21%</span><span class="flat">19 Nov 03:45 UTC</span></div><div class="quote"><strong>₹93.280</strong><span class="up">USD/INR · -0.20%</span><span class="flat">20 Nov 00:00 UTC</span></div><div class="quote"><strong>$90.04</strong><span class="down">Brent · -2.11%</span><span class="flat">20 Nov 02:45 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="e459011efc711e6a61572535"><div class="story-no">01</div><div><h3>EPFO approves periodic PF payouts for retirees, eases withdrawal norms</h3><p>EPFO has approved periodic provident-fund payouts for retirees, Hindustan Times reports. The revised rules reduce the minimum balance members must retain from 25% to 10% of their contributions.</p><p class="why"><span>Why it matters</span><br />More flexible withdrawals can help retirees spread cash receipts over time while reducing the savings that must remain in their accounts. Watch for implementation instructions explaining payout frequency and how members choose their withdrawals.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/epfo-approves-periodic-pf-payouts-for-retirees-eases-withdrawal-norms-101795138227494.html">Hindustan Times India, 20 Nov · 01:44 UTC</a></p></div></article>
+<article class="story" data-candidate="d1a1ffe2c35aadcf0da5eb5d"><div class="story-no">02</div><div><h3>India&#x27;s crude oil output likely to fall 20% over next decade: IEA</h3><p>The IEA forecasts a 20% decline in India&#x27;s crude oil output over the next decade, Business Standard reports. It expects about 1 million barrels per day of additional refining capacity even as domestic crude production declines, increasing reliance on imported oil.</p><p class="why"><span>Why it matters</span><br />More refining capacity alongside less domestic crude could increase India&#x27;s exposure to imported feedstock costs and shipping reliability. Watch whether actual refinery commissioning and domestic production data track the forecast import requirement.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/india-crude-oil-output-fall-20-percent-2035-refining-capacity-iea-weo-2026-126111900535_1.html">Business Standard Economy &amp; Policy, 19 Nov · 08:09 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="9d17bff39c521a7edbc28efb"><div class="story-no">03</div><div><h3>Govt proposes major CSR rule changes, seeks to include mental health, clean energy, PM internship scheme</h3><p>The government has proposed changes to corporate social responsibility rules that would include mental health, clean energy and the PM internship scheme, Hindustan Times reports. The proposals also cover bans on one-off events and product freebies, alongside stricter NGO oversight.</p><p class="why"><span>Why it matters</span><br />Revising eligible activities and oversight could redirect corporate social budgets and alter compliance work for companies and implementing organisations. Watch the final rules for which proposed activities and restrictions survive into enforceable requirements.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/govt-proposes-major-csr-rule-changes-seeks-to-include-mental-health-clean-energy-pm-internship-scheme-101795096144512.html">Hindustan Times India, 19 Nov · 14:34 UTC</a></p></div></article>
+<article class="story" data-candidate="c960ac6c2a9e4cdee8baaa6d"><div class="story-no">04</div><div><h3>Centre extends PUC validity to 3 years for new BS-VI vehicles, cuts it for BS-IV</h3><p>Under amended rules, private BS-VI vehicles less than six years old need a Pollution Under Control certificate every three years, Hindustan Times reports. The Centre has also shortened validity for BS-IV vehicles.</p><p class="why"><span>Why it matters</span><br />Differentiating testing intervals by vehicle category changes owners&#x27; recurring compliance burden without establishing that actual emissions have improved. Watch for implementation notices clarifying renewal dates and the testing interval that applies to each vehicle category.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/puc-validity-set-at-3-months-for-bs-i-to-bs-iii-6-months-bs-iv-vehicles-some-bsvi-cars-to-get-3-year-validity-101795080697556.html">Hindustan Times India, 19 Nov · 09:40 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="0e2c86de8102ab8388b65e00"><div class="story-no">05</div><div><h3>Cyient Semiconductors gets $10 mn strategic investment from GlobalFoundries</h3><p>Cyient Semiconductors has secured a $10 million strategic investment from GlobalFoundries, Business Standard reports. The transaction values Cyient Semiconductors at $490 million before the investment and will support expansion of its custom-chip, silicon-development and power-semiconductor capabilities.</p><p class="why"><span>Why it matters</span><br />Strategic capital could help Cyient broaden chip-design capabilities, with commercial value depending on translating development work into customer programmes. Watch for customer design wins and disclosed progress in the capabilities the investment is intended to expand.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/globalfoundries-invests-10-million-cyient-semiconductors-asic-126111900309_1.html">Business Standard Companies, 19 Nov · 05:22 UTC</a></p></div></article>
+<article class="story" data-candidate="900e75be06319d6c3b73e7c0"><div class="story-no">06</div><div><h3>Disseqt AI raises $8M to build enterprise AI safeguards</h3><p>Disseqt AI has raised $8 million to build enterprise AI safeguards, YourStory reports. The funds will support global customer expansion, and the company is hiring in India across sales, operations and technology while planning expansion into London.</p><p class="why"><span>Why it matters</span><br />Funding and Indian hiring could expand the company&#x27;s capacity to supply enterprise AI safeguards, although financing alone does not demonstrate their effectiveness. Watch for disclosed enterprise deployments and evidence that customer use converts the funded expansion into recurring business.</p><p class="source">RSS · <a href="https://yourstory.com/2026/11/disseqt-ai-raises-8m-to-build-enterprise-ai-safeguards">YourStory, 19 Nov · 10:30 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Saturday, 21 November</p></div><div class="catalysts"><p>No separate date-specific catalyst qualified in this RSS audit.</p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

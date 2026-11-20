@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "run_id": "20261120T025613Z-d0a7a160",
+  "created_at": "2026-11-20T03:02:21.998834+00:00",
+  "date": "2026-11-20",
+  "issue": 36,
+  "hero": "Retirement withdrawals become more flexible as the Centre proposes changes to corporate social spending and revises vehicle-testing intervals. An IEA oil outlook flags import exposure, while new financing backs Indian chip development and AI safeguards.",
+  "hero_card_ids": [
+    "e459011efc711e6a61572535",
+    "d1a1ffe2c35aadcf0da5eb5d",
+    "9d17bff39c521a7edbc28efb",
+    "c960ac6c2a9e4cdee8baaa6d",
+    "0e2c86de8102ab8388b65e00",
+    "900e75be06319d6c3b73e7c0"
+  ],
+  "cards": [
+    {
+      "id": "e459011efc711e6a61572535",
+      "lane": "macro",
+      "headline": "EPFO approves periodic PF payouts for retirees, eases withdrawal norms",
+      "brief": "EPFO has approved periodic provident-fund payouts for retirees, Hindustan Times reports. The revised rules reduce the minimum balance members must retain from 25% to 10% of their contributions.",
+      "mechanism": "More flexible withdrawals can help retirees spread cash receipts over time while reducing the savings that must remain in their accounts.",
+      "watch": "Watch for implementation instructions explaining payout frequency and how members choose their withdrawals.",
+      "claims": [
+        {
+          "statement": "EPFO has approved periodic provident-fund payouts for retirees, Hindustan Times reports.",
+          "evidence": "EPFO approves periodic PF payouts for retirees, eases withdrawal norms"
+        },
+        {
+          "statement": "The revised rules reduce the minimum balance members must retain from 25% to 10% of their contributions.",
+          "evidence": "The revised rules lower the minimum PF balance members must retain in their accounts from 25% to 10% of their contributions."
+        }
+      ]
+    },
+    {
+      "id": "d1a1ffe2c35aadcf0da5eb5d",
+      "lane": "macro",
+      "headline": "India's crude oil output likely to fall 20% over next decade: IEA",
+      "brief": "The IEA forecasts a 20% decline in India's crude oil output over the next decade, Business Standard reports. It expects about 1 million barrels per day of additional refining capacity even as domestic crude production declines, increasing reliance on imported oil.",
+      "mechanism": "More refining capacity alongside less domestic crude could increase India's exposure to imported feedstock costs and shipping reliability.",
+      "watch": "Watch whether actual refinery commissioning and domestic production data track the forecast import requirement.",
+      "claims": [
+        {
+          "statement": "The IEA forecasts a 20% decline in India's crude oil output over the next decade, Business Standard reports.",
+          "evidence": "India's crude oil output likely to fall 20% over next decade: IEA"
+        },
+        {
+          "statement": "It expects about 1 million barrels per day of additional refining capacity even as domestic crude production declines, increasing reliance on imported oil.",
+          "evidence": "India is expected to add about 1 million barrels per day of refining capacity even as domestic crude production declines, widening its reliance on imported oil, the IEA said"
+        }
+      ]
+    },
+    {
+      "id": "9d17bff39c521a7edbc28efb",
+      "lane": "national",
+      "headline": "Govt proposes major CSR rule changes, seeks to include mental health, clean energy, PM internship scheme",
+      "brief": "The government has proposed changes to corporate social responsibility rules that would include mental health, clean energy and the PM internship scheme, Hindustan Times reports. The proposals also cover bans on one-off events and product freebies, alongside stricter NGO oversight.",
+      "mechanism": "Revising eligible activities and oversight could redirect corporate social budgets and alter compliance work for companies and implementing organisations.",
+      "watch": "Watch the final rules for which proposed activities and restrictions survive into enforceable requirements.",
+      "claims": [
+        {
+          "statement": "The government has proposed changes to corporate social responsibility rules that would include mental health, clean energy and the PM internship scheme, Hindustan Times reports.",
+          "evidence": "Govt proposes major CSR rule changes, seeks to include mental health, clean energy, PM internship scheme"
+        },
+        {
+          "statement": "The proposals also cover bans on one-off events and product freebies, alongside stricter NGO oversight.",
+          "evidence": "Govt proposes new CSR rules: adds mental health, clean energy & internships, while banning one-off events & product freebies, plus stricter NGO oversight."
+        }
+      ]
+    },
+    {
+      "id": "c960ac6c2a9e4cdee8baaa6d",
+      "lane": "national",
+      "headline": "Centre extends PUC validity to 3 years for new BS-VI vehicles, cuts it for BS-IV",
+      "brief": "Under amended rules, private BS-VI vehicles less than six years old need a Pollution Under Control certificate every three years, Hindustan Times reports. The Centre has also shortened validity for BS-IV vehicles.",
+      "mechanism": "Differentiating testing intervals by vehicle category changes owners' recurring compliance burden without establishing that actual emissions have improved.",
+      "watch": "Watch for implementation notices clarifying renewal dates and the testing interval that applies to each vehicle category.",
+      "claims": [
+        {
+          "statement": "Under amended rules, private BS-VI vehicles less than six years old need a Pollution Under Control certificate every three years, Hindustan Times reports.",
+          "evidence": "Under amended rules, private BS-VI vehicles less than six years old need a Pollution Under Control (PUC) certificate every three years."
+        },
+        {
+          "statement": "The Centre has also shortened validity for BS-IV vehicles.",
+          "evidence": "Centre extends PUC validity to 3 years for new BS-VI vehicles, cuts it for BS-IV"
+        }
+      ]
+    },
+    {
+      "id": "0e2c86de8102ab8388b65e00",
+      "lane": "tech",
+      "headline": "Cyient Semiconductors gets $10 mn strategic investment from GlobalFoundries",
+      "brief": "Cyient Semiconductors has secured a $10 million strategic investment from GlobalFoundries, Business Standard reports. The transaction values Cyient Semiconductors at $490 million before the investment and will support expansion of its custom-chip, silicon-development and power-semiconductor capabilities.",
+      "mechanism": "Strategic capital could help Cyient broaden chip-design capabilities, with commercial value depending on translating development work into customer programmes.",
+      "watch": "Watch for customer design wins and disclosed progress in the capabilities the investment is intended to expand.",
+      "claims": [
+        {
+          "statement": "Cyient Semiconductors has secured a $10 million strategic investment from GlobalFoundries, Business Standard reports.",
+          "evidence": "Cyient Semiconductors gets $10 mn strategic investment from GlobalFoundries"
+        },
+        {
+          "statement": "The transaction values Cyient Semiconductors at $490 million before the investment and will support expansion of its custom-chip, silicon-development and power-semiconductor capabilities.",
+          "evidence": "The investment values Cyient Semiconductors at $490 mn before the transaction and will support expansion of its custom ASIC, silicon development and power semiconductor capabilities"
+        }
+      ]
+    },
+    {
+      "id": "900e75be06319d6c3b73e7c0",
+      "lane": "tech",
+      "headline": "Disseqt AI raises $8M to build enterprise AI safeguards",
+      "brief": "Disseqt AI has raised $8 million to build enterprise AI safeguards, YourStory reports. The funds will support global customer expansion, and the company is hiring in India across sales, operations and technology while planning expansion into London.",
+      "mechanism": "Funding and Indian hiring could expand the company's capacity to supply enterprise AI safeguards, although financing alone does not demonstrate their effectiveness.",
+      "watch": "Watch for disclosed enterprise deployments and evidence that customer use converts the funded expansion into recurring business.",
+      "claims": [
+        {
+          "statement": "Disseqt AI has raised $8 million to build enterprise AI safeguards, YourStory reports.",
+          "evidence": "Disseqt AI raises $8M to build enterprise AI safeguards"
+        },
+        {
+          "statement": "The funds will support global customer expansion, and the company is hiring in India across sales, operations and technology while planning expansion into London.",
+          "evidence": "The funds will support the expansion of Disseqt’s enterprise customer base globally. The company is also hiring in India across sales, operations and technology, with plans to expand into London."
+        }
+      ]
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "No material RSS-backed November 21 catalyst qualifies. Cyclone Akvan landfall is explicitly Friday November 20, including the November 19 evening roundup's relative tomorrow; it cannot be rolled forward to Saturday. Tata Trusts meets November 20, distinct from the Tata Sons November 26 meeting and vague next-week listing discussion. Nepal's visit is November 22; Mahanadi subscription closes November 23 and listing is expected November 27; sugar bids close November 27; OpenAI researcher applications open November 30. Marital-rape hearings and Ganga treaty expiry fall in December, while Razorpay filing is only next week, PB Fintech departure is March 2027 and project targets are later. The Delhi drivers' protest says today in its November 19 publication. No new November 21 policy decision, implementation deadline or other material deliverable is established."
+}
