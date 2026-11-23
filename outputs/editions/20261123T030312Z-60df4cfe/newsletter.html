@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 23 November 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 037</strong><br />23 November 2026<br /><span id="rss-status">RSS edition · 20261123T030312Z-60df4cfe</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">India&#x27;s October energy bill climbs as engineering exports strengthen; a steel transaction, new labour-market tools, water-safety enforcement and manufacturing and logistics initiatives put execution in focus.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>25,800.60</strong><span class="up">Nifty 50 · +1.12%</span><span class="flat">20 Nov 03:45 UTC</span></div><div class="quote"><strong>83,919.71</strong><span class="up">Sensex · +1.08%</span><span class="flat">20 Nov 03:45 UTC</span></div><div class="quote"><strong>₹92.660</strong><span class="up">USD/INR · -0.68%</span><span class="flat">23 Nov 02:00 UTC</span></div><div class="quote"><strong>$89.53</strong><span class="down">Brent · -3.28%</span><span class="flat">23 Nov 03:04 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="6a8d693f2c0e3b06849e1842"><div class="story-no">01</div><div><h3>Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines</h3><p>India&#x27;s net oil and gas import bill rose 60% year on year to $16 billion in October, according to PPAC data reported by Business Standard.</p><p class="why"><span>Why it matters</span><br />Higher oil prices can widen India&#x27;s external financing need even when import volumes grow more slowly. Watch whether the next monthly bill eases through lower prices or reduced import volumes.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/oil-gas-import-bill-up-60-in-oct-as-brent-surges-lpg-use-declines-126112200197_1.html">Business Standard Economy &amp; Policy, 22 Nov · 06:23 UTC</a></p></div></article>
+<article class="story" data-candidate="6f5231c11200deaa014efa29"><div class="story-no">02</div><div><h3>Engineering exports jump 36% in October, led by strong US shipments</h3><p>India&#x27;s engineering exports rose 36% year on year to $12.74 billion in October, driven by strong US demand and higher shipments of metals, electrical machinery and automobiles, EEPC India said.</p><p class="why"><span>Why it matters</span><br />Stronger engineering shipments can support factory utilisation and export receipts even as the energy import bill rises. Watch whether subsequent engineering shipments sustain the gain across both products and destinations.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/engineering-exports-jump-36-in-october-led-by-strong-us-shipments-126112200488_1.html">Business Standard Economy &amp; Policy, 22 Nov · 11:56 UTC</a></p></div></article>
+<article class="story" data-candidate="48c0a6b629fde19593ae58d3"><div class="story-no">03</div><div><h3>Tata Steel’s ₹28,000 crore deal with APL Apollo is part of a two-stage takeover transaction</h3><p>Tata Steel has agreed to transfer its tubes business for up to ₹11,700 crore and its entire Tata Steel Colors stake for ₹16,300 crore to APL Apollo, Mint reports; Tata Steel will later buy APL Apollo&#x27;s promoter stake and launch an open offer.</p><p class="why"><span>Why it matters</span><br />The proposed sequence could reshape control and integration across India&#x27;s downstream steel businesses. Watch for transaction approvals and the terms of the subsequent promoter-stake purchase and open offer.</p><p class="source">RSS · <a href="https://www.livemint.com/companies/news/tata-steel-s-28-000-crore-deal-with-apl-apollo-is-part-of-a-two-stage-transaction-11795360468769.html">Mint Companies, 22 Nov · 17:05 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="b6743034360499ffa910cafe"><div class="story-no">04</div><div><h3>Labour ministry launches job-matching portal, occupational shortage index</h3><p>The labour ministry has launched a job-matching portal and occupational shortage index, Business Standard reports. The NCS ONE Portal will link jobseekers with employers and recruitment platforms, while the Occupational Shortage Index aims to identify labour market gaps and guide skilling initiatives.</p><p class="why"><span>Why it matters</span><br />Connecting vacancies with shortage data could help Indian training programmes respond to employer demand. Watch whether the tools produce usable shortage signals and measurable job placements.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/labour-ministry-launches-job-matching-portal-occupational-shortage-index-126112200567_1.html">Business Standard Economy &amp; Policy, 22 Nov · 13:23 UTC</a></p></div></article>
+<article class="story" data-candidate="e53ef74bb5e0a32a1f627773"><div class="story-no">05</div><div><h3>FSSAI sanctions prosecution against Bisleri International, flags ‘unsafe packaged drinking water’</h3><p>FSSAI said it has sanctioned prosecution against Bisleri International over &quot;unsafe packaged drinking water&quot;, Hindustan Times reports.</p><p class="why"><span>Why it matters</span><br />A prosecution sanction raises enforcement exposure for packaged-water suppliers without establishing a conviction. Watch for the prosecution&#x27;s findings and any documented corrective action on the affected water supply.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/fssai-sanctions-prosecution-against-bisleri-international-flags-unsafe-packaged-drinking-water-101795360763420.html">Hindustan Times India, 22 Nov · 15:23 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="6e4a85be875061bc415c40ef"><div class="story-no">06</div><div><h3>FarEye helps reduce e-commerce major Flipkart logistics expenses by 6%</h3><p>Far Eye says it helped Flipkart Wholesale cut logistics spending by 6% and vehicle deployment by 8% across India, Business Standard reports.</p><p class="why"><span>Why it matters</span><br />Digitising dispatch and routing can reduce the fleet resources needed to serve a wholesale distribution network. Watch whether the reported savings persist as order volumes and delivery requirements change.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/fareye-helps-reduce-e-commerce-major-flipkart-logistics-expenses-by-6-126112200607_1.html">Business Standard Companies, 22 Nov · 15:48 UTC</a></p></div></article>
+<article class="story" data-candidate="95822db0b10f6ca77064427e"><div class="story-no">07</div><div><h3>Atomberg &amp; Voltas Execute JV Agreement To Build AC Compressors</h3><p>Atomberg has executed a joint venture agreement with Tata-owned Voltas to manufacture compressors, Inc42 reports.</p><p class="why"><span>Why it matters</span><br />Domestic compressor manufacturing could deepen the local appliance supply chain if the venture reaches production. Watch for disclosed capacity, investment and commissioning milestones before treating the agreement as new output.</p><p class="source">RSS · <a href="https://inc42.com/buzz/atomberg-voltas-execute-jv-agreement-to-build-ac-compressors/">Inc42, 21 Nov · 20:41 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Tuesday, 24 November</p></div><div class="catalysts"><p>NSE and BSE trading will pause on November 24 for Prakash Gurpurb Sri Guru Nanak Dev Jayanti, Mint reports. <a href="https://www.livemint.com/market/stock-market-news/stock-market-holiday-next-week-nse-bse-to-remain-closed-for-guru-nanak-jayanti-on-this-day-november-24-tuesday-11795343116023.html">Mint Markets</a></p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

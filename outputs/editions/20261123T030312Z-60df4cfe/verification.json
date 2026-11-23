@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Current Codex session, separate second semantic pass",
+  "checked_at": "2026-11-23T04:04:48.969280+00:00",
+  "input_hashes": {
+    "capture.json": "4413f3a665fe0282a5236688517c7e418bf3523e0c5b582017881854210ff35f",
+    "history.json": "49a01f90a2db2b3d5707583299f106f0c1844707deaef0f9bcca7c204aec2d5b",
+    "review.json": "b16a49ab68fe18c85572fd6e83c3fb36f600f6edac28b3e0933d94e415aa3ee8",
+    "edition.json": "56fd538ede377acb15e701865688a4c696ef856d57c6b8dc4ba67b43f69790f9",
+    "market.json": "65b3dcd2c110e31e28fbad1449849e22d268fdde73d012f676e6db4de82a24f4"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "candidate_coverage": "Read all 228 captured titles and summaries via bounded context offsets 0,40,80,120,160,200 through next_offset=null; authored a case-specific row for every record. Reviewed all 186 history event keys and titles and reread close food enforcement, October goods trade, SEBI margin and IEA comparators. Considered operating evidence inside trading articles, including rail supplier earnings, WeWork capex expectations and PTC results. Strong alternatives included sugar-estimation reform, FTA signing expectation, CII financial reforms, Singur land talks, DGCA notice, MPCB camp stop-work, Bloom financing and Gokul prices. Explicit duplicate representatives retain source evidence. No theme or source quota used.",
+  "hero": "Hero now covers energy bill, engineering exports, steel transaction, labour tools, water enforcement, manufacturing and logistics; states execution focus without treating agreements as output or company savings as audited.",
+  "catalysts": "Mint explicitly dates NSE/BSE closure Tuesday November 24; selected only as an operational market-access constraint. Tomorrow party celebrations and seat talks lack economic deliverables; sugar November27, conclave November25, Tata November26, likely FTA December16 and school December1 are outside tomorrow. Exactly one closing module contains the one supported closure.",
+  "cards": [
+    {
+      "id": "6a8d693f2c0e3b06849e1842",
+      "factual_support": "PPAC RSS explicitly supplies October net oil and gas bill of $16 billion and 60 percent year-on-year growth; brief does not confuse net bill with $19.5 billion gross crude imports.",
+      "analysis": "External financing exposure is an inference; next monthly prices and import volumes are distinct observable drivers.",
+      "novelty": "New October PPAC sector bill differs from prior aggregate trade data and the IEA decade-long supply forecast."
+    },
+    {
+      "id": "6f5231c11200deaa014efa29",
+      "factual_support": "EEPC summary directly supports 36 percent engineering export growth to $12.74 billion, US demand and the three product groups.",
+      "analysis": "Utilisation and receipts are possible mechanisms, not measured additional results; subsequent product and destination breadth is the signal.",
+      "novelty": "Explicit update to india-october-2026-goods-trade-release adds engineering-sector growth and dollar value absent from the prior aggregate article."
+    },
+    {
+      "id": "48c0a6b629fde19593ae58d3",
+      "factual_support": "Mint supplies up to ₹11700 crore tubes transfer, ₹16300 crore for the full Colors stake and later promoter purchase and open offer; brief preserves sequence and agreement status.",
+      "analysis": "Control integration is conditional analysis; approvals and subsequent transaction terms are future checks, not claimed completed steps.",
+      "novelty": "No Tata Steel APL Apollo deal in 186-entry history; Business Standard account is linked explicitly as duplicate rather than extra selection."
+    },
+    {
+      "id": "b6743034360499ffa910cafe",
+      "factual_support": "Title establishes labour ministry launch and summary establishes portal matching functions and index purpose; claims separately cite these exact source fields.",
+      "analysis": "Training responsiveness is conditional; usable shortage data and placements are outcome checks rather than implied delivered employment.",
+      "novelty": "Distinct from cumulative UP skills speech, earlier PLFS releases and EPFO service launches; new tools rather than repeated labour statistics."
+    },
+    {
+      "id": "e53ef74bb5e0a32a1f627773",
+      "factual_support": "HT attributes sanction for prosecution over unsafe packaged drinking water to FSSAI; brief reports sanction and preserves quoted regulator characterisation.",
+      "analysis": "Enforcement exposure does not assert conviction or brand-wide unsafe product; subsequent findings and corrective actions are appropriate checks.",
+      "novelty": "Specific Bisleri prosecution is distinct from the older nationwide September-November inspections and prior Nestle/Zydus claim notices."
+    },
+    {
+      "id": "6e4a85be875061bc415c40ef",
+      "factual_support": "Business Standard RSS explicitly attributes six percent logistics spending and eight percent vehicle deployment reductions pan-India at Flipkart Wholesale to Far Eye.",
+      "analysis": "Dispatch and routing workflow is in the source; savings persistence is framed as a future test without assuming independent audit.",
+      "novelty": "No FarEye Flipkart deployment outcome in history; startup SaaS and other logistics plans are separate events."
+    },
+    {
+      "id": "95822db0b10f6ca77064427e",
+      "factual_support": "Inc42 excerpt establishes Atomberg executed JV agreement with Tata-owned Voltas to manufacture compressors; final brief narrowed to avoid completing the truncated room phrase.",
+      "analysis": "Supply-chain deepening depends explicitly on production; capacity investment and commissioning remain unannounced signals rather than claimed facts.",
+      "novelty": "New Atomberg Voltas agreement distinct from Cyient chip investment, earlier battery policy and existing appliance-market background."
+    }
+  ]
+}

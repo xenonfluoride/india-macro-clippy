@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "run_id": "20261123T030312Z-60df4cfe",
+  "created_at": "2026-11-23T03:53:10.036480+00:00",
+  "date": "2026-11-23",
+  "issue": 37,
+  "hero": "India's October energy bill climbs as engineering exports strengthen; a steel transaction, new labour-market tools, water-safety enforcement and manufacturing and logistics initiatives put execution in focus.",
+  "hero_card_ids": [
+    "6a8d693f2c0e3b06849e1842",
+    "6f5231c11200deaa014efa29",
+    "48c0a6b629fde19593ae58d3",
+    "b6743034360499ffa910cafe",
+    "e53ef74bb5e0a32a1f627773",
+    "6e4a85be875061bc415c40ef",
+    "95822db0b10f6ca77064427e"
+  ],
+  "cards": [
+    {
+      "id": "6a8d693f2c0e3b06849e1842",
+      "lane": "macro",
+      "headline": "Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines",
+      "brief": "India's net oil and gas import bill rose 60% year on year to $16 billion in October, according to PPAC data reported by Business Standard.",
+      "mechanism": "Higher oil prices can widen India's external financing need even when import volumes grow more slowly.",
+      "watch": "Watch whether the next monthly bill eases through lower prices or reduced import volumes.",
+      "claims": [
+        {
+          "statement": "India's net oil and gas import bill rose 60% year on year to $16 billion in October, according to PPAC data reported by Business Standard.",
+          "evidence": "India's net oil and gas import bill rose 60 per cent year-on-year to USD 16 billion in October"
+        }
+      ]
+    },
+    {
+      "id": "6f5231c11200deaa014efa29",
+      "lane": "macro",
+      "headline": "Engineering exports jump 36% in October, led by strong US shipments",
+      "brief": "India's engineering exports rose 36% year on year to $12.74 billion in October, driven by strong US demand and higher shipments of metals, electrical machinery and automobiles, EEPC India said.",
+      "mechanism": "Stronger engineering shipments can support factory utilisation and export receipts even as the energy import bill rises.",
+      "watch": "Watch whether subsequent engineering shipments sustain the gain across both products and destinations.",
+      "claims": [
+        {
+          "statement": "India's engineering exports rose 36% year on year to $12.74 billion in October, driven by strong US demand and higher shipments of metals, electrical machinery and automobiles, EEPC India said.",
+          "evidence": "India's engineering exports rose 36% year-on-year to $12.74 billion in October, driven by strong US demand and higher shipments of metals, electrical machinery and automobiles, EEPC India said."
+        }
+      ]
+    },
+    {
+      "id": "48c0a6b629fde19593ae58d3",
+      "lane": "macro",
+      "headline": "Tata Steel’s ₹28,000 crore deal with APL Apollo is part of a two-stage takeover transaction",
+      "brief": "Tata Steel has agreed to transfer its tubes business for up to ₹11,700 crore and its entire Tata Steel Colors stake for ₹16,300 crore to APL Apollo, Mint reports; Tata Steel will later buy APL Apollo's promoter stake and launch an open offer.",
+      "mechanism": "The proposed sequence could reshape control and integration across India's downstream steel businesses.",
+      "watch": "Watch for transaction approvals and the terms of the subsequent promoter-stake purchase and open offer.",
+      "claims": [
+        {
+          "statement": "Tata Steel has agreed to transfer its tubes business for up to ₹11,700 crore and its entire Tata Steel Colors stake for ₹16,300 crore to APL Apollo, Mint reports; Tata Steel will later buy APL Apollo's promoter stake and launch an open offer.",
+          "evidence": "Tata Steel has agreed to transfer its tubes business for up to ₹11,700 crore and its 100% stake in Tata Steel Colors for ₹16,300 crore to APL Apollo. Later, Tata Steel will buy APL Apollo’s promoter stake, and launch an open offer"
+        }
+      ]
+    },
+    {
+      "id": "b6743034360499ffa910cafe",
+      "lane": "national",
+      "headline": "Labour ministry launches job-matching portal, occupational shortage index",
+      "brief": "The labour ministry has launched a job-matching portal and occupational shortage index, Business Standard reports. The NCS ONE Portal will link jobseekers with employers and recruitment platforms, while the Occupational Shortage Index aims to identify labour market gaps and guide skilling initiatives.",
+      "mechanism": "Connecting vacancies with shortage data could help Indian training programmes respond to employer demand.",
+      "watch": "Watch whether the tools produce usable shortage signals and measurable job placements.",
+      "claims": [
+        {
+          "statement": "The labour ministry has launched a job-matching portal and occupational shortage index, Business Standard reports.",
+          "evidence": "Labour ministry launches job-matching portal, occupational shortage index"
+        },
+        {
+          "statement": "The NCS ONE Portal will link jobseekers with employers and recruitment platforms, while the Occupational Shortage Index aims to identify labour market gaps and guide skilling initiatives.",
+          "evidence": "The NCS ONE Portal will link jobseekers with employers and recruitment platforms, while the Occupational Shortage Index aims to identify labour market gaps and guide skilling initiatives."
+        }
+      ]
+    },
+    {
+      "id": "e53ef74bb5e0a32a1f627773",
+      "lane": "national",
+      "headline": "FSSAI sanctions prosecution against Bisleri International, flags ‘unsafe packaged drinking water’",
+      "brief": "FSSAI said it has sanctioned prosecution against Bisleri International over \"unsafe packaged drinking water\", Hindustan Times reports.",
+      "mechanism": "A prosecution sanction raises enforcement exposure for packaged-water suppliers without establishing a conviction.",
+      "watch": "Watch for the prosecution's findings and any documented corrective action on the affected water supply.",
+      "claims": [
+        {
+          "statement": "FSSAI said it has sanctioned prosecution against Bisleri International over \"unsafe packaged drinking water\", Hindustan Times reports.",
+          "evidence": "FSSAI said it has sanctioned prosecution against Bisleri International Pvt Ltd regarding \"unsafe packaged drinking water\"."
+        }
+      ]
+    },
+    {
+      "id": "6e4a85be875061bc415c40ef",
+      "lane": "tech",
+      "headline": "FarEye helps reduce e-commerce major Flipkart logistics expenses by 6%",
+      "brief": "Far Eye says it helped Flipkart Wholesale cut logistics spending by 6% and vehicle deployment by 8% across India, Business Standard reports.",
+      "mechanism": "Digitising dispatch and routing can reduce the fleet resources needed to serve a wholesale distribution network.",
+      "watch": "Watch whether the reported savings persist as order volumes and delivery requirements change.",
+      "claims": [
+        {
+          "statement": "Far Eye says it helped Flipkart Wholesale cut logistics spending by 6% and vehicle deployment by 8% across India, Business Standard reports.",
+          "evidence": "AI-powered enterprise SaaS Far Eye on Sunday said it has helped e-commerce major Flipkart's B2B cash-and-carry market place, Flipkart Wholesale, slash its logistics spend by 6 per cent besides an 8 per cent reduction in vehicle deployment pan-India."
+        }
+      ]
+    },
+    {
+      "id": "95822db0b10f6ca77064427e",
+      "lane": "tech",
+      "headline": "Atomberg & Voltas Execute JV Agreement To Build AC Compressors",
+      "brief": "Atomberg has executed a joint venture agreement with Tata-owned Voltas to manufacture compressors, Inc42 reports.",
+      "mechanism": "Domestic compressor manufacturing could deepen the local appliance supply chain if the venture reaches production.",
+      "watch": "Watch for disclosed capacity, investment and commissioning milestones before treating the agreement as new output.",
+      "claims": [
+        {
+          "statement": "Atomberg has executed a joint venture agreement with Tata-owned Voltas to manufacture compressors, Inc42 reports.",
+          "evidence": "IPO-bound consumer appliances startup Atomberg has executed a joint venture (JV) agreement with Tata-owned Voltas to manufacture compressors for room…"
+        }
+      ]
+    }
+  ],
+  "catalysts": [
+    {
+      "id": "b8bbfd12b38409fa7e02b4c3",
+      "date": "2026-11-24",
+      "text": "NSE and BSE trading will pause on November 24 for Prakash Gurpurb Sri Guru Nanak Dev Jayanti, Mint reports.",
+      "evidence": "Stock market holiday next week: Trading on the NSE and BSE will pause Tuesday, November 24, for Prakash Gurpurb Sri Guru Nanak Dev Jayanti."
+    }
+  ],
+  "catalyst_review": "Reviewed the full 228-record pool for November 24. The explicit NSE/BSE trading closure is a material market-access constraint, not an individual stock alert. UP seat-sharing talks on November 23-24 and JD-U's November 24 commemoration offer no economic policy deliverable. Nepal meetings and inauguration previews are November 23; sugar commissioners meet November 27; Tamil Nadu conclave is November 25; Tata board preview is November 26; India-EU likely signing is December 16; Delhi applications begin December 1 with conflicting later allotment dates. Battery trials, hotel openings, IPO targets and annual investment plans are later or undated and do not qualify."
+}
