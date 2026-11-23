@@ -49,3 +49,7 @@ Only when publishing is authorized and all checks pass, run `python3 -B work/new
 Never restore away evidence or overwrite the legacy three output files. No accepted pointer means the last legacy site stays live. A failed run or price fetch means no push. Preserve failed run directories. Replay/shadow captures cannot be promoted even if they pass historical validation.
 
 Changes to the pipeline require the documentation updates specified in CLAUDE.md. Do not add edition-specific prose or facts to Python.
+
+## Pages deployment retries
+
+Pages assembly and upload run in a build job after validation; a separate dependent job deploys the build’s uniquely named artifact (`github-pages-RUN_ID-RUN_ATTEMPT`). Retry a failed deployment job without rerunning a successful build. This avoids immediate same-job artifact discovery and duplicate names after retries; preserve failed artifacts and confirm the visible deployed run ID before reporting publication.

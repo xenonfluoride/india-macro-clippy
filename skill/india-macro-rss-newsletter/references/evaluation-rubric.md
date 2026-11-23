@@ -22,3 +22,5 @@ The gate does not prove semantic truth. A plausible but false paraphrase with ma
 Historical replay checks are useful for regressions but cannot authorize publication. Keep failed captures and reviews. Warnings must be resolved or explained; failures block publication.
 
 The earlier hard-theme, keyword-blacklist and 1–8-card behaviors are superseded by this contract. A 36-hour window does not prevent repeated events and a weekday-only schedule has an uncovered weekend interval; do not silently widen the window to compensate.
+
+Pages deployment uses a validated build followed by a separate deployment job and an artifact name unique to the build attempt. A deployment retry reuses that build artifact; verify Pages completion and the visible run ID.

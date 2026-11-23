@@ -30,3 +30,7 @@ A validation pass does not prove semantic truth; it proves the artifacts match t
 ## Documentation
 
 Changes to roster, editorial contracts, schema, validation or deployment must update README, this file, the skill, rubric and applicable decisions. Preserve pre-existing user changes; stage intentional paths explicitly.
+
+## Pages deployment retries
+
+Pages assembly and upload run in a build job after validation; a separate dependent job deploys the build’s uniquely named artifact (`github-pages-RUN_ID-RUN_ATTEMPT`). Retry a failed deployment job without rerunning a successful build. This avoids immediate same-job artifact discovery and duplicate names after retries; preserve failed artifacts and confirm the visible deployed run ID before reporting publication.

@@ -128,3 +128,7 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 - Added **Mongabay India** to Macro for India-specific climate, food, water, and resource-economy reporting. It broadens the climate-and-water theme without requiring a weak financial-market item to fill that lane.
 - Restored **Mint Technology** to India Tech after it again supplied timestamped, detailed India operating and infrastructure reports. The existing India-exposure, product-review, global-news, and commentary filters still apply.
 - Re-tested official PIB, RBI, and SEBI feeds alongside Indian Express. PIB returned a connection reset, RBI returned HTTP 418, SEBI exposed no parseable timestamped entries, and Indian Express provided no RSS summaries. They remain excluded rather than weakening the RSS-only evidence boundary.
+
+## 2026-11-23: Separate Pages upload from deployment
+
+The artifact upload finalized successfully but same-job deployment immediately listed zero artifacts; rerunning the combined job then listed duplicate artifacts under the default name. Assembly and upload now run in a separate build job, with a unique artifact name per run and build attempt passed to the dependent deployment job. A failed deployment can be retried without another upload. Preserve failed evidence and require live run-ID verification.

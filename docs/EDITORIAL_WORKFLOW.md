@@ -110,3 +110,7 @@ No pointer exists until first v2 acceptance. During migration, CI tests the code
 `work/runs/20261012T075140Z-b5180c1a/` replays the audit's fixed 249-candidate batch. The case-by-case editorial decisions are in `work/audits/2026-10-12/shadow-decisions.tsv`; `assemble_shadow.py` merely packages those authored decisions and seven briefs. It is not part of the scheduled selection code and cannot generalize to another batch. A separate actual Yahoo snapshot and explicitly authored verification complete the demonstration.
 
 Before unattended publishing, inspect the shadow page and retain these regression tests. Future shadow runs should use genuinely new evidence and fresh editorial assessments, never recycled approvals.
+
+## Pages deployment retries
+
+Pages assembly and upload run in a build job after validation; a separate dependent job deploys the build’s uniquely named artifact (`github-pages-RUN_ID-RUN_ATTEMPT`). Retry a failed deployment job without rerunning a successful build. This avoids immediate same-job artifact discovery and duplicate names after retries; preserve failed artifacts and confirm the visible deployed run ID before reporting publication.

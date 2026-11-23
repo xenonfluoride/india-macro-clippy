@@ -51,3 +51,7 @@ A 36-hour window still overlaps successive daily runs; the ledger handles repeat
 The original failure probes and legacy implementation snapshots are retained under `work/audits/2026-10-12/`. The seven-card, fully reviewed shadow run is `work/runs/20261012T075140Z-b5180c1a/`.
 
 Keep README, CLAUDE, the newsletter skill, rubric and editorial decisions synchronized whenever this workflow changes.
+
+## Pages deployment retries
+
+Pages assembly and upload run in a build job after validation; a separate dependent job deploys the build’s uniquely named artifact (`github-pages-RUN_ID-RUN_ATTEMPT`). Retry a failed deployment job without rerunning a successful build. This avoids immediate same-job artifact discovery and duplicate names after retries; preserve failed artifacts and confirm the visible deployed run ID before reporting publication.
