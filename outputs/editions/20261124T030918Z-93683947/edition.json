@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "run_id": "20261124T030918Z-93683947",
+  "date": "2026-11-24",
+  "created_at": "2026-11-24T08:57:00.975597+05:30",
+  "issue": 38,
+  "hero": "Informal businesses and jobs rebounded as November’s flash PMI showed factories gaining momentum and services slowing. India is weighing a rice export duty, the EU ambassador has flagged a possible mid-2027 start for the trade deal, and India and Nepal signed eight agreements. Karnataka mandated free menstrual products in schools, while an L&T group company secured a Chennai AI infrastructure order.",
+  "hero_card_ids": [
+    "fb8c2fd26e66bd86c118945f",
+    "d2cee640014dc0de8f12974d",
+    "be6b312595303ad12223cf6a",
+    "b8d22568779d79cef37cde33",
+    "8788eac66302fe20fed4469d",
+    "faea8bf3b56fbf3e2f4e4b6e",
+    "145d60df6394877cf1769a90"
+  ],
+  "cards": [
+    {
+      "brief": "India’s November flash composite PMI reached 56.3. Manufacturing gained momentum and export orders recovered, while services activity and hiring weakened.",
+      "mechanism": "Stronger factory demand can lift the overall reading even when service firms and hiring lose momentum.",
+      "watch": "Watch whether the final November survey confirms the gap between manufacturing and services.",
+      "id": "fb8c2fd26e66bd86c118945f",
+      "lane": "macro",
+      "headline": "India's private sector activity hits five-month high in November: Flash PMI",
+      "claims": [
+        {
+          "statement": "India’s November flash composite PMI reached 56.3.",
+          "evidence": [
+            "India's private sector activity hits five-month high in November: Flash PMI",
+            "Manufacturing gained momentum and export orders recovered in November, lifting India's flash composite PMI to 56.3, even as services activity and hiring weakened"
+          ]
+        },
+        {
+          "statement": "Manufacturing gained momentum and export orders recovered, while services activity and hiring weakened.",
+          "evidence": [
+            "India's private sector activity hits five-month high in November: Flash PMI",
+            "Manufacturing gained momentum and export orders recovered in November, lifting India's flash composite PMI to 56.3, even as services activity and hiring weakened"
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "NSO reported that informal enterprises rose 9.2% from the previous quarter and employment rose 9.7% in the second quarter of FY27. Rural areas led the rebound after a sharp first-quarter decline.",
+      "mechanism": "A recovery among rural informal businesses can support household earnings and spending in local markets.",
+      "watch": "Watch whether rural enterprise and employment gains carry through to the next release.",
+      "id": "d2cee640014dc0de8f12974d",
+      "lane": "macro",
+      "headline": "India's informal sector rebounds in Q2FY27 led by rural recovery: NSO",
+      "claims": [
+        {
+          "statement": "NSO reported that informal enterprises rose 9.2% from the previous quarter and employment rose 9.7% in the second quarter of FY27.",
+          "evidence": [
+            "India's informal sector rebounds in Q2FY27 led by rural recovery: NSO",
+            "NSO data shows a sequential rise of 9.2 per cent in enterprises and 9.7 per cent in employment during Q2FY27, with rural areas leading the recovery after a sharp Q1 decline."
+          ]
+        },
+        {
+          "statement": "Rural areas led the rebound after a sharp first-quarter decline.",
+          "evidence": [
+            "India's informal sector rebounds in Q2FY27 led by rural recovery: NSO",
+            "NSO data shows a sequential rise of 9.2 per cent in enterprises and 9.7 per cent in employment during Q2FY27, with rural areas leading the recovery after a sharp Q1 decline."
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "EU Ambassador Jean-Eric Paquet said the India–EU trade deal could take effect by mid-2027. The agreement still requires European Parliament approval.",
+      "mechanism": "The approval timeline determines when eligible shipments can start claiming the deal’s tariff preferences.",
+      "watch": "Watch for a confirmed signing date and a timetable for the European Parliament vote.",
+      "id": "be6b312595303ad12223cf6a",
+      "lane": "macro",
+      "headline": "India-EU trade deal may come into force by mid-2027, says EU Ambassador",
+      "claims": [
+        {
+          "statement": "EU Ambassador Jean-Eric Paquet said the India–EU trade deal could take effect by mid-2027.",
+          "evidence": [
+            "India-EU trade deal may come into force by mid-2027, says EU Ambassador",
+            "EU Ambassador Jean-Eric Paquet said negotiations concluded in January, with the European Commission proposing the agreement's signing in September. The deal will require European Parliament approval"
+          ]
+        },
+        {
+          "statement": "The agreement still requires European Parliament approval.",
+          "evidence": [
+            "India-EU trade deal may come into force by mid-2027, says EU Ambassador",
+            "EU Ambassador Jean-Eric Paquet said negotiations concluded in January, with the European Commission proposing the agreement's signing in September. The deal will require European Parliament approval"
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "The Economic Times reported that India is considering a 20% export duty on select rice varieties to improve domestic supply. The report said rising broken-rice prices have affected poultry and cattle-feed producers.",
+      "mechanism": "If imposed, a duty could make exports less attractive and leave more of the covered rice available to domestic buyers.",
+      "watch": "Watch for a formal notification specifying which varieties would face the duty and when it would begin.",
+      "id": "b8d22568779d79cef37cde33",
+      "lane": "macro",
+      "headline": "India weighs 20% export duty on select rice varieties to boost domestic supply",
+      "claims": [
+        {
+          "statement": "The Economic Times reported that India is considering a 20% export duty on select rice varieties to improve domestic supply.",
+          "evidence": [
+            "India weighs 20% export duty on select rice varieties to boost domestic supply",
+            "India is contemplating the imposition of export duties on specific rice varieties to improve domestic supplies. This measure aims to mitigate rising prices faced by consumers and industries in the local market. Although the export duty might slow rice exports, it is unlikely to halt shipments completely due to competitive pricing. The poultry and cattle feed sectors have been notably affected by the surge in broken rice prices."
+          ]
+        },
+        {
+          "statement": "The report said rising broken-rice prices have affected poultry and cattle-feed producers.",
+          "evidence": [
+            "India weighs 20% export duty on select rice varieties to boost domestic supply",
+            "India is contemplating the imposition of export duties on specific rice varieties to improve domestic supplies. This measure aims to mitigate rising prices faced by consumers and industries in the local market. Although the export duty might slow rice exports, it is unlikely to halt shipments completely due to competitive pricing. The poultry and cattle feed sectors have been notably affected by the surge in broken rice prices."
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "India and Nepal signed eight memoranda of understanding covering areas from space to security. India also announced a development cooperation package worth 24,000 crore Nepali rupees.",
+      "mechanism": "The package can fund development in Nepal once the two countries identify projects and set funding terms.",
+      "watch": "Watch for a project list and a schedule for releasing funds.",
+      "id": "8788eac66302fe20fed4469d",
+      "lane": "national",
+      "headline": "India, Nepal sign 8 MoUs from space to security as Modi hosts Balen Shah",
+      "claims": [
+        {
+          "statement": "India and Nepal signed eight memoranda of understanding covering areas from space to security.",
+          "evidence": [
+            "India, Nepal sign 8 MoUs from space to security as Modi hosts Balen Shah",
+            "India also announced a development cooperation package worth 24,000 crore Nepali rupees to support development initiatives in Nepal."
+          ]
+        },
+        {
+          "statement": "India also announced a development cooperation package worth 24,000 crore Nepali rupees.",
+          "evidence": [
+            "India, Nepal sign 8 MoUs from space to security as Modi hosts Balen Shah",
+            "India also announced a development cooperation package worth 24,000 crore Nepali rupees to support development initiatives in Nepal."
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Karnataka made free biodegradable sanitary napkins mandatory for girls in Classes 6 through 12 in government, aided and private schools.",
+      "mechanism": "Providing pads in school can lower the cost and access barriers students face during the school day.",
+      "watch": "Watch for school-level delivery schedules and how the state checks compliance.",
+      "id": "faea8bf3b56fbf3e2f4e4b6e",
+      "lane": "national",
+      "headline": "Karnataka makes free sanitary napkins mandatory in schools, warns of action for lapses",
+      "claims": [
+        {
+          "statement": "Karnataka made free biodegradable sanitary napkins mandatory for girls in Classes 6 through 12 in government, aided and private schools.",
+          "evidence": [
+            "Karnataka makes free sanitary napkins mandatory in schools, warns of action for lapses",
+            "Karnataka has made free biodegradable sanitary napkins mandatory in government, aided and private schools for girls in Classes 6 to 12."
+          ]
+        }
+      ]
+    },
+    {
+      "brief": "Business Standard reported a ₹5,000 crore order for a Chennai AI cluster. L&T said its group company Vyoma.AI secured a multi-year engagement to deploy additional Nvidia B300 GPUs at its Chennai data centre.",
+      "mechanism": "Once installed, the extra GPUs can increase the computing capacity available at the Chennai facility.",
+      "watch": "Watch for the first deployment milestone and when the added capacity becomes available to customers.",
+      "id": "145d60df6394877cf1769a90",
+      "lane": "tech",
+      "headline": "L&T bags large order worth ₹5,000 crore to deploy AI cluster in Chennai",
+      "claims": [
+        {
+          "statement": "Business Standard reported a ₹5,000 crore order for a Chennai AI cluster.",
+          "evidence": [
+            "L&T bags large order worth ₹5,000 crore to deploy AI cluster in Chennai",
+            "L&T said its group company Vyoma.AI has secured a multi-year engagement to deploy additional NVIDIA B300 graphics processing units (GPUs) at its Chennai data centre."
+          ]
+        },
+        {
+          "statement": "L&T said its group company Vyoma.AI secured a multi-year engagement to deploy additional Nvidia B300 GPUs at its Chennai data centre.",
+          "evidence": [
+            "L&T bags large order worth ₹5,000 crore to deploy AI cluster in Chennai",
+            "L&T said its group company Vyoma.AI has secured a multi-year engagement to deploy additional NVIDIA B300 graphics processing units (GPUs) at its Chennai data centre."
+          ]
+        }
+      ]
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-11-25",
+      "text": "The Centre is scheduled to launch the fifth edition of the Nayi Chetna gender campaign on November 25.",
+      "evidence": "Centre to launch fifth edition of Nayi Chetna gender campaign on Nov 25",
+      "id": "8b9c8b835e68ff5591546391"
+    }
+  ],
+  "catalyst_review": "The Nayi Chetna launch is explicitly dated November 25 and represents a distinct nationwide programme milestone. The Madurai restrictions are scheduled to expire on that date unless withdrawn earlier, but apply to a single local event. The exchange holiday, Motorola launch and relative Deepam reference point to November 24. Sugar officials meet November 27, Tata Sons and the Delhi toll comment deadline are November 30, and the summit, school admissions and trade signing preview fall in December. The remaining weekly calendar, parliamentary dates and court or policy previews provide no firm November 25 deliverable."
+}

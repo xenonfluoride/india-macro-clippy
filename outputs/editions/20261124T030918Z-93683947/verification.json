@@ -1,0 +1,62 @@
+{
+  "reviewer": "Codex scheduled editorial session, separate evidence check",
+  "verdict": "approved",
+  "candidate_coverage": "Read all 301 candidates in bounded offsets 0, 40, 80, 120, 160, 200, 240 and 280 through a null next offset, and reviewed 193 prior event keys and titles, rereading the close comparators. Confirmed 7 selected, 126 eligible, 70 linked duplicates and 98 rejected and checked that duplicate links terminate at matching non-duplicate representatives. The relative priority of SEBI’s IPO advisory, the NSEL settlement, DPCC notices, West Bengal voter appeals, the HAL delay, Uber’s pilot and the new Sarvam model was assessed on action, reach and evidence. The prior Bisleri, Scotch and steel events were checked against fresh responses or explainers. Thirteen feeds returned usable responses and two Hindu endpoints returned HTTP 403 after retries.",
+  "hero": "The seven-card hero covers the informal-sector rebound, November survey divergence, possible rice duty and EU deal timing, India–Nepal signatures, Karnataka’s school requirement and the Chennai order. It preserves the provisional survey and tariff or trade-deal status, and describes the compute announcement as an order.",
+  "catalysts": "The captured Hindustan Times headline and summary both explicitly date the fifth Nayi Chetna campaign launch to November 25, the day after publication in IST. The text states a scheduled launch without asserting coverage or outcomes. The Madurai curbs expire on the same date unless withdrawn earlier but are a local restriction rather than a new national deliverable. November 24 exchange, Deepam and phone schedules, November 27 sugar meeting, November 30 Tata and toll deadlines, December dates and undated hints were checked. There is one distinct entry in one closing module.",
+  "cards": [
+    {
+      "id": "fb8c2fd26e66bd86c118945f",
+      "factual_support": "The summary directly supplies 56.3, November, manufacturing and export-order gains, and the weaker services and hiring indicators; the brief retains the flash label.",
+      "analysis": "The aggregate can rise on a factory improvement even with weaker components, and final November survey data are the appropriate check for persistence of that split.",
+      "novelty": "The October manufacturing and services PMI stories cover prior observations. The Economic Times survey and shorter Business Standard account are duplicates of this November composite release."
+    },
+    {
+      "id": "d2cee640014dc0de8f12974d",
+      "factual_support": "The NSO title bounds the figures to the informal sector. The captured summary explicitly reports sequential 9.2% enterprise and 9.7% employment gains, rural leadership and a sharp Q1 decline.",
+      "analysis": "Local spending is an inferred implication of rural informal business recovery, and the next release is a distinct persistence check without assuming all labour-market measures improved.",
+      "novelty": "The earlier quarterly and October monthly PLFS issues used unemployment and participation measures. This NSO enterprise and employment release captures a different universe and metric."
+    },
+    {
+      "id": "be6b312595303ad12223cf6a",
+      "factual_support": "The headline says the EU ambassador expects possible mid-2027 entry into force, and the summary identifies Jean-Eric Paquet and the need for European Parliament approval.",
+      "analysis": "Approval affects when tariff preferences can apply. Signing and the Parliament timetable are observable precursors, with no signing date or completed vote stated.",
+      "novelty": "History includes other trade agreements and goods data, with no prior card on this ambassador timing statement. The separate December 16 signing preview was grouped and its unconfirmed date omitted."
+    },
+    {
+      "id": "b8d22568779d79cef37cde33",
+      "factual_support": "The Economic Times headline supplies the contemplated 20% rate and limited rice scope. The summary confirms the proposal status, domestic-supply rationale and impact on poultry and cattle feed.",
+      "analysis": "A duty can reduce export incentives on covered rice; a formal notification would establish actual coverage and commencement. The brief does not name broken rice as definitively covered.",
+      "novelty": "This is a new rice export-policy option. Prior maize allocation pressure, sugar import relief and fuel export duties involve different commodities and actions."
+    },
+    {
+      "id": "8788eac66302fe20fed4469d",
+      "factual_support": "The HT title reports eight signed MoUs including space and security. The summary specifies the announcement and value of 24,000 crore Nepali rupees, with no disbursement claimed.",
+      "analysis": "Development funding depends on implementation terms, and project identification and releases are observable milestones without implying funds have already moved.",
+      "novelty": "The eight agreements and package are distinct bilateral outcomes, with the alternate dollar-valued package reports grouped. The bridge and train launches and announced campus are separate outcomes."
+    },
+    {
+      "id": "faea8bf3b56fbf3e2f4e4b6e",
+      "factual_support": "The summary expressly lists free biodegradable sanitary napkins for girls in Classes 6 to 12 across government, aided and private schools. The brief states the mandate without claiming delivery.",
+      "analysis": "Providing products at school could remove access and cost barriers. Delivery schedules and state compliance checks are the practical evidence to look for next.",
+      "novelty": "The Karnataka statewide school-service requirement is separate from earlier education scholarship rules, health surveillance and the November 25 central gender campaign launch."
+    },
+    {
+      "id": "145d60df6394877cf1769a90",
+      "factual_support": "The Business Standard headline reports the ₹5,000 crore order; the summary attributes the multi-year engagement, group company, model of GPU and Chennai site to L&T.",
+      "analysis": "Additional chips could increase local computing capacity after installation. The first deployment milestone and customer availability stay prospective.",
+      "novelty": "This Chennai hardware engagement differs from the national Crisil capacity forecast, earlier India hosting launches and prior fibre-network plans. No other card repeats this order."
+    }
+  ],
+  "schema_version": 2,
+  "run_id": "20261124T030918Z-93683947",
+  "checked_at": "2026-11-24T03:29:08Z",
+  "input_hashes": {
+    "capture.json": "c0c119ddafb7c23276fdbcae053e11b40714aaaf92c2eab93ba8d61a1e138d1b",
+    "history.json": "58672185ed5f7069a58c528ed8c698f0d7d1a3dbfdcbda7fb595344d73d06bf3",
+    "review.json": "a92eaa065a95040f60754ed5a8825e030774f21d2a276ceeff7c5bb66bf7feb0",
+    "edition.json": "605f38e3c4de8dbf45145dd86062cfddbdb4d7ef53f9d5d3e400d71cba28aaad",
+    "market.json": "2a42b484264a51e73bced10a598645f932ac0ffa3e96a98a8d9ab1304ea077ed"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4"
+}
