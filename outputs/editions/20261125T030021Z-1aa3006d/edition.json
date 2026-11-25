@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-25",
+  "issue": 39,
+  "hero": "ICRA’s October activity gauge reached a three-year high, helped by a low base. New government buying rules favour Indian hardware design and chipmaking, while the Commerce Ministry seeks a fix for Scotch import duties. The Supreme Court ruled on IDBI Bank’s constitutional status, and climate talks stalled over fossil fuels. A KPMG–CII report measures AI agent use, and Shadowfax has a deal to expand into same-day delivery.",
+  "cards": [
+    {
+      "mechanism": "Improvement across more than half the indicators suggests the pickup extended beyond a few series, although the low base helped lift the headline rate.",
+      "watch": "Watch whether the next reading shows improvement across a similar share of indicators.",
+      "claims": [
+        {
+          "statement": "ICRA said economic activity growth reached 12.8% in October, a 36-month high on its measure.",
+          "evidence": [
+            "Economic activity growth hits 36-month high of 12.8% in October: ICRA"
+          ]
+        },
+        {
+          "statement": "The rating agency said a low base partly drove the rise and that 11 of 16 high-frequency indicators improved.",
+          "evidence": [
+            "Growth was partly driven by a low base",
+            "improved performance across 11 of 16 high-frequency indicators"
+          ]
+        }
+      ],
+      "id": "08ce0bfd1da1a3d87212d37e",
+      "lane": "macro",
+      "headline": "Economic activity growth hits 36-month high of 12.8% in October: ICRA",
+      "brief": "ICRA said economic activity growth reached 12.8% in October, a 36-month high on its measure. The rating agency said a low base partly drove the rise and that 11 of 16 high-frequency indicators improved."
+    },
+    {
+      "mechanism": "The procurement criteria give vendors a reason to move more design and component work into India when competing for government orders.",
+      "watch": "Look for tender documents that spell out how buyers will score domestic design and chipmaking.",
+      "claims": [
+        {
+          "statement": "MeitY revised the rules for government purchases of IT hardware to reward local research and development, design and chip manufacturing.",
+          "evidence": [
+            "Meity revises ‘Made in India’ rules for govt IT hardware purchases",
+            "procurement rules reward local R&D, design and chip manufacturing, not just assembly"
+          ]
+        }
+      ],
+      "id": "1caad8345193b6df0aae84a8",
+      "lane": "macro",
+      "headline": "Meity revises ‘Made in India’ rules for govt IT hardware purchases",
+      "brief": "MeitY revised the rules for government purchases of IT hardware to reward local research and development, design and chip manufacturing."
+    },
+    {
+      "mechanism": "The classification determines which duty applies, so a customs resolution could affect both import costs and the time shipments spend awaiting clearance.",
+      "watch": "Look for written customs guidance or confirmation that the pending consignments have been released.",
+      "claims": [
+        {
+          "statement": "The Commerce Ministry is working with the Finance Ministry, importers and UK authorities to resolve a customs classification issue affecting Scotch whisky duty concessions under the India–UK trade pact.",
+          "evidence": [
+            "The Commerce Ministry is working with the Finance Ministry, importers and UK authorities to resolve a customs classification issue affecting duty concessions on Scotch whisky imports under the India-UK trade pact."
+          ]
+        },
+        {
+          "statement": "Commerce Secretary Rajesh Agarwal has urged the DRI to release pending consignments.",
+          "evidence": [
+            "Commerce Secretary Rajesh Agarwal said India remains committed to its tariff obligations and has urged the DRI to release pending consignments."
+          ]
+        }
+      ],
+      "id": "7d92666bd115b30a9c473cca",
+      "lane": "macro",
+      "headline": "India, UK working to resolve technical glitch over Scotch whisky duty concessions under trade pact",
+      "brief": "The Commerce Ministry is working with the Finance Ministry, importers and UK authorities to resolve a customs classification issue affecting Scotch whisky duty concessions under the India–UK trade pact. Commerce Secretary Rajesh Agarwal has urged the DRI to release pending consignments."
+    },
+    {
+      "mechanism": "The classification affects which constitutional remedies officers can seek against the bank in employment disputes.",
+      "watch": "Watch which legal routes officers pursue in any subsequent benefits disputes.",
+      "claims": [
+        {
+          "statement": "The Supreme Court held that IDBI Bank falls outside the definition of State under Article 12 of the Constitution and dismissed appeals by its officers’ association.",
+          "evidence": [
+            "The Supreme Court has ruled that IDBI Bank is not 'State' under Article 12 of the Constitution, dismissing appeals by its officers' association."
+          ]
+        }
+      ],
+      "id": "f8258cd5ca5d9ac6fc07e0b0",
+      "lane": "national",
+      "headline": "‘IDBI Bank’ not ‘State’ under Article 12, rules Supreme Court; dismisses appeal by association | What we know",
+      "brief": "The Supreme Court held that IDBI Bank falls outside the definition of State under Article 12 of the Constitution and dismissed appeals by its officers’ association."
+    },
+    {
+      "mechanism": "An agreement on who finances the transition could give India and other developing countries more room to accept common targets.",
+      "watch": "Watch whether the next negotiating text pairs fossil-fuel language with a concrete financing commitment.",
+      "claims": [
+        {
+          "statement": "Countries at the UN climate summit in Antalya failed to agree on reaffirming the commitment to move away from fossil fuels.",
+          "evidence": [
+            "The UN climate summit in Antalya, Türkiye, ended without consensus, with countries unable to agree on reaffirming the commitment to transition away from fossil fuels."
+          ]
+        },
+        {
+          "statement": "India challenged the push for new targets without addressing historical use of the carbon budget and who would pay for the transition.",
+          "evidence": [
+            "India challenged the attempt to set new global targets without addressing who had used up the carbon budget and who must pay for the transition."
+          ]
+        }
+      ],
+      "id": "3dd57a052a71f361b3ff2565",
+      "lane": "national",
+      "headline": "Fossil fuel divide fractures consensus at climate talks in Antalya",
+      "brief": "Countries at the UN climate summit in Antalya failed to agree on reaffirming the commitment to move away from fossil fuels. India challenged the push for new targets without addressing historical use of the carbon budget and who would pay for the transition."
+    },
+    {
+      "mechanism": "Automating individual processes gives companies a way to test AI agents before expanding their use across teams.",
+      "watch": "Watch whether subsequent employer surveys report more use in day-to-day operations and track the resulting changes in work.",
+      "claims": [
+        {
+          "statement": "A report by KPMG in India and the Confederation of Indian Industry found that 93% of leaders intend to use AI agents to expand what their workforce can do and 59% already use agents to automate workstreams or business processes.",
+          "evidence": [
+            "93 per cent of leaders intending to use the technology to expand workforce capabilities and 59 per cent already using AI agents to automate workstreams or business processes",
+            "according to a joint report by KPMG in India and the Confederation of Indian Industry (CII)"
+          ]
+        }
+      ],
+      "id": "7a0d04cd1525ca998cfd0917",
+      "lane": "tech",
+      "headline": "AI agents set to reshape Indian workplaces as 93% of leaders plan adoption: KPMG-CII report",
+      "brief": "A report by KPMG in India and the Confederation of Indian Industry found that 93% of leaders intend to use AI agents to expand what their workforce can do and 59% already use agents to automate workstreams or business processes."
+    },
+    {
+      "mechanism": "Adding a same-day intra-city network could help Shadowfax serve merchants whose orders need to move within a single city.",
+      "watch": "Watch for Shadowfax to announce which cities and merchant services it will add through the deal.",
+      "claims": [
+        {
+          "statement": "Inc42 reported a ₹23.3 crore deal for Shadowfax to acquire the Indian entity of Borzo, the same-day intra-city delivery platform formerly known as WeFast.",
+          "evidence": [
+            "Shadowfax To Acquire WeFast To Expand Into Intra-City Deliveries",
+            "the Indian entity of global same-day intra-city delivery platform Borzo (formerly known as WeFast) for ₹23.3 Cr"
+          ]
+        }
+      ],
+      "id": "ece3518f167812f5f632ccb6",
+      "lane": "tech",
+      "headline": "Shadowfax To Acquire WeFast To Expand Into Intra-City Deliveries",
+      "brief": "Inc42 reported a ₹23.3 crore deal for Shadowfax to acquire the Indian entity of Borzo, the same-day intra-city delivery platform formerly known as WeFast."
+    }
+  ],
+  "catalysts": [],
+  "catalyst_review": "No material India-specific November 26 catalyst is supported. The Nagpur Constitution Day rally has a date but no stated policy decision. The US Thanksgiving exchange closure changes overseas trading hours. The Yamuna Expressway speed change and Wednesday bail hearing point to November 25 from November 24 reporting. The December vehicle price changes, bank strike threat, gas auction and possible aircraft delivery fall later. JioStar provides only a week-level schedule for cuts.",
+  "schema_version": 2,
+  "run_id": "20261125T030021Z-1aa3006d",
+  "created_at": "2026-11-25T03:09:33.941769+00:00",
+  "hero_card_ids": [
+    "08ce0bfd1da1a3d87212d37e",
+    "1caad8345193b6df0aae84a8",
+    "7d92666bd115b30a9c473cca",
+    "f8258cd5ca5d9ac6fc07e0b0",
+    "3dd57a052a71f361b3ff2565",
+    "7a0d04cd1525ca998cfd0917",
+    "ece3518f167812f5f632ccb6"
+  ]
+}

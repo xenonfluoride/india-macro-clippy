@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "verdict": "approved",
+  "reviewer": "Codex, separate evidence pass in the November 25 editorial session",
+  "candidate_coverage": "Read all 282 title and summary pairs at offsets 0, 40, 80, 120, 160, 200, 240 and 280 through the null cursor and checked the 200 entry history ledger. Found 6 selections, 1 update, 110 eligible alternatives, 104 rejections and 61 links to nonduplicate representatives. Compared the alternate Jefferies activity gauge, broader prospective customs review, airport fee ruling, satellite contract and robotics raise. Kept the unrelated overseas leadership episode out and separated the IDBI ruling from the sale. The Hindu Economy and Technology feeds returned HTTP 403; all other feeds supplied evidence. The separate Yahoo snapshot contains all four quotes.",
+  "hero": "Rechecked each of the seven references. The ICRA comparison preserves the low base, the procurement reference stays inside government hardware, and the Scotch fix remains work in progress. IDBI refers to a court ruling, the fossil-fuel disagreement refers to the Antalya summit. AI figures are from a report, and Shadowfax is described as a deal without a closing date.",
+  "catalysts": "Checked November 26 mentions and relative dates. The Nagpur Constitution Day rally has no stated policy deliverable, and the Thanksgiving closure concerns foreign trading hours. The November 24 Yamuna Expressway report's tomorrow and the hearing's Wednesday both resolve to November 25. JioStar gives only a week-level timeframe and the dated December changes fall later. The empty list results in one closing absence module.",
+  "cards": [
+    {
+      "id": "08ce0bfd1da1a3d87212d37e",
+      "factual_support": "Headline supplies ICRA, October, 12.8% and the 36-month high. Summary supplies the low base and improvement in 11 of 16 indicators. The brief presents an ICRA measure of activity.",
+      "analysis": "Breadth is inferred from the tally of improving indicators and the watch asks for comparable breadth in the next reading.",
+      "novelty": "ICRA's October series is distinct from published October wholesale and retail inflation, October PMI and November flash PMI. The differently measured Jefferies reading remains separate."
+    },
+    {
+      "id": "1caad8345193b6df0aae84a8",
+      "factual_support": "The title identifies MeitY's government hardware procurement revision. The summary supports each of the three qualifying local activities. The final brief gives no tender scores or implementation date.",
+      "analysis": "The mechanism describes an incentive for bidders; the watch identifies future tender scoring as the observable test.",
+      "novelty": "Same revision as the Business Standard recast, explicitly grouped. Distinct from prior Logitech assembly and HCL–Rapidus development centres."
+    },
+    {
+      "id": "7d92666bd115b30a9c473cca",
+      "factual_support": "The ET summary names the coordinating parties, the customs classification issue and Agarwal's request to the DRI. Neither clearance of shipments nor a revised rate is claimed.",
+      "analysis": "Duty and clearance effects are conditional on a resolution. The watch asks for a customs document or evidence of shipment release.",
+      "novelty": "The November 19 ledger entry reported the 162.5% effective levy and stranded containers. This update adds named coordination and a specific request to release pending consignments."
+    },
+    {
+      "id": "f8258cd5ca5d9ac6fc07e0b0",
+      "factual_support": "The Mint summary directly supports the Article 12 classification and dismissal of the officers' association appeals.",
+      "analysis": "The mechanism is limited to constitutional routes in employment disputes. The watch makes future proceedings conditional.",
+      "novelty": "Distinct from the October IDBI stake-sale clearance and from the November ruling on constitutional scrutiny of government-controlled societies."
+    },
+    {
+      "id": "3dd57a052a71f361b3ff2565",
+      "factual_support": "Mongabay describes the lack of agreement over reaffirming the transition and India's objection concerning the carbon budget and financing. The brief confines the impasse to the reported negotiating issue.",
+      "analysis": "The financing mechanism reflects India's stated concern and remains conditional. The next textual signal is the treatment of both transition and finance.",
+      "novelty": "A summit negotiating result with a specified Indian position, distinct from the published UNEP emissions analysis and domestic renewable projects."
+    },
+    {
+      "id": "7a0d04cd1525ca998cfd0917",
+      "factual_support": "The joint report supports both reported shares and distinguishes intended workforce use from current process automation. The brief keeps its leader/report remit.",
+      "analysis": "Process-level tests are an inference about adoption. The watch asks for later survey evidence of sustained use and work changes.",
+      "novelty": "Different from the BCG employee survey considered in this capture and from earlier tool launches, enterprise partnerships and data-residency items."
+    },
+    {
+      "id": "ece3518f167812f5f632ccb6",
+      "factual_support": "Inc42 supports the price, Indian legal-entity scope, same-day intra-city focus and WeFast alias. The headline is prospective and the summary past-tense, so the brief reports a deal without asserting closing.",
+      "analysis": "A wider merchant delivery network is conditional on integration; the watch asks for city and service specifics.",
+      "novelty": "The rounded Business Standard account is linked as the same transaction. The deal is separate from FarEye's prior Flipkart deployment and Provision Labs' separate acquisition."
+    }
+  ],
+  "input_hashes": {
+    "capture.json": "bc3df126ea157e1fa1f7ec6b7d72e56a1a1ad6c40b16724f04d80ecfe008b8a5",
+    "history.json": "eca27cc3d22b7a4bce3dce2ea702d60a3e57c53021de740daed22da490dd42e8",
+    "review.json": "306d4068b42e1115d0926082fcea701980410b15c0c7324304a6271337fee587",
+    "edition.json": "6723e23f55f489ef3fcc86326917904c4fd46be56c69bc88acd58e35dcd39303",
+    "market.json": "a84811e95e0649e47f2c268fc2d75cd4a2d0f74d03837afcba7c4ee9eb51ac89"
+  },
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "checked_at": "2026-11-25T03:10:48.889623+00:00"
+}
