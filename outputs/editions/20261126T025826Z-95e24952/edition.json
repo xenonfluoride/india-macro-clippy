@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "brief": "The US proposed tariffs of up to 25% on India under its Section 301 probe, with a 17% rate on offer if the two countries reach a trade deal.",
+      "claims": [
+        {
+          "evidence": [
+            "US proposes up to 25% tariff on India, offers 17% upon trade deal",
+            "Second-steepest tariff among those facing Section 301 probe"
+          ],
+          "statement": "The US proposed tariffs of up to 25% on India under its Section 301 probe, with a 17% rate on offer if the two countries reach a trade deal."
+        }
+      ],
+      "headline": "US proposes up to 25% tariff on India, offers 17% upon trade deal",
+      "id": "2a773048d99b522b80fff930",
+      "lane": "macro",
+      "mechanism": "The gap between the two rates could change how much US buyers pay for Indian goods and which suppliers they use.",
+      "watch": "Watch for a signed agreement or a final tariff notice that specifies the covered goods and start date."
+    },
+    {
+      "brief": "India’s ₹11,000 crore equipment scheme will offer sales-linked incentives of 8–13% over five years to support domestic production of construction and infrastructure equipment and components.",
+      "claims": [
+        {
+          "evidence": [
+            "₹11,000 crore for infrastructure equipment",
+            "The scheme will provide sales-linked incentives of 8-13 per cent over five years to boost domestic manufacturing of construction and infrastructure equipment and components"
+          ],
+          "statement": "India’s ₹11,000 crore equipment scheme will offer sales-linked incentives of 8–13% over five years to support domestic production of construction and infrastructure equipment and components."
+        }
+      ],
+      "headline": "Heavier Make in India push: ₹11,000 crore for infrastructure equipment",
+      "id": "1fd9ee2d3efb199ae2e7caf5",
+      "lane": "macro",
+      "mechanism": "Tying support to sales could make it easier for local equipment makers to justify expanding production.",
+      "watch": "Watch for operating guidelines that identify eligible products and the sales thresholds manufacturers must meet."
+    },
+    {
+      "brief": "RBI data showed India’s net foreign direct investment fell to negative $4.95 billion in September 2026 as gross inflows eased and repatriation rose.",
+      "claims": [
+        {
+          "evidence": [
+            "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
+            "The month of September 2026 marked a decline in net foreign direct investment in India, reaching negative USD 4.95 billion, primarily due to decreasing gross inflows and more substantial foreign investment repatriations."
+          ],
+          "statement": "RBI data showed India’s net foreign direct investment fell to negative $4.95 billion in September 2026 as gross inflows eased and repatriation rose."
+        }
+      ],
+      "headline": "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
+      "id": "d8a2bfa56d72cdd81090ac32",
+      "lane": "macro",
+      "mechanism": "When more investment is repatriated as new inflows slow, less foreign capital stays in India.",
+      "watch": "Watch the next RBI release for whether gross inflows recover or repatriation continues to weigh on net investment."
+    },
+    {
+      "brief": "A year after India introduced its labour reforms, only three states had notified and enforced rules, Hindustan Times reported. The codes consolidate labour regulations and extend social security, particularly for unorganised workers.",
+      "claims": [
+        {
+          "evidence": [
+            "One year since labour reforms introduced, only 3 states notify, enforce rules"
+          ],
+          "statement": "A year after India introduced its labour reforms, only three states had notified and enforced rules, Hindustan Times reported."
+        },
+        {
+          "evidence": [
+            "The labour codes consolidate labour regulations and expand social security, particularly for unorganised sector workers."
+          ],
+          "statement": "The codes consolidate labour regulations and extend social security, particularly for unorganised workers."
+        }
+      ],
+      "headline": "One year since labour reforms introduced, only 3 states notify, enforce rules",
+      "id": "e0147837114bd9a3e800fb43",
+      "lane": "national",
+      "mechanism": "Uneven implementation leaves employers and workers facing different timelines for changes to compliance and social security.",
+      "watch": "Watch which states issue rules and set enforcement dates."
+    },
+    {
+      "brief": "The Delhi High Court declined to order the reopening of the Kartarpur Corridor, calling the Centre’s decision to suspend it after the 2025 Pahalgam attack a policy matter.",
+      "claims": [
+        {
+          "evidence": [
+            "Delhi HC refuses to reopen Kartarpur Corridor",
+            "The Delhi High Court said the Centre’s decision to suspend the Kartarpur Corridor after the 2025 Pahalgam terror attack was a policy matter."
+          ],
+          "statement": "The Delhi High Court declined to order the reopening of the Kartarpur Corridor, calling the Centre’s decision to suspend it after the 2025 Pahalgam attack a policy matter."
+        }
+      ],
+      "headline": "'No reason to interfere with govt decision': Delhi HC refuses to reopen Kartarpur Corridor",
+      "id": "d14879042b51d8163bcd27b0",
+      "lane": "national",
+      "mechanism": "The ruling leaves renewed pilgrim access dependent on a change in government policy.",
+      "watch": "Watch for an official decision on when pilgrim crossings could resume."
+    },
+    {
+      "brief": "Bharti Airtel plans to invest ₹1,200 crore in data centres in Guwahati, Jorhat and Silchar, with a combined capacity of 40 megawatts. Land is available for all three sites and they could be operational by 2028.",
+      "claims": [
+        {
+          "evidence": [
+            "Bharti Airtel to invest ₹1,200 crore in three data centres in Assam",
+            "The three data centres in Guwahati, Jorhat and Silchar will have a combined capacity of 40 MW"
+          ],
+          "statement": "Bharti Airtel plans to invest ₹1,200 crore in data centres in Guwahati, Jorhat and Silchar, with a combined capacity of 40 megawatts."
+        },
+        {
+          "evidence": [
+            "could be operational by 2028, with land already available for all three facilities"
+          ],
+          "statement": "Land is available for all three sites and they could be operational by 2028."
+        }
+      ],
+      "headline": "Bharti Airtel to invest ₹1,200 crore in three data centres in Assam",
+      "id": "d6627906c9f2e5b3b255cc37",
+      "lane": "tech",
+      "mechanism": "The three sites could give customers in the Northeast more options to host workloads closer to where they run.",
+      "watch": "Watch for construction starts and commissioning dates for each site."
+    },
+    {
+      "brief": "Wipro secured a contract worth more than $500 million from BP that spans about seven years. The deal is expected to bring Wipro about $75 million a year and involve the transfer of 3,000 BP employees.",
+      "claims": [
+        {
+          "evidence": [
+            "Wipro secures over $500 million contract from energy major BP",
+            "The deal spanning around seven years"
+          ],
+          "statement": "Wipro secured a contract worth more than $500 million from BP that spans about seven years."
+        },
+        {
+          "evidence": [
+            "will bring an average of about $75 million in annual business for Wipro and see 3,000 BP employees move to the IT services company"
+          ],
+          "statement": "The deal is expected to bring Wipro about $75 million a year and involve the transfer of 3,000 BP employees."
+        }
+      ],
+      "headline": "Wipro secures over $500 million contract from energy major BP",
+      "id": "d60061d5c9e1a9758270a5eb",
+      "lane": "tech",
+      "mechanism": "Taking on BP staff alongside the work could help Wipro retain the expertise needed to deliver the contract.",
+      "watch": "Watch for the timing of employee transfers and when Wipro starts recognizing revenue from the work."
+    }
+  ],
+  "catalyst_review": "The November 26 feed places the next SP–Congress seat-sharing round on November 27, but the RSS establishes electoral bargaining and leaves any policy outcome unspecified. West Bengal exhibitors' earlier plan to stop screening a film on November 27 is unsettled after a state scheduling direction. Black Friday coverage gives a seasonal retail forecast rather than a discrete dated Indian event with a decision to track. Tata Sons' board discussion is Monday, the cancelled Bengaluru screening was scheduled for November 28, and the teachers' action starts December 1.",
+  "catalysts": [],
+  "created_at": "2026-11-26T03:07:09.642207+00:00",
+  "date": "2026-11-26",
+  "hero": "Washington’s proposed tariffs put the terms of a US trade deal back in focus. India set out sales-linked support for equipment makers and posted negative net FDI in September. Labour-code implementation remains uneven and the Kartarpur Corridor stays closed. Airtel plans three data centres in Assam, and Wipro won a multiyear contract from BP.",
+  "hero_card_ids": [
+    "2a773048d99b522b80fff930",
+    "1fd9ee2d3efb199ae2e7caf5",
+    "d8a2bfa56d72cdd81090ac32",
+    "e0147837114bd9a3e800fb43",
+    "d14879042b51d8163bcd27b0",
+    "d6627906c9f2e5b3b255cc37",
+    "d60061d5c9e1a9758270a5eb"
+  ],
+  "issue": 40,
+  "run_id": "20261126T025826Z-95e24952",
+  "schema_version": 2
+}

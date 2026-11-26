@@ -132,3 +132,7 @@ Each issue must have a publishable RSS selection, a successful separate market-d
 ## 2026-11-23: Separate Pages upload from deployment
 
 The artifact upload finalized successfully but same-job deployment immediately listed zero artifacts; rerunning the combined job then listed duplicate artifacts under the default name. Assembly and upload now run in a separate build job, with a unique artifact name per run and build attempt passed to the dependent deployment job. A failed deployment can be retried without another upload. Preserve failed evidence and require live run-ID verification.
+
+## 2026-11-26 Daybreak feed trial
+
+Daybreak from The Ken adds one week of business reporting leads across Clippy's beats, from 26 November through 2 December IST. Use RSS titles and show notes for the daily issue and check underlying event timing before selecting an episode. A public transcript can inform a separate India Long View follow-up with primary-source verification.

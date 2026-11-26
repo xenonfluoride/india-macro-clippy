@@ -1,0 +1,61 @@
+{
+  "candidate_coverage": "The session read all 338 RSS title and summary pairs in nine context batches through the null cursor and compared the 207 history entries. The 338 unique reviews include 70 explicit duplicate links. Alternative cards included the new services producer price reading, state GDP inputs, the Air India integration plan, Navi's UPI share, the PM-SETU approval tally and late-stage e-commerce succession. Both Daybreak show notes were checked for timing and overlap. The caregiver and management-role trend stories lack a newly dated underlying event. Both Hindu endpoint 403s were retained in the capture and did not generate candidate records.",
+  "cards": [
+    {
+      "analysis": "Landed costs and choice of supplier are conditional effects of the proposed rate gap. A signed deal or final notice could settle the terms and effective date.",
+      "factual_support": "The Business Standard title supports both up to 25% and a 17% offer contingent on a trade deal, with Section 301 in its summary. The brief avoids treating either rate as active or adding the product-exemption details from another outlet.",
+      "id": "2a773048d99b522b80fff930",
+      "novelty": "This is the new US proposal and conditional rate, distinct from prior October export volume coverage and India-EU negotiations. The excess-capacity response, rate comparisons and other retellings are clustered."
+    },
+    {
+      "analysis": "Additional production is framed as an economic possibility. Operating guidelines and eligibility details would be the next verifiable implementation signal.",
+      "factual_support": "The headline establishes the ₹11,000 crore sum and the summary establishes 8–13% sales-linked incentives, five years and covered equipment or components. The brief claims no payments, volumes or factory openings.",
+      "id": "1fd9ee2d3efb199ae2e7caf5",
+      "novelty": "The earlier container, textile and minerals policies are different schemes. The Cabinet roundup is grouped with the equipment coverage, and postal funding remains a separate event."
+    },
+    {
+      "analysis": "The mechanism is about the capital retained after flows, and the next release can reveal whether the two named drivers persist.",
+      "factual_support": "Economic Times attributes the September data to RBI and specifies a negative $4.95 billion net result with weaker gross inflows and higher repatriation. The truncated portfolio numbers are omitted.",
+      "id": "d8a2bfa56d72cdd81090ac32",
+      "novelty": "Earlier capital-pressure and liquidity stories did not publish this September direct investment release. The separate equity portfolio rebound and RBI spot purchases measure different flows."
+    },
+    {
+      "analysis": "Different state implementation dates can produce uneven obligations and coverage. The next signal is rule publication and enforcement scheduling.",
+      "factual_support": "The Hindustan Times title supplies the three-state implementation tally one year after reforms. The summary supplies consolidation and social-security scope, without naming states or asserting that stated benefits were delivered nationally.",
+      "id": "e0147837114bd9a3e800fb43",
+      "novelty": "The state implementation count is new. Prior jobs, social-security and workforce coverage did not establish this count, and the current employer survey measures compliance experiences separately."
+    },
+    {
+      "analysis": "The inference concerns executive control over resuming pilgrim crossings. The watch treats a resumption decision as an open question.",
+      "factual_support": "The Delhi High Court refusal is in the title and the summary ties the existing Centre suspension after the 2025 attack to the court's characterization as a policy matter.",
+      "id": "d14879042b51d8163bcd27b0",
+      "novelty": "The court's refusal is a fresh decision. The 2025 suspension is context and the earlier ledger contains no equivalent corridor ruling."
+    },
+    {
+      "analysis": "Additional options for regional hosting are possible after construction. Site starts and commissioning dates supply distinct delivery evidence.",
+      "factual_support": "The Business Standard title gives Airtel's ₹1,200 crore plan. Its summary gives the three cities, combined 40 MW, available land and conditional 2028 operational timing.",
+      "id": "d6627906c9f2e5b3b255cc37",
+      "novelty": "This three-site Assam plan differs from the earlier national capacity forecast and Chennai GPU deal. The Assam MoU on two sites is related coverage and its figures were not added to the three-site total."
+    },
+    {
+      "analysis": "Continuity of expertise is a conditional benefit of transferring staff with the work. Transfer timing and first revenue recognition will show implementation.",
+      "factual_support": "Mint's headline establishes the awarded BP contract above $500 million. Its summary gives about seven years, approximately $75 million annually and 3,000 future staff transfers. The brief does not assume all staff are in India.",
+      "id": "d60061d5c9e1a9758270a5eb",
+      "novelty": "History has no Wipro–BP award. The other BP finance-transform source reports the same contract, and the prospective Cognizant–S&P transfer is a separate negotiation."
+    }
+  ],
+  "catalysts": "The November 26 IST seat-sharing report's tomorrow is November 27 and refers to negotiations over constituencies. The West Bengal screening discontinuation was an earlier plan, with a subsequent contrary scheduling intervention. The Black Friday excerpt has mall sales expectations rather than a specific announced Indian milestone. The Tata Sons meeting is the following Monday, while the cancelled Bengaluru screening and Maharashtra teachers' action were scheduled for November 28 and December 1 respectively. No qualifying November 27 catalyst was found, so the edition uses one closing absence module.",
+  "checked_at": "2026-11-26T03:08:23.695894+00:00",
+  "hero": "Conditional US trade terms, sales-linked domestic support, the September net FDI result, uneven state labour rules, the continuing Kartarpur closure, the Assam centre plans and Wipro's awarded contract each have a corresponding card. The hero distinguishes a proposed tariff and an infrastructure plan from a court ruling and a secured deal.",
+  "input_hashes": {
+    "capture.json": "c04cbd3cf4e2f8c49376f50e932b56077e47171ab61e407183ed2ad4704ddace",
+    "edition.json": "de9a45bad0d14e7f6802cff7e65aa71450b28fea2641db17285ffcdd9b81e382",
+    "history.json": "cb7a9152352a486de95242151d7256df1fec324882f6833bd0d8df23eff01800",
+    "market.json": "60a5eec273245e95eb92a59d89899f40e2c9f303c4f24ead2f691c643072c96d",
+    "review.json": "05f0829a5b7b92a69937bfba7f418bea44fb6a61743ce94335280495fde2e9de"
+  },
+  "reviewer": "Current Codex session, separate final evidence-check pass",
+  "schema_version": 2,
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "verdict": "approved"
+}

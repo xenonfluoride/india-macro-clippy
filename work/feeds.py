@@ -9,13 +9,14 @@ import json
 import re
 import sys
 from dataclasses import asdict, dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
+from zoneinfo import ZoneInfo
 
 
 USER_AGENT = "IndiaMacroClippy/1.0 RSS reader (personal newsletter)"
@@ -38,6 +39,18 @@ FEEDS = (
     ("YourStory", "tech", "https://yourstory.com/feed"),
     ("Inc42", "tech", "https://inc42.com/feed/"),
 )
+
+DAYBREAK = (
+    "Daybreak (The Ken)", "macro",
+    "https://feeds.transistor.fm/daybreak-3e66db67-ddb3-4cd3-9ba9-460bd586dcbb",
+)
+
+
+def feeds_for_capture(started_at: datetime):
+    issue_day = started_at.astimezone(ZoneInfo("Asia/Kolkata")).date()
+    if date(2026, 11, 26) <= issue_day < date(2026, 12, 3):
+        return (*FEEDS, DAYBREAK)
+    return FEEDS
 
 
 class TextExtractor(HTMLParser):

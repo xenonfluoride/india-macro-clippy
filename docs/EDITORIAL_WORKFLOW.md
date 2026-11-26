@@ -12,11 +12,17 @@ The accepted site is an immutable directory under `outputs/editions/`. `outputs/
 
 ## Capture and history
 
-`capture.json` stores schema_version=2, run_id, mode, captured_at, cutoff, hours, feeds and candidates. Every candidate has id, source, section (feed suggestion), title, summary, link and published_at. ID hashes all original evidence fields except suggested section. Do not edit any original field.
+`capture.json` stores schema_version=2, run_id, mode, started_at, captured_at, cutoff, hours, feeds and candidates. The feed roster uses started_at. Earlier captures use captured_at for the roster. Every candidate has id, source, section (feed suggestion), title, summary, link and published_at. ID hashes all original evidence fields except suggested section. Do not edit any original field.
 
 Raw RSS files are under `raw/`. Live validation reparses them and checks the complete candidate pool, not just selected items. Feed statuses include attempts, exceptions, parser drops and old/future/fresh/exact-duplicate counts. Only exact identical evidence records are collapsed; different source coverage remains available for editorial clustering.
 
 `history.json` snapshots the accepted publication ledger. On migration it is seeded from the last legacy edition. Older editions remain in Git and should be considered manually when relevant; the initial seed does not pretend to reconstruct all historical events. Promotion checks that history has not changed while the edition was being prepared.
+
+### Daybreak trial
+
+Daybreak from The Ken is included in regular captures started from 26 November through 2 December 2026 IST. Use the episode title and RSS show notes for daily review. The release date determines whether an episode enters the review window. The notes need to establish a fresh underlying development with enough evidence to qualify for the daily issue. Check for reruns, newsletter read-alouds and overlap with other RSS coverage. Record the reason in the usual review and name Daybreak as the source if selected.
+
+Record a promising longer-term angle in the review reason so India Long View can find it. For that separate research workflow, consult a public transcript when available and check material claims against the relevant filings, data or policy documents. At the end of the trial, use feed diagnostics and candidate reviews to assess reliability, distinct leads and how often their show notes established timely news.
 
 ## Review every candidate
 

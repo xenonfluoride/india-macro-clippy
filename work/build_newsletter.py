@@ -12,7 +12,7 @@ import time
 from urllib.request import Request, urlopen
 from uuid import uuid4
 
-from feeds import FEEDS, USER_AGENT, parse_payload
+from feeds import USER_AGENT, feeds_for_capture, parse_payload
 from newsletter import ROOT, TEMPLATE, candidate_id, digest, now_utc, publication_history, read, save_new, stamp
 
 
@@ -49,7 +49,7 @@ def capture(hours=36, *, replay=None, runs=None):
     if not 0 < hours <= 36:
         raise ValueError('--hours must be between 1 and 36')
     runs = Path(runs or ROOT / 'work/runs')
-    now = now_utc()
+    started_at = now = now_utc()
     run_id = now.strftime('%Y%m%dT%H%M%SZ') + '-' + uuid4().hex[:8]
     run = runs / run_id
     run.mkdir(parents=True, exist_ok=False)
@@ -58,6 +58,7 @@ def capture(hours=36, *, replay=None, runs=None):
     if replay:
         old = read(replay)
         now = stamp(old['fetched_at'] if 'fetched_at' in old else old['generated_at'])
+        started_at = stamp(old.get('started_at', now.isoformat()))
         all_items = old['items'] if 'items' in old else old['items_retained']
         feeds = old['feeds']
         mode = 'replay'
@@ -65,7 +66,7 @@ def capture(hours=36, *, replay=None, runs=None):
     else:
         (run / 'raw').mkdir()
         with ThreadPoolExecutor(max_workers=5) as pool:
-            fetched = list(pool.map(lambda spec: retrieve(spec, run / 'raw'), FEEDS))
+            fetched = list(pool.map(lambda spec: retrieve(spec, run / 'raw'), feeds_for_capture(started_at)))
         all_items = [x for items, _ in fetched for x in items]
         feeds = [status for _, status in fetched]
         mode = 'live'
@@ -92,6 +93,7 @@ def capture(hours=36, *, replay=None, runs=None):
     for feed in feeds:
         feed['window_counts'] = counts[feed['source']]
     save_new(run / 'capture.json', {'schema_version': 2, 'run_id': run_id, 'mode': mode,
+        'started_at': started_at.isoformat(),
         'captured_at': now.isoformat(), 'cutoff': cutoff.isoformat(), 'hours': hours,
         'feeds': feeds, 'candidates': sorted(candidates, key=lambda x: (x['published_at'], x['id']), reverse=True)})
     save_new(run / 'history.json', publication_history())

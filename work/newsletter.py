@@ -151,6 +151,8 @@ def validate_inputs(run, *, historical=False, now=None):
     require(re.fullmatch(r'[A-Za-z0-9_-]+', run_id), 'Unsafe run ID')
     require(all(d.get('run_id') == run_id for d in (review, edition, market)), 'Mixed run IDs')
     created = stamp(capture['captured_at'])
+    started = stamp(capture.get('started_at', capture['captured_at']))
+    require(started <= created, 'Capture started after its completion timestamp')
     edited = stamp(edition['created_at'])
     require(0 < capture['hours'] <= 36, 'Editorial window must be 1–36 hours')
     cutoff = created - timedelta(hours=capture['hours'])
@@ -164,8 +166,8 @@ def validate_inputs(run, *, historical=False, now=None):
         require(edition['date'] == now.astimezone(IST).date().isoformat(), 'Edition date is not today in IST')
     feeds = capture['feeds']
     require(bool(feeds) and any(not x['error'] for x in feeds), 'No successful source fetches')
-    from feeds import FEEDS
-    expected = {(name, url) for name, _, url in FEEDS}
+    from feeds import feeds_for_capture
+    expected = {(name, url) for name, _, url in feeds_for_capture(started)}
     require({(x['source'], x['url']) for x in feeds} == expected, 'Feed roster incomplete or unrecognized')
     require(len(feeds) == len(expected), 'Duplicate feed status')
     recovered_ids = set()

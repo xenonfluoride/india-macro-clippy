@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>India Macro Clippy: 26 November 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #19231f;
+        --paper: #f4f1e9;
+        --paper-deep: #e9e4d8;
+        --card: #fbfaf6;
+        --muted: #68716c;
+        --rule: #d5d0c3;
+        --green: #006c56;
+        --green-pale: #ddf1e9;
+        --red: #b43b2e;
+        --red-pale: #fae6e1;
+        --yellow: #f4c957;
+        --max: 760px;
+        --serif: "Fraunces", Georgia, serif;
+        --sans: "Manrope", Arial, sans-serif;
+        --mono: "DM Mono", monospace;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      a { color: inherit; text-decoration-color: var(--green); text-underline-offset: 3px; }
+      a:hover { color: var(--green); }
+      a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+      .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+      .eyebrow, .kicker, .meta, .badge, .tape-label, .source, .footer-note {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+      }
+      .masthead { border-top: 8px solid var(--ink); padding: 30px 0 24px; }
+      .masthead-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+      .eyebrow { color: var(--green); font-weight: 500; margin: 0 0 8px; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { font-family: var(--serif); font-size: clamp(40px, 9vw, 68px); line-height: .92; letter-spacing: -.055em; margin: 0; }
+      .issue { max-width: 160px; padding-top: 3px; color: var(--muted); text-align: right; }
+      .issue strong { color: var(--ink); font-weight: 500; }
+      .lede { border-top: 1px solid var(--rule); padding: 22px 0 32px; }
+      .lede p { font-family: var(--serif); font-size: clamp(24px, 5vw, 35px); line-height: 1.15; letter-spacing: -.035em; margin: 0; }
+      .lede mark { background: linear-gradient(transparent 58%, var(--yellow) 58%); color: inherit; padding: 0 .05em; }
+      .tape { background: var(--ink); color: #f5f3eb; padding: 18px 0 20px; }
+      .tape-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 14px; align-items: end; }
+      .tape-label { color: #b9c5be; align-self: center; }
+      .quote { font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+      .quote strong { display: block; font-family: var(--sans); font-size: 17px; letter-spacing: -.02em; }
+      .up { color: #74d8a5; } .down { color: #ff9d8e; } .flat { color: #f5d271; }
+      .catalyst-section { margin: 8px 0 42px; }
+      .catalysts { background: var(--card); border-top: 4px solid var(--green); padding: 0 18px; }
+      .catalyst-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; }
+      .catalyst { display: grid; grid-template-columns: 78px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+      .catalyst:first-child { border-top: 0; }
+      .catalyst-date { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+      .catalyst p { margin: 0; font-size: 14px; line-height: 1.45; }
+      .catalyst strong { display: block; color: var(--ink); }
+      main { padding: 44px 0 24px; }
+      .section-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin: 0 0 22px; }
+      h2 { font-family: var(--serif); font-size: 30px; line-height: 1; letter-spacing: -.04em; margin: 0; }
+      .section-head p { color: var(--muted); margin: 0; text-align: right; }
+      .story { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule); }
+      .story:last-child { margin-bottom: 43px; }
+      .story-no { color: var(--green); font-family: var(--serif); font-size: 27px; line-height: 1; }
+      h3 { font-family: var(--serif); font-size: clamp(22px, 4vw, 29px); letter-spacing: -.035em; line-height: 1.08; margin: 0 0 8px; }
+      .story p { margin: 0 0 12px; }
+      .why { font-weight: 600; }
+      .why span { color: var(--green); font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+      .source { color: var(--muted); }
+      footer { background: var(--paper-deep); border-top: 1px solid var(--rule); padding: 29px 0 34px; }
+      footer p { margin: 0; }
+      .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 16px; }
+      .footer-note { color: var(--muted); line-height: 1.55; }
+      .disclaimer { margin-top: 20px; font-size: 12px; color: var(--muted); }
+
+      @media (max-width: 640px) {
+        .shell { width: min(calc(100% - 28px), var(--max)); }
+        .masthead { padding-top: 23px; }
+        .masthead-row, .section-head, .footer-grid { display: block; }
+        .issue, .section-head p { text-align: left; margin-top: 14px; }
+        .tape-grid { grid-template-columns: repeat(2, 1fr); gap: 17px; }
+        .tape-label { grid-column: 1 / -1; }
+        .catalyst-list { grid-template-columns: 1fr; gap: 20px; }
+        main { padding-top: 34px; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #edf0eb; --paper: #18211d; --paper-deep: #222d27; --card: #1d2822; --muted: #b6c0b9; --rule: #415048; --green: #77d8af; --green-pale: #253d32; --red: #ff9a8c; --yellow: #efc95c; }
+        .tape { background: #0c120e; }
+      }
+      @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead-row">
+        <div>
+          <p class="eyebrow">India Macro + Technology · last 36 hours only</p>
+          <h1>India Macro<br />Clippy</h1>
+        </div>
+        <p class="issue meta"><strong>Issue 040</strong><br />26 November 2026<br /><span id="rss-status">RSS edition · 20261126T025826Z-95e24952</span></p>
+      </div>
+    </header>
+
+    <section class="lede" aria-label="Executive take">
+      <div class="shell">
+        <p data-pretext contenteditable="true">Washington’s proposed tariffs put the terms of a US trade deal back in focus. India set out sales-linked support for equipment makers and posted negative net FDI in September. Labour-code implementation remains uneven and the Kartarpur Corridor stays closed. Airtel plans three data centres in Assam, and Wipro won a multiyear contract from BP.</p>
+      </div>
+    </section>
+
+    <section class="tape" aria-label="Market tape">
+      <div class="shell tape-grid"><p class="tape-label">Market tape<br /><span class="flat">Yahoo Finance price data · daily bar snapshots</span></p><div class="quote"><strong>25,819.25</strong><span class="up">Nifty 50 · +1.85%</span><span class="flat">25 Nov 03:45 UTC</span></div><div class="quote"><strong>83,938.28</strong><span class="up">Sensex · +1.82%</span><span class="flat">25 Nov 03:45 UTC</span></div><div class="quote"><strong>₹92.807</strong><span class="up">USD/INR · -0.12%</span><span class="flat">25 Nov 00:00 UTC</span></div><div class="quote"><strong>$90.58</strong><span class="down">Brent · -4.26%</span><span class="flat">26 Nov 02:48 UTC</span></div></div>
+    </section>
+
+    <main class="shell">
+      <section aria-labelledby="macro-title">
+        <div class="section-head">
+          <h2 id="macro-title">Macro</h2>
+          <p class="meta">Policy, prices, external balance</p>
+        </div>
+
+        <article class="story" data-candidate="2a773048d99b522b80fff930"><div class="story-no">01</div><div><h3>US proposes up to 25% tariff on India, offers 17% upon trade deal</h3><p>The US proposed tariffs of up to 25% on India under its Section 301 probe, with a 17% rate on offer if the two countries reach a trade deal.</p><p class="why"><span>Why it matters</span><br />The gap between the two rates could change how much US buyers pay for Indian goods and which suppliers they use. Watch for a signed agreement or a final tariff notice that specifies the covered goods and start date.</p><p class="source">RSS · <a href="https://www.business-standard.com/economy/news/us-proposes-up-to-25-tariff-on-india-offers-17-upon-trade-deal-126112501255_1.html">Business Standard Economy &amp; Policy, 25 Nov · 18:12 UTC</a></p></div></article>
+<article class="story" data-candidate="1fd9ee2d3efb199ae2e7caf5"><div class="story-no">02</div><div><h3>Heavier Make in India push: ₹11,000 crore for infrastructure equipment</h3><p>India’s ₹11,000 crore equipment scheme will offer sales-linked incentives of 8–13% over five years to support domestic production of construction and infrastructure equipment and components.</p><p class="why"><span>Why it matters</span><br />Tying support to sales could make it easier for local equipment makers to justify expanding production. Watch for operating guidelines that identify eligible products and the sales thresholds manufacturers must meet.</p><p class="source">RSS · <a href="https://www.business-standard.com/industry/news/cabinet-approves-11-000-cr-scheme-for-construction-equipment-manufacturing-126112500797_1.html">Business Standard Economy &amp; Policy, 25 Nov · 11:05 UTC</a></p></div></article>
+<article class="story" data-candidate="d8a2bfa56d72cdd81090ac32"><div class="story-no">03</div><div><h3>Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI</h3><p>RBI data showed India’s net foreign direct investment fell to negative $4.95 billion in September 2026 as gross inflows eased and repatriation rose.</p><p class="why"><span>Why it matters</span><br />When more investment is repatriated as new inflows slow, less foreign capital stays in India. Watch the next RBI release for whether gross inflows recover or repatriation continues to weigh on net investment.</p><p class="source">RSS · <a href="https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms">Economic Times Economy, 25 Nov · 15:37 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="national-title">
+        <div class="section-head">
+          <h2 id="national-title">National &amp; Strategy</h2>
+          <p class="meta">Statecraft, law, security, foreign affairs</p>
+        </div>
+
+        <article class="story" data-candidate="e0147837114bd9a3e800fb43"><div class="story-no">04</div><div><h3>One year since labour reforms introduced, only 3 states notify, enforce rules</h3><p>A year after India introduced its labour reforms, only three states had notified and enforced rules, Hindustan Times reported. The codes consolidate labour regulations and extend social security, particularly for unorganised workers.</p><p class="why"><span>Why it matters</span><br />Uneven implementation leaves employers and workers facing different timelines for changes to compliance and social security. Watch which states issue rules and set enforcement dates.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/one-year-since-labour-reforms-introduced-only-3-states-notify-enforce-rules-101795610492099.html">Hindustan Times India, 25 Nov · 12:53 UTC</a></p></div></article>
+<article class="story" data-candidate="d14879042b51d8163bcd27b0"><div class="story-no">05</div><div><h3>&#x27;No reason to interfere with govt decision&#x27;: Delhi HC refuses to reopen Kartarpur Corridor</h3><p>The Delhi High Court declined to order the reopening of the Kartarpur Corridor, calling the Centre’s decision to suspend it after the 2025 Pahalgam attack a policy matter.</p><p class="why"><span>Why it matters</span><br />The ruling leaves renewed pilgrim access dependent on a change in government policy. Watch for an official decision on when pilgrim crossings could resume.</p><p class="source">RSS · <a href="https://www.hindustantimes.com/india-news/no-reason-to-interfere-with-govt-decision-delhi-hc-refuses-to-reopen-kartarpur-corridor-101795607152823.html">Hindustan Times India, 25 Nov · 11:45 UTC</a></p></div></article>
+      </section>
+
+      <section aria-labelledby="tech-title">
+          <div class="section-head">
+            <h2 id="tech-title">India Tech</h2>
+            <p class="meta">Adoption, infrastructure, builders</p>
+          </div>
+
+          <article class="story" data-candidate="d6627906c9f2e5b3b255cc37"><div class="story-no">06</div><div><h3>Bharti Airtel to invest ₹1,200 crore in three data centres in Assam</h3><p>Bharti Airtel plans to invest ₹1,200 crore in data centres in Guwahati, Jorhat and Silchar, with a combined capacity of 40 megawatts. Land is available for all three sites and they could be operational by 2028.</p><p class="why"><span>Why it matters</span><br />The three sites could give customers in the Northeast more options to host workloads closer to where they run. Watch for construction starts and commissioning dates for each site.</p><p class="source">RSS · <a href="https://www.business-standard.com/companies/news/bharti-airtel-to-invest-1-200-crore-in-three-data-centres-in-assam-126112501173_1.html">Business Standard Companies, 25 Nov · 16:57 UTC</a></p></div></article>
+<article class="story" data-candidate="d60061d5c9e1a9758270a5eb"><div class="story-no">07</div><div><h3>Wipro secures over $500 million contract from energy major BP</h3><p>Wipro secured a contract worth more than $500 million from BP that spans about seven years. The deal is expected to bring Wipro about $75 million a year and involve the transfer of 3,000 BP employees.</p><p class="why"><span>Why it matters</span><br />Taking on BP staff alongside the work could help Wipro retain the expertise needed to deliver the contract. Watch for the timing of employee transfers and when Wipro starts recognizing revenue from the work.</p><p class="source">RSS · <a href="https://www.livemint.com/companies/news/wipro-bags-500-million-contract-from-bp-11795614860412.html">Mint Companies, 25 Nov · 14:59 UTC</a></p></div></article>
+        </section>
+
+      <section class="catalyst-section" aria-labelledby="catalyst-title"><div class="section-head"><h2 id="catalyst-title">Tomorrow’s catalysts</h2><p class="meta">Friday, 27 November</p></div><div class="catalysts"><p>No separate date-specific catalyst qualified in this RSS audit.</p></div></section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <p class="footer-note">India Macro Clippy<br />A short, source-linked briefing for macro, national strategy, market tape, and India tech.</p>
+        <p class="footer-note">Read time · 4 min<br />Sources are linked inline.</p>
+      </div>
+      <div class="shell"><p class="disclaimer">Information, not investment advice. Market prices are shown at each instrument’s stated observation time and may not be live when read.</p></div>
+    </footer>
+
+    <!-- FALLBACK: vendor/pretext.js missing, using a CDN import. CSS remains the layout fallback if offline. -->
+    <script type="module">
+      import { prepare, layout } from "https://esm.sh/@chenglou/pretext";
+      await document.fonts.ready;
+      const elements = [...document.querySelectorAll("[data-pretext]")];
+      const prepared = new Map();
+      function refresh(el) {
+        prepared.set(el, prepare(el.textContent, getComputedStyle(el).font));
+      }
+      function relayout() {
+        for (const [el, handle] of prepared) {
+          const { height } = layout(handle, el.clientWidth, parseFloat(getComputedStyle(el).lineHeight));
+          el.style.minHeight = `${height}px`;
+        }
+      }
+      elements.forEach((el) => {
+        refresh(el);
+        new MutationObserver(() => { refresh(el); relayout(); }).observe(el, { childList: true, characterData: true, subtree: true });
+      });
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    </script>
+  </body>
+</html>

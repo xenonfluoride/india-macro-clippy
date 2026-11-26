@@ -14,7 +14,7 @@ import newsletter as n
 import build_newsletter as b
 import update_market_tape as market
 import alternate_market_sources as alternate
-from feeds import FEEDS, parse_payload
+from feeds import DAYBREAK, FEEDS, feeds_for_capture, parse_payload
 
 NOW = datetime(2026, 10, 12, 8, tzinfo=timezone.utc)
 
@@ -140,6 +140,18 @@ class Contracts(unittest.TestCase):
     def test_original_roster_preserved(self):
         self.assertEqual(len(FEEDS), 15)
         self.assertTrue({'Mint Companies', 'Mint Technology', 'Mongabay India'} <= {x[0] for x in FEEDS})
+
+    def test_daybreak_trial_uses_ist_dates(self):
+        start = datetime(2026, 11, 26, tzinfo=n.IST)
+        end = start + timedelta(days=7)
+        for instant, roster in (
+            (start - timedelta(seconds=1), FEEDS),
+            (start, (*FEEDS, DAYBREAK)),
+            (end - timedelta(seconds=1), (*FEEDS, DAYBREAK)),
+            (end, FEEDS),
+        ):
+            with self.subTest(instant=instant):
+                self.assertEqual(feeds_for_capture(instant.astimezone(timezone.utc)), roster)
 
     def test_missing_review_and_missing_verification_block(self):
         for name in ('review.json', 'verification.json'):

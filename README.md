@@ -24,6 +24,8 @@ See [the editorial workflow](docs/EDITORIAL_WORKFLOW.md) for artifact schemas, r
 | National & Strategy | Hindustan Times India; NDTV India; BBC News India |
 | India Tech | Economic Times Tech; The Hindu Technology; Mint Technology; YourStory; Inc42 |
 
+Daybreak from The Ken joins the daily RSS capture for a one-week trial from 26 November through 2 December 2026 IST. The episode notes can surface stories across the three beats. See the [editorial workflow](docs/EDITORIAL_WORKFLOW.md#daybreak-trial) for review and follow-up.
+
 Feed categories are suggestions. The editor can reassign an onion-price report from a national feed to Macro, or an IT-company event to Tech. Source and theme diversity are soft preferences, never vetoes. Select five to seven distinct, well-supported events globally. Do not exclude an event merely for mentioning a CEO, forecast, fund, publisher or expert.
 
 ## What is authoritative

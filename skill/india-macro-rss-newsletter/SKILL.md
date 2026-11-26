@@ -18,6 +18,8 @@ The roster in `work/feeds.py` contains Business Standard Economy & Policy, Busin
 
 Use original titles, RSS summaries, URLs, sources and publication timestamps only. Never use web search or article bodies to fill missing facts. Raw responses and parser/drop counts are retained. Future-dated and undated records are excluded; updated-only entries cannot silently become new publications.
 
+During the 26 November through 2 December 2026 IST trial, also review Daybreak from The Ken. Use its RSS show notes to establish the date and novelty of the underlying development. Check reruns, newsletter read-alouds and duplicate events. Follow the [Daybreak trial workflow](../../docs/EDITORIAL_WORKFLOW.md#daybreak-trial) for possible India Long View leads.
+
 ## Complete editorial review
 
 Author `review.json` yourself for every candidate ID. Python must not choose stories or synthesize a review. Record event, actor, action_type, india_exposure, mechanism, evidence spans, confidence, materiality, lane, decision and reason. An actor not established by the evidence must be explicitly marked uncertain with a case-specific explanation; never invent one.
