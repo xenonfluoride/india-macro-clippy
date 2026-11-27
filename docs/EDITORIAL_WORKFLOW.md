@@ -16,6 +16,8 @@ The accepted site is an immutable directory under `outputs/editions/`. `outputs/
 
 Raw RSS files are under `raw/`. Live validation reparses them and checks the complete candidate pool, not just selected items. Feed statuses include attempts, exceptions, parser drops and old/future/fresh/exact-duplicate counts. Only exact identical evidence records are collapsed; different source coverage remains available for editorial clustering.
 
+Review retained diagnostics for recurring HTTP 403 responses across runs. The Hindu Economy and Technology feeds were retired for captures starting at 08:46 IST on 27 November 2026. Earlier captures still require both feeds in their status records.
+
 `history.json` snapshots the accepted publication ledger. On migration it is seeded from the last legacy edition. Older editions remain in Git and should be considered manually when relevant; the initial seed does not pretend to reconstruct all historical events. Promotion checks that history has not changed while the edition was being prepared.
 
 ### Daybreak trial

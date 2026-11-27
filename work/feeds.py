@@ -45,12 +45,19 @@ DAYBREAK = (
     "https://feeds.transistor.fm/daybreak-3e66db67-ddb3-4cd3-9ba9-460bd586dcbb",
 )
 
+# Keep retired feed specifications above so archived captures can be reproduced.
+HINDU_RSS_RETIRED_AT = datetime(2026, 11, 27, 3, 16, tzinfo=timezone.utc)
+RETIRED_HINDU_FEEDS = {"The Hindu Economy", "The Hindu Technology"}
+
 
 def feeds_for_capture(started_at: datetime):
+    roster = FEEDS
+    if started_at >= HINDU_RSS_RETIRED_AT:
+        roster = tuple(spec for spec in roster if spec[0] not in RETIRED_HINDU_FEEDS)
     issue_day = started_at.astimezone(ZoneInfo("Asia/Kolkata")).date()
     if date(2026, 11, 26) <= issue_day < date(2026, 12, 3):
-        return (*FEEDS, DAYBREAK)
-    return FEEDS
+        return (*roster, DAYBREAK)
+    return roster
 
 
 class TextExtractor(HTMLParser):

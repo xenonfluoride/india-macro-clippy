@@ -136,3 +136,7 @@ The artifact upload finalized successfully but same-job deployment immediately l
 ## 2026-11-26 Daybreak feed trial
 
 Daybreak from The Ken adds one week of business reporting leads across Clippy's beats, from 26 November through 2 December IST. Use RSS titles and show notes for the daily issue and check underlying event timing before selecting an episode. A public transcript can inform a separate India Long View follow-up with primary-source verification.
+
+## 2026-11-27: Retire The Hindu feeds after recurring access failures
+
+The Hindu Economy and Technology endpoints each returned HTTP 403 after all three attempts in eight of the nine published captures from 17 through 27 November. Retired both from captures starting at 08:46 IST on 27 November. Retained the older roster for reproducible validation of prior editions. Review recurring 403s across runs when deciding whether to retire other endpoints.

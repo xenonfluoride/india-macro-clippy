@@ -4,7 +4,7 @@ The mechanical gate is `python3 -B skill/india-macro-rss-newsletter/scripts/eval
 
 | Area | Required evidence |
 | --- | --- |
-| Capture | All roster sources have status; successful live feeds have raw responses and hashes. Candidate IDs exactly match normalized raw RSS within the window. |
+| Capture | All sources in the roster in effect at capture start have status. Successful live feeds have raw responses and hashes. Candidate IDs exactly match normalized raw RSS within the window. Retired feeds remain required in earlier captures that included them. |
 | Recency | Window is at most 36 hours, cutoff matches capture, no future records. Selected evidence must still be fresh at validation/promotion. Edition date uses IST. |
 | Review | Every candidate has exactly one model-authored assessment with case-specific actor, event, action, exposure, mechanism, reason, confidence and exact RSS evidence. Missing rows or old placeholder strings fail. |
 | Selection | Five to seven high-confidence cards, exactly matching selected/update decisions. No keyword veto, source quota or hard theme exclusion. Event keys are distinct. |

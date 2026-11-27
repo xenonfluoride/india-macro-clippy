@@ -14,7 +14,9 @@ Read this file and `references/evaluation-rubric.md` completely before an editio
 3. Run `python3 -B work/update_market_tape.py --run RUN`. The updater tries Yahoo Finance, then a complete alternate set when Yahoo fails. Use `--alternate` to start with the alternate set. An incomplete or stale snapshot blocks publication. Diagnostics stay in the run.
 4. Read `capture.json`, feed failures and `history.json`. Inspect all candidates using `python3 -B work/newsletter.py context --run RUN --offset 0 --limit 40`; follow every next_offset. Do not dump a whole batch and then treat truncated output as a full review.
 
-The roster in `work/feeds.py` contains Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, The Hindu Economy, Mint Markets, Mint Companies, Mongabay India, Hindustan Times India, NDTV India, BBC News India, Economic Times Tech, The Hindu Technology, Mint Technology, YourStory and Inc42. Read all configured inputs. Feed category does not fix the editorial lane.
+The active base roster in `work/feeds.py` contains Business Standard Economy & Policy, Business Standard Companies, Economic Times Economy, Mint Markets, Mint Companies, Mongabay India, Hindustan Times India, NDTV India, BBC News India, Economic Times Tech, Mint Technology, YourStory and Inc42. Read all configured inputs for the capture. Feed category does not fix the editorial lane.
+
+Review retained diagnostics for recurring HTTP 403 responses across runs. Retire affected endpoints for new captures and keep the earlier roster available for validation. The Hindu Economy and Technology feeds were retired at 08:46 IST on 27 November 2026.
 
 Use original titles, RSS summaries, URLs, sources and publication timestamps only. Never use web search or article bodies to fill missing facts. Raw responses and parser/drop counts are retained. Future-dated and undated records are excluded; updated-only entries cannot silently become new publications.
 

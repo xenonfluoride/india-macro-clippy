@@ -14,6 +14,7 @@ Use the v2 workflow in `skill/india-macro-rss-newsletter/SKILL.md`, its evaluati
 - Keep original headlines and exact evidence. Every brief must map fully to supporting RSS spans; every Why note has one mechanism sentence and one next-signal sentence.
 - Review prior publication history. New coverage of an unchanged event is not a new event; document any substantive update.
 - During the 26 November through 2 December 2026 IST Daybreak trial, assess the date and novelty of the underlying news separately from the episode release. See the editorial workflow for reruns and India Long View follow-up.
+- Review retained feed diagnostics for recurring HTTP 403 responses across runs. Retire affected feeds from new captures and preserve the roster for earlier captures so their bundles still validate.
 - Author the hero and inspect all dated catalyst candidates. One closing catalyst section only.
 
 ## Publication safety

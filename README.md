@@ -20,9 +20,11 @@ See [the editorial workflow](docs/EDITORIAL_WORKFLOW.md) for artifact schemas, r
 
 | Suggested beat | Configured RSS sources |
 | --- | --- |
-| Macro | Business Standard Economy & Policy; Business Standard Companies; Economic Times Economy; The Hindu Economy; Mint Markets; Mint Companies; Mongabay India |
+| Macro | Business Standard Economy & Policy; Business Standard Companies; Economic Times Economy; Mint Markets; Mint Companies; Mongabay India |
 | National & Strategy | Hindustan Times India; NDTV India; BBC News India |
-| India Tech | Economic Times Tech; The Hindu Technology; Mint Technology; YourStory; Inc42 |
+| India Tech | Economic Times Tech; Mint Technology; YourStory; Inc42 |
+
+The Hindu Economy and Technology feeds were retired on 27 November 2026 after repeated HTTP 403 responses. Validation uses the roster in effect when each capture started.
 
 Daybreak from The Ken joins the daily RSS capture for a one-week trial from 26 November through 2 December 2026 IST. The episode notes can surface stories across the three beats. See the [editorial workflow](docs/EDITORIAL_WORKFLOW.md#daybreak-trial) for review and follow-up.
 

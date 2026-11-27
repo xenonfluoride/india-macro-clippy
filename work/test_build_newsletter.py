@@ -69,7 +69,7 @@ def fixture(run, count=5):
     raw = ET.tostring(root)
     (run / 'raw/rss.xml').write_bytes(raw)
     feeds = [{'source': s, 'section': lane, 'url': u, 'error': None if s == source else 'fixture unavailable'}
-             for s, lane, u in FEEDS]
+             for s, lane, u in feeds_for_capture(NOW)]
     feeds[0].update(raw_path='raw/rss.xml', raw_sha256=n.digest(raw))
     capture = {'schema_version': 2, 'run_id': 'fixture-v2', 'mode': 'live',
                'captured_at': NOW.isoformat(), 'cutoff': (NOW - timedelta(hours=36)).isoformat(),
@@ -137,18 +137,25 @@ class Contracts(unittest.TestCase):
         with self.assertRaises(n.InvalidEdition):
             n.validate(self.run, now=NOW + timedelta(hours=37))
 
-    def test_original_roster_preserved(self):
-        self.assertEqual(len(FEEDS), 15)
-        self.assertTrue({'Mint Companies', 'Mint Technology', 'Mongabay India'} <= {x[0] for x in FEEDS})
+    def test_hindu_retirement_preserves_archived_roster(self):
+        retirement = datetime(2026, 11, 27, 8, 46, tzinfo=n.IST)
+        retired = {'The Hindu Economy', 'The Hindu Technology'}
+        before = {name for name, _, _ in feeds_for_capture(retirement - timedelta(seconds=1))}
+        after = {name for name, _, _ in feeds_for_capture(retirement)}
+        self.assertEqual(before - after, retired)
+        self.assertEqual(len(after), 14)
+        self.assertTrue({'Mint Companies', 'Mint Technology', 'Mongabay India', DAYBREAK[0]} <= after)
 
     def test_daybreak_trial_uses_ist_dates(self):
         start = datetime(2026, 11, 26, tzinfo=n.IST)
         end = start + timedelta(days=7)
+        retired = {'The Hindu Economy', 'The Hindu Technology'}
+        active = tuple(feed for feed in FEEDS if feed[0] not in retired)
         for instant, roster in (
             (start - timedelta(seconds=1), FEEDS),
             (start, (*FEEDS, DAYBREAK)),
-            (end - timedelta(seconds=1), (*FEEDS, DAYBREAK)),
-            (end, FEEDS),
+            (end - timedelta(seconds=1), (*active, DAYBREAK)),
+            (end, active),
         ):
             with self.subTest(instant=instant):
                 self.assertEqual(feeds_for_capture(instant.astimezone(timezone.utc)), roster)
