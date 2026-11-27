@@ -1,0 +1,50 @@
+{
+  "fetched_at": "2026-11-27T03:02:30.832804+00:00",
+  "provider": "Yahoo Finance",
+  "quotes": {
+    "Brent": {
+      "change_pct": -2.6424267877305896,
+      "currency": "USD",
+      "current": 92.11000061035156,
+      "kind": "daily-bar-snapshot",
+      "observed_at": "2026-11-27T02:51:50+00:00",
+      "previous": 94.61000061035156,
+      "previous_at": "2026-11-25T05:00:00+00:00",
+      "symbol": "BZ=F"
+    },
+    "Nifty 50": {
+      "change_pct": 0.2527184174598407,
+      "currency": "INR",
+      "current": 25884.5,
+      "kind": "daily-bar-snapshot",
+      "observed_at": "2026-11-26T03:45:00+00:00",
+      "previous": 25819.25,
+      "previous_at": "2026-11-25T03:45:00+00:00",
+      "symbol": "^NSEI"
+    },
+    "Sensex": {
+      "change_pct": 0.4649993950168074,
+      "currency": "INR",
+      "current": 84328.59375,
+      "kind": "daily-bar-snapshot",
+      "observed_at": "2026-11-26T03:45:00+00:00",
+      "previous": 83938.28125,
+      "previous_at": "2026-11-25T03:45:00+00:00",
+      "symbol": "^BSESN"
+    },
+    "USD/INR": {
+      "change_pct": -0.613103194113096,
+      "currency": "INR",
+      "current": 92.23760223388672,
+      "kind": "daily-bar-snapshot",
+      "observed_at": "2026-11-26T00:00:00+00:00",
+      "previous": 92.80660247802734,
+      "previous_at": "2026-11-25T00:00:00+00:00",
+      "symbol": "INR=X"
+    }
+  },
+  "raw_path": "raw/market-fetch-030230832804.json",
+  "raw_sha256": "6ca701279d56a84b55d2ee1cd57e50af498c3796a3192bf56437e54092114434",
+  "run_id": "20261127T030208Z-03c8a625",
+  "schema_version": 2
+}

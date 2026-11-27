@@ -1,0 +1,61 @@
+{
+  "candidate_coverage": "Read all 343 captured title and summary pairs via the context command at offsets 0 through 320 in steps of 40, including empty summaries, ending with a null cursor. Compared 214 accepted history titles and event keys and retained 7 selections, 129 eligible alternatives, 133 rejections and 74 explicit duplicate links. Separated prior Section 301 coverage from India's new response, and the prior Bisleri sanction from the new wider sampling directive. Read both Daybreak episodes and kept the wearable-evidence and caregiver-retention leads out of the dated slate. Fourteen feeds supplied live evidence; both Hindu endpoints returned 403.",
+  "cards": [
+    {
+      "analysis": "Procurement and inventory planning is the mechanism. The next official estimate is a direct check on the projected harvest, with no forecast of revised output.",
+      "factual_support": "The minister, crop year and projected 167.14-million-tonne volume are explicit. The monsoon delay and El Niño are circumstances named in the report. The brief omits the earlier full-season comparison.",
+      "id": "7dc60863ae4915b39eb7b6b5",
+      "novelty": "This is a new national kharif volume estimate, distinct from earlier select-rice duty deliberations, the maize allocation story and rabi sowing coverage."
+    },
+    {
+      "analysis": "The mechanism explains why a maturity switch can change redemption timing. The watch identifies future auction participation as the observable signal.",
+      "factual_support": "Title establishes the first auction and accepted volume. Summary establishes Tamil Nadu's leading share and the constraint from availability at banks. No savings, new issuance or quantity by state is claimed.",
+      "id": "0ad169f0819b3a22e963930c",
+      "novelty": "No state-bond switch auction appears in the accepted history. Prior RBI variable-rate repo and state fiscal estimates involved different instruments or measures."
+    },
+    {
+      "analysis": "The disputed decision rule supplies the institutional mechanism. Court-ordered interim relief is a contingent next signal, with no outcome forecast.",
+      "factual_support": "The suits, two petitioners, Bombay High Court, reappointment role and term are in the summary. The claimed affirmative-vote deficiency is expressly attributed to the trusts, with no judicial endorsement.",
+      "id": "c90a8d044566921210123318",
+      "novelty": "The newly filed suits challenge the holding-company appointment. The APL Apollo deal is a Tata Steel transaction, and the parallel agenda and charity-regulator stories are distinct from these suits."
+    },
+    {
+      "analysis": "Broader investor or financing access is explicitly a possibility. A jointly advised deal or mandate would provide observable evidence of operating integration.",
+      "factual_support": "Mint states the operations have combined following approvals and that Avendus retains brand and leadership. The brief avoids adding a stake, valuation or specific regulator.",
+      "id": "91566c1dccf2d2ff108fc079",
+      "novelty": "The card covers commencement after approvals, even though the headline references an older takeover announcement. No Avendus commencement or transaction appears in accepted history."
+    },
+    {
+      "analysis": "Packaging planning is a plausible response to a rulemaking timetable. Product scope and compliance timing remain signals to check in the final text.",
+      "factual_support": "The headline supplies the court directive, regulator and four months, and the summary supports the concern about public health and children. The brief leaves the final label format and thresholds open.",
+      "id": "174398d75c931b3d2d5058d8",
+      "novelty": "Distinct from the Bisleri prosecution sanction, prior nationwide enforcement totals and nutrition-claim notices. This is a court deadline for broader warning-label rules."
+    },
+    {
+      "analysis": "Shared facility economics depend on output and demand, as stated conditionally. Commissioning and first production guidance would test progress.",
+      "factual_support": "Title establishes the physical groundbreaking, investment amount and Hosur location. Summary identifies planned annual start and scalable capacity plus scooters and motorcycles. No production is reported as realised.",
+      "id": "f0c44fbb46a309ef6e20c1ec",
+      "novelty": "No same project in history. Prior EV stories concern fleet purchases, aggregator rules or other manufacturers, and the planned tractor plant is a separate project."
+    },
+    {
+      "analysis": "Retirement of current airwaves can require traffic migration. Network plans in Mumbai and regulatory decisions elsewhere are both future signals and no coverage degradation is claimed.",
+      "factual_support": "Summary gives the 4.4 MHz bandwidth, 1800 MHz band and Mumbai, and describes extension requests in other circles through the next auction. Expiry and approval are not reported as completed.",
+      "id": "0a261cfc9d64a12af7add912",
+      "novelty": "Earlier telecom coverage included interconnection charges, spam reporting and rural 4G access. None concerned this Mumbai renewal decision or the other-circle requests."
+    }
+  ],
+  "catalysts": "Saturday is 28 November IST. The 26 November liveblog's relative tomorrow refers to Friday the 27th, consistent with its explicit Friday Cabinet time. The Tata hearing, Mahanadi debut and Wayanad declaration also say Friday. The parliamentary sitting and Tata board meeting are the 30th. Dated product sales, the Apple opening, and other scheduled events are later. No distinct November 28 event had sufficient evidence and materiality, so the single closing module records the absence.",
+  "checked_at": "2026-11-27T03:11:53.494148+00:00",
+  "hero": "The quantity and auction result match the lead cards. Tata is a filed challenge, Mizuho and Avendus have combined operations, and the court set a deadline for food labelling. Groundbreaking is the current factory milestone, and Vodafone Idea's renewal decision is prospective. All seven cards are reflected without asserting their next signals have happened.",
+  "input_hashes": {
+    "capture.json": "b203a74aa6937f71cecfe413d43087ba540e35151fd80d30978d177a202914f1",
+    "edition.json": "28bd795b7e1a57ab70999171a8d92c3df7d7c5608ccce4e1b422c63c20ce54d0",
+    "history.json": "7aa619b9b4a1fdb624f05bcd29f425c0eaf1df3cd54155232b1f713e413810b2",
+    "market.json": "d002a8078aa791cc7c0ad7a5cdc745ce4bfd2d1fc278614876107507a78914b3",
+    "review.json": "785dc3b59d6962853b556c4dfcf9e0059b0b9ec1ce619d705625969a8357d2ef"
+  },
+  "reviewer": "Codex editorial session, separate evidence pass",
+  "schema_version": 2,
+  "template_sha256": "add74f5617f8b3439693d7a97eb91366ad46f9c2a3b32129c701c7715a5200f4",
+  "verdict": "approved"
+}

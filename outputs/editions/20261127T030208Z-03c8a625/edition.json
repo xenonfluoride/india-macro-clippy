@@ -1,0 +1,164 @@
+{
+  "cards": [
+    {
+      "brief": "Agriculture Minister Shivraj Singh Chouhan announced a projection of 167.14 million tonnes of kharif foodgrains for the 2026–27 crop year amid a delayed monsoon and El Niño.",
+      "claims": [
+        {
+          "evidence": [
+            "Kharif foodgrain production for the 2026-27 crop year is projected at 167.14 million tonnes",
+            "Agriculture Minister Shivraj Singh Chouhan announced these estimates despite El Nino and a delayed monsoon."
+          ],
+          "statement": "Agriculture Minister Shivraj Singh Chouhan announced a projection of 167.14 million tonnes of kharif foodgrains for the 2026–27 crop year amid a delayed monsoon and El Niño."
+        }
+      ],
+      "headline": "Govt projects Kharif foodgrain production at 167.14 mln tonnes despite El Nino; 2025-26 crop output a record",
+      "id": "7dc60863ae4915b39eb7b6b5",
+      "lane": "macro",
+      "mechanism": "Expected harvest volumes guide procurement and inventory planning before the final crop tally.",
+      "watch": "Watch whether the next official estimate revises the projected volume as harvest data come in."
+    },
+    {
+      "brief": "The RBI accepted ₹8,003 crore of state bonds at its first switch auction. Tamil Nadu accounted for the largest share of accepted securities, and limited holdings of eligible bonds at banks constrained participation.",
+      "claims": [
+        {
+          "evidence": [
+            "RBI accepts ₹8,003 crore of state bonds in its first switch auction"
+          ],
+          "statement": "The RBI accepted ₹8,003 crore of state bonds at its first switch auction."
+        },
+        {
+          "evidence": [
+            "Tamil Nadu accounted for the largest share of accepted securities",
+            "limited availability of eligible state bonds with banks constrained participation in the auction"
+          ],
+          "statement": "Tamil Nadu accounted for the largest share of accepted securities, and limited holdings of eligible bonds at banks constrained participation."
+        }
+      ],
+      "headline": "RBI accepts ₹8,003 crore of state bonds in its first switch auction",
+      "id": "0ad169f0819b3a22e963930c",
+      "lane": "macro",
+      "mechanism": "Exchanging debt across maturities gives states a way to spread out repayments that would otherwise fall together.",
+      "watch": "Watch the bonds offered and accepted at the next auction to see whether participation broadens."
+    },
+    {
+      "brief": "The Sir Dorabji Tata Trust and the R.D. Tata Trust filed suits in the Bombay High Court challenging N Chandrasekaran’s reappointment as Tata Sons executive chairman for a third five-year term. The trusts allege the September 17 board resolution lacked an affirmative vote required by the company’s articles.",
+      "claims": [
+        {
+          "evidence": [
+            "The Sir Dorabji Tata Trust (SDTT) and the R.D. Tata Trust (RDTT) on Thursday filed suits in the Bombay High Court",
+            "challenging the reappointment of N Chandrasekaran as executive chairman for a third five-year term"
+          ],
+          "statement": "The Sir Dorabji Tata Trust and the R.D. Tata Trust filed suits in the Bombay High Court challenging N Chandrasekaran’s reappointment as Tata Sons executive chairman for a third five-year term."
+        },
+        {
+          "evidence": [
+            "the September 17 Tata Sons board resolution",
+            "did not receive the affirmative vote required under Article 121 of the company's Articles of Association"
+          ],
+          "statement": "The trusts allege the September 17 board resolution lacked an affirmative vote required by the company’s articles."
+        }
+      ],
+      "headline": "HC to hear Tata Trusts' plea against Chandra's reappointment on Friday",
+      "id": "c90a8d044566921210123318",
+      "lane": "macro",
+      "mechanism": "The dispute tests how the holding company’s approval rules apply to the chairman’s appointment.",
+      "watch": "Watch whether the court grants interim relief and specifies which board decisions it would cover."
+    },
+    {
+      "brief": "Mizuho Securities and Avendus Capital combined their operations after receiving approvals, with Avendus retaining its brand and leadership team.",
+      "claims": [
+        {
+          "evidence": [
+            "Mizuho Securities and Avendus Capital have combined their operations following approvals, with Avendus retaining its brand and leadership team."
+          ],
+          "statement": "Mizuho Securities and Avendus Capital combined their operations after receiving approvals, with Avendus retaining its brand and leadership team."
+        }
+      ],
+      "headline": "Mizuho, Avendus commence partnership a year after takeover announcement",
+      "id": "91566c1dccf2d2ff108fc079",
+      "lane": "macro",
+      "mechanism": "The combination could help Indian advisory clients reach Mizuho’s financing and investor network.",
+      "watch": "Watch for their first jointly advised transaction or financing mandate."
+    },
+    {
+      "brief": "The Supreme Court gave the Food Safety and Standards Authority of India four months to finalise tighter food warning labels. The court said delays would come at a cost to public health, especially for children.",
+      "claims": [
+        {
+          "evidence": [
+            "Supreme Court tightens food labelling norms, gives FSSAI four months to finalise them",
+            "delays in introducing the warning labels"
+          ],
+          "statement": "The Supreme Court gave the Food Safety and Standards Authority of India four months to finalise tighter food warning labels."
+        },
+        {
+          "evidence": [
+            "would come at the cost of public health, particularly of children"
+          ],
+          "statement": "The court said delays would come at a cost to public health, especially for children."
+        }
+      ],
+      "headline": "Supreme Court tightens food labelling norms, gives FSSAI four months to finalise them",
+      "id": "174398d75c931b3d2d5058d8",
+      "lane": "national",
+      "mechanism": "A rulemaking deadline gives food makers a timeline for planning packaging changes as the labelling requirements take shape.",
+      "watch": "Watch the regulator’s final text for the products covered and the time manufacturers get to comply."
+    },
+    {
+      "brief": "Ultraviolette broke ground on a ₹779 crore electric vehicle plant in Hosur. The plant is designed for initial annual capacity of 250,000 vehicles, scalable to 500,000, and will make the company’s upcoming electric scooters and motorcycles.",
+      "claims": [
+        {
+          "evidence": [
+            "Ultraviolette breaks ground on ₹779 crore electric vehicle plant in Hosur"
+          ],
+          "statement": "Ultraviolette broke ground on a ₹779 crore electric vehicle plant in Hosur."
+        },
+        {
+          "evidence": [
+            "initial annual production capacity of 250,000 vehicles, scalable to 500,000 units",
+            "manufacture the company's upcoming electric scooters and motorcycles"
+          ],
+          "statement": "The plant is designed for initial annual capacity of 250,000 vehicles, scalable to 500,000, and will make the company’s upcoming electric scooters and motorcycles."
+        }
+      ],
+      "headline": "Ultraviolette breaks ground on ₹779 crore electric vehicle plant in Hosur",
+      "id": "f0c44fbb46a309ef6e20c1ec",
+      "lane": "tech",
+      "mechanism": "Making scooters and motorcycles at one site could spread factory costs across more vehicles if sales support higher output.",
+      "watch": "Watch for a commissioning date and the first production guidance for each vehicle line."
+    },
+    {
+      "brief": "Vodafone Idea will forgo renewal of 4.4 MHz of 1800 MHz spectrum in Mumbai and has asked for extensions in other circles until the next spectrum auction.",
+      "claims": [
+        {
+          "evidence": [
+            "Vodafone Idea will not renew 4.4 MHz of airwaves in Mumbai's 1800 MHz band",
+            "has sought an extension for spectrum across other circles until the next spectrum auction"
+          ],
+          "statement": "Vodafone Idea will forgo renewal of 4.4 MHz of 1800 MHz spectrum in Mumbai and has asked for extensions in other circles until the next spectrum auction."
+        }
+      ],
+      "headline": "Vi opts against Mumbai spectrum renewal, seeks extension in other circles",
+      "id": "0a261cfc9d64a12af7add912",
+      "lane": "tech",
+      "mechanism": "Letting the license expire reduces the spectrum available to Vodafone Idea in Mumbai and could require it to move traffic onto its remaining bands.",
+      "watch": "Watch how the company plans to serve Mumbai traffic and whether authorities grant extensions in the other circles."
+    }
+  ],
+  "catalyst_review": "No distinct material event for Saturday, 28 November was supported by the captured RSS. The Cabinet and Congress strategy meetings, Tata hearing, Mahanadi debut and Wayanad declaration are Friday, 27 November. The special Parliament sitting and Tata Sons board meeting are on 30 November. The Vivo sale, Supriya board meeting, Apple store and other dated events are in December.",
+  "catalysts": [],
+  "created_at": "2026-11-27T03:10:44.785524+00:00",
+  "date": "2026-11-27",
+  "hero": "The government projected 167.14 million tonnes of kharif foodgrains, and the RBI accepted ₹8,003 crore in its first state bond switch auction. Tata Trusts took the chairman’s reappointment to court, while Mizuho and Avendus combined operations. The Supreme Court set a deadline for food warning labels. Ultraviolette broke ground on a Hosur EV plant, and Vodafone Idea decided against renewing part of its Mumbai spectrum.",
+  "hero_card_ids": [
+    "7dc60863ae4915b39eb7b6b5",
+    "0ad169f0819b3a22e963930c",
+    "c90a8d044566921210123318",
+    "91566c1dccf2d2ff108fc079",
+    "174398d75c931b3d2d5058d8",
+    "f0c44fbb46a309ef6e20c1ec",
+    "0a261cfc9d64a12af7add912"
+  ],
+  "issue": 41,
+  "run_id": "20261127T030208Z-03c8a625",
+  "schema_version": 2
+}
